@@ -77,8 +77,8 @@ class ClientBackendSentry(ClientBackend):
 
         options['environment'] = self.kwargs.get('environment')
 
-        options['sample_rate'] = float(
-            self.kwargs.get('sample_rate', 1.0)
+        options['profiles_sample_rate'] = float(
+            self.kwargs.get('profiles_sample_rate', 1.0)
         )
 
         options['max_breadcrumbs'] = int(
@@ -95,8 +95,8 @@ class ClientBackendSentry(ClientBackend):
 
         options['server_name'] = self.kwargs.get('server_name')
 
-        options['with_locals'] = any_to_bool(
-            value=self.kwargs.get('with_locals', True)
+        options['include_local_variables'] = any_to_bool(
+            value=self.kwargs.get('include_local_variables', True)
         )
 
         # Transport Options.
