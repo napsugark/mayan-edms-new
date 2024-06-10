@@ -20,9 +20,8 @@ thousand documents.
 For larger installations use a multi container deployment.
 
 - Installation: :doc:`docker_compose`
-- Setup: :doc:`environment_variables` | :doc:`customizing` | :doc:`user_scripts`
+- Setup: :doc:`environment_variables` | :doc:`user_scripts`
 - Administration: :doc:`upgrading`
-- Troubleshooting: :doc:`troubleshooting`
 
 .. toctree::
     :hidden:
@@ -31,7 +30,5 @@ For larger installations use a multi container deployment.
     environment_variables
     user_scripts
     upgrading
-    customizing
     docker_compose
-    troubleshooting
 

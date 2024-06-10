@@ -15,20 +15,9 @@ Git branch structure
 Mayan EDMS follows a simplified model layout based on Vincent Driessen's
 `Successful Git Branching Model`_ blog post.
 
-``/versions/micro``
-    Working branch for the next bugfix release. Micro increment (third digit).
-    Only bug fixes, minor features, back-ported urgent features. This
-    branch is stable and safe for production.
-``/versions/minor``
-    Working branch for the next minor release (second digit). New features,
-    occasional breakage. Not for production but should run in test
-    environment most of the time. This is the branch you will want to
-    try out if you want to check out new features.
-``/versions/major``
-    Working branch for the next major release (first digit). New features,
-    incompatible changes to the user facing interfaces. Broken most of the
-    time, not for production and should only be cloned by developers
-    with experience with Mayan's development.
+``/series/X.x``
+    Unique branch for a specific series. The latest series is merged into
+    `master` on each new release.
 ``master``
     Current production release (|version|). Points to the latest version of
     the latest series. Production quality code.

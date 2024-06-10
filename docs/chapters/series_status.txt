@@ -42,10 +42,9 @@ The maintenance phase is typically the last phase before the product reaches end
 Extended Support
 ----------------
 
-When a series reaches the extended support phase, regular support is not
-longer provided. Only sponsored or commercial support is available to fix
-or backport specific security patches or bug fixes. The series is very likely
-to not be compatible with the latest technologies.
+When a series reaches the extended support phase, only sponsored or
+commercial support is available to fix or backport specific security patches
+or bug fixes.
 
 
 End of Life
@@ -81,24 +80,24 @@ Current series status
      - Yes
      - Updated
    * - 4.7
-     - Maintenance
+     - Fully supported
      - Yes
      - Yes
      - Updated
    * - 4.6
-     - Extended support
+     - Maintenance
      - Yes
-     - Yes
+     - No
      - Updated
    * - 4.5
      - Extended support
      - Yes
-     - Yes
+     - No
      - Updated
    * - 4.4
      - End of life
-     - Yes
-     - Yes
+     - No
+     - No
      - Not available and not updated
    * - 4.3
      - End of life

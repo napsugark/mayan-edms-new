@@ -117,7 +117,7 @@ Backward incompatible changes
 Bugs fixed
 ----------
 
-* :github-issue:`24 "Duplicated filename extension when uploading a new version of a document"
+* :github-issue:`24` "Duplicated filename extension when uploading a new version of a document"
 * :github-issue:`26` "checkout feature request"
 
 Removals

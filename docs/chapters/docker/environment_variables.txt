@@ -34,7 +34,7 @@ Worker A
   (https://docs.celeryproject.org/en/stable/userguide/workers.html#max-memory-per-child-setting).
   Default: |MAYAN_WORKER_A_MAX_MEMORY_PER_CHILD|.
 
-- ``MAYAN_WORKER_A_MAX_MEMORY_PER_CHILD``
+- ``MAYAN_WORKER_A_MAX_TASKS_PER_CHILD``
 
   Optional. Allows setting the worker's ``maximum_tasks_per_child`` value
   (https://docs.celeryproject.org/en/stable/userguide/workers.html#maximum_tasks_per_child).
@@ -56,7 +56,7 @@ Worker B
   (https://docs.celeryproject.org/en/stable/userguide/workers.html#max-memory-per-child-setting).
   Default: |MAYAN_WORKER_B_MAX_MEMORY_PER_CHILD|.
 
-- ``MAYAN_WORKER_B_MAX_MEMORY_PER_CHILD``
+- ``MAYAN_WORKER_B_MAX_TASKS_PER_CHILD``
 
   Optional. Allows setting the worker's ``maximum_tasks_per_child`` value
   (https://docs.celeryproject.org/en/stable/userguide/workers.html#maximum_tasks_per_child).
@@ -78,7 +78,7 @@ Worker C
   (https://docs.celeryproject.org/en/stable/userguide/workers.html#max-memory-per-child-setting).
   Default: |MAYAN_WORKER_C_MAX_MEMORY_PER_CHILD|.
 
-- ``MAYAN_WORKER_C_MAX_MEMORY_PER_CHILD``
+- ``MAYAN_WORKER_C_MAX_TASKS_PER_CHILD``
 
   Optional. Allows setting the worker's ``maximum_tasks_per_child`` value
   (https://docs.celeryproject.org/en/stable/userguide/workers.html#maximum_tasks_per_child).
@@ -100,13 +100,33 @@ Worker D
   (https://docs.celeryproject.org/en/stable/userguide/workers.html#max-memory-per-child-setting).
   Default: |MAYAN_WORKER_D_MAX_MEMORY_PER_CHILD|.
 
-- ``MAYAN_WORKER_D_MAX_MEMORY_PER_CHILD``
+- ``MAYAN_WORKER_D_MAX_TASKS_PER_CHILD``
 
   Optional. Allows setting the worker's ``maximum_tasks_per_child`` value
   (https://docs.celeryproject.org/en/stable/userguide/workers.html#maximum_tasks_per_child).
   Default: |MAYAN_WORKER_D_MAX_TASKS_PER_CHILD|.
 
 
+Worker E
+^^^^^^^^
+
+- ``MAYAN_WORKER_E_CONCURRENCY``
+
+  Optional. Allows setting the worker's ``concurrency`` value
+  (https://docs.celeryproject.org/en/stable/userguide/workers.html#concurrency).
+  Default: |MAYAN_WORKER_E_CONCURRENCY|.
+
+- ``MAYAN_WORKER_E_MAX_MEMORY_PER_CHILD``
+
+  Optional. Allows setting the worker's ``max-memory-per-child`` value
+  (https://docs.celeryproject.org/en/stable/userguide/workers.html#max-memory-per-child-setting).
+  Default: |MAYAN_WORKER_E_MAX_MEMORY_PER_CHILD|.
+
+- ``MAYAN_WORKER_E_MAX_TASKS_PER_CHILD``
+
+  Optional. Allows setting the worker's ``maximum_tasks_per_child`` value
+  (https://docs.celeryproject.org/en/stable/userguide/workers.html#maximum_tasks_per_child).
+  Default: |MAYAN_WORKER_E_MAX_TASKS_PER_CHILD|.
 
 
 Docker

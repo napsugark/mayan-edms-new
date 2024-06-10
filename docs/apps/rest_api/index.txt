@@ -188,7 +188,7 @@ Batch API requests
     Articles:
 
     - Using the REST API
-    - Optimizing API responsed using the dynamic API fields feature
+    - Optimizing API responses using the dynamic API fields feature
     - Using API sorting and ordering
     - The batch request API system
 
@@ -210,7 +210,7 @@ Dynamic fields
     Articles:
 
     - Using the REST API
-    - Optimizing API responsed using the dynamic API fields feature
+    - Optimizing API responses using the dynamic API fields feature
     - Using API sorting and ordering
     - The batch request API system
 
