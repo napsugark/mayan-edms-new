@@ -22,6 +22,9 @@
 - Backport search app testing improvements.
 - Fix make file target for testing dependencies generation. Each requirement
   entry generation now specified the settings file to use.
+- Remove the specialized and custom animated list toolbar checkbox and
+  instead use a styled standard HTML checkbox.
+- Backport multi item bulk action dropdown template improvements.
 
 4.7.1 (2024-06-04)
 ==================

@@ -653,6 +653,13 @@ a i {
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
 }
 
+/* Customize toolbars for use in lists */
+
+.btn-toolbar {
+    margin-right: 5px;
+    padding-right: 5px;
+}
+
 .toolbar {
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
@@ -661,6 +668,15 @@ a i {
     padding-left: 12px;
     padding-right: 15px;
     padding-top: 8px;
+}
+
+.btn-toolbar-check-all {
+    background-color: #95a5a6;
+    border-radius: 4px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
 }
 
 #body-plain {
@@ -862,4 +878,15 @@ Input search clearable
 
 .appearance-link-ajax-refresh {
     padding-right: 10px !important;
+}
+
+/* List toolbar */
+
+#multi-item-actions {
+    display: none;
+}
+
+#multi-item-title {
+    line-height: 16px;
+    padding-top: 8px;
 }

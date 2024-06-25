@@ -251,12 +251,6 @@ class MayanApp {
                 checked = $this.data('checked');
                 checked = !checked;
                 $this.data('checked', checked);
-
-                if (checked) {
-                    $this.find('[data-fa-i2svg]').addClass($this.data('icon-checked')).removeClass($this.data('icon-unchecked'));
-                } else {
-                    $this.find('[data-fa-i2svg]').addClass($this.data('icon-unchecked')).removeClass($this.data('icon-checked'));
-                }
             }
 
             $checkBoxes.prop('checked', checked);
