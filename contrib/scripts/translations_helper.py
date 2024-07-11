@@ -90,41 +90,62 @@ class TransifexHelper:
             )
             output.append('')
 
-        for app_name in self.message_processor.app_list:
-            has_app_translations = getattr(
-                apps.app_configs[app_name], 'has_app_translations', True
+        for app_label in self.message_processor.app_list:
+            app = apps.get_app_config(app_label=app_label)
+
+            has_app_translations = app.get_has_app_translations()
+            has_javascript_translations = app.get_has_javascript_translations()
+
+            resource_name_base = 'v{}.{} {}'.format(
+                mayan_version.major, mayan_version.minor, app.verbose_name
             )
 
             if has_app_translations:
                 output.append(
-                    '[o:rosarior:p:mayan-edms:r:{}-{}]'.format(app_name, version_string)
+                    '[o:rosarior:p:mayan-edms:r:{}-{}]'.format(
+                        app_label, version_string
+                    )
                 )
                 output.append(
-                    'file_filter = mayan/apps/{}/locale/<lang>/LC_MESSAGES/django.po'.format(app_name)
+                    'file_filter   = {}/locale/<lang>/LC_MESSAGES/django.po'.format(
+                        app.mayan_path_relative
+                    )
                 )
                 output.append(
-                    'source_file = mayan/apps/{}/locale/en/LC_MESSAGES/django.po'.format(app_name)
+                    'source_file   = {}/locale/en/LC_MESSAGES/django.po'.format(
+                        app.mayan_path_relative
+                    )
                 )
-                output.append('source_lang = en')
-                output.append('type        = PO')
+                output.append('source_lang   = en')
+                output.append(
+                    'resource_name = {}'.format(resource_name_base)
+                )
+                output.append('type          = PO')
                 output.append('')
 
-            has_javascript_translations = getattr(
-                apps.app_configs[app_name], 'has_javascript_translations',
-                False
-            )
             if has_javascript_translations:
                 output.append(
-                    '[o:rosarior:p:mayan-edms:r:{}-{}-javascript]'.format(app_name, version_string)
+                    '[o:rosarior:p:mayan-edms:r:{}-{}-javascript]'.format(
+                        app_label, version_string
+                    )
                 )
                 output.append(
-                    'file_filter = mayan/apps/{}/locale/<lang>/LC_MESSAGES/djangojs.po'.format(app_name)
+                    'file_filter   = {}/locale/<lang>/LC_MESSAGES/djangojs.po'.format(
+                        app.mayan_path_relative
+                    )
                 )
                 output.append(
-                    'source_file = mayan/apps/{}/locale/en/LC_MESSAGES/djangojs.po'.format(app_name)
+                    'source_file   = {}/locale/en/LC_MESSAGES/djangojs.po'.format(
+                        app.mayan_path_relative
+                    )
                 )
                 output.append('source_lang = en')
-                output.append('type        = PO')
+                output.append(
+                    'resource_name = {} (JavaScript)'.format(
+                        resource_name_base
+                    )
+                )
+                output.append('type          = PO')
                 output.append('')
 
         print(
@@ -137,10 +158,11 @@ class TransifexHelper:
 class MessageProcessor:
     @staticmethod
     def get_app_list():
+        # Hidden import.
         from mayan.apps.common.apps import MayanAppConfig
 
         return sorted(
-            name for name, app_config in apps.app_configs.items() if issubclass(
+            app_label for app_label, app_config in apps.app_configs.items() if issubclass(
                 type(app_config), MayanAppConfig
             )
         )
@@ -246,14 +268,15 @@ class MessageProcessor:
     def do_compilemessages(self):
         print('Compiling messages')
 
-        for app in self.selected_apps:
-            print('Processing app: %s...' % app)
+        for app_label in self.selected_apps:
+            print('Processing app: %s...' % app_label)
 
-            app_path = os.path.join(settings.BASE_DIR, 'apps', app)
-            os.chdir(app_path)
+            app = apps.get_app_config(app_label=app_label)
 
-            path = Path(app_path) / 'locale'
-            if path.exists():
+            os.chdir(app.mayan_path)
+
+            path_locales = app.mayan_path / 'locale'
+            if path_locales.exists():
                 print(
                     'Doing languages: {}'.format(
                         ', '.join(self.selected_languages)
@@ -276,13 +299,14 @@ class MessageProcessor:
     def do_makemessages(self):
         print('Making messages')
 
-        for app in self.selected_apps:
-            print('Processing app: %s...' % app)
+        for app_label in self.selected_apps:
+            print('Processing app: %s...' % app_label)
 
-            path_app = Path(settings.BASE_DIR, 'apps', app)
-            os.chdir(path_app)
+            app = apps.get_app_config(app_label=app_label)
 
-            path_locale = path_app / 'locale'
+            os.chdir(app.mayan_path)
+
+            path_locale = app.mayan_path / 'locale'
             if path_locale.exists():
                 print(
                     'Doing languages: {}'.format(
@@ -305,13 +329,14 @@ class MessageProcessor:
     def do_makemessages_javascript(self):
         print('Making messages, Javascript')
 
-        for app in self.selected_apps:
-            print('Processing app: %s...' % app)
+        for app_label in self.selected_apps:
+            print('Processing app: %s...' % app_label)
 
-            path_app = Path(settings.BASE_DIR, 'apps', app)
-            os.chdir(path_app)
+            app = apps.get_app_config(app_label=app_label)
 
-            path_locale = path_app / 'locale'
+            os.chdir(app.mayan_path)
+
+            path_locale = app.mayan_path / 'locale'
             if path_locale.exists():
                 print(
                     'Doing languages: {}'.format(
@@ -357,8 +382,8 @@ class MessageProcessor:
     def do_transifex_pull_translations(self):
         print('Pulling translations')
 
-        for app in self.selected_apps:
-            print('Processing app: %s...' % app)
+        for app_label in self.selected_apps:
+            print('Processing app: %s...' % app_label)
             print(
                 'Doing languages: {}'.format(
                     ', '.join(self.selected_languages)
@@ -371,8 +396,8 @@ class MessageProcessor:
     def do_transifex_push_translations(self):
         print('Push translations')
 
-        for app in self.selected_apps:
-            print('Processing app: %s...' % app)
+        for app_label in self.selected_apps:
+            print('Processing app: %s...' % app_label)
             print(
                 'Doing languages: {}'.format(
                     ', '.join(self.selected_languages)
