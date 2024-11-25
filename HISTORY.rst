@@ -21,6 +21,7 @@
 - Support an optional `.env-local` file for the Mayan EDMS Docker Compose
   file.
 - Remove the Docker Compose version key.
+- Fix management command `settings_show` internal interface usage.
 
 4.6.6 (2025-08-06)
 ==================
