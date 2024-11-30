@@ -3,6 +3,8 @@ import operator
 
 from django.conf import settings
 
+from mayan.apps.views.utils import get_request_data
+
 from rest_framework.filters import BaseFilterBackend
 
 from .exceptions import DynamicSearchException
@@ -18,10 +20,7 @@ class RESTAPISearchFilter(BaseFilterBackend):
         if not getattr(view, 'search_disable_list_filtering', False):
             search_model = self.get_search_model(queryset=queryset)
             if search_model:
-                query_dict = request.GET.dict().copy()
-                query_dict.update(
-                    request.POST.dict()
-                )
+                query_dict= get_request_data(request=request)
 
                 search_model_fields = list(
                     map(

@@ -24,6 +24,7 @@
 - Improve documentation navigation.
 - Fix context of the workflow launch view when only one document is selected.
 - Quote environment variables prior to loading.
+- Formalize the pattern used to get all the request `GET` and `POST` data.
 
 4.8.3 (2024-10-04)
 ==================

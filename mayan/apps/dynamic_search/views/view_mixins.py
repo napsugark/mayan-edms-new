@@ -4,6 +4,8 @@ from django.conf import settings
 from django.contrib import messages
 from django.http import Http404
 
+from mayan.apps.views.utils import get_request_data
+
 from ..exceptions import (
     DynamicSearchException, DynamicSearchInterpreterUnknownSearchType
 )
@@ -20,11 +22,7 @@ class SearchQueryViewMixin:
     def get_search_query(self, request=None):
         request = request or self.request
 
-        query_dict = request.GET.dict().copy()
-        query_dict.update(
-            request.POST.dict()
-        )
-        return query_dict
+        return get_request_data(request=request)
 
 
 class QuerysetSearchFilterMixin(SearchQueryViewMixin):
