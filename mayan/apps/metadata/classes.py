@@ -2,7 +2,7 @@ from django.core.exceptions import ValidationError
 from django.utils.text import format_lazy
 
 from mayan.apps.common.class_mixins import AppsModuleLoaderMixin
-from mayan.apps.common.literals import EMPTY_LABEL
+from mayan.apps.forms.literals import EMPTY_LABEL
 
 
 class MetadataTypeParserMetaclass(type):

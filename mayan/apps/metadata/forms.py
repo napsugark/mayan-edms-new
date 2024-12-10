@@ -2,6 +2,7 @@ from django.core.exceptions import ValidationError
 from django.utils.translation import gettext_lazy as _
 
 from mayan.apps.forms import form_fields, form_widgets, forms, formsets
+from mayan.apps.forms.literals import EMPTY_LABEL
 from mayan.apps.templating.fields import TemplateField
 
 from .classes import MetadataParser, MetadataValidator
@@ -69,7 +70,7 @@ class DocumentMetadataForm(forms.Form):
                     )
                     if not required:
                         choices.insert(
-                            0, ('', '------')
+                            0, ('', EMPTY_LABEL)
                         )
                     self.fields['value'].choices = choices
                     self.fields['value'].required = required

@@ -59,9 +59,7 @@ class DocumentForm(forms.ModelForm):
             )
 
         self.fields['language'].widget = forms.Select(
-            choices=get_language_choices(), attrs={
-                'class': 'select2'
-            }
+            choices=get_language_choices(), attrs={'class': 'select2'}
         )
 
     def clean(self):

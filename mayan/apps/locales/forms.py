@@ -9,14 +9,10 @@ class LocaleProfileForm(forms.ModelForm):
         model = UserLocaleProfile
         widgets = {
             'language': form_widgets.Select(
-                attrs={
-                    'class': 'select2'
-                }
+                attrs={'class': 'select2'}
             ),
             'timezone': form_widgets.Select(
-                attrs={
-                    'class': 'select2'
-                }
+                attrs={'class': 'select2'}
             )
         }
 

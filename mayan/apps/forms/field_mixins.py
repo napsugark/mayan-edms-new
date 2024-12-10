@@ -1,6 +1,8 @@
 from django.apps import apps
 from django.core.exceptions import ImproperlyConfigured
 
+from .literals import EMPTY_LABEL
+
 
 class FieldMixinFilteredQueryset:
     def get_queryset(self):
@@ -57,7 +59,7 @@ class FormFieldMixinFilteredQueryset(FieldMixinFilteredQueryset):
             queryset = queryset.iterator()
 
         if not self.required:
-            yield (None, '---------')
+            yield (None, EMPTY_LABEL)
 
         for obj in queryset:
             yield (obj.pk, obj)

@@ -11,6 +11,7 @@
 - Persist success icon when a file upload finishes.
 - Remove dropzone hard coded icons.
 - Update the version check code to use the new version of the PyPI API.
+- Unify the label of empty dropdown options.
 
 4.8.4 (2025-07-27)
 ==================
