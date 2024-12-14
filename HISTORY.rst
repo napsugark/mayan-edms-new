@@ -17,6 +17,7 @@
   - pip from 24.3 to 24.3.1
 
 - Fix `flatten_map` not using the `separator` argument.
+- Remove localize fonts from testing Dockerfile.
 
 4.7.1 (2024-06-04)
 ==================
