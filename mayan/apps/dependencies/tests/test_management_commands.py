@@ -20,21 +20,21 @@ class CheckVersionManagementCommandTestCase(
 ):
     _test_management_command_name = COMMAND_NAME_DEPENDENCIES_CHECK_VERSION
 
-    @mock.patch('mayan.apps.dependencies.utils.PyPIClient.get_server_versions', autospec=True)
+    @mock.patch('mayan.apps.dependencies.utils.PyPIClient.get_server_version', autospec=True)
     def test_check_version_not_latest_version(self, mock_package_releases):
-        mock_package_releases.return_value = ('99.99.99',)
+        mock_package_releases.return_value = '99.99.99'
         stdout, stderr = self._call_test_management_command()
         self.assertTrue(MESSAGE_TEST_NOT_LATEST in stdout)
 
-    @mock.patch('mayan.apps.dependencies.utils.PyPIClient.get_server_versions', autospec=True)
+    @mock.patch('mayan.apps.dependencies.utils.PyPIClient.get_server_version', autospec=True)
     def test_check_version_unknown_version(self, mock_package_releases):
         mock_package_releases.return_value = None
         stdout, stderr = self._call_test_management_command()
         self.assertTrue(MESSAGE_TEST_UNKNOWN_VERSION in stdout)
 
-    @mock.patch('mayan.apps.dependencies.utils.PyPIClient.get_server_versions', autospec=True)
+    @mock.patch('mayan.apps.dependencies.utils.PyPIClient.get_server_version', autospec=True)
     def test_check_version_correct_version(self, mock_package_releases):
-        mock_package_releases.return_value = (mayan.__version__,)
+        mock_package_releases.return_value = mayan.__version__
         stdout, stderr = self._call_test_management_command()
         self.assertTrue(MESSAGE_TEST_UP_TO_DATE in stdout)
 
@@ -47,12 +47,8 @@ class ShowVersionManagementCommandTestCase(
 
     def test_version_command_base(self):
         stdout, stderr = self._call_test_management_command()
-        self.assertIn(
-            mayan.__version__, stdout
-        )
+        self.assertIn(mayan.__version__, stdout)
 
     def test_version_command_build_string(self):
         stdout, stderr = self._call_test_management_command(build_string=True)
-        self.assertIn(
-            mayan.__build_string__, stdout
-        )
+        self.assertIn(mayan.__build_string__, stdout)

@@ -24,4 +24,4 @@ MESSAGE_UNEXPECTED_ERROR = _(
 )
 MESSAGE_UP_TO_DATE = 'Your version (%(version_local)s), is up-to-date.'
 
-PYPI_URL = 'https://pypi.org'
+PYPI_URL = 'pypi.org'

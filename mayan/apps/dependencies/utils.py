@@ -1,6 +1,7 @@
-from xmlrpc import client
+import requests
 
 import mayan
+from mayan.apps.views.http import URL
 
 from .exceptions import DependenciesException
 from .literals import (
@@ -53,25 +54,24 @@ class PyPIClient:
         self.version_local = Version(version_string=mayan.__version__)
 
     def check_version(self):
-        versions = self.get_server_versions()
-        if not versions:
+        try:
+            text_version_upstream = self.get_server_version()
+            version_server = Version(version_string=text_version_upstream)
+        except Exception:
             raise PyPIClient.ExceptionUnknownLatestVersion
         else:
             version_local = Version(version_string=mayan.__version__)
-            version_server = Version(
-                version_string=versions[0]
-            )
 
-            if version_local > version_server:
-                raise PyPIClient.ExceptionAheadOfUpstream(
-                    version_local=mayan.__version__,
-                    version_server=versions[0]
-                )
-            elif version_local < version_server:
-                raise PyPIClient.ExceptionNotLatestVersion(
-                    version_local=mayan.__version__,
-                    version_server=versions[0]
-                )
+        if version_local > version_server:
+            raise PyPIClient.ExceptionAheadOfUpstream(
+                version_local=mayan.__version__,
+                version_server=text_version_upstream
+            )
+        elif version_local < version_server:
+            raise PyPIClient.ExceptionNotLatestVersion(
+                version_local=mayan.__version__,
+                version_server=text_version_upstream
+            )
 
     def check_version_verbose(self):
         try:
@@ -91,9 +91,23 @@ class PyPIClient:
 
         return message
 
-    def get_server_proxy(self):
-        return client.ServerProxy(uri=PYPI_URL)
+    def do_request(self):
+        path = 'pypi/{}/json/'.format(MAYAN_PYPI_NAME)
+        url = URL(
+            netloc=PYPI_URL, scheme='https', path=path
+        )
 
-    def get_server_versions(self):
-        server_proxy = self.get_server_proxy()
-        return server_proxy.package_releases(MAYAN_PYPI_NAME)
+        response = requests.get(
+            url=url.to_string()
+        )
+        response.raise_for_status()
+        response_json = response.json()
+
+        return response_json
+
+    def get_server_version(self):
+        response_json = self.do_request()
+
+        text_version_upstream = response_json['info']['version']
+
+        return text_version_upstream
