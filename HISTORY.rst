@@ -18,6 +18,8 @@
 
 - Fix `flatten_map` not using the `separator` argument.
 - Remove localize fonts from testing Dockerfile.
+- Fix Whoosh search result limit.
+- Backport search app testing improvements.
 
 4.7.1 (2024-06-04)
 ==================

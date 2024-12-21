@@ -80,7 +80,7 @@ class WhooshSearchBackend(SearchBackend):
 
     def _do_query_resolve(self, index, query):
         with index.searcher() as searcher:
-            results = searcher.search(q=query)
+            results = searcher.search(limit=None, q=query)
             logger.debug('results: %s', results)
 
             for result in results:
@@ -121,19 +121,23 @@ class WhooshSearchBackend(SearchBackend):
 
         title = 'Whoosh search model indexing status'
         result.append(title)
-        result.append(len(title) * '=')
+        result.append(
+            len(title) * '='
+        )
 
         for search_model in SearchModel.all():
             index = self._get_or_create_index(search_model=search_model)
-            search_results = index.searcher().search(
-                q=Every('id')
-            )
 
-            result.append(
-                '{}: {}'.format(
-                    search_model.label, search_results.estimated_length()
+            with index.searcher() as searcher:
+                search_results = searcher.search(
+                    q=Every('id')
                 )
-            )
+
+                result.append(
+                    '{}: {}'.format(
+                        search_model.label, search_results.estimated_length()
+                    )
+                )
 
         return '\n'.join(result)
 

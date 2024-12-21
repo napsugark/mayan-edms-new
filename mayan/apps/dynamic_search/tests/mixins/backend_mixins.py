@@ -1,3 +1,44 @@
+from unittest import skip
+
+from django.test import tag
+
+from mayan.apps.documents.permissions import permission_document_view
+from mayan.apps.documents.search import search_model_document
+from mayan.apps.documents.tests.mixins.document_mixins import (
+    DocumentTestMixin
+)
+
+from ..literals import TEST_SEARCH_OBJECT_TERM
+
+from .base import TestSearchObjectSimpleTestMixin
+
+
+class SearchBackendLimitTestMixin(
+    DocumentTestMixin, TestSearchObjectSimpleTestMixin
+):
+    def test_search_results_limit(self):
+        test_document_count = 20
+        self._create_test_document_stubs(count=test_document_count)
+
+        for test_document in self._test_document_list:
+            self.grant_access(
+                obj=test_document, permission=permission_document_view
+            )
+
+        self._clear_events()
+
+        saved_resultset, queryset = self._test_search_backend.search(
+            search_model=search_model_document,
+            query={
+                'label': '*{}'.format(TEST_SEARCH_OBJECT_TERM)
+            },
+            user=self._test_case_user
+        )
+        self.assertEqual(
+            queryset.count(), test_document_count
+        )
+
+
 class BackendSearchTestMixin:
     _test_search_model = None
 
@@ -22,3 +63,19 @@ class BackendSearchTestMixin:
             search_model=self._test_search_model, query=query,
             user=self._test_case_user
         )
+
+
+@tag('search-django')
+class DjangoSearchBackendTestMixin:
+    _test_search_backend_path = 'mayan.apps.dynamic_search.backends.django.DjangoSearchBackend'
+
+
+@skip(reason='Skip until a Mock ElasticSearch server class is added.')
+@tag('search-elasticsearch')
+class ElasticSearchBackendTestMixin:
+    _test_search_backend_path = 'mayan.apps.dynamic_search.backends.elasticsearch.ElasticSearchBackend'
+
+
+@tag('search-whoosh')
+class WhooshSearchBackendTestMixin:
+    _test_search_backend_path = 'mayan.apps.dynamic_search.backends.whoosh.WhooshSearchBackend'
