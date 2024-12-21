@@ -9,6 +9,7 @@
 - Update `.gitignore` to not include final app documentations builds.
 - Remove obsolete documentation chapter
 - Persist success icon when a file upload finishes.
+- Remove dropzone hard coded icons.
 
 4.8.4 (2025-07-27)
 ==================
