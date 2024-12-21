@@ -8,6 +8,7 @@
 - Fix inter document documentation references.
 - Update `.gitignore` to not include final app documentations builds.
 - Remove obsolete documentation chapter
+- Persist success icon when a file upload finishes.
 
 4.8.4 (2025-07-27)
 ==================
