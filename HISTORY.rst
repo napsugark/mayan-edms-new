@@ -16,6 +16,8 @@
   - whitenoise from 6.6.0 to 6.7.0
   - pip from 24.3 to 24.3.1
 
+- Fix `flatten_map` not using the `separator` argument.
+
 4.7.1 (2024-06-04)
 ==================
 - Merge changes and fixes from version 4.6.5.
