@@ -35,8 +35,8 @@ from which users can pick and choose to assign to the document versions.
 Document files may be deleted in order. Deleting a document file will cause
 all document version pages that are mapped to it to also be deleted.
 
-Only the interactive document sources (:ref:`apps-sources`)
-(``Web`` and ``Staging folders``) are available to upload new document files.
+Only the interactive document sources (``Web`` and ``Staging folders``)
+are available to upload new document files.
 
 There is no limit to the number of files a document can have.
 
@@ -47,7 +47,7 @@ but any of the files can be inspected and viewed.
 Transformations
 ===============
 
-If is possible to apply :ref:`transformations<apps-converter>` to document
+If is possible to apply visual transformations to document
 file pages. Transformations applied to a document file page will be reflected
 on any document version page that maps to it. Subsequent document version
 page transformation can also be applied. Since document file pages are the

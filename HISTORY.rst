@@ -4,6 +4,9 @@
 - Backport makefile major release branch references.
 - Backport documenation file references fixes.
 - Backport fundraisers app.
+- Build documentation features part dynamically from apps.
+- Fix inter document documentation references.
+- Update `.gitignore` to not include final app documentations builds.
 
 4.8.4 (2025-07-27)
 ==================

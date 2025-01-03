@@ -65,7 +65,7 @@ or:
 
 - ``FileNotFoundError: [Errno 2] No such file or directory: '/var/lib/mayan/document_file_storage/...``
 
-follow the solution outlined in the troubleshooting section: :ref:`apps-file_caching-troubleshooting`
+follow the solution outlined in the troubleshooting section.
 
 
 Backward incompatible changes
