@@ -7,6 +7,7 @@
 - Build documentation features part dynamically from apps.
 - Fix inter document documentation references.
 - Update `.gitignore` to not include final app documentations builds.
+- Remove obsolete documentation chapter
 
 4.8.4 (2025-07-27)
 ==================
