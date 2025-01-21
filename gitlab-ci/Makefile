@@ -31,8 +31,8 @@ gitlab-ci-release-docker-major: ## Trigger the Docker image build and publicatio
 gitlab-ci-release-docker-major:
 	git push $(GIT_REMOTE_NAME)
 	git push $(GIT_REMOTE_NAME) --tags
-	git push $(GIT_REMOTE_NAME) :$(RELEASES_DOCKER_MAJOR) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(RELEASES_DOCKER_MAJOR)
+	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_DOCKER_MAJOR) || true
+	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_DOCKER_MAJOR)
 
 gitlab-ci-release-python-major: ## Trigger the Python package build and publication using GitLab CI
 gitlab-ci-release-python-major:
