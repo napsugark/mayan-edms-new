@@ -130,7 +130,7 @@ Upgrade process
 .. important::
 
   If using a direct deployment, Supervisord must be upgraded to version
-  4.2.2. See troubleshooting section: :ref:`apps-platform-troubleshooting`
+  4.2.2. See troubleshooting section.
 
 
 .. include:: partials/upgrade-3.5-4.0.txt
