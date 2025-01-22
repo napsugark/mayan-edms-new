@@ -140,7 +140,7 @@ job_docker_nightly:
 
 job_documentation_build:
   artifacts:
-    expire_in: 4 hr
+    expire_in: 24 hr
     paths:
     - docs
   before_script:
@@ -198,7 +198,7 @@ job_documentation_push:
 
 job_python_build:
   artifacts:
-    expire_in: 4 hr
+    expire_in: 24 hr
     paths:
     - dist
   before_script:

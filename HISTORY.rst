@@ -1,6 +1,7 @@
 4.6.6 (2025-XX-XX)
 ==================
-- Add Mayan Forge.
+- Increase the GitLab CI artifact expiration from 4 hours to 24 hours.
+- Add Mayan Forge, a Docker based development environment for Mayan EDMS.
 - Update dependency versions:
 
   - Django from 4.2.13 to 4.2.23.
