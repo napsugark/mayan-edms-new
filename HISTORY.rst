@@ -1,3 +1,7 @@
+4.10 (20XX-XX-XX)
+=================
+- Remove KeyCloak settings and Docker Compose template.
+
 4.9.2 (20XX-XX-XX)
 ==================
 - Increase the GitLab CI artifact expiration from 4 hours to 24 hours.

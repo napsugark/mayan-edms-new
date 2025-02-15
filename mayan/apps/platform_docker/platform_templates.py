@@ -7,15 +7,10 @@ from mayan.apps.platform.utils import load_env_file
 from mayan.apps.task_manager.classes import Worker
 from mayan.settings.literals import (
     DEFAULT_DATABASE_NAME, DEFAULT_DATABASE_PASSWORD, DEFAULT_DATABASE_USER,
-    DEFAULT_ELASTICSEARCH_PASSWORD, DEFAULT_KEYCLOAK_ADMIN,
-    DEFAULT_KEYCLOAK_ADMIN_PASSWORD, DEFAULT_KEYCLOAK_DATABASE_HOST,
-    DEFAULT_KEYCLOAK_DATABASE_NAME, DEFAULT_KEYCLOAK_DATABASE_PASSWORD,
-    DEFAULT_KEYCLOAK_DATABASE_USERNAME, DEFAULT_RABBITMQ_CONSUMER_TIMEOUT,
+    DEFAULT_ELASTICSEARCH_PASSWORD, DEFAULT_RABBITMQ_CONSUMER_TIMEOUT,
     DEFAULT_RABBITMQ_PASSWORD, DEFAULT_RABBITMQ_USER, DEFAULT_RABBITMQ_VHOST,
     DEFAULT_REDIS_PASSWORD, DOCKER_ELASTIC_IMAGE_NAME,
     DOCKER_ELASTIC_IMAGE_TAG, DOCKER_IMAGE_MAYAN_NAME, DOCKER_IMAGE_MAYAN_TAG,
-    DOCKER_KEYCLOAK_IMAGE_NAME, DOCKER_KEYCLOAK_IMAGE_TAG,
-    DOCKER_KEYCLOAK_POSTGRES_IMAGE_NAME, DOCKER_KEYCLOAK_POSTGRES_IMAGE_TAG,
     DOCKER_LINUX_IMAGE_VERSION, DOCKER_POSTGRESQL_IMAGE_NAME,
     DOCKER_POSTGRESQL_IMAGE_TAG, DOCKER_POSTGRESQL_MAX_CONNECTIONS,
     DOCKER_RABBITMQ_IMAGE_NAME, DOCKER_RABBITMQ_IMAGE_TAG,
@@ -71,36 +66,6 @@ class PlatformTemplateDockerComposefile(PlatformTemplate):
                 environment_name='MAYAN_DEFAULT_ELASTICSEARCH_PASSWORD'
             ),
             Variable(
-                name='DEFAULT_KEYCLOAK_ADMIN',
-                default=DEFAULT_KEYCLOAK_ADMIN,
-                environment_name='MAYAN_DEFAULT_KEYCLOAK_ADMIN'
-            ),
-            Variable(
-                name='DEFAULT_KEYCLOAK_ADMIN_PASSWORD',
-                default=DEFAULT_KEYCLOAK_ADMIN_PASSWORD,
-                environment_name='MAYAN_DEFAULT_KEYCLOAK_ADMIN_PASSWORD'
-            ),
-            Variable(
-                name='DEFAULT_KEYCLOAK_DATABASE_HOST',
-                default=DEFAULT_KEYCLOAK_DATABASE_HOST,
-                environment_name='MAYAN_DEFAULT_KEYCLOAK_DATABASE_HOST'
-            ),
-            Variable(
-                name='DEFAULT_KEYCLOAK_DATABASE_NAME',
-                default=DEFAULT_KEYCLOAK_DATABASE_NAME,
-                environment_name='MAYAN_DEFAULT_KEYCLOAK_DATABASE_NAME'
-            ),
-            Variable(
-                name='DEFAULT_KEYCLOAK_DATABASE_PASSWORD',
-                default=DEFAULT_KEYCLOAK_DATABASE_PASSWORD,
-                environment_name='MAYAN_DEFAULT_KEYCLOAK_DATABASE_PASSWORD'
-            ),
-            Variable(
-                name='DEFAULT_KEYCLOAK_DATABASE_USERNAME',
-                default=DEFAULT_KEYCLOAK_DATABASE_USERNAME,
-                environment_name='MAYAN_DEFAULT_KEYCLOAK_DATABASE_USERNAME'
-            ),
-            Variable(
                 name='DEFAULT_RABBITMQ_CONSUMER_TIMEOUT',
                 default=DEFAULT_RABBITMQ_CONSUMER_TIMEOUT,
                 environment_name='MAYAN_DEFAULT_RABBITMQ_CONSUMER_TIMEOUT'
@@ -144,26 +109,6 @@ class PlatformTemplateDockerComposefile(PlatformTemplate):
                 name='DOCKER_IMAGE_MAYAN_TAG',
                 default=DOCKER_IMAGE_MAYAN_TAG,
                 environment_name='MAYAN_DOCKER_IMAGE_MAYAN_TAG'
-            ),
-            Variable(
-                name='DOCKER_KEYCLOAK_IMAGE_NAME',
-                default=DOCKER_KEYCLOAK_IMAGE_NAME,
-                environment_name='MAYAN_DOCKER_KEYCLOAK_IMAGE_NAME'
-            ),
-            Variable(
-                name='DOCKER_KEYCLOAK_IMAGE_TAG',
-                default=DOCKER_KEYCLOAK_IMAGE_TAG,
-                environment_name='MAYAN_DOCKER_KEYCLOAK_IMAGE_TAG'
-            ),
-            Variable(
-                name='DOCKER_KEYCLOAK_POSTGRES_IMAGE_NAME',
-                default=DOCKER_KEYCLOAK_POSTGRES_IMAGE_NAME,
-                environment_name='MAYAN_DOCKER_KEYCLOAK_POSTGRES_IMAGE_NAME'
-            ),
-            Variable(
-                name='DOCKER_KEYCLOAK_POSTGRES_IMAGE_TAG',
-                default=DOCKER_KEYCLOAK_POSTGRES_IMAGE_TAG,
-                environment_name='MAYAN_DOCKER_KEYCLOAK_POSTGRES_IMAGE_TAG'
             ),
             Variable(
                 name='DOCKER_POSTGRESQL_IMAGE_NAME',

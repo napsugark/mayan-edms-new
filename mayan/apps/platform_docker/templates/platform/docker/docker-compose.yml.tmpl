@@ -365,7 +365,6 @@ services:
       - "--certificatesresolvers.letsencrypt.acme.tlschallenge=${MAYAN_TRAEFIK_LETS_ENCRYPT_TLS_CHALLENGE:-false}"
       - "--entrypoints.http.address=:80"
       - "--entrypoints.https.address=:443"
-      - "--entrypoints.keycloak_http.address=:${MAYAN_TRAEFIK_KEYCLOAK_HTTP_PORT:-8081}"
       - "--entrypoints.rabbitmq_admin_http.address=:15672"
       - "--entrypoints.traefik_dashboard_http.address=:8080"
       - "--providers.docker=true"
@@ -388,7 +387,6 @@ services:
     ports:
       - "${MAYAN_RABBITMQ_ADMIN_HTTP_PORT:-15672}:15672"
       - "${MAYAN_TRAEFIK_DASHBOARD_HTTP_PORT:-8080}:8080"
-      - "${MAYAN_TRAEFIK_KEYCLOAK_HTTP_PORT:-8081}:8081"
       - "${MAYAN_TRAEFIK_HTTP_PORT:-80}:80"
       - "${MAYAN_TRAEFIK_HTTPS_PORT:-443}:443"
     profiles:
