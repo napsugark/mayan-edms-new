@@ -364,7 +364,7 @@ job_postgres_test:
     - make test-all SETTINGS=mayan.settings.testing.gitlab-ci
     - make test-migrations-all SETTINGS=mayan.settings.testing.gitlab-ci
   services:
-    - postgres:14.15-alpine3.21
+    - postgres:15.11
   variables:
     POSTGRES_DB: "mayan"
     POSTGRES_PASSWORD: "mayandbpass"
