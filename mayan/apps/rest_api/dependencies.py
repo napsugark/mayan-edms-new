@@ -24,7 +24,7 @@ PythonDependency(
         OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
         WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     ''', module=__name__, name='django-cors-headers',
-    version_string='==4.6.0'
+    version_string='==4.7.0'
 )
 PythonDependency(
     legal_text='''

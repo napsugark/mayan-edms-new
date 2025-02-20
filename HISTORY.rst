@@ -1,6 +1,43 @@
 4.10 (20XX-XX-XX)
 =================
 - Remove KeyCloak settings and Docker Compose template.
+- Update the PostgreSQL Docker tag from 14.15-alpine3.21 to 15.11.
+- Update Docker image tags
+
+  - GitLab CI runner Docker from 27.4.1-dind-alpine3.21 to 27.5.1-dind-alpine3.21
+  - Debian from debian:12.8-slim to debian:12.9-slim
+  - MySQL from mysql:8.0.36 to mariadb:11.7.2
+  - RabbitMQ from 4.0.5-management-alpine to 4.0.6-management
+  - Redis from 7.4.1-alpine3.20 to 7.4.2
+  - Traefik from 2.11.16 to 2.11.20
+
+- Update dependencies dependencies:
+
+  - Django from 4.2.18 to 4.2.19
+  - PIP from 24.3.1 to 25.0.1
+  - Pillow from 11.0.0 to 11.1.0
+  - boto3 from 1.35.85 to 1.36.24
+  - coverage from 7.6.9 to 7.6.12
+  - django-storages from 1.14.4 to 1.14.5
+  - extract-msg from 0.52.0 to 0.53.1
+  - psycopg from 3.2.3 to 3.2.4
+  - psutil from 5.8.0 to 6.0.0.
+  - importlib-metadata from 8.5.0 to 8.6.1
+  - setuptools from 75.6.0 to 75.8.0
+  - twine from 6.0.1 to 6.1.0
+  - django-cors-headers from 4.6.0 to 4.7.0
+  - django-debug-toolbar from 4.4.6 to 5.0.1
+  - ipython from 8.31.0 to 8.32.0
+  - pypdf from 5.1.0 to 5.3.0
+  - python_gnupg from 0.5.3 to 0.5.4
+  - Sphinx from 8.1.3 to 8.2.0
+  - Jinja2 from 3.1.4 to 3.1.5
+  - dateparser 1.2.0 to 1.2.1
+  - ollama from 0.4.4 to 0.4.7
+  - nh3 from 0.2.18 to 0.2.20
+  - pytz from 2024.2 to 2025.1
+  - sentry-sdk from 2.19.2 to 2.22.0
+  - whitenoise from 6.8.2 to 6.9.0
 
 4.9.2 (20XX-XX-XX)
 ==================

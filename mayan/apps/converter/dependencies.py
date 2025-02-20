@@ -22,10 +22,10 @@ BinaryDependency(
 )
 PythonDependency(
     attribute_copyright='PIL.__doc__', module=__name__, name='Pillow',
-    version_string='==11.0.0'
+    version_string='==11.1.0'
 )
 PythonDependency(
-    module=__name__, name='pypdf', version_string='==5.1.0'
+    module=__name__, name='pypdf', version_string='==5.3.0'
 )
 PythonDependency(
     module=__name__, name='qrcode', version_string='==8.0'

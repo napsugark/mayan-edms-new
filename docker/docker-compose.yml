@@ -155,7 +155,7 @@ services:
       RABBITMQ_DEFAULT_VHOST: ${MAYAN_RABBITMQ_VHOST:-mayan}
       RABBITMQ_SERVER_ADDITIONAL_ERL_ARGS: ${MAYAN_RABBITMQ_SERVER_ADDITIONAL_ERL_ARGS:--rabbit consumer_timeout ${MAYAN_RABBITMQ_CONSUMER_TIMEOUT:-1800000}}
     hostname: ${MAYAN_DOCKER_RABBITMQ_HOSTNAME:-rabbitmq}
-    image: ${MAYAN_DOCKER_RABBITMQ_IMAGE:-rabbitmq}:${MAYAN_DOCKER_RABBITMQ_TAG:-4.0.5-management-alpine}
+    image: ${MAYAN_DOCKER_RABBITMQ_IMAGE:-rabbitmq}:${MAYAN_DOCKER_RABBITMQ_TAG:-4.0.6-management}
     labels:
       - "traefik.enable=${MAYAN_TRAEFIK_RABBITMQ_ENABLE:-false}"
       - "traefik.http.routers.rabbitmq_admin_http.entrypoints=rabbitmq_admin_http"
@@ -196,7 +196,7 @@ services:
       - "256"
       - --requirepass
       - "${MAYAN_REDIS_PASSWORD:-mayanredispassword}"
-    image: ${MAYAN_DOCKER_REDIS_IMAGE:-redis}:${MAYAN_DOCKER_REDIS_TAG:-7.4.1-alpine3.20}
+    image: ${MAYAN_DOCKER_REDIS_IMAGE:-redis}:${MAYAN_DOCKER_REDIS_TAG:-7.4.2}
     networks:
       - mayan
     profiles:
@@ -371,7 +371,7 @@ services:
       - "--providers.docker.exposedbydefault=false"
     # - Add DNS provider variables (https://doc.traefik.io/traefik/https/acme/#providers)
     # environment:
-    image: ${MAYAN_DOCKER_TRAEFIK_IMAGE:-traefik}:${MAYAN_DOCKER_TRAEFIK_TAG:-v2.11.16}
+    image: ${MAYAN_DOCKER_TRAEFIK_IMAGE:-traefik}:${MAYAN_DOCKER_TRAEFIK_TAG:-v2.11.20}
     labels:
       - "traefik.enable=${MAYAN_TRAEFIK_DASHBOARD_ENABLE:-false}"
       - "traefik.http.middlewares.basic-auth-global.basicauth.users=${MAYAN_TRAEFIK_DASHBOARD_AUTHENTICATION}"

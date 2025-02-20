@@ -5,7 +5,7 @@ from mayan.apps.dependencies.environments import (
 
 PythonDependency(
     environment=environment_documentation, module=__name__,
-    name='Sphinx', version_string='==8.1.3'
+    name='Sphinx', version_string='==8.2.0'
 )
 PythonDependency(
     environment=environment_documentation, module=__name__,
@@ -21,5 +21,5 @@ PythonDependency(
 )
 PythonDependency(
     environment=environment_documentation_override, module=__name__,
-    name='jinja2', version_string='==3.1.4'
+    name='jinja2', version_string='==3.1.5'
 )
