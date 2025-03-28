@@ -1,12 +1,15 @@
 4.10 (20XX-XX-XX)
 =================
 - Remove KeyCloak settings and Docker Compose template.
+- Update PostgreSQL to 15.
+- Update the PostgreSQL Docker image from Alpine to default.
 - Update the PostgreSQL Docker tag from 14.15-alpine3.21 to 15.11.
 - Update Docker image tags
 
   - GitLab CI runner Docker from 27.4.1-dind-alpine3.21 to 27.5.1-dind-alpine3.21
   - Debian from debian:12.8-slim to debian:12.9-slim
   - MySQL from mysql:8.0.36 to mariadb:11.7.2
+  - PostgreSQL from 14.15-alpine3.21 to 15.11.
   - RabbitMQ from 4.0.5-management-alpine to 4.0.6-management
   - Redis from 7.4.1-alpine3.20 to 7.4.2
   - Traefik from 2.11.16 to 2.11.20
