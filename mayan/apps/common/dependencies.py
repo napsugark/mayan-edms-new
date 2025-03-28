@@ -35,7 +35,7 @@ PythonDependency(
         ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
         (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
         SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-    ''', module=__name__, name='django', version_string='==4.2.19'
+    ''', module=__name__, name='django', version_string='==4.2.20'
 )
 PythonDependency(
     legal_text='''
@@ -130,7 +130,7 @@ PythonDependency(
     module=__name__, name='requests', version_string='==2.32.3'
 )
 PythonDependency(
-    module=__name__, name='setuptools', version_string='==75.8.0'
+    module=__name__, name='setuptools', version_string='==78.1.0'
 )
 PythonDependency(
     legal_text='''
@@ -153,7 +153,7 @@ PythonDependency(
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
         THE SOFTWARE.
-    ''', module=__name__, name='sh', version_string='==2.1.0'
+    ''', module=__name__, name='sh', version_string='==2.2.2'
 )
 
 # Build
@@ -195,5 +195,5 @@ PythonDependency(
 )
 PythonDependency(
     environment=environment_development,
-    module=__name__, name='safety', version_string='==3.2.13'
+    module=__name__, name='safety', version_string='==3.3.1'
 )
