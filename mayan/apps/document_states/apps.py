@@ -22,6 +22,7 @@ from mayan.apps.logging.classes import ErrorLog, ErrorLogDomain
 from mayan.apps.logging.permissions import permission_error_log_entry_view
 from mayan.apps.navigation.source_columns import SourceColumn
 from mayan.apps.rest_api.fields import DynamicSerializerField
+from mayan.apps.templating.classes import ModelTemplating
 
 from .classes import DocumentStateHelper, WorkflowAction
 from .column_widgets import WorkflowLogExtraDataWidget
@@ -343,6 +344,10 @@ class DocumentStatesApp(MayanAppConfig):
                 message='A record of all state changes made to the '
                 'workflow instance over time.'
             ), model=WorkflowInstance, name='log_entries'
+        )
+
+        ModelTemplating(
+            model=WorkflowInstance, variable_name='workflow_instance'
         )
 
         # Workflow template

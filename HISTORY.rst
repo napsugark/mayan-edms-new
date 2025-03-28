@@ -48,6 +48,8 @@
   - twine from 6.0.1 to 6.1.0
   - whitenoise from 6.8.2 to 6.9.0
 
+- Add support for workflow instance sandboxes.
+
 4.9.2 (20XX-XX-XX)
 ==================
 - Increase the GitLab CI artifact expiration from 4 hours to 24 hours.
