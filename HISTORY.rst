@@ -50,6 +50,7 @@
 
 - Add support for workflow instance sandboxes.
 - Rename link "Setup parsing" to "Parsing setup".
+- Retrieve the `psutil` version from the `config.env` file.
 
 4.9.2 (20XX-XX-XX)
 ==================

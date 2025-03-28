@@ -1,6 +1,8 @@
 from mayan.apps.dependencies.classes import PythonDependency
 from mayan.apps.dependencies.environments import environment_testing
 
+from mayan.settings.literals import PYTHON_PSUTIL_VERSION
+
 PythonDependency(
     module=__name__, name='boto3', version_string='==1.37.22'
 )
@@ -15,7 +17,9 @@ PythonDependency(
 )
 PythonDependency(
     environment=environment_testing, module=__name__, name='psutil',
-    version_string='==6.1.1'
+    version_string='=={}'.format(
+        PYTHON_PSUTIL_VERSION
+    )
 )
 PythonDependency(
     module=__name__, name='pycryptodome', version_string='==3.22.0'
