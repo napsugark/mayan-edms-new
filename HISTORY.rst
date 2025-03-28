@@ -49,6 +49,7 @@
   - whitenoise from 6.8.2 to 6.9.0
 
 - Add support for workflow instance sandboxes.
+- Rename link "Setup parsing" to "Parsing setup".
 
 4.9.2 (20XX-XX-XX)
 ==================

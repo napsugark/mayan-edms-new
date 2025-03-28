@@ -72,7 +72,7 @@ link_document_type_parsing_settings = Link(
     args='resolved_object.id',
     icon=icon_document_type_parsing_settings,
     permission=permission_document_type_parsing_setup,
-    text=_(message='Setup parsing'),
+    text=_(message='Parsing setup'),
     view='document_parsing:document_type_parsing_settings'
 )
 link_document_type_parsing_submit = Link(
