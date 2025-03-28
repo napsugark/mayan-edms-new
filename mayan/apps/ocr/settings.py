@@ -25,5 +25,7 @@ setting_ocr_backend = setting_namespace.do_setting_add(
 )
 setting_ocr_backend_arguments = setting_namespace.do_setting_add(
     default=DEFAULT_OCR_BACKEND_ARGUMENTS,
-    global_name='OCR_BACKEND_ARGUMENTS'
+    global_name='OCR_BACKEND_ARGUMENTS', help_text=_(
+        message='Arguments to pass to `OCR_BACKEND`.'
+    )
 )

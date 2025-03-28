@@ -51,6 +51,7 @@
 - Add support for workflow instance sandboxes.
 - Rename link "Setup parsing" to "Parsing setup".
 - Retrieve the `psutil` version from the `config.env` file.
+- Add help text to the setting `OCR_BACKEND_ARGUMENTS`.
 
 4.9.2 (20XX-XX-XX)
 ==================
