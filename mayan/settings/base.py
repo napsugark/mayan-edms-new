@@ -60,7 +60,6 @@ INSTALLED_APPS = (
     'corsheaders',
     'django_celery_beat',
     'formtools',
-    'mathfilters',
     'mozilla_django_oidc',
     'mptt',
     'rest_framework',
