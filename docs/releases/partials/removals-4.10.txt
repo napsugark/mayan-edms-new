@@ -1,2 +1,5 @@
 - Removed Django admin interface.
 - Removed Django admin and sites apps.
+- Remove setting `COMMON_COLLAPSE_LIST_MENU_OBJECT`.
+- Remove setting `COMMON_COLLAPSE_LIST_MENU_LIST_FACET`.
+- Remove support for user themes.

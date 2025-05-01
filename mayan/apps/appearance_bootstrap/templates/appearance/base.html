@@ -24,10 +24,6 @@
 
 {% block stylesheets %}{% endblock %}
 
-<style>
-    {% appearance_get_user_theme_stylesheet user=request.user %}
-</style>
-
 {% if appearance_type != 'plain' %}
     <div class="">
         {% navigation_resolve_menus names='facet,list facet,related,return,sources' sort_results=True as sidebar_menus_link_results %}

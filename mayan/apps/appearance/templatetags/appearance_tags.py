@@ -1,6 +1,5 @@
 from django.apps import apps
 from django.conf import settings
-from django.contrib.auth import get_user_model
 from django.template import Library
 from django.template.exceptions import TemplateDoesNotExist
 from django.template.loader import get_template
@@ -106,23 +105,6 @@ def appearance_get_icon(icon_path, **kwargs):
 
     icon_class = import_string(dotted_path=icon_path)
     return icon_class.render(**extra_context)
-
-
-@register.simple_tag
-def appearance_get_user_theme_stylesheet(user):
-    User = get_user_model()
-
-    if user and user.is_authenticated:
-        try:
-            theme = user.theme_settings.theme
-        except User.theme_settings.RelatedObjectDoesNotExist:
-            # User had a setting assigned which was later deleted.
-            return ''
-        else:
-            if theme:
-                return user.theme_settings.theme.stylesheet
-
-    return ''
 
 
 @register.simple_tag
