@@ -1,0 +1,2 @@
+- Removed Django admin interface.
+- Removed Django admin and sites apps.
