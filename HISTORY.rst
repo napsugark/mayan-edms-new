@@ -56,6 +56,8 @@
   `django.contrib.admin` and `django.contrib.sites`.
 - Downgrade coveralls and coverage. Latest versions are not available
   via PIP.
+- Remove setting `COMMON_COLLAPSE_LIST_MENU_OBJECT`. The behavior is
+  now set as if the value of this setting was `True`.
 
 4.9.2 (20XX-XX-XX)
 ==================

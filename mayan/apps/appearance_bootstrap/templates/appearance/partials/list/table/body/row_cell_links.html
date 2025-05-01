@@ -13,7 +13,7 @@
     {% navigation_resolve_menu name='object' source=object sort_results=True as object_menus_link_results %}
     {% if object_menus_link_results %}
         <td class="last">
-            <div class="btn-list {% if setting_common_collapse_list_menu_object %}text-center{% else %}text-left{% endif %}">
+            <div class="btn-list text-center">
                {% include 'appearance/partials/list/column_object_links.html' %}
             </div>
         </td>
