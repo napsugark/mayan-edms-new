@@ -1,4 +1,3 @@
-from django.contrib import admin
 from django.urls import re_path
 
 from .api_views import APIContentTypeDetailView, APIContentTypeListView
@@ -40,9 +39,7 @@ urlpatterns = [
 
 urlpatterns.extend(urlpatterns_misc)
 
-passthru_urlpatterns = [
-    re_path(route=r'^admin/', view=admin.site.urls)
-]
+passthru_urlpatterns = []
 
 api_urls = [
     re_path(

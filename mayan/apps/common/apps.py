@@ -1,4 +1,3 @@
-from django.contrib import admin
 from django.utils.translation import gettext_lazy as _
 
 from mayan.apps.app_manager.apps import MayanAppConfig
@@ -27,8 +26,6 @@ class CommonApp(MayanAppConfig):
 
     def ready(self):
         super().ready()
-
-        admin.autodiscover()
 
         AJAXTemplate(
             name='menu_main', template_name='appearance/menus/main.html'

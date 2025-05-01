@@ -52,6 +52,10 @@
 - Rename link "Setup parsing" to "Parsing setup".
 - Retrieve the `psutil` version from the `config.env` file.
 - Add help text to the setting `OCR_BACKEND_ARGUMENTS`.
+- Remove support for Django's Admin portal. Removes Django apps
+  `django.contrib.admin` and `django.contrib.sites`.
+- Downgrade coveralls and coverage. Latest versions are not available
+  via PIP.
 
 4.9.2 (20XX-XX-XX)
 ==================

@@ -48,13 +48,11 @@ INSTALLED_APPS = (
     'mayan.apps.appearance.apps.AppearanceApp',
     'mayan.apps.appearance_bootstrap.apps.AppearanceBootstrapApp',
     # Django
-    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.humanize',
     'django.contrib.messages',
     'django.contrib.sessions',
-    'django.contrib.sites',
     'django.forms',
     'django.contrib.staticfiles',
     # 3rd party.
