@@ -4,7 +4,7 @@
     {% navigation_resolve_menu name='list facet' sort_results=True source=object as facet_menus_link_results %}
     {% if facet_menus_link_results %}
         <td class="text-center">
-            <div class="btn-list {% if setting_common_collapse_list_menu_list_facet %}text-center{% else %}text-left{% endif %}">
+            <div class="btn-list text-center">
                 {% include 'appearance/partials/list/column_object_facet_links.html' %}
             </div>
         </td>

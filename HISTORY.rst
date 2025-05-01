@@ -58,6 +58,8 @@
   via PIP.
 - Remove setting `COMMON_COLLAPSE_LIST_MENU_OBJECT`. The behavior is
   now set as if the value of this setting was `True`.
+- Remove setting `COMMON_COLLAPSE_LIST_MENU_LIST_FACET`. The behavior is
+  now set as if the value of this setting was `True`.
 
 4.9.2 (20XX-XX-XX)
 ==================

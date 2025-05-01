@@ -3,7 +3,6 @@ from django.utils.translation import gettext_lazy as _
 from mayan.apps.smart_settings.settings import setting_cluster
 
 from .literals import (
-    DEFAULT_COMMON_COLLAPSE_LIST_MENU_LIST_FACET,
     DEFAULT_COMMON_DISABLE_LOCAL_STORAGE, DEFAULT_COMMON_DISABLED_APPS,
     DEFAULT_COMMON_EXTRA_APPS, DEFAULT_COMMON_EXTRA_APPS_PRE,
     DEFAULT_COMMON_HOME_VIEW, DEFAULT_COMMON_HOME_VIEW_DASHBOARD_NAME,
@@ -14,15 +13,6 @@ setting_namespace = setting_cluster.do_namespace_add(
     label=_(message='Common'), name='common', version='0002'
 )
 
-setting_collapse_list_menu_list_facet = setting_namespace.do_setting_add(
-    choices=('false', 'true'),
-    default=DEFAULT_COMMON_COLLAPSE_LIST_MENU_LIST_FACET,
-    global_name='COMMON_COLLAPSE_LIST_MENU_LIST_FACET',
-    help_text=_(
-        message='In list mode, show the "list facet" menu options as a dropdown '
-        'menu instead of individual buttons.'
-    )
-)
 setting_disable_local_storage = setting_namespace.do_setting_add(
     choices=('false', 'true'),
     default=DEFAULT_COMMON_DISABLE_LOCAL_STORAGE,
