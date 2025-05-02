@@ -64,6 +64,8 @@
 - Remove `django-mathfilters`.
 - Remove the `{{ |date_parse }}` filter. This is filter is replaced by
   the more capable `{% date_parse %}` tag.
+- Redirect all password reset views when password reset is disabled.
+- Split authentication and password reset views into separate module.
 
 4.9.2 (20XX-XX-XX)
 ==================

@@ -80,6 +80,14 @@ class LogoutViewTestMixin:
 
 
 class PasswordResetViewTestMixin:
+    def _request_password_reset_complete_view(self):
+        return self.get(
+            viewname='authentication:password_reset_complete_view'
+        )
+
+    def _request_password_reset_done_view(self):
+        return self.get(viewname='authentication:password_reset_done_view')
+
     def _request_password_reset_confirm_view(self, new_password, uidb64):
         return self.post(
             viewname='authentication:password_reset_confirm_view',
@@ -105,6 +113,9 @@ class PasswordResetViewTestMixin:
                 'email': self._test_case_super_user.email
             }
         )
+
+    def _request_password_reset_view(self):
+        return self.get(viewname='authentication:password_reset_view')
 
 
 class UserImpersonationViewTestMixin:

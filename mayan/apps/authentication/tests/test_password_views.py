@@ -176,6 +176,66 @@ class PasswordResetViewTestCase(
         events = self._get_test_events()
         self.assertEqual(events.count(), 0)
 
+    @override_settings(AUTHENTICATION_DISABLE_PASSWORD_RESET=True)
+    def test_password_reset_complete_get_view_with_disable_true(self):
+        self.logout()
+
+        self._clear_events()
+
+        response = self._request_password_reset_complete_view()
+
+        self.assertEqual(response.status_code, 302)
+        self.assertEqual(
+            response.url, reverse(viewname=setting_home_view.value)
+        )
+
+        self.assertEqual(
+            len(mail.outbox), 0
+        )
+
+        events = self._get_test_events()
+        self.assertEqual(events.count(), 0)
+
+    @override_settings(AUTHENTICATION_DISABLE_PASSWORD_RESET=True)
+    def test_password_reset_done_get_view_with_disable_true(self):
+        self.logout()
+
+        self._clear_events()
+
+        response = self._request_password_reset_done_view()
+
+        self.assertEqual(response.status_code, 302)
+        self.assertEqual(
+            response.url, reverse(viewname=setting_home_view.value)
+        )
+
+        self.assertEqual(
+            len(mail.outbox), 0
+        )
+
+        events = self._get_test_events()
+        self.assertEqual(events.count(), 0)
+
+    @override_settings(AUTHENTICATION_DISABLE_PASSWORD_RESET=True)
+    def test_password_reset_get_view_with_disable_true(self):
+        self.logout()
+
+        self._clear_events()
+
+        response = self._request_password_reset_view()
+
+        self.assertEqual(response.status_code, 302)
+        self.assertEqual(
+            response.url, reverse(viewname=setting_home_view.value)
+        )
+
+        self.assertEqual(
+            len(mail.outbox), 0
+        )
+
+        events = self._get_test_events()
+        self.assertEqual(events.count(), 0)
+
 
 class UserPasswordViewTestCase(
     UserPasswordViewTestMixin, GenericViewTestCase

@@ -8,8 +8,7 @@ from django.contrib.auth import (
 from django.contrib.auth.forms import SetPasswordForm
 from django.contrib.auth.views import (
     LoginView, LogoutView, PasswordChangeDoneView, PasswordChangeView,
-    PasswordResetCompleteView, PasswordResetConfirmView,
-    PasswordResetDoneView, PasswordResetView, RedirectURLMixin
+    RedirectURLMixin
 )
 from django.core.exceptions import PermissionDenied
 from django.http import HttpResponseRedirect
@@ -25,10 +24,8 @@ from formtools.wizard.views import SessionWizardView, StepsHelper
 from stronghold.decorators import public
 from stronghold.views import StrongholdPublicMixin
 
-import mayan
 from mayan.apps.common.settings import setting_home_view
 from mayan.apps.forms import formsets
-from mayan.apps.organizations.utils import get_organization_installation_url
 from mayan.apps.user_management.permissions import permission_user_edit
 from mayan.apps.user_management.querysets import (
     get_all_users_queryset, get_user_queryset
@@ -41,7 +38,6 @@ from ..classes import AuthenticationBackend
 from ..forms import AuthenticationFormBase
 from ..icons import icon_login, icon_password_change
 from ..literals import SESSION_MULTI_FACTOR_USER_ID_KEY
-from ..settings import setting_disable_password_reset
 
 
 class MultiFactorAuthenticationView(RedirectURLMixin, SessionWizardView):
@@ -271,90 +267,6 @@ class MayanPasswordChangeView(ViewIconMixin, PasswordChangeView):
             )
 
         return super().dispatch(*args, **kwargs)
-
-
-class MayanPasswordResetCompleteView(
-    StrongholdPublicMixin, PasswordResetCompleteView
-):
-    extra_context = {
-        'appearance_type': 'plain'
-    }
-    template_name = 'authentication/password_reset_complete.html'
-
-
-class MayanPasswordResetConfirmView(
-    StrongholdPublicMixin, PasswordResetConfirmView
-):
-    extra_context = {
-        'appearance_type': 'plain'
-    }
-    success_url = reverse_lazy(
-        viewname='authentication:password_reset_complete_view'
-    )
-    template_name = 'authentication/password_reset_confirm.html'
-
-
-class MayanPasswordResetDoneView(
-    StrongholdPublicMixin, PasswordResetDoneView
-):
-    extra_context = {
-        'appearance_type': 'plain'
-    }
-    template_name = 'authentication/password_reset_done.html'
-
-
-class MayanPasswordResetView(StrongholdPublicMixin, PasswordResetView):
-    email_template_name = 'authentication/password_reset_email.html'
-    extra_context = {
-        'appearance_type': 'plain'
-    }
-    subject_template_name = 'authentication/password_reset_subject.txt'
-    success_url = reverse_lazy(
-        viewname='authentication:password_reset_done_view'
-    )
-    template_name = 'authentication/password_reset_form.html'
-
-    # Hardcoded overloaded method to allow adding extra email context from
-    # a method and not just the Django provided `self.extra_email_context`.
-    # On each new Django version, verify if this method has changed and
-    # update this overloading.
-    def form_valid(self, form):
-        opts = {
-            'email_template_name': self.email_template_name,
-            'extra_email_context': self.get_extra_email_context(),
-            'from_email': self.from_email,
-            'html_email_template_name': self.html_email_template_name,
-            'request': self.request,
-            'subject_template_name': self.subject_template_name,
-            'token_generator': self.token_generator,
-            'use_https': self.request.is_secure()
-        }
-        form.save(**opts)
-        # Specify the super class `PasswordResetView` explicitly to avoid
-        # executing `form_valid` again.
-        return super(PasswordResetView, self).form_valid(form=form)
-
-    def get(self, *args, **kwargs):
-        if setting_disable_password_reset.value:
-            return redirect(to=setting_home_view.value)
-        return super().get(*args, **kwargs)
-
-    def get_extra_email_context(self):
-        extra_email_context_project_website = get_organization_installation_url(
-            request=self.request
-        )
-        extra_email_context = {
-            'project_copyright': mayan.__copyright__,
-            'project_license': mayan.__license__,
-            'project_title': mayan.__title__,
-            'project_website': str(extra_email_context_project_website)
-        }
-        return extra_email_context
-
-    def post(self, *args, **kwargs):
-        if setting_disable_password_reset.value:
-            return redirect(to=setting_home_view.value)
-        return super().post(*args, **kwargs)
 
 
 class UserSetPasswordView(MultipleObjectFormActionView):
