@@ -24,20 +24,6 @@ class TemplateFilterDateParseISOTestCase(TemplateTestMixin, BaseTestCase):
             )
 
 
-class TemplateFilterDateParseTestCase(TemplateTestMixin, BaseTestCase):
-    def test_basic_functionality(self):
-        now = datetime.now()
-
-        result = self._render_test_template(
-            template_string='{{% set "{}"|date_parse as date_object %}}{{{{ date_object.year }}}}'.format(
-                now.isoformat()
-            )
-        )
-        self.assertEqual(
-            result, str(now.year)
-        )
-
-
 class TemplateTagDateParseTestCase(TemplateTestMixin, BaseTestCase):
     def test_basic_functionality(self):
         result = self._render_test_template(
@@ -135,7 +121,7 @@ class TemplateTagTimeDeltaTestCase(TemplateTestMixin, BaseTestCase):
         now = datetime.now()
 
         result = self._render_test_template(
-            template_string='{{% set "{}"|date_parse as date_object %}}{{% timedelta date_object days=366 as date_new %}}{{{{ date_new.year }}}}'.format(
+            template_string='{{% date_parse "{}" as date_object %}}{{% timedelta date_object days=366 as date_new %}}{{{{ date_new.year }}}}'.format(
                 now.isoformat()
             )
         )

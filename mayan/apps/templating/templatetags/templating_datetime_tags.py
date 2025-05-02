@@ -23,15 +23,6 @@ def filter_date_parse_iso(date_string):
         return result
 
 
-@register.filter(name='date_parse')
-def filter_date_parse(date_string):
-    """
-    Takes a string and converts it into a datetime object.
-    """
-
-    return parse(timestr=date_string)
-
-
 @register.simple_tag(name='date_parse')
 def tag_date_parse(
     date_string, dayfirst=None, fuzzy=None, fuzzy_with_tokens=None,

@@ -62,6 +62,8 @@
   now set as if the value of this setting was `True`.
 - Remove support for user themes.
 - Remove `django-mathfilters`.
+- Remove the `{{ |date_parse }}` filter. This is filter is replaced by
+  the more capable `{% date_parse %}` tag.
 
 4.9.2 (20XX-XX-XX)
 ==================
