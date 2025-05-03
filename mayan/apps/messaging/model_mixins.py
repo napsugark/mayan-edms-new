@@ -15,14 +15,17 @@ class MessageBusinessLogicMixin:
         )
     get_label.short_description = _(message='Label')
 
-    def get_rendered_body(self):
+    def get_clean_body(self):
         cleaner = Cleaner(
             filters=[LinkifyFilter]
         )
 
-        template = Template(
-            template_string=cleaner.clean(text=self.body)
-        )
+        return cleaner.clean(text=self.body)
+
+    def get_rendered_body(self):
+        clean_body = self.get_clean_body()
+
+        template = Template(template_string=clean_body)
         return template.render(
             context={'message': self}
         )
