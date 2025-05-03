@@ -36,11 +36,11 @@ docker-build: docker-dockerfile-update docker-buildkitd-config-create
 
 docker-dockerfile-update: ## Update the Dockerfile file from the platform template.
 docker-dockerfile-update: copy-config-env
-	./manage.py platform_template docker_dockerfile > docker/Dockerfile
+	./manage.py platforms_template docker_dockerfile > docker/Dockerfile
 
 docker-docker-compose-update: ## Update the Docker Compose file from the platform template.
 docker-docker-compose-update: copy-config-env
-	./manage.py platform_template docker_docker_compose > docker/docker-compose.yml
+	./manage.py platforms_template docker_docker_compose > docker/docker-compose.yml
 
 # Registry
 

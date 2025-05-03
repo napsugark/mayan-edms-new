@@ -12,7 +12,7 @@ class ConfigEnvCopier:
         os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mayan.settings')
 
     def copy(self):
-        from mayan.apps.platform.utils import load_env_file
+        from mayan.apps.platforms.utils import load_env_file
 
         result = load_env_file(skip_local_config=True)
 

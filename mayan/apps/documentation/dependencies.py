@@ -19,7 +19,3 @@ PythonDependency(
     environment=environment_documentation, module=__name__,
     name='sphinxcontrib-spelling', version_string='==8.0.1'
 )
-PythonDependency(
-    environment=environment_documentation_override, module=__name__,
-    name='jinja2', version_string='==3.1.5'
-)

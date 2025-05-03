@@ -52,6 +52,10 @@
 - Rename link "Setup parsing" to "Parsing setup".
 - Retrieve the `psutil` version from the `config.env` file.
 - Add help text to the setting `OCR_BACKEND_ARGUMENTS`.
+- Remove Jinja2 from the dependencies. Jinja2 version is now specified by the
+  Sphinx dependencies.
+- Rename `platform` apps to `platforms` for consistency.
+- Rename command `platform_template` to `platforms_template`.
 - Remove support for Django's Admin portal. Removes Django apps
   `django.contrib.admin` and `django.contrib.sites`.
 - Downgrade coveralls and coverage. Latest versions are not available

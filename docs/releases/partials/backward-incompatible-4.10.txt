@@ -1,0 +1,1 @@
+- Renamed command `platform_template` to `platforms_template`.

@@ -8,7 +8,7 @@ endif
 
 gitlab-ci-update: ## Update the GitLab CI file from the platform template.
 gitlab-ci-update: copy-config-env
-	./manage.py platform_template gitlab-ci > .gitlab-ci.yml
+	./manage.py platforms_template gitlab-ci > .gitlab-ci.yml
 
 gitlab-ci-run: ## Execute a GitLab CI job locally
 gitlab-ci-run:

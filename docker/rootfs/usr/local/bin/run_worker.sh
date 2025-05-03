@@ -9,7 +9,7 @@ if [ ! "${MAYAN_QUEUE_LIST}" ]; then
         echo "Must specify either MAYAN_QUEUE_LIST or MAYAN_WORKER_NAME."
         exit 1
     else
-        MAYAN_QUEUE_LIST=`su mayan --command "${MAYAN_PYTHON_BIN_DIR}mayan-edms.py platform_template worker_queues"`
+        MAYAN_QUEUE_LIST=`su mayan --command "${MAYAN_PYTHON_BIN_DIR}mayan-edms.py platforms_template worker_queues"`
     fi
 fi
 
