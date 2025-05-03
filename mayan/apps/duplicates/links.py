@@ -15,7 +15,7 @@ link_document_duplicates_list = Link(
     view='duplicates:document_duplicates_list',
 )
 link_duplicated_document_list = Link(
-    icon=icon_duplicated_document_list, text=_(message='Duplicated documents'),
+    icon=icon_duplicated_document_list, text=_(message='Duplicates'),
     view='duplicates:duplicated_document_list'
 )
 link_duplicated_document_scan = Link(

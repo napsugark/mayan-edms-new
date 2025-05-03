@@ -73,6 +73,7 @@
 - Move the Sentry API client to its own app named `platforms_sentry`.
 - Ensure `get_language_option_list` returns a list of options and not a
   `dict_keys` object.
+- Rename duplicated documents link and view title for clarity.
 
 4.9.2 (20XX-XX-XX)
 ==================

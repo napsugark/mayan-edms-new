@@ -74,9 +74,9 @@ class DuplicatedDocumentListView(DocumentListView):
                     'duplicates.'
                 ),
                 'no_results_title': _(
-                    message='There are no duplicated documents'
+                    message='There are no documents with duplicates'
                 ),
-                'title': _(message='Duplicated documents')
+                'title': _(message='Documents with duplicates')
             }
         )
         return context
