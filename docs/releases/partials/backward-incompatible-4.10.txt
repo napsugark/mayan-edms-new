@@ -1,1 +1,5 @@
 - Renamed command `platform_template` to `platforms_template`.
+- Setting `PLATFORM_CLIENT_BACKEND_ENABLED` was renamed to
+  `PLATFORMS_CLIENT_BACKEND_ENABLED`.
+- Setting `PLATFORM_CLIENT_BACKEND_ARGUMENTS` was renamed to
+  `PLATFORMS_CLIENT_BACKEND_ARGUMENTS`.

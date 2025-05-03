@@ -1,7 +1,7 @@
 from mayan.apps.common.tests.mixins import ManagementCommandTestMixin
 from mayan.apps.testing.tests.base import BaseTestCase
 
-from ..literals import COMMAND_NAME_PLATFORM_TEMPLATE
+from ..literals import COMMAND_NAME_PLATFORMS_TEMPLATE
 from ..platforms_templates import PlatformTemplate
 
 from .literals import (
@@ -24,7 +24,7 @@ PlatformTemplate.register(klass=TestPlatformTemplate)
 class PlatformTemplateManagementCommandTestCase(
     ManagementCommandTestMixin, BaseTestCase
 ):
-    _test_management_command_name = COMMAND_NAME_PLATFORM_TEMPLATE
+    _test_management_command_name = COMMAND_NAME_PLATFORMS_TEMPLATE
 
     def test_platforms_template_simple(self):
         stdout, stderr = self._call_test_management_command(

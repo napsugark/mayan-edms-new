@@ -39,8 +39,8 @@ endif
 
 COMMAND_SENTRY = \
 	if [ $(SENTRY_DSN) ]; then \
-	export MAYAN_PLATFORM_CLIENT_BACKEND_ENABLED='["mayan.apps.platform.client_backends.ClientBackendSentry"]'; \
-	export MAYAN_PLATFORM_CLIENT_BACKEND_ARGUMENTS='{"mayan.apps.platform.client_backends.ClientBackendSentry":{"dsn":"$(SENTRY_DSN)","environment":"development"}}'; \
+	export MAYAN_PLATFORMS_CLIENT_BACKEND_ENABLED='["mayan.apps.platforms_sentry.client_backends.ClientBackendSentry"]'; \
+	export MAYAN_PLATFORMS_CLIENT_BACKEND_ARGUMENTS='{"mayan.apps.platforms_sentry.client_backends.ClientBackendSentry":{"dsn":"$(SENTRY_DSN)","environment":"development"}}'; \
 	fi
 
 COMMAND_TEST = ./manage.py test $(MODULE) --settings=$(SETTINGS) $(SKIPMIGRATIONS) $(DEBUG) $(ARGUMENTS) $(ARGUMENT_TAG)

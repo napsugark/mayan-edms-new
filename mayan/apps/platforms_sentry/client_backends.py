@@ -12,9 +12,8 @@ import mayan
 from mayan.apps.common.utils import any_to_bool
 from mayan.apps.icons.icons import Icon
 from mayan.apps.navigation.links import Link
-
-from .classes import ClientBackend
-from .permissions import permission_test_trigger
+from mayan.apps.platforms.classes import ClientBackend
+from mayan.apps.platforms.permissions import permission_test_trigger
 
 logger = logging.getLogger(name=__name__)
 
@@ -32,7 +31,7 @@ class ClientBackendSentry(ClientBackend):
                 icon=icon_sentry_debug,
                 permission=permission_test_trigger,
                 text=_(message='Sentry test error'),
-                view='platform:sentry_debug',
+                view='platforms:sentry_debug',
             ),
         )
 

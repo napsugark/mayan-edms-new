@@ -70,6 +70,7 @@
   the more capable `{% date_parse %}` tag.
 - Redirect all password reset views when password reset is disabled.
 - Split authentication and password reset views into separate module.
+- Move the Sentry API client to its own app named `platforms_sentry`.
 
 4.9.2 (20XX-XX-XX)
 ==================
