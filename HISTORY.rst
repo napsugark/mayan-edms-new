@@ -71,6 +71,8 @@
 - Redirect all password reset views when password reset is disabled.
 - Split authentication and password reset views into separate module.
 - Move the Sentry API client to its own app named `platforms_sentry`.
+- Ensure `get_language_option_list` returns a list of options and not a
+  `dict_keys` object.
 
 4.9.2 (20XX-XX-XX)
 ==================

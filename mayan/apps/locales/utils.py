@@ -5,7 +5,13 @@ from django.utils import translation
 
 
 def get_language_option_list():
-    return dict(settings.LANGUAGES).keys()
+    dict_languages = dict(settings.LANGUAGES)
+
+    result = list(
+        dict_languages.keys()
+    )
+
+    return result
 
 
 def get_language_choices():
