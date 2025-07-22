@@ -16,6 +16,9 @@
   - Debian from 12.7-slim to 12.11-slim
   - Redis from 7.2.5-alpine3.20 to 7.2.10-alpine3.21
 
+- Reinforce the Ollama document file metadata client to handle undocumented
+  backward incompatible changes made in Ollama.
+
 4.8.3 (2024-10-04)
 ==================
 - Fix multi part email source metadata inheritance. Ensure all parts of a
