@@ -182,10 +182,11 @@ hr {
     padding-top: 8px;
 }
 
-.btn-toolbar-check-all .input-group-addon {
+.btn-toolbar-check-all {
     background-color: #95a5a6;
-    border-color: #95a5a6;
     border-radius: 4px;
+    height: 35px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 6px;
 }
