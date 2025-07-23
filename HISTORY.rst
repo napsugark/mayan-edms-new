@@ -24,6 +24,7 @@
 
 - Quote environment variables prior to loading.
 - Fix context of the workflow launch view when only one document is selected.
+- Improve documentation navigation.
 
 4.6.5 (2024-06-03)
 ==================
