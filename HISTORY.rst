@@ -1,3 +1,7 @@
+4.8.4 (2025-XX-XX)
+==================
+- Add Mayan Forge, a Docker based development environment for Mayan EDMS.
+
 4.8.3 (2024-10-04)
 ==================
 - Fix multi part email source metadata inheritance. Ensure all parts of a
