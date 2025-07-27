@@ -22,6 +22,7 @@
 - Update copyright year.
 - Add Ollama integration feature document.
 - Improve documentation navigation.
+- Fix context of the workflow launch view when only one document is selected.
 
 4.8.3 (2024-10-04)
 ==================
