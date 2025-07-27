@@ -73,7 +73,7 @@ services:
       - xpack.security.enabled=true
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
       - ELASTIC_PASSWORD=${MAYAN_ELASTICSEARCH_PASSWORD:-mayanespassword}
-    image: ${MAYAN_DOCKER_ELASTICSEARCH_IMAGE:-elasticsearch}:${MAYAN_DOCKER_ELASTICSEARCH_TAG:-7.17.24}
+    image: ${MAYAN_DOCKER_ELASTICSEARCH_IMAGE:-elasticsearch}:${MAYAN_DOCKER_ELASTICSEARCH_TAG:-7.17.28}
     networks:
       - mayan
     # Enable to allow external access to the database.
@@ -195,7 +195,7 @@ services:
       - "256"
       - --requirepass
       - "${MAYAN_REDIS_PASSWORD:-mayanredispassword}"
-    image: ${MAYAN_DOCKER_REDIS_IMAGE:-redis}:${MAYAN_DOCKER_REDIS_TAG:-7.2.5-alpine3.20}
+    image: ${MAYAN_DOCKER_REDIS_IMAGE:-redis}:${MAYAN_DOCKER_REDIS_TAG:-7.2.10-alpine3.21}
     networks:
       - mayan
     profiles:

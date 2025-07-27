@@ -10,6 +10,12 @@
   - furl from 2.1.3 to 2.1.4
   - psycopg from 3.2.3 to 3.2.9
 
+- Update Docker image tags:
+
+  - Elasticsearch from 7.17.24 to 7.16.28
+  - Debian from 12.7-slim to 12.11-slim
+  - Redis from 7.2.5-alpine3.20 to 7.2.10-alpine3.21
+
 4.8.3 (2024-10-04)
 ==================
 - Fix multi part email source metadata inheritance. Ensure all parts of a
