@@ -9,6 +9,7 @@
 # Yaman Sanobar <yman.snober@gmail.com>, 2024
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -16,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2024\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,16 +45,16 @@ msgstr "وثائق محددة"
 #: relations.py:33
 #, python-brace-format
 msgid "Invalid pk \"{pk_value}\" - object does not exist."
-msgstr ""
+msgstr "مفتاح غير صالح \"{pk_value}\" - الكائن غير موجود."
 
 #: relations.py:36
 #, python-brace-format
 msgid "Incorrect type. Expected pk value, received {data_type}."
-msgstr ""
+msgstr "نوع غير صحيح. متوقع قيمة pk، المستلم {data_type}."
 
 #: relations.py:38
 msgid "This field is required."
-msgstr ""
+msgstr "هذا الحقل مطلوب."
 
 #: schemas.py:10
 #, python-format
@@ -78,11 +79,11 @@ msgstr "اسم"
 
 #: serializers.py:48
 msgid "Status code"
-msgstr ""
+msgstr "رمز الحالة"
 
 #: serializers.py:51
 msgid "Requests"
-msgstr ""
+msgstr "طلبات"
 
 #: serializers.py:74
 msgid "Label"
@@ -94,11 +95,11 @@ msgstr "URL"
 
 #: serializers.py:105
 msgid "Author"
-msgstr ""
+msgstr "المؤلف"
 
 #: serializers.py:108
 msgid "Author email"
-msgstr ""
+msgstr "بريد المؤلف الإلكتروني"
 
 #: serializers.py:111
 msgid "Build"
@@ -106,11 +107,11 @@ msgstr "بناء"
 
 #: serializers.py:114
 msgid "Build string"
-msgstr ""
+msgstr "سلسلة البناء"
 
 #: serializers.py:117
 msgid "Copyright"
-msgstr ""
+msgstr "حقوق النشر"
 
 #: serializers.py:120
 msgid "Description"
@@ -118,7 +119,7 @@ msgstr "الوصف"
 
 #: serializers.py:123
 msgid "Django version"
-msgstr ""
+msgstr "إصدار دجانجو"
 
 #: serializers.py:126
 msgid "License"
@@ -126,7 +127,7 @@ msgstr "الرخص"
 
 #: serializers.py:129
 msgid "Title"
-msgstr ""
+msgstr "العنوان"
 
 #: serializers.py:132
 msgid "Version"
@@ -134,7 +135,7 @@ msgstr "الاصدار"
 
 #: serializers.py:135
 msgid "Website"
-msgstr ""
+msgstr "الموقع الإلكتروني"
 
 #: settings.py:17
 msgid "Disable the REST API links in the tools menu."
@@ -142,8 +143,8 @@ msgstr "تعطيل روابط REST API في قائمة الأدوات."
 
 #: settings.py:23
 msgid "The maximum page size that can be requested."
-msgstr ""
+msgstr "الحجم الأقصى للصفحة الذي يمكن طلبه."
 
 #: settings.py:29
 msgid "The default page size if none is specified."
-msgstr ""
+msgstr "حجم الصفحة الافتراضي إذا لم يتم تحديده."

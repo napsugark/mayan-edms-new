@@ -10,7 +10,7 @@
 # Ingo Buchholz <ingo.buchholz@takwa.de>, 2024
 # Roberto Rosario, 2024
 # Thomas Lauterbach <lauterbachthomas@googlemail.com>, 2024
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 12:51+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Austria) (https://app.transifex.com/rosarior/teams/13584/de_AT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +36,7 @@ msgstr "Gruppenanzahl"
 
 #: classes.py:65
 msgid "Insufficient permission."
-msgstr ""
+msgstr "Unzureichende Berechtigungen."
 
 #: dashboard_widgets.py:13
 msgid "Total roles"

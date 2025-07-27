@@ -3,12 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mohamad Ashmar, 2025
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-02 14:05+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,16 +22,16 @@ msgstr ""
 
 #: apps.py:17 settings.py:8
 msgid "Authentication OIDC"
-msgstr ""
+msgstr "التحقق من الهوية عبر حساب خارجي OIDC"
 
 #: authentication_backends.py:97
 msgid "Login via OIDC"
-msgstr ""
+msgstr "تسجيل الدخول باستخدام حساب آخر OIDC"
 
 #: links.py:22
 msgid "OIDC user details"
-msgstr ""
+msgstr "تفاصيل المستخدم من الحساب الخارجي OIDC"
 
 #: settings.py:14
 msgid "URL for the OIDC user profile page."
-msgstr ""
+msgstr "رابط صفحة ملفك الشخصي لدى مزود الخدمة OIDC"

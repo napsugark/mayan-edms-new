@@ -6,6 +6,7 @@
 # Translators:
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 12:51+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Mohammed ALDOUB <voulnet@gmail.com>, 2024\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +33,7 @@ msgstr "محتوى التعرف الضوئي على الحروف."
 
 #: apps.py:126
 msgid "A generator returning the document's version pages OCR content."
-msgstr ""
+msgstr "مُولّد يعيد محتوى OCR لصفحات إصدار الوثيقة."
 
 #: apps.py:128
 msgid "OCR content"
@@ -48,11 +49,11 @@ msgstr "النص التلقائي "
 
 #: events.py:10
 msgid "Document version OCR content deleted"
-msgstr ""
+msgstr "تم حذف محتوى OCR لإصدار الوثيقة"
 
 #: events.py:14
 msgid "Document version page OCR content edited"
-msgstr ""
+msgstr "تم تعديل محتوى OCR لصفحة إصدار الوثيقة"
 
 #: events.py:18
 msgid "Document version submitted for OCR"
@@ -73,7 +74,7 @@ msgstr "الصفحة %(page_number)d"
 
 #: links.py:27
 msgid "OCR setup"
-msgstr ""
+msgstr "إعدادات OCR"
 
 #: links.py:32
 msgid "OCR documents per type"
@@ -93,7 +94,7 @@ msgstr "اعتماد نص الوثيقة"
 
 #: links.py:85
 msgid "Edit OCR"
-msgstr ""
+msgstr "تحرير OCR"
 
 #: models.py:24
 msgid "Document type"
@@ -105,7 +106,7 @@ msgstr "التحويل التلقائي للوثيقة الى نص "
 
 #: models.py:29
 msgid "Auto OCR"
-msgstr ""
+msgstr "OCR تلقائي"
 
 #: models.py:35
 msgid "Document type settings"
@@ -117,7 +118,7 @@ msgstr "اعدادات انواع الوثائق"
 
 #: models.py:50
 msgid "Document version page"
-msgstr ""
+msgstr "صفحة نسخة المستند"
 
 #: models.py:55
 msgid "The actual text content extracted by the OCR backend."
@@ -129,11 +130,11 @@ msgstr "المحتوى"
 
 #: models.py:62
 msgid "Document version page OCR content"
-msgstr ""
+msgstr "محتوى OCR لصفحة إصدار الوثيقة"
 
 #: models.py:63
 msgid "Document version pages OCR contents"
-msgstr ""
+msgstr "محتويات OCR لصفحات إصدار الوثيقة"
 
 #: permissions.py:10
 msgid "Submit documents for OCR"
@@ -141,7 +142,7 @@ msgstr "ارسال نص الوثيقة"
 
 #: permissions.py:13
 msgid "Edit the transcribed text from document"
-msgstr ""
+msgstr "تحرير النص المنقول من الوثيقة"
 
 #: permissions.py:17
 msgid "View the transcribed text from document"
@@ -189,37 +190,37 @@ msgstr "تمت إضافة وثائق%(count)d إلى قائمة انتظار ا�
 #: views.py:118
 #, python-format
 msgid "Error deleting document version OCR \"%(instance)s\"; %(exception)s"
-msgstr ""
+msgstr "خطأ في حذف OCR لإصدار الوثيقة \"%(instance)s\"؛ %(exception)s"
 
 #: views.py:124
 #, python-format
 msgid "OCR content of %(count)d document versions deleted successfully."
-msgstr ""
+msgstr "تم حذف محتوى OCR لـ %(count)d إصدار وثيقة بنجاح."
 
 #: views.py:127
 #, python-format
 msgid "OCR content of \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "تم حذف محتوى OCR لـ \"%(object)s\" بنجاح."
 
 #: views.py:130
 #, python-format
 msgid "OCR content of %(count)d document version deleted successfully."
-msgstr ""
+msgstr "تم حذف محتوى OCR لـ %(count)d إصدار وثيقة بنجاح."
 
 #: views.py:133
 #, python-format
 msgid "Delete the OCR content of the %(count)d selected document versions."
-msgstr ""
+msgstr "حذف محتوى OCR للإصدارات المحددة (%(count)d) من الوثيقة؟"
 
 #: views.py:135
 #, python-format
 msgid "Delete the OCR content of: %(object)s."
-msgstr ""
+msgstr "حذف محتوى OCR لـ: %(object)s؟"
 
 #: views.py:137
 #, python-format
 msgid "Delete the OCR content of the %(count)d selected document version."
-msgstr ""
+msgstr "حذف محتوى OCR لإصدار الوثيقة المحدد (%(count)d)؟"
 
 #: views.py:168
 #, python-format
@@ -229,12 +230,12 @@ msgstr "تحويل الوثيقة الى نص : %s"
 #: views.py:190
 #, python-format
 msgid "%(count)d document version submitted to the OCR queue."
-msgstr ""
+msgstr "تم إرسال %(count)d إصدار وثيقة إلى طابور OCR."
 
 #: views.py:193
 #, python-format
 msgid "%(count)d document versions submitted to the OCR queue."
-msgstr ""
+msgstr "تم إرسال %(count)d إصدار وثيقة إلى طابور OCR."
 
 #: views.py:202
 msgid "Submit the selected document version to the OCR queue?"
@@ -249,12 +250,12 @@ msgstr[5] ""
 #: views.py:238
 #, python-format
 msgid "OCR result for document version page: %s"
-msgstr ""
+msgstr "نتيجة OCR لصفحة إصدار الوثيقة: %s"
 
 #: views.py:266
 #, python-format
 msgid "Edit OCR for document version page: %s"
-msgstr ""
+msgstr "تحرير OCR لصفحة إصدار الوثيقة: %s"
 
 #: workflow_actions.py:18
 msgid "Page condition"

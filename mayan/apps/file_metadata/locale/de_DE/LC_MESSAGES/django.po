@@ -10,7 +10,7 @@
 # Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2024
 # Berny <berny@bernhard-marx.de>, 2024
 # Roberto Rosario, 2024
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-14 23:59+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -73,15 +73,16 @@ msgid ""
 "Whether or not this driver will be enabled by default for new document "
 "types."
 msgstr ""
+"Ob dieser Treiber für neue Dokumententypen standardmäßig aktiviert wird."
 
 #: apps.py:195
 msgid "Enabled by default?"
-msgstr ""
+msgstr "Standardmäßig aktiviert"
 
 #: classes.py:207 model_mixins.py:36
 #, python-format
 msgid "Badly formatted arguments YAML; %s"
-msgstr ""
+msgstr "Fehlerhaft formattierte YAML Argumente; %s"
 
 #: events.py:10
 msgid "Document file submitted for file metadata processing"
@@ -105,7 +106,7 @@ msgstr "Bearbeiten"
 
 #: links.py:60
 msgid "File metadata driver setup"
-msgstr ""
+msgstr "Dateimetadatentreiber Setup"
 
 #: links.py:66
 msgid "File metadata processing per type"
@@ -113,7 +114,7 @@ msgstr "Dateimetadatenverarbeitung nach Typ"
 
 #: links.py:75 views/tool_views.py:28
 msgid "File metadata drivers"
-msgstr ""
+msgstr "Dateimetadatentreiber"
 
 #: methods.py:56
 msgid "Return the specified document file file metadata entry."
@@ -130,6 +131,8 @@ msgstr "Vollständiger Pfad"
 #: model_mixins.py:60
 msgid "Path used to access the value of the file metadata entry."
 msgstr ""
+"Pfad der verwendet wird, um auf den Wert des Dateimetadateneintrags "
+"zuzugreifen."
 
 #: models.py:26 models.py:64 models.py:165
 msgid "Driver"
@@ -152,6 +155,8 @@ msgid ""
 "Enter the arguments for the drive for the specific document type as a YAML "
 "dictionary. ie: {\"degrees\": 180}"
 msgstr ""
+"Argumente für den Aufruf des Treibers für den spezifischen Dokumententyp als"
+" YAML dictionary eingeben, z.B: {\"degrees\": 180}"
 
 #: models.py:59 serializers/document_type_serializers.py:16
 msgid "Document type"
@@ -161,6 +166,8 @@ msgstr "Dokumententyp"
 msgid ""
 "Enable this driver to process document files of the selected document type."
 msgstr ""
+"Aktivieren Sie diesen Treiber um Dokumentendateien der ausgewählten "
+"Dokumententypen zu verarbeiten."
 
 #: models.py:70
 msgid "Enabled"
@@ -168,15 +175,15 @@ msgstr "Aktiviert"
 
 #: models.py:82 models.py:83
 msgid "Document type driver settings"
-msgstr ""
+msgstr "Dokumententyp Treibereinstellungen"
 
 #: models.py:96
 msgid "Normalized name of the file metadata entry."
-msgstr ""
+msgstr "Normalisierter Name des Dateimetadateneintrags."
 
 #: models.py:101
 msgid "Name of the file metadata entry as provided by the driver."
-msgstr ""
+msgstr "Name des Dateimetadateneintrags wie vom Treiber geliefert."
 
 #: models.py:103
 msgid "Key"
@@ -205,10 +212,11 @@ msgstr "Treiberpfad"
 #: models.py:156
 msgid "The class defined by this instance is valid and active."
 msgstr ""
+"Die Klasse, die durch diese Instanz definiert ist, ist gültig und aktiv."
 
 #: models.py:157
 msgid "Valid"
-msgstr ""
+msgstr "Gültig"
 
 #: models.py:166
 msgid "Drivers"
@@ -232,11 +240,11 @@ msgstr "Dokumentendatei verarbeiten"
 
 #: queues.py:16
 msgid "Finish document file metadata processing"
-msgstr ""
+msgstr "Verarbeitung von Dateimetadaten beenden"
 
 #: queues.py:20
 msgid "Process file metadata driver"
-msgstr ""
+msgstr "Dateimetadatentreiber verarbeiten"
 
 #: search.py:11 search.py:22
 msgid "File metadata key"
@@ -252,11 +260,11 @@ msgstr "URL"
 #: serializers/document_file_serializers.py:37
 #: serializers/document_type_serializers.py:19
 msgid "Stored driver"
-msgstr ""
+msgstr "Gespeicherter Treiber"
 
 #: serializers/file_metadata_serializers.py:22
 msgid "Enabled default"
-msgstr ""
+msgstr "Aktivierter Standard"
 
 #: settings.py:19
 msgid ""
@@ -339,20 +347,24 @@ msgid ""
 "Edit file metadata driver \"%(file_metadata_driver)s\" settings for document"
 " type: %(document_type)s"
 msgstr ""
+"Einstellungen für Dateimetadatentreiber \"%(file_metadata_driver)s\" für "
+"Dokumententyp %(document_type)s bearbeiten"
 
 #: views/document_type_views.py:84
 msgid ""
 "File metadata drivers extract embedded information from document files."
 msgstr ""
+"Dateimetadatentreiber extrahieren in Dokumentendateien eingebettete "
+"Informationen."
 
 #: views/document_type_views.py:88
 msgid "No file metadata drivers available for this document type."
-msgstr ""
+msgstr "Keine Dateimetadatentreiber für diesen Dokumententyp verfügbar."
 
 #: views/document_type_views.py:92
 #, python-format
 msgid "File metadata driver configuration for document type \"%s\"."
-msgstr ""
+msgstr "Dateimetadatentreibereinstellungen für Dokumententyp \"%s\"."
 
 #: views/document_type_views.py:106
 msgid "Submit all documents of a type for file metadata processing."
@@ -372,14 +384,16 @@ msgid ""
 "File metadata drivers extract embedded information from document files. File"
 " metadata drivers are configure in code only."
 msgstr ""
+"Dateimetadatentreiber extrahieren in Dokumentendateien eingebettete "
+"Informationen. Sie werden nur im Code konfiguriert."
 
 #: views/tool_views.py:24
 msgid "No file metadata drivers available."
-msgstr ""
+msgstr "Keine Dateimetadatentreiber verfügbar."
 
 #: views/tool_views.py:26
 msgid "File metadata drivers enabled and detected."
-msgstr ""
+msgstr "Dateimetadatentreiber aktiviert und entdeckt."
 
 #: views/view_mixins.py:34
 #, python-format
@@ -387,3 +401,5 @@ msgid ""
 "The template string to be evaluated. Leave empty to use the driver's value "
 "passed via settings. Default value: %s."
 msgstr ""
+"Die Vorlagenzeichenfolge die ausgewertet werden soll. Leer lassen um die "
+"Werte aus den Treibereinstellungen zu verwenden. Standardwert: %s."

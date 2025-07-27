@@ -401,6 +401,13 @@ source_lang   = en
 resource_name = v4.8 Platform Docker
 type          = PO
 
+[o:rosarior:p:mayan-edms:r:platform_forge-4-8]
+file_filter   = mayan/apps/platform_forge/locale/<lang>/LC_MESSAGES/django.po
+source_file   = mayan/apps/platform_forge/locale/en/LC_MESSAGES/django.po
+source_lang   = en
+resource_name = v4.8 Platform Forge
+type          = PO
+
 [o:rosarior:p:mayan-edms:r:quotas-4-8]
 file_filter   = mayan/apps/quotas/locale/<lang>/LC_MESSAGES/django.po
 source_file   = mayan/apps/quotas/locale/en/LC_MESSAGES/django.po

@@ -9,8 +9,8 @@
 # Thomas Lauterbach <lauterbachthomas@googlemail.com>, 2024
 # Bjoern Kowarsch <bjoern.kowarsch@gmail.com>, 2024
 # tetjarediske <tetja.rediske@googlemail.com>, 2024
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
 # Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -332,12 +332,12 @@ msgstr "Ereignisse für Typ %s exportieren"
 #: views/notification_views.py:20
 #, python-format
 msgid "Error deleting notification \"%(instance)s\"; %(exception)s"
-msgstr ""
+msgstr "Fehler beim Löschen der Benachrichtigung \"%(instance)s\"; %(exception)s"
 
 #: views/notification_views.py:27
 #, python-format
 msgid "%(count)d notifications deleted successfully."
-msgstr ""
+msgstr "%(count)d Benachrichtigungen erfolgreich gelöscht."
 
 #: views/notification_views.py:30
 #, python-format
@@ -347,22 +347,22 @@ msgstr "Benutzer \"%(object)s\" erfolgreich gelöscht."
 #: views/notification_views.py:33
 #, python-format
 msgid "%(count)d notification deleted successfully."
-msgstr ""
+msgstr "%(count)d Benachrichtigung erfolgreich gelöscht."
 
 #: views/notification_views.py:35
 #, python-format
 msgid "Delete the %(count)d selected notifications."
-msgstr ""
+msgstr "%(count)d ausgewählte Benachrichtigungen löschen."
 
 #: views/notification_views.py:36
 #, python-format
 msgid "Delete notification: %(object)s."
-msgstr ""
+msgstr "Benachrichtigung löschen: %(object)s."
 
 #: views/notification_views.py:37
 #, python-format
 msgid "Delete the %(count)d selected notification."
-msgstr ""
+msgstr "%(count)d ausgewählte Benachrichtigung löschen."
 
 #: views/notification_views.py:52
 msgid "Subscribe to global or object events to receive notifications."
@@ -418,6 +418,8 @@ msgid ""
 "Subscribe to the events of an object to receive notifications when those "
 "events occur."
 msgstr ""
+"Zu den Ereignissen eines Objekts subskribieren um Benachrichtigungen zu "
+"erhalte, wenn diese Ereignisse auftreten."
 
 #: views/subscription_views.py:167
 msgid "There are no object event subscriptions"

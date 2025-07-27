@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"POT-Creation-Date: 2025-07-27 19:21+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: René Rovsing Bach <reroba@outlook.com>, 2024\n"
 "Language-Team: Danish (https://app.transifex.com/rosarior/teams/13584/da/)\n"
@@ -272,16 +272,16 @@ msgstr ""
 msgid "Actions"
 msgstr "Handlinger"
 
-#: templates/appearance/partials/list/toolbar.html:15
+#: templates/appearance/partials/list/toolbar.html:14
 msgid "Select/Deselect all"
 msgstr ""
 
-#: templates/appearance/partials/list/toolbar.html:28
+#: templates/appearance/partials/list/toolbar.html:26
 msgid ""
 "Select items to activate bulk actions. Use Shift + click to select many."
 msgstr ""
 
-#: templates/appearance/partials/list/toolbar.html:32
+#: templates/appearance/partials/list/toolbar.html:30
 msgid "Bulk actions"
 msgstr ""
 

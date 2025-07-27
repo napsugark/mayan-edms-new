@@ -12,6 +12,7 @@
 # John Kawas <john@clinicalclouds.com>, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -19,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 04:33+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Mohammed ALDOUB <voulnet@gmail.com>, 2024\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,13 +36,13 @@ msgstr "الوثائق"
 
 #: apps.py:236 models/favorite_document_models.py:33
 msgid "Date and time added"
-msgstr ""
+msgstr "تاريخ ووقت الإضافة"
 
 #: apps.py:278 links/document_file_page_links.py:76
 #: models/document_file_models.py:107 models/document_file_page_models.py:28
 #: search.py:54
 msgid "Document file"
-msgstr ""
+msgstr "ملف المستند"
 
 #: apps.py:282 models/document_file_page_models.py:32
 #: models/document_version_page_models.py:42
@@ -75,7 +76,7 @@ msgstr "صفحات"
 
 #: apps.py:469
 msgid "Access date and time"
-msgstr ""
+msgstr "تاريخ ووقت الوصول"
 
 #: apps.py:534
 msgid "Create a document type"
@@ -91,35 +92,35 @@ msgstr ""
 
 #: apps.py:929
 msgid "File comments"
-msgstr ""
+msgstr "تعليقات الملف"
 
 #: apps.py:933
 msgid "File encodings"
-msgstr ""
+msgstr "ترميزات الملفات"
 
 #: apps.py:937
 msgid "File MIME types"
-msgstr ""
+msgstr "أنواع MIME للملفات"
 
 #: apps.py:941
 msgid "File timestamps"
-msgstr ""
+msgstr "الطوابع الزمنية للملف"
 
 #: apps.py:945
 msgid "Return the latest file of the document."
-msgstr ""
+msgstr "إرجاع أحدث ملف في المستند."
 
 #: apps.py:946
 msgid "Latest file"
-msgstr ""
+msgstr "الملف الأخير"
 
 #: apps.py:950
 msgid "Return the active version of the document."
-msgstr ""
+msgstr "إرجاع النسخة النشطة من المستند."
 
 #: apps.py:951
 msgid "Active version"
-msgstr ""
+msgstr "النسخة النشطة"
 
 #: apps.py:999
 msgid "Type"
@@ -139,17 +140,19 @@ msgstr "UUID"
 
 #: classes.py:79
 msgid "Generates an immutable, random UUID (RFC 4122) for each file."
-msgstr ""
+msgstr "ينشئ UUID عشوائي وغير قابل للتغيير (وفق RFC 4122) لكل ملف."
 
 #: classes.py:90
 msgid "UUID plus original"
-msgstr ""
+msgstr "UUID بالإضافة إلى الأصلي"
 
 #: classes.py:92
 msgid ""
 "Generates an immutable, random UUID (RFC 4122) for each file and appends the"
 " original filename of the uploaded file."
 msgstr ""
+"ينشئ UUID عشوائي وغير قابل للتغيير (وفق RFC 4122) لكل ملف ويضيف اسم الملف "
+"الأصلي الذي تم رفعه"
 
 #: dashboard_widgets.py:29
 msgid "Total pages"
@@ -179,33 +182,35 @@ msgstr "صفحات جديدة هذا الشهر"
 
 #: document_file_actions.py:9
 msgid "Append. Create a new version and append the new file pages."
-msgstr ""
+msgstr "الإضافة. إنشاء نسخة جديدة وإلحاق صفحات الملف الجديدة."
 
 #: document_file_actions.py:46
 msgid "Keep. Do not create a new version and keep the current version pages."
-msgstr ""
+msgstr "الاحتفاظ. عدم إنشاء نسخة جديدة والحفاظ على صفحات النسخة الحالية."
 
 #: document_file_actions.py:57
 msgid "Replace. Create a new version and use the new file pages."
-msgstr ""
+msgstr "استبدال. إنشاء نسخة جديدة واستخدام صفحات الملف الجديدة."
 
 #: document_version_modifications.py:11
 msgid "Append all file pages"
-msgstr ""
+msgstr "إلحاق جميع صفحات الملف"
 
 #: document_version_modifications.py:13
 msgid ""
 "The current pages will be deleted and then all the document file pages will "
 "be appended as pages of this document version."
 msgstr ""
+"سيتم حذف الصفحات الحالية ثم إلحاق جميع صفحات ملف المستند كصفحات لهذه النسخة "
+"من المستند."
 
 #: document_version_modifications.py:29
 msgid "Reset pages to latest file"
-msgstr ""
+msgstr "إعادة تعيين الصفحات إلى أحدث ملف"
 
 #: document_version_modifications.py:30
 msgid "Match all pages to that of the latest document file."
-msgstr ""
+msgstr "مطابقة جميع الصفحات مع صفحات أحدث ملف للمستند."
 
 #: events.py:12
 msgid "Document created"
@@ -221,15 +226,15 @@ msgstr "إستعراض الوثيقة"
 
 #: events.py:24
 msgid "Document file created"
-msgstr ""
+msgstr "تم إنشاء ملف المستند"
 
 #: events.py:27
 msgid "Document file deleted"
-msgstr ""
+msgstr "تم حذف ملف المستند"
 
 #: events.py:30
 msgid "Document file edited"
-msgstr ""
+msgstr "تم تعديل ملف المستند"
 
 #: events.py:36
 msgid "Document type created"
@@ -241,15 +246,15 @@ msgstr "تعديل نوع الوثيقة"
 
 #: events.py:42
 msgid "Document type quick label created"
-msgstr ""
+msgstr "تم إنشاء تسمية سريعة لنوع المستند"
 
 #: events.py:46
 msgid "Document type quick label deleted"
-msgstr ""
+msgstr "تم حذف التسمية السريعة لنوع المستند"
 
 #: events.py:50
 msgid "Document type quick label edited"
-msgstr ""
+msgstr "تم تعديل التسمية السريعة لنوع المستند"
 
 #: events.py:55
 msgid "Document type changed"
@@ -257,27 +262,27 @@ msgstr "تغير نوع الوثيقة"
 
 #: events.py:61
 msgid "Document version created"
-msgstr ""
+msgstr "تم إنشاء نسخة من المستند"
 
 #: events.py:64
 msgid "Document version deleted"
-msgstr ""
+msgstr "تم حذف نسخة المستند"
 
 #: events.py:67
 msgid "Document version edited"
-msgstr ""
+msgstr "تم حذف نسخة المستند"
 
 #: events.py:73
 msgid "Document version page created"
-msgstr ""
+msgstr "تم إنشاء صفحة نسخة المستند"
 
 #: events.py:77
 msgid "Document version page deleted"
-msgstr ""
+msgstr "تم حذف صفحة نسخة المستند"
 
 #: events.py:81
 msgid "Document version page edited"
-msgstr ""
+msgstr "تم تعديل صفحة نسخة المستند"
 
 #: events.py:88
 msgid "Document trashed"
@@ -285,31 +290,31 @@ msgstr "إتلاف الوثائق"
 
 #: events.py:91
 msgid "Trashed document deleted"
-msgstr ""
+msgstr "تم حذف المستند من سلة المهملات"
 
 #: events.py:94
 msgid "Trashed document restored"
-msgstr ""
+msgstr "تم استعادة المستند من سلة المهملات"
 
 #: events.py:100
 msgid "Document downloaded (historic)"
-msgstr ""
+msgstr "تم تحميل المستند (تاريخي)"
 
 #: events.py:103
 msgid "Document file created (historic)"
-msgstr ""
+msgstr "تم تحميل المستند (تاريخي)"
 
 #: events.py:107
 msgid "Document version reverted (historic)"
-msgstr ""
+msgstr "تمت إعادة نسخة المستند إلى حالة سابقة (تاريخية)."
 
 #: events.py:111
 msgid "Document version uploaded (historic)"
-msgstr ""
+msgstr "تم رفع نسخة المستند (تاريخية)"
 
 #: forms/document_file_forms.py:41
 msgid "Detected"
-msgstr ""
+msgstr "تم الكشف"
 
 #: forms/document_file_forms.py:45
 msgid "Storage"
@@ -317,7 +322,7 @@ msgstr "المساحة التخزينية"
 
 #: forms/document_file_forms.py:49
 msgid "Other"
-msgstr ""
+msgstr "آخر"
 
 #: forms/document_file_forms.py:58
 msgid "Date added"
@@ -334,7 +339,7 @@ msgstr "التشفير"
 #: forms/document_file_forms.py:71 models/document_file_model_mixins.py:371
 #: models/document_file_models.py:102
 msgid "Size"
-msgstr ""
+msgstr "الحجم"
 
 #: forms/document_file_forms.py:77
 msgid "Exists in storage"
@@ -342,7 +347,7 @@ msgstr "موجود في التخزين"
 
 #: forms/document_file_forms.py:80
 msgid "Path in storage"
-msgstr ""
+msgstr "المسار في التخزين"
 
 #: forms/document_file_forms.py:83 models/document_file_models.py:97
 msgid "Checksum"
@@ -366,7 +371,7 @@ msgstr ""
 
 #: forms/document_forms.py:104
 msgid "Date created"
-msgstr ""
+msgstr "تاريخ الإنشاء"
 
 #: forms/document_forms.py:112 models/document_models.py:78
 msgid "Language"
@@ -382,7 +387,7 @@ msgstr "نوع الوثيقة"
 #: forms/document_version_forms.py:19
 msgid ""
 "The backend that will be executed against the selected document version."
-msgstr ""
+msgstr "النظام الخلفي الذي سيتم تنفيذه على نسخة المستند المختارة."
 
 #: forms/document_version_forms.py:21
 msgid "Backend"
@@ -391,7 +396,7 @@ msgstr "في الخفاء"
 #: forms/document_version_page_forms.py:29
 #: serializers/document_version_serializers.py:38
 msgid "Content type"
-msgstr ""
+msgstr "نوع المحتوى"
 
 #: forms/document_version_page_forms.py:32
 msgid "Object ID"
@@ -403,15 +408,15 @@ msgstr "مصدر"
 
 #: forms/document_version_page_forms.py:42
 msgid "Destination page number"
-msgstr ""
+msgstr "رقم الصفحة الوجهة"
 
 #: forms/document_version_page_forms.py:73
 msgid "Target page number can't be repeated."
-msgstr ""
+msgstr "لا يمكن تكرار رقم صفحة الوجهة"
 
 #: forms/misc_forms.py:11
 msgid "Page group"
-msgstr ""
+msgstr "مجموعة الصفحات"
 
 #: forms/misc_forms.py:14 literals.py:99
 msgid "Page range"
@@ -438,11 +443,11 @@ msgstr "تعديل"
 
 #: links/document_file_links.py:41 links/document_file_links.py:48
 msgid "Introspect"
-msgstr ""
+msgstr "التفتيش الداخلي"
 
 #: links/document_file_links.py:55 links/document_file_links.py:77
 msgid "Files"
-msgstr ""
+msgstr "الملفات"
 
 #: links/document_file_links.py:59 links/document_version_links.py:67
 msgid "Print"
@@ -489,7 +494,7 @@ msgstr "الصفحة التالية"
 #: links/document_file_page_links.py:83 models/document_file_page_models.py:41
 #: models/document_file_page_models.py:86
 msgid "Document file pages"
-msgstr ""
+msgstr "صفحات ملف المستند"
 
 #: links/document_file_page_links.py:89
 #: links/document_version_page_links.py:108
@@ -535,7 +540,7 @@ msgstr "المعروض مؤخرًا"
 
 #: links/document_links.py:32 views/recently_created_document_views.py:27
 msgid "Recently created"
-msgstr ""
+msgstr "مُنشَأ حديثًا"
 
 #: links/document_links.py:53
 msgid "Edit properties"
@@ -559,15 +564,15 @@ msgstr "توليد اسم الملف"
 
 #: links/document_type_links.py:74
 msgid "Retention policies"
-msgstr ""
+msgstr "سياسات الاحتفاظ"
 
 #: links/document_version_links.py:27
 msgid "Make active"
-msgstr ""
+msgstr "تفعيل"
 
 #: links/document_version_links.py:32
 msgid "Create document version"
-msgstr ""
+msgstr "إنشاء نسخة من المستند"
 
 #: links/document_version_links.py:52 links/document_version_links.py:79
 msgid "Versions"
@@ -575,11 +580,11 @@ msgstr "إصدارات"
 
 #: links/document_version_links.py:57
 msgid "Modify"
-msgstr ""
+msgstr "تعديل"
 
 #: links/document_version_page_links.py:55
 msgid "Remap pages"
-msgstr ""
+msgstr "إعادة تعيين الصفحات"
 
 #: links/document_version_page_links.py:96
 #: models/document_version_models.py:54
@@ -591,7 +596,7 @@ msgstr "نسخة الوثيقة"
 #: models/document_version_page_models.py:60
 #: models/document_version_page_models.py:104
 msgid "Document version pages"
-msgstr ""
+msgstr "صفحات نسخة المستند"
 
 #: links/favorite_links.py:34 views/favorite_document_views.py:38
 msgid "Favorites"
@@ -694,11 +699,11 @@ msgstr "العنوان"
 
 #: models/document_file_model_mixins.py:512
 msgid "Controls what happens when a new document file is uploaded."
-msgstr ""
+msgstr "يتحكم فيما يحدث عند رفع ملف وثيقة جديد"
 
 #: models/document_file_models.py:62
 msgid "The server date and time when the document file was processed."
-msgstr ""
+msgstr "تاريخ ووقت الخادم عند معالجة ملف المستند."
 
 #: models/document_file_models.py:63 models/document_version_models.py:36
 msgid "Timestamp"
@@ -706,7 +711,7 @@ msgstr "الطابع الزمني"
 
 #: models/document_file_models.py:67
 msgid "An optional short text describing the document file."
-msgstr ""
+msgstr "نص قصير اختياري يصف ملف المستند."
 
 #: models/document_file_models.py:68 models/document_version_models.py:41
 msgid "Comment"
@@ -726,26 +731,28 @@ msgid ""
 " the format of a file, in this case the file format of the document. Some "
 "examples: \"text/plain\" or \"image/jpeg\". "
 msgstr ""
+"نوع MIME لملف المستند. أنواع MIME هي طريقة معيارية لوصف تنسيق الملف،  وفي "
+"هذه الحالة تنسيق ملف المستند.بعض الأمثلة: \"text/plain\" أو \"image/jpeg\"."
 
 #: models/document_file_models.py:88
 msgid ""
 "The document file file encoding. binary 7-bit, binary 8-bit, text, base64, "
 "etc."
-msgstr ""
+msgstr "ترميز ملف المستند: ثنائي 7-بت، ثنائي 8-بت، نص، base64، إلخ."
 
 #: models/document_file_models.py:108 storages.py:27
 msgid "Document files"
-msgstr ""
+msgstr "ملفات المستند"
 
 #: models/document_file_page_model_mixins.py:238
 #, python-format
 msgid "%(document_file)s - page %(page_num)d of %(total_pages)d"
-msgstr ""
+msgstr "%(document_file)s صفحة - %(page_num)d من %(total_pages)d"
 
 #: models/document_file_page_models.py:40
 #: models/document_file_page_models.py:85 search.py:91
 msgid "Document file page"
-msgstr ""
+msgstr "صفحة ملف المستند"
 
 #: models/document_model_mixins.py:176
 #, python-format
@@ -754,7 +761,7 @@ msgstr "الوثائق : %d"
 
 #: models/document_models.py:43
 msgid "Latest document file"
-msgstr ""
+msgstr "أحدث ملف وثيقة"
 
 #: models/document_models.py:48
 msgid ""
@@ -771,6 +778,8 @@ msgid ""
 "A short text identifying the document. By default, will be set to the "
 "filename of the first file uploaded to the document."
 msgstr ""
+"نص قصير يحدد المستند. بشكل افتراضي، سيتم تعيينه إلى اسم الملف الخاص بأول ملف"
+" تم رفعه إلى المستند."
 
 #: models/document_models.py:67
 msgid "An optional short text describing a document."
@@ -782,7 +791,7 @@ msgstr "الوصف"
 
 #: models/document_models.py:72
 msgid "The date and time of the document creation."
-msgstr ""
+msgstr "تاريخ ووقت إنشاء المستند."
 
 #: models/document_models.py:73
 msgid "Created"
@@ -790,7 +799,7 @@ msgstr "أنشأت"
 
 #: models/document_models.py:77
 msgid "The primary language in the document."
-msgstr ""
+msgstr "اللغة الأساسية في المستند."
 
 #: models/document_models.py:82
 msgid "Whether or not this document is in the trash."
@@ -823,11 +832,11 @@ msgstr "Is stub?"
 
 #: models/document_models.py:101
 msgid "Active document version"
-msgstr ""
+msgstr "إصدار الوثيقة النشط"
 
 #: models/document_type_models.py:42
 msgid "A short text identifying the document type."
-msgstr ""
+msgstr "نص قصير يحدد نوع المستند."
 
 #: models/document_type_models.py:47
 msgid ""
@@ -881,10 +890,11 @@ msgid ""
 "Delete documents that do not contain any files after a configured expiration"
 " interval."
 msgstr ""
+"حذف الوثائق التي لا تحتوي على أي ملفات بعد انتهاء فترة الاحتفاظ المحددة"
 
 #: models/document_type_models.py:89
 msgid "Document stub pruning"
-msgstr ""
+msgstr "تقليم كعب الوثيقة"
 
 #: models/document_type_models.py:93
 msgid ""
@@ -892,10 +902,12 @@ msgid ""
 " deleted, if pruning is enabled. This an optimization setting and should "
 "only be changed for specific circumstances."
 msgstr ""
+"المدة (بالثواني) التي بعدها يعتبر كعب الوثيقة غير صالح ويتم حذفه، إذا كان "
+"التقليم مفعلاً. هذا إعداد تحسين ويجب تغييره فقط في ظروف محددة"
 
 #: models/document_type_models.py:97
 msgid "Document stub expiration interval"
-msgstr ""
+msgstr "فترة انتهاء صلاحية كعب الوثيقة"
 
 #: models/document_type_models.py:159
 msgid "Enabled"
@@ -907,7 +919,7 @@ msgstr "تسمية سريعة"
 
 #: models/document_version_models.py:34
 msgid "The server date and time when the document version was created."
-msgstr ""
+msgstr "تاريخ ووقت الخادم عند إنشاء نسخة المستند."
 
 #: models/document_version_models.py:40
 msgid "An optional short text describing the document version."
@@ -915,37 +927,37 @@ msgstr "نص قصير اختياري يصف إصدار المستند."
 
 #: models/document_version_models.py:45
 msgid "Determines the active version of the document."
-msgstr ""
+msgstr "يحدد النسخة النشطة من المستند."
 
 #: models/document_version_models.py:46
 msgid "Active"
-msgstr ""
+msgstr "نشط"
 
 #: models/document_version_models.py:55
 msgid "Document versions"
-msgstr ""
+msgstr "إصدارات المستند"
 
 #: models/document_version_page_model_mixins.py:284
 #, python-format
 msgid "%(document_version)s page %(page_number)d of %(total_pages)d"
-msgstr ""
+msgstr "%(document_version)s صفحة %(page_number)d من %(total_pages)d"
 
 #: models/document_version_page_models.py:40
 msgid "Unique integer number for the page. Pages are ordered by this number."
-msgstr ""
+msgstr "رقم صحيح فريد للصفحة. يتم ترتيب الصفحات بناءً على هذا الرقم."
 
 #: models/document_version_page_models.py:46
 msgid "Content type for the source object of the page."
-msgstr ""
+msgstr "نوع المحتوى للكائن المصدر للصفحة."
 
 #: models/document_version_page_models.py:50
 msgid "ID for the source object of the page."
-msgstr ""
+msgstr "معرف (ID) للكائن المصدر للصفحة."
 
 #: models/document_version_page_models.py:59
 #: models/document_version_page_models.py:103 search.py:161
 msgid "Document version page"
-msgstr ""
+msgstr "صفحة نسخة المستند"
 
 #: models/favorite_document_models.py:26
 #: models/recently_accessed_document_models.py:21
@@ -976,15 +988,15 @@ msgstr "الوثائق الأخيرة"
 
 #: models/recently_accessed_document_models.py:55
 msgid "Recently accessed document"
-msgstr ""
+msgstr "المستند الذي تم الوصول إليه مؤخرًا"
 
 #: models/recently_accessed_document_models.py:56
 msgid "Recently accessed documents"
-msgstr ""
+msgstr "المستندات التي تم الوصول إليها مؤخرًا"
 
 #: permissions.py:12
 msgid "Change type of documents"
-msgstr ""
+msgstr "تغيير نوع المستندات"
 
 #: permissions.py:15
 msgid "Create documents"
@@ -1008,47 +1020,47 @@ msgstr "عرض الوثائق"
 
 #: permissions.py:33
 msgid "Delete document files"
-msgstr ""
+msgstr "حذف ملفات المستند"
 
 #: permissions.py:36
 msgid "Edit document files"
-msgstr ""
+msgstr "تعديل ملفات المستند"
 
 #: permissions.py:39
 msgid "Create new document files"
-msgstr ""
+msgstr "إنشاء ملفات مستند جديدة"
 
 #: permissions.py:42
 msgid "Print document files"
-msgstr ""
+msgstr "طباعة ملفات المستند"
 
 #: permissions.py:45
 msgid "Execute document file modifying tools"
-msgstr ""
+msgstr "تنفيذ أدوات تعديل ملفات المستند"
 
 #: permissions.py:49
 msgid "View document files"
-msgstr ""
+msgstr "عرض ملفات المستند"
 
 #: permissions.py:56
 msgid "Create document versions"
-msgstr ""
+msgstr "إنشاء نُسخ من المستند"
 
 #: permissions.py:60
 msgid "Delete document versions"
-msgstr ""
+msgstr "حذف نُسخ المستند"
 
 #: permissions.py:64
 msgid "Edit document versions"
-msgstr ""
+msgstr "تعديل نُسخ المستند "
 
 #: permissions.py:68
 msgid "Print document versions"
-msgstr ""
+msgstr "طباعة نُسخ المستند"
 
 #: permissions.py:71
 msgid "View document versions"
-msgstr ""
+msgstr "عرض نُسخ المستند"
 
 #: permissions.py:81
 msgid "Create document types"
@@ -1072,7 +1084,7 @@ msgstr "التراجع عن إتلاف الوثيقة "
 
 #: permissions.py:99
 msgid "Delete trashed documents"
-msgstr ""
+msgstr "حذف المستندات المحذوفة من سلة المهملات"
 
 #: permissions.py:102
 msgid "Trash documents"
@@ -1080,19 +1092,19 @@ msgstr "الوثائق المتلفة"
 
 #: queues.py:14
 msgid "Documents fast"
-msgstr ""
+msgstr "وثائق سريعة"
 
 #: queues.py:17
 msgid "Documents slow"
-msgstr ""
+msgstr "وثائق بطيئة"
 
 #: queues.py:20
 msgid "Documents file"
-msgstr ""
+msgstr "ملف الوثائق"
 
 #: queues.py:23
 msgid "Documents file slow"
-msgstr ""
+msgstr "ملف الوثائق بطيء"
 
 #: queues.py:27
 msgid "Documents periodic"
@@ -1100,51 +1112,51 @@ msgstr "وثائق دورية"
 
 #: queues.py:31
 msgid "Documents trash"
-msgstr ""
+msgstr "سلة محذوفات الوثائق"
 
 #: queues.py:35
 msgid "Documents version"
-msgstr ""
+msgstr "إصدار الوثائق"
 
 #: queues.py:41
 msgid "Create new document file"
-msgstr ""
+msgstr "إنشاء ملف وثيقة جديد"
 
 #: queues.py:45
 msgid "Upload new document file"
-msgstr ""
+msgstr "رفع ملف مستند جديد"
 
 #: queues.py:49
 msgid "Move a document to the trash"
-msgstr ""
+msgstr "نقل مستند إلى سلة المهملات"
 
 #: queues.py:53
 msgid "Upload new document"
-msgstr ""
+msgstr "رفع مستند جديد"
 
 #: queues.py:58
 msgid "Calculate and update document file checksum"
-msgstr ""
+msgstr "حساب وتحديث التحقق (checksum) لملف المستند"
 
 #: queues.py:62
 msgid "Calculate and update document file MIME type"
-msgstr ""
+msgstr "حساب وتحديث نوع MIME لملف المستند"
 
 #: queues.py:66
 msgid "Update document file page count"
-msgstr ""
+msgstr "تحديث عدد صفحات ملف الوثيقة"
 
 #: queues.py:70
 msgid "Update document file size"
-msgstr ""
+msgstr "تحديث حجم ملف الوثيقة"
 
 #: queues.py:74
 msgid "Create a new version after the file is processed"
-msgstr ""
+msgstr "إنشاء إصدار جديد بعد معالجة الملف"
 
 #: queues.py:79
 msgid "Delete a document file"
-msgstr ""
+msgstr "حذف ملف وثيقة"
 
 #: queues.py:84
 msgid "Check document type trash periods"
@@ -1168,23 +1180,23 @@ msgstr "احذف مستند"
 
 #: queues.py:114
 msgid "Append all document file pages to a document version"
-msgstr ""
+msgstr "إلحاق جميع صفحات ملف المستند إلى نسخة المستند"
 
 #: queues.py:118
 msgid "Reset the page list of a document version"
-msgstr ""
+msgstr "إعادة تعيين قائمة صفحات نسخة المستند"
 
 #: queues.py:122
 msgid "Export a document version"
-msgstr ""
+msgstr "تصدير نسخة المستند"
 
 #: queues.py:126
 msgid "Delete a document version"
-msgstr ""
+msgstr "حذف نسخة المستند"
 
 #: search.py:31
 msgid "The database ID of the document type."
-msgstr ""
+msgstr "معرّف نوع الوثيقة في قاعدة البيانات"
 
 #: search.py:32 serializers/document_serializers.py:32
 #: serializers/document_serializers.py:78
@@ -1201,11 +1213,11 @@ msgstr "وصف الوثيقة"
 
 #: search.py:73 search.py:145
 msgid "The database ID of the document."
-msgstr ""
+msgstr "معرّف الوثيقة في قاعدة البيانات"
 
 #: search.py:74 search.py:146 serializers/favorite_document_serializers.py:17
 msgid "Document ID"
-msgstr ""
+msgstr "معرّف المستند"
 
 #: search.py:77 search.py:106 search.py:149 search.py:177
 msgid "Document label"
@@ -1217,17 +1229,17 @@ msgstr "الوثائق المحددة"
 
 #: search.py:109
 msgid "Document file checksum"
-msgstr ""
+msgstr "المجموع الاختباري لملف المستند"
 
 #: serializers/document_file_serializers.py:12
 msgid "Document file URL"
-msgstr ""
+msgstr "عنوان URL لملف المستند"
 
 #: serializers/document_file_serializers.py:24
 #: serializers/document_version_serializers.py:57
 #: serializers/trashed_document_serializers.py:12
 msgid "Image URL"
-msgstr ""
+msgstr "رابط الصورة"
 
 #: serializers/document_file_serializers.py:40
 #: serializers/document_file_serializers.py:95
@@ -1243,30 +1255,30 @@ msgstr "URL"
 
 #: serializers/document_file_serializers.py:69
 msgid "Action name"
-msgstr ""
+msgstr "اسم الإجراء"
 
 #: serializers/document_file_serializers.py:72
 #: serializers/document_version_serializers.py:104
 msgid "Document URL"
-msgstr ""
+msgstr "عنوان URL للمستند"
 
 #: serializers/document_file_serializers.py:76
 msgid "Binary content for the new file."
-msgstr ""
+msgstr "المحتوى الثنائي للملف الجديد."
 
 #: serializers/document_file_serializers.py:77
 msgid "File new"
-msgstr ""
+msgstr "ملف جديد"
 
 #: serializers/document_file_serializers.py:80
 #: serializers/document_version_serializers.py:120
 msgid "Page list URL"
-msgstr ""
+msgstr "رابط قائمة الصفحات"
 
 #: serializers/document_file_serializers.py:92
 #: serializers/document_version_serializers.py:132
 msgid "Pages first"
-msgstr ""
+msgstr "الصفحات أولاً"
 
 #: serializers/document_serializers.py:19
 #: serializers/document_version_serializers.py:14
@@ -1275,73 +1287,73 @@ msgstr "المعرف"
 
 #: serializers/document_serializers.py:31
 msgid "Document type ID for the new document."
-msgstr ""
+msgstr "معرّف نوع المستند للمستند الجديد."
 
 #: serializers/document_serializers.py:35
 msgid "Document change type URL"
-msgstr ""
+msgstr "رابط تغيير نوع المستند"
 
 #: serializers/document_serializers.py:39
 msgid "File latest"
-msgstr ""
+msgstr "أحدث ملف"
 
 #: serializers/document_serializers.py:42
 msgid "File list URL"
-msgstr ""
+msgstr "رابط قائمة الملفات"
 
 #: serializers/document_serializers.py:46
 msgid "Version active"
-msgstr ""
+msgstr "النسخة النشطة"
 
 #: serializers/document_serializers.py:49
 msgid "Version list URL"
-msgstr ""
+msgstr "رابط قائمة النسخ"
 
 #: serializers/document_serializers.py:79
 msgid ""
 "Primary key of the document type into which the document will be changed."
-msgstr ""
+msgstr "المفتاح الأساسي لنوع المستند الذي سيتم تغيير المستند إليه."
 
 #: serializers/document_type_serializers.py:11
 msgid "Document type URL"
-msgstr ""
+msgstr "رابط نوع المستند"
 
 #: serializers/document_type_serializers.py:35
 #: serializers/document_type_serializers.py:47
 msgid "Documents URL"
-msgstr ""
+msgstr "رابط المستندات"
 
 #: serializers/document_type_serializers.py:39
 msgid "Quick label list URL"
-msgstr ""
+msgstr "رابط قائمة التسمية السريعة"
 
 #: serializers/document_version_serializers.py:26
 msgid "Backend ID"
-msgstr ""
+msgstr "معرف النظام الخلفي"
 
 #: serializers/document_version_serializers.py:27
 msgid "Primary key of the modification backend to execute."
-msgstr ""
+msgstr "المفتاح الأساسي للنظام الخلفي للتعديل الذي سيتم تنفيذه."
 
 #: serializers/document_version_serializers.py:41
 msgid "Content type ID of the source object for the page."
-msgstr ""
+msgstr "معرّف نوع المحتوى للكائن المصدر للصفحة."
 
 #: serializers/document_version_serializers.py:45
 msgid "Document version URL"
-msgstr ""
+msgstr "رابط نسخة المستند"
 
 #: serializers/document_version_serializers.py:108
 msgid "Export URL"
-msgstr ""
+msgstr "رابط التصدير"
 
 #: serializers/favorite_document_serializers.py:16
 msgid "Document ID for the new favorite document."
-msgstr ""
+msgstr "معرّف المستند للمستند المفضل الجديد."
 
 #: serializers/trashed_document_serializers.py:16
 msgid "Restore URL"
-msgstr ""
+msgstr "رابط الاستعادة"
 
 #: settings.py:49
 msgid ""
@@ -1349,6 +1361,9 @@ msgid ""
 "will start deleting the oldest document file page image cache files. Specify"
 " the size in bytes."
 msgstr ""
+"الحد الأقصى الذي عنده سيبدأ نظام التخزين المؤقت لصور صفحات ملفات المستندات "
+"(DOCUMENTS_FILE_PAGE_IMAGE_CACHE_STORAGE_BACKEND) بحذف أقدم ملفات التخزين "
+"المؤقت. حدد الحجم بوحدة البايت."
 
 #: settings.py:57
 msgid "Path to the Storage subclass to use when storing document files."
@@ -1357,17 +1372,22 @@ msgstr "المسار إلى فئة التخزين الفرعية لاستخدا�
 #: settings.py:64
 msgid "Arguments to pass to the DOCUMENT_FILE_STORAGE_BACKEND."
 msgstr ""
+"المعطيات (الوسائط) التي يجب تمريرها إلى DOCUMENT_FILE_STORAGE_BACKEND."
 
 #: settings.py:70
 msgid ""
 "Path to the Storage subclass to use when storing the cached document file "
 "page image files."
 msgstr ""
+"المسار إلى الفئة الفرعية Storage التي تستخدم عند تخزين ملفات صور صفحات ملفات"
+" المستندات المؤقتة."
 
 #: settings.py:78
 msgid ""
 "Arguments to pass to the DOCUMENTS_FILE_PAGE_IMAGE_CACHE_STORAGE_BACKEND."
 msgstr ""
+"المعطيات (الوسائط) التي يجب تمريرها إلى "
+"DOCUMENTS_FILE_PAGE_IMAGE_CACHE_STORAGE_BACKEND."
 
 #: settings.py:84
 msgid "Maximum number of favorite documents to remember per user."
@@ -1396,23 +1416,31 @@ msgid ""
 " will start deleting the oldest document version page image cache versions. "
 "Specify the size in bytes."
 msgstr ""
+"الحد الذي عنده سيبدأ DOCUMENT_VERSION_PAGE_IMAGE_CACHE_STORAGE_BACKEND بحذف "
+"أقدم نسخ تخزين مؤقت لصور صفحات نسخ المستند. حدد الحجم بوحدة البايت."
 
 #: settings.py:116
 msgid ""
 "Path to the Storage subclass to use when storing the cached document version"
 " page image versions."
 msgstr ""
+"المسار إلى الفئة الفرعية Storage التي تستخدم عند تخزين نسخ صور صفحات نسخ "
+"المستند المؤقتة."
 
 #: settings.py:124
 msgid ""
 "Arguments to pass to the DOCUMENTS_VERSION_PAGE_IMAGE_CACHE_STORAGE_BACKEND."
 msgstr ""
+"المعطيات (الوسائط) التي يجب تمريرها إلى "
+"DOCUMENTS_VERSION_PAGE_IMAGE_CACHE_STORAGE_BACKEND."
 
 #: settings.py:146
 msgid ""
 "Maximum number of recently accessed documents (created, edited, viewed) to "
 "remember per user."
 msgstr ""
+"الحد الأقصى لعدد المستندات التي تم الوصول إليها مؤخرًا (تم إنشاؤها، تعديلها،"
+" عرضها) التي يتم تذكرها لكل مستخدم."
 
 #: settings.py:153
 msgid "Maximum number of recently created documents to show."
@@ -1448,7 +1476,7 @@ msgstr "الوثائق الجديدة/شهرياً"
 
 #: statistics.py:298
 msgid "New document files per month"
-msgstr ""
+msgstr "ملفات مستندات جديدة لكل شهر"
 
 #: statistics.py:305
 msgid "New document pages per month"
@@ -1460,7 +1488,7 @@ msgstr "إجمالي المستندات في كل شهر"
 
 #: statistics.py:319
 msgid "Total document files at each month"
-msgstr ""
+msgstr "إجمالي ملفات المستندات في كل شهر"
 
 #: statistics.py:326
 msgid "Total document pages at each month"
@@ -1468,41 +1496,47 @@ msgstr "إجمالي صفحات المستند في كل شهر"
 
 #: statistics.py:333
 msgid "Total documents per document type"
-msgstr ""
+msgstr "إجمالي المستندات لكل نوع مستند"
 
 #: statistics.py:340
 msgid "Total document files per document type"
-msgstr ""
+msgstr "إجمالي ملفات المستندات لكل نوع مستند"
 
 #: statistics.py:347
 msgid "Total document file pages per document type"
-msgstr ""
+msgstr "إجمالي صفحات ملفات المستند لكل نوع مستند"
 
 #: storages.py:21
 msgid ""
 "Unable to initialize the document file storage. Check the settings {} and {}"
 " for formatting errors."
 msgstr ""
+"غير قادر على تهيئة تخزين ملفات المستندات. تحقق من الإعدادات {} و {} للأخطاء "
+"في التنسيق."
 
 #: storages.py:35
 msgid ""
 "Unable to initialize the document file image storage. Check the settings {} "
 "and {} for formatting errors."
 msgstr ""
+"غير قادر على تهيئة تخزين صور ملفات المستندات. تحقق من الإعدادات {} و {} "
+"للأخطاء في التنسيق."
 
 #: storages.py:41
 msgid "Document file page images"
-msgstr ""
+msgstr "صور صفحات ملفات المستندات"
 
 #: storages.py:49
 msgid ""
 "Unable to initialize the document version image storage. Check the settings "
 "{} and {} for formatting errors."
 msgstr ""
+"غير قادر على تهيئة تخزين صور نسخ المستندات. تحقق من الإعدادات {} و {} "
+"للأخطاء في التنسيق."
 
 #: storages.py:55
 msgid "Document version page images"
-msgstr ""
+msgstr "صور صفحات نسخ المستندات"
 
 #: templates/documents/document_print.html:13
 msgid "Document page image preview"
@@ -1510,23 +1544,23 @@ msgstr "معاينة صورة صفحة المستند"
 
 #: templates/documents/errors/document_file_has_no_pages.html:5
 msgid "No file pages"
-msgstr ""
+msgstr "لا توجد صفحات ملف"
 
 #: templates/documents/errors/document_file_page_transformation_error.html:5
 msgid "Document file page transformation error"
-msgstr ""
+msgstr "خطأ في تحويل صفحة ملف المستند"
 
 #: templates/documents/errors/document_version_page_transformation_error.html:5
 msgid "Document version page transformation error"
-msgstr ""
+msgstr "خطأ في تحويل صفحة نسخة المستند"
 
 #: templates/documents/errors/no_valid_version.html:5
 msgid "No valid or active version"
-msgstr ""
+msgstr "لا توجد نسخة صالحة أو نشطة"
 
 #: templates/documents/errors/no_version_pages.html:5
 msgid "No version pages"
-msgstr ""
+msgstr "لا توجد صفحات للنسخة"
 
 #: templates/documents/forms/widgets/page_carousel.html:16
 #, python-format
@@ -1554,15 +1588,18 @@ msgid ""
 " that it is corrupted, or that the upload process was interrupted. Use the "
 "document file introspection link to attempt detection the page count again."
 msgstr ""
+"قد يعني هذا أن تنسيق ملف الوثيقة غير مدعوم، أو أن الملف تالف، أو أن عملية "
+"الرفع انقطعت. استخدم رابط فحص ملف الوثيقة لمحاولة اكتشاف عدد الصفحات مرة "
+"أخرى."
 
 #: views/document_file_page_views.py:59
 msgid "No document file pages available"
-msgstr ""
+msgstr "لا توجد صفحات متاحة لملف المستند"
 
 #: views/document_file_page_views.py:62
 #, python-format
 msgid "Pages of document file: %s"
-msgstr ""
+msgstr "صفحات ملف المستند: %s"
 
 #: views/document_file_page_views.py:144
 msgid "There are no more pages in this document"
@@ -1581,37 +1618,37 @@ msgstr "صورة: %s"
 #: views/document_file_views.py:52
 #, python-format
 msgid "Error deleting document file \"%(instance)s\"; %(exception)s"
-msgstr ""
+msgstr "خطأ في حذف ملف المستند \"%(instance)s\";%(exception)s"
 
 #: views/document_file_views.py:58
 #, python-format
 msgid "Document file \"%(object)s\" deletion queued successfully."
-msgstr ""
+msgstr "تم إدراج حذف ملف الوثيقة \"%(object)s\" بنجاح"
 
 #: views/document_file_views.py:61
 #, python-format
 msgid "%(count)d document file deletion queued successfully."
-msgstr ""
+msgstr "تم إدراج حذف %(count)d ملف وثيقة بنجاح"
 
 #: views/document_file_views.py:64
 #, python-format
 msgid "%(count)d document files deletions queued successfully."
-msgstr ""
+msgstr "تم إدراج حذف %(count)d ملف وثيقة بنجاح"
 
 #: views/document_file_views.py:66
 #, python-format
 msgid "Delete document file: %(object)s."
-msgstr ""
+msgstr "حذف ملف المستند: %(object)s."
 
 #: views/document_file_views.py:67
 #, python-format
 msgid "Delete the %(count)d selected document file."
-msgstr ""
+msgstr "حذف %(count)d ملف مستند محدد."
 
 #: views/document_file_views.py:68
 #, python-format
 msgid "Delete the %(count)d selected document files."
-msgstr ""
+msgstr "حذف %(count)d ملفات مستند محددة"
 
 #: views/document_file_views.py:74
 msgid ""
@@ -1619,21 +1656,23 @@ msgid ""
 "pages linked to them will be deleted too. The process will be performed in "
 "the background."
 msgstr ""
+"سيتم حذف جميع صفحات ملف الوثيقة وصفحات إصدار الوثيقة المرتبطة بها أيضًا. "
+"سيتم تنفيذ العملية في الخلفية."
 
 #: views/document_file_views.py:115
 #, python-format
 msgid "Edit document file: %s"
-msgstr ""
+msgstr "تعديل ملف المستند: %s"
 
 #: views/document_file_views.py:133
 #, python-format
 msgid "%(count)d document file queued for introspection."
-msgstr ""
+msgstr "تم إدراج %(count)d ملف وثيقة للفحص الداخلي"
 
 #: views/document_file_views.py:136
 #, python-format
 msgid "%(count)d document files queued for introspection."
-msgstr ""
+msgstr "تم إدراج %(count)d ملف وثيقة للفحص الداخلي"
 
 #: views/document_file_views.py:145
 msgid "Introspect the selected document file?"
@@ -1648,7 +1687,7 @@ msgstr[5] ""
 #: views/document_file_views.py:156
 #, python-format
 msgid "Introspect the document file: %s?"
-msgstr ""
+msgstr "فحص ملف الوثيقة داخليًا: %s؟"
 
 #: views/document_file_views.py:162
 msgid ""
@@ -1656,41 +1695,45 @@ msgid ""
 "and its related document version pages re-created. All transformations will "
 "be lost."
 msgstr ""
+"سيتم إعادة فحص ملف الوثيقة لحجم الملف وعدد الصفحات وchecksum، وسيتم إعادة "
+"إنشاء صفحات إصدار الوثيقة المرتبطة به. سيتم فقدان جميع التحويلات."
 
 #: views/document_file_views.py:191
 msgid ""
 "File are the actual files that were uploaded for each document. Their "
 "contents needs to be mapped to a version before it can be used."
 msgstr ""
+"الملفات هي الملفات الفعلية التي تم رفعها لكل مستند. يجب ربط محتوياتها بنسخة "
+"قبل أن يمكن استخدامها."
 
 #: views/document_file_views.py:195
 msgid "No files available"
-msgstr ""
+msgstr "لا توجد ملفات متاحة"
 
 #: views/document_file_views.py:220
 #, python-format
 msgid "Files of document: %s"
-msgstr ""
+msgstr "ملفات المستند: %s"
 
 #: views/document_file_views.py:256
 #, python-format
 msgid "Preview of document file: %s"
-msgstr ""
+msgstr "معاينة ملف المستند: %s"
 
 #: views/document_file_views.py:314
 #, python-format
 msgid "Properties of document file: %s"
-msgstr ""
+msgstr "خصائص ملف المستند: %s"
 
 #: views/document_file_views.py:323
 #, python-format
 msgid "Transformation clear request processed for %(count)d document file."
-msgstr ""
+msgstr "تمت معالجة طلب مسح التحويلات لـ %(count)d ملف مستند."
 
 #: views/document_file_views.py:327
 #, python-format
 msgid "Transformation clear request processed for %(count)d document files."
-msgstr ""
+msgstr "تمت معالجة طلب مسح التحويلات لـ %(count)d ملفات مستند."
 
 #: views/document_file_views.py:335
 msgid "Clear all the page transformations for the selected document file?"
@@ -1706,7 +1749,7 @@ msgstr[5] ""
 #: views/document_file_views.py:346
 #, python-format
 msgid "Clear all the page transformations for the document file: %s?"
-msgstr ""
+msgstr "مسح جميع تحويلات الصفحات لملف المستند: %s؟"
 
 #: views/document_file_views.py:363
 #, python-format
@@ -1714,6 +1757,7 @@ msgid ""
 "Error deleting the page transformations for document file: "
 "%(document_file)s; %(error)s."
 msgstr ""
+"خطأ في حذف تحويلات الصفحات لملف المستند: %(document_file)s؛ %(error)s."
 
 #: views/document_file_views.py:400
 #, python-format
@@ -1721,6 +1765,7 @@ msgid ""
 "Error cloning the page transformations for document file: %(document_file)s;"
 " %(error)s."
 msgstr ""
+"خطأ في استنساخ تحويلات الصفحات لملف المستند: %(document_file)s؛ %(error)s."
 
 #: views/document_file_views.py:409 views/document_version_views.py:419
 msgid "Transformations cloned successfully."
@@ -1729,24 +1774,24 @@ msgstr "تم نسخ التعديلات بنجاح."
 #: views/document_file_views.py:422
 #, python-format
 msgid "Clone page transformations of document file: %s"
-msgstr ""
+msgstr "استنساخ تحويلات صفحات ملف المستند: %s"
 
 #: views/document_type_retention_policy_views.py:23
 msgid "Trashing"
-msgstr ""
+msgstr "إرسال إلى سلة المحذوفات"
 
 #: views/document_type_retention_policy_views.py:27
 msgid "Deletion"
-msgstr ""
+msgstr "حذف"
 
 #: views/document_type_retention_policy_views.py:31
 msgid "Stub pruning"
-msgstr ""
+msgstr "تقليم الأجزاء المتبقية"
 
 #: views/document_type_retention_policy_views.py:51
 #, python-format
 msgid "Retention policies for document type: %s"
-msgstr ""
+msgstr "سياسات الاحتفاظ لنوع الوثيقة: %s"
 
 #: views/document_type_views.py:55
 #, python-format
@@ -1831,26 +1876,30 @@ msgid ""
 "The page number of this page will be skipped. If you want to achieve "
 "sequential page numbering, use the page remap action instead."
 msgstr ""
+"سيتم تخطي رقم الصفحة لهذه الصفحة. إذا كنت تريد ترقيم صفحات متسلسل، استخدم "
+"إجراء إعادة تعيين ترقيم الصفحات بدلاً من ذلك."
 
 #: views/document_version_page_views.py:62
 #, python-format
 msgid "Delete document version page %s ?"
-msgstr ""
+msgstr "حذف صفحة نسخة المستند %s ؟"
 
 #: views/document_version_page_views.py:99
 msgid ""
 "Document version pages are links to actual content pages. Create them using "
 "the page remap actions or the version modification action."
 msgstr ""
+"صفحات نسخة المستند هي روابط لصفحات المحتوى الفعلية. أنشئها باستخدام إجراءات "
+"إعادة تعيين ترقيم الصفحات أو إجراء تعديل النسخة."
 
 #: views/document_version_page_views.py:104
 msgid "No document version pages available"
-msgstr ""
+msgstr "لا توجد صفحات لنسخة المستند متاحة"
 
 #: views/document_version_page_views.py:108
 #, python-format
 msgid "Pages of document version: %s"
-msgstr ""
+msgstr "صفحات نسخة المستند: %s"
 
 #: views/document_version_page_views.py:160
 msgid "None"
@@ -1858,87 +1907,89 @@ msgstr "لا شيء"
 
 #: views/document_version_page_views.py:187
 msgid "There are no sources available to remap for this document version."
-msgstr ""
+msgstr "لا توجد مصادر متاحة لإعادة تعيين للنسخة المستند هذه."
 
 #: views/document_version_page_views.py:190
 msgid "No page sources available"
-msgstr ""
+msgstr "لا توجد مصادر صفحات متاحة"
 
 #: views/document_version_page_views.py:193
 #, python-format
 msgid "Remap pages of document version: %s"
-msgstr ""
+msgstr "إعادة تعيين صفحات نسخة المستند: %s"
 
 #: views/document_version_page_views.py:311
 msgid "There are no more pages in this document."
-msgstr ""
+msgstr "لا توجد صفحات أخرى في هذه الوثيقة"
 
 #: views/document_version_page_views.py:327
 msgid "You are already at the first page of this document."
-msgstr ""
+msgstr "أنت بالفعل في الصفحة الأولى من هذه الوثيقة"
 
 #: views/document_version_views.py:63
 #, python-format
 msgid "Make the document version \"%s\" the active version?"
-msgstr ""
+msgstr "هل تريد جعل نسخة المستند \"%s\" النسخة النشطة؟"
 
 #: views/document_version_views.py:72
 msgid "Successfully changed the active document version."
-msgstr ""
+msgstr "تم تغيير نسخة المستند النشطة بنجاح."
 
 #: views/document_version_views.py:90
 #, python-format
 msgid "Create a document version for document: %s"
-msgstr ""
+msgstr "إنشاء نسخة مستند لـ: %s"
 
 #: views/document_version_views.py:109
 #, python-format
 msgid "Document version \"%(object)s\" deletion queued successfully."
-msgstr ""
+msgstr "تم إدخال طلب حذف نسخة المستند \"%(object)s\" في قائمة الانتظار بنجاح."
 
 #: views/document_version_views.py:112
 #, python-format
 msgid "%(count)d document version deletion queued successfully."
-msgstr ""
+msgstr "تم إدخال طلب حذف %(count)d نسخ مستند في قائمة الانتظار بنجاح"
 
 #: views/document_version_views.py:115
 #, python-format
 msgid "%(count)d document version deletions queued successfully."
-msgstr ""
+msgstr "تم إدخال طلبات حذف %(count)d نسخ مستند في قائمة الانتظار بنجاح."
 
 #: views/document_version_views.py:117
 #, python-format
 msgid "Delete document version \"%(object)s\"."
-msgstr ""
+msgstr "حذف نسخة المستند \"%(object)s\"."
 
 #: views/document_version_views.py:118
 #, python-format
 msgid "Delete %(count)d document version."
-msgstr ""
+msgstr "حذف %(count)d نسخة مستند."
 
 #: views/document_version_views.py:119
 #, python-format
 msgid "Delete %(count)d document versions."
-msgstr ""
+msgstr "حذف %(count)d نسخ مستند."
 
 #: views/document_version_views.py:125
 msgid "The process will be performed in the background."
-msgstr ""
+msgstr "سيتم تنفيذ العملية في الخلفية"
 
 #: views/document_version_views.py:165
 #, python-format
 msgid "Edit document version: %s"
-msgstr ""
+msgstr "تعديل نسخة المستند: %s"
 
 #: views/document_version_views.py:199
 msgid ""
 "Versions are views that can display document file pages as they are, remap "
 "or merge them into different layouts."
 msgstr ""
+"النسخ هي طرق عرض يمكنها عرض صفحات ملفات المستند كما هي، أو إعادة تعيينها، أو"
+" دمجها في تخطيطات مختلفة."
 
 #: views/document_version_views.py:203
 msgid "No versions available"
-msgstr ""
+msgstr "لا توجد نسخ متاحة"
 
 #: views/document_version_views.py:207
 #, python-format
@@ -1947,12 +1998,12 @@ msgstr "إصدارات الوثيقة: %s"
 
 #: views/document_version_views.py:240
 msgid "Document version modification backend queued successfully."
-msgstr ""
+msgstr "تم إدخال طلب تنفيذ تعديل النسخة في قائمة الانتظار بنجاح."
 
 #: views/document_version_views.py:251
 #, python-format
 msgid "Execute version modification action for document version: %s"
-msgstr ""
+msgstr "تنفيذ إجراء تعديل النسخة لنسخة المستند: %s"
 
 #: views/document_version_views.py:283
 #, python-format
@@ -1962,13 +2013,13 @@ msgstr "معاينة إصدار الوثيقة: %s"
 #: views/document_version_views.py:331
 #, python-format
 msgid "Transformation clear request processed for %(count)d document version."
-msgstr ""
+msgstr "تمت معالجة طلب مسح التحويلات لـ %(count)d نسخة مستند."
 
 #: views/document_version_views.py:335
 #, python-format
 msgid ""
 "Transformation clear request processed for %(count)d document versions."
-msgstr ""
+msgstr "تمت معالجة طلب مسح التحويلات لـ %(count)d نسخ مستند."
 
 #: views/document_version_views.py:343
 msgid "Clear all the page transformations for the selected document version?"
@@ -1984,7 +2035,7 @@ msgstr[5] ""
 #: views/document_version_views.py:354
 #, python-format
 msgid "Clear all the page transformations for the document version: %s?"
-msgstr ""
+msgstr "مسح جميع تحويلات الصفحات لنسخة المستند: %s؟"
 
 #: views/document_version_views.py:371
 #, python-format
@@ -1992,6 +2043,7 @@ msgid ""
 "Error deleting the page transformations for document version: "
 "%(document_version)s; %(error)s."
 msgstr ""
+"خطأ في حذف تحويلات الصفحات لنسخة المستند: %(document_version)s؛ %(error)s."
 
 #: views/document_version_views.py:410
 #, python-format
@@ -1999,11 +2051,13 @@ msgid ""
 "Error cloning the page transformations for document version: "
 "%(document_version)s; %(error)s."
 msgstr ""
+"خطأ في استنساخ تحويلات الصفحات لنسخة المستند: %(document_version)s؛ "
+"%(error)s."
 
 #: views/document_version_views.py:432
 #, python-format
 msgid "Clone page transformations of document version: %s"
-msgstr ""
+msgstr "استنساخ تحويلات صفحات نسخة المستند: %s"
 
 #: views/document_views.py:44
 #, python-format
@@ -2026,12 +2080,12 @@ msgstr "لا توجد مستندات متاحة"
 #: views/document_views.py:85
 #, python-format
 msgid "Document type change request performed on %(count)d document."
-msgstr ""
+msgstr "تم تنفيذ طلب تغيير نوع المستند على %(count)d مستند."
 
 #: views/document_views.py:89
 #, python-format
 msgid "Document type change request performed on %(count)d documents."
-msgstr ""
+msgstr "تم تنفيذ طلب تغيير نوع الوثيقة على %(count)d وثيقة"
 
 #: views/document_views.py:97
 msgid "Change the type of the selected document."
@@ -2066,7 +2120,7 @@ msgstr "تعديل خصائص الوثيقة: %s"
 #: views/document_views.py:212
 #, python-format
 msgid "Properties of document: %s"
-msgstr ""
+msgstr "خصائص المستند: %s"
 
 #: views/favorite_document_views.py:34
 #, python-format
@@ -2141,39 +2195,40 @@ msgstr ""
 
 #: views/recently_accessed_document_views.py:29
 msgid "There are no recently accessed documents"
-msgstr ""
+msgstr "لا توجد وثائق تم الوصول إليها مؤخرًا"
 
 #: views/recently_created_document_views.py:21
 msgid "This view will list the latest documents created in the system."
-msgstr ""
+msgstr "سيعرض هذا العرض أحدث الوثائق المنشأة في النظام"
 
 #: views/recently_created_document_views.py:25
 msgid "There are no recently created documents"
-msgstr ""
+msgstr "لا توجد وثائق منشأة مؤخرًا"
 
 #: views/trashed_document_views.py:40
 #, python-format
 msgid "Document \"%(object)s\" queued for trashing."
 msgstr ""
+"تم إدراج الوثيقة \"%(object)s\" في قائمة الانتظار للإرسال إلى سلة المحذوفات"
 
 #: views/trashed_document_views.py:43 views/trashed_document_views.py:46
 #, python-format
 msgid "%(count)d documents queued for trashing."
-msgstr ""
+msgstr "تم إدراج %(count)d وثيقة في قائمة الانتظار للإرسال إلى سلة المحذوفات"
 
 #: views/trashed_document_views.py:48
 #, python-format
 msgid "Move the document \"%(object)s\" to trash?"
-msgstr ""
+msgstr "هل تريد نقل الوثيقة \"%(object)s\" إلى سلة المحذوفات؟"
 
 #: views/trashed_document_views.py:49
 msgid "Move the selected document to the trash?"
-msgstr ""
+msgstr "هل تريد نقل الوثيقة المحددة إلى سلة المحذوفات؟"
 
 #: views/trashed_document_views.py:51
 #, python-format
 msgid "Move the %(count)d selected documents to trash?"
-msgstr ""
+msgstr "هل تريد نقل الوثائق المحددة (%(count)d) إلى سلة المحذوفات؟"
 
 #: views/trashed_document_views.py:86
 msgid "Empty trash?"
@@ -2191,7 +2246,7 @@ msgstr "%(count)d أرسلت الوثائق للإتلاف"
 #: views/trashed_document_views.py:112
 #, python-format
 msgid "Trash document \"%(object)s\" submitted for deletion."
-msgstr ""
+msgstr "تم تقديم الوثيقة المحذوفة \"%(object)s\" للحذف النهائي"
 
 #: views/trashed_document_views.py:115
 #, python-format
@@ -2201,16 +2256,16 @@ msgstr "%(count)d أرسلت الوثيقة للإتلاف"
 #: views/trashed_document_views.py:117
 #, python-format
 msgid "Delete the %(count)d selected trashed documents?"
-msgstr ""
+msgstr "هل تريد حذف الوثائق المحذوفة المحددة (%(count)d)؟"
 
 #: views/trashed_document_views.py:118
 #, python-format
 msgid "Delete the trashed document \"%(object)s\"?"
-msgstr ""
+msgstr "هل تريد حذف الوثيقة المحذوفة \"%(object)s\"؟"
 
 #: views/trashed_document_views.py:119
 msgid "Delete the selected trashed document?"
-msgstr ""
+msgstr "هل تريد حذف الوثيقة المحذوفة المحددة؟"
 
 #: views/trashed_document_views.py:157
 msgid ""
@@ -2233,7 +2288,7 @@ msgstr "%(count)d التراجع عن اتلاف الوثيقة."
 #: views/trashed_document_views.py:178
 #, python-format
 msgid "Trashed document \"%(object)s\" restored."
-msgstr ""
+msgstr "تم استعادة الوثيقة المحذوفة \"%(object)s)\""
 
 #: views/trashed_document_views.py:181
 #, python-format
@@ -2243,24 +2298,24 @@ msgstr "التراجع عن إتلاف%(count)d الوثيقة"
 #: views/trashed_document_views.py:183
 #, python-format
 msgid "Restore the %(count)d selected trashed documents?"
-msgstr ""
+msgstr "هل تريد استعادة الوثائق المحذوفة المحددة (%(count)d)؟"
 
 #: views/trashed_document_views.py:184
 #, python-format
 msgid "Restore the trashed document: %(object)s"
-msgstr ""
+msgstr "استعادة الوثيقة المحذوفة: %(object)s"
 
 #: views/trashed_document_views.py:185
 msgid "Restore the selected trashed document?"
-msgstr ""
+msgstr "استعادة المستند المحذوف المحدد؟"
 
 #: workflow_actions.py:21
 msgid "New document type for the workflow document."
-msgstr ""
+msgstr "هل تريد استعادة الوثيقة المحذوفة المحددة؟"
 
 #: workflow_actions.py:26
 msgid "Change document type"
-msgstr ""
+msgstr "تغيير نوع المستند"
 
 #: workflow_actions.py:53
 msgid "Send document to trash"

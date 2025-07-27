@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"POT-Creation-Date: 2025-07-27 19:21+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Tomasz Szymanowicz <alakdae@gmail.com>, 2024\n"
 "Language-Team: Polish (https://app.transifex.com/rosarior/teams/13584/pl/)\n"
@@ -281,18 +281,18 @@ msgstr "Identyfikator"
 msgid "Actions"
 msgstr "Akcje"
 
-#: templates/appearance/partials/list/toolbar.html:15
+#: templates/appearance/partials/list/toolbar.html:14
 msgid "Select/Deselect all"
 msgstr "Zaznacz/Odznacz wszystko"
 
-#: templates/appearance/partials/list/toolbar.html:28
+#: templates/appearance/partials/list/toolbar.html:26
 msgid ""
 "Select items to activate bulk actions. Use Shift + click to select many."
 msgstr ""
 "Zaznacz elementy, aby uaktywnić akcję zbiorczą. Użyj Shift + click, aby "
 "zaznaczyć wiele elementów."
 
-#: templates/appearance/partials/list/toolbar.html:32
+#: templates/appearance/partials/list/toolbar.html:30
 msgid "Bulk actions"
 msgstr "Akcje zbiorcze"
 

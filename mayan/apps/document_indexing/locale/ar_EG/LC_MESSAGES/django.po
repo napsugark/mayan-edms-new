@@ -10,6 +10,7 @@
 # WM Shinkada <shinkadawasim@gmail.com>, 2024
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -17,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2024\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,11 +46,11 @@ msgstr "مستوى الدليل"
 #: apps.py:163 apps.py:194 serializers/index_instance_serializers.py:12
 #: serializers/index_instance_serializers.py:52
 msgid "Depth"
-msgstr ""
+msgstr "عمق"
 
 #: apps.py:167
 msgid "Total nodes"
-msgstr ""
+msgstr "إجمالي العقد"
 
 #: apps.py:174
 msgid "Total documents"
@@ -57,11 +58,11 @@ msgstr "عدد الوثائق الكلي"
 
 #: apps.py:176 apps.py:215
 msgid "Number of unique documents this item contains."
-msgstr ""
+msgstr "عدد المستندات الفريدة التي يحتويها هذا العنصر."
 
 #: apps.py:202
 msgid "Nodes"
-msgstr ""
+msgstr "العقد"
 
 #: apps.py:213 models/index_instance_models.py:67
 msgid "Documents"
@@ -69,11 +70,11 @@ msgstr "الوثائق"
 
 #: events.py:10
 msgid "Index template created"
-msgstr ""
+msgstr "تم إنشاء قالب الفهرس"
 
 #: events.py:13
 msgid "Index template edited"
-msgstr ""
+msgstr "تم تعديل قالب الفهرس"
 
 #: forms.py:17 forms.py:22
 msgid "Namespace"
@@ -168,15 +169,15 @@ msgstr ""
 
 #: models/index_instance_model_mixins.py:155
 msgid "Total number of nodes with unique values this item contains."
-msgstr ""
+msgstr "العدد الإجمالي للعقد ذات القيم الفريدة التي يحتوي عليها هذا العنصر."
 
 #: models/index_instance_model_mixins.py:164
 msgid "Total number of unique documents this item contains."
-msgstr ""
+msgstr "العدد الإجمالي للمستندات الفريدة التي يحتوي عليها هذا العنصر."
 
 #: models/index_instance_model_mixins.py:174
 msgid "Total number of node levels this item contains."
-msgstr ""
+msgstr "العدد الإجمالي لمستويات العقد التي يحتوي عليها هذا العنصر."
 
 #: models/index_instance_model_mixins.py:243
 msgid "The path to the index including all ancestors."
@@ -242,7 +243,7 @@ msgstr "سيقوم النظام باستعراض الفهرس عند تغير ب
 
 #: models/index_template_models.py:57 models/index_template_models.py:97
 msgid "Index template"
-msgstr ""
+msgstr "قالب الفهرس"
 
 #: models/index_template_models.py:101
 msgid "Event type"
@@ -250,15 +251,15 @@ msgstr "نوع الحدث"
 
 #: models/index_template_models.py:106
 msgid "Index template event trigger"
-msgstr ""
+msgstr "مُحفِّز حدث قالب الفهرس"
 
 #: models/index_template_models.py:107
 msgid "Index template event triggers"
-msgstr ""
+msgstr "مُحفِّزات حدث قالب الفهرس"
 
 #: models/index_template_models.py:145
 msgid "Parent index template node of this node."
-msgstr ""
+msgstr "عقدة قالب الفهرس الرئيسي لهذه العقدة."
 
 #: models/index_template_models.py:151
 msgid "Index"
@@ -266,7 +267,7 @@ msgstr "الفهرس"
 
 #: models/index_template_models.py:155
 msgid "Enter a template to render. Use Django's default templating language."
-msgstr ""
+msgstr "أدخل قالبًا لعرضه. استخدم لغة قوالب دجانغو الافتراضية."
 
 #: models/index_template_models.py:158
 msgid "Indexing expression"
@@ -288,7 +289,7 @@ msgstr "رابط المستندات"
 
 #: models/index_template_models.py:179
 msgid "Index template nodes"
-msgstr ""
+msgstr "عقد قالب الفهرس"
 
 #: models/index_template_models.py:183
 msgid "Root"
@@ -300,31 +301,31 @@ msgstr "الفهرسة"
 
 #: permissions.py:10
 msgid "View index instances"
-msgstr ""
+msgstr "عرض حالات الفهرس"
 
 #: permissions.py:13
 msgid "Create new index templates"
-msgstr ""
+msgstr "إنشاء قوالب فهرس جديدة"
 
 #: permissions.py:16
 msgid "Edit index templates"
-msgstr ""
+msgstr "تحرير قوالب الفهرس"
 
 #: permissions.py:19
 msgid "Delete index templates"
-msgstr ""
+msgstr "حذف قوالب الفهرس"
 
 #: permissions.py:22
 msgid "View index templates"
-msgstr ""
+msgstr "عرض قوالب الفهرس"
 
 #: permissions.py:25 views/index_template_views.py:416
 msgid "Rebuild index templates"
-msgstr ""
+msgstr "إعادة بناء قوالب الفهرس"
 
 #: queues.py:10
 msgid "Indexing slow"
-msgstr ""
+msgstr "الفهرسة بطيئة"
 
 #: queues.py:14
 msgid "Remove document"
@@ -361,12 +362,12 @@ msgstr "المجموع"
 #: serializers/index_instance_serializers.py:15
 #: serializers/index_instance_serializers.py:61
 msgid "Node count"
-msgstr ""
+msgstr "العقد"
 
 #: serializers/index_instance_serializers.py:19
 #: serializers/index_template_serializers.py:179
 msgid "Nodes URL"
-msgstr ""
+msgstr "عنوان URL للعقد"
 
 #: serializers/index_instance_serializers.py:22
 #: serializers/index_instance_serializers.py:68
@@ -378,38 +379,40 @@ msgstr "URL"
 
 #: serializers/index_instance_serializers.py:49
 msgid "Children URL"
-msgstr ""
+msgstr "عنوان URL الفرعي"
 
 #: serializers/index_instance_serializers.py:55
 msgid "Documents URL"
-msgstr ""
+msgstr "رابط المستندات"
 
 #: serializers/index_instance_serializers.py:58
 #: serializers/index_template_serializers.py:21
 #: serializers/index_template_serializers.py:81
 msgid "Index URL"
-msgstr ""
+msgstr "عنوان URL للمؤشر"
 
 #: serializers/index_instance_serializers.py:65
 #: serializers/index_template_serializers.py:24
 #: serializers/index_template_serializers.py:87
 msgid "Parent URL"
-msgstr ""
+msgstr "عنوان URL الرئيسي"
 
 #: serializers/index_template_serializers.py:18
 #: serializers/index_template_serializers.py:78
 msgid "Children"
-msgstr ""
+msgstr "الفروع"
 
 #: serializers/index_template_serializers.py:84
 msgid "Parent"
-msgstr ""
+msgstr "الأصل"
 
 #: serializers/index_template_serializers.py:152
 msgid ""
 "URL of the API endpoint showing the list document types associated with this"
 " index template."
 msgstr ""
+"عنوان URL لنقطة نهاية واجهة برمجة التطبيقات (API) الذي يعرض أنواع المستندات "
+"المدرجة المرتبطة بقالب الفهرس هذا."
 
 #: serializers/index_template_serializers.py:154
 msgid "Document types URL"
@@ -418,6 +421,8 @@ msgstr "عنوان URL لأنواع المستندات"
 #: serializers/index_template_serializers.py:160
 msgid "URL of the API endpoint to add document types to this index template."
 msgstr ""
+"عنوان URL لنقطة نهاية واجهة برمجة التطبيقات لإضافة أنواع المستندات إلى قالب "
+"الفهرس هذا."
 
 #: serializers/index_template_serializers.py:162
 msgid "Document types add URL"
@@ -427,6 +432,8 @@ msgstr "عنوان URL لإضافة أنواع المستندات"
 msgid ""
 "URL of the API endpoint to remove document types from this index template."
 msgstr ""
+"عنوان URL لنقطة نهاية واجهة برمجة التطبيقات لإزالة أنواع المستندات من قالب "
+"الفهرس هذا."
 
 #: serializers/index_template_serializers.py:170
 msgid "Document types remove URL"
@@ -434,19 +441,19 @@ msgstr "عنوان URL لحذف أنواع المستندات"
 
 #: serializers/index_template_serializers.py:175
 msgid "Index template root node ID"
-msgstr ""
+msgstr "معرف عقدة الجذر لقالب الفهرس"
 
 #: serializers/index_template_serializers.py:182
 msgid "Rebuild URL"
-msgstr ""
+msgstr "إعادة بناء عنوان URL"
 
 #: serializers/index_template_serializers.py:186
 msgid "Reset URL"
-msgstr ""
+msgstr "إعادة تعيين عنوان URL"
 
 #: serializers/index_template_serializers.py:234
 msgid "Primary key of the document type to add to the index template."
-msgstr ""
+msgstr "المفتاح الأساسي لنوع المستند الذي سيتم إضافته إلى قالب الفهرس."
 
 #: serializers/index_template_serializers.py:236
 #: serializers/index_template_serializers.py:246
@@ -455,13 +462,15 @@ msgstr "مُعرِّف نوع المستند"
 
 #: serializers/index_template_serializers.py:244
 msgid "Primary key of the document type to remove from the index template."
-msgstr ""
+msgstr "المفتاح الأساسي لنوع المستند الذي سيتم إزالته من قالب الفهرس."
 
 #: views/index_instance_views.py:37
 msgid ""
 "This could mean that no index templates have been created or that there are "
 "index templates but they are no properly defined."
 msgstr ""
+"قد يعني هذا أنه لم يتم إنشاء أي قوالب فهرس أو أن هناك قوالب فهرس ولكن لم يتم"
+" تعريفها بشكل صحيح."
 
 #: views/index_instance_views.py:41
 msgid "There are no index instances available."
@@ -519,10 +528,13 @@ msgid ""
 "template whose markers are replaced with direct properties of documents like"
 " label or description, or that of extended properties like metadata."
 msgstr ""
+"تقوم الفهارس بتجميع الوثيقة تلقائيًا في المستويات. يتم تعريف الفهارس "
+"باستخدام قالب يتم استبدال علاماته بخصائص مباشرة للمستندات مثل التسمية أو "
+"الوصف ، أو تلك الخاصة بالخصائص الممتدة مثل البيانات الوصفية."
 
 #: views/index_template_views.py:94
 msgid "There are no index templates."
-msgstr ""
+msgstr "لا توجد قوالب فهرس."
 
 #: views/index_template_views.py:127
 #, python-format
@@ -559,22 +571,22 @@ msgstr "تعديل الفهرس: %s"
 #: views/index_template_views.py:219
 #, python-format
 msgid "Error updating index template event trigger; %s"
-msgstr ""
+msgstr "حدث خطأ في تحديث مُحفِّز حدث قالب الفهرس؛%s"
 
 #: views/index_template_views.py:228
 msgid "Index template event triggers updated successfully."
-msgstr ""
+msgstr "تم تحديث حدث قالب الفهرس بنجاح."
 
 #: views/index_template_views.py:238
 msgid ""
 "Triggers are document events that cause instances of this index template to "
 "be updated."
-msgstr ""
+msgstr "المحفزات هي أحداث مستند تتسبب في تحديث مثيلات قالب الفهرس هذا."
 
 #: views/index_template_views.py:243
 #, python-format
 msgid "Index template event triggers for: %s"
-msgstr ""
+msgstr "تحفيز حدث قالب الفهرس لـ:%s"
 
 #: views/index_template_views.py:288
 #, python-format
@@ -594,16 +606,16 @@ msgstr "هل تريد حذف قالب الفهرس الفرعي: %s؟"
 #: views/index_template_views.py:365
 #, python-format
 msgid "Edit the index template node: %s"
-msgstr ""
+msgstr "تعديل عقدة قالب الفهرس:%s"
 
 #: views/index_template_views.py:386
 #, python-format
 msgid "Rebuild index template: %s"
-msgstr ""
+msgstr "إعادة بناء قالب الفهرس:%s"
 
 #: views/index_template_views.py:409
 msgid "Index template queued for rebuild."
-msgstr ""
+msgstr "تم وضع قالب الفهرس في قائمة الانتظار لإعادة البناء."
 
 #: views/index_template_views.py:433
 #, python-format

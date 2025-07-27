@@ -7,6 +7,7 @@
 # Yaman Sanobar <yman.snober@gmail.com>, 2024
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
 # WM Shinkada <shinkadawasim@gmail.com>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: WM Shinkada <shinkadawasim@gmail.com>, 2024\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +29,7 @@ msgstr "لوحة التحكم"
 
 #: apps.py:24
 msgid "Widgets"
-msgstr ""
+msgstr "الأدوات"
 
 #: apps.py:28
 msgid "Label"
@@ -36,7 +37,7 @@ msgstr "العنوان"
 
 #: dashboards.py:6
 msgid "Administrator dashboard"
-msgstr ""
+msgstr "لوحة معلومات المسؤول"
 
 #: links.py:9
 msgid "Details"
@@ -49,4 +50,4 @@ msgstr "عرض التفاصيل"
 
 #: views.py:32
 msgid "Dashboard detail"
-msgstr ""
+msgstr "تفاصيل لوحة التحكم"

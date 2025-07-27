@@ -12,7 +12,7 @@
 # Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2024
 # Roberto Rosario, 2024
 # T W, 2024
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -20,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 12:51+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Austria) (https://app.transifex.com/rosarior/teams/13584/de_AT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -151,7 +151,7 @@ msgstr "%(count)d Objekt löschen."
 
 #: links.py:13
 msgid "View modes"
-msgstr ""
+msgstr "Ansichten Arten"
 
 #: literals.py:10
 msgid "Items"
@@ -159,11 +159,11 @@ msgstr "Elemente"
 
 #: literals.py:11
 msgid "List"
-msgstr ""
+msgstr "Liste"
 
 #: model_mixins.py:14 model_mixins.py:22
 msgid "The app to which the view belongs."
-msgstr ""
+msgstr "Die App zu der die Ansicht gehört."
 
 #: model_mixins.py:15 model_mixins.py:23
 msgid "App"
@@ -172,11 +172,11 @@ msgstr "App"
 #: model_mixins.py:31
 #, python-format
 msgid "Unknown mode: %s"
-msgstr ""
+msgstr "Unbekannte Art: %s"
 
 #: model_mixins.py:33
 msgid "The current mode of the view."
-msgstr ""
+msgstr "Der aktuelle Modus der Ansicht."
 
 #: model_mixins.py:34 models.py:24
 msgid "Value"
@@ -188,7 +188,7 @@ msgstr "Namensraum"
 
 #: models.py:14
 msgid "Full name of the view including the namespace."
-msgstr ""
+msgstr "Vollständiger Name der Ansicht inklusive Namensraum."
 
 #: models.py:15
 msgid "Name"
@@ -201,14 +201,16 @@ msgstr "Benutzer"
 #: models.py:23
 msgid "Stored value used to identify the display mode of the view."
 msgstr ""
+"Gespeicherter Wert, der verwendet wird um den Anzeigemodus der Ansicht zu "
+"ermitteln."
 
 #: models.py:30
 msgid "User view mode"
-msgstr ""
+msgstr "Benutzer Ansicht Modus"
 
 #: models.py:31
 msgid "User view modes"
-msgstr ""
+msgstr "Benutzer Ansicht Modi"
 
 #: settings.py:16
 msgid "The number objects that will be displayed per page."
@@ -295,12 +297,14 @@ msgstr "Objekt"
 #: views.py:31
 msgid "View modes control the format used to display a collection of objects."
 msgstr ""
+"Ansichtenmodi kontrollieren das Format, das verwendet wird um Sammlungen von"
+" Objekten anzuzeigen,"
 
 #: views.py:34
 msgid "No view modes available"
-msgstr ""
+msgstr "Kein Ansichtenmodi verfügbar"
 
 #: views.py:37
 #, python-format
 msgid "Persistent view modes for user: %s"
-msgstr ""
+msgstr "Persistente Ansichtenmodi für Benutzer:%s"

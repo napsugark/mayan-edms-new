@@ -12,7 +12,7 @@
 # Marvin Haschker <marvin@haschker.me>, 2024
 # Bjoern Kowarsch <bjoern.kowarsch@gmail.com>, 2024
 # Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2024
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -20,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Austria) (https://app.transifex.com/rosarior/teams/13584/de_AT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -191,11 +191,11 @@ msgstr "MIME-Typ der Dokumentendatei"
 
 #: search.py:50
 msgid "The database ID of the cabinet."
-msgstr ""
+msgstr "Die Datenbank-ID des Aktenschranks."
 
 #: search.py:51
 msgid "Cabinet ID"
-msgstr ""
+msgstr "Aktenschrank-ID"
 
 #: serializers.py:18
 msgid "List of children cabinets."

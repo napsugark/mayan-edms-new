@@ -3,12 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-13 14:31+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,12 +22,12 @@ msgstr ""
 
 #: apps.py:11
 msgid "File metadata EML"
-msgstr ""
+msgstr "Dateimetadaten EML"
 
 #: drivers.py:15
 msgid "Extracts information from emails saved in .eml files."
-msgstr ""
+msgstr "Extrahiert Informationen aus E-Mails gespeichert in .eml Dateien."
 
 #: drivers.py:18
 msgid "EML Python driver"
-msgstr ""
+msgstr "EML Python Treiber"

@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"POT-Creation-Date: 2025-07-27 19:21+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Wojciech Warczakowski <w.warczakowski@gmail.com>, 2024\n"
 "Language-Team: Polish (https://app.transifex.com/rosarior/teams/13584/pl/)\n"
@@ -29,7 +29,7 @@ msgstr ""
 #: apps.py:95 apps.py:148 events.py:6 forms/workflow_template_forms.py:19
 #: links.py:50 links.py:90 links.py:98 links.py:287 links.py:311
 #: models/workflow_models.py:60 queues.py:11 settings.py:14
-#: views/workflow_proxy_views.py:70 views/workflow_template_views.py:284
+#: views/workflow_proxy_views.py:70 views/workflow_template_views.py:293
 #: workflow_actions.py:129 workflow_actions.py:143
 msgid "Workflows"
 msgstr "Obiegi dokumentów"
@@ -241,7 +241,7 @@ msgstr "Włączone"
 msgid "Event trigger: %s"
 msgstr "Wyzwalacz zdarzenia: %s"
 
-#: links.py:56 views/workflow_template_views.py:138
+#: links.py:56 views/workflow_template_views.py:147
 msgid "Create workflow"
 msgstr "Utwórz obieg dokumentów"
 
@@ -1342,63 +1342,63 @@ msgstr ""
 "zastosowania do niektórych dokumentów, zostaną zignorowane w przypadku "
 "zaznaczenia wielu dokumentów."
 
-#: views/workflow_template_views.py:112
+#: views/workflow_template_views.py:121
 msgid "Workflows to be launched."
 msgstr "Obiegi dokumentów przeznaczone do uruchomienia."
 
-#: views/workflow_template_views.py:154
+#: views/workflow_template_views.py:163
 #, python-format
 msgid "Error deleting workflow \"%(instance)s\"; %(exception)s"
 msgstr ""
 
-#: views/workflow_template_views.py:163
+#: views/workflow_template_views.py:172
 #, python-format
 msgid "%(count)d workflows deleted successfully."
 msgstr ""
 
-#: views/workflow_template_views.py:166
+#: views/workflow_template_views.py:175
 #, python-format
 msgid "Workflow \"%(object)s\" deleted successfully."
 msgstr ""
 
-#: views/workflow_template_views.py:169
+#: views/workflow_template_views.py:178
 #, python-format
 msgid "%(count)d workflow deleted successfully."
 msgstr ""
 
-#: views/workflow_template_views.py:171
+#: views/workflow_template_views.py:180
 #, python-format
 msgid "Delete the %(count)d selected workflows."
 msgstr ""
 
-#: views/workflow_template_views.py:172
+#: views/workflow_template_views.py:181
 #, python-format
 msgid "Delete workflow: %(object)s."
 msgstr ""
 
-#: views/workflow_template_views.py:173
+#: views/workflow_template_views.py:182
 #, python-format
 msgid "Delete the %(count)d selected workflow."
 msgstr ""
 
-#: views/workflow_template_views.py:179
+#: views/workflow_template_views.py:188
 msgid "All workflow instances will also be deleted."
 msgstr "Wszystkie wystąpienia obiegu dokumentów również zostaną usunięte."
 
-#: views/workflow_template_views.py:199
+#: views/workflow_template_views.py:208
 #, python-format
 msgid "Edit workflow: %s"
 msgstr "Edytuj obieg dokumentów: %s"
 
-#: views/workflow_template_views.py:207
+#: views/workflow_template_views.py:216
 msgid "Document types assigned this workflow"
 msgstr "Typy dokumentów przypisane do tego obiegu dokumentów"
 
-#: views/workflow_template_views.py:208
+#: views/workflow_template_views.py:217
 msgid "Available document types"
 msgstr "Dostępne typy dokumentów"
 
-#: views/workflow_template_views.py:226
+#: views/workflow_template_views.py:235
 msgid ""
 "Removing a document type from a workflow will also remove all running "
 "instances of that workflow for documents of the document type just removed."
@@ -1407,27 +1407,27 @@ msgstr ""
 "wszystkich działających instancji tego obiegu dokumentów dla dokumentów "
 "usuniętego typu dokumentu."
 
-#: views/workflow_template_views.py:231
+#: views/workflow_template_views.py:240
 #, python-format
 msgid "Document types assigned the workflow: %s"
 msgstr "Typy dokumentów przypisane do obiegu dokumentów: %s"
 
-#: views/workflow_template_views.py:245
+#: views/workflow_template_views.py:254
 msgid ""
 "This will launch the workflow for documents that have already been uploaded."
 msgstr ""
 "Spowoduje to uruchomienie obiegu dokumentów dla dokumentów, które zostały "
 "już przesłane."
 
-#: views/workflow_template_views.py:248
+#: views/workflow_template_views.py:257
 msgid "Launch workflow?"
 msgstr "Uruchomić obieg dokumentów?"
 
-#: views/workflow_template_views.py:259 views/workflow_template_views.py:319
+#: views/workflow_template_views.py:268 views/workflow_template_views.py:328
 msgid "Workflow launch queued successfully."
 msgstr "Uruchomienie obiegu dokumentów w kolejce powiodło się."
 
-#: views/workflow_template_views.py:277
+#: views/workflow_template_views.py:286
 msgid ""
 "Workflows store a series of states and keep track of the current state of a "
 "document. Transitions are used to change the current state to a new one."
@@ -1435,16 +1435,16 @@ msgstr ""
 "Obiegi dokumentów przechowują serię stanów i śledzą bieżący stan dokumentu. "
 "Przejścia służą do zmiany bieżącego stanu na nowy."
 
-#: views/workflow_template_views.py:282
+#: views/workflow_template_views.py:291
 msgid "No workflows have been defined"
 msgstr "Nie zdefiniowano obiegów dokumentów"
 
-#: views/workflow_template_views.py:299
+#: views/workflow_template_views.py:308
 #, python-format
 msgid "Preview of: %s"
 msgstr "Podgląd: %s"
 
-#: views/workflow_template_views.py:306
+#: views/workflow_template_views.py:315
 msgid ""
 "This will launch all workflows created after documents have already been "
 "uploaded."
@@ -1452,7 +1452,7 @@ msgstr ""
 "Spowoduje to uruchomienie wszystkich obiegów dokumentów utworzonych po "
 "przesłaniu dokumentów."
 
-#: views/workflow_template_views.py:309
+#: views/workflow_template_views.py:318
 msgid "Launch all workflows?"
 msgstr "Uruchomić wszystkie obiegi dokumentów?"
 

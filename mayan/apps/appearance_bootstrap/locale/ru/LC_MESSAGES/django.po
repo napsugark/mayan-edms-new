@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"POT-Creation-Date: 2025-07-27 19:21+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Ilya Pavlov <spirkaa@gmail.com>, 2024\n"
 "Language-Team: Russian (https://app.transifex.com/rosarior/teams/13584/ru/)\n"
@@ -283,18 +283,18 @@ msgstr "Идентификатор"
 msgid "Actions"
 msgstr "Действия"
 
-#: templates/appearance/partials/list/toolbar.html:15
+#: templates/appearance/partials/list/toolbar.html:14
 msgid "Select/Deselect all"
 msgstr "Выбрать все / отменить выбор"
 
-#: templates/appearance/partials/list/toolbar.html:28
+#: templates/appearance/partials/list/toolbar.html:26
 msgid ""
 "Select items to activate bulk actions. Use Shift + click to select many."
 msgstr ""
 "Выберите элементы для массовых действий. Чтобы отметить сразу несколько, "
 "нажмите Shift + клик."
 
-#: templates/appearance/partials/list/toolbar.html:32
+#: templates/appearance/partials/list/toolbar.html:30
 msgid "Bulk actions"
 msgstr "Массовые действия"
 

@@ -10,6 +10,7 @@
 # WM Shinkada <shinkadawasim@gmail.com>, 2024
 # Roberto Rosario, 2024
 # ali ahmed, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -17,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: ali ahmed, 2024\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,11 +75,11 @@ msgstr "نوع الحدث"
 
 #: classes.py:90
 msgid "Event list export to CSV"
-msgstr ""
+msgstr "تصدير قائمة الأحداث إلى CSV"
 
 #: classes.py:119
 msgid "Events exported."
-msgstr ""
+msgstr "تم تصدير الأحداث."
 
 #: classes.py:121
 #, python-format
@@ -86,14 +87,16 @@ msgid ""
 "The event list has been exported and is available for download using the "
 "link: %(download_url)s or from the downloads area (%(download_list_url)s)."
 msgstr ""
+"تم تصدير قائمة الأحداث وهي متاحة للتنزيل باستخدام الرابط: %(download_url)s "
+"أو من منطقة التنزيلات (%(download_list_url)s)."
 
 #: events.py:15
 msgid "Events cleared"
-msgstr ""
+msgstr "تم مسح الأحداث"
 
 #: events.py:18
 msgid "Events exported"
-msgstr ""
+msgstr "تم تصدير الأحداث"
 
 #: forms.py:22 forms.py:83
 msgid "Subscription"
@@ -113,11 +116,11 @@ msgstr "النظام"
 
 #: links.py:56 links.py:109 views/clear_views.py:65
 msgid "Clear events"
-msgstr ""
+msgstr "مسح الأحداث"
 
 #: links.py:60 links.py:116 views/export_views.py:64
 msgid "Export events"
-msgstr ""
+msgstr "تصدير الأحداث"
 
 #: links.py:66 models.py:55 views/subscription_views.py:54
 msgid "Event subscriptions"
@@ -192,47 +195,47 @@ msgstr "اشتراك حدث الكائن"
 
 #: permissions.py:10
 msgid "Clear the events of an object"
-msgstr ""
+msgstr "مسح أحداث كائن"
 
 #: permissions.py:13
 msgid "Export the events of an object"
-msgstr ""
+msgstr "تصدير أحداث كائن"
 
 #: permissions.py:16
 msgid "View the events of an object"
-msgstr ""
+msgstr "عرض أحداث كائن"
 
 #: queues.py:7
 msgid "Events fast"
-msgstr ""
+msgstr "الأحداث السريعة"
 
 #: queues.py:10
 msgid "Events slow"
-msgstr ""
+msgstr "الأحداث البطيئة"
 
 #: queues.py:16
 msgid "Commit an event"
-msgstr ""
+msgstr "تثبيت حدث"
 
 #: queues.py:21
 msgid "Clear event querysets"
-msgstr ""
+msgstr "مسح مجموعات استعلامات الأحداث"
 
 #: queues.py:26
 msgid "Export event querysets"
-msgstr ""
+msgstr "تصدير مجموعات استعلامات الأحداث"
 
 #: serializers/event_serializers.py:17
 msgid "Actor content type"
-msgstr ""
+msgstr "نوع محتوى الفاعل"
 
 #: serializers/event_serializers.py:23
 msgid "Target content type"
-msgstr ""
+msgstr "نوع محتوى الهدف"
 
 #: serializers/event_serializers.py:26
 msgid "Verb"
-msgstr ""
+msgstr "الفعل"
 
 #: serializers/event_type_serializers.py:23
 #: serializers/notification_serializers.py:22
@@ -241,7 +244,7 @@ msgstr "URL"
 
 #: serializers/event_type_serializers.py:36
 msgid "Event type namespace URL"
-msgstr ""
+msgstr "عنوان URL لمساحة اسم نوع الحدث"
 
 #: serializers/event_type_serializers.py:39
 msgid "ID"
@@ -252,34 +255,36 @@ msgid ""
 "Disables asynchronous events mode. All events will be committed in the same "
 "process that triggers them. This was the behavior prior to version 4.5."
 msgstr ""
+"يعطل وضع الأحداث غير المتزامنة. سيتم تثبيت جميع الأحداث في نفس العملية التي "
+"تطلقها. كان هذا السلوك قائمًا قبل الإصدار 4.5."
 
 #: views/clear_views.py:27
 msgid ""
 "This action is not reversible. The process will be performed in the "
 "background. "
-msgstr ""
+msgstr "هذا الإجراء غير قابل للعكس. ستتم العملية في الخلفية."
 
 #: views/clear_views.py:53
 msgid "Event list clear task queued successfully."
-msgstr ""
+msgstr "تم تهيئة مهمة مسح قائمة الأحداث بنجاح."
 
 #: views/clear_views.py:85
 #, python-format
 msgid "Clear events of: %s"
-msgstr ""
+msgstr "مسح أحداث: %s"
 
 #: views/clear_views.py:109
 #, python-format
 msgid "Clear events of type: %s"
-msgstr ""
+msgstr "مسح أحداث من النوع: %s"
 
 #: views/event_views.py:25
 msgid "Events track actions that have been performed on, to, or with objects."
-msgstr ""
+msgstr "الأحداث تتتبع الإجراءات التي تم تنفيذها على الكائنات أو معها."
 
 #: views/event_views.py:28
 msgid "There are no events"
-msgstr ""
+msgstr "لا توجد أحداث"
 
 #: views/event_views.py:49
 msgid "There are no events for this object"
@@ -292,7 +297,7 @@ msgstr "سجل التعديلات: %s"
 
 #: views/event_views.py:67
 msgid "There are no events of this type"
-msgstr ""
+msgstr "لا يوجد أحداث من هذا النوع"
 
 #: views/event_views.py:69
 #, python-format
@@ -304,55 +309,57 @@ msgid ""
 "The process will be performed in the background. The exported events will be"
 " available in the downloads area."
 msgstr ""
+"سيتم تنفيذ العملية في الخلفية. الأحداث المُصدَّرة ستكون متاحة في منطقة "
+"التنزيلات."
 
 #: views/export_views.py:51
 msgid "Event list export task queued successfully."
-msgstr ""
+msgstr "تم وضع مهمة تصدير قائمة الأحداث في قائمة الانتظار بنجاح."
 
 #: views/export_views.py:84
 #, python-format
 msgid "Export events of: %s"
-msgstr ""
+msgstr "%sأحداث التصدير من:"
 
 #: views/export_views.py:102
 #, python-format
 msgid "Export events of type: %s"
-msgstr ""
+msgstr "تصدير أحداث من نوع: %s"
 
 #: views/notification_views.py:20
 #, python-format
 msgid "Error deleting notification \"%(instance)s\"; %(exception)s"
-msgstr ""
+msgstr "خطأ في حذف الإشعار \"%(instance)s\"؛ %(exception)s"
 
 #: views/notification_views.py:27
 #, python-format
 msgid "%(count)d notifications deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)d إشعار بنجاح"
 
 #: views/notification_views.py:30
 #, python-format
 msgid "User \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "تم حذف المستخدم \"%(object)s\" بنجاح."
 
 #: views/notification_views.py:33
 #, python-format
 msgid "%(count)d notification deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)d إشعار بنجاح"
 
 #: views/notification_views.py:35
 #, python-format
 msgid "Delete the %(count)d selected notifications."
-msgstr ""
+msgstr "حذف الإشعارات المحددة (%(count)d)"
 
 #: views/notification_views.py:36
 #, python-format
 msgid "Delete notification: %(object)s."
-msgstr ""
+msgstr "حذف الإشعار: %(object)s"
 
 #: views/notification_views.py:37
 #, python-format
 msgid "Delete the %(count)d selected notification."
-msgstr ""
+msgstr "حذف الإشعار المحدد (%(count)d)"
 
 #: views/notification_views.py:52
 msgid "Subscribe to global or object events to receive notifications."
@@ -364,19 +371,19 @@ msgstr "لا توجد تنبيهات"
 
 #: views/notification_views.py:68
 msgid "Mark the selected notification as read?"
-msgstr ""
+msgstr "تم تحديد الإشعار كمقروء."
 
 #: views/notification_views.py:83
 msgid "Notification marked as read."
-msgstr ""
+msgstr "تم تحديد الإشعار كمقروء."
 
 #: views/notification_views.py:95
 msgid "Mark all notification as read?"
-msgstr ""
+msgstr "تحديد جميع الإشعارات كمقروءة؟"
 
 #: views/notification_views.py:102
 msgid "All notifications marked as read."
-msgstr ""
+msgstr "تم تحديد جميع الإشعارات كمقروءة."
 
 #: views/subscription_views.py:38
 #, python-format
@@ -405,8 +412,8 @@ msgstr "اشتراكات المستخدم لـ: %s"
 msgid ""
 "Subscribe to the events of an object to receive notifications when those "
 "events occur."
-msgstr ""
+msgstr "اشترك في أحداث كائن ما لتلقي إشعارات عند حدوث تلك الأحداث."
 
 #: views/subscription_views.py:167
 msgid "There are no object event subscriptions"
-msgstr ""
+msgstr "لا توجد اشتراكات في أحداث الكائنات"

@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-06 20:31+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,3 +45,6 @@ msgid ""
 "not the root path of the web server. The path value must not include a "
 "leading or trailing slash. Example: mayan-installations/home"
 msgstr ""
+"Basis-URL-Pfad für alle Sichten. Kommt zur Anwendung, wenn der Hostingpfad "
+"nicht der Wurzelpfad des Webservers ist. Der Pfad keinen führenden oder "
+"abschließenden Schrägstrich enthalten. Beispiel: mayan-installations/home"

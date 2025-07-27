@@ -13,7 +13,7 @@
 # Roberto Rosario, 2024
 # Ingo Buchholz <ingo.buchholz@takwa.de>, 2024
 # Ampérlo Voltić <amperlo.voltic@gmail.com>, 2024
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -21,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Austria) (https://app.transifex.com/rosarior/teams/13584/de_AT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -143,7 +143,7 @@ msgstr "Neue Transformation auswählen"
 
 #: model_mixins.py:120
 msgid "Badly formatted arguments YAML"
-msgstr ""
+msgstr "Fehlerhaft formattierte YAML Argumente"
 
 #: model_mixins.py:131 models.py:168
 msgid "Arguments"
@@ -326,6 +326,7 @@ msgstr "Einstellungsmöglichkeiten für das Konvertierungsbackend."
 #: settings.py:80
 msgid "Time in seconds that the browser should cache the supplied image."
 msgstr ""
+"Zeit in Sekunden, die der Browser das erhaltene Bild im Cache halten soll."
 
 #: settings.py:88
 msgid ""
@@ -345,7 +346,7 @@ msgstr ""
 
 #: settings.py:104
 msgid "Whether or not to load truncated image files."
-msgstr ""
+msgstr "Ob abgeschnittene Bilddateien geladen werden sollten."
 
 #: storages.py:15
 msgid ""
@@ -420,7 +421,7 @@ msgstr "Oben"
 
 #: transformation_mixins.py:157
 msgid "Paste an image (percent coordinates)"
-msgstr ""
+msgstr "Ein Bild einfügen (Koordinaten in Prozent)"
 
 #: transformation_mixins.py:163
 msgid "Horizontal position in percent from the left."
@@ -518,7 +519,7 @@ msgstr "Ein Asset einfügen (absolute Koordinaten)"
 
 #: transformations.py:216
 msgid "Paste an asset (percent coordinates)"
-msgstr ""
+msgstr "Ein Asset einfügen (Koordinaten in Prozent)"
 
 #: transformations.py:230
 msgid "Crop"
@@ -562,7 +563,7 @@ msgstr "Anordnung unten in Pixeln."
 
 #: transformations.py:430
 msgid "Draw rectangle (percent coordinates)"
-msgstr ""
+msgstr "Zeichne Rechteck (Koordinaten in Prozent)"
 
 #: transformations.py:435
 msgid "Left side location in percent."
@@ -602,15 +603,15 @@ msgstr "Spiegeln"
 
 #: transformations.py:585
 msgid "Draw a QRCode (percent coordinates)"
-msgstr ""
+msgstr "Zeichne einen QR-Code (Koordinaten in Prozent)"
 
 #: transformations.py:595
 msgid "Value to encode in the QRCode."
-msgstr ""
+msgstr "Wert der im QR-Code kodiert werden soll."
 
 #: transformations.py:596
 msgid "Code value"
-msgstr ""
+msgstr "Code Wert"
 
 #: transformations.py:621
 msgid "Resize"
@@ -726,6 +727,8 @@ msgid ""
 "Assets are files that can be used in conjunction with certain "
 "transformations."
 msgstr ""
+"Assets sind Dateien, die in Verbindung mit bestimmten Transformationen "
+"verwendet werden können."
 
 #: views/asset_views.py:143
 msgid "No assets available"
@@ -810,6 +813,9 @@ msgid ""
 "a YAML dictionary. ie: {\"degrees\": 180}. The document version page is "
 "available as {{ document_version_page }}."
 msgstr ""
+"Geben Sie eine Vorlage in Form eines YAML Dictionaries ein, aus der die "
+"Argumente für die Transformation erzeugt werden, z.B.: {\"degrees\": 180}. "
+"Die Dokumentenversionsseite ist verfügbar als {{ document_version_page }}."
 
 #: workflow_actions.py:63
 msgid "Add transformation"

@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2024
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 04:34+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,19 +23,20 @@ msgstr ""
 
 #: apps.py:10
 msgid "Platform Docker"
-msgstr ""
+msgstr "Plattform Docker"
 
 #: literals.py:15
 msgid "Allows setting the worker's Celery `concurrency` value."
-msgstr ""
+msgstr "Erlaubt das Setzen des Werts für Gunicorn worker  `concurrency`."
 
 #: literals.py:24
 msgid "Allows setting the worker's Celery `max-memory-per-child` value."
-msgstr ""
+msgstr "Erlaubt das Setzen des Werts für Gunicorn worker  `concurrency`."
 
 #: literals.py:33
 msgid "Allows setting the worker's Celery `max-tasks-per-child` value."
 msgstr ""
+"Erlaubt das Setzen des Werts für Celery worker  `max-tasks-per-child`."
 
 #: platform_templates.py:26
 msgid "Template for entrypoint.sh file inside a Docker image."
@@ -45,7 +46,7 @@ msgstr ""
 
 #: platform_templates.py:41
 msgid "Template that generates the Docker Compose file."
-msgstr ""
+msgstr "Vorlage für die Generierung der Docker compose Datei."
 
 #: platform_templates.py:206
 msgid "Template for Supervisord inside a Docker image."
@@ -57,7 +58,7 @@ msgstr "Vorlage zur Generierung einer Dockerfile-Datei."
 
 #: settings.py:24
 msgid "Docker"
-msgstr ""
+msgstr "Docker"
 
 #: settings.py:30
 msgid ""
@@ -65,6 +66,9 @@ msgid ""
 " is first created. The installed packages are not lost when the image is "
 "stopped."
 msgstr ""
+"Spezifiziert eine Liste von .deb Paketen, die mit APT bei Erstellung des "
+"Containers installiert werden. Die installierten Pakete bleiben auch bei "
+"Stoppen des Containers erhalten."
 
 #: settings.py:38
 msgid ""
@@ -72,6 +76,9 @@ msgid ""
 "be downloaded from the Python Package Index (https://pypi.python.org) by "
 "default."
 msgstr ""
+"Spezifiziert eine Liste von Python Paketen, die mit pip installiert werden. "
+"Die Pakete werden standardmäßig vom Python Package Index "
+"(https://pypi.python.org)  heruntergeladen."
 
 #: settings.py:46
 msgid ""
@@ -80,6 +87,11 @@ msgid ""
 "installations but before launching the Mayan EDMS stack. Executes the "
 "content as a script or call a script using the value as the filename."
 msgstr ""
+"Wird ausgeführt nachdem die Umgebungsvariablen des Containers konfiguriert "
+"sind, nach dem UID/GID Setup, nach der Installation von zusätzlichen "
+"Betriebssystempaketen (.deb) und zusätzlichen Python Paketen, aber bevor der"
+" Mayan EDMS Stack gestartet wird. Führt den Inhalt als Skript aus oder ruft "
+"ein Skript auf, indem es den Wert als Dateinamen verwendet."
 
 #: settings.py:56
 msgid ""
@@ -88,23 +100,33 @@ msgid ""
 "library installations. Executes the content as a script or call a script "
 "using the value as the filename."
 msgstr ""
+"Wird ausgeführt nachdem die Umgebungsvariablen des Containers konfiguriert "
+"sind, nach dem UID/GID Setup, nach der Installation von zusätzlichen "
+"Betriebssystempaketen (.deb) und zusätzlichen Python Paketen. Führt den "
+"Inhalt als Skript aus oder ruft ein Skript auf, indem es den Wert als "
+"Dateinamen verwendet."
 
 #: settings.py:66
 msgid ""
 "Setting this environment variable to true, will make the entrypoint script "
 "skip the initial `chown` command on the media folder at `/var/lib/mayan`."
 msgstr ""
+"Mit Setzen von dieser Umgebungsvariablen auf Wahr (true) wird das entrypoint"
+" Skript den initialen `chown` Befehl für das media Verzeichnis in "
+"`/var/lib/mayan` überspringen."
 
 #: settings.py:74
 msgid "Changes the GID of the `mayan` user internal to the Docker container."
-msgstr ""
+msgstr "Ändert die GID des `mayan` Benutzers intern im  Docker Container."
 
 #: settings.py:81
 msgid "Changes the UID of the `mayan` user internal to the Docker container."
-msgstr ""
+msgstr "Ändert die UID des `mayan` Benutzers intern im  Docker Container."
 
 #: settings.py:89
 msgid ""
 "Make the Docker container wait for a host and port to become available. "
 "Multiple hosts and port combinations are supported."
 msgstr ""
+"Bewirkt dass der Docker Container auf die Verfügbarkeit von Host und Port "
+"wartet. Mehrere Kombinationen von Host und Port werden unterstützt."

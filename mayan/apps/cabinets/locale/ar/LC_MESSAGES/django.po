@@ -7,6 +7,7 @@
 # Yaman Sanobar <yman.snober@gmail.com>, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Mohammed ALDOUB <voulnet@gmail.com>, 2024\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,7 +40,7 @@ msgstr "إنشاء خزائن"
 
 #: events.py:14
 msgid "Cabinet deleted"
-msgstr ""
+msgstr "تم حذف الخزانة."
 
 #: events.py:17
 msgid "Cabinet edited"
@@ -103,7 +104,7 @@ msgstr "مكان الوصول الكامل"
 
 #: models.py:35 serializers.py:41
 msgid "Parent"
-msgstr ""
+msgstr "الأصل"
 
 #: models.py:38
 msgid "A short text used to identify the cabinet."
@@ -176,19 +177,19 @@ msgstr "الوثائق المحددة"
 
 #: search.py:40
 msgid "Document file checksum"
-msgstr ""
+msgstr "المجموع الاختباري لملف المستند"
 
 #: search.py:43
 msgid "Document file MIME type"
-msgstr ""
+msgstr "نوع MIME لملف المستند"
 
 #: search.py:50
 msgid "The database ID of the cabinet."
-msgstr ""
+msgstr "معرف الخزانة في قاعدة البيانات"
 
 #: search.py:51
 msgid "Cabinet ID"
-msgstr ""
+msgstr "معرف الخزانة"
 
 #: serializers.py:18
 msgid "List of children cabinets."
@@ -196,7 +197,7 @@ msgstr "قائمة خزائن الابناء"
 
 #: serializers.py:19
 msgid "Children"
-msgstr ""
+msgstr "الفروع"
 
 #: serializers.py:23
 msgid ""
@@ -205,7 +206,7 @@ msgstr "عرض مستندات القائمة داخل الخزانة"
 
 #: serializers.py:25
 msgid "Documents URL"
-msgstr ""
+msgstr "رابط المستندات"
 
 #: serializers.py:30
 msgid "The name of this cabinet level appended to the names of its ancestors."
@@ -213,7 +214,7 @@ msgstr "تم ربط الاسم بالاب لنفس الخزانة"
 
 #: serializers.py:35
 msgid "Parents URL"
-msgstr ""
+msgstr "رابط الأصول"
 
 #: serializers.py:51
 msgid "URL"
@@ -221,15 +222,15 @@ msgstr "URL"
 
 #: serializers.py:84
 msgid "Primary key of the document to add to the cabinet."
-msgstr ""
+msgstr "المفتاح الأساسي للمستند المراد إضافته إلى الخزانة."
 
 #: serializers.py:85 serializers.py:95
 msgid "Document ID"
-msgstr ""
+msgstr "معرّف المستند"
 
 #: serializers.py:94
 msgid "Primary key of the document to remove from the cabinet."
-msgstr ""
+msgstr "المفتاح الأساسي للمستند المراد إزالته من الخزانة."
 
 #: templates/cabinets/cabinet_details.html:17
 msgid "Navigation:"
@@ -282,32 +283,32 @@ msgstr "لا توجد خزائن متاحة"
 #: views.py:192
 #, python-format
 msgid "Document \"%(object)s\" added to cabinets successfully."
-msgstr ""
+msgstr "تمت إضافة المستند \"%(object)s\" إلى الخزائن بنجاح."
 
 #: views.py:195
 #, python-format
 msgid "%(count)d document added to cabinets successfully."
-msgstr ""
+msgstr "تمت إضافة %(count)d مستند إلى الخزائن بنجاح."
 
 #: views.py:198
 #, python-format
 msgid "%(count)d documents added to cabinets successfully."
-msgstr ""
+msgstr "تمت إضافة %(count)d مستندات إلى الخزائن بنجاح."
 
 #: views.py:200
 #, python-format
 msgid "Add %(count)d documents to cabinets."
-msgstr ""
+msgstr "أضف %(count)d مستندات إلى الخزائن."
 
 #: views.py:201
 #, python-format
 msgid "Add document \"%(object)s\" to cabinets."
-msgstr ""
+msgstr "أضف المستند \"%(object)s\" إلى الخزائن."
 
 #: views.py:202
 #, python-format
 msgid "Add %(count)d document to cabinets."
-msgstr ""
+msgstr "أضف %(count)d مستند إلى الخزائن."
 
 #: views.py:220
 msgid "Cabinets to which the selected documents will be added."
@@ -329,32 +330,32 @@ msgstr "خزائن تحتوي على وثيقة: %s"
 #: views.py:289
 #, python-format
 msgid "Document \"%(object)s\" removed from cabinets successfully."
-msgstr ""
+msgstr "تمت إزالة المستند \"%(object)s\" من الخزائن بنجاح."
 
 #: views.py:292
 #, python-format
 msgid "%(count)d document removed from cabinets successfully."
-msgstr ""
+msgstr "تمت إزالة %(count)d مستند من الخزائن بنجاح."
 
 #: views.py:295
 #, python-format
 msgid "%(count)d documents removed from cabinets successfully."
-msgstr ""
+msgstr "تمت إزالة %(count)d مستندات من الخزائن بنجاح."
 
 #: views.py:297
 #, python-format
 msgid "Remove %(count)d documents from cabinets."
-msgstr ""
+msgstr "أزل %(count)d مستندات من الخزائن."
 
 #: views.py:298
 #, python-format
 msgid "Remove document \"%(object)s\" from cabinets."
-msgstr ""
+msgstr "إزالة المستند \"%(object)s\" من الخزائن."
 
 #: views.py:299
 #, python-format
 msgid "Remove %(count)d document from cabinets."
-msgstr ""
+msgstr "حذف %(count)d مستند من الخزائن."
 
 #: views.py:317
 msgid "Cabinets from which the selected documents will be removed."
@@ -370,4 +371,4 @@ msgstr "الخزانات التي سيتم إضافة المستند إليها"
 
 #: workflow_actions.py:83
 msgid "Cabinets from which the document will be removed"
-msgstr ""
+msgstr "الخزانات التي سيتم إزالة الوثيقة منها"
