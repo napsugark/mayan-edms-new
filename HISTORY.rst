@@ -2,6 +2,13 @@
 ==================
 - Increase the GitLab CI artifact expiration from 4 hours to 24 hours.
 - Add Mayan Forge, a Docker based development environment for Mayan EDMS.
+- Update dependency versions:
+
+  - Django from 4.2.16 to 4.2.23
+  - requests from 2.32.3 to 2.32.4
+  - python_gnupg from 0.5.3 to 0.5.4
+  - furl from 2.1.3 to 2.1.4
+  - psycopg from 3.2.3 to 3.2.9
 
 4.8.3 (2024-10-04)
 ==================

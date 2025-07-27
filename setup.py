@@ -65,7 +65,7 @@ def find_packages(directory):
 
 
 install_requires = """
-django==4.2.16
+django==4.2.23
 CairoSVG==2.7.1
 Pillow==10.4.0
 PyYAML==6.0.2
@@ -94,7 +94,7 @@ elasticsearch==7.17.12
 elasticsearch-dsl==7.4.1
 extract-msg==0.48.7
 flex==6.14.1
-furl==2.1.3
+furl==2.1.4
 fusepy==3.0.1
 gevent==24.2.1
 google-cloud-storage==2.17.0
@@ -112,10 +112,10 @@ pyotp==2.9.0
 pypdf==4.2.0
 python-dateutil==2.9.0.post0
 python-magic==0.4.27
-python_gnupg==0.5.3
+python_gnupg==0.5.4
 pytz==2024.2
 qrcode==7.4.2
-requests==2.32.3
+requests==2.32.4
 sentry-sdk==2.15.0
 setuptools==70.3.0
 sh==2.0.7

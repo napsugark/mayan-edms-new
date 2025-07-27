@@ -36,7 +36,7 @@ PythonDependency(
         ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
         (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
         SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-    ''', module=__name__, name='django', version_string='==4.2.16'
+    ''', module=__name__, name='django', version_string='==4.2.23'
 )
 PythonDependency(
     legal_text='''
@@ -128,7 +128,7 @@ PythonDependency(
     ''', module=__name__, name='pycountry', version_string='==24.6.1'
 )
 PythonDependency(
-    module=__name__, name='requests', version_string='==2.32.3'
+    module=__name__, name='requests', version_string='==2.32.4'
 )
 PythonDependency(
     module=__name__, name='setuptools', version_string='==70.3.0'
