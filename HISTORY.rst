@@ -1,4 +1,4 @@
-4.8.4 (2025-XX-XX)
+4.8.4 (2025-07-27)
 ==================
 - Increase the GitLab CI artifact expiration from 4 hours to 24 hours.
 - Add Mayan Forge, a Docker based development environment for Mayan EDMS.
