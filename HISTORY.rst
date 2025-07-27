@@ -23,6 +23,7 @@
   - ElasticSearch from 7.17.20 to 7.17.28
 
 - Quote environment variables prior to loading.
+- Fix context of the workflow launch view when only one document is selected.
 
 4.6.5 (2024-06-03)
 ==================
