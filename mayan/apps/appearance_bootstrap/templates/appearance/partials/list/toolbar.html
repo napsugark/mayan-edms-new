@@ -7,15 +7,15 @@
 <div id="list-toolbar-spacer"></div>
 <nav id="list-toolbar">
     <div class="well center-block toolbar">
-        <div class="pull-left">
-            <div class="btn-toolbar btn-toolbar-check-all" role="toolbar">
-                <div class="form-group">
-                    {% if links_multi_menus_results %}
+        {% if links_multi_menus_results %}
+            <div class="pull-left">
+                <div class="btn-toolbar btn-toolbar-check-all" role="toolbar">
+                    <div class="form-group">
                         <input type="checkbox" class="check-all" data-checked=false title="{% trans 'Select/Deselect all' %}"/>
-                    {% endif %}
+                    </div>
                 </div>
             </div>
-        </div>
+        {% endif %}
 
         {% include 'appearance/partials/list/pagination.html' %}
 
