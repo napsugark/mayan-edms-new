@@ -20,7 +20,7 @@ class RESTAPISearchFilter(BaseFilterBackend):
         if not getattr(view, 'search_disable_list_filtering', False):
             search_model = self.get_search_model(queryset=queryset)
             if search_model:
-                query_dict= get_request_data(request=request)
+                query_dict = get_request_data(request=request)
 
                 search_model_fields = list(
                     map(
