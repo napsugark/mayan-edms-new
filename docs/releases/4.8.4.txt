@@ -80,6 +80,12 @@ Workflows
 Fixed an issue in the workflow launch view where the context would not render properly when only one document was selected. This did not affected workflows reliability on UI navigation.
 
 
+Other
+^^^^^
+
+- Quote environment variables prior to loading.
+
+
 Removals
 --------
 
