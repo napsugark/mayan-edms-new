@@ -84,6 +84,9 @@ Other
 ^^^^^
 
 - Quote environment variables prior to loading.
+- Formalize the pattern used to get all the request `GET` and `POST` data.
+- Improve how the select all toolbar checkbox is disabled when there are no
+  results.
 
 
 Removals
