@@ -37,6 +37,12 @@ queue_search.add_task_type(
         'to many event.'
     ), name='task_index_related_instance_m2m'
 )
+queue_search.add_task_type(
+    dotted_path='mayan.apps.dynamic_search.tasks.task_saved_resultset_expired_delete',
+    label=_(message='Delete expired saved resultsets'),
+    name='task_saved_resultset_expired_delete',
+    schedule=timedelta(seconds=TASK_SAVED_RESULTSET_EXPIRED_DELETE_INTERVAL)
+)
 
 queue_search_slow.add_task_type(
     dotted_path='mayan.apps.dynamic_search.tasks.task_reindex_backend',
@@ -44,11 +50,4 @@ queue_search_slow.add_task_type(
         message='Reset the search backend indices and index all instances '
         'again.'
     ), name='task_reindex_backend'
-)
-
-queue_search.add_task_type(
-    dotted_path='mayan.apps.dynamic_search.tasks.task_saved_resultset_expired_delete',
-    label=_(message='Delete expired saved resultsets'),
-    name='task_saved_resultset_expired_delete',
-    schedule=timedelta(seconds=TASK_SAVED_RESULTSET_EXPIRED_DELETE_INTERVAL)
 )
