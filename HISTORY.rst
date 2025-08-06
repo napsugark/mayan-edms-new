@@ -1,4 +1,4 @@
-4.6.6 (2025-XX-XX)
+4.6.6 (2025-08-06)
 ==================
 - Increase the GitLab CI artifact expiration from 4 hours to 24 hours.
 - Add Mayan Forge, a Docker based development environment for Mayan EDMS.
@@ -26,6 +26,7 @@
 - Fix context of the workflow launch view when only one document is selected.
 - Improve documentation navigation.
 - Update translation helper script to use the new `MayanAppConfig` accessors.
+- Backport `MayanAppConfig` improvements needed by the translation helper.
 
 4.6.5 (2024-06-03)
 ==================
