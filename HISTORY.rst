@@ -22,6 +22,8 @@
   - Python from 3.11.9-slim to 3.11.13-slim.
   - ElasticSearch from 7.17.20 to 7.17.28
 
+- Quote environment variables prior to loading.
+
 4.6.5 (2024-06-03)
 ==================
 - Merge changes from version 4.5.13.
