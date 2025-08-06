@@ -13,7 +13,6 @@ class PlatformForgeApp(MayanAppConfig):
         super().ready()
 
         # TODO: Remove this direct activation in version 4.8.
-        from .platform_templates import (
+        from .platform_templates import (  # NOQA
             PlatformTemplateForgeDockerComposefile, PlatformTemplateForgeDockerfile
-        ) # NOQA
-
+        )
