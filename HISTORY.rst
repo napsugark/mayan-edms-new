@@ -12,7 +12,6 @@
   - furl from 2.1.3 to 2.1.4.
   - pip from 24.0 to 24.3.
   - psycopg from 3.1.14 to 3.1.20.
-  - pytz from 2024.1 to 2024.2.
   - redis from 5.0.3 to 5.0.8.
   - twine from 5.1.0 to 5.1.1.
 
