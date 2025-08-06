@@ -4,10 +4,10 @@ PythonDependency(
     module=__name__, name='boto3', version_string='==1.33.7'
 )
 PythonDependency(
-    module=__name__, name='django-storages', version_string='==1.14.2'
+    module=__name__, name='django-storages', version_string='==1.14.6'
 )
 PythonDependency(
-    module=__name__, name='extract-msg', version_string='==0.48.5'
+    module=__name__, name='extract-msg', version_string='==0.48.7'
 )
 PythonDependency(
     module=__name__, name='pycryptodome', version_string='==3.20.0'

@@ -79,7 +79,7 @@ services:
       - xpack.security.enabled=true
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
       - ELASTIC_PASSWORD=${MAYAN_ELASTICSEARCH_PASSWORD:-mayanespassword}
-    image: ${MAYAN_DOCKER_ELASTICSEARCH_IMAGE:-elasticsearch}:${MAYAN_DOCKER_ELASTICSEARCH_TAG:-7.17.20}
+    image: ${MAYAN_DOCKER_ELASTICSEARCH_IMAGE:-elasticsearch}:${MAYAN_DOCKER_ELASTICSEARCH_TAG:-7.17.28}
     networks:
       - mayan
     # Enable to allow external access to the database.
@@ -162,7 +162,7 @@ services:
       POSTGRES_DB: ${MAYAN_DATABASE_NAME:-mayan}
       POSTGRES_PASSWORD: ${MAYAN_DATABASE_PASSWORD:-mayandbpass}
       POSTGRES_USER: ${MAYAN_DATABASE_USER:-mayan}
-    image: ${MAYAN_DOCKER_POSTGRESQL_IMAGE:-postgres}:${MAYAN_DOCKER_POSTGRESQL_TAG:-13.15-alpine}
+    image: ${MAYAN_DOCKER_POSTGRESQL_IMAGE:-postgres}:${MAYAN_DOCKER_POSTGRESQL_TAG:-13.21-alpine}
     networks:
       - mayan
     # Enable to allow external access to the database.
@@ -181,7 +181,7 @@ services:
       RABBITMQ_DEFAULT_PASS: ${MAYAN_RABBITMQ_PASSWORD:-mayanrabbitpass}
       RABBITMQ_DEFAULT_VHOST: ${MAYAN_RABBITMQ_VHOST:-mayan}
     hostname: ${MAYAN_DOCKER_RABBITMQ_HOSTNAME:-rabbitmq}
-    image: ${MAYAN_DOCKER_RABBITMQ_IMAGE:-rabbitmq}:${MAYAN_DOCKER_RABBITMQ_TAG:-3.12.28-management-alpine}
+    image: ${MAYAN_DOCKER_RABBITMQ_IMAGE:-rabbitmq}:${MAYAN_DOCKER_RABBITMQ_TAG:-3.12.14-management-alpine}
     labels:
       - "traefik.enable=${MAYAN_TRAEFIK_RABBITMQ_ENABLE:-false}"
       - "traefik.http.routers.rabbitmq_admin_http.entrypoints=rabbitmq_admin_http"
