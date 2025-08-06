@@ -10,7 +10,7 @@
 # Berny <berny@bernhard-marx.de>, 2024
 # tetjarediske <tetja.rediske@googlemail.com>, 2024
 # Marvin Haschker <marvin@haschker.me>, 2024
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-04 17:04+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
-"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -257,7 +257,7 @@ msgstr "Dateispeicher"
 #: model_mixins.py:173
 #, python-format
 msgid "Test email from %s"
-msgstr ""
+msgstr "Test E-Mail von %s"
 
 #: models.py:31
 msgid "A short text describing the mailing profile."
@@ -333,11 +333,11 @@ msgstr "URL"
 
 #: serializers.py:32
 msgid "Primary key of the mailing profile to use."
-msgstr ""
+msgstr "Primärschlüssel des zu verwendenden Mailprofils."
 
 #: serializers.py:33
 msgid "Mailing profile ID"
-msgstr ""
+msgstr "Mailprofil-ID"
 
 #: serializers.py:38 workflow_action_mixins.py:15
 msgid "Recipient"

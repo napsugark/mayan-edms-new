@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-04 17:04+0000\n"
+"POT-Creation-Date: 2025-08-06 21:21+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
 "Last-Translator: Luc Didry, 2024\n"
 "Language-Team: French (https://app.transifex.com/rosarior/teams/13584/fr/)\n"
@@ -31,7 +31,7 @@ msgstr ""
 #: apps.py:92 events.py:6 forms/workflow_template_forms.py:20 links.py:50
 #: links.py:90 links.py:98 links.py:287 links.py:311
 #: models/workflow_models.py:58 queues.py:11 settings.py:14
-#: views/workflow_proxy_views.py:70 views/workflow_template_views.py:283
+#: views/workflow_proxy_views.py:70 views/workflow_template_views.py:292
 #: workflow_actions.py:133 workflow_actions.py:147
 msgid "Workflows"
 msgstr "Flux de travail"
@@ -228,7 +228,7 @@ msgstr "Activé"
 msgid "Event trigger: %s"
 msgstr "Déclencheur d'action : %s"
 
-#: links.py:56 views/workflow_template_views.py:139
+#: links.py:56 views/workflow_template_views.py:148
 msgid "Create workflow"
 msgstr "Créer un flux de travail"
 
@@ -1332,65 +1332,65 @@ msgstr ""
 "certains documents lorsque plusieurs documents sont sélectionnés seront "
 "ignorés sans avertissement."
 
-#: views/workflow_template_views.py:113
+#: views/workflow_template_views.py:122
 msgid "Workflows to be launched."
 msgstr "Flux de travail à lancer."
 
-#: views/workflow_template_views.py:157
+#: views/workflow_template_views.py:166
 #, python-format
 msgid "Error deleting workflow \"%(instance)s\"; %(exception)s"
 msgstr ""
 "Erreur lors de la suppression du flux de travail \"%(instance)s\"; "
 "%(exception)s"
 
-#: views/workflow_template_views.py:165
+#: views/workflow_template_views.py:174
 #, python-format
 msgid "%(count)d workflows deleted successfully."
 msgstr " %(count)d flux de travail ont été supprimés avec succès."
 
-#: views/workflow_template_views.py:166
+#: views/workflow_template_views.py:175
 #, python-format
 msgid "Workflow \"%(object)s\" deleted successfully."
 msgstr "Le flux de travail \"%(object)s\" a bien été supprimé."
 
-#: views/workflow_template_views.py:167
+#: views/workflow_template_views.py:176
 #, python-format
 msgid "%(count)d workflow deleted successfully."
 msgstr "%(count)d flux de travail a été supprimé avec succès."
 
-#: views/workflow_template_views.py:168
+#: views/workflow_template_views.py:177
 #, python-format
 msgid "Delete the %(count)d selected workflows."
 msgstr "Supprimez les %(count)d flux de travail sélectionnés ."
 
-#: views/workflow_template_views.py:169
+#: views/workflow_template_views.py:178
 #, python-format
 msgid "Delete workflow: %(object)s."
 msgstr "Supprimer le flux de travail: %(object)s."
 
-#: views/workflow_template_views.py:170
+#: views/workflow_template_views.py:179
 #, python-format
 msgid "Delete the %(count)d selected workflow."
 msgstr "Supprimez %(count)d flux de travail sélectionné."
 
-#: views/workflow_template_views.py:175
+#: views/workflow_template_views.py:184
 msgid "All workflow instances will also be deleted."
 msgstr "Toutes les instances de flux de travail seront également supprimées."
 
-#: views/workflow_template_views.py:195
+#: views/workflow_template_views.py:204
 #, python-format
 msgid "Edit workflow: %s"
 msgstr "Modifier le flux de travail: %s"
 
-#: views/workflow_template_views.py:206
+#: views/workflow_template_views.py:215
 msgid "Document types assigned this workflow"
 msgstr "Types de document associés à ce flux de travail"
 
-#: views/workflow_template_views.py:207
+#: views/workflow_template_views.py:216
 msgid "Available document types"
 msgstr "Types de document disponibles"
 
-#: views/workflow_template_views.py:225
+#: views/workflow_template_views.py:234
 msgid ""
 "Removing a document type from a workflow will also remove all running "
 "instances of that workflow for documents of the document type just removed."
@@ -1399,28 +1399,28 @@ msgstr ""
 " les instances en cours d'exécution de ce flux de travail pour les documents"
 " du type retiré."
 
-#: views/workflow_template_views.py:230
+#: views/workflow_template_views.py:239
 #, python-format
 msgid "Document types assigned the workflow: %s"
 msgstr "Types de document assignés au flux de travail : %s"
 
-#: views/workflow_template_views.py:244
+#: views/workflow_template_views.py:253
 msgid ""
 "This will launch the workflow for documents that have already been uploaded."
 msgstr ""
 "Ceci lancera le flux de travail pour les documents qui ont déjà été "
 "téléchargés."
 
-#: views/workflow_template_views.py:247
+#: views/workflow_template_views.py:256
 msgid "Launch workflow?"
 msgstr "Lancer le flux de travail?"
 
-#: views/workflow_template_views.py:258 views/workflow_template_views.py:318
+#: views/workflow_template_views.py:267 views/workflow_template_views.py:327
 msgid "Workflow launch queued successfully."
 msgstr ""
 "Le lancement du flux de travail a été mis en file d'attente avec succès."
 
-#: views/workflow_template_views.py:276
+#: views/workflow_template_views.py:285
 msgid ""
 "Workflows store a series of states and keep track of the current state of a "
 "document. Transitions are used to change the current state to a new one."
@@ -1429,16 +1429,16 @@ msgstr ""
 "l'état actuel d'un document. Les transitions sont utilisées pour modifier "
 "l'état actuel en un nouvel état."
 
-#: views/workflow_template_views.py:281
+#: views/workflow_template_views.py:290
 msgid "No workflows have been defined"
 msgstr "Aucun flux de travail n'a été défini"
 
-#: views/workflow_template_views.py:298
+#: views/workflow_template_views.py:307
 #, python-format
 msgid "Preview of: %s"
 msgstr "Prévisualisation de : %s"
 
-#: views/workflow_template_views.py:305
+#: views/workflow_template_views.py:314
 msgid ""
 "This will launch all workflows created after documents have already been "
 "uploaded."
@@ -1446,7 +1446,7 @@ msgstr ""
 "Ceci lancera tous les flux de travail créés après que les documents ont déjà"
 " été téléversés."
 
-#: views/workflow_template_views.py:308
+#: views/workflow_template_views.py:317
 msgid "Launch all workflows?"
 msgstr "Lancer tous les flux de travail ?"
 

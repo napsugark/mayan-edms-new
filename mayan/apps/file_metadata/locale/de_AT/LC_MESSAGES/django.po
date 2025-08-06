@@ -9,7 +9,7 @@
 # Berny <berny@bernhard-marx.de>, 2024
 # Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2024
 # Roberto Rosario, 2024
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-07 13:48+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
-"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Austria) (https://app.transifex.com/rosarior/teams/13584/de_AT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -71,7 +71,7 @@ msgstr ""
 
 #: drivers/exiftool.py:20
 msgid "Read meta information stored in files."
-msgstr ""
+msgstr "Lese in Dateien gespeicherte Metainformationen."
 
 #: drivers/exiftool.py:21
 msgid "EXIF Tool"
@@ -81,6 +81,8 @@ msgstr "EXIF Tool"
 msgid ""
 "Extracts information from emails saved in Microsoft Outlook's .msg files."
 msgstr ""
+"Extrahiert Informationen aus E-Mails gespeichert in Microsoft Outlooks .msg "
+"Dateien."
 
 #: drivers/extract_msg.py:19
 msgid "Extract msg"
@@ -112,7 +114,7 @@ msgstr "Dateimetadatenverarbeitung nach Typ"
 
 #: links.py:65 views.py:232
 msgid "File metadata drivers"
-msgstr ""
+msgstr "Dateimetadatentreiber"
 
 #: methods.py:58
 msgid "Return the specified document file file metadata entry."
@@ -160,11 +162,11 @@ msgstr "Einstellungen für Dokumententypen"
 
 #: models.py:70
 msgid "Normalized name of the file metadata entry."
-msgstr ""
+msgstr "Normalisierter Name des Dateimetadateneintrags."
 
 #: models.py:75
 msgid "Name of the file metadata entry as provided by the driver."
-msgstr ""
+msgstr "Name des Dateimetadateneintrags wie vom Treiber geliefert."
 
 #: models.py:77
 msgid "Key"
@@ -212,11 +214,11 @@ msgstr "Dokumentendatei verarbeiten"
 
 #: queues.py:16
 msgid "Finish document file metadata processing"
-msgstr ""
+msgstr "Verarbeitung von Dateimetadaten beenden"
 
 #: queues.py:20
 msgid "Process file metadata driver"
-msgstr ""
+msgstr "Dateimetadatentreiber verarbeiten"
 
 #: search.py:11 search.py:22
 msgid "File metadata key"
@@ -320,7 +322,9 @@ msgid ""
 "File metadata drivers extract embedded information from document files. File"
 " metadata drivers are configure in code only."
 msgstr ""
+"Dateimetadatentreiber extrahieren in Dokumentendateien eingebettete "
+"Informationen. Sie werden nur im Code konfiguriert."
 
 #: views.py:229
 msgid "No file metadata drivers available."
-msgstr ""
+msgstr "Keine Dateimetadatentreiber verfügbar."

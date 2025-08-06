@@ -9,6 +9,7 @@
 # WM Shinkada <shinkadawasim@gmail.com>, 2024
 # Yaman Sanobar <yman.snober@gmail.com>, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -16,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-07 11:57+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2024\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +27,7 @@ msgstr ""
 
 #: apps.py:38 events.py:6 permissions.py:6
 msgid "Messaging"
-msgstr ""
+msgstr "المراسلة"
 
 #: apps.py:60
 msgid "None"
@@ -34,7 +35,7 @@ msgstr "لا شيء"
 
 #: apps.py:66
 msgid "Sender"
-msgstr ""
+msgstr "المرسل"
 
 #: events.py:10
 msgid "Message created"
@@ -58,15 +59,15 @@ msgstr "حذف"
 
 #: links.py:68 links.py:79
 msgid "Mark as read"
-msgstr ""
+msgstr "تعيين كمقروء"
 
 #: links.py:74 links.py:83
 msgid "Mark as unread"
-msgstr ""
+msgstr "تعيين كغير مقروء"
 
 #: links.py:87
 msgid "Mark all as read"
-msgstr ""
+msgstr "تعيين الكل مقروء"
 
 #: model_mixins.py:16
 msgid "Label"
@@ -74,11 +75,11 @@ msgstr "العنوان"
 
 #: models.py:19
 msgid "Sender content type"
-msgstr ""
+msgstr "نوع المحتوى المرسل"
 
 #: models.py:22
 msgid "Sender object ID"
-msgstr ""
+msgstr "الرقم التعريفي للمرسل"
 
 #: models.py:29
 msgid "User"
@@ -94,11 +95,11 @@ msgstr "موضوع"
 
 #: models.py:36
 msgid "The actual content of the message."
-msgstr ""
+msgstr "المحتوى الفعلي للرسالة"
 
 #: models.py:41
 msgid "This field determines if the message has been read or not."
-msgstr ""
+msgstr "للتحقق من إرسال الرسالة."
 
 #: models.py:42
 msgid "Read"
@@ -106,11 +107,11 @@ msgstr "قراءه"
 
 #: models.py:46
 msgid "Date and time of the message creation."
-msgstr ""
+msgstr "زمن إنشاء الرسالة"
 
 #: models.py:47
 msgid "Creation date and time"
-msgstr ""
+msgstr "زمن الإنشاء"
 
 #: models.py:52
 msgid "Message"
@@ -138,19 +139,19 @@ msgstr "اعرض الرسائل"
 
 #: serializers.py:15
 msgid "Sender app label"
-msgstr ""
+msgstr "عنوان تطبيق المرسل"
 
 #: serializers.py:18
 msgid "Sender model name"
-msgstr ""
+msgstr "اسم المرسل"
 
 #: serializers.py:21
 msgid "Sender URL"
-msgstr ""
+msgstr "رابط المرسل"
 
 #: serializers.py:25
 msgid "Primary key of the recipient user of this message."
-msgstr ""
+msgstr "الرقم الفريد لمستلم الرسالة"
 
 #: serializers.py:26
 msgid "User ID"
@@ -163,152 +164,152 @@ msgstr "URL"
 #: views.py:49
 #, python-format
 msgid "Error deleting message \"%(instance)s\"; %(exception)s"
-msgstr ""
+msgstr "خطأ في حذف الرسالة \"%(instance)s\" ؛ %(exception)s"
 
 #: views.py:53
 #, python-format
 msgid "%(count)d messages deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)dرسالة بنجاح"
 
 #: views.py:54
 #, python-format
 msgid "Message \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "تم حذف الرسالة %(object)sبنجاح"
 
 #: views.py:55
 #, python-format
 msgid "%(count)d message deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)dرسالة بنجاح"
 
 #: views.py:56
 #, python-format
 msgid "Delete the %(count)d selected messages."
-msgstr ""
+msgstr "تم حذف %(count)dرسالا محددة"
 
 #: views.py:57
 #, python-format
 msgid "Delete message: %(object)s."
-msgstr ""
+msgstr "حذف الرسالة: %(object)s"
 
 #: views.py:58
 #, python-format
 msgid "Delete the %(count)d selected message."
-msgstr ""
+msgstr "حذف %(count)dرسالة محددة"
 
 #: views.py:100
 #, python-format
 msgid "Details of message: %s"
-msgstr ""
+msgstr "تفاصيل الرسالة: %s"
 
 #: views.py:124
 msgid "Here you will find text messages from other users or from the system."
-msgstr ""
+msgstr "هنا ستجد الرسائل القادمة من باقي المستخدمين"
 
 #: views.py:127
 msgid "There are no messages"
-msgstr ""
+msgstr "لا يوجد رسائل"
 
 #: views.py:137
 #, python-format
 msgid "Error marking message \"%(instance)s\" as read; %(exception)s"
-msgstr ""
+msgstr "خطأ في تعيين الرسالة\"%(instance)s\" كمقروء؛ %(exception)s"
 
 #: views.py:143
 #, python-format
 msgid "%(count)d messages marked as read successfully."
-msgstr ""
+msgstr "%(count)dرسالة تم تعيينها كمقروء بنجاح"
 
 #: views.py:146
 #, python-format
 msgid "Message \"%(object)s\" marked as read successfully."
-msgstr ""
+msgstr "تم تعيين الرسالة %(object)sكمقروء بنجاح"
 
 #: views.py:149
 #, python-format
 msgid "%(count)d message marked as read successfully."
-msgstr ""
+msgstr "%(count)dرسالة تم تعيينها كمقروء بنجاح"
 
 #: views.py:151
 #, python-format
 msgid "Mark the %(count)d selected messages as read."
-msgstr ""
+msgstr "تعيين %(count)dرسالة محددى كمقروء"
 
 #: views.py:152
 #, python-format
 msgid "Mark the message \"%(object)s\" as read."
-msgstr ""
+msgstr "تعيين الرسالة %(object)sكمقروء"
 
 #: views.py:153
 #, python-format
 msgid "Mark the %(count)d selected message as read."
-msgstr ""
+msgstr "تعيين %(count)dرسالة محددة كمقروء"
 
 #: views.py:181
 msgid "Mark all message as read?"
-msgstr ""
+msgstr "تعيين جميع الرسائل كمقروء"
 
 #: views.py:197
 msgid "All messages marked as read."
-msgstr ""
+msgstr "تعيين كل الرسائل مقروءة"
 
 #: views.py:204
 #, python-format
 msgid "Error marking message \"%(instance)s\" as unread; %(exception)s"
-msgstr ""
+msgstr "خطأ في تعيين الرسالة \"%(instance)s\" كمقروءة %(exception)s."
 
 #: views.py:210
 #, python-format
 msgid "%(count)d messages marked as unread successfully."
-msgstr ""
+msgstr "%(count)dرسالة تم تعيينها غير مقروءة."
 
 #: views.py:213
 #, python-format
 msgid "Message \"%(object)s\" marked as unread successfully."
-msgstr ""
+msgstr "الرسالة \"%(object)s\" تم تعيينها غير مقروءة"
 
 #: views.py:216
 #, python-format
 msgid "%(count)d message marked as unread successfully."
-msgstr ""
+msgstr "%(count)dرسالة تم تعيينها غير مقروءة"
 
 #: views.py:218
 #, python-format
 msgid "Mark the %(count)d selected messages as unread."
-msgstr ""
+msgstr "تعيين%(count)d رسالة محددة كغير مقروءة"
 
 #: views.py:219
 #, python-format
 msgid "Mark the message \"%(object)s\" as unread."
-msgstr ""
+msgstr "تعيين الرسالة \"%(object)s\" كفير مقروءة."
 
 #: views.py:220
 #, python-format
 msgid "Mark the %(count)d selected message as unread."
-msgstr ""
+msgstr "تعيين %(count)dرسالة محددة كغير مقروءة."
 
 #: workflow_actions.py:19
 msgid "Username list"
-msgstr ""
+msgstr "قائمة اسم المستخدم"
 
 #: workflow_actions.py:26
 msgid "Comma separated list of usernames that will receive the message."
-msgstr ""
+msgstr "قائمة مفصولة بفواصل لأسماء المستخدمين الذين سيتلقون الرسالة."
 
 #: workflow_actions.py:45
 msgid "Subject of the message to be sent."
-msgstr ""
+msgstr "موضوع الرسالة المرسلة."
 
 #: workflow_actions.py:62
 msgid "The actual text to send."
-msgstr ""
+msgstr "النص  المراد إرساله"
 
 #: workflow_actions.py:72
 msgid "Send user message"
-msgstr ""
+msgstr "إرسال رسالة للمستخدم."
 
 #: workflow_actions.py:80
 msgid "Recipients"
-msgstr ""
+msgstr "المستلمون"
 
 #: workflow_actions.py:84
 msgid "Content"

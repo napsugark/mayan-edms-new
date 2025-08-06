@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-04 17:04+0000\n"
+"POT-Creation-Date: 2025-08-06 21:21+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
 "Last-Translator: Harald Ersch, 2024\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/rosarior/teams/13584/ro_RO/)\n"
@@ -26,7 +26,7 @@ msgstr ""
 #: apps.py:92 events.py:6 forms/workflow_template_forms.py:20 links.py:50
 #: links.py:90 links.py:98 links.py:287 links.py:311
 #: models/workflow_models.py:58 queues.py:11 settings.py:14
-#: views/workflow_proxy_views.py:70 views/workflow_template_views.py:283
+#: views/workflow_proxy_views.py:70 views/workflow_template_views.py:292
 #: workflow_actions.py:133 workflow_actions.py:147
 msgid "Workflows"
 msgstr "Fluxuri de lucru"
@@ -223,7 +223,7 @@ msgstr "Activat"
 msgid "Event trigger: %s"
 msgstr "Eveniment declanșator: %s"
 
-#: links.py:56 views/workflow_template_views.py:139
+#: links.py:56 views/workflow_template_views.py:148
 msgid "Create workflow"
 msgstr "Creați un flux de lucru"
 
@@ -1357,63 +1357,63 @@ msgstr ""
 "unor documente atunci când sunt selectate mai multe documente, vor fi "
 "ignorate în mod silențios."
 
-#: views/workflow_template_views.py:113
+#: views/workflow_template_views.py:122
 msgid "Workflows to be launched."
 msgstr "Fluxurile de lucru ce vor fi lansate."
 
-#: views/workflow_template_views.py:157
+#: views/workflow_template_views.py:166
 #, python-format
 msgid "Error deleting workflow \"%(instance)s\"; %(exception)s"
 msgstr "Eroare la ștergerea fluxului de lucru „%(instance)s”; %(exception)s"
 
-#: views/workflow_template_views.py:165
+#: views/workflow_template_views.py:174
 #, python-format
 msgid "%(count)d workflows deleted successfully."
 msgstr "%(count)d fluxuri de lucru au fost șterse cu succes."
 
-#: views/workflow_template_views.py:166
+#: views/workflow_template_views.py:175
 #, python-format
 msgid "Workflow \"%(object)s\" deleted successfully."
 msgstr "Fluxul de lucru „%(object)s” a fost șters cu succes."
 
-#: views/workflow_template_views.py:167
+#: views/workflow_template_views.py:176
 #, python-format
 msgid "%(count)d workflow deleted successfully."
 msgstr "Fluxul de lucru %(count)d a fost șters cu succes."
 
-#: views/workflow_template_views.py:168
+#: views/workflow_template_views.py:177
 #, python-format
 msgid "Delete the %(count)d selected workflows."
 msgstr "Ștergeți %(count)d fluxuri de lucru selectate ."
 
-#: views/workflow_template_views.py:169
+#: views/workflow_template_views.py:178
 #, python-format
 msgid "Delete workflow: %(object)s."
 msgstr "Ștergeți fluxul de lucru: %(object)s."
 
-#: views/workflow_template_views.py:170
+#: views/workflow_template_views.py:179
 #, python-format
 msgid "Delete the %(count)d selected workflow."
 msgstr "Ștergeți fluxul de lucru selectat %(count)d."
 
-#: views/workflow_template_views.py:175
+#: views/workflow_template_views.py:184
 msgid "All workflow instances will also be deleted."
 msgstr "Toate instanțele fluxului de lucru vor fi, de asemenea, șterse."
 
-#: views/workflow_template_views.py:195
+#: views/workflow_template_views.py:204
 #, python-format
 msgid "Edit workflow: %s"
 msgstr "Editați fluxul de lucru: %s"
 
-#: views/workflow_template_views.py:206
+#: views/workflow_template_views.py:215
 msgid "Document types assigned this workflow"
 msgstr "Tipurile de documente atribuite acestui flux de lucru"
 
-#: views/workflow_template_views.py:207
+#: views/workflow_template_views.py:216
 msgid "Available document types"
 msgstr "Tipuri de documente disponibile"
 
-#: views/workflow_template_views.py:225
+#: views/workflow_template_views.py:234
 msgid ""
 "Removing a document type from a workflow will also remove all running "
 "instances of that workflow for documents of the document type just removed."
@@ -1422,27 +1422,27 @@ msgstr ""
 "asemenea, toate instanțele în execuție ale acelui flux de lucru pentru "
 "documentele de tipul documentului tocmai eliminat."
 
-#: views/workflow_template_views.py:230
+#: views/workflow_template_views.py:239
 #, python-format
 msgid "Document types assigned the workflow: %s"
 msgstr "Tipurile de documente alocate fluxului de lucru: %s"
 
-#: views/workflow_template_views.py:244
+#: views/workflow_template_views.py:253
 msgid ""
 "This will launch the workflow for documents that have already been uploaded."
 msgstr ""
 "Aceasta va lansa fluxul de lucru pentru documentele care au fost deja "
 "încărcate."
 
-#: views/workflow_template_views.py:247
+#: views/workflow_template_views.py:256
 msgid "Launch workflow?"
 msgstr "Lansați fluxul de lucru?"
 
-#: views/workflow_template_views.py:258 views/workflow_template_views.py:318
+#: views/workflow_template_views.py:267 views/workflow_template_views.py:327
 msgid "Workflow launch queued successfully."
 msgstr "Lansarea fluxului de lucru a intrat în coada de așteptare."
 
-#: views/workflow_template_views.py:276
+#: views/workflow_template_views.py:285
 msgid ""
 "Workflows store a series of states and keep track of the current state of a "
 "document. Transitions are used to change the current state to a new one."
@@ -1451,16 +1451,16 @@ msgstr ""
 "unui document. Tranzițiile sunt folosite pentru a schimba starea curentă la "
 "una nouă."
 
-#: views/workflow_template_views.py:281
+#: views/workflow_template_views.py:290
 msgid "No workflows have been defined"
 msgstr "Nu s-au definit fluxuri de lucru"
 
-#: views/workflow_template_views.py:298
+#: views/workflow_template_views.py:307
 #, python-format
 msgid "Preview of: %s"
 msgstr "Previzualizarea: %s"
 
-#: views/workflow_template_views.py:305
+#: views/workflow_template_views.py:314
 msgid ""
 "This will launch all workflows created after documents have already been "
 "uploaded."
@@ -1468,7 +1468,7 @@ msgstr ""
 "Aceasta va lansa toate fluxurile de lucru create după ce documentele au fost"
 " deja încărcate."
 
-#: views/workflow_template_views.py:308
+#: views/workflow_template_views.py:317
 msgid "Launch all workflows?"
 msgstr "Lansați toate fluxurile de lucru?"
 

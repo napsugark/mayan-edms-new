@@ -5,8 +5,8 @@
 # 
 # Translators:
 # Stefan Lodders <sl@suchreflex.de>, 2024
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
 # Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-07 11:57+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
-"Last-Translator: Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +34,7 @@ msgstr ""
 
 #: classes.py:256
 msgid "Template that generates the Docker Compose file."
-msgstr ""
+msgstr "Vorlage für die Generierung der Docker compose Datei."
 
 #: classes.py:416
 msgid "Template for Supervisord inside a Docker image."

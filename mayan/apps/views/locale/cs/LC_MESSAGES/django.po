@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Sebastian Fait <seba.fait@gmail.com>, 2024
-# Jiří Podhorecký, 2024
+# Jiří Podhorecký <jirka.p@volny.cz>, 2024
 # Michal Švábík <snadno@lehce.cz>, 2024
 # 
 msgid ""

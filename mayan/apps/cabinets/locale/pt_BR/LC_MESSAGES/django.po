@@ -10,6 +10,7 @@
 # Emerson Soares <on.emersonsoares@gmail.com>, 2024
 # José Samuel Facundo da Silva <samuel.facundo@ufca.edu.br>, 2024
 # Jadson Ribeiro <jadsonbr@outlook.com.br>, 2024
+# Daniel Flores <dfloresbr@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
@@ -17,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-04 17:04+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
-"Last-Translator: Jadson Ribeiro <jadsonbr@outlook.com.br>, 2024\n"
+"Last-Translator: Daniel Flores <dfloresbr@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rosarior/teams/13584/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,7 +43,7 @@ msgstr "Pasta criada"
 
 #: events.py:14
 msgid "Cabinet deleted"
-msgstr ""
+msgstr "Gabinete removido"
 
 #: events.py:17
 msgid "Cabinet edited"
@@ -106,7 +107,7 @@ msgstr "Caminho completo"
 
 #: models.py:33 serializers.py:41
 msgid "Parent"
-msgstr ""
+msgstr "Pai"
 
 #: models.py:36
 msgid "A short text used to identify the cabinet."
@@ -191,7 +192,7 @@ msgstr "Lista de pastas filhas"
 
 #: serializers.py:18
 msgid "Children"
-msgstr ""
+msgstr "Filhos"
 
 #: serializers.py:23
 msgid ""
@@ -201,7 +202,7 @@ msgstr ""
 
 #: serializers.py:25
 msgid "Documents URL"
-msgstr ""
+msgstr "URL dos Documentos"
 
 #: serializers.py:30
 msgid "The name of this cabinet level appended to the names of its ancestors."
@@ -209,7 +210,7 @@ msgstr "O nome deste nível de pasta anexado aos nomes de seus antepassados."
 
 #: serializers.py:35
 msgid "Parents URL"
-msgstr ""
+msgstr "URL dos Pais"
 
 #: serializers.py:51
 msgid "URL"
@@ -217,15 +218,15 @@ msgstr "URL"
 
 #: serializers.py:84
 msgid "Primary key of the document to add to the cabinet."
-msgstr ""
+msgstr "Chave primária do documento para adicionar ao gabinete."
 
 #: serializers.py:85 serializers.py:94
 msgid "Document ID"
-msgstr ""
+msgstr "ID do Documento"
 
 #: serializers.py:93
 msgid "Primary key of the document to remove from the cabinet."
-msgstr ""
+msgstr "Chave primária do documento para remover do gabinete."
 
 #: templates/cabinets/cabinet_details.html:17
 msgid "Navigation:"

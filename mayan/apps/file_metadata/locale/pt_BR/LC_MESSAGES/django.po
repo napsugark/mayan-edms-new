@@ -10,6 +10,7 @@
 # 425fe09b3064b9f906f637fff94056ae_a00ea56 <0fa3588fa89906bfcb3a354600956e0e_308047>, 2024
 # Márcia Ferreira, 2024
 # Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2024
+# Daniel Flores <dfloresbr@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
@@ -17,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-07 13:48+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
-"Last-Translator: Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2024\n"
+"Last-Translator: Daniel Flores <dfloresbr@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rosarior/teams/13584/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +37,7 @@ msgstr "Metadados do arquivo"
 
 #: apps.py:106
 msgid "File metadata internal name"
-msgstr ""
+msgstr "Nome interno do arquivo de metadados"
 
 #: apps.py:110 search.py:15 search.py:26
 msgid "File metadata value"
@@ -71,7 +72,7 @@ msgstr ""
 
 #: drivers/exiftool.py:20
 msgid "Read meta information stored in files."
-msgstr ""
+msgstr "Ler metadados armazenados nos arquivos."
 
 #: drivers/exiftool.py:21
 msgid "EXIF Tool"
@@ -84,7 +85,7 @@ msgstr ""
 
 #: drivers/extract_msg.py:19
 msgid "Extract msg"
-msgstr ""
+msgstr "Extrair msg"
 
 #: events.py:10
 msgid "Document file submitted for file metadata processing"
@@ -113,7 +114,7 @@ msgstr "Processamento de metadados de arquivo por tipo"
 
 #: links.py:65 views.py:232
 msgid "File metadata drivers"
-msgstr ""
+msgstr "Drivers de arquivo de metadados"
 
 #: methods.py:58
 msgid "Return the specified document file file metadata entry."
@@ -151,7 +152,7 @@ msgstr ""
 
 #: models.py:48
 msgid "Auto process"
-msgstr ""
+msgstr "Auto processamento"
 
 #: models.py:54
 msgid "Document type settings"
@@ -286,6 +287,8 @@ msgstr ""
 #, python-format
 msgid "%(count)d documents files submitted to the file metadata queue."
 msgstr ""
+"%(count)darquivo de documentos submetidos para o processamento do arquivo de"
+" metadados."
 
 #: views.py:125
 #, python-format

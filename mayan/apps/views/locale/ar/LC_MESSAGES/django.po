@@ -9,6 +9,7 @@
 # Roberto Rosario, 2024
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -16,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-03 22:29+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2024\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -117,7 +118,7 @@ msgstr "%(object)s احذف الناجح."
 #: generics.py:798
 #, python-format
 msgid "Error retrieving %(object)s; %(error)s"
-msgstr ""
+msgstr "خطأ في استرجاع %(object)s؛ %(error)s"
 
 #: generics.py:910
 #, python-format
@@ -132,32 +133,32 @@ msgstr "%(object)s التعديل الناجح."
 #: generics.py:987
 #, python-format
 msgid "%(count)d objects deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)d عنصر بنجاح."
 
 #: generics.py:988
 #, python-format
 msgid "\"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "تم حذف \"%(object)s\" بنجاح."
 
 #: generics.py:989
 #, python-format
 msgid "%(count)d object deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)d كائن بنجاح."
 
 #: generics.py:990
 #, python-format
 msgid "Delete %(count)d objects."
-msgstr ""
+msgstr "حذف %(count)d عنصر"
 
 #: generics.py:991
 #, python-format
 msgid "Delete \"%(object)s\"."
-msgstr ""
+msgstr "حذف \"%(object)s\""
 
 #: generics.py:992
 #, python-format
 msgid "Delete %(count)d object."
-msgstr ""
+msgstr "حذف %(count)d كائن."
 
 #: settings.py:17
 msgid "The number objects that will be displayed per page."
@@ -165,13 +166,14 @@ msgstr "عدد العناصر الظاهرة في الصفحة"
 
 #: settings.py:23
 msgid "A string specifying the name to use for the paging parameter."
-msgstr ""
+msgstr "سلسلة نصية تحدد الاسم المستخدم لمعامل التصفح."
 
 #: settings.py:29
 msgid ""
 "Display a submit button and wait for the submit button to be pressed before "
 "processing up the upload."
 msgstr ""
+"عرض زر إرسال والانتظار حتى يتم الضغط على زر الإرسال قبل معالجة التحميل."
 
 #: templatetags/views_tags.py:30
 msgid "Confirm delete"
@@ -213,7 +215,7 @@ msgstr "تعذر إجراء العملية على الكائن %(instance)s ؛ %
 #: view_mixins.py:447
 #, python-format
 msgid "Operation performed on %(count)d objects."
-msgstr ""
+msgstr "تم تنفيذ العملية على %(count)d عنصر."
 
 #: view_mixins.py:449
 #, python-format
@@ -223,22 +225,22 @@ msgstr "تم تنفيذ العملية على %(object)s."
 #: view_mixins.py:451
 #, python-format
 msgid "Operation performed on %(count)d object."
-msgstr ""
+msgstr "تم تنفيذ العملية على %(count)d كائن."
 
 #: view_mixins.py:453
 #, python-format
 msgid "Perform operation on %(count)d objects."
-msgstr ""
+msgstr "تنفيذ العملية على %(count)d عنصر."
 
 #: view_mixins.py:454
 #, python-format
 msgid "Perform operation on %(object)s."
-msgstr ""
+msgstr "تنفيذ العملية على %(object)s."
 
 #: view_mixins.py:455
 #, python-format
 msgid "Perform operation on %(count)d object."
-msgstr ""
+msgstr "تنفيذ العملية على %(count)d كائن."
 
 #: view_mixins.py:540
 msgid "Object"

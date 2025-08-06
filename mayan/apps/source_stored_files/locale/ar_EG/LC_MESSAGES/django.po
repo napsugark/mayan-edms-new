@@ -8,6 +8,7 @@
 # Roberto Rosario, 2024
 # John Kawas <john@clinicalclouds.com>, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-02 14:06+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2024\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,11 +26,11 @@ msgstr ""
 
 #: apps.py:11
 msgid "Source stored files"
-msgstr ""
+msgstr "الملفات المخزنة المصدرية"
 
 #: classes.py:46
 msgid "Size"
-msgstr ""
+msgstr "الحجم"
 
 #: classes.py:50
 msgid "Thumbnail"
@@ -49,26 +50,28 @@ msgstr "إختيار"
 
 #: source_backend_actions/arguments.py:6
 msgid "URL safe filename of the stored file to process."
-msgstr ""
+msgstr "اسم ملف آمن للـ URL للملف المخزن المراد معالجته."
 
 #: source_backend_actions/arguments.py:10
 msgid ""
 "Execute source backend specific, built-in post processing clean up code."
 msgstr ""
+"تنفيذ الكود المدمج الخاص بالواجهة الخلفية للمصدر لتنظيف ما بعد المعالجة."
 
 #: source_backend_actions/arguments.py:16
 msgid ""
 "Unique identifier to select which source backend stored file to process."
 msgstr ""
+"معرف فريد لتحديد الملف المخزن في الواجهة الخلفية للمصدر المراد معالجته."
 
 #: source_backend_actions/mixins.py:74
 msgid "Stored file"
-msgstr ""
+msgstr "الملف المخزن"
 
 #: source_backend_actions/mixins.py:75
 #, python-format
 msgid "Delete stored file \"%s\"?"
-msgstr ""
+msgstr "حذف الملف المخزن \"%s\"؟"
 
 #: source_backends/filesystem_source_mixins.py:25
 msgid "Server side filesystem path."
@@ -99,33 +102,37 @@ msgstr "المساحة التخزينية"
 #: source_backends/storage_backend_source_mixins.py:127
 #, python-format
 msgid "Unable to initialize storage; %s"
-msgstr ""
+msgstr "غير قادر على تهيئة التخزين؛ %s"
 
 #: source_backends/storage_backend_source_mixins.py:35
 msgid "Python path to the Storage subclass used to access the source files."
 msgstr ""
+"مسار Python إلى الفئة الفرعية للتخزين المستخدمة للوصول إلى الملفات المصدرية."
 
 #: source_backends/storage_backend_source_mixins.py:41
 msgid "Storage backend"
-msgstr ""
+msgstr "الواجهة الخلفية للتخزين"
 
 #: source_backends/storage_backend_source_mixins.py:49
 msgid ""
 "Arguments to pass to the storage backend. Use YAML format. The credential "
 "object is available as {{ credential }}."
 msgstr ""
+"الوسائط التي يتم تمريرها إلى الواجهة الخلفية للتخزين. استخدم تنسيق YAML. "
+"كائن الاعتماد متاح كـ {{ credential }}."
 
 #: source_backends/storage_backend_source_mixins.py:55
 msgid "Storage backend arguments"
-msgstr ""
+msgstr "وسائط الواجهة الخلفية للتخزين"
 
 #: source_backends/storage_backend_source_mixins.py:102
 msgid "Unable to initialize storage. Check the storage backend arguments."
-msgstr ""
+msgstr "غير قادر على تهيئة التخزين. تحقق من وسائط الواجهة الخلفية للتخزين."
 
 #: source_backends/storage_backend_source_mixins.py:114
 msgid "Unable to initialize storage. Check the storage backend dotted path."
 msgstr ""
+"غير قادر على تهيئة التخزين. تحقق من المسار النقطي للواجهة الخلفية للتخزين."
 
 #: source_backends/stored_file_mixins.py:37
 msgid "Delete the file after is has been successfully uploaded."
@@ -137,12 +144,12 @@ msgstr "حذف بعد التحميل"
 
 #: source_backends/stored_file_mixins.py:54
 msgid "File content"
-msgstr ""
+msgstr "محتوى الملف"
 
 #: source_backends/stored_file_mixins.py:72
 #, python-format
 msgid "Unable get list of files; %s"
-msgstr ""
+msgstr "غير قادر على الحصول على قائمة الملفات؛ %s"
 
 #: source_backends/stored_file_mixins.py:90
 msgid ""
@@ -150,10 +157,13 @@ msgid ""
 "the operating system user account being used for Mayan EDMS doesn't have the"
 " necessary file system permissions to access the source files."
 msgstr ""
+"قد يعني هذا أن قائمة الملفات المصدرية فارغة. قد يعني أيضًا أن حساب مستخدم "
+"نظام التشغيل المستخدم لـ Mayan EDMS لا يمتلك أذونات نظام الملفات اللازمة "
+"للوصول إلى الملفات المصدرية."
 
 #: source_backends/stored_file_mixins.py:95
 msgid "No source files available"
-msgstr ""
+msgstr "لا توجد ملفات مصدرية متاحة"
 
 #: source_backends/stored_file_mixins.py:190
 msgid "Width value to be passed to the converter backend."
@@ -176,15 +186,16 @@ msgid ""
 "Maximum size in bytes for which previews will be generated. Example: 20000 ="
 " 20KB."
 msgstr ""
+"الحجم الأقصى بالبايت الذي سيتم إنشاء معاينات له. مثال: 20000 = 20 كيلوبايت."
 
 #: source_backends/stored_file_mixins.py:216
 msgid "Max size preview"
-msgstr ""
+msgstr "الحجم الأقصى للمعاينة"
 
 #: source_backends/stored_file_mixins.py:230
 msgid "File images"
-msgstr ""
+msgstr "صور الملفات"
 
 #: templates/source_stored_files/errors/staging_file_too_large.html:5
 msgid "File too large for preview"
-msgstr ""
+msgstr "الملف كبير جدًا للمعاينة"

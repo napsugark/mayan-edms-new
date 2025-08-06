@@ -8,6 +8,7 @@
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
 # Yaman Sanobar <yman.snober@gmail.com>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-04 17:04+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
-"Last-Translator: Yaman Sanobar <yman.snober@gmail.com>, 2024\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,7 +44,7 @@ msgstr "لا يمكن اتمام عملية الإرسال دون تعبئة ا�
 
 #: classes.py:63
 msgid "Compatibility"
-msgstr ""
+msgstr "التوافقية"
 
 #: classes.py:82 classes.py:102
 msgid "Null backend"
@@ -59,11 +60,11 @@ msgstr "أرسل البريد الإلكتروني"
 
 #: events.py:13
 msgid "Mailing profile created"
-msgstr ""
+msgstr "تم إنشاء ملف التعريف البريدي"
 
 #: events.py:16
 msgid "Mailing profile edited"
-msgstr ""
+msgstr "تم تعديل ملف التعريف البريدي"
 
 #: forms.py:60 forms.py:102
 msgid ""
@@ -104,27 +105,27 @@ msgstr "في الخفاء"
 
 #: links.py:34 links.py:39
 msgid "Email document link"
-msgstr ""
+msgstr "رابط المستند عبر البريد الإلكتروني"
 
 #: links.py:49 links.py:54
 msgid "Email document file"
-msgstr ""
+msgstr "ملف المستند عبر البريد الإلكتروني"
 
 #: links.py:60 links.py:65
 msgid "Email document file link"
-msgstr ""
+msgstr "إرسال رابط ملف المستند عبر البريد الإلكتروني"
 
 #: links.py:75 links.py:80
 msgid "Email document version"
-msgstr ""
+msgstr "إرسال نسخة المستند عبر البريد الإلكتروني"
 
 #: links.py:86
 msgid "Email document version link"
-msgstr ""
+msgstr "إرسال رابط نسخة المستند عبر البريد الإلكتروني"
 
 #: links.py:91
 msgid "Email link version"
-msgstr ""
+msgstr "إرسال رابط النسخة عبر البريد الإلكتروني"
 
 #: links.py:100
 msgid "Create mailing profile"
@@ -155,10 +156,12 @@ msgid ""
 " --------\n"
 " This email has been sent from %(project_title)s (%(project_website)s)"
 msgstr ""
+"مرفق مع هذا البريد الإلكتروني {{ object_name }}: {{ object }} -------- تم "
+"إرسال هذا البريد الإلكتروني من %(project_title)s (%(project_website)s)"
 
 #: literals.py:9
 msgid "{{ object_name }}: {{ object }}"
-msgstr ""
+msgstr "{{ object_name }}: {{ object }}"
 
 #: literals.py:12
 #, python-format
@@ -168,10 +171,12 @@ msgid ""
 "--------\n"
 " This email has been sent from %(project_title)s (%(project_website)s)"
 msgstr ""
+"للوصول إلى هذا {{ object_name }} انقر على الرابط التالي: {{ link }}-------- "
+"تم إرسال هذا البريد الإلكتروني من %(project_title)s (%(project_website)s)"
 
 #: literals.py:17
 msgid "Link for {{ object_name }}: {{ object }}"
-msgstr ""
+msgstr "رابط لـ {{ object_name }}: {{ object }}"
 
 #: mailers.py:11
 msgid "Django SMTP backend"
@@ -227,7 +232,7 @@ msgstr ""
 
 #: mailers.py:71
 msgid "Server"
-msgstr ""
+msgstr "الخادم"
 
 #: mailers.py:99
 msgid "Django file based backend"
@@ -244,7 +249,7 @@ msgstr "المساحة التخزينية"
 #: model_mixins.py:173
 #, python-format
 msgid "Test email from %s"
-msgstr ""
+msgstr "بريد اختباري من %s"
 
 #: models.py:31
 msgid "A short text describing the mailing profile."
@@ -296,23 +301,23 @@ msgstr "أرسال رابط الوثيقة عبر البريد الإلكترو�
 
 #: permissions.py:38
 msgid "Send document file via email"
-msgstr ""
+msgstr "إرسال ملف وثيقة عبر البريد الإلكتروني"
 
 #: permissions.py:42
 msgid "Send document file link via email"
-msgstr ""
+msgstr "إرسال رابط ملف وثيقة عبر البريد الإلكتروني"
 
 #: permissions.py:49
 msgid "Send document version via email"
-msgstr ""
+msgstr "إرسال رابط ملف وثيقة عبر البريد الإلكتروني"
 
 #: permissions.py:53
 msgid "Send document version link via email"
-msgstr ""
+msgstr "إرسال رابط إصدار وثيقة عبر البريد الإلكتروني"
 
 #: queues.py:12
 msgid "Send object"
-msgstr ""
+msgstr "إرسال كائن"
 
 #: serializers.py:14
 msgid "URL"
@@ -320,11 +325,11 @@ msgstr "URL"
 
 #: serializers.py:32
 msgid "Primary key of the mailing profile to use."
-msgstr ""
+msgstr "المفتاح الأساسي لملف الإرسال البريدى المراد استخدامه"
 
 #: serializers.py:33
 msgid "Mailing profile ID"
-msgstr ""
+msgstr "معرف ملف الإرسال البريدى"
 
 #: serializers.py:38 workflow_action_mixins.py:15
 msgid "Recipient"
@@ -359,42 +364,42 @@ msgstr "عنصر"
 #: views/document_file_views.py:17
 #, python-format
 msgid "%(count)d document file queued for email delivery"
-msgstr ""
+msgstr "تم إدراج %(count)d ملف وثيقة في قائمة انتظار الإرسال بالبريد"
 
 #: views/document_file_views.py:20
 #, python-format
 msgid "%(count)d document files queued for email delivery"
-msgstr ""
+msgstr "تم إدراج %(count)d ملف وثيقة في قائمة انتظار الإرسال بالبريد"
 
 #: views/document_file_views.py:32
 #, python-format
 msgid "%(count)d document file link queued for email delivery"
-msgstr ""
+msgstr "تم إدراج %(count)d رابط ملف وثيقة في قائمة انتظار الإرسال بالبريد"
 
 #: views/document_file_views.py:35
 #, python-format
 msgid "%(count)d document file links queued for email delivery"
-msgstr ""
+msgstr "تم إدراج %(count)d رابط ملف وثيقة في قائمة انتظار الإرسال بالبريد"
 
 #: views/document_version_views.py:17
 #, python-format
 msgid "%(count)d document version queued for email delivery"
-msgstr ""
+msgstr "تم إدراج %(count)d إصدار وثيقة في قائمة انتظار الإرسال بالبريد"
 
 #: views/document_version_views.py:20
 #, python-format
 msgid "%(count)d document versions queued for email delivery"
-msgstr ""
+msgstr "تم إدراج %(count)d إصدار وثيقة في قائمة انتظار الإرسال بالبريد"
 
 #: views/document_version_views.py:32
 #, python-format
 msgid "%(count)d document version link queued for email delivery"
-msgstr ""
+msgstr "تم إدراج %(count)d رابط إصدار وثيقة في قائمة انتظار الإرسال بالبريد"
 
 #: views/document_version_views.py:35
 #, python-format
 msgid "%(count)d document version links queued for email delivery"
-msgstr ""
+msgstr "تم إدراج %(count)d رابط إصدار وثيقة في قائمة انتظار الإرسال بالبريد"
 
 #: views/document_views.py:14
 #, python-format
@@ -458,7 +463,7 @@ msgstr ""
 
 #: workflow_action_mixins.py:27
 msgid "CC"
-msgstr ""
+msgstr "cc"
 
 #: workflow_action_mixins.py:30 workflow_action_mixins.py:42
 msgid ""
@@ -466,14 +471,16 @@ msgid ""
 "addresses separated by comma or semicolon. A template can be used to "
 "reference properties of the document."
 msgstr ""
+"العنوان المستخدم في رأس \"Bcc\" عند إرسال البريد. يمكن أن يكون عدة عناوين "
+"مفصولة بفاصلة أو فاصلة منقوطة. يمكن استخدام قالب للإشارة إلى خصائص الوثيقة."
 
 #: workflow_action_mixins.py:39
 msgid "BCC"
-msgstr ""
+msgstr "BCC"
 
 #: workflow_action_mixins.py:51
 msgid "Reply to"
-msgstr ""
+msgstr "الرد على"
 
 #: workflow_action_mixins.py:54
 msgid ""
@@ -481,6 +488,9 @@ msgid ""
 "multiple addresses separated by comma or semicolon. A template can be used "
 "to reference properties of the document."
 msgstr ""
+"العنوان المستخدم في رأس \"Reply-To\" عند إرسال البريد. يمكن أن يكون عدة "
+"عناوين مفصولة بفاصلة أو فاصلة منقوطة. يمكن استخدام قالب للإشارة إلى خصائص "
+"الوثيقة."
 
 #: workflow_action_mixins.py:66
 msgid "Subject of the email. Can be a string or a template."
@@ -492,15 +502,15 @@ msgstr "نص البريد الإلكتروني لإرساله. يمكن أن ي�
 
 #: workflow_action_mixins.py:83 workflow_actions.py:21
 msgid "Attachment"
-msgstr ""
+msgstr "مرفق"
 
 #: workflow_action_mixins.py:86
 msgid "Attach an object to the email."
-msgstr ""
+msgstr "إرفاق كائن بالبريد الإلكتروني"
 
 #: workflow_action_mixins.py:91
 msgid "Send object via email"
-msgstr ""
+msgstr "إرسال كائن عبر البريد الإلكتروني"
 
 #: workflow_action_mixins.py:103
 msgid "Mailing profile to use when sending the email."
@@ -508,7 +518,7 @@ msgstr "قالب بريد الكتروني يستخدم عند إرسال الب
 
 #: workflow_action_mixins.py:129
 msgid "Parties"
-msgstr ""
+msgstr "أطراف"
 
 #: workflow_action_mixins.py:133
 msgid "Content"
@@ -520,4 +530,4 @@ msgstr "إرسال الوثيقة عبر البريد الإلكتروني"
 
 #: workflow_actions.py:24
 msgid "Attach the exported document version to the email."
-msgstr ""
+msgstr "إرفاق إصدار الوثيقة المصدر إلى البريد الإلكتروني"

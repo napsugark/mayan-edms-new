@@ -10,6 +10,7 @@
 # Marco Camplese <marco.camplese.mc@gmail.com>, 2024
 # Daniele Bortoluzzi <daniele@elkos.it>, 2024
 # Roberto Rosario, 2024
+# albanobattistella <albanobattistella@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
@@ -17,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-04 17:04+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
-"Last-Translator: Roberto Rosario, 2024\n"
+"Last-Translator: albanobattistella <albanobattistella@gmail.com>, 2025\n"
 "Language-Team: Italian (https://app.transifex.com/rosarior/teams/13584/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -175,7 +176,7 @@ msgstr "Numero massimo di caratteri visualizzati come titolo della schermata"
 
 #: settings.py:34
 msgid "Position where the system messages will be displayed."
-msgstr ""
+msgstr "Posizione in cui verranno visualizzati i messaggi di sistema."
 
 #: settings.py:40
 msgid ""
@@ -187,12 +188,16 @@ msgstr ""
 msgid ""
 "Maximum number of requests that can be made before throttling is enabled."
 msgstr ""
+"Numero massimo di richieste che possono essere effettuate prima che venga "
+"abilitata la limitazione."
 
 #: settings.py:54
 msgid ""
 "Time in milliseconds after which a throttled request will clear allowing an "
 "additional request to be performed."
 msgstr ""
+"Tempo in millisecondi dopo il quale una richiesta limitata verrà cancellata,"
+" consentendo l'esecuzione di una richiesta aggiuntiva."
 
 #: templates/403.html:5 templates/403.html:30
 msgid "Insufficient permission"

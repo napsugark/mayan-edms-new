@@ -8,6 +8,7 @@
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
 # Yaman Sanobar <yman.snober@gmail.com>, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-04 17:05+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2024\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,19 +37,19 @@ msgstr "غير قادر على تهيئة التخزين: %(name)s. يرجى م�
 
 #: events.py:6 links.py:20 models.py:54 storages.py:22
 msgid "Download files"
-msgstr ""
+msgstr "تنزيل الملفات"
 
 #: events.py:10
 msgid "Download file created"
-msgstr ""
+msgstr "تم إنشاء ملف التحميل"
 
 #: events.py:13
 msgid "Download file deleted"
-msgstr ""
+msgstr "تم حذف ملف التحميل"
 
 #: events.py:16
 msgid "Download file downloaded"
-msgstr ""
+msgstr "تم تنزيل ملف التحميل"
 
 #: links.py:12
 msgid "Delete"
@@ -91,11 +92,11 @@ msgstr "التاريخ والوقت"
 
 #: model_mixins.py:83
 msgid "Unnamed file"
-msgstr ""
+msgstr "ملف بدون اسم"
 
 #: model_mixins.py:103
 msgid "Size"
-msgstr ""
+msgstr "الحجم"
 
 #: model_mixins.py:110 models.py:46 serializers.py:15
 msgid "User"
@@ -111,7 +112,7 @@ msgstr "العنوان"
 
 #: models.py:53
 msgid "Download file"
-msgstr ""
+msgstr "ملف التحميل"
 
 #: models.py:99
 msgid "Shared uploaded file"
@@ -123,15 +124,15 @@ msgstr "ملف محمل مشترك"
 
 #: permissions.py:10
 msgid "Delete user files"
-msgstr ""
+msgstr "حذف ملفات المستخدم"
 
 #: permissions.py:13
 msgid "Download user files"
-msgstr ""
+msgstr "تحميل ملفات المستخدم"
 
 #: permissions.py:16
 msgid "View user files"
-msgstr ""
+msgstr "عرض ملفات المستخدم"
 
 #: queues.py:16
 msgid "Storage periodic"
@@ -139,7 +140,7 @@ msgstr "التخزين الدوري"
 
 #: queues.py:22
 msgid "Delete a shared upload"
-msgstr ""
+msgstr "حذف تحميل مشترك"
 
 #: queues.py:27
 msgid "Delete stale uploads"
@@ -147,11 +148,11 @@ msgstr "حذف التحميلات "
 
 #: queues.py:34
 msgid "Delete stale download files"
-msgstr ""
+msgstr "حذف ملفات التحميل القديمة"
 
 #: serializers.py:11
 msgid "Download URL"
-msgstr ""
+msgstr "رابط التحميل"
 
 #: serializers.py:21
 msgid "URL"
@@ -159,13 +160,14 @@ msgstr "URL"
 
 #: settings.py:21
 msgid "Time in seconds, after which download files will be deleted."
-msgstr ""
+msgstr "الوقت بالثواني بعدها سيتم حذف ملفات التحميل."
 
 #: settings.py:27
 msgid ""
 "A storage backend that all workers can use to generate and hold files for "
 "download."
 msgstr ""
+"نظام تخزين خلفي يمكن لجميع العاملين استخدامه لإنشاء وحفظ ملفات التحميل."
 
 #: settings.py:38
 msgid "A storage backend that all workers can use to share files."
@@ -179,13 +181,15 @@ msgstr "مساحة تخزينية مؤقتة"
 
 #: settings.py:55
 msgid "Time in seconds, after which temporary uploaded files will be deleted."
-msgstr ""
+msgstr "الوقت بالثواني بعدها سيتم حذف الملفات المؤقتة المرفوعة."
 
 #: storages.py:15
 msgid ""
 "Unable to initialize the download file storage. Check the settings {} and {}"
 " for formatting errors."
 msgstr ""
+"تعذر تهيئة تخزين ملفات التحميل. تحقق من إعدادات {} و {} لوجود أخطاء في "
+"التنسيق."
 
 #: storages.py:29
 msgid ""
@@ -199,11 +203,13 @@ msgid ""
 "export. Download files are retained over a span of time and then removed "
 "automatically."
 msgstr ""
+"تتم إنشاء ملفات التحميل كنتيجة لعملية خارجية مثل التصدير. يتم الاحتفاظ "
+"بملفات التحميل لفترة زمنية ثم إزالتها تلقائيًا."
 
 #: views/download_file_views.py:72
 msgid "There are no files to download."
-msgstr ""
+msgstr "لا توجد ملفات للتحميل."
 
 #: views/download_file_views.py:73
 msgid "Downloads"
-msgstr ""
+msgstr "التحميلات"

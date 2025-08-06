@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-03 22:27+0000\n"
+"POT-Creation-Date: 2025-08-06 21:21+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
 "Last-Translator: Zoljargal Munkhjargal, 2024\n"
 "Language-Team: Mongolian (Mongolia) (https://app.transifex.com/rosarior/teams/13584/mn_MN/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Language: mn_MN\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps.py:131 permissions.py:6 settings.py:15
+#: apps.py:147 permissions.py:6 settings.py:15
 msgid "Common"
 msgstr ""
 

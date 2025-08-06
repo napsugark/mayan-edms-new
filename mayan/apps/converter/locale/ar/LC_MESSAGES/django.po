@@ -10,6 +10,7 @@
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
 # Yaman Sanobar <yman.snober@gmail.com>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -17,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-04 17:04+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
-"Last-Translator: Yaman Sanobar <yman.snober@gmail.com>, 2024\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -77,7 +78,7 @@ msgstr "تم التعديل"
 
 #: forms.py:17
 msgid "Asset preview image"
-msgstr ""
+msgstr "صورة معاينة الأصل"
 
 #: forms.py:18
 msgid "Preview"
@@ -174,7 +175,7 @@ msgstr "أماكن التخزين"
 
 #: models.py:111
 msgid "Content type"
-msgstr ""
+msgstr "نوع المحتوى"
 
 #: models.py:114
 msgid "Object ID"
@@ -252,19 +253,19 @@ msgstr "عرض التحويلات الموجودة/ المتاحة "
 
 #: queues.py:13
 msgid "Generate a image of an object."
-msgstr ""
+msgstr "توليد صورة لكائن."
 
 #: serializers.py:13
 msgid "Image path"
-msgstr ""
+msgstr "11346 Image path"
 
 #: serializers.py:16 serializers.py:32
 msgid "Image URL"
-msgstr ""
+msgstr "رابط الصورة"
 
 #: serializers.py:21
 msgid "Template name"
-msgstr ""
+msgstr "اسم القالب"
 
 #: serializers.py:24 serializers.py:39
 msgid "URL"
@@ -275,15 +276,22 @@ msgid ""
 "The threshold at which the CONVERTER_ASSET_CACHE_STORAGE_BACKEND will start "
 "deleting the oldest asset cache files. Specify the size in bytes."
 msgstr ""
+"الحد الذي تبدأ عنده الواجهة الخلفية لتخزين ذاكرة التخزين المؤقت للأصول "
+"(CONVERTER_ASSET_CACHE_STORAGE_BACKEND) في حذف أقدم ملفات ذاكرة التخزين "
+"المؤقت للأصول. حدد الحجم بالبايت."
 
 #: settings.py:39
 msgid ""
 "Path to the Storage subclass to use when storing the cached asset files."
 msgstr ""
+"المسار إلى الفئة الفرعية للتخزين Storage subclass المستخدمة عند تخزين ملفات "
+"الأصول المخبأة مؤقتًا."
 
 #: settings.py:47
 msgid "Arguments to pass to the CONVERTER_ASSET_CACHE_STORAGE_BACKEND."
 msgstr ""
+"المعاملات (Arguments) لتمريرها إلى الواجهة الخلفية لتخزين ذاكرة التخزين "
+"المؤقت للأصول (CONVERTER_ASSET_CACHE_STORAGE_BACKEND)."
 
 #: settings.py:54
 msgid "Path to the Storage subclass to use when storing assets."
@@ -303,19 +311,22 @@ msgstr "اعدادت التكوين للرسم البياني"
 
 #: settings.py:79
 msgid "Time in seconds that the browser should cache the supplied image."
-msgstr ""
+msgstr "المدة بالثواني التي يجب أن يخبئ فيها المتصفح الصورة المقدمة"
 
 #: settings.py:87
 msgid ""
 "Maximum number of retries before giving up. A value of None means the task "
 "will retry forever."
 msgstr ""
+"العدد الأقصى لإعادة المحاولات قبل الاستسلام. القيمة None لا شيء تعني أن "
+"المهمة ستستمر في إعادة المحاولة إلى الأبد."
 
 #: settings.py:95
 msgid ""
 "Time in seconds after which the image generation task will stop running and "
 "raise an error."
 msgstr ""
+"الوقت بالثواني الذي بعده ستتوقف مهمة إنشاء الصورة عن العمل وتُصدر خطأ."
 
 #: storages.py:15
 msgid ""
@@ -328,31 +339,33 @@ msgid ""
 "Unable to initialize the converter asset cachestorage. Check the settings {}"
 " and {} for formatting errors."
 msgstr ""
+"تعذّر تهيئة مخزن ذاكرة التخزين المؤقت لأصول المحوّل. تحقق من الإعدادين {} و "
+"{} بحثًا عن أخطاء في التنسيق."
 
 #: storages.py:34
 msgid "Assets cache"
-msgstr ""
+msgstr "ذاكرة التخزين المؤقت للأصول"
 
 #: transformation_mixins.py:20 transformations.py:634
 msgid ""
 "Number of degrees to rotate the image counter clockwise around its center."
-msgstr ""
+msgstr "عدد الدرجات لتدوير الصورة عكس اتجاه عقارب الساعة حول مركزها."
 
 #: transformation_mixins.py:22
 msgid "Rotation"
-msgstr ""
+msgstr "تدوير"
 
 #: transformation_mixins.py:25
 msgid "Opacity level of the image in percent"
-msgstr ""
+msgstr "مستوى عتامة الصورة كنسبة مئوية"
 
 #: transformation_mixins.py:26
 msgid "Transparency"
-msgstr ""
+msgstr "الشفافية"
 
 #: transformation_mixins.py:29 transformations.py:740
 msgid "Zoom level in percent."
-msgstr ""
+msgstr "مستوى التكبير/التصغير كنسبة مئوية"
 
 #: transformation_mixins.py:30 transformations.py:735
 msgid "Zoom"
@@ -360,39 +373,39 @@ msgstr "التكبير"
 
 #: transformation_mixins.py:113
 msgid "Paste an image"
-msgstr ""
+msgstr "لصق صورة"
 
 #: transformation_mixins.py:119
 msgid "Horizontal position in pixels from the left."
-msgstr ""
+msgstr "الموضع الأفقي بالبكسل من اليسار."
 
 #: transformation_mixins.py:120 transformation_mixins.py:165
 #: transformation_mixins.py:230 transformations.py:237 transformations.py:339
 #: transformations.py:437
 msgid "Left"
-msgstr ""
+msgstr "يسار"
 
 #: transformation_mixins.py:123
 msgid "Vertical position in pixels from the top."
-msgstr ""
+msgstr "الموضع الرأسي بالبكسل من الأعلى."
 
 #: transformation_mixins.py:124 transformation_mixins.py:170
 #: transformation_mixins.py:240 transformations.py:241 transformations.py:343
 #: transformations.py:441
 msgid "Top"
-msgstr ""
+msgstr "أعلى"
 
 #: transformation_mixins.py:158
 msgid "Paste an image (percent coordinates)"
-msgstr ""
+msgstr "لصق صورة بإحداثيات النسبة المئوية"
 
 #: transformation_mixins.py:164
 msgid "Horizontal position in percent from the left."
-msgstr ""
+msgstr "الموضع الأفقي كنسبة مئوية من اليسار."
 
 #: transformation_mixins.py:169
 msgid "Vertical position in percent from the top."
-msgstr ""
+msgstr "الموضع الرأسي كنسبة مئوية من الأعلى."
 
 #: transformation_mixins.py:223 transformations.py:225
 msgid "Paste an asset as watermark"
@@ -400,89 +413,89 @@ msgstr "التعديب مع إضافة العلامة المائية"
 
 #: transformation_mixins.py:229
 msgid "Horizontal start position in pixels from the left."
-msgstr ""
+msgstr "موضع البداية الأفقي بالبكسل من اليسار."
 
 #: transformation_mixins.py:234
 msgid "Horizontal end position in pixels from the right."
-msgstr ""
+msgstr "موضع النهاية الأفقي بالبكسل من اليمين."
 
 #: transformation_mixins.py:235 transformations.py:246 transformations.py:347
 #: transformations.py:445
 msgid "Right"
-msgstr ""
+msgstr "يمين"
 
 #: transformation_mixins.py:239
 msgid "Vertical start position in pixels from the top."
-msgstr ""
+msgstr "موضع البداية الرأسي بالبكسل من الأعلى."
 
 #: transformation_mixins.py:244
 msgid "Vertical end position in pixels from the top."
-msgstr ""
+msgstr "موضع النهاية الرأسي بالبكسل من الأعلى."
 
 #: transformation_mixins.py:245 transformations.py:251 transformations.py:351
 #: transformations.py:449
 msgid "Bottom"
-msgstr ""
+msgstr "أسفل"
 
 #: transformation_mixins.py:248
 msgid "Horizontal position increments in pixels."
-msgstr ""
+msgstr "زيادات الموضع الأفقي بالبكسل."
 
 #: transformation_mixins.py:249
 msgid "Horizontal increment"
-msgstr ""
+msgstr "زيادة أفقية"
 
 #: transformation_mixins.py:252
 msgid "Vertical position increments in pixels."
-msgstr ""
+msgstr "زيادات الموضع الرأسي بالبكسل."
 
 #: transformation_mixins.py:253
 msgid "Vertical increment"
-msgstr ""
+msgstr " زيادة رأسية"
 
 #: transformation_mixins.py:312
 msgid "Asset name"
-msgstr ""
+msgstr "اسم الأصل"
 
 #: transformation_mixins.py:355
 msgid "Color used to fill the rectangle."
-msgstr ""
+msgstr "اللون المستخدم لتعبئة المستطيل."
 
 #: transformation_mixins.py:356 transformations.py:641
 msgid "Fill color"
-msgstr ""
+msgstr "لون التعبئة"
 
 #: transformation_mixins.py:361
 msgid "Opacity level of the fill color in percent"
-msgstr ""
+msgstr "مستوى عتامة لون التعبئة كنسبة مئوية"
 
 #: transformation_mixins.py:362
 msgid "Fill transparency"
-msgstr ""
+msgstr "شفافية التعبئة"
 
 #: transformation_mixins.py:366
 msgid "Color used for the outline of the rectangle."
-msgstr ""
+msgstr "اللون المستخدم للإطار الخارجي للمستطيل."
 
 #: transformation_mixins.py:367
 msgid "Outline color"
-msgstr ""
+msgstr "لون الإطار الخارجي"
 
 #: transformation_mixins.py:371
 msgid "Width in pixels of the rectangle outline."
-msgstr ""
+msgstr "عرض الإطار الخارجي للمستطيل بالبكسل."
 
 #: transformation_mixins.py:372
 msgid "Outline width"
-msgstr ""
+msgstr "عرض الإطار الخارجي"
 
 #: transformations.py:209
 msgid "Paste an asset (absolute coordinates)"
-msgstr ""
+msgstr "لصق أصل بإحداثيات مطلقة"
 
 #: transformations.py:217
 msgid "Paste an asset (percent coordinates)"
-msgstr ""
+msgstr " لصق أصل بإحداثيات النسبة المئوية"
 
 #: transformations.py:231
 msgid "Crop"
@@ -490,19 +503,19 @@ msgstr "تحديد"
 
 #: transformations.py:236
 msgid "Number of pixels to remove from the left."
-msgstr ""
+msgstr "عدد البكسلات المراد إزالتها من اليسار."
 
 #: transformations.py:240
 msgid "Number of pixels to remove from the top."
-msgstr ""
+msgstr "عدد البكسلات المراد إزالتها من الأعلى."
 
 #: transformations.py:245
 msgid "Number of pixels to remove from the right."
-msgstr ""
+msgstr "عدد البكسلات المراد إزالتها من اليمين."
 
 #: transformations.py:250
 msgid "Number of pixels to remove from the bottom."
-msgstr ""
+msgstr "عدد البكسلات من الأسفل"
 
 #: transformations.py:333
 msgid "Draw rectangle"
@@ -510,39 +523,39 @@ msgstr "أشكال"
 
 #: transformations.py:338
 msgid "Left side location in pixels."
-msgstr ""
+msgstr "الموقع على الجانب الأيسر بالبكسل.ٍ"
 
 #: transformations.py:342
 msgid "Top side location in pixels."
-msgstr ""
+msgstr "الموقع على الجانب العلوي بالبكسل."
 
 #: transformations.py:346
 msgid "Right side location in pixels."
-msgstr ""
+msgstr "الموقع على الجانب الأيمن بالبكسل."
 
 #: transformations.py:350
 msgid "Bottom side location in pixels."
-msgstr ""
+msgstr "الموقع الجانب السفلي بالبكسل."
 
 #: transformations.py:431
 msgid "Draw rectangle (percent coordinates)"
-msgstr ""
+msgstr "رسم مستطيل (إحداثيات النسبة المئوية)"
 
 #: transformations.py:436
 msgid "Left side location in percent."
-msgstr ""
+msgstr "الموقع على الجانب الأيسر بالنسبة المئوية."
 
 #: transformations.py:440
 msgid "Top side location in percent."
-msgstr ""
+msgstr "الموقع على الجانب العلوي بالنسبة المئوية."
 
 #: transformations.py:444
 msgid "Right side location in percent."
-msgstr ""
+msgstr "الموقع على الجانب الأيمن بالنسبة المئوية."
 
 #: transformations.py:448
 msgid "Bottom side location in percent."
-msgstr ""
+msgstr "الموقع على الجانب السفلي بالنسبة المئوية."
 
 #: transformations.py:531
 msgid "Flip"
@@ -554,7 +567,7 @@ msgstr "الضبابي"
 
 #: transformations.py:547 transformations.py:710
 msgid "Radius"
-msgstr ""
+msgstr "نطاق"
 
 #: transformations.py:559
 msgid "Line art"
@@ -570,19 +583,19 @@ msgstr "تغيير حجم"
 
 #: transformations.py:590
 msgid "New width in pixels."
-msgstr ""
+msgstr "عرض جديد بالبكسل."
 
 #: transformations.py:591
 msgid "Width"
-msgstr ""
+msgstr "عرض"
 
 #: transformations.py:595
 msgid "New height in pixels."
-msgstr ""
+msgstr "ارتفاع جديد بالبكسل."
 
 #: transformations.py:596
 msgid "Height"
-msgstr ""
+msgstr "ارتفاع"
 
 #: transformations.py:628
 msgid "Rotate"
@@ -590,11 +603,11 @@ msgstr "تدوير"
 
 #: transformations.py:636
 msgid "Degrees"
-msgstr ""
+msgstr "درجات"
 
 #: transformations.py:640
 msgid "Color to be used for area outside of the rotated image."
-msgstr ""
+msgstr "اللون الذي سيتم استخدامه للمنطقة خارج الصورة الدائرية."
 
 #: transformations.py:672
 msgid "Rotate 90 degrees"
@@ -614,23 +627,23 @@ msgstr "اخفاء"
 
 #: transformations.py:709
 msgid "The blur radius in pixels."
-msgstr ""
+msgstr "مدى التمويه بالبكسل."
 
 #: transformations.py:713
 msgid "Unsharp strength in percent."
-msgstr ""
+msgstr "قوة الحدّة بالنسبة المئوية"
 
 #: transformations.py:714 transformations.py:741
 msgid "Percent"
-msgstr ""
+msgstr "نسبة مئوية"
 
 #: transformations.py:718
 msgid "Minimum brightness change that will be sharpened."
-msgstr ""
+msgstr "الحد الأدنى لتباين السطوع الذي سيُطبَّق عليه التشديد"
 
 #: transformations.py:719
 msgid "Tthreshold"
-msgstr ""
+msgstr "الحد الأدنى للتغير (للتأثير)"
 
 #: views/asset_views.py:50
 #, python-format
@@ -670,7 +683,7 @@ msgstr "خطأ في حذف الأصل &quot;%(asset)s&quot;: %(error)s"
 #: views/asset_views.py:106
 #, python-format
 msgid "Details asset: %s"
-msgstr ""
+msgstr "تفاصيل الأصول: %s"
 
 #: views/asset_views.py:121
 #, python-format
@@ -681,7 +694,7 @@ msgstr "تعديل الأصل: %s"
 msgid ""
 "Assets are files that can be used in conjunction with certain "
 "transformations."
-msgstr ""
+msgstr "الأصول هي ملفات يمكن استخدامها بالتزامن مع تحويلات معينة."
 
 #: views/asset_views.py:147
 msgid "No assets available"
@@ -765,4 +778,4 @@ msgstr "أضف التحول"
 
 #: workflow_actions.py:86
 msgid "Objects"
-msgstr ""
+msgstr "كائنات"

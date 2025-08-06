@@ -6,7 +6,7 @@
 # Translators:
 # Márcia Ferreira, 2024
 # José Samuel Facundo da Silva <samuel.facundo@ufca.edu.br>, 2024
-# Rodrigo de Almeida Sottomaior Macedo <sottomaiormacedotec@gmail.com>, 2024
+# Rodrigo Sottomaior Macedo <sottomaiormacedotec@sottomaiormacedo.tech>, 2024
 # Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2024
 # 
 msgid ""

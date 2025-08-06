@@ -11,16 +11,16 @@
 # Roberto Rosario, 2024
 # Berny <berny@bernhard-marx.de>, 2024
 # Ingo Buchholz <ingo.buchholz@takwa.de>, 2024
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
 # Jesaja Everling <jeverling@gmail.com>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-03 22:27+0000\n"
+"POT-Creation-Date: 2025-08-06 21:21+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
-"Last-Translator: Jesaja Everling <jeverling@gmail.com>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Austria) (https://app.transifex.com/rosarior/teams/13584/de_AT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Language: de_AT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps.py:131 permissions.py:6 settings.py:15
+#: apps.py:147 permissions.py:6 settings.py:15
 msgid "Common"
 msgstr "Allgemein"
 
@@ -74,7 +74,7 @@ msgstr "Lizenz"
 
 #: links.py:58
 msgid "Mailing list"
-msgstr ""
+msgstr "Mailingliste"
 
 #: links.py:64
 msgid "Copy"
@@ -82,7 +82,7 @@ msgstr "Kopieren"
 
 #: links.py:69
 msgid "Release notes"
-msgstr ""
+msgstr "Release Notes"
 
 #: links.py:73
 msgid "Setup"
@@ -205,6 +205,12 @@ msgid ""
 " containing an application. These apps will be installed after the default "
 "apps. Example: ['app_1', 'app_2']"
 msgstr ""
+"Eine Liste von Zeichenketten der Applikationen, die zu der Liste der "
+"üblicherweise von Mayan EDMS installierten Applikationen zusätzlich "
+"installiert werden sollen. Jede Zeichenkette sollte ein punktierter "
+"Pythonpfad sein: zu einer Applikationskonfigurationsklasse (bevorzugt) oder "
+"zu einem Paket, das die Applikation enthält. Diese Apps werden nach den "
+"Default-Apps installiert. Beispiel: ['app_1', 'app_2']"
 
 #: settings.py:70
 msgid ""
