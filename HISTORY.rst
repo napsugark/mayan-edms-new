@@ -26,6 +26,7 @@
   instead use a styled standard HTML checkbox.
 - Backport multi item bulk action dropdown template improvements.
 - Added `CITATION.cff` file for citations.
+- Update README files.
 
 4.7.1 (2024-06-04)
 ==================
