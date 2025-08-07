@@ -49,4 +49,4 @@ forge-up: ## Create and start the Forge container.
 
 forge-shell: ## Launch a bash instance inside the Forge container.
 forge-shell: forge-up
-	@docker compose --file forge/docker-compose.yml exec --env TERM=$(TERM) --interactive --tty mayan-forge bash
+	@docker compose --file forge/docker-compose.yml exec --env TERM=$(TERM) --interactive --tty forge bash
