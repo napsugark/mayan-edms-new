@@ -20,6 +20,8 @@
 - Remove localize fonts from testing Dockerfile.
 - Fix Whoosh search result limit.
 - Backport search app testing improvements.
+- Fix make file target for testing dependencies generation. Each requirement
+  entry generation now specified the settings file to use.
 
 4.7.1 (2024-06-04)
 ==================
