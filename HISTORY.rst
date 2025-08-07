@@ -1,18 +1,32 @@
-4.7.2 (2025-XX-XX)
+4.7.2 (2025-08-07)
 ==================
 - Docker image tags:
 
-  - PostgreSQL from 14.12-alpine to 14.18-alpine
-  - RabbitMQ from 3.12.14-management-alpine to 3.13.7-management-alpine
+  - Base Debian from 12.5-slim to 12.11-slim.
+  - ElasticSearch from 7.17.20 to 7.17.28
   - Forge base from 24.04 to noble-20250714
+  - PostgreSQL from 14.12-alpine to 14.18-alpine
+  - Python from 3.11.9-slim to 3.11.13-slim.
+  - RabbitMQ from 3.12.14-management-alpine to 3.13.7-management-alpine
 
 - Update dependency versions:
 
+  - Django from 4.2.13 to 4.2.23.
+  - PyYAML from 6.0.1 to 6.0.2.
+  - bleach from 6.1.0 to 6.2.0.
   - django-auth-ldap from 4.6.0 to 4.8.0
   - django-solo from 2.2.0 to 2.3.0
+  - django-storages from 1.14.2 to 1.14.6.
+  - extract-msg from 0.48.5 to 0.48.7.
+  - furl from 2.1.3 to 2.1.4.
+  - pip from 24.0 to 24.3.
+  - psycopg from 3.1.14 to 3.1.20.
   - pycryptodome from 3.20.0 to 3.21.0
-  - requests from 2.32.4 to 2.32.4
+  - pytz from 2024.1 to 2024.2.
+  - redis from 5.0.3 to 5.0.8.
+  - requests from 2.32.3 to 2.32.4
   - sentry-sdk from 1.45.0 to 1.45.1
+  - twine from 5.1.0 to 5.1.1.
   - whitenoise from 6.6.0 to 6.7.0
   - pip from 24.3 to 24.3.1
 
