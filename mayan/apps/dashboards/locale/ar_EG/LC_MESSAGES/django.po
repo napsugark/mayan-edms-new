@@ -7,6 +7,7 @@
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
 # WM Shinkada <shinkadawasim@gmail.com>, 2024
 # Yaman Sanobar <yman.snober@gmail.com>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -28,7 +29,7 @@ msgstr "لوحة التحكم"
 
 #: apps.py:25
 msgid "Widgets"
-msgstr ""
+msgstr "الأدوات"
 
 #: apps.py:29
 msgid "Label"
@@ -36,7 +37,7 @@ msgstr "العنوان"
 
 #: dashboards.py:6
 msgid "Administrator dashboard"
-msgstr ""
+msgstr "لوحة معلومات المسؤول"
 
 #: links.py:9
 msgid "Details"
@@ -49,4 +50,4 @@ msgstr "عرض التفاصيل"
 
 #: views.py:32
 msgid "Dashboard detail"
-msgstr ""
+msgstr "تفاصيل لوحة التحكم"

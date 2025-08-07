@@ -228,7 +228,7 @@ msgstr "Senha foi alterada com sucesso para o usuário %s."
 #: views/authentication_views.py:441
 #, python-format
 msgid "Error resetting password for user \"%(user)s\": %(error)s"
-msgstr ""
+msgstr "Ocorreu um erro ao resetar a senha do usuário \"%(user)s\": %(error)s"
 
 #: views/impersonation_views.py:87
 #, python-format

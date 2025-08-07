@@ -74,7 +74,7 @@ msgstr "التطبيقات"
 
 #: classes.py:220 classes.py:966
 msgid "Environments"
-msgstr ""
+msgstr "البيئة"
 
 #: classes.py:331
 msgid "Need to specify at least one: app_label or module."
@@ -235,10 +235,13 @@ msgid ""
 "unpinned or immutable dependency bugs in third party libraries. End users "
 "can ignore missing dependencies under this environment."
 msgstr ""
+"تُستخدم البيئة لتحديد تبعيات التوثيق المباشرة لحل مشاكل التبعيات غير المثبتة"
+" أو غير القابلة للتغيير في مكتبات الجهات الخارجية. يمكن للمستخدمين النهائيين"
+" تجاهل التبعيات المفقودة في هذه البيئة."
 
 #: environments.py:40
 msgid "Documentation (override)"
-msgstr ""
+msgstr "التوثيق (اعادة الكتابة)"
 
 #: environments.py:45
 msgid ""
@@ -287,6 +290,7 @@ msgid ""
 "Your version (%(version_local)s), is more recent than the published version "
 "(%(version_server)s)."
 msgstr ""
+"إصدارك (%(version_local)s) أحدث من الإصدار المنشور (%(version_server)s)."
 
 #: literals.py:14
 #, python-format
@@ -294,10 +298,12 @@ msgid ""
 "The version you are using (%(version_local)s) is outdated. The latest "
 "version is %(version_server)s."
 msgstr ""
+"الإصدار الذي تستخدمه (%(version_local)s) قديم. أحدث إصدار هو "
+"%(version_server)s."
 
 #: literals.py:18
 msgid "It is not possible to determine the latest version available."
-msgstr ""
+msgstr "لا يمكن تحديد أحدث إصدار متاح."
 
 #: literals.py:21
 #, python-format
@@ -305,6 +311,8 @@ msgid ""
 "Unexpected error trying to determine the latest version available. Make sure"
 " your installation has a connection to the internet; %(exception)s"
 msgstr ""
+"حدث خطأ غير متوقع أثناء محاولة تحديد أحدث إصدار متاح. تأكد من اتصال التثبيت "
+"بالإنترنت؛ %(exception)s"
 
 #: management/commands/dependencies_check.py:13
 msgid "Outputs the dependencies as a comma delimited values list."
@@ -335,13 +343,15 @@ msgstr "استعراض الارتباطات"
 
 #: views.py:27
 msgid "This process only checks the Python component of Mayan EDMS."
-msgstr ""
+msgstr "هذه العملية تتحقق فقط من مكون Python في Mayan EDMS."
 
 #: views.py:31
 msgid ""
 "It does not verify versions of other components like packaging or deployment"
 " technologies, such as container or virtual machine images."
 msgstr ""
+"لا تتحقق من إصدارات المكونات الأخرى مثل تقنيات التغليف أو النشر، كحاويات أو "
+"صور الآلات الافتراضية."
 
 #: views.py:51
 #, python-format

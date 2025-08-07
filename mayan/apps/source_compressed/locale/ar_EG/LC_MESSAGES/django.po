@@ -23,13 +23,14 @@ msgstr ""
 
 #: apps.py:11
 msgid "Source compressed"
-msgstr ""
+msgstr "المصدر مضغوط"
 
 #: source_backend_actions/arguments.py:9
 msgid ""
 "Controls whether or not the uploaded file will be uncompressed and processed"
 " and individual files."
 msgstr ""
+"يتحكم فيما إذا كان سيتم فك ضغط الملف المرفوع ومعالجته كملفات فردية أم لا."
 
 #: source_backends/literals.py:8 source_backends/literals.py:13
 msgid "Always"
@@ -53,7 +54,7 @@ msgstr "هل يتم فك الملفات المضغوطة أم لا."
 
 #: source_backends/mixins.py:58
 msgid "Decompression"
-msgstr ""
+msgstr "فك الضغط"
 
 #: source_backends/mixins.py:91
 msgid "Expand compressed files"

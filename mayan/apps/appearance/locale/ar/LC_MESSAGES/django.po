@@ -8,6 +8,7 @@
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
 # Roberto Rosario, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -77,7 +78,7 @@ msgstr "تعديل القالب"
 
 #: events.py:16
 msgid "User theme edited"
-msgstr ""
+msgstr "تم تعديل سمة المستخدم"
 
 #: links.py:26
 msgid "Theme settings"
@@ -155,7 +156,7 @@ msgstr "استعراض القالب الحالي"
 
 #: settings.py:18
 msgid "Custom HTTP response code for AJAX redirections."
-msgstr ""
+msgstr "رمز استجابة HTTP مخصص لعمليات إعادة توجيه AJAX."
 
 #: settings.py:24
 msgid "Maximum number of characters that will be displayed as the view title."
@@ -163,23 +164,26 @@ msgstr "اكبر عدد من الحروف ستظهر "
 
 #: settings.py:34
 msgid "Position where the system messages will be displayed."
-msgstr ""
+msgstr "الموضع الذي سيتم فيه عرض رسائل النظام"
 
 #: settings.py:40
 msgid ""
 "Delay in milliseconds after which the menus will be checked for updates."
-msgstr ""
+msgstr "التأخير (بالمللي ثانية) الذي بعده سيتم التحقق من تحديثات القوائم."
 
 #: settings.py:47
 msgid ""
 "Maximum number of requests that can be made before throttling is enabled."
 msgstr ""
+"العدد الأقصى للطلبات التي يمكن إجراؤها قبل تفعيل التحكم في معدل الطلبات."
 
 #: settings.py:54
 msgid ""
 "Time in milliseconds after which a throttled request will clear allowing an "
 "additional request to be performed."
 msgstr ""
+"الوقت بالمللي ثانية الذي بعده سيزول تأثير التحكم في معدل الطلب، مما يسمح "
+"بإجراء طلب إضافي"
 
 #: templates/403.html:5 templates/403.html:18
 msgid "Insufficient permission"
@@ -260,7 +264,7 @@ msgstr "الاصدار"
 #: templates/appearance/about.html:41
 #, python-format
 msgid "Build number: %(project_build_number)s"
-msgstr ""
+msgstr "رقم البناء: %(project_build_number)s"
 
 #: templates/appearance/about.html:48
 msgid "Released under the license:"
@@ -272,6 +276,8 @@ msgid ""
 "To get the latest news subscribe to the <a class=\"new_window\" "
 "href=\"%(link_mailing_list_url)s\"> Mailing list</a>."
 msgstr ""
+"<a class=\"new_window\" href=\"%(link_mailing_list_url)s\"></a>للحصول على "
+"آخر الأخبار، اشترك في قائمة البريد الإلكتروني."
 
 #: templates/appearance/about.html:66
 #, python-format
@@ -280,6 +286,8 @@ msgid ""
 "class=\"new_window\" href=\"%(link_knowledge_base_url)s\"> Knowledge "
 "base</a>."
 msgstr ""
+"للمناقشات، قم بزيارة منتدى المجتمع.<a class=\"new_window\" "
+"href=\"%(link_knowledge_base_url)s\"></a>"
 
 #: templates/appearance/about.html:75
 #, python-format
@@ -287,6 +295,8 @@ msgid ""
 "Need professional help? Check out the <a class=\"new_window\" "
 "href=\"%(link_support_url)s\"> Support</a> offerings."
 msgstr ""
+"<a class=\"new_window\" href=\"%(link_support_url)s\"></a>قائمة التغييرات "
+"الكاملة متاحة عبر ملاحظات الإصدار."
 
 #: templates/appearance/about.html:84
 #, python-format
@@ -294,6 +304,8 @@ msgid ""
 "For discussions visit the <a class=\"new_window\" "
 "href=\"%(link_forum_url)s\">Community forum</a>."
 msgstr ""
+"للمناقشات، قم بزيارة منتدى المجتمع<a class=\"new_window\" "
+"href=\"%(link_forum_url)s\"></a>"
 
 #: templates/appearance/about.html:93
 #, python-format
@@ -301,6 +313,8 @@ msgid ""
 "The complete list of changes is available via the <a class=\"new_window\" "
 "href=\"%(link_release_notes_url)s\">Release notes</a>."
 msgstr ""
+"القائمة الكاملة للتغييرات متاحة عبر ملاحظات الإصدار<a class=\"new_window\" "
+"href=\"%(link_release_notes_url)s\"></a>"
 
 #: templates/appearance/about.html:102
 #, python-format
@@ -308,6 +322,8 @@ msgid ""
 "For questions check the <a class=\"new_window\" "
 "href=\"%(link_documentation_url)s\">Documentation</a>."
 msgstr ""
+"للأسئلة، راجع الوثائق<a class=\"new_window\" "
+"href=\"%(link_documentation_url)s\"></a>"
 
 #: templates/appearance/about.html:111
 #, python-format
@@ -316,6 +332,8 @@ msgid ""
 "class=\"new_window\" href=\"%(link_source_code_url)s\">Source code "
 "repository</a>."
 msgstr ""
+"<a class=\"new_window\" href=\"%(link_source_code_url)s\"></a>إذا وجدت خطأً "
+"أو لديك فكرة لميزة جديدة، افتح تذكرة في مستودع الكود المصدري"
 
 #: templates/appearance/about.html:117
 #, python-format
@@ -323,6 +341,7 @@ msgid ""
 "%(project_title)s is Free and Open Source software, which is provided as-is "
 "with no warranty."
 msgstr ""
+"%(project_title)s برنامج مجاني ومفتوح المصدر، يُقدم كما هو دون أي ضمانات"
 
 #: templates/appearance/confirm.html:13
 msgid "Are you sure?"
@@ -484,9 +503,9 @@ msgstr "لا يوجد قوالب "
 #: views.py:127
 #, python-format
 msgid "Theme settings for user: %s"
-msgstr ""
+msgstr "إعدادات السمة للمستخدم: %s"
 
 #: views.py:150
 #, python-format
 msgid "Edit theme settings for user: %s"
-msgstr ""
+msgstr "تعديل إعدادات السمة للمستخدم: %s"

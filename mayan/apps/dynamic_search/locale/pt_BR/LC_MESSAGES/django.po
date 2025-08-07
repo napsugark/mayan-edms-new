@@ -62,7 +62,7 @@ msgstr "Corresponder a todos"
 
 #: forms.py:39
 msgid "Return only results that match all fields."
-msgstr ""
+msgstr "Retornar apenas resultados que correspondam a todos os campos."
 
 #: forms.py:72
 msgid "Search logic"
@@ -91,7 +91,7 @@ msgstr "resultados"
 
 #: links.py:35
 msgid "Basic search"
-msgstr ""
+msgstr "Busca básica"
 
 #: links.py:39 templates/dynamic_search/search_box.html:49
 #: templates/dynamic_search/search_box_toolbar.html:33

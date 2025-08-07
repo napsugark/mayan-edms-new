@@ -12,6 +12,7 @@
 # Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2024
 # Aline Freitas <aline@alinefreitas.com.br>, 2024
 # Márcia Ferreira, 2024
+# Daniel Flores <dfloresbr@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
@@ -286,7 +287,7 @@ msgstr "Atualizar informação de assinaturas existentes"
 
 #: serializers.py:17
 msgid "Document file URL"
-msgstr ""
+msgstr "URL do arquivo de documento"
 
 #: serializers.py:59
 msgid "Primary key of the secret key used to sign the document file."

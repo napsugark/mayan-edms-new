@@ -12,6 +12,7 @@
 # 425fe09b3064b9f906f637fff94056ae_a00ea56 <0fa3588fa89906bfcb3a354600956e0e_308047>, 2024
 # Márcia Ferreira, 2024
 # Jadson Ribeiro <jadsonbr@outlook.com.br>, 2024
+# Daniel Flores <dfloresbr@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
@@ -57,7 +58,7 @@ msgstr "Fórum"
 
 #: links.py:52
 msgid "Knowledge base"
-msgstr ""
+msgstr "Base do conhecimento"
 
 #: links.py:55 views.py:55
 msgid "License"
@@ -171,6 +172,10 @@ msgid ""
 "apps must be also configured via their respective storage backend settings "
 "to use alternate persistence."
 msgstr ""
+"Desabilita o uso da pasta local `media`. Ao utilizar essa definição, todos "
+"os aplicativos também devem ser configurados através das suas respectivas "
+"definições de backend de armazenamento para utilizar uma forma alternativa "
+"de persistência."
 
 #: settings.py:48
 msgid ""
@@ -193,6 +198,12 @@ msgid ""
 " containing an application. These apps will be installed after the default "
 "apps. Example: ['app_1', 'app_2']"
 msgstr ""
+"Uma lista de strings que designa todas as aplicações que foram instaladas "
+"além das que já vêm instaladas por padrão no Mayan EDMS. Cada string deve "
+"ser um caminho do Python separado por pontos até: uma classe de configuração"
+" da aplicação (preferido), ou um pacote contendo a aplicação. Tais "
+"aplicações serão instaladas após as aplicações padrões. Exemplo: ['app_1', "
+"'app_2']"
 
 #: settings.py:70
 msgid ""

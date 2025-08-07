@@ -1395,7 +1395,7 @@ msgstr "Error al eliminar el flujo de trabajo \"%(instance)s\"; %(exception)s"
 msgid "%(count)d workflows deleted successfully."
 msgstr "%(count)d flujos de trabajo se eliminaron correctamente."
 
-#: views/workflow_template_views.py:166
+#: views/workflow_template_views.py:175
 #, python-format
 msgid "Workflow \"%(object)s\" deleted successfully."
 msgstr "El flujo de trabajo \"%(object)s\" se eliminó correctamente."

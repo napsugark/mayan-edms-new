@@ -160,7 +160,7 @@ msgstr "Eliminar arquivos de descargas ultrapassados"
 
 #: serializers.py:11
 msgid "Download URL"
-msgstr ""
+msgstr "URL do download"
 
 #: serializers.py:21
 msgid "URL"

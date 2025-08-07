@@ -8,6 +8,7 @@
 # Yaman Sanobar <yman.snober@gmail.com>, 2024
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -56,11 +57,11 @@ msgstr "تطابق الكل"
 
 #: forms.py:39
 msgid "Return only results that match all fields."
-msgstr ""
+msgstr "إرجاع النتائج التي تتطابق فقط مع كافة الحقول."
 
 #: forms.py:72
 msgid "Search logic"
-msgstr ""
+msgstr "منطق البحث"
 
 #: forms.py:100 templates/dynamic_search/search_box.html:43
 #: templates/dynamic_search/search_box_toolbar.html:25
@@ -85,7 +86,7 @@ msgstr ""
 
 #: links.py:35
 msgid "Basic search"
-msgstr ""
+msgstr "البحث الأساسي"
 
 #: links.py:39 templates/dynamic_search/search_box.html:49
 #: templates/dynamic_search/search_box_toolbar.html:33
@@ -188,7 +189,7 @@ msgstr "تفعيل أدوات البحث"
 
 #: queues.py:14
 msgid "Search slow"
-msgstr ""
+msgstr "البحث بطيء"
 
 #: queues.py:19
 msgid "Remove a model instance from the search engine."
@@ -200,20 +201,22 @@ msgstr "فهرسة لطرق البحث"
 
 #: queues.py:30
 msgid "Index all instances of a search model to the search engine."
-msgstr ""
+msgstr "فهرسة جميع حالات نموذج البحث لمحرك البحث."
 
 #: queues.py:36
 msgid ""
 "Index all related instances of a search model after a many to many event."
-msgstr ""
+msgstr "فهرسة جميع الحالات ذات الصلة بنموذج البحث بعد حدث متعدد إلى متعدد."
 
 #: queues.py:44
 msgid "Reset the search backend indices and index all instances again."
-msgstr ""
+msgstr "إعادة تعيين مؤشرات البحث الخلفية وفهرسة جميع الحالات مرة أخرى."
 
 #: queues.py:51
 msgid "Delete expired saved resultsets"
 msgstr ""
+"نتائج البحث تتجاوز الحد الأقصى. قد لا تكون النتائج موثوقة في حال استخدام "
+"نطاقات بحث متعددة. ضيّق معايير البحث أو حسّن قيمة حد النتائج."
 
 #: scoped_queries.py:345
 #, python-format
@@ -229,59 +232,61 @@ msgid ""
 "Search backend error. Verify that the search service is available and that "
 "the search syntax is valid for the active search backend; %s"
 msgstr ""
+"خطأ في واجهة البحث الخلفية. تأكد من توفر خدمة البحث وصلاحية صيغة البحث "
+"لواجهة البحث الخلفية النشطة؛%s"
 
 #: search_fields.py:312
 msgid "Any"
-msgstr ""
+msgstr "أي"
 
 #: search_models.py:44
 #, python-format
 msgid "Unknown search model `%s`."
-msgstr ""
+msgstr "نموذج بحث غير معروف ``.%s"
 
 #: search_models.py:114
 msgid "All content"
-msgstr ""
+msgstr "كل المحتوى"
 
 #: search_query_types.py:171
 msgid "Exact"
-msgstr ""
+msgstr "بالضبط"
 
 #: search_query_types.py:177
 msgid "Fuzzy"
-msgstr ""
+msgstr "غامض"
 
 #: search_query_types.py:183
 msgid "Greater than"
-msgstr ""
+msgstr "أعظم من"
 
 #: search_query_types.py:189
 msgid "Greater than or equal"
-msgstr ""
+msgstr "أكبر من أو يساوي"
 
 #: search_query_types.py:195
 msgid "Less than"
-msgstr ""
+msgstr "أقل من"
 
 #: search_query_types.py:201
 msgid "Less than or equal"
-msgstr ""
+msgstr "أقل من أو يساوي"
 
 #: search_query_types.py:207
 msgid "Partial"
-msgstr ""
+msgstr "جزئي"
 
 #: search_query_types.py:213
 msgid "Range"
-msgstr ""
+msgstr "يتراوح"
 
 #: search_query_types.py:248
 msgid "Range exclusive"
-msgstr ""
+msgstr "نطاق حصري"
 
 #: search_query_types.py:254
 msgid "Regular expression"
-msgstr ""
+msgstr "التعبير العادي"
 
 #: serializers.py:20
 msgid "Results URL"
@@ -297,7 +302,7 @@ msgstr ""
 
 #: serializers.py:61
 msgid "Field name"
-msgstr ""
+msgstr "اسم الحقل"
 
 #: serializers.py:64
 msgid "Label"
@@ -305,11 +310,11 @@ msgstr "العنوان"
 
 #: serializers.py:76
 msgid "Primary key"
-msgstr ""
+msgstr "المفتاح الأساسي"
 
 #: serializers.py:79
 msgid "Search fields"
-msgstr ""
+msgstr "حقول البحث"
 
 #: settings.py:24
 msgid "Full path to the backend to be used to handle the search."
@@ -320,10 +325,12 @@ msgid ""
 "Arguments to pass to the search backend. For example values to change the "
 "behavior, host names, or authentication arguments."
 msgstr ""
+"الوسائط المُرسَلة إلى خادم البحث. على سبيل المثال، القيم لتغيير السلوك، أو "
+"أسماء المضيفين، أو وسائط المصادقة."
 
 #: settings.py:38
 msgid "The search operator to use when none is specified."
-msgstr ""
+msgstr "عامل البحث الذي يجب استخدامه عندما لا يتم تحديد أي عامل بحث."
 
 #: settings.py:45
 msgid ""
@@ -332,20 +339,21 @@ msgstr "لتعطيل بحث شريط المصطلح الفردي مع ترك ز�
 
 #: settings.py:52
 msgid "Amount of objects to process when performing bulk indexing."
-msgstr ""
+msgstr "عدد الكائنات التي يجب معالجتها عند تنفيذ الفهرسة المجمعة."
 
 #: settings.py:58
 msgid "Sets the default state of the \"Match all\" checkbox."
-msgstr ""
+msgstr "تعيين الحالة الافتراضية لمربع الاختيار \"مطابقة الكل\"."
 
 #: settings.py:64
 msgid ""
 "Maximum number of search results to fetch and display per search query unit."
 msgstr ""
+"الحد الأقصى لعدد نتائج البحث التي سيتم جلبها وعرضها لكل وحدة استعلام بحث."
 
 #: settings.py:71
 msgid "Maximum number of search results to fetch and display."
-msgstr ""
+msgstr "الحد الأقصى لعدد نتائج البحث التي سيتم جلبها وعرضها."
 
 #: settings.py:77
 msgid "Maximum number of saved resultsets to keep per user."
@@ -369,7 +377,7 @@ msgstr ""
 
 #: templates/dynamic_search/app/list_toolbar.html:18
 msgid "Filter terms"
-msgstr ""
+msgstr "شروط التصفية"
 
 #: templates/dynamic_search/search_box.html:49
 #: templates/dynamic_search/search_box_toolbar.html:33
@@ -378,47 +386,47 @@ msgstr "المتقدمة"
 
 #: value_transformations.py:38
 msgid "Replace accents"
-msgstr ""
+msgstr "استبدال لهجات"
 
 #: value_transformations.py:50
 msgid "@ sign replace"
-msgstr ""
+msgstr "@ استبدال التوقيع"
 
 #: value_transformations.py:60
 msgid "Case fold"
-msgstr ""
+msgstr "أضعاف القضية"
 
 #: value_transformations.py:70 value_transformations.py:80
 msgid "Hyphen replace"
-msgstr ""
+msgstr "استبدال الواصلة"
 
 #: value_transformations.py:90
 msgid "To boolean"
-msgstr ""
+msgstr "إلى منطقية"
 
 #: value_transformations.py:105
 msgid "To date time"
-msgstr ""
+msgstr "حتى الآن الوقت"
 
 #: value_transformations.py:132
 msgid "Date time ISO format"
-msgstr ""
+msgstr "التاريخ والوقت بصيغة ISO"
 
 #: value_transformations.py:146
 msgid "Date time simple format"
-msgstr ""
+msgstr "التاريخ والوقت بتنسيق بسيط"
 
 #: value_transformations.py:158
 msgid "Date time timestamp format"
-msgstr ""
+msgstr "تنسيق الطابع الزمني والتاريخ"
 
 #: value_transformations.py:174
 msgid "To integer"
-msgstr ""
+msgstr "إلى عدد صحيح"
 
 #: value_transformations.py:184
 msgid "To string"
-msgstr ""
+msgstr "إلى السلسلة"
 
 #: views/saved_resultset_views.py:30
 #, python-format
@@ -481,7 +489,7 @@ msgstr ""
 msgid ""
 "The currently selected search backend does not support or requires "
 "reindexing."
-msgstr ""
+msgstr "لا يدعم برنامج البحث المحدد حاليًا إعادة الفهرسة أو لا يتطلبها."
 
 #: views/search_views.py:91
 msgid "Search backend reindexing queued."
@@ -495,7 +503,7 @@ msgstr "ابحث عن: %s"
 #: views/search_views.py:139
 #, python-format
 msgid "Advanced search for: %s"
-msgstr ""
+msgstr "بحث متقدم عن:%s"
 
 #: views/search_views.py:195
 msgid "Try again using different terms. "
@@ -508,7 +516,7 @@ msgstr "لا نتائج للبحث"
 #: views/search_views.py:200
 #, python-format
 msgid "Search query: %s"
-msgstr ""
+msgstr "استعلام البحث:%s"
 
 #: views/search_views.py:203
 #, python-format

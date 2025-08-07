@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Translators:
+# Mohamad Ashmar, 2025
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
@@ -18,8 +21,8 @@ msgstr ""
 
 #: apps.py:13
 msgid "Staging storages"
-msgstr ""
+msgstr "تخزين مؤقت"
 
 #: source_backends.py:29
 msgid "Staging storage"
-msgstr ""
+msgstr "تخزين مؤقت"

@@ -17,6 +17,7 @@
 # Jesaja Everling <jeverling@gmail.com>, 2024
 # Mathias Behrle <mathiasb@m9s.biz>, 2024
 # Marvin Haschker <marvin@haschker.me>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -1387,7 +1388,7 @@ msgstr "Fehler beim Löschen des Workflows \"%(instance)s\": %(exception)s"
 msgid "%(count)d workflows deleted successfully."
 msgstr "%(count)d  Workflows erfolgreich gelöscht"
 
-#: views/workflow_template_views.py:166
+#: views/workflow_template_views.py:175
 #, python-format
 msgid "Workflow \"%(object)s\" deleted successfully."
 msgstr "Workflow \"%(object)s\" erfolgreich gelöscht"

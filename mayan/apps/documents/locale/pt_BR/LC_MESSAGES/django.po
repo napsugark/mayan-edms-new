@@ -202,7 +202,7 @@ msgstr ""
 
 #: document_version_modifications.py:29
 msgid "Reset pages to latest file"
-msgstr ""
+msgstr "Limpar páginas para o último arquivo"
 
 #: document_version_modifications.py:30
 msgid "Match all pages to that of the latest document file."
@@ -310,7 +310,7 @@ msgstr "Versão do documento carregada (histórico)"
 
 #: forms/document_file_forms.py:44
 msgid "Detected"
-msgstr ""
+msgstr "Detectado"
 
 #: forms/document_file_forms.py:48
 msgid "Storage"
@@ -318,7 +318,7 @@ msgstr "Armazenamento"
 
 #: forms/document_file_forms.py:52
 msgid "Other"
-msgstr ""
+msgstr "Outro"
 
 #: forms/document_file_forms.py:61
 msgid "Date added"
@@ -412,7 +412,7 @@ msgstr "Número de página alvo não pode ser repetido"
 
 #: forms/misc_forms.py:10
 msgid "Page group"
-msgstr ""
+msgstr "Grupo de páginas"
 
 #: forms/misc_forms.py:13 literals.py:99
 msgid "Page range"
@@ -578,7 +578,7 @@ msgstr "Versões"
 
 #: links/document_version_links.py:57
 msgid "Modify"
-msgstr ""
+msgstr "Modificar"
 
 #: links/document_version_page_links.py:55
 msgid "Remap pages"
@@ -763,7 +763,7 @@ msgstr "Rascunho de documento, id: %d"
 
 #: models/document_models.py:43
 msgid "Latest document file"
-msgstr ""
+msgstr "Último arquivo de documento"
 
 #: models/document_models.py:48
 msgid ""
@@ -1004,7 +1004,7 @@ msgstr "Documentos acedidos recentemente."
 
 #: permissions.py:12
 msgid "Change type of documents"
-msgstr ""
+msgstr "Mudar tipo de documentos"
 
 #: permissions.py:15
 msgid "Create documents"
@@ -1100,7 +1100,7 @@ msgstr "Mover documentos para a lixeira"
 
 #: queues.py:14
 msgid "Documents fast"
-msgstr ""
+msgstr "Documentos rápidos"
 
 #: queues.py:17
 msgid "Documents slow"
@@ -1112,7 +1112,7 @@ msgstr ""
 
 #: queues.py:23
 msgid "Documents file slow"
-msgstr ""
+msgstr "Arquivo de documentos lento"
 
 #: queues.py:27
 msgid "Documents periodic"
@@ -1120,15 +1120,15 @@ msgstr "Documentos periódicos"
 
 #: queues.py:31
 msgid "Documents trash"
-msgstr ""
+msgstr "Lixeira de documentos"
 
 #: queues.py:35
 msgid "Documents version"
-msgstr ""
+msgstr "Versão dos documentos"
 
 #: queues.py:41
 msgid "Create new document file"
-msgstr ""
+msgstr "Criar novo arquivo de documentos"
 
 #: queues.py:45
 msgid "Upload new document file"
@@ -1156,7 +1156,7 @@ msgstr ""
 
 #: queues.py:70
 msgid "Update document file size"
-msgstr ""
+msgstr "Atualizar o tamanho do arquivo de documento"
 
 #: queues.py:74
 msgid "Create a new version after the file is processed"
@@ -1164,7 +1164,7 @@ msgstr ""
 
 #: queues.py:79
 msgid "Delete a document file"
-msgstr ""
+msgstr "Excluir o arquivo de documento"
 
 #: queues.py:84
 msgid "Check document type trash periods"
@@ -1241,13 +1241,13 @@ msgstr "Soma de controlo do ficheiro do documento"
 
 #: serializers/document_file_serializers.py:12
 msgid "Document file URL"
-msgstr ""
+msgstr "URL do arquivo de documento"
 
 #: serializers/document_file_serializers.py:24
 #: serializers/document_version_serializers.py:57
 #: serializers/trashed_document_serializers.py:12
 msgid "Image URL"
-msgstr ""
+msgstr "URL da imagem"
 
 #: serializers/document_file_serializers.py:40
 #: serializers/document_file_serializers.py:95
@@ -1263,12 +1263,12 @@ msgstr "URL"
 
 #: serializers/document_file_serializers.py:69
 msgid "Action name"
-msgstr ""
+msgstr "Nome da ação"
 
 #: serializers/document_file_serializers.py:72
 #: serializers/document_version_serializers.py:104
 msgid "Document URL"
-msgstr ""
+msgstr "URL do documento"
 
 #: serializers/document_file_serializers.py:76
 msgid "Binary content for the new file."
@@ -1276,7 +1276,7 @@ msgstr "Conteúdo binário para o novo ficheiro."
 
 #: serializers/document_file_serializers.py:77
 msgid "File new"
-msgstr ""
+msgstr "Novo arquivo"
 
 #: serializers/document_file_serializers.py:80
 #: serializers/document_version_serializers.py:120
@@ -1311,7 +1311,7 @@ msgstr ""
 
 #: serializers/document_serializers.py:46
 msgid "Version active"
-msgstr ""
+msgstr "Versão ativa"
 
 #: serializers/document_serializers.py:49
 msgid "Version list URL"
@@ -1324,7 +1324,7 @@ msgstr ""
 
 #: serializers/document_type_serializers.py:11
 msgid "Document type URL"
-msgstr ""
+msgstr "URL do tipo de documento"
 
 #: serializers/document_type_serializers.py:35
 #: serializers/document_type_serializers.py:47
@@ -1337,7 +1337,7 @@ msgstr ""
 
 #: serializers/document_version_serializers.py:26
 msgid "Backend ID"
-msgstr ""
+msgstr "ID do backend"
 
 #: serializers/document_version_serializers.py:27
 msgid "Primary key of the modification backend to execute."

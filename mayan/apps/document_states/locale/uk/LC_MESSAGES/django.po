@@ -1367,7 +1367,7 @@ msgstr "Помилка видалення робочого процесу \"%(in
 msgid "%(count)d workflows deleted successfully."
 msgstr "%(count)d робочих процесів успішно видалено."
 
-#: views/workflow_template_views.py:166
+#: views/workflow_template_views.py:175
 #, python-format
 msgid "Workflow \"%(object)s\" deleted successfully."
 msgstr "Робочий процес \"%(object)s\" успішно видалено."

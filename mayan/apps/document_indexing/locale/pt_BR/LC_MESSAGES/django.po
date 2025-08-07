@@ -386,7 +386,7 @@ msgstr ""
 
 #: serializers.py:63
 msgid "Documents URL"
-msgstr ""
+msgstr "URL dos Documentos"
 
 #: serializers.py:66 serializers.py:140 serializers.py:200
 msgid "Index URL"
@@ -398,11 +398,11 @@ msgstr ""
 
 #: serializers.py:137 serializers.py:197
 msgid "Children"
-msgstr ""
+msgstr "Filhos"
 
 #: serializers.py:203
 msgid "Parent"
-msgstr ""
+msgstr "Pai"
 
 #: serializers.py:271
 msgid ""
@@ -455,7 +455,7 @@ msgstr "Chave primário do tipo de documento a adicionar ao modelo de índice."
 
 #: serializers.py:355 serializers.py:365
 msgid "Document type ID"
-msgstr ""
+msgstr "ID do tipo do documento"
 
 #: serializers.py:363
 msgid "Primary key of the document type to remove from the index template."

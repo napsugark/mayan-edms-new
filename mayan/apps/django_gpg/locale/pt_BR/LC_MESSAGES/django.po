@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Translators:
-# Rodrigo de Almeida Sottomaior Macedo <sottomaiormacedotec@gmail.com>, 2024
+# Rodrigo Sottomaior Macedo <sottomaiormacedotec@sottomaiormacedo.tech>, 2024
 # Bruno Martins <bruno.martins@bewgpt.com.pt>, 2024
 # 425fe09b3064b9f906f637fff94056ae_a00ea56 <0fa3588fa89906bfcb3a354600956e0e_308047>, 2024
 # Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2024

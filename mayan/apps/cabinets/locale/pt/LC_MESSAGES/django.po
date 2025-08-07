@@ -8,6 +8,7 @@
 # Emerson Soares <on.emersonsoares@gmail.com>, 2024
 # 425fe09b3064b9f906f637fff94056ae_a00ea56 <0fa3588fa89906bfcb3a354600956e0e_308047>, 2024
 # Márcia Ferreira, 2024
+# Daniel Flores <dfloresbr@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
@@ -40,7 +41,7 @@ msgstr "Pasta criada"
 
 #: events.py:14
 msgid "Cabinet deleted"
-msgstr ""
+msgstr "Gabinete removido"
 
 #: events.py:17
 msgid "Cabinet edited"
@@ -104,7 +105,7 @@ msgstr "Caminho completo"
 
 #: models.py:35 serializers.py:41
 msgid "Parent"
-msgstr ""
+msgstr "Pai"
 
 #: models.py:38
 msgid "A short text used to identify the cabinet."
@@ -197,7 +198,7 @@ msgstr "Lista de pastas secundárias"
 
 #: serializers.py:19
 msgid "Children"
-msgstr ""
+msgstr "Filhos"
 
 #: serializers.py:23
 msgid ""
@@ -207,7 +208,7 @@ msgstr ""
 
 #: serializers.py:25
 msgid "Documents URL"
-msgstr ""
+msgstr "URL dos Documentos"
 
 #: serializers.py:30
 msgid "The name of this cabinet level appended to the names of its ancestors."
@@ -215,7 +216,7 @@ msgstr "O nome do nível desta pasta anexado aos nomes do seus antecessores. "
 
 #: serializers.py:35
 msgid "Parents URL"
-msgstr ""
+msgstr "URL dos Pais"
 
 #: serializers.py:51
 msgid "URL"
@@ -223,15 +224,15 @@ msgstr "URL"
 
 #: serializers.py:84
 msgid "Primary key of the document to add to the cabinet."
-msgstr ""
+msgstr "Chave primária do documento para adicionar ao gabinete."
 
 #: serializers.py:85 serializers.py:95
 msgid "Document ID"
-msgstr ""
+msgstr "ID do Documento"
 
 #: serializers.py:94
 msgid "Primary key of the document to remove from the cabinet."
-msgstr ""
+msgstr "Chave primária do documento para remover do gabinete."
 
 #: templates/cabinets/cabinet_details.html:17
 msgid "Navigation:"

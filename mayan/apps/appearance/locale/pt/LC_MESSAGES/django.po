@@ -161,7 +161,7 @@ msgstr "Ver temas existentes"
 
 #: settings.py:18
 msgid "Custom HTTP response code for AJAX redirections."
-msgstr ""
+msgstr "Código de resposta HTTP customizado para o AJAX"
 
 #: settings.py:24
 msgid "Maximum number of characters that will be displayed as the view title."
@@ -169,7 +169,7 @@ msgstr "Número máximo de caracteres que será mostrado como título da vista."
 
 #: settings.py:34
 msgid "Position where the system messages will be displayed."
-msgstr ""
+msgstr "Posição na qual as mensagens do sistema serão exibidas."
 
 #: settings.py:40
 msgid ""
@@ -182,12 +182,16 @@ msgstr ""
 msgid ""
 "Maximum number of requests that can be made before throttling is enabled."
 msgstr ""
+"Número máximo de requisições a serem feitas antes de habilitar a limitação."
 
 #: settings.py:54
 msgid ""
 "Time in milliseconds after which a throttled request will clear allowing an "
 "additional request to be performed."
 msgstr ""
+"Tempo em milissegundos a ser aguardado antes que uma requisição com "
+"limitação seja removida, permitindo que uma requisição adicional seja "
+"realizada."
 
 #: templates/403.html:5 templates/403.html:18
 msgid "Insufficient permission"

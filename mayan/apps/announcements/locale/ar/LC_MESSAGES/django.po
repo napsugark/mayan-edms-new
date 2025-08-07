@@ -9,6 +9,7 @@
 # Ali <alimahwer@yahoo.com>, 2024
 # Roberto Rosario, 2024
 # Yaman Sanobar <yman.snober@gmail.com>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -159,6 +160,8 @@ msgid ""
 "convey information about your organization, announcements or usage "
 "guidelines for your users."
 msgstr ""
+"يتم عرض الإعلانات في واجهة تسجيل الدخول. يمكنك استخدام الإعلانات لتوصيل "
+"معلومات حول مؤسستكم، أو إعلانات عامة، أو إرشادات الاستخدام لمستخدميكم."
 
 #: views.py:120
 msgid "No announcements available"

@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mohamad Ashmar, 2025
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -18,11 +21,11 @@ msgstr ""
 
 #: apps.py:17 settings.py:12
 msgid "Organizations"
-msgstr ""
+msgstr "المنظمات"
 
 #: setting_validators.py:13
 msgid "The path value must not include a leading or trailing slash."
-msgstr ""
+msgstr "قيمة المسار يجب ألا تتضمن شرطة مائلة في البداية أو النهاية."
 
 #: settings.py:19
 msgid ""
@@ -30,6 +33,9 @@ msgid ""
 "one. Do not include the path. Use the ORGANIZATIONS_URL_BASE_PATH setting to"
 " specify the path. Example: https://www.example.com:8080"
 msgstr ""
+"النطاق المؤهل بالكامل بما في ذلك البروتوكول ورقم المنفذ إذا كان مخصصًا. لا "
+"تتضمن المسار. استخدم إعداد ORGANIZATIONS_URL_BASE_PATH لتحديد المسار. مثال: "
+"https://www.example.com:8080"
 
 #: settings.py:29
 msgid ""
@@ -37,3 +43,6 @@ msgid ""
 "not the root path of the web server. The path value must not include a "
 "leading or trailing slash. Example: mayan-installations/home"
 msgstr ""
+"مسار URL الأساسي لاستخدامه في جميع العروض. يُستخدم عند الاستضافة باستخدام "
+"مسار ليس المسار الجذري لخادم الويب. يجب ألا تتضمن قيمة المسار شرطة مائلة في "
+"البداية أو النهاية. مثال: mayan-installations/home"

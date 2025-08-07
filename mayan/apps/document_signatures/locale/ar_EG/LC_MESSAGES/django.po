@@ -50,19 +50,19 @@ msgstr "النوع"
 
 #: events.py:10
 msgid "Detached signature created"
-msgstr ""
+msgstr "تم إنشاء توقيع منفصل"
 
 #: events.py:13
 msgid "Detached signature deleted"
-msgstr ""
+msgstr "تم حذف التوقيع المنفصل"
 
 #: events.py:16
 msgid "Detached signature uploaded"
-msgstr ""
+msgstr "تم تحميل التوقيع المنفصل"
 
 #: events.py:20
 msgid "Embedded signature created"
-msgstr ""
+msgstr "تم إنشاء التوقيع المضمن"
 
 #: forms.py:17 forms.py:31 workflow_actions.py:69
 msgid "Key"
@@ -72,7 +72,7 @@ msgstr "مفتاح"
 msgid ""
 "The passphrase to unlock the key and allow it to be used to sign the "
 "document file."
-msgstr ""
+msgstr "عبارة المرور لفتح المفتاح والسماح باستخدامه لتوقيع ملف المستند."
 
 #: forms.py:24 serializers.py:68 workflow_actions.py:28
 msgid "Passphrase"
@@ -80,7 +80,7 @@ msgstr "عبارة المرور"
 
 #: forms.py:33
 msgid "Private key that will be used to sign this document file."
-msgstr ""
+msgstr "المفتاح الخاص الذي سيتم استخدامه لتوقيع ملف المستند هذا."
 
 #: forms.py:45
 msgid "Signature is embedded?"
@@ -156,7 +156,7 @@ msgstr "التوقيعات"
 
 #: links.py:100
 msgid "Refresh all signatures"
-msgstr ""
+msgstr "تحديث جميع التوقيعات"
 
 #: links.py:106
 msgid "Verify all documents"
@@ -164,7 +164,7 @@ msgstr "تم توثيق جميع الوثائق"
 
 #: managers.py:93
 msgid "signed"
-msgstr ""
+msgstr "موقع"
 
 #: model_mixins.py:15
 msgid "Detached"
@@ -176,11 +176,11 @@ msgstr "المضمنة"
 
 #: models.py:42
 msgid "Document file"
-msgstr ""
+msgstr "ملف المستند"
 
 #: models.py:47
 msgid "Date and time signed"
-msgstr ""
+msgstr "تاريخ ووقت التوقيع"
 
 #: models.py:52
 msgid "ID of the key that will be used to sign the document."
@@ -192,11 +192,11 @@ msgstr "مفتاح البصمة العام"
 
 #: models.py:69
 msgid "Document file signature"
-msgstr ""
+msgstr "توقيع ملف الوثيقة"
 
 #: models.py:70
 msgid "Document file signatures"
-msgstr ""
+msgstr "توقيعات ملف الوثيقة"
 
 #: models.py:87
 msgid "Signature file previously generated."
@@ -208,11 +208,13 @@ msgstr "توقيع الملف"
 
 #: models.py:96
 msgid "Document file detached signature"
-msgstr ""
+msgstr "ملف مستند منفصل التوقيع"
 
 #: models.py:97
 msgid "Document file detached signatures"
 msgstr ""
+"ملف مستند منفصل التوقيع\n"
+" "
 
 #: models.py:101
 msgid "signature"
@@ -220,11 +222,11 @@ msgstr "التوقيع"
 
 #: models.py:152
 msgid "Document file embedded signature"
-msgstr ""
+msgstr "توقيع ملف الوثيقة"
 
 #: models.py:153
 msgid "Document file embedded signatures"
-msgstr ""
+msgstr "التوقيعات المضمنة في ملف المستند"
 
 #: permissions.py:10
 msgid "Sign documents with detached signatures"
@@ -252,11 +254,11 @@ msgstr "مطابقة توقيع الوثيقة"
 
 #: permissions.py:34
 msgid "View document signatures"
-msgstr ""
+msgstr "عرض توقيعات الوثيقة"
 
 #: queues.py:10
 msgid "Signatures slow"
-msgstr ""
+msgstr "التوقيعات بطيئة"
 
 #: queues.py:15
 msgid "Verify key signatures"
@@ -268,7 +270,7 @@ msgstr "عدم التحقق من التوقيعات الرئيسية"
 
 #: queues.py:23
 msgid "Verify document file"
-msgstr ""
+msgstr "التحقق من ملف الوثيقة"
 
 #: queues.py:28
 msgid "Verify missing embedded signature"
@@ -276,15 +278,15 @@ msgstr "تحقق من فقدان التوقيع المضمّن"
 
 #: queues.py:32
 msgid "Refresh existing signature information"
-msgstr ""
+msgstr "تحديث معلومات التوقيع الموجودة"
 
 #: serializers.py:17
 msgid "Document file URL"
-msgstr ""
+msgstr "عنوان URL لملف المستند"
 
 #: serializers.py:59
 msgid "Primary key of the secret key used to sign the document file."
-msgstr ""
+msgstr "المفتاح الأساسي للمفتاح السري المستخدم لتوقيع ملف المستند."
 
 #: serializers.py:110
 msgid "URL"
@@ -320,17 +322,17 @@ msgstr "عبارة المرور غير صحيحة."
 
 #: views.py:101 views.py:171
 msgid "Document file signed successfully."
-msgstr ""
+msgstr "تم توقيع ملف المستند بنجاح."
 
 #: views.py:111
 #, python-format
 msgid "Sign document file \"%s\" with a detached signature"
-msgstr ""
+msgstr "توقيع ملف الوثيقة \"%s\"مع توقيع منفصل"
 
 #: views.py:188
 #, python-format
 msgid "Sign document file \"%s\" with a embedded signature"
-msgstr ""
+msgstr "توقيع ملف الوثيقة \"%s\"مع توقيع مضمن"
 
 #: views.py:205
 #, python-format
@@ -340,7 +342,7 @@ msgstr "حذف التوقيع المنفصل: %s"
 #: views.py:257
 #, python-format
 msgid "Upload detached signature for document file: %s"
-msgstr ""
+msgstr "تحميل التوقيع المنفصل لملف المستند:%s"
 
 #: views.py:287
 #, python-format
@@ -358,12 +360,12 @@ msgstr ""
 
 #: views.py:341
 msgid "There are no signatures for this document file."
-msgstr ""
+msgstr "لا توجد توقيعات لملف هذا المستند."
 
 #: views.py:345
 #, python-format
 msgid "Signatures for document file: %s"
-msgstr ""
+msgstr "التوقيعات لملف المستند:%s"
 
 #: views.py:356 views.py:378
 msgid "On large databases this operation may take some time to execute."
@@ -371,11 +373,11 @@ msgstr "يرجى الإنتظار ، قد تستغرق عملية الحفظ و�
 
 #: views.py:358
 msgid "Refresh all signatures information?"
-msgstr ""
+msgstr "تحديث كافة معلومات التوقيعات؟"
 
 #: views.py:370
 msgid "Signature information refresh queued successfully."
-msgstr ""
+msgstr "تم تحديث معلومات التوقيع بنجاح."
 
 #: views.py:380
 msgid "Verify all document for signatures?"
@@ -391,17 +393,19 @@ msgstr "توقيع الوثيقة (منفصلة)"
 
 #: workflow_actions.py:48
 msgid "Private key that will be used to sign the document file."
-msgstr ""
+msgstr "المفتاح الخاص الذي سيتم استخدامه لتوقيع ملف المستند."
 
 #: workflow_actions.py:55
 msgid "Private key"
-msgstr ""
+msgstr "المفتاح الخاص"
 
 #: workflow_actions.py:81
 msgid ""
 "Document has no file to sign. You might be trying to use this action in an "
 "initial state before the created document is yet to be processed."
 msgstr ""
+"لا يوجد ملف في المستند للتوقيع. ربما تحاول استخدام هذا الإجراء في حالة أولية"
+" قبل معالجة المستند المُنشأ."
 
 #: workflow_actions.py:102
 msgid "Sign document (embedded)"

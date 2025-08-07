@@ -6,6 +6,7 @@
 # Translators:
 # Ali <alimahwer@yahoo.com>, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -23,7 +24,7 @@ msgstr ""
 
 #: apps.py:10
 msgid "Backends"
-msgstr ""
+msgstr "واجهات خلفية"
 
 #: model_mixins.py:22
 msgid "The dotted Python path to the backend class."

@@ -155,7 +155,7 @@ msgstr "Chave primária da permissão para adicionar à função."
 
 #: serializers.py:53 serializers.py:61
 msgid "Permission ID"
-msgstr ""
+msgstr "ID da Permissão"
 
 #: serializers.py:60
 msgid "Primary key of the permission to remove from the role."
@@ -175,15 +175,15 @@ msgstr ""
 
 #: serializers.py:79
 msgid "Permissions URL"
-msgstr ""
+msgstr "URL das Permissões"
 
 #: serializers.py:83
 msgid "Permissions add URL"
-msgstr ""
+msgstr "Permissões adicionar URL"
 
 #: serializers.py:87
 msgid "Permissions remove URL"
-msgstr ""
+msgstr "Permissões remover URL"
 
 #: serializers.py:94
 msgid "URL"

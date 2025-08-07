@@ -13,6 +13,7 @@
 # Mathias Behrle <mathiasb@m9s.biz>, 2024
 # Berny <berny@bernhard-marx.de>, 2024
 # Jesaja Everling <jeverling@gmail.com>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -66,7 +67,7 @@ msgstr "Lizenz"
 
 #: links.py:58
 msgid "Mailing list"
-msgstr ""
+msgstr "Mailingliste"
 
 #: links.py:64
 msgid "Copy"
@@ -74,7 +75,7 @@ msgstr "Kopieren"
 
 #: links.py:69
 msgid "Release notes"
-msgstr ""
+msgstr "Release Notes"
 
 #: links.py:73
 msgid "Setup"
@@ -197,6 +198,12 @@ msgid ""
 " containing an application. These apps will be installed after the default "
 "apps. Example: ['app_1', 'app_2']"
 msgstr ""
+"Eine Liste von Zeichenketten der Applikationen, die zu der Liste der "
+"üblicherweise von Mayan EDMS installierten Applikationen zusätzlich "
+"installiert werden sollen. Jede Zeichenkette sollte ein punktierter "
+"Pythonpfad sein: zu einer Applikationskonfigurationsklasse (bevorzugt) oder "
+"zu einem Paket, das die Applikation enthält. Diese Apps werden nach den "
+"Default-Apps installiert. Beispiel: ['app_1', 'app_2']"
 
 #: settings.py:70
 msgid ""

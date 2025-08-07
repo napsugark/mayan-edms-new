@@ -79,6 +79,8 @@ msgid ""
 "Apply to all document types. Enabling this, the quota will ignore the "
 "individual document type selection."
 msgstr ""
+"تطبيق على جميع أنواع الوثائق. عند التمكين، سيتجاهل الحصير اختيار نوع الوثيقة"
+" الفردي."
 
 #: mixins.py:26
 msgid "Document types"
@@ -115,6 +117,8 @@ msgid ""
 "Enabling this option, the quota will ignore the individual user and group "
 "selection."
 msgstr ""
+"تطبيق الحصير على جميع المستخدمين في النظام، باستثناء المشرفين والموظفين. عند"
+" تمكين هذا الخيار، سيتجاهل الحصير اختيار المستخدم أو المجموعة الفردية."
 
 #: mixins.py:115
 msgid "Users"

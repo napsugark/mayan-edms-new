@@ -9,6 +9,7 @@
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
 # Roberto Rosario, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -64,7 +65,7 @@ msgstr "مفعل؟"
 
 #: apps.py:122
 msgid "Is super user?"
-msgstr ""
+msgstr "هل هو مستخدم خارق؟"
 
 #: apps.py:125 search.py:37
 msgid "Last name"
@@ -80,7 +81,7 @@ msgstr "اسم الدخول"
 
 #: apps.py:134
 msgid "Last login"
-msgstr ""
+msgstr "اخر تسجيل دخول"
 
 #: apps.py:166
 msgid "Has usable password?"
@@ -104,7 +105,7 @@ msgstr "مجموع المجموعات"
 
 #: dashboards.py:6
 msgid "User dashboard"
-msgstr ""
+msgstr "لوحة معلومات المستخدم"
 
 #: events.py:10
 msgid "Group created"
@@ -160,7 +161,7 @@ msgstr "الحساب"
 
 #: literals.py:12 literals.py:23
 msgid "Personal"
-msgstr ""
+msgstr "شخصي"
 
 #: literals.py:16
 msgid "Attributes"
@@ -212,19 +213,19 @@ msgstr "عرض المستخدمين الحاليين"
 
 #: serializers.py:16
 msgid "URL of the API endpoint showing the list users of this group."
-msgstr ""
+msgstr "رابط نهاية API التي تعرض قائمة مستخدمي هذه المجموعة."
 
 #: serializers.py:18
 msgid "Users URL"
-msgstr ""
+msgstr "وابط المستخدمين"
 
 #: serializers.py:22
 msgid "Users add URL"
-msgstr ""
+msgstr "رابط إنشاء مستخدم"
 
 #: serializers.py:26
 msgid "Users remove URL"
-msgstr ""
+msgstr "رابط حذف مستخدم"
 
 #: serializers.py:33 serializers.py:80
 msgid "URL"
@@ -232,7 +233,7 @@ msgstr "URL"
 
 #: serializers.py:48
 msgid "Primary key of the user to add to the group."
-msgstr ""
+msgstr "المفتاح الأساسي للمستخدم الذي سيتم إضافته إلى المجموعة."
 
 #: serializers.py:49 serializers.py:58
 msgid "User ID"
@@ -240,15 +241,16 @@ msgstr "معرف المستخدم"
 
 #: serializers.py:57
 msgid "Primary key of the user to remove from the group."
-msgstr ""
+msgstr "المفتاح الأساسي للمستخدم الذي سيتم إزالته من المجموعة."
 
 #: serializers.py:66
 msgid "URL of the API endpoint showing the list groups this user belongs to."
 msgstr ""
+"رابط نهاية API التي تعرض قائمة المجموعات التي ينتمي إليها هذا المستخدم."
 
 #: serializers.py:68
 msgid "Groups URL"
-msgstr ""
+msgstr "روابط المجموعات"
 
 #: utils.py:26
 msgid "Anonymous"
@@ -257,42 +259,42 @@ msgstr "مجهول"
 #: views/group_views.py:40
 #, python-format
 msgid "Error deleting group \"%(instance)s\"; %(exception)s"
-msgstr ""
+msgstr "خطأ في حذف المجموعة \"%(instance)s\" ؛ %(exception)s"
 
 #: views/group_views.py:47
 #, python-format
 msgid "%(count)d groups deleted successfully."
-msgstr ""
+msgstr "%(count)dمجموعة تم حذفهم بنجاح"
 
 #: views/group_views.py:48
 #, python-format
 msgid "Group \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "تم حذف المجموعة %(object)sبنجاح"
 
 #: views/group_views.py:49
 #, python-format
 msgid "%(count)d group deleted successfully."
-msgstr ""
+msgstr "%(count)dمجموعة تم حذفهم بنجاح."
 
 #: views/group_views.py:50
 #, python-format
 msgid "Delete the %(count)d selected groups."
-msgstr ""
+msgstr "حذف %(count)dمجموعة محددة."
 
 #: views/group_views.py:51
 #, python-format
 msgid "Delete group: %(object)s."
-msgstr ""
+msgstr "حذف المجموعة %(object)s."
 
 #: views/group_views.py:52
 #, python-format
 msgid "Delete the %(count)d selected group."
-msgstr ""
+msgstr "حذف %(count)dمجموعة محددة."
 
 #: views/group_views.py:66
 #, python-format
 msgid "Details of group: %s"
-msgstr ""
+msgstr "تفاصيل المجموعة: %s"
 
 #: views/group_views.py:83
 #, python-format
@@ -329,43 +331,45 @@ msgstr "مستخدمي المجموعة: %s"
 #: views/user_views.py:56
 #, python-format
 msgid "Error deleting user \"%(instance)s\"; %(exception)s"
-msgstr ""
+msgstr "خطأ في حذف المستخدم \"%(instance)s\"؛ %(exception)s"
 
 #: views/user_views.py:64
 #, python-format
 msgid "%(count)d users deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)d مستخدم بنجاح."
 
 #: views/user_views.py:67
 #, python-format
 msgid "User \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "تم حذف المستخدم \"%(object)s\" بنجاح."
 
 #: views/user_views.py:70
 #, python-format
 msgid "%(count)d user deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)d مستخدم بنجاح."
 
 #: views/user_views.py:72
 #, python-format
 msgid "Delete the %(count)d selected users."
-msgstr ""
+msgstr "حذف %(count)d مستخدم محدد"
 
 #: views/user_views.py:73
 #, python-format
 msgid "Delete user: %(object)s."
-msgstr ""
+msgstr "حذف المستخدم: %(object)s"
 
 #: views/user_views.py:74
 #, python-format
 msgid "Delete the %(count)d selected user."
-msgstr ""
+msgstr "حذف %(count)d مستخدم محدد."
 
 #: views/user_views.py:81
 msgid ""
 "Warning! You are about to delete your own user account. You will lose access"
 " to the system. This process is not reversible."
 msgstr ""
+"تحذير! أنت على وشك حذف حسابك الخاص. ستفقد الوصول إلى النظام. هذه العملية غير"
+" قابلة للتراجع."
 
 #: views/user_views.py:101
 #, python-format

@@ -192,7 +192,7 @@ msgstr "Chave primária do documento que será retirado."
 
 #: serializers.py:47
 msgid "Document ID"
-msgstr ""
+msgstr "ID do Documento"
 
 #: views.py:28
 #, python-format

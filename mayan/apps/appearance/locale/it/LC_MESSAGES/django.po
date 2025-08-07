@@ -10,6 +10,7 @@
 # Daniele Bortoluzzi <daniele@elkos.it>, 2024
 # Marco Camplese <marco.camplese.mc@gmail.com>, 2024
 # Roberto Rosario, 2024
+# albanobattistella <albanobattistella@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
@@ -167,7 +168,7 @@ msgstr "Numero massimo di caratteri visualizzati come titolo della schermata"
 
 #: settings.py:34
 msgid "Position where the system messages will be displayed."
-msgstr ""
+msgstr "Posizione in cui verranno visualizzati i messaggi di sistema."
 
 #: settings.py:40
 msgid ""
@@ -179,12 +180,16 @@ msgstr ""
 msgid ""
 "Maximum number of requests that can be made before throttling is enabled."
 msgstr ""
+"Numero massimo di richieste che possono essere effettuate prima che venga "
+"abilitata la limitazione."
 
 #: settings.py:54
 msgid ""
 "Time in milliseconds after which a throttled request will clear allowing an "
 "additional request to be performed."
 msgstr ""
+"Tempo in millisecondi dopo il quale una richiesta limitata verrà cancellata,"
+" consentendo l'esecuzione di una richiesta aggiuntiva."
 
 #: templates/403.html:5 templates/403.html:18
 msgid "Insufficient permission"

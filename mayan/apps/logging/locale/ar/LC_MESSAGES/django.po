@@ -38,11 +38,11 @@ msgstr ""
 
 #: events.py:10
 msgid "Error log deleted"
-msgstr ""
+msgstr "تم حذف سجل الأخطاء"
 
 #: links.py:15 views.py:36
 msgid "Global error log"
-msgstr ""
+msgstr "سجل الأخطاء العامة"
 
 #: links.py:26
 msgid "Delete"
@@ -111,7 +111,7 @@ msgstr "إدخالات خاطئة"
 
 #: permissions.py:10
 msgid "Delete error log"
-msgstr ""
+msgstr "حذف سجل الأخطاء"
 
 #: permissions.py:13
 msgid "View error log"
@@ -119,7 +119,7 @@ msgstr "استعراض الخطأ"
 
 #: serializers.py:12
 msgid "Content type"
-msgstr ""
+msgstr "نوع المحتوى"
 
 #: serializers.py:16
 msgid "Object ID"
@@ -131,7 +131,7 @@ msgstr "URL"
 
 #: settings.py:18
 msgid "Disable logging message ANSI color codes."
-msgstr ""
+msgstr "تعطيل رسائل سجل أكواد الألوان"
 
 #: settings.py:24
 msgid "Automatically enable logging to all apps."
@@ -139,7 +139,7 @@ msgstr "تمكين التسجيل للجميع"
 
 #: settings.py:30
 msgid "List of handlers to which logging messages will be sent."
-msgstr ""
+msgstr "معالجة رسائل الخطأ التي سيتم إرسالها."
 
 #: settings.py:35
 msgid "Level for the logging system."
@@ -153,7 +153,7 @@ msgstr "رابط متابعة الأخطاء"
 msgid ""
 "This view displays the error log of different objects. An empty list is a "
 "good thing."
-msgstr ""
+msgstr "طريقة عرض سجلات الأخطاء المختلفة. قائمة فارغة خيار جيد."
 
 #: views.py:34 views.py:99
 msgid "There are no error log entries"
@@ -171,13 +171,13 @@ msgstr "تم مسح السجل بنجاح"
 #: views.py:74
 #, python-format
 msgid "Delete error log entry: %s"
-msgstr ""
+msgstr "حذف إدخال سجل خطأ %s"
 
 #: views.py:95
 msgid ""
 "This view displays the error log of an object. An empty list is a good "
 "thing."
-msgstr ""
+msgstr "طريقة عرض عناصر سجلات الأخطاء. قائمة فارغة خيار جيد"
 
 #: views.py:103
 #, python-format

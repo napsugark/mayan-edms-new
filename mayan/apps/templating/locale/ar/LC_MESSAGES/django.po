@@ -6,6 +6,7 @@
 # Translators:
 # Roberto Rosario, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -71,7 +72,7 @@ msgstr "استخدام قالب الحماية"
 
 #: serializers.py:8
 msgid "Hex hash"
-msgstr ""
+msgstr "بصمة ست عشرية"
 
 #: serializers.py:11
 msgid "Name"
@@ -79,7 +80,7 @@ msgstr "اسم"
 
 #: serializers.py:14
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: serializers.py:17
 msgid "URL"

@@ -95,13 +95,22 @@ class DocumentWorkflowTemplatesLaunchView(MultipleObjectFormActionView):
     view_icon = icon_document_workflow_templates_launch
 
     def get_extra_context(self):
-        return {
+        context = {
             'subtitle': _(
                 message='Workflows already launched or workflows not '
                 'applicable to some documents when multiple documents are '
                 'selected, will be silently ignored.'
             )
         }
+
+        if self.object_list.count() == 1:
+            context.update(
+                {
+                    'object': self.object_list.first()
+                }
+            )
+
+        return context
 
     def get_form_extra_kwargs(self):
         workflows_union = Workflow.objects.filter(

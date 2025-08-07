@@ -280,7 +280,7 @@ msgstr "Version"
 #: templates/appearance/about.html:41
 #, python-format
 msgid "Build number: %(project_build_number)s"
-msgstr ""
+msgstr "Build Nummer: %(project_build_number)s"
 
 #: templates/appearance/about.html:48
 msgid "Released under the license:"
@@ -292,6 +292,9 @@ msgid ""
 "To get the latest news subscribe to the <a class=\"new_window\" "
 "href=\"%(link_mailing_list_url)s\"> Mailing list</a>."
 msgstr ""
+"Um die letzten Neuigkeiten zu erhalten können Sie die <a "
+"class=\"new_window\" href=\"%(link_mailing_list_url)s\"> Mailingliste</a> "
+"abonnieren."
 
 #: templates/appearance/about.html:66
 #, python-format
@@ -300,6 +303,8 @@ msgid ""
 "class=\"new_window\" href=\"%(link_knowledge_base_url)s\"> Knowledge "
 "base</a>."
 msgstr ""
+"Für weitere Artikel und Tutorials können Sie zur<a class=\"new_window\" "
+"href=\"%(link_knowledge_base_url)s\"> Knowledge Base</a> subskribieren."
 
 #: templates/appearance/about.html:75
 #, python-format
@@ -307,6 +312,8 @@ msgid ""
 "Need professional help? Check out the <a class=\"new_window\" "
 "href=\"%(link_support_url)s\"> Support</a> offerings."
 msgstr ""
+"Für professionelle Hilfe können Sie die <a class=\"new_window\" "
+"href=\"%(link_support_url)s\"> Support</a> Angebote überprüfen."
 
 #: templates/appearance/about.html:84
 #, python-format
@@ -314,6 +321,8 @@ msgid ""
 "For discussions visit the <a class=\"new_window\" "
 "href=\"%(link_forum_url)s\">Community forum</a>."
 msgstr ""
+"Für Diskussionen können Sie das <a class=\"new_window\" "
+"href=\"%(link_forum_url)s\">Community Forum</a> besuchen."
 
 #: templates/appearance/about.html:93
 #, python-format
@@ -321,6 +330,8 @@ msgid ""
 "The complete list of changes is available via the <a class=\"new_window\" "
 "href=\"%(link_release_notes_url)s\">Release notes</a>."
 msgstr ""
+"Die vollständige Liste der Änderungen ist in den <a class=\"new_window\" "
+"href=\"%(link_release_notes_url)s\">Release notes</a> enthalten."
 
 #: templates/appearance/about.html:102
 #, python-format
@@ -328,6 +339,8 @@ msgid ""
 "For questions check the <a class=\"new_window\" "
 "href=\"%(link_documentation_url)s\">Documentation</a>."
 msgstr ""
+"Für Fragen können Sie die <a class=\"new_window\" "
+"href=\"%(link_documentation_url)s\">Dokumentation</a> konsultieren."
 
 #: templates/appearance/about.html:111
 #, python-format
@@ -336,6 +349,9 @@ msgid ""
 "class=\"new_window\" href=\"%(link_source_code_url)s\">Source code "
 "repository</a>."
 msgstr ""
+"Wenn Sie einen Fehler gefunden haben oder eine Idee für ein Feature haben, "
+"können Sie ein Ticket im <a class=\"new_window\" "
+"href=\"%(link_source_code_url)s\">Quellcode Repository</a> öffnen."
 
 #: templates/appearance/about.html:117
 #, python-format
@@ -343,6 +359,8 @@ msgid ""
 "%(project_title)s is Free and Open Source software, which is provided as-is "
 "with no warranty."
 msgstr ""
+"%(project_title)s ist Freie Open Source Software, und wird im aktuellen "
+"Zustand ohne Garantie zur Verfügung gestellt."
 
 #: templates/appearance/confirm.html:13
 msgid "Are you sure?"

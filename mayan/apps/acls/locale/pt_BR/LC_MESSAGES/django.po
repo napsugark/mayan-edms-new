@@ -14,6 +14,7 @@
 # Roberto Rosario, 2024
 # José Samuel Facundo da Silva <samuel.facundo@ufca.edu.br>, 2024
 # Márcia Ferreira, 2024
+# Daniel Flores <dfloresbr@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
@@ -131,19 +132,19 @@ msgstr "Visualizar Controle de Acesso \"ACLs\""
 
 #: serializers.py:19
 msgid "Permissions add URL"
-msgstr ""
+msgstr "Permissões adicionar URL"
 
 #: serializers.py:39
 msgid "Permissions remove URL"
-msgstr ""
+msgstr "Permissões remover URL"
 
 #: serializers.py:59
 msgid "Permissions URL"
-msgstr ""
+msgstr "URL das Permissões"
 
 #: serializers.py:82
 msgid "Role ID"
-msgstr ""
+msgstr "ID do cargo"
 
 #: serializers.py:85
 msgid "URL"
@@ -155,7 +156,7 @@ msgstr "Permissão da chave primária para adicionar à ACL."
 
 #: serializers.py:119 serializers.py:126
 msgid "Permission ID"
-msgstr ""
+msgstr "ID da Permissão"
 
 #: serializers.py:125
 msgid "Primary key of the permission to remove from the ACL."

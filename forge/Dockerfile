@@ -1,0 +1,64 @@
+# syntax=docker/dockerfile:1.2
+# vim:set ft=dockerfile:
+
+FROM ubuntu:24.04
+
+COPY config.env /config.env
+
+ENV LC_ALL=C.UTF-8
+
+# Debian package caching.
+ARG APT_PROXY
+
+RUN --mount=type=cache,target=/var/cache/apt \
+set -x \
+&& if [ "${APT_PROXY}" ]; \
+    then echo "Acquire::http { Proxy \"http://${APT_PROXY}\"; };" > /etc/apt/apt.conf.d/01proxy \
+; fi \
+&& DEBIAN_FRONTEND=noninteractive \
+apt-get update \
+&& apt-get install --no-install-recommends --yes \
+    ca-certificates clamav file fuse ghostscript git gnupg1 graphviz libarchive-zip-perl libfile-mimeinfo-perl libimage-exiftool-perl libmariadb3 libpq5 libreoffice-calc-nogui libreoffice-draw-nogui libreoffice-impress-nogui libreoffice-math-nogui libreoffice-writer-nogui poppler-utils sane-utils software-properties-common sudo supervisor tesseract-ocr \
+    g++ gcc libffi-dev libjpeg-dev libldap2-dev libpng-dev libsasl2-dev libssl-dev libtiff-dev make zlib1g-dev \
+    enchant-2 libcairo2 \
+    bash-completion curl less vim virtualenvwrapper \
+    default-libmysqlclient-dev \
+    less \
+    libpq-dev \
+    openssh-client rsync \
+    make python3-dev python3-venv \
+    tesseract-ocr-deu
+
+RUN --mount=type=cache,target=/var/cache/apt \
+set -x \
+&& if [ "${APT_PROXY}" ]; \
+    then echo "Acquire::http { Proxy \"http://${APT_PROXY}\"; };" > /etc/apt/apt.conf.d/01proxy \
+; fi \
+&& DEBIAN_FRONTEND=noninteractive \
+&& add-apt-repository --yes ppa:deadsnakes/ppa \
+&& apt-get install --yes python3.11 python3.11-dev python3.10 python3.10-dev
+
+RUN echo "ubuntu ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
+RUN echo "export WORKON_HOME=\$HOME/.virtualenvs" >> /home/ubuntu/.bashrc \
+&& echo "source /usr/share/virtualenvwrapper/virtualenvwrapper.sh" >> /home/ubuntu/.bashrc
+
+RUN echo "PS1_ORIGINAL=\"\$PS1\"" >> /home/ubuntu/.bashrc \
+&& echo "PS1=\"🛠️  \$PS1_ORIGINAL\"" >> /home/ubuntu/.bashrc
+
+COPY forge/rootfs /
+
+WORKDIR /workspace
+
+CMD ["/bin/bash"]
+
+RUN apt-get clean autoclean \
+&& apt-get autoremove --purge --yes \
+&& rm --force --recursive /var/lib/apt/lists/* \
+&& rm --force /var/cache/apt/archives/*.deb \
+# Remove temporary files owned by root from the platform_template step.
+&& rm --force /tmp/* \
+# Keep displaying log messages to stdout
+&& find /var/log -type f | while read f; do echo -ne '' > $f; done \
+# Delete Debian package proxy used for the base image.
+&& rm --force /etc/apt/apt.conf.d/01proxy

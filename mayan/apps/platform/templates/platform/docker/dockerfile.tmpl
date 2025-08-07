@@ -149,6 +149,9 @@ USER mayan
 
 RUN set -a \
 && . /config.env \
+&& sed -E "s/=(.*)/\=\"\1\"/g" /config.env > /tmp/config.env \
+&& . /tmp/config.env \
+&& rm /tmp/config.env \
 && set +a \
 && python3 -m venv "${PROJECT_INSTALL_DIR}" \
 && . "${PROJECT_INSTALL_DIR}bin/activate" \
@@ -196,6 +199,9 @@ CMD ["run_all"]
 
 RUN set -a \
 && . /config.env \
+&& sed -E "s/=(.*)/\=\"\1\"/g" /config.env > /tmp/config.env \
+&& . /tmp/config.env \
+&& rm /tmp/config.env \
 && set +a \
 && ${PROJECT_INSTALL_DIR}bin/mayan-edms.py platform_template docker_entrypoint > /usr/local/bin/entrypoint.sh \
 && chown mayan:mayan /usr/local/bin/entrypoint.sh \

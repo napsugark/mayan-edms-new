@@ -25,15 +25,15 @@ msgstr ""
 
 #: apps.py:28 events.py:6 settings.py:9
 msgid "Locales"
-msgstr ""
+msgstr "اللغات"
 
 #: dependencies.py:10
 msgid "Transifex Client"
-msgstr ""
+msgstr "عميل Transifex"
 
 #: events.py:10
 msgid "User locale profile edited"
-msgstr ""
+msgstr "تم تعديل ملف تعريف لغة المستخدم"
 
 #: links.py:14
 msgid "Locale profile"
@@ -79,9 +79,9 @@ msgstr ""
 #: views.py:52
 #, python-format
 msgid "Locale profile for user: %s"
-msgstr ""
+msgstr "الملف الشخصي المحلي للمستخدم:%s"
 
 #: views.py:86
 #, python-format
 msgid "Edit locale profile for user: %s"
-msgstr ""
+msgstr "تعديل ملف تعريف الموقع للمستخدم:%s"

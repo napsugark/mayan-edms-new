@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Translators:
+# Mohamad Ashmar, 2025
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
@@ -21,3 +24,5 @@ msgid ""
 "Too many pending requests. Additional requests will be blocked until a "
 "pending one is completed or after the cooling off period ends."
 msgstr ""
+"عدد كبير جدًا من الطلبات المعلقة. سيتم حظر الطلبات الإضافية حتى يتم إكمال "
+"طلب معلق أو بعد انتهاء فترة التبريد."

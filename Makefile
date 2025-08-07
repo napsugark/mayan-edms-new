@@ -312,6 +312,7 @@ devpi-stop:
 	killall devpi-server || true
 
 -include docker/Makefile
+-include forge/Makefile
 -include gitlab-ci/Makefile
 -include python/Makefile
 -include vagrant/Makefile

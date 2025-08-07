@@ -6,6 +6,7 @@
 # Translators:
 # José Samuel Facundo da Silva <samuel.facundo@ufca.edu.br>, 2024
 # Márcia Ferreira, 2024
+# Daniel Flores <dfloresbr@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
@@ -23,7 +24,7 @@ msgstr ""
 
 #: apps.py:23 permissions.py:6 settings.py:14
 msgid "Document downloads"
-msgstr ""
+msgstr "Downloads dos documentos"
 
 #: classes.py:49
 msgid "Document_file_bundle.zip"
@@ -31,11 +32,11 @@ msgstr ""
 
 #: classes.py:53
 msgid "Compressed document files"
-msgstr ""
+msgstr "Arquivos comprimidos dos documentos"
 
 #: events.py:6 queues.py:7
 msgid "Documents downloads"
-msgstr ""
+msgstr "Downloads dos documentos"
 
 #: events.py:10
 msgid "Document file downloaded"
@@ -43,7 +44,7 @@ msgstr "Arquivo de documento descarregado."
 
 #: forms.py:8
 msgid "Document file ID"
-msgstr ""
+msgstr "ID do arquivo do Documento"
 
 #: forms.py:11
 msgid "Document"
@@ -55,7 +56,7 @@ msgstr "Arquivo do documento"
 
 #: forms.py:27
 msgid "Include"
-msgstr ""
+msgstr "Incluir"
 
 #: links.py:12 links.py:18
 msgid "Download files"
@@ -139,7 +140,7 @@ msgstr ""
 #: views.py:51
 #, python-format
 msgid "Download files of %(count)d document"
-msgstr ""
+msgstr "Fazer download de %(count)ddocumento(s)"
 
 #: views.py:58
 msgid ""

@@ -10,6 +10,7 @@
 # Vítor Figueiró <vfigueiro@gmail.com>, 2024
 # Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2024
 # Márcia Ferreira, 2024
+# Daniel Flores <dfloresbr@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
@@ -191,7 +192,7 @@ msgstr "Chave primária do documento para ser requisitada."
 
 #: serializers.py:47
 msgid "Document ID"
-msgstr ""
+msgstr "ID do Documento"
 
 #: views.py:28
 #, python-format

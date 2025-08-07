@@ -6,6 +6,7 @@
 # Translators:
 # Fernando Vieira <fera_br@yahoo.com.br>, 2024
 # Márcia Ferreira, 2024
+# Daniel Flores <dfloresbr@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
@@ -23,7 +24,7 @@ msgstr ""
 
 #: apps.py:20 events.py:6 permissions.py:6
 msgid "Document exports"
-msgstr ""
+msgstr "Exportação de documentos"
 
 #: classes.py:59
 msgid "Document version export to PDF"
@@ -62,7 +63,7 @@ msgstr ""
 
 #: queues.py:13
 msgid "Export a document version to a PDF"
-msgstr ""
+msgstr "Exporta uma versão de documento para um PDF"
 
 #: views.py:19
 #, python-format

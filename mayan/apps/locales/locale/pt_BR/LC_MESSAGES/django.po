@@ -29,7 +29,7 @@ msgstr "Locais"
 
 #: dependencies.py:10
 msgid "Transifex Client"
-msgstr ""
+msgstr "Cliente do Transifex"
 
 #: events.py:10
 msgid "User locale profile edited"

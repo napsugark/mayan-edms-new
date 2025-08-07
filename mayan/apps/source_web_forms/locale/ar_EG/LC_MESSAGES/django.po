@@ -5,6 +5,7 @@
 # Translators:
 # Translators:
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -22,7 +23,7 @@ msgstr ""
 
 #: apps.py:12
 msgid "Web form sources"
-msgstr ""
+msgstr "مصادر نماذج الويب"
 
 #: handlers.py:25
 msgid "Default"

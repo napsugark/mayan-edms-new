@@ -148,6 +148,8 @@ msgstr "Schlüssel"
 #: models.py:30
 msgid "The actual value stored in the source metadata for the document file."
 msgstr ""
+"Der aktuelle, in den Quellenmetadaten gespeicherte Wert für die "
+"Dokumentendatei."
 
 #: models.py:32
 msgid "Value"
@@ -179,7 +181,7 @@ msgstr "Quellen-Einrichtung"
 
 #: permissions.py:12
 msgid "View document file source metadata"
-msgstr ""
+msgstr "Dokumentendateimetadaten anzeigen"
 
 #: permissions.py:19
 msgid "Create new document sources"

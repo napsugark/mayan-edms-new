@@ -1301,6 +1301,16 @@ msgstr ""
 
 #: views/workflow_template_views.py:166
 #, python-format
+msgid "Error deleting workflow \"%(instance)s\"; %(exception)s"
+msgstr ""
+
+#: views/workflow_template_views.py:174
+#, python-format
+msgid "%(count)d workflows deleted successfully."
+msgstr ""
+
+#: views/workflow_template_views.py:175
+#, python-format
 msgid "Workflow \"%(object)s\" deleted successfully."
 msgstr ""
 

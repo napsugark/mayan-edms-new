@@ -8,6 +8,7 @@
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
 # Yaman Sanobar <yman.snober@gmail.com>, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -143,7 +144,7 @@ msgstr "حذف الدلالات من الوثائق"
 
 #: search.py:11
 msgid "Tag color"
-msgstr ""
+msgstr "لون الوسم"
 
 #: search.py:14
 msgid "The database ID of the tag."
@@ -175,15 +176,15 @@ msgstr "الوثائق المحددة"
 
 #: search.py:45
 msgid "Document file checksum"
-msgstr ""
+msgstr "المجموع الاختباري لملف المستند"
 
 #: search.py:48
 msgid "Document file MIME type"
-msgstr ""
+msgstr "نوع MIME لملف المستند"
 
 #: serializers.py:12
 msgid "Documents URL"
-msgstr ""
+msgstr "رابط المستندات"
 
 #: serializers.py:19
 msgid "URL"
@@ -191,41 +192,41 @@ msgstr "URL"
 
 #: serializers.py:33
 msgid "Primary key of the tag to add to the document."
-msgstr ""
+msgstr "المفتاح الأساسي للوسم المراد إضافته إلى المستند."
 
 #: serializers.py:42
 msgid "Primary key of the tag to remove from the document."
-msgstr ""
+msgstr "المفتاح الأساسي للوسم المراد إزالته من المستند."
 
 #: views.py:42
 #, python-format
 msgid "Tags attached to %(count)d documents successfully."
-msgstr ""
+msgstr "تم إرفاق العلامات بـ %(count)d مستند بنجاح."
 
 #: views.py:45
 #, python-format
 msgid "Tags attached to document \"%(object)s\" successfully."
-msgstr ""
+msgstr "تم إرفاق العلامات بالمستند \"%(object)s\" بنجاح."
 
 #: views.py:48
 #, python-format
 msgid "Tags attached to %(count)d document successfully."
-msgstr ""
+msgstr "تم إرفاق العلامات بـ %(count)d مستند بنجاح."
 
 #: views.py:50
 #, python-format
 msgid "Attach tags to %(count)d documents."
-msgstr ""
+msgstr "إرفاق العلامات بـ %(count)d مستند."
 
 #: views.py:51
 #, python-format
 msgid "Attach tags to document: %(object)s"
-msgstr ""
+msgstr "إرفاق علامات بالوثيقة: %(object)s"
 
 #: views.py:52
 #, python-format
 msgid "Attach tags to %(count)d document."
-msgstr ""
+msgstr "إرفاق علامات بـ %(count)d وثيقة"
 
 #: views.py:69 wizard_steps.py:82
 msgid "Tags to be attached."
@@ -238,37 +239,37 @@ msgstr "إنشاء دلالة"
 #: views.py:121
 #, python-format
 msgid "Error deleting tag \"%(instance)s\"; %(exception)s"
-msgstr ""
+msgstr "خطأ في حذف العلامة \"%(instance)s\"؛ %(exception)s"
 
 #: views.py:127
 #, python-format
 msgid "%(count)d tags deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)d علامة بنجاح"
 
 #: views.py:129
 #, python-format
 msgid "Tag \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "تم حذف العلامة \"%(object)s\" بنجاح."
 
 #: views.py:132
 #, python-format
 msgid "%(count)d tag deleted successfully."
-msgstr ""
+msgstr "تم حذف العلامة %(count)d بنجاح"
 
 #: views.py:134
 #, python-format
 msgid "Delete the %(count)d selected tags"
-msgstr ""
+msgstr "حذف العلامات المحددة (%(count)d)"
 
 #: views.py:135
 #, python-format
 msgid "Delete tag: %(object)s"
-msgstr ""
+msgstr "حذف العلامة: %(object)s"
 
 #: views.py:136
 #, python-format
 msgid "Delete the %(count)d selected tag"
-msgstr ""
+msgstr "حذف العلامة المحددة (%(count)d)"
 
 #: views.py:142
 msgid "Will be removed from all documents."
@@ -306,32 +307,32 @@ msgstr "دلالات الوثيقة: %s"
 #: views.py:267
 #, python-format
 msgid "Tags removed from %(count)d documents successfully."
-msgstr ""
+msgstr "تمت إزالة العلامات من %(count)d وثيقة بنجاح."
 
 #: views.py:270
 #, python-format
 msgid "Tags removed from document \"%(object)s\" successfully."
-msgstr ""
+msgstr "تمت إزالة العلامات من الوثيقة \"%(object)s\" بنجاح."
 
 #: views.py:273
 #, python-format
 msgid "Tags removed from %(count)d document successfully."
-msgstr ""
+msgstr "تمت إزالة العلامات من %(count)d وثيقة بنجاح."
 
 #: views.py:275
 #, python-format
 msgid "Remove tags from %(count)d documents."
-msgstr ""
+msgstr "إزالة العلامات من %(count)d وثيقة."
 
 #: views.py:276
 #, python-format
 msgid "Remove tags from document: %(object)s"
-msgstr ""
+msgstr "إزالة العلامات من الوثيقة: %(object)s"
 
 #: views.py:277
 #, python-format
 msgid "Remove tags from %(count)d document."
-msgstr ""
+msgstr "إزالة العلامات من %(count)d وثيقة."
 
 #: views.py:294
 msgid "Tags to be removed."
@@ -347,8 +348,8 @@ msgstr "الدلالة المرفقة"
 
 #: workflow_actions.py:34
 msgid "Tags to attach to the document."
-msgstr ""
+msgstr "علامات لإرفاقها بالوثيقة."
 
 #: workflow_actions.py:83
 msgid "Tags to remove from the document."
-msgstr ""
+msgstr "علامات لإزالتها من الوثيقة."

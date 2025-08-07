@@ -16,6 +16,7 @@
 # Aline Freitas <aline@alinefreitas.com.br>, 2024
 # Márcia Ferreira, 2024
 # Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2024
+# Daniel Flores <dfloresbr@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
@@ -88,7 +89,7 @@ msgstr "Recurso editado"
 
 #: forms.py:17
 msgid "Asset preview image"
-msgstr ""
+msgstr "Imagem de pré-visualização do ativo"
 
 #: forms.py:18
 msgid "Preview"
@@ -281,7 +282,7 @@ msgstr ""
 
 #: serializers.py:16 serializers.py:32
 msgid "Image URL"
-msgstr ""
+msgstr "URL da imagem"
 
 #: serializers.py:21
 msgid "Template name"
@@ -376,22 +377,24 @@ msgstr "Cache de ativos"
 msgid ""
 "Number of degrees to rotate the image counter clockwise around its center."
 msgstr ""
+"Número de graus a rotacionar o contador de imagens em sentido horário em "
+"torno do seu centro."
 
 #: transformation_mixins.py:22
 msgid "Rotation"
-msgstr ""
+msgstr "Rotação"
 
 #: transformation_mixins.py:25
 msgid "Opacity level of the image in percent"
-msgstr ""
+msgstr "Nível de opacidade da imagem em porcentagem"
 
 #: transformation_mixins.py:26
 msgid "Transparency"
-msgstr ""
+msgstr "Transparência"
 
 #: transformation_mixins.py:29 transformations.py:779
 msgid "Zoom level in percent."
-msgstr ""
+msgstr "Nível de Zoom em percentual."
 
 #: transformation_mixins.py:30 transformations.py:774
 msgid "Zoom"
@@ -399,39 +402,39 @@ msgstr "Ampliar"
 
 #: transformation_mixins.py:114
 msgid "Paste an image"
-msgstr ""
+msgstr "Colar uma imagem"
 
 #: transformation_mixins.py:120
 msgid "Horizontal position in pixels from the left."
-msgstr ""
+msgstr "Posição horizontal em píxeis a partir da esquerda"
 
 #: transformation_mixins.py:121 transformation_mixins.py:166
 #: transformation_mixins.py:231 transformations.py:238 transformations.py:340
 #: transformations.py:438
 msgid "Left"
-msgstr ""
+msgstr "Esquerda"
 
 #: transformation_mixins.py:124
 msgid "Vertical position in pixels from the top."
-msgstr ""
+msgstr "Posição vertical em píxeis a partir do topo"
 
 #: transformation_mixins.py:125 transformation_mixins.py:171
 #: transformation_mixins.py:241 transformations.py:242 transformations.py:344
 #: transformations.py:442
 msgid "Top"
-msgstr ""
+msgstr "Topo"
 
 #: transformation_mixins.py:159
 msgid "Paste an image (percent coordinates)"
-msgstr ""
+msgstr "Cole uma imagem (coordenadas percentuais)"
 
 #: transformation_mixins.py:165
 msgid "Horizontal position in percent from the left."
-msgstr ""
+msgstr "Posição horizontal a partir da esquerda em porcentagem"
 
 #: transformation_mixins.py:170
 msgid "Vertical position in percent from the top."
-msgstr ""
+msgstr "Posição vertical a partir do topo em porcentagem"
 
 #: transformation_mixins.py:224 transformations.py:226
 msgid "Paste an asset as watermark"
@@ -439,89 +442,89 @@ msgstr "Colar um recurso como marca d'água"
 
 #: transformation_mixins.py:230
 msgid "Horizontal start position in pixels from the left."
-msgstr ""
+msgstr "Posição inicial horizontal a partir da esquerda em píxeis"
 
 #: transformation_mixins.py:235
 msgid "Horizontal end position in pixels from the right."
-msgstr ""
+msgstr "Posição horizontal final a partir da direita em píxeis"
 
 #: transformation_mixins.py:236 transformations.py:247 transformations.py:348
 #: transformations.py:446
 msgid "Right"
-msgstr ""
+msgstr "Direita"
 
 #: transformation_mixins.py:240
 msgid "Vertical start position in pixels from the top."
-msgstr ""
+msgstr "Posição vertical inicial a partir do topo em píxeis"
 
 #: transformation_mixins.py:245
 msgid "Vertical end position in pixels from the top."
-msgstr ""
+msgstr "Posição vertical final a partir do topo em píxeis"
 
 #: transformation_mixins.py:246 transformations.py:252 transformations.py:352
 #: transformations.py:450
 msgid "Bottom"
-msgstr ""
+msgstr "Fundo"
 
 #: transformation_mixins.py:249
 msgid "Horizontal position increments in pixels."
-msgstr ""
+msgstr "Incrementos da posição horizontal em píxeis."
 
 #: transformation_mixins.py:250
 msgid "Horizontal increment"
-msgstr ""
+msgstr "Incremento horizontal"
 
 #: transformation_mixins.py:253
 msgid "Vertical position increments in pixels."
-msgstr ""
+msgstr "Incrementos da posição vertical em píxeis."
 
 #: transformation_mixins.py:254
 msgid "Vertical increment"
-msgstr ""
+msgstr "Incremento vertical"
 
 #: transformation_mixins.py:313
 msgid "Asset name"
-msgstr ""
+msgstr "Nome do ativo"
 
 #: transformation_mixins.py:356
 msgid "Color used to fill the rectangle."
-msgstr ""
+msgstr "Cor de preenchimento do retângulo."
 
 #: transformation_mixins.py:357 transformations.py:680
 msgid "Fill color"
-msgstr ""
+msgstr "Preencher cor"
 
 #: transformation_mixins.py:362
 msgid "Opacity level of the fill color in percent"
-msgstr ""
+msgstr "Nível de opacidade da cor de preenchimento em porcentagem"
 
 #: transformation_mixins.py:363
 msgid "Fill transparency"
-msgstr ""
+msgstr "Preencher transparência"
 
 #: transformation_mixins.py:367
 msgid "Color used for the outline of the rectangle."
-msgstr ""
+msgstr "Cor utilizada na borda do retângulo."
 
 #: transformation_mixins.py:368
 msgid "Outline color"
-msgstr ""
+msgstr "Cor da borda"
 
 #: transformation_mixins.py:372
 msgid "Width in pixels of the rectangle outline."
-msgstr ""
+msgstr "Largura em píxeis do contorno do retângulo."
 
 #: transformation_mixins.py:373
 msgid "Outline width"
-msgstr ""
+msgstr "Largura do contorno"
 
 #: transformations.py:210
 msgid "Paste an asset (absolute coordinates)"
-msgstr ""
+msgstr "Cole um ativo (coordenadas absolutas)"
 
 #: transformations.py:218
 msgid "Paste an asset (percent coordinates)"
-msgstr ""
+msgstr "Cole um ativo (coordenadas percentuais)"
 
 #: transformations.py:232
 msgid "Crop"
@@ -529,19 +532,19 @@ msgstr "Recortar"
 
 #: transformations.py:237
 msgid "Number of pixels to remove from the left."
-msgstr ""
+msgstr "Número de píxeis a remover da esquerda."
 
 #: transformations.py:241
 msgid "Number of pixels to remove from the top."
-msgstr ""
+msgstr "Número de píxeis a remover do topo."
 
 #: transformations.py:246
 msgid "Number of pixels to remove from the right."
-msgstr ""
+msgstr "Número de píxeis a remover da direita."
 
 #: transformations.py:251
 msgid "Number of pixels to remove from the bottom."
-msgstr ""
+msgstr "Número de píxeis a remover do fundo."
 
 #: transformations.py:334
 msgid "Draw rectangle"
@@ -549,39 +552,39 @@ msgstr "Desenhar um retângulo"
 
 #: transformations.py:339
 msgid "Left side location in pixels."
-msgstr ""
+msgstr "Localização do lado esquerdo em píxeis."
 
 #: transformations.py:343
 msgid "Top side location in pixels."
-msgstr ""
+msgstr "Localização do lado superior em píxeis."
 
 #: transformations.py:347
 msgid "Right side location in pixels."
-msgstr ""
+msgstr "Localização do lado direitor em píxeis."
 
 #: transformations.py:351
 msgid "Bottom side location in pixels."
-msgstr ""
+msgstr "Localização do lado inferior em píxeis."
 
 #: transformations.py:432
 msgid "Draw rectangle (percent coordinates)"
-msgstr ""
+msgstr "Desenhar retângulo (coordenadas em porcentagem)"
 
 #: transformations.py:437
 msgid "Left side location in percent."
-msgstr ""
+msgstr "Localização do lado esquerdo em porcentagem."
 
 #: transformations.py:441
 msgid "Top side location in percent."
-msgstr ""
+msgstr "Localização do lado superior em porcentagem."
 
 #: transformations.py:445
 msgid "Right side location in percent."
-msgstr ""
+msgstr "Localização do lado direito em porcentagem."
 
 #: transformations.py:449
 msgid "Bottom side location in percent."
-msgstr ""
+msgstr "Localização do lado inferior em porcentagem."
 
 #: transformations.py:532
 msgid "Flip"
@@ -593,7 +596,7 @@ msgstr "Gaussian blur"
 
 #: transformations.py:548 transformations.py:749
 msgid "Radius"
-msgstr ""
+msgstr "Raio"
 
 #: transformations.py:560
 msgid "Line art"
@@ -621,7 +624,7 @@ msgstr "Redimensionar"
 
 #: transformations.py:629
 msgid "New width in pixels."
-msgstr ""
+msgstr "Nova largura em píxeis."
 
 #: transformations.py:630
 msgid "Width"
@@ -629,7 +632,7 @@ msgstr "largura"
 
 #: transformations.py:634
 msgid "New height in pixels."
-msgstr ""
+msgstr "Nova altura em píxeis."
 
 #: transformations.py:635
 msgid "Height"
@@ -645,7 +648,7 @@ msgstr "graus"
 
 #: transformations.py:679
 msgid "Color to be used for area outside of the rotated image."
-msgstr ""
+msgstr "Cor utilizada na área externa da imagem rotacionada."
 
 #: transformations.py:711
 msgid "Rotate 90 degrees"
@@ -665,11 +668,11 @@ msgstr "Unsharp masking"
 
 #: transformations.py:748
 msgid "The blur radius in pixels."
-msgstr ""
+msgstr "O raio de desfoque em píxeis."
 
 #: transformations.py:752
 msgid "Unsharp strength in percent."
-msgstr ""
+msgstr "Força da nitidez em porcentagem."
 
 #: transformations.py:753 transformations.py:780
 msgid "Percent"
@@ -677,11 +680,11 @@ msgstr "Percentual"
 
 #: transformations.py:757
 msgid "Minimum brightness change that will be sharpened."
-msgstr ""
+msgstr "Alteração mínima de brilho que será aprimorada."
 
 #: transformations.py:758
 msgid "Tthreshold"
-msgstr ""
+msgstr "Limite"
 
 #: views/asset_views.py:48
 #, python-format
@@ -730,6 +733,8 @@ msgid ""
 "Assets are files that can be used in conjunction with certain "
 "transformations."
 msgstr ""
+"Ativos são arquivos que podem ser utilizados em conjunto com certas "
+"transformações."
 
 #: views/asset_views.py:143
 msgid "No assets available"

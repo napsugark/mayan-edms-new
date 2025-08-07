@@ -326,6 +326,7 @@ msgstr "Einstellungsmöglichkeiten für das Konvertierungsbackend."
 #: settings.py:80
 msgid "Time in seconds that the browser should cache the supplied image."
 msgstr ""
+"Zeit in Sekunden, die der Browser das erhaltene Bild im Cache halten soll."
 
 #: settings.py:88
 msgid ""
@@ -420,7 +421,7 @@ msgstr "Oben"
 
 #: transformation_mixins.py:159
 msgid "Paste an image (percent coordinates)"
-msgstr ""
+msgstr "Ein Bild einfügen (Koordinaten in Prozent)"
 
 #: transformation_mixins.py:165
 msgid "Horizontal position in percent from the left."
@@ -518,7 +519,7 @@ msgstr "Ein Asset einfügen (absolute Koordinaten)"
 
 #: transformations.py:218
 msgid "Paste an asset (percent coordinates)"
-msgstr ""
+msgstr "Ein Asset einfügen (Koordinaten in Prozent)"
 
 #: transformations.py:232
 msgid "Crop"
@@ -562,7 +563,7 @@ msgstr "Anordnung unten in Pixeln."
 
 #: transformations.py:432
 msgid "Draw rectangle (percent coordinates)"
-msgstr ""
+msgstr "Zeichne Rechteck (Koordinaten in Prozent)"
 
 #: transformations.py:437
 msgid "Left side location in percent."
@@ -726,6 +727,8 @@ msgid ""
 "Assets are files that can be used in conjunction with certain "
 "transformations."
 msgstr ""
+"Assets sind Dateien, die in Verbindung mit bestimmten Transformationen "
+"verwendet werden können."
 
 #: views/asset_views.py:143
 msgid "No assets available"

@@ -118,7 +118,7 @@ msgstr "%(object)s احذف الناجح."
 #: generics.py:797
 #, python-format
 msgid "Error retrieving %(object)s; %(error)s"
-msgstr ""
+msgstr "خطأ في استرجاع %(object)s؛ %(error)s"
 
 #: generics.py:858
 #, python-format
@@ -133,32 +133,32 @@ msgstr "%(object)s التعديل الناجح."
 #: generics.py:935
 #, python-format
 msgid "%(count)d objects deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)d عنصر بنجاح."
 
 #: generics.py:936
 #, python-format
 msgid "\"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "تم حذف \"%(object)s\" بنجاح."
 
 #: generics.py:937
 #, python-format
 msgid "%(count)d object deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)d كائن بنجاح."
 
 #: generics.py:938
 #, python-format
 msgid "Delete %(count)d objects."
-msgstr ""
+msgstr "حذف %(count)d عنصر"
 
 #: generics.py:939
 #, python-format
 msgid "Delete \"%(object)s\"."
-msgstr ""
+msgstr "حذف \"%(object)s\""
 
 #: generics.py:940
 #, python-format
 msgid "Delete %(count)d object."
-msgstr ""
+msgstr "حذف %(count)d كائن."
 
 #: settings.py:17
 msgid "The number objects that will be displayed per page."
@@ -166,13 +166,14 @@ msgstr "عدد العناصر الظاهرة في الصفحة"
 
 #: settings.py:23
 msgid "A string specifying the name to use for the paging parameter."
-msgstr ""
+msgstr "سلسلة نصية تحدد الاسم المستخدم لمعامل التصفح."
 
 #: settings.py:29
 msgid ""
 "Display a submit button and wait for the submit button to be pressed before "
 "processing up the upload."
 msgstr ""
+"عرض زر إرسال والانتظار حتى يتم الضغط على زر الإرسال قبل معالجة التحميل."
 
 #: templatetags/views_tags.py:30
 msgid "Confirm delete"
@@ -214,7 +215,7 @@ msgstr "تعذر إجراء العملية على الكائن %(instance)s ؛ %
 #: view_mixins.py:396
 #, python-format
 msgid "Operation performed on %(count)d objects."
-msgstr ""
+msgstr "تم تنفيذ العملية على %(count)d عنصر."
 
 #: view_mixins.py:398
 #, python-format
@@ -224,22 +225,22 @@ msgstr "تم تنفيذ العملية على %(object)s."
 #: view_mixins.py:400
 #, python-format
 msgid "Operation performed on %(count)d object."
-msgstr ""
+msgstr "تم تنفيذ العملية على %(count)d كائن."
 
 #: view_mixins.py:402
 #, python-format
 msgid "Perform operation on %(count)d objects."
-msgstr ""
+msgstr "تنفيذ العملية على %(count)d عنصر."
 
 #: view_mixins.py:403
 #, python-format
 msgid "Perform operation on %(object)s."
-msgstr ""
+msgstr "تنفيذ العملية على %(object)s."
 
 #: view_mixins.py:404
 #, python-format
 msgid "Perform operation on %(count)d object."
-msgstr ""
+msgstr "تنفيذ العملية على %(count)d كائن."
 
 #: view_mixins.py:489
 msgid "Object"

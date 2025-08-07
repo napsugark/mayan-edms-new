@@ -46,7 +46,7 @@ msgstr ""
 
 #: forms.py:27
 msgid "Asset preview image"
-msgstr ""
+msgstr "Imagem de pré-visualização do ativo"
 
 #: forms.py:27
 msgid "Preview"
@@ -177,11 +177,11 @@ msgstr ""
 
 #: serializers.py:11
 msgid "Document URL"
-msgstr ""
+msgstr "URL do documento"
 
 #: serializers.py:15
 msgid "Image URL"
-msgstr ""
+msgstr "URL da imagem"
 
 #: serializers.py:27
 msgid "URL"

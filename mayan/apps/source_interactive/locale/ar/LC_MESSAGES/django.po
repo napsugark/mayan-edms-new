@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mohamad Ashmar, 2025
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -18,16 +21,16 @@ msgstr ""
 
 #: apps.py:11
 msgid "Source interactive"
-msgstr ""
+msgstr "مصدر تفاعلي"
 
 #: source_backend_actions/arguments.py:9
 msgid "Binary form field containing the file to upload."
-msgstr ""
+msgstr "حقل نموذج ثنائي يحتوي على الملف المطلوب رفعه."
 
 #: source_backend_actions/arguments.py:13
 msgid "Python file like object."
-msgstr ""
+msgstr "كائن ملف بايثون"
 
 #: source_backend_actions/arguments.py:20
 msgid "ID of the shared uploaded file to be processed."
-msgstr ""
+msgstr "معرف الملف المشترك المرفوع للمعالجة"

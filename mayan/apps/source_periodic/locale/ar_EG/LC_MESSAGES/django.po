@@ -24,13 +24,15 @@ msgstr ""
 
 #: apps.py:11
 msgid "Source periodic"
-msgstr ""
+msgstr "مصدر دوري"
 
 #: source_backend_actions/arguments.py:9
 msgid ""
 "Executes the primary action of the source in test mode. Permanent "
 "modifications like deletion of files are disabled."
 msgstr ""
+"تنفيذ الإجراء الأساسي للمصدر في وضع الاختبار. يتم تعطيل التعديلات الدائمة "
+"مثل حذف الملفات."
 
 #: source_backends/mixins.py:44
 msgid "Assign a document type to documents uploaded from this source."
@@ -50,4 +52,4 @@ msgstr "فترة"
 
 #: source_backends/mixins.py:87
 msgid "Unattended"
-msgstr ""
+msgstr "غير مراقب/آلي"

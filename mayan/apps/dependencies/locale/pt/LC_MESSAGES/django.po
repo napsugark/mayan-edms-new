@@ -10,6 +10,7 @@
 # 425fe09b3064b9f906f637fff94056ae_a00ea56 <0fa3588fa89906bfcb3a354600956e0e_308047>, 2024
 # Márcia Ferreira, 2024
 # Bruno Martins <bruno.martins@bewgpt.com.pt>, 2024
+# Daniel Flores <dfloresbr@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
@@ -252,10 +253,14 @@ msgid ""
 "unpinned or immutable dependency bugs in third party libraries. End users "
 "can ignore missing dependencies under this environment."
 msgstr ""
+"Ambiente utilizado para especificar as dependências diretas da documentação "
+"para solucionar bugs de dependência não fixados ou imutáveis em bibliotecas "
+"de terceiros. Os usuários finais podem ignorar as dependências ausentes "
+"neste ambiente."
 
 #: environments.py:40
 msgid "Documentation (override)"
-msgstr ""
+msgstr "Documentação (sobrepor)"
 
 #: environments.py:45
 msgid ""

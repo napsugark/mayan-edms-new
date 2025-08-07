@@ -16,6 +16,7 @@
 # José Samuel Facundo da Silva <samuel.facundo@ufca.edu.br>, 2024
 # Márcia Ferreira, 2024
 # Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2024
+# Daniel Flores <dfloresbr@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
@@ -779,7 +780,7 @@ msgstr ""
 #: serializers/workflow_instance_serializers.py:43
 #: serializers/workflow_instance_serializers.py:157
 msgid "Document URL"
-msgstr ""
+msgstr "URL do documento"
 
 #: serializers/workflow_instance_serializers.py:55
 msgid "Primary key of the transition to be added."
@@ -862,7 +863,7 @@ msgstr ""
 
 #: serializers/workflow_template_serializers.py:33
 msgid "Image URL"
-msgstr ""
+msgstr "URL da imagem"
 
 #: serializers/workflow_template_serializers.py:37
 msgid "States URL"
@@ -879,7 +880,7 @@ msgstr "Chave-primária do tipo de documento a adicionar ao workflow."
 #: serializers/workflow_template_serializers.py:71
 #: serializers/workflow_template_serializers.py:80
 msgid "Document type ID"
-msgstr ""
+msgstr "ID do tipo do documento"
 
 #: serializers/workflow_template_serializers.py:79
 msgid "Primary key of the document type to remove from the workflow."
@@ -1367,7 +1368,7 @@ msgstr "Erro ao eliminar o workflow \"%(instance)s\"; %(exception)s"
 msgid "%(count)d workflows deleted successfully."
 msgstr "%(count)dworkflows eliminados com sucesso."
 
-#: views/workflow_template_views.py:166
+#: views/workflow_template_views.py:175
 #, python-format
 msgid "Workflow \"%(object)s\" deleted successfully."
 msgstr "Workflow \"%(object)s\" eliminados com sucesso."

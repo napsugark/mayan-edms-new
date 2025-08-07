@@ -7,6 +7,7 @@
 # Roberto Rosario, 2024
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -40,19 +41,19 @@ msgstr "قيمة"
 
 #: classes.py:318
 msgid "Settings namespace"
-msgstr ""
+msgstr "مساحة اسم الإعدادات"
 
 #: classes.py:496
 msgid "Choices"
-msgstr ""
+msgstr "خيارات"
 
 #: classes.py:498
 msgid "Possible values allowed for this setting."
-msgstr ""
+msgstr "القيم الممكنة المسموح بها لهذا الإعداد."
 
 #: classes.py:519
 msgid "Cannot revert setting. Setting value has not been updated."
-msgstr ""
+msgstr "لا يمكن استعادة الإعداد. لم يتم تحديث قيمة الإعداد."
 
 #: classes.py:556
 msgid "Default"
@@ -60,11 +61,11 @@ msgstr "القيمة الإفتراضية"
 
 #: classes.py:569
 msgid "Modified"
-msgstr ""
+msgstr "معدل"
 
 #: classes.py:571
 msgid "The value of this setting being modified since the last restart."
-msgstr ""
+msgstr "قيمة هذا الإعداد التي تم تعديلها منذ آخر إعادة تشغيل."
 
 #: classes.py:577
 msgid "Overridden"
@@ -73,7 +74,7 @@ msgstr "تم الإلغاء"
 #: classes.py:579
 msgid ""
 "The value of the setting is being overridden by an environment variable."
-msgstr ""
+msgstr "يتم تجاوز قيمة الإعداد بواسطة متغير بيئة."
 
 #: forms.py:32
 msgid "Enter the new setting value."
@@ -109,6 +110,8 @@ msgid ""
 "Local storage is currently disabled, changes to settings will not be saved. "
 "Instead, use environment variables to modify settings."
 msgstr ""
+"التخزين المحلي معطل حالياً، لن يتم حفظ تغييرات الإعدادات. بدلاً من ذلك، "
+"استخدم متغيرات البيئة لتعديل الإعدادات."
 
 #: models.py:8
 msgid "A short text used as the tag name."
@@ -116,23 +119,23 @@ msgstr "وصف الدلالة"
 
 #: models.py:9
 msgid "Global name"
-msgstr ""
+msgstr "الاسم العام"
 
 #: models.py:12
 msgid "New value"
-msgstr ""
+msgstr "القيمة الجديدة"
 
 #: models.py:15
 msgid "Old value"
-msgstr ""
+msgstr "القيمة القديمة"
 
 #: models.py:19
 msgid "Updated setting"
-msgstr ""
+msgstr "إعداد محدث"
 
 #: models.py:20
 msgid "Updated settings"
-msgstr ""
+msgstr "إعدادات محدثة"
 
 #: permissions.py:10
 msgid "Edit settings"
@@ -199,13 +202,16 @@ msgid ""
 "https://docs.djangoproject.com/en/4.2/ref/settings/#std-setting-"
 "CSRF_COOKIE_SECURE"
 msgstr ""
+"ما إذا كان سيتم استخدام كوكي آمن لكوكي CSRF. إذا تم تعيينه على \"صحيح\"، "
+"سيتم وضع علامة \"آمن\" على الكوكي، مما يعني أن المتصفحات قد تضمن إرسال "
+"الكوكي فقط مع اتصال HTTPS."
 
 #: settings.py:86
 msgid ""
 "A list of trusted origins for unsafe requests (e.g. POST). "
 "https://docs.djangoproject.com/en/4.2/ref/settings/#std-setting-"
 "CSRF_TRUSTED_ORIGINS"
-msgstr ""
+msgstr "قائمة بالأصول الموثوقة للطلبات غير الآمنة (مثل POST)."
 
 #: settings.py:93
 msgid ""
@@ -213,6 +219,7 @@ msgid ""
 "cookie. https://docs.djangoproject.com/en/4.2/ref/settings/#std-setting-"
 "CSRF_USE_SESSIONS"
 msgstr ""
+"ما إذا كان سيتم تخزين رمز CSRF في جلسة المستخدم بدلاً من تخزينه في كوكي."
 
 #: settings.py:100
 msgid ""
@@ -417,6 +424,8 @@ msgid ""
 "Django. It is a nested dictionary whose contents map a storage alias to a "
 "dictionary containing the options for an individual storage."
 msgstr ""
+"قاموس يحتوي على إعدادات جميع وحدات التخزين لاستخدامها مع دجانجو. وهو قاموس "
+"متداخل تتعين محتوياته على قاموس يحتوي على خيارات وحدة التخزين الفردية."
 
 #: settings.py:324
 msgid ""
@@ -459,22 +468,24 @@ msgid ""
 "Settings updated. Save and restart your installation for changes to take "
 "effect."
 msgstr ""
+"تم تحديث الإعدادات. احفظ التغييرات وأعد تشغيل التثبيت لتصبح التغييرات نافذة "
+"المفعول."
 
 #: tests/test_classes.py:190
 msgid "English"
-msgstr ""
+msgstr "الإنجليزية"
 
 #: views.py:41
 msgid "This will overwrite the content of the configuration file."
-msgstr ""
+msgstr "سيؤدي هذا إلى استبدال محتوى ملف التكوين."
 
 #: views.py:44
 msgid "Save settings to the configuration file?"
-msgstr ""
+msgstr "حفظ الإعدادات في ملف التكوين؟"
 
 #: views.py:52
 msgid "Settings saved to configuration file successfully."
-msgstr ""
+msgstr "تم حفظ الإعدادات في ملف التكوين بنجاح."
 
 #: views.py:60
 msgid "Setting namespaces"
@@ -489,6 +500,8 @@ msgid ""
 "This setting is overridden by an environment variable, changing its value "
 "will have no effect."
 msgstr ""
+"يتم تجاوز هذا الإعداد بواسطة متغير بيئة، لذا فإن تغيير قيمته لن يكون له "
+"تأثير."
 
 #: views.py:108
 #, python-format
@@ -498,17 +511,17 @@ msgstr "تعديل الإعداد: %s"
 #: views.py:129
 #, python-format
 msgid "%(count)d settings value reverted."
-msgstr ""
+msgstr "تم استعادة قيمة %(count)d إعداد."
 
 #: views.py:132
 #, python-format
 msgid "Value of setting \"%(object)s\" reverted."
-msgstr ""
+msgstr "تم استعادة قيمة الإعداد \"%(object)s\"."
 
 #: views.py:134
 #, python-format
 msgid "%(count)d setting value reverted."
-msgstr ""
+msgstr "تم استعادة قيمة %(count)d إعداد."
 
 #: views.py:136
 #, python-format
@@ -527,7 +540,7 @@ msgstr ""
 
 #: views.py:150
 msgid "Unsaved changes will be lost."
-msgstr ""
+msgstr "سيتم فقدان التغييرات غير المحفوظة."
 
 #: views.py:187
 msgid ""

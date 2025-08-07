@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -18,12 +21,12 @@ msgstr ""
 
 #: apps.py:11
 msgid "File metadata ClamAV"
-msgstr ""
+msgstr "Dateimetadaten ClamAV"
 
 #: dependencies.py:11 drivers.py:19
 msgid "Command line anti-virus scanner."
-msgstr ""
+msgstr "Kommandozeilen Virusscanner."
 
 #: drivers.py:20
 msgid "ClamScan"
-msgstr ""
+msgstr "ClamScan"

@@ -7,6 +7,7 @@
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
 # Ali <alimahwer@yahoo.com>, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -224,7 +225,7 @@ msgstr "تم إعادة تعين كلمة المرور : %s."
 #: views/authentication_views.py:441
 #, python-format
 msgid "Error resetting password for user \"%(user)s\": %(error)s"
-msgstr ""
+msgstr "خطأ في إعادة تعيين كلمة المرور للمستخدم \"%(user)s\": %(error)s"
 
 #: views/impersonation_views.py:87
 #, python-format

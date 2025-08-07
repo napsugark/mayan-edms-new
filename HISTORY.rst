@@ -222,6 +222,36 @@
 - Expose the document index instance depth and node count values via the API.
 - Add a document type API view to return all documents of that type.
 
+4.6.6 (2025-08-06)
+==================
+- Increase the GitLab CI artifact expiration from 4 hours to 24 hours.
+- Add Mayan Forge, a Docker based development environment for Mayan EDMS.
+- Update dependency versions:
+
+  - Django from 4.2.13 to 4.2.23.
+  - PyYAML from 6.0.1 to 6.0.2.
+  - bleach from 6.1.0 to 6.2.0.
+  - django-storages from 1.14.2 to 1.14.6.
+  - extract-msg from 0.48.5 to 0.48.7.
+  - furl from 2.1.3 to 2.1.4.
+  - pip from 24.0 to 24.3.
+  - psycopg from 3.1.14 to 3.1.20.
+  - redis from 5.0.3 to 5.0.8.
+  - twine from 5.1.0 to 5.1.1.
+
+- Update Docker image tags:
+
+  - Base Debian from 12.5-slim to 12.11-slim.
+  - PostgreSQL from 13.15-alpine to 13.21-alpine.
+  - Python from 3.11.9-slim to 3.11.13-slim.
+  - ElasticSearch from 7.17.20 to 7.17.28
+
+- Quote environment variables prior to loading.
+- Fix context of the workflow launch view when only one document is selected.
+- Improve documentation navigation.
+- Update translation helper script to use the new `MayanAppConfig` accessors.
+- Backport `MayanAppConfig` improvements needed by the translation helper.
+
 4.6.5 (2024-06-03)
 ==================
 - Merge changes from version 4.5.13.

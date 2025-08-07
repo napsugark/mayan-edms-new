@@ -1,4 +1,5 @@
 import logging
+from pathlib import Path
 import sys
 import traceback
 
@@ -12,6 +13,7 @@ from mayan.apps.organizations.settings import (
     setting_organization_url_base_path
 )
 from mayan.apps.templating.classes import AJAXTemplate
+from mayan.settings import BASE_DIR
 
 from .handlers import handler_pre_initial_setup, handler_pre_upgrade
 from .links import (
@@ -115,6 +117,20 @@ class MayanAppConfig(apps.AppConfig):
                     )
                 ),
             )
+
+    def get_has_app_translations(self):
+        return getattr(self, 'has_app_translations', True)
+
+    def get_has_javascript_translations(self):
+        return getattr(self, 'has_javascript_translations', False)
+
+    @property
+    def mayan_path(self):
+        return Path(self.path)
+
+    @property
+    def mayan_path_relative(self):
+        return self.mayan_path.relative_to(BASE_DIR.parent)
 
     def ready(self):
         logger.debug('Initializing app: %s', self.name)

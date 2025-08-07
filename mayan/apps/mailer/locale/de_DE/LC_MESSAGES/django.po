@@ -257,7 +257,7 @@ msgstr "Dateispeicher"
 #: model_mixins.py:178
 #, python-format
 msgid "Test email from %s"
-msgstr ""
+msgstr "Test E-Mail von %s"
 
 #: models.py:32
 msgid "A short text describing the mailing profile."
@@ -333,11 +333,11 @@ msgstr "URL"
 
 #: serializers.py:32
 msgid "Primary key of the mailing profile to use."
-msgstr ""
+msgstr "Primärschlüssel des zu verwendenden Mailprofils."
 
 #: serializers.py:33
 msgid "Mailing profile ID"
-msgstr ""
+msgstr "Mailprofil-ID"
 
 #: serializers.py:38 workflow_action_mixins.py:15
 msgid "Recipient"

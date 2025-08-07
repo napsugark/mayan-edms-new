@@ -9,7 +9,7 @@
 # Felix <felix.com@gmx.com>, 2024
 # Roberto Rosario, 2024
 # Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2024
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -373,6 +373,8 @@ msgid ""
 "Subscribe to the events of an object to receive notifications when those "
 "events occur."
 msgstr ""
+"Zu den Ereignissen eines Objekts subskribieren um Benachrichtigungen zu "
+"erhalte, wenn diese Ereignisse auftreten."
 
 #: views/subscription_views.py:167
 msgid "There are no object event subscriptions"

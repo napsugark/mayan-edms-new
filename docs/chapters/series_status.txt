@@ -1,3 +1,6 @@
+.. _support_status:
+
+
 ==============
 Support status
 ==============
@@ -67,26 +70,36 @@ Current series status
      - Security patches
      - Bug fixes
      - Translations
+   * - 4.9
+     - Fully supported
+     - Yes
+     - Yes
+     - Updated
+   * - 4.8
+     - Fully supported
+     - Yes
+     - Yes
+     - Updated
    * - 4.7
-     - Fully supported
-     - Yes
-     - Yes
-     - Updated
-   * - 4.6
-     - Fully supported
-     - Yes
-     - Yes
-     - Updated
-   * - 4.5
      - Maintenance
      - Yes
      - Yes
      - Updated
-   * - 4.4
+   * - 4.6
      - Extended support
      - Yes
      - Yes
      - Updated
+   * - 4.5
+     - Extended support
+     - Yes
+     - Yes
+     - Updated
+   * - 4.4
+     - End of life
+     - Yes
+     - Yes
+     - Not available and not updated
    * - 4.3
      - End of life
      - No
