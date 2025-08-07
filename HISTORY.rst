@@ -25,6 +25,7 @@
 - Remove the specialized and custom animated list toolbar checkbox and
   instead use a styled standard HTML checkbox.
 - Backport multi item bulk action dropdown template improvements.
+- Added `CITATION.cff` file for citations.
 
 4.7.1 (2024-06-04)
 ==================
