@@ -13,5 +13,5 @@ PythonDependency(
     module=__name__, name='google-cloud-storage', version_string='==2.16.0'
 )
 PythonDependency(
-    module=__name__, name='pycryptodome', version_string='==3.20.0'
+    module=__name__, name='pycryptodome', version_string='==3.21.0'
 )

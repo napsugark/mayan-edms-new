@@ -75,7 +75,7 @@ boto3==1.33.7
 celery==5.3.6
 dateparser==1.2.0
 django-activity-stream==2.0.0
-django-auth-ldap==4.6.0
+django-auth-ldap==4.8.0
 django-celery-beat==2.6.0
 django-cors-headers==4.3.1
 django-formtools==2.3
@@ -83,7 +83,7 @@ django-mathfilters==1.0.0
 django-model-utils==4.4.0
 django-mptt==0.16.0
 django-qsstats-magic==1.1.0
-django-solo==2.2.0
+django-solo==2.3.0
 django-storages==1.14.6
 django-stronghold==0.4.0
 django-widget-tweaks==1.5.0
@@ -106,7 +106,7 @@ jsonschema==4.21.1
 mozilla-django-oidc==4.0.1
 node-semver==0.9.0
 pycountry==24.6.1
-pycryptodome==3.20.0
+pycryptodome==3.21.0
 pyotp==2.9.0
 pypdf==4.2.0
 python-dateutil==2.9.0.post0
@@ -114,12 +114,12 @@ python-magic==0.4.27
 python_gnupg==0.5.2
 pytz==2024.1
 qrcode==7.4.2
-requests==2.32.3
-sentry-sdk==1.45.0
+requests==2.32.4
+sentry-sdk==1.45.1
 setuptools==69.5.1
 sh==2.0.7
 swagger-spec-validator==3.0.3
-whitenoise==6.6.0
+whitenoise==6.7.0
 """.split()
 
 with open(file='README.rst') as file_object:
