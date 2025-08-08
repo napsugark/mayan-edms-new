@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
+"POT-Creation-Date: 2025-08-07 16:19+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: Erjon Sulaj <erjon1282@gmail.com>, 2024\n"
 "Language-Team: Albanian (https://app.transifex.com/rosarior/teams/13584/sq/)\n"
@@ -427,24 +427,20 @@ msgstr "Veprimet"
 msgid "Select/Deselect all"
 msgstr "Përzgjidh/Anullo tek të gjitha"
 
-#: templates/appearance/partials/list/toolbar.html:18
+#: templates/appearance/partials/list/toolbar.html:22
 msgid "Toggle list display mode"
 msgstr "Ndrysho paraqitjen e listës"
 
-#: templates/appearance/partials/list/toolbar.html:31
+#: templates/appearance/partials/list/toolbar.html:34
 msgid ""
 "Select items to activate bulk actions. Use Shift + click to select many."
 msgstr ""
 "Zgjidh titujt për aktivizim nëpërmjet veprimeve në grup. Përdor Shift + "
 "kliko për të përzgjedhur shumë."
 
-#: templates/appearance/partials/list/toolbar.html:36
+#: templates/appearance/partials/list/toolbar.html:38
 msgid "Bulk actions"
 msgstr "Veprimet në grup"
-
-#: templates/appearance/partials/list/toolbar.html:38
-msgid "Toggle Dropdown"
-msgstr "Ndrysho paraqitjen e Dropdown"
 
 #: templates/appearance/partials/sidebar.html:17
 msgid "Object"

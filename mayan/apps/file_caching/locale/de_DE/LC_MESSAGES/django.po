@@ -9,7 +9,7 @@
 # Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2024
 # Marvin Haschker <marvin@haschker.me>, 2024
 # Ingo Buchholz <ingo.buchholz@takwa.de>, 2024
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,7 +55,7 @@ msgstr "Cache-Partition geleert"
 
 #: forms.py:11
 msgid "Identification"
-msgstr ""
+msgstr "Identifizierung"
 
 #: forms.py:15
 msgid "Storage"
@@ -63,7 +63,7 @@ msgstr "Dateispeicher"
 
 #: forms.py:19
 msgid "Configuration"
-msgstr ""
+msgstr "Konfiguration"
 
 #: forms.py:25
 msgid "Objects"

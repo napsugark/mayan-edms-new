@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
+"POT-Creation-Date: 2025-08-07 16:19+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: e6bc1d20d3f0031709c3c11db1061ebc_be0a371 <8b4e580508477646e97982ebad39e3af_312311>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/rosarior/teams/13584/nl/)\n"
@@ -427,24 +427,20 @@ msgstr "Acties"
 msgid "Select/Deselect all"
 msgstr "Alle selecteren/deselecteren"
 
-#: templates/appearance/partials/list/toolbar.html:18
+#: templates/appearance/partials/list/toolbar.html:22
 msgid "Toggle list display mode"
 msgstr "Wissel lijst modus"
 
-#: templates/appearance/partials/list/toolbar.html:31
+#: templates/appearance/partials/list/toolbar.html:34
 msgid ""
 "Select items to activate bulk actions. Use Shift + click to select many."
 msgstr ""
 "Selecteer onderdelen voor bulk acties. Gebruik Shift + Klik om meerdere te "
 "selecteren."
 
-#: templates/appearance/partials/list/toolbar.html:36
+#: templates/appearance/partials/list/toolbar.html:38
 msgid "Bulk actions"
 msgstr "Bulk acties"
-
-#: templates/appearance/partials/list/toolbar.html:38
-msgid "Toggle Dropdown"
-msgstr "Toggle Dropdown"
 
 #: templates/appearance/partials/sidebar.html:17
 msgid "Object"

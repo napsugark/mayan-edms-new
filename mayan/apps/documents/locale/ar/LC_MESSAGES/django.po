@@ -20,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2024\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1087,11 +1087,11 @@ msgstr "وثائق سريعة"
 
 #: queues.py:17
 msgid "Documents slow"
-msgstr ""
+msgstr "وثائق بطيئة"
 
 #: queues.py:20
 msgid "Documents file"
-msgstr ""
+msgstr "ملف الوثائق"
 
 #: queues.py:23
 msgid "Documents file slow"
@@ -1119,15 +1119,15 @@ msgstr "رفع ملف مستند جديد"
 
 #: queues.py:49
 msgid "Move a document to the trash"
-msgstr ""
+msgstr "نقل مستند إلى سلة المهملات"
 
 #: queues.py:53
 msgid "Upload new document"
-msgstr ""
+msgstr "رفع مستند جديد"
 
 #: queues.py:58
 msgid "Calculate and update document file checksum"
-msgstr ""
+msgstr "حساب وتحديث التحقق (checksum) لملف المستند"
 
 #: queues.py:62
 msgid "Calculate and update document file MIME type"
@@ -1187,7 +1187,7 @@ msgstr "حذف نسخة المستند"
 
 #: search.py:31
 msgid "The database ID of the document type."
-msgstr ""
+msgstr "معرّف نوع الوثيقة في قاعدة البيانات"
 
 #: search.py:32 serializers/document_serializers.py:32
 #: serializers/document_serializers.py:78
@@ -1204,11 +1204,11 @@ msgstr "وصف الوثيقة"
 
 #: search.py:73 search.py:145
 msgid "The database ID of the document."
-msgstr ""
+msgstr "معرّف الوثيقة في قاعدة البيانات"
 
 #: search.py:74 search.py:146 serializers/favorite_document_serializers.py:17
 msgid "Document ID"
-msgstr ""
+msgstr "معرّف المستند"
 
 #: search.py:77 search.py:106 search.py:149 search.py:176
 msgid "Document label"
@@ -1312,7 +1312,7 @@ msgstr "رابط نوع المستند"
 #: serializers/document_type_serializers.py:35
 #: serializers/document_type_serializers.py:47
 msgid "Documents URL"
-msgstr ""
+msgstr "رابط المستندات"
 
 #: serializers/document_type_serializers.py:39
 msgid "Quick label list URL"
@@ -1535,7 +1535,7 @@ msgstr "معاينة صورة صفحة المستند"
 
 #: templates/documents/errors/document_file_has_no_pages.html:5
 msgid "No file pages"
-msgstr ""
+msgstr "لا توجد صفحات ملف"
 
 #: templates/documents/errors/document_file_page_transformation_error.html:5
 msgid "Document file page transformation error"
@@ -1911,11 +1911,11 @@ msgstr "إعادة تعيين صفحات نسخة المستند: %s"
 
 #: views/document_version_page_views.py:311
 msgid "There are no more pages in this document."
-msgstr ""
+msgstr "لا توجد صفحات أخرى في هذه الوثيقة"
 
 #: views/document_version_page_views.py:327
 msgid "You are already at the first page of this document."
-msgstr ""
+msgstr "أنت بالفعل في الصفحة الأولى من هذه الوثيقة"
 
 #: views/document_version_views.py:63
 #, python-format
@@ -2071,12 +2071,12 @@ msgstr "لا توجد مستندات متاحة"
 #: views/document_views.py:85
 #, python-format
 msgid "Document type change request performed on %(count)d document."
-msgstr ""
+msgstr "تم تنفيذ طلب تغيير نوع المستند على %(count)d مستند."
 
 #: views/document_views.py:89
 #, python-format
 msgid "Document type change request performed on %(count)d documents."
-msgstr ""
+msgstr "تم تنفيذ طلب تغيير نوع الوثيقة على %(count)d وثيقة"
 
 #: views/document_views.py:97
 msgid "Change the type of the selected document."
@@ -2200,11 +2200,12 @@ msgstr "لا توجد وثائق منشأة مؤخرًا"
 #, python-format
 msgid "Document \"%(object)s\" queued for trashing."
 msgstr ""
+"تم إدراج الوثيقة \"%(object)s\" في قائمة الانتظار للإرسال إلى سلة المحذوفات"
 
 #: views/trashed_document_views.py:43 views/trashed_document_views.py:46
 #, python-format
 msgid "%(count)d documents queued for trashing."
-msgstr ""
+msgstr "تم إدراج %(count)d وثيقة في قائمة الانتظار للإرسال إلى سلة المحذوفات"
 
 #: views/trashed_document_views.py:48
 #, python-format
@@ -2218,7 +2219,7 @@ msgstr "هل تريد نقل الوثيقة المحددة إلى سلة الم�
 #: views/trashed_document_views.py:51
 #, python-format
 msgid "Move the %(count)d selected documents to trash?"
-msgstr "هل تريد نقل الوثائق المحددة (%(count)d) إلى سلة المحذوفات؟"
+msgstr "هل تريد نقل الوثائق المحددة %(count)dإلى سلة المحذوفات؟"
 
 #: views/trashed_document_views.py:86
 msgid "Empty trash?"
@@ -2246,7 +2247,7 @@ msgstr "%(count)d أرسلت الوثيقة للإتلاف"
 #: views/trashed_document_views.py:117
 #, python-format
 msgid "Delete the %(count)d selected trashed documents?"
-msgstr "هل تريد حذف الوثائق المحذوفة المحددة (%(count)d)؟"
+msgstr "هل تريد حذف الوثائق المحذوفة المحددة %(count)d؟"
 
 #: views/trashed_document_views.py:118
 #, python-format
@@ -2278,7 +2279,7 @@ msgstr "%(count)d التراجع عن اتلاف الوثيقة."
 #: views/trashed_document_views.py:178
 #, python-format
 msgid "Trashed document \"%(object)s\" restored."
-msgstr "تم استعادة الوثيقة المحذوفة \"%(object)s)\""
+msgstr "تم استعادة الوثيقة المحذوفة \"%(object)s\""
 
 #: views/trashed_document_views.py:181
 #, python-format
@@ -2288,7 +2289,7 @@ msgstr "التراجع عن إتلاف%(count)d الوثيقة"
 #: views/trashed_document_views.py:183
 #, python-format
 msgid "Restore the %(count)d selected trashed documents?"
-msgstr "هل تريد استعادة الوثائق المحذوفة المحددة (%(count)d)؟"
+msgstr "هل تريد استعادة الوثائق المحذوفة المحددة %(count)d؟"
 
 #: views/trashed_document_views.py:184
 #, python-format

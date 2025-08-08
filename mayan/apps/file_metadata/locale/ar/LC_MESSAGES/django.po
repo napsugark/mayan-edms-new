@@ -9,6 +9,7 @@
 # Roberto Rosario, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
 # Mohamad Ashmar, 2025
+# Hany salah, 2025
 # 
 msgid ""
 msgstr ""
@@ -16,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2024\n"
+"Last-Translator: Hany salah, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -280,12 +281,12 @@ msgstr "تم إرسال %(count)d ملف مستند إلى قائمة انتظا
 #: views.py:136
 msgid "Submit the selected document file to the file metadata queue?"
 msgid_plural "Submit the selected documents files to the file metadata queue?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "إرسال المستند المحدد إلى قائمة انتظار البيانات الوصفية للملف؟"
+msgstr[1] "إرسال المستند المحدد إلى قائمة انتظار البيانات الوصفية للملف؟"
+msgstr[2] "إرسال المستندات المحددة إلى قائمة انتظار البيانات الوصفية للملف؟"
+msgstr[3] "إرسال المستندات المحددة إلى قائمة انتظار البيانات الوصفية للملف؟"
+msgstr[4] "إرسال المستندات المحددة إلى قائمة انتظار البيانات الوصفية للملف؟"
+msgstr[5] "إرسال المستندات المحددة إلى قائمة انتظار البيانات الوصفية للملف؟"
 
 #: views.py:167
 #, python-format

@@ -9,6 +9,8 @@
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
 # Roberto Rosario, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
+# Mohamad Ashmar, 2025
+# Hany salah, 2025
 # 
 msgid ""
 msgstr ""
@@ -16,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-04 06:21+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2024\n"
+"Last-Translator: Hany salah, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -407,12 +409,12 @@ msgstr "تم تنفيذ طلب إضافة بيانات التعريف على م�
 #: views/document_views.py:58
 msgid "Add metadata types to document"
 msgid_plural "Add metadata types to documents"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "إضافة بيانات وصفية إلى الوثيقة"
+msgstr[1] "إضافة بيانات وصفية إلى الوثيقة"
+msgstr[2] "إضافة بيانات وصفية إلى الوثائق"
+msgstr[3] "إضافة بيانات وصفية إلى الوثائق"
+msgstr[4] "إضافة بيانات وصفية إلى الوثائق"
+msgstr[5] "إضافة بيانات وصفية إلى الوثائق"
 
 #: views/document_views.py:69
 #, python-format
@@ -468,12 +470,12 @@ msgstr "لا توجد بيانات وصفية للتحرير"
 #: views/document_views.py:236
 msgid "Edit document metadata"
 msgid_plural "Edit documents metadata"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "قم بتعديل البيانات الوصفية لوثيقة"
+msgstr[1] "قم بتعديل البيانات الوصفية لوثيقة"
+msgstr[2] "قم بتعديل البيانات الوصفية لوثيقة"
+msgstr[3] "قم بتعديل البيانات الوصفية لوثيقة"
+msgstr[4] "قم بتعديل البيانات الوصفية لوثيقة"
+msgstr[5] "قم بتعديل البيانات الوصفية لوثيقة"
 
 #: views/document_views.py:247
 #, python-format
@@ -521,12 +523,12 @@ msgstr "تم إجراء طلب إزالة البيانات الوصفية على
 #: views/document_views.py:409
 msgid "Remove metadata types from the document"
 msgid_plural "Remove metadata types from the documents"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "قم بإزالة أنواع البيانات الوصفية من الوثيقة"
+msgstr[1] "قم بإزالة أنواع البيانات الوصفية من الوثيقة"
+msgstr[2] "قم بإزالة أنواع البيانات الوصفية من الوثائق"
+msgstr[3] "قم بإزالة أنواع البيانات الوصفية من الوثائق"
+msgstr[4] "قم بإزالة أنواع البيانات الوصفية من الوثائق"
+msgstr[5] "قم بإزالة أنواع البيانات الوصفية من الوثائق"
 
 #: views/document_views.py:420
 #, python-format

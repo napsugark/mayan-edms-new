@@ -10,7 +10,6 @@
 # Roberto Rosario, 2024
 # Robin Schubert <robin.schubert@gmx.de>, 2024
 # Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2024
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
 # Berny <berny@bernhard-marx.de>, 2024
 # Jesaja Everling <jeverling@gmail.com>, 2024
 # Mathias Behrle <mathiasb@m9s.biz>, 2025
@@ -19,9 +18,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-04 06:20+0000\n"
+"POT-Creation-Date: 2025-08-07 16:19+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Jesaja Everling <jeverling@gmail.com>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Austria) (https://app.transifex.com/rosarior/teams/13584/de_AT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +28,7 @@ msgstr ""
 "Language: de_AT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps.py:133 permissions.py:6 settings.py:15
+#: apps.py:149 permissions.py:6 settings.py:15
 msgid "Common"
 msgstr "Allgemein"
 

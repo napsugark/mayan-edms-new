@@ -12,14 +12,15 @@
 # Emerson Soares <on.emersonsoares@gmail.com>, 2024
 # Márcia Ferreira, 2024
 # Bruno Martins <bruno.martins@bewgpt.com.pt>, 2024
+# Daniel Flores <dfloresbr@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
+"POT-Creation-Date: 2025-08-07 16:19+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Bruno Martins <bruno.martins@bewgpt.com.pt>, 2024\n"
+"Last-Translator: Daniel Flores <dfloresbr@gmail.com>, 2024\n"
 "Language-Team: Portuguese (https://app.transifex.com/rosarior/teams/13584/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -437,24 +438,20 @@ msgstr "Ações"
 msgid "Select/Deselect all"
 msgstr "Marcar/Desmarcar todos"
 
-#: templates/appearance/partials/list/toolbar.html:18
+#: templates/appearance/partials/list/toolbar.html:22
 msgid "Toggle list display mode"
 msgstr "Alternar modo de visualização"
 
-#: templates/appearance/partials/list/toolbar.html:31
+#: templates/appearance/partials/list/toolbar.html:34
 msgid ""
 "Select items to activate bulk actions. Use Shift + click to select many."
 msgstr ""
 "Marque itens para ativar as ações em massa. Utilize Shift + Click para "
 "selecionar vários."
 
-#: templates/appearance/partials/list/toolbar.html:36
+#: templates/appearance/partials/list/toolbar.html:38
 msgid "Bulk actions"
 msgstr "Ações em massa"
-
-#: templates/appearance/partials/list/toolbar.html:38
-msgid "Toggle Dropdown"
-msgstr "Alternar caixa de seleção"
 
 #: templates/appearance/partials/sidebar.html:17
 msgid "Object"

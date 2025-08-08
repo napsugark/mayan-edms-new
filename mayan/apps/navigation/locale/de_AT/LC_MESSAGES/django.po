@@ -4,9 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
 # Roberto Rosario, 2024
 # Berny <berny@bernhard-marx.de>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Berny <berny@bernhard-marx.de>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Austria) (https://app.transifex.com/rosarior/teams/13584/de_AT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,16 +40,16 @@ msgstr "Ausklappmenü ein-/ausschalten"
 
 #: templates/navigation/app/list_toolbar.html:14
 msgid "Sort by column"
-msgstr ""
+msgstr "Nach Spalte sortieren"
 
 #: templates/navigation/app/list_toolbar.html:15
 msgid "--- Clear ---"
-msgstr ""
+msgstr "--- Leeren ---"
 
 #: templates/navigation/app/list_toolbar.html:18
 msgid "(ascending)"
-msgstr ""
+msgstr "(aufsteigend)"
 
 #: templates/navigation/app/list_toolbar.html:20
 msgid "(descending)"
-msgstr ""
+msgstr "(absteigend)"

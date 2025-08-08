@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
+"POT-Creation-Date: 2025-08-07 16:19+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: Harald Ersch, 2024\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/rosarior/teams/13584/ro_RO/)\n"
@@ -455,24 +455,20 @@ msgstr "Acţiuni"
 msgid "Select/Deselect all"
 msgstr "Selectați / Deselectați toate"
 
-#: templates/appearance/partials/list/toolbar.html:18
+#: templates/appearance/partials/list/toolbar.html:22
 msgid "Toggle list display mode"
 msgstr "Comutați modul afișare listă"
 
-#: templates/appearance/partials/list/toolbar.html:31
+#: templates/appearance/partials/list/toolbar.html:34
 msgid ""
 "Select items to activate bulk actions. Use Shift + click to select many."
 msgstr ""
 "Selectați elemente pentru a activa acțiuni în vrac. Folosiți Shift + faceți "
 "clic pentru a selecta mai multe."
 
-#: templates/appearance/partials/list/toolbar.html:36
+#: templates/appearance/partials/list/toolbar.html:38
 msgid "Bulk actions"
 msgstr "Acțiuni în vrac"
-
-#: templates/appearance/partials/list/toolbar.html:38
-msgid "Toggle Dropdown"
-msgstr "Comutare  mod listă"
 
 #: templates/appearance/partials/sidebar.html:17
 msgid "Object"

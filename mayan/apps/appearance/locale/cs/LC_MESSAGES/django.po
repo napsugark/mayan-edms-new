@@ -5,14 +5,14 @@
 # Translators:
 # Translators:
 # Jiri Fait <fait@orkasolutions.cz>, 2024
-# Jiří Podhorecký, 2024
+# Jiří Podhorecký <jirka.p@volny.cz>, 2024
 # Michal Švábík <snadno@lehce.cz>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
+"POT-Creation-Date: 2025-08-07 16:19+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: Michal Švábík <snadno@lehce.cz>, 2024\n"
 "Language-Team: Czech (https://app.transifex.com/rosarior/teams/13584/cs/)\n"
@@ -426,24 +426,20 @@ msgstr "Akce"
 msgid "Select/Deselect all"
 msgstr "Vyberte / Zrušte výběr všech"
 
-#: templates/appearance/partials/list/toolbar.html:18
+#: templates/appearance/partials/list/toolbar.html:22
 msgid "Toggle list display mode"
 msgstr "Přepnout režim zobrazení seznamu"
 
-#: templates/appearance/partials/list/toolbar.html:31
+#: templates/appearance/partials/list/toolbar.html:34
 msgid ""
 "Select items to activate bulk actions. Use Shift + click to select many."
 msgstr ""
 "Vyberte položky pro aktivaci hromadných akcí. Použijte Shift + click pro "
 "výběr více položek."
 
-#: templates/appearance/partials/list/toolbar.html:36
+#: templates/appearance/partials/list/toolbar.html:38
 msgid "Bulk actions"
 msgstr "Hromadné akce"
-
-#: templates/appearance/partials/list/toolbar.html:38
-msgid "Toggle Dropdown"
-msgstr "Přepnout rozevírací seznam"
 
 #: templates/appearance/partials/sidebar.html:17
 msgid "Object"

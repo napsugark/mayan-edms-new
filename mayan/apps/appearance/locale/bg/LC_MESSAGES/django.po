@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
+"POT-Creation-Date: 2025-08-07 16:19+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: Lyudmil Antonov <lantonov.here@gmail.com>, 2024\n"
 "Language-Team: Bulgarian (https://app.transifex.com/rosarior/teams/13584/bg/)\n"
@@ -431,24 +431,20 @@ msgstr "Действия"
 msgid "Select/Deselect all"
 msgstr "Изберете / премахнете избора на всички"
 
-#: templates/appearance/partials/list/toolbar.html:18
+#: templates/appearance/partials/list/toolbar.html:22
 msgid "Toggle list display mode"
 msgstr "Превключване на режима на показване на списък"
 
-#: templates/appearance/partials/list/toolbar.html:31
+#: templates/appearance/partials/list/toolbar.html:34
 msgid ""
 "Select items to activate bulk actions. Use Shift + click to select many."
 msgstr ""
 "Изберете елементи, за да активирате групови действия. Използвайте Shift + "
 "щракване, за да изберете няколко."
 
-#: templates/appearance/partials/list/toolbar.html:36
+#: templates/appearance/partials/list/toolbar.html:38
 msgid "Bulk actions"
 msgstr "Групови действия"
-
-#: templates/appearance/partials/list/toolbar.html:38
-msgid "Toggle Dropdown"
-msgstr "Превключване на плаващо меню"
 
 #: templates/appearance/partials/sidebar.html:17
 msgid "Object"

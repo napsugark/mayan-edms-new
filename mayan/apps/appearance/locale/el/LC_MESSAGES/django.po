@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
+"POT-Creation-Date: 2025-08-07 16:19+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: pyrotech <anastasios@tutamail.com>, 2024\n"
 "Language-Team: Greek (https://app.transifex.com/rosarior/teams/13584/el/)\n"
@@ -428,22 +428,18 @@ msgstr "Ενέργειες"
 msgid "Select/Deselect all"
 msgstr "Επιλογή/Αποεπιλογή όλων"
 
-#: templates/appearance/partials/list/toolbar.html:18
+#: templates/appearance/partials/list/toolbar.html:22
 msgid "Toggle list display mode"
 msgstr "Εναλλαγή προβολής λίστας"
 
-#: templates/appearance/partials/list/toolbar.html:31
+#: templates/appearance/partials/list/toolbar.html:34
 msgid ""
 "Select items to activate bulk actions. Use Shift + click to select many."
 msgstr "Επιλέξτε αντικείμενα για την ενεργοποίηση μαζικών ενεργειών."
 
-#: templates/appearance/partials/list/toolbar.html:36
+#: templates/appearance/partials/list/toolbar.html:38
 msgid "Bulk actions"
 msgstr "Μαζικές ενέργειες"
-
-#: templates/appearance/partials/list/toolbar.html:38
-msgid "Toggle Dropdown"
-msgstr "Εναλλαγή αναδυόμενης λίστας"
 
 #: templates/appearance/partials/sidebar.html:17
 msgid "Object"

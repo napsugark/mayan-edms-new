@@ -8,9 +8,9 @@
 # Thomas Lauterbach <lauterbachthomas@googlemail.com>, 2024
 # Ingo Buchholz <ingo.buchholz@takwa.de>, 2024
 # Marvin Haschker <marvin@haschker.me>, 2024
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
 # Berny <berny@bernhard-marx.de>, 2024
 # Bjoern Kowarsch <bjoern.kowarsch@gmail.com>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-04 06:21+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Bjoern Kowarsch <bjoern.kowarsch@gmail.com>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -664,17 +664,17 @@ msgstr "%(count)d Einstellungswert zurückgesetzt."
 #: views.py:136
 #, python-format
 msgid "Revert the value of the %(count)d selected settings."
-msgstr ""
+msgstr "Wert von %(count)d ausgewählten Einstellungen zurücksetzen."
 
 #: views.py:138
 #, python-format
 msgid "Revert the value of setting: %(object)s"
-msgstr ""
+msgstr "Setze den Wert von Einstellung %(object)s zurück"
 
 #: views.py:140
 #, python-format
 msgid "Revert the value of %(count)d selected setting."
-msgstr ""
+msgstr "Wert von %(count)d ausgewählter Einstellung zurücksetzen."
 
 #: views.py:150
 msgid "Unsaved changes will be lost."

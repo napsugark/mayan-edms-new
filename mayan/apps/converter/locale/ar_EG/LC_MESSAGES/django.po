@@ -10,6 +10,8 @@
 # Roberto Rosario, 2024
 # Yaman Sanobar <yman.snober@gmail.com>, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
+# Mohamad Ashmar, 2025
+# Hany salah, 2025
 # 
 msgid ""
 msgstr ""
@@ -17,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:28+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2024\n"
+"Last-Translator: Hany salah, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -132,7 +134,7 @@ msgstr "تحديد جديد"
 
 #: model_mixins.py:120
 msgid "Badly formatted arguments YAML"
-msgstr ""
+msgstr "وسائط YAML ذات تنسيق غير صحيح"
 
 #: model_mixins.py:131 models.py:168
 msgid "Arguments"
@@ -333,7 +335,7 @@ msgstr ""
 
 #: settings.py:104
 msgid "Whether or not to load truncated image files."
-msgstr ""
+msgstr "ما إذا كان سيتم تحميل ملفات الصور المقطوعة أم لا"
 
 #: storages.py:15
 msgid ""
@@ -586,15 +588,15 @@ msgstr "نسخة مطابقة"
 
 #: transformations.py:587
 msgid "Draw a QRCode (percent coordinates)"
-msgstr ""
+msgstr "رسم رمز QR (إحداثيات نسبية)"
 
 #: transformations.py:597
 msgid "Value to encode in the QRCode."
-msgstr ""
+msgstr "القيمة المراد ترميزها في رمز QR"
 
 #: transformations.py:598
 msgid "Code value"
-msgstr ""
+msgstr "قيمة الرمز"
 
 #: transformations.py:623
 msgid "Resize"
@@ -677,12 +679,12 @@ msgstr "حذف الطلب  %(count)d"
 #: views/asset_views.py:58
 msgid "Delete the selected asset?"
 msgid_plural "Delete the selected assets?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "حذف الأصول المحددة؟"
+msgstr[1] "حذف الأصل المحددة؟"
+msgstr[2] "حذف الأصول المحددة؟"
+msgstr[3] "حذف الأصول المحددة؟"
+msgstr[4] "حذف الأصول المحددة؟"
+msgstr[5] "حذف الأصول المحددة؟"
 
 #: views/asset_views.py:69
 #, python-format
@@ -797,6 +799,8 @@ msgid ""
 "a YAML dictionary. ie: {\"degrees\": 180}. The document version page is "
 "available as {{ document_version_page }}."
 msgstr ""
+"أدخل قالبًا سيولد وسائط التحويل كقاموس YAML. مثال: {\"degrees\": 180}. صفحة "
+"إصدار الوثيقة متاحة كـ {{ document_version_page }}."
 
 #: workflow_actions.py:63
 msgid "Add transformation"

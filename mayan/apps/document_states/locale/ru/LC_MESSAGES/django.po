@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"POT-Creation-Date: 2025-08-07 22:22+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: Ilya Pavlov <spirkaa@gmail.com>, 2024\n"
 "Language-Team: Russian (https://app.transifex.com/rosarior/teams/13584/ru/)\n"
@@ -28,7 +28,7 @@ msgstr ""
 #: apps.py:95 apps.py:148 events.py:6 forms/workflow_template_forms.py:20
 #: links.py:50 links.py:90 links.py:98 links.py:287 links.py:311
 #: models/workflow_models.py:60 queues.py:11 settings.py:14
-#: views/workflow_proxy_views.py:70 views/workflow_template_views.py:284
+#: views/workflow_proxy_views.py:70 views/workflow_template_views.py:293
 #: workflow_actions.py:129 workflow_actions.py:143
 msgid "Workflows"
 msgstr "Рабочие процессы"
@@ -242,7 +242,7 @@ msgstr "Включено"
 msgid "Event trigger: %s"
 msgstr "Триггер: %s"
 
-#: links.py:56 views/workflow_template_views.py:138
+#: links.py:56 views/workflow_template_views.py:147
 msgid "Create workflow"
 msgstr "Создать рабочий процесс"
 
@@ -1353,16 +1353,16 @@ msgstr ""
 "некоторым документам, когда выбрано несколько документов, будут "
 "автоматически пропущены."
 
-#: views/workflow_template_views.py:112
+#: views/workflow_template_views.py:121
 msgid "Workflows to be launched."
 msgstr "Рабочие процессы, которые должны быть запущены."
 
-#: views/workflow_template_views.py:154
+#: views/workflow_template_views.py:163
 #, python-format
 msgid "Error deleting workflow \"%(instance)s\"; %(exception)s"
 msgstr "Ошибка при удалении рабочего процесса \"%(instance)s\": %(exception)s"
 
-#: views/workflow_template_views.py:163
+#: views/workflow_template_views.py:172
 #, python-format
 msgid "%(count)d workflows deleted successfully."
 msgstr "%(count)d рабочих процессов удалено."
@@ -1372,44 +1372,44 @@ msgstr "%(count)d рабочих процессов удалено."
 msgid "Workflow \"%(object)s\" deleted successfully."
 msgstr "Рабочий процесс \"%(object)s\"  удален."
 
-#: views/workflow_template_views.py:169
+#: views/workflow_template_views.py:178
 #, python-format
 msgid "%(count)d workflow deleted successfully."
 msgstr "%(count)d рабочий процесс удален."
 
-#: views/workflow_template_views.py:171
+#: views/workflow_template_views.py:180
 #, python-format
 msgid "Delete the %(count)d selected workflows."
 msgstr "Удалить %(count)d выбранных рабочих процессов."
 
-#: views/workflow_template_views.py:172
+#: views/workflow_template_views.py:181
 #, python-format
 msgid "Delete workflow: %(object)s."
 msgstr "Удалить рабочий процесс: %(object)s."
 
-#: views/workflow_template_views.py:173
+#: views/workflow_template_views.py:182
 #, python-format
 msgid "Delete the %(count)d selected workflow."
 msgstr "Удалить %(count)d выбранный рабочий процесс."
 
-#: views/workflow_template_views.py:179
+#: views/workflow_template_views.py:188
 msgid "All workflow instances will also be deleted."
 msgstr "Все экземпляры рабочего процесса также будут удалены."
 
-#: views/workflow_template_views.py:199
+#: views/workflow_template_views.py:208
 #, python-format
 msgid "Edit workflow: %s"
 msgstr "Редактировать рабочий процесс: %s"
 
-#: views/workflow_template_views.py:207
+#: views/workflow_template_views.py:216
 msgid "Document types assigned this workflow"
 msgstr "Типы документов, которым назначен этот рабочий процесс"
 
-#: views/workflow_template_views.py:208
+#: views/workflow_template_views.py:217
 msgid "Available document types"
 msgstr "Доступные типы документов"
 
-#: views/workflow_template_views.py:226
+#: views/workflow_template_views.py:235
 msgid ""
 "Removing a document type from a workflow will also remove all running "
 "instances of that workflow for documents of the document type just removed."
@@ -1418,25 +1418,25 @@ msgstr ""
 "запущенных экземпляров этого рабочего процесса для документов только что "
 "удаленного типа документа."
 
-#: views/workflow_template_views.py:231
+#: views/workflow_template_views.py:240
 #, python-format
 msgid "Document types assigned the workflow: %s"
 msgstr "Типы документов, которым назначен рабочий процесс: %s"
 
-#: views/workflow_template_views.py:245
+#: views/workflow_template_views.py:254
 msgid ""
 "This will launch the workflow for documents that have already been uploaded."
 msgstr "Это запустит рабочий процесс для уже загруженных документов."
 
-#: views/workflow_template_views.py:248
+#: views/workflow_template_views.py:257
 msgid "Launch workflow?"
 msgstr "Запустить рабочий процесс?"
 
-#: views/workflow_template_views.py:259 views/workflow_template_views.py:319
+#: views/workflow_template_views.py:268 views/workflow_template_views.py:328
 msgid "Workflow launch queued successfully."
 msgstr "Рабочий процесс поставлен в очередь на запуск."
 
-#: views/workflow_template_views.py:277
+#: views/workflow_template_views.py:286
 msgid ""
 "Workflows store a series of states and keep track of the current state of a "
 "document. Transitions are used to change the current state to a new one."
@@ -1444,16 +1444,16 @@ msgstr ""
 "Рабочие процессы хранят серию состояний и отслеживают текущее состояние "
 "документа. Переходы используются для изменения текущего состояния на новое."
 
-#: views/workflow_template_views.py:282
+#: views/workflow_template_views.py:291
 msgid "No workflows have been defined"
 msgstr "Рабочие процессы не определены"
 
-#: views/workflow_template_views.py:299
+#: views/workflow_template_views.py:308
 #, python-format
 msgid "Preview of: %s"
 msgstr "Предпросмотр рабочего процесса: %s"
 
-#: views/workflow_template_views.py:306
+#: views/workflow_template_views.py:315
 msgid ""
 "This will launch all workflows created after documents have already been "
 "uploaded."
@@ -1461,7 +1461,7 @@ msgstr ""
 "Это запустит все рабочие процессы, созданные после того, как документы уже "
 "были загружены."
 
-#: views/workflow_template_views.py:309
+#: views/workflow_template_views.py:318
 msgid "Launch all workflows?"
 msgstr "Запустить все рабочие процессы?"
 

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"POT-Creation-Date: 2025-08-07 22:22+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: pyrotech <anastasios@tutamail.com>, 2024\n"
 "Language-Team: Greek (https://app.transifex.com/rosarior/teams/13584/el/)\n"
@@ -24,7 +24,7 @@ msgstr ""
 #: apps.py:95 apps.py:148 events.py:6 forms/workflow_template_forms.py:20
 #: links.py:50 links.py:90 links.py:98 links.py:287 links.py:311
 #: models/workflow_models.py:60 queues.py:11 settings.py:14
-#: views/workflow_proxy_views.py:70 views/workflow_template_views.py:284
+#: views/workflow_proxy_views.py:70 views/workflow_template_views.py:293
 #: workflow_actions.py:129 workflow_actions.py:143
 msgid "Workflows"
 msgstr "Ροές εργασίας"
@@ -238,7 +238,7 @@ msgstr "Ενεργοποιημένο"
 msgid "Event trigger: %s"
 msgstr "Εκκίνηση συμβάντος: %s"
 
-#: links.py:56 views/workflow_template_views.py:138
+#: links.py:56 views/workflow_template_views.py:147
 msgid "Create workflow"
 msgstr "Δημιουργία ροής εργασίας"
 
@@ -1347,16 +1347,16 @@ msgstr ""
 "εργασίας που δεν ισχύουν για ορισμένα έγγραφα όταν έχουν επιλεγεί πολλαπλά "
 "έγγραφα."
 
-#: views/workflow_template_views.py:112
+#: views/workflow_template_views.py:121
 msgid "Workflows to be launched."
 msgstr "Ροές εργασίας που θα εκκινήσουν."
 
-#: views/workflow_template_views.py:154
+#: views/workflow_template_views.py:163
 #, python-format
 msgid "Error deleting workflow \"%(instance)s\"; %(exception)s"
 msgstr ""
 
-#: views/workflow_template_views.py:163
+#: views/workflow_template_views.py:172
 #, python-format
 msgid "%(count)d workflows deleted successfully."
 msgstr ""
@@ -1366,44 +1366,44 @@ msgstr ""
 msgid "Workflow \"%(object)s\" deleted successfully."
 msgstr ""
 
-#: views/workflow_template_views.py:169
+#: views/workflow_template_views.py:178
 #, python-format
 msgid "%(count)d workflow deleted successfully."
 msgstr ""
 
-#: views/workflow_template_views.py:171
+#: views/workflow_template_views.py:180
 #, python-format
 msgid "Delete the %(count)d selected workflows."
 msgstr ""
 
-#: views/workflow_template_views.py:172
+#: views/workflow_template_views.py:181
 #, python-format
 msgid "Delete workflow: %(object)s."
 msgstr ""
 
-#: views/workflow_template_views.py:173
+#: views/workflow_template_views.py:182
 #, python-format
 msgid "Delete the %(count)d selected workflow."
 msgstr ""
 
-#: views/workflow_template_views.py:179
+#: views/workflow_template_views.py:188
 msgid "All workflow instances will also be deleted."
 msgstr "Θα διαγραφούν επίσης και όλα τα στιγμιότυπα ροών εργασίας."
 
-#: views/workflow_template_views.py:199
+#: views/workflow_template_views.py:208
 #, python-format
 msgid "Edit workflow: %s"
 msgstr "Τροποποίηση ροής εργασίας: %s"
 
-#: views/workflow_template_views.py:207
+#: views/workflow_template_views.py:216
 msgid "Document types assigned this workflow"
 msgstr "Τύποι εγγράφων εκχωρημένοι σε αυτή την ροή εργασίας "
 
-#: views/workflow_template_views.py:208
+#: views/workflow_template_views.py:217
 msgid "Available document types"
 msgstr "Διαθέσιμοι τύποι εγγράφων"
 
-#: views/workflow_template_views.py:226
+#: views/workflow_template_views.py:235
 msgid ""
 "Removing a document type from a workflow will also remove all running "
 "instances of that workflow for documents of the document type just removed."
@@ -1412,25 +1412,25 @@ msgstr ""
 "όλα τα τρέχοντα στιγμιότυπα αυτής της ροής εργασίας για έγγραφα του τύπου "
 "εγγράφου που μόλις καταργήθηκαν."
 
-#: views/workflow_template_views.py:231
+#: views/workflow_template_views.py:240
 #, python-format
 msgid "Document types assigned the workflow: %s"
 msgstr "Τύποι εγγράφου εκχωρημένοι στη ροή εργασίας: %s"
 
-#: views/workflow_template_views.py:245
+#: views/workflow_template_views.py:254
 msgid ""
 "This will launch the workflow for documents that have already been uploaded."
 msgstr "Αυτό θα εκκινήσει τη ροή εργασίας για έγγραφα που έχουν ήδη φορτωθεί."
 
-#: views/workflow_template_views.py:248
+#: views/workflow_template_views.py:257
 msgid "Launch workflow?"
 msgstr "Εκκίνηση ροής εργασίας;"
 
-#: views/workflow_template_views.py:259 views/workflow_template_views.py:319
+#: views/workflow_template_views.py:268 views/workflow_template_views.py:328
 msgid "Workflow launch queued successfully."
 msgstr "Εκκίνηση ροών εργασίας προστέθηκε στην ουρά αναμονής με επιτυχία. "
 
-#: views/workflow_template_views.py:277
+#: views/workflow_template_views.py:286
 msgid ""
 "Workflows store a series of states and keep track of the current state of a "
 "document. Transitions are used to change the current state to a new one."
@@ -1439,16 +1439,16 @@ msgstr ""
 "τρέχουσα κατάσταση ενός εγγράφου. Οι μεταβάσεις χρησιμοποιούνται για να "
 "αλλάξουν την τρέχουσα κατάσταση σε νέα."
 
-#: views/workflow_template_views.py:282
+#: views/workflow_template_views.py:291
 msgid "No workflows have been defined"
 msgstr "Δεν έχουν καθοριστεί ροές εργασίας"
 
-#: views/workflow_template_views.py:299
+#: views/workflow_template_views.py:308
 #, python-format
 msgid "Preview of: %s"
 msgstr "Προεπισκόπηση του: %s"
 
-#: views/workflow_template_views.py:306
+#: views/workflow_template_views.py:315
 msgid ""
 "This will launch all workflows created after documents have already been "
 "uploaded."
@@ -1456,7 +1456,7 @@ msgstr ""
 "Αυτό θα εκκινήσει όλες τις ροές εργασίας που έχουν δημιουργηθεί μετά την "
 "φόρτωση εγγράφων."
 
-#: views/workflow_template_views.py:309
+#: views/workflow_template_views.py:318
 msgid "Launch all workflows?"
 msgstr "Εκκίνηση όλων των ροών εργασίας;"
 

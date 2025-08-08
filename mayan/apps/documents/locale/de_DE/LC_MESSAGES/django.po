@@ -18,7 +18,7 @@
 # Thomas Lauterbach <lauterbachthomas@googlemail.com>, 2024
 # Roberto Rosario, 2024
 # Berny <berny@bernhard-marx.de>, 2024
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -26,7 +26,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1121,7 +1121,7 @@ msgstr "Dokumente schnell"
 
 #: queues.py:17
 msgid "Documents slow"
-msgstr ""
+msgstr "Dokumente langsam"
 
 #: queues.py:20
 msgid "Documents file"
@@ -1153,7 +1153,7 @@ msgstr "Neue Dokumentendatei hochladen"
 
 #: queues.py:49
 msgid "Move a document to the trash"
-msgstr ""
+msgstr "Ein Dokument in den Papierkorb verschieben"
 
 #: queues.py:53
 msgid "Upload new document"
@@ -1221,7 +1221,7 @@ msgstr "Eine Dokumentenversion löschen"
 
 #: search.py:31
 msgid "The database ID of the document type."
-msgstr ""
+msgstr "Die Datenbank-ID des Dokumententyps."
 
 #: search.py:32 serializers/document_serializers.py:32
 #: serializers/document_serializers.py:78
@@ -1238,7 +1238,7 @@ msgstr "Dokumentenbeschreibung"
 
 #: search.py:73 search.py:145
 msgid "The database ID of the document."
-msgstr ""
+msgstr "Die Datenbank-ID des Dokuments."
 
 #: search.py:74 search.py:146 serializers/favorite_document_serializers.py:17
 msgid "Document ID"
@@ -1571,7 +1571,7 @@ msgstr "Dokumentenseitenvorschau"
 
 #: templates/documents/errors/document_file_has_no_pages.html:5
 msgid "No file pages"
-msgstr ""
+msgstr "Keine Dateiseiten"
 
 #: templates/documents/errors/document_file_page_transformation_error.html:5
 msgid "Document file page transformation error"
@@ -1958,11 +1958,11 @@ msgstr "Seiten von Dokumentenversion %s wiederzuordnen"
 
 #: views/document_version_page_views.py:311
 msgid "There are no more pages in this document."
-msgstr ""
+msgstr "Keine weiteren Seiten in diesem Dokument"
 
 #: views/document_version_page_views.py:327
 msgid "You are already at the first page of this document."
-msgstr ""
+msgstr "Sie sind bereits auf der ersten Seite dieses Dokuments."
 
 #: views/document_version_views.py:63
 #, python-format
@@ -2129,18 +2129,18 @@ msgstr "Keine Dokumente vorhanden"
 #: views/document_views.py:85
 #, python-format
 msgid "Document type change request performed on %(count)d document."
-msgstr ""
+msgstr "Dokumententyp geändert für %(count)d Dokument."
 
 #: views/document_views.py:89
 #, python-format
 msgid "Document type change request performed on %(count)d documents."
-msgstr ""
+msgstr "Dokumententyp geändert für %(count)d Dokumente."
 
 #: views/document_views.py:97
 msgid "Change the type of the selected document."
 msgid_plural "Change the type of the selected documents."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Typ des ausgewählten Dokuments ändern."
+msgstr[1] "Typ der ausgewählten Dokumente ändern."
 
 #: views/document_views.py:108
 #, python-format
@@ -2246,11 +2246,12 @@ msgstr "Keine kürzlich erstellten Dokumente vorhanden"
 #, python-format
 msgid "Document \"%(object)s\" queued for trashing."
 msgstr ""
+"Dokument %(object)s in die Warteschlange für den Papierkorb eingestellt."
 
 #: views/trashed_document_views.py:43 views/trashed_document_views.py:46
 #, python-format
 msgid "%(count)d documents queued for trashing."
-msgstr ""
+msgstr "%(count)d Dokumente in die Papierkorbwarteschlange eingereiht"
 
 #: views/trashed_document_views.py:48
 #, python-format

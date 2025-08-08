@@ -15,9 +15,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
+"POT-Creation-Date: 2025-08-07 16:19+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2024\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -441,22 +441,18 @@ msgstr "الإجراءات"
 msgid "Select/Deselect all"
 msgstr "تحديد/عدم تحديد الكل"
 
-#: templates/appearance/partials/list/toolbar.html:18
+#: templates/appearance/partials/list/toolbar.html:22
 msgid "Toggle list display mode"
 msgstr "طريقة العرض "
 
-#: templates/appearance/partials/list/toolbar.html:31
+#: templates/appearance/partials/list/toolbar.html:34
 msgid ""
 "Select items to activate bulk actions. Use Shift + click to select many."
 msgstr "تحديد الكل ، يرجى الضغط على زر Sheft+ اختيار العناصر المراد تحديدها"
 
-#: templates/appearance/partials/list/toolbar.html:36
+#: templates/appearance/partials/list/toolbar.html:38
 msgid "Bulk actions"
 msgstr "الإعدادات "
-
-#: templates/appearance/partials/list/toolbar.html:38
-msgid "Toggle Dropdown"
-msgstr "تغير القائمة المنسدلة"
 
 #: templates/appearance/partials/sidebar.html:17
 msgid "Object"

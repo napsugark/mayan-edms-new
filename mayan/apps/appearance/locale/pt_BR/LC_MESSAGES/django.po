@@ -7,21 +7,21 @@
 # José Samuel Facundo da Silva <samuel.facundo@ufca.edu.br>, 2024
 # Roberto Rosario, 2024
 # Rogerio Falcone <rogerio@falconeit.com.br>, 2024
-# Daniel Flores (PhD.) <dfloresbr@gmail.com>, 2024
 # Aline Freitas <aline@alinefreitas.com.br>, 2024
 # 425fe09b3064b9f906f637fff94056ae_a00ea56 <0fa3588fa89906bfcb3a354600956e0e_308047>, 2024
 # Emerson Soares <on.emersonsoares@gmail.com>, 2024
 # Márcia Ferreira, 2024
 # Bruno Martins <bruno.martins@bewgpt.com.pt>, 2024
 # Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2024
+# Daniel Flores <dfloresbr@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
+"POT-Creation-Date: 2025-08-07 16:19+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2024\n"
+"Last-Translator: Daniel Flores <dfloresbr@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rosarior/teams/13584/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -443,24 +443,20 @@ msgstr "Ações"
 msgid "Select/Deselect all"
 msgstr "Selecionar/Desmarcar todos"
 
-#: templates/appearance/partials/list/toolbar.html:18
+#: templates/appearance/partials/list/toolbar.html:22
 msgid "Toggle list display mode"
 msgstr "Alternar modo de exibição de lista"
 
-#: templates/appearance/partials/list/toolbar.html:31
+#: templates/appearance/partials/list/toolbar.html:34
 msgid ""
 "Select items to activate bulk actions. Use Shift + click to select many."
 msgstr ""
 "Selecione os itens para ativar ações em lote. Use Shift + click para "
 "selecionar vários."
 
-#: templates/appearance/partials/list/toolbar.html:36
+#: templates/appearance/partials/list/toolbar.html:38
 msgid "Bulk actions"
 msgstr "Ações em lote"
-
-#: templates/appearance/partials/list/toolbar.html:38
-msgid "Toggle Dropdown"
-msgstr "Mostrar/esconder menu"
 
 #: templates/appearance/partials/sidebar.html:17
 msgid "Object"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-04 06:20+0000\n"
+"POT-Creation-Date: 2025-08-07 16:19+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: Mario Jakovina <mario.jakovina@gmail.com>, 2024\n"
 "Language-Team: Croatian (https://app.transifex.com/rosarior/teams/13584/hr/)\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
-#: apps.py:133 permissions.py:6 settings.py:15
+#: apps.py:149 permissions.py:6 settings.py:15
 msgid "Common"
 msgstr ""
 

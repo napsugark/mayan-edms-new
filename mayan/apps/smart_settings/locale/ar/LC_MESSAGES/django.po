@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-04 06:21+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2024\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -526,17 +526,17 @@ msgstr "تم استعادة قيمة %(count)d إعداد."
 #: views.py:136
 #, python-format
 msgid "Revert the value of the %(count)d selected settings."
-msgstr ""
+msgstr "استعادة قيمة الإعدادات المحددة %(count)d."
 
 #: views.py:138
 #, python-format
 msgid "Revert the value of setting: %(object)s"
-msgstr ""
+msgstr "استعادة قيمة الإعداد: %(object)s"
 
 #: views.py:140
 #, python-format
 msgid "Revert the value of %(count)d selected setting."
-msgstr ""
+msgstr "استعادة قيمة الإعداد المحدد %(count)d."
 
 #: views.py:150
 msgid "Unsaved changes will be lost."

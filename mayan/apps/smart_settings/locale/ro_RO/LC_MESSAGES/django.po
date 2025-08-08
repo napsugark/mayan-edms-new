@@ -6,7 +6,7 @@
 # Translators:
 # Roberto Rosario, 2024
 # Stefaniu Criste <gupi@hangar.ro>, 2024
-# Harald Ersch, 2024
+# Harald Ersch, 2025
 # 
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-04 06:21+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Harald Ersch, 2024\n"
+"Last-Translator: Harald Ersch, 2025\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/rosarior/teams/13584/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -662,17 +662,17 @@ msgstr "Valoarea setării %(count)d a fost adusă la valoarea inițială."
 #: views.py:136
 #, python-format
 msgid "Revert the value of the %(count)d selected settings."
-msgstr ""
+msgstr "Reveniți la valoarea setărilor selectate pentru %(count)d ."
 
 #: views.py:138
 #, python-format
 msgid "Revert the value of setting: %(object)s"
-msgstr ""
+msgstr "Reveniți la valoarea setării: %(object)s"
 
 #: views.py:140
 #, python-format
 msgid "Revert the value of %(count)d selected setting."
-msgstr ""
+msgstr "Reveniți la valoarea setării selectate %(count)d ."
 
 #: views.py:150
 msgid "Unsaved changes will be lost."

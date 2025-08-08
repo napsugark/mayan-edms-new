@@ -9,19 +9,19 @@
 # Berny <berny@bernhard-marx.de>, 2024
 # tetjarediske <tetja.rediske@googlemail.com>, 2024
 # Tobias Paepke <tobias.paepke@paepke.net>, 2024
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
 # Marvin Haschker <marvin@haschker.me>, 2024
 # Roberto Rosario, 2024
 # Niklas Maurer <niklas.maurer@web.energy>, 2024
 # Björn E <b1pum@web.de>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
+"POT-Creation-Date: 2025-08-07 16:19+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Björn E <b1pum@web.de>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Austria) (https://app.transifex.com/rosarior/teams/13584/de_AT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -459,24 +459,20 @@ msgstr "Aktionen"
 msgid "Select/Deselect all"
 msgstr "Alle auswählen/abwählen"
 
-#: templates/appearance/partials/list/toolbar.html:18
+#: templates/appearance/partials/list/toolbar.html:22
 msgid "Toggle list display mode"
 msgstr "Listenanzeigemodus umschalten"
 
-#: templates/appearance/partials/list/toolbar.html:31
+#: templates/appearance/partials/list/toolbar.html:34
 msgid ""
 "Select items to activate bulk actions. Use Shift + click to select many."
 msgstr ""
 "Wählen Sie Elemente aus, um Massenaktionen zu aktivieren. Verwenden Sie die "
 "Umschalttaste + Klick, um mehrere auszuwählen."
 
-#: templates/appearance/partials/list/toolbar.html:36
+#: templates/appearance/partials/list/toolbar.html:38
 msgid "Bulk actions"
 msgstr "Massenaktionen"
-
-#: templates/appearance/partials/list/toolbar.html:38
-msgid "Toggle Dropdown"
-msgstr "Ausklappmenü ein-/ausschalten"
 
 #: templates/appearance/partials/sidebar.html:17
 msgid "Object"

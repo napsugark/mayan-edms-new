@@ -7,7 +7,7 @@
 # Rogerio Falcone <rogerio@falconeit.com.br>, 2024
 # Renata Oliveira <renatabels@gmail.com>, 2024
 # Bruno Martins <bruno.martins@bewgpt.com.pt>, 2024
-# Rodrigo de Almeida Sottomaior Macedo <sottomaiormacedotec@gmail.com>, 2024
+# Rodrigo Sottomaior Macedo <sottomaiormacedotec@sottomaiormacedo.tech>, 2024
 # Emerson Soares <on.emersonsoares@gmail.com>, 2024
 # José Samuel Facundo da Silva <samuel.facundo@ufca.edu.br>, 2024
 # Roberto Rosario, 2024

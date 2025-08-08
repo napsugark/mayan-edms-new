@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
+"POT-Creation-Date: 2025-08-07 16:19+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: Māris Teivāns <maris.teivans@gmail.com>, 2024\n"
 "Language-Team: Latvian (https://app.transifex.com/rosarior/teams/13584/lv/)\n"
@@ -425,24 +425,20 @@ msgstr "Darbības"
 msgid "Select/Deselect all"
 msgstr "Atlasīt / noņemt atlasi visiem"
 
-#: templates/appearance/partials/list/toolbar.html:18
+#: templates/appearance/partials/list/toolbar.html:22
 msgid "Toggle list display mode"
 msgstr "Pārslēgt saraksta skata režīmu"
 
-#: templates/appearance/partials/list/toolbar.html:31
+#: templates/appearance/partials/list/toolbar.html:34
 msgid ""
 "Select items to activate bulk actions. Use Shift + click to select many."
 msgstr ""
 "Atlasiet vienumus, lai aktivizētu lielapjoma darbības. Izmantojiet taustiņu "
 "kombināciju Shift + noklikšķiniet, lai atlasītu daudzus."
 
-#: templates/appearance/partials/list/toolbar.html:36
+#: templates/appearance/partials/list/toolbar.html:38
 msgid "Bulk actions"
 msgstr "Lielapjoma darbības"
-
-#: templates/appearance/partials/list/toolbar.html:38
-msgid "Toggle Dropdown"
-msgstr "Toggle Dropdown"
 
 #: templates/appearance/partials/sidebar.html:17
 msgid "Object"

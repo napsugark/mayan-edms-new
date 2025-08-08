@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
+"POT-Creation-Date: 2025-08-07 16:19+0000\n"
 "PO-Revision-Date: 2020-04-08 04:06+0000\n"
 "Last-Translator: Roberto Rosario\n"
 "Language-Team: English (http://www.transifex.com/rosarior/mayan-edms/"
@@ -415,21 +415,17 @@ msgstr ""
 msgid "Select/Deselect all"
 msgstr ""
 
-#: templates/appearance/partials/list/toolbar.html:18
+#: templates/appearance/partials/list/toolbar.html:22
 msgid "Toggle list display mode"
 msgstr ""
 
-#: templates/appearance/partials/list/toolbar.html:31
+#: templates/appearance/partials/list/toolbar.html:34
 msgid ""
 "Select items to activate bulk actions. Use Shift + click to select many."
 msgstr ""
 
-#: templates/appearance/partials/list/toolbar.html:36
-msgid "Bulk actions"
-msgstr ""
-
 #: templates/appearance/partials/list/toolbar.html:38
-msgid "Toggle Dropdown"
+msgid "Bulk actions"
 msgstr ""
 
 #: templates/appearance/partials/sidebar.html:17

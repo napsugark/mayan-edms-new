@@ -18,9 +18,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"POT-Creation-Date: 2025-08-07 22:22+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2024\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +31,7 @@ msgstr ""
 #: apps.py:95 apps.py:148 events.py:6 forms/workflow_template_forms.py:20
 #: links.py:50 links.py:90 links.py:98 links.py:287 links.py:311
 #: models/workflow_models.py:60 queues.py:11 settings.py:14
-#: views/workflow_proxy_views.py:70 views/workflow_template_views.py:284
+#: views/workflow_proxy_views.py:70 views/workflow_template_views.py:293
 #: workflow_actions.py:129 workflow_actions.py:143
 msgid "Workflows"
 msgstr "المسارات"
@@ -195,11 +195,11 @@ msgstr "إجراء"
 
 #: forms/workflow_template_transition_field_forms.py:13
 msgid "Basic"
-msgstr ""
+msgstr "أساسي"
 
 #: forms/workflow_template_transition_field_forms.py:17
 msgid "Field"
-msgstr ""
+msgstr "مجال"
 
 #: forms/workflow_template_transition_field_forms.py:21
 msgid "Value"
@@ -240,7 +240,7 @@ msgstr "مفعل"
 msgid "Event trigger: %s"
 msgstr "مشغل الحدث: %s"
 
-#: links.py:56 views/workflow_template_views.py:138
+#: links.py:56 views/workflow_template_views.py:147
 msgid "Create workflow"
 msgstr "إنشاء المسار"
 
@@ -569,11 +569,11 @@ msgstr "خطأ في قيمة البحث: %s"
 
 #: models/workflow_transition_field_model_mixins.py:110
 msgid "Has a default?"
-msgstr ""
+msgstr "هل يوجد إعداد افتراضي؟"
 
 #: models/workflow_transition_field_model_mixins.py:118
 msgid "Has a lookup?"
-msgstr ""
+msgstr "هل لديك بحث؟"
 
 #: models/workflow_transition_field_model_mixins.py:129
 msgid "Value is not one of the provided options."
@@ -592,7 +592,7 @@ msgstr "اسم الحقل الذي سيظهر على واجهة المستخدم
 
 #: models/workflow_transition_field_models.py:48
 msgid "Optional default value for the field. Can be a template."
-msgstr ""
+msgstr "قيمة افتراضية اختيارية للحقل. يمكن أن تكون قالبًا."
 
 #: models/workflow_transition_field_models.py:49
 msgid "Default"
@@ -620,7 +620,7 @@ msgstr "نص المساعدة"
 
 #: models/workflow_transition_field_models.py:65
 msgid "Whether this field needs to be filled out or not to proceed."
-msgstr ""
+msgstr "ما إذا كان هذا الحقل يحتاج إلى ملئه أم لا للمتابعة."
 
 #: models/workflow_transition_field_models.py:67
 msgid "Required"
@@ -849,7 +849,7 @@ msgstr "عنوان URL لأنواع المستندات"
 #: serializers/workflow_template_serializers.py:28
 #: serializers/workflow_template_state_serializers.py:23
 msgid "Documents URL"
-msgstr ""
+msgstr "رابط المستندات"
 
 #: serializers/workflow_template_serializers.py:33
 msgid "Image URL"
@@ -1121,7 +1121,7 @@ msgstr ""
 
 #: views/workflow_template_state_escalation_views.py:156
 msgid "There are no escalations for this workflow state."
-msgstr ""
+msgstr "لا توجد تصعيدات لحالة سير العمل هذه."
 
 #: views/workflow_template_state_escalation_views.py:159
 #, python-format
@@ -1255,7 +1255,7 @@ msgstr "تعديل انتقال المسار: %s"
 #: views/workflow_template_transition_views.py:146
 msgid ""
 "Create a transition and use it to move a workflow from one state to another."
-msgstr ""
+msgstr "إنشاء انتقال واستخدامه لنقل سير العمل من حالة إلى أخرى."
 
 #: views/workflow_template_transition_views.py:150
 msgid "This workflow doesn't have any transitions"
@@ -1330,108 +1330,108 @@ msgstr ""
 "سيتم تجاهل المسارات التي تم تشغيلها بالفعل ! للتأكد من مطابقة المسارات "
 "المحددة للوثائق"
 
-#: views/workflow_template_views.py:112
+#: views/workflow_template_views.py:121
 msgid "Workflows to be launched."
 msgstr "سيتم تفعيل المسارات"
 
-#: views/workflow_template_views.py:154
-#, python-format
-msgid "Error deleting workflow \"%(instance)s\"; %(exception)s"
-msgstr ""
-
 #: views/workflow_template_views.py:163
-#, python-format
-msgid "%(count)d workflows deleted successfully."
-msgstr ""
-
-#: views/workflow_template_views.py:166
 #, python-format
 msgid "Error deleting workflow \"%(instance)s\"; %(exception)s"
 msgstr "خطأ في حذف سير العمل \"%(instance)s%(exception)s"
 
-#: views/workflow_template_views.py:169
-#, python-format
-msgid "%(count)d workflow deleted successfully."
-msgstr ""
-
-#: views/workflow_template_views.py:171
-#, python-format
-msgid "Delete the %(count)d selected workflows."
-msgstr ""
-
 #: views/workflow_template_views.py:172
 #, python-format
-msgid "Delete workflow: %(object)s."
-msgstr ""
+msgid "%(count)d workflows deleted successfully."
+msgstr "%(count)dتم حذف سير العمل بنجاح."
 
-#: views/workflow_template_views.py:173
+#: views/workflow_template_views.py:175
+#, python-format
+msgid "Workflow \"%(object)s\" deleted successfully."
+msgstr "سير العمل%(object)s"
+
+#: views/workflow_template_views.py:178
+#, python-format
+msgid "%(count)d workflow deleted successfully."
+msgstr "%(count)dتم حذف سير العمل بنجاح."
+
+#: views/workflow_template_views.py:180
+#, python-format
+msgid "Delete the %(count)d selected workflows."
+msgstr "حذف%(count)dمهام سير العمل المحددة."
+
+#: views/workflow_template_views.py:181
+#, python-format
+msgid "Delete workflow: %(object)s."
+msgstr "حذف سير العمل: .%(object)s"
+
+#: views/workflow_template_views.py:182
 #, python-format
 msgid "Delete the %(count)d selected workflow."
-msgstr ""
+msgstr "حذف سير العمل المحدد.%(count)d"
 
-#: views/workflow_template_views.py:179
+#: views/workflow_template_views.py:188
 msgid "All workflow instances will also be deleted."
 msgstr "سيتم حذف جميع حالات المسار."
 
-#: views/workflow_template_views.py:199
+#: views/workflow_template_views.py:208
 #, python-format
 msgid "Edit workflow: %s"
 msgstr "تعديل المسار: %s"
 
-#: views/workflow_template_views.py:207
+#: views/workflow_template_views.py:216
 msgid "Document types assigned this workflow"
 msgstr "أنواع الوثائق المحددة بمسار"
 
-#: views/workflow_template_views.py:208
+#: views/workflow_template_views.py:217
 msgid "Available document types"
 msgstr "أنواع الوثائق المتاحة"
 
-#: views/workflow_template_views.py:226
+#: views/workflow_template_views.py:235
 msgid ""
 "Removing a document type from a workflow will also remove all running "
 "instances of that workflow for documents of the document type just removed."
 msgstr "سيقوم النظام بالغاء جميع المسارات للوثيقة والوثائق المرتبطة "
 
-#: views/workflow_template_views.py:231
+#: views/workflow_template_views.py:240
 #, python-format
 msgid "Document types assigned the workflow: %s"
 msgstr "أنواع الوثائق المحددة بمسار: %s"
 
-#: views/workflow_template_views.py:245
+#: views/workflow_template_views.py:254
 msgid ""
 "This will launch the workflow for documents that have already been uploaded."
 msgstr "سيؤدي هذا إلى  تشغيل المسار للمستندات التي تم تحميلها بالفعل."
 
-#: views/workflow_template_views.py:248
+#: views/workflow_template_views.py:257
 msgid "Launch workflow?"
 msgstr "تشغيل المسار؟"
 
-#: views/workflow_template_views.py:259 views/workflow_template_views.py:319
+#: views/workflow_template_views.py:268 views/workflow_template_views.py:328
 msgid "Workflow launch queued successfully."
 msgstr "تشغيل المسار في قائمة الانتظار "
 
-#: views/workflow_template_views.py:277
+#: views/workflow_template_views.py:286
 msgid ""
 "Workflows store a series of states and keep track of the current state of a "
 "document. Transitions are used to change the current state to a new one."
 msgstr "تغير المسارات للوثائق من الحالة الحالية الى الحالة الجديدة"
 
-#: views/workflow_template_views.py:282
+#: views/workflow_template_views.py:291
 msgid "No workflows have been defined"
 msgstr "لم يتم تحديد أية مسارات للوثيقة"
 
-#: views/workflow_template_views.py:299
+#: views/workflow_template_views.py:308
 #, python-format
 msgid "Preview of: %s"
 msgstr "معاينة: %s"
 
-#: views/workflow_template_views.py:306
+#: views/workflow_template_views.py:315
 msgid ""
 "This will launch all workflows created after documents have already been "
 "uploaded."
 msgstr "سيتم تفعيل المسارات على الوثيقة "
 
-#: views/workflow_template_views.py:309
+#: views/workflow_template_views.py:318
 msgid "Launch all workflows?"
 msgstr "تفعيل جميع المسارات؟"
 
@@ -1488,6 +1488,8 @@ msgid ""
 "Username to use for making the request with HTTP Basic Auth. The credential "
 "object is available as {{ credential }}."
 msgstr ""
+"اسم المستخدم المُستخدَم لتقديم الطلب باستخدام مصادقة HTTP الأساسية. كائن "
+"بيانات الاعتماد متاح كـ {{ credential }}."
 
 #: workflow_actions.py:207
 msgid "Password"
@@ -1498,6 +1500,8 @@ msgid ""
 "Password to use for making the request with HTTP Basic Auth. The credential "
 "object is available as {{ credential }}."
 msgstr ""
+"كلمة المرور المستخدمة لتقديم الطلب باستخدام مصادقة HTTP الأساسية. كائن "
+"بيانات الاعتماد متاح كـ {{ credential }}."
 
 #: workflow_actions.py:221
 msgid "Headers"
@@ -1508,6 +1512,8 @@ msgid ""
 "Headers to send with the HTTP request. Must be in JSON format. The "
 "credential object is available as {{ credential }}."
 msgstr ""
+"العناوين المُراد إرسالها مع طلب HTTP. يجب أن تكون بصيغة JSON. كائن بيانات "
+"الاعتماد متاح كـ {{ credential }}."
 
 #: workflow_actions.py:234
 msgid "Payload"
@@ -1527,19 +1533,19 @@ msgstr "الوقت بالثواني للانتظار للحصول على الر�
 
 #: workflow_actions.py:257
 msgid "Store response"
-msgstr ""
+msgstr "استجابة المتجر"
 
 #: workflow_actions.py:262
 msgid "Store the response in the workflow context."
-msgstr ""
+msgstr "قم بتخزين الاستجابة في سياق سير العمل."
 
 #: workflow_actions.py:267
 msgid "Response variable name"
-msgstr ""
+msgstr "اسم متغير الاستجابة"
 
 #: workflow_actions.py:272
 msgid "Variable used to store the response in the workflow instance context."
-msgstr ""
+msgstr "متغير يستخدم لتخزين الاستجابة في سياق مثيل سير العمل."
 
 #: workflow_actions.py:279
 msgid "Perform an HTTP request"
@@ -1547,11 +1553,11 @@ msgstr "نفذ طلب HTTP"
 
 #: workflow_actions.py:290
 msgid "Request"
-msgstr ""
+msgstr "طلب"
 
 #: workflow_actions.py:298
 msgid "Response"
-msgstr ""
+msgstr "إجابة"
 
 #: workflow_actions.py:319
 #, python-format

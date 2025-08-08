@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
+"POT-Creation-Date: 2025-08-07 16:19+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: yan songwei <yansw@vip.163.com>, 2024\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/rosarior/teams/13584/zh_TW/)\n"
@@ -421,22 +421,18 @@ msgstr "操作"
 msgid "Select/Deselect all"
 msgstr "全選/取消全選"
 
-#: templates/appearance/partials/list/toolbar.html:18
+#: templates/appearance/partials/list/toolbar.html:22
 msgid "Toggle list display mode"
 msgstr "切換列表顯示模式"
 
-#: templates/appearance/partials/list/toolbar.html:31
+#: templates/appearance/partials/list/toolbar.html:34
 msgid ""
 "Select items to activate bulk actions. Use Shift + click to select many."
 msgstr "選擇多個項目來啟用批次作業。使用Shift +單點滑鼠以選擇多個項目。"
 
-#: templates/appearance/partials/list/toolbar.html:36
+#: templates/appearance/partials/list/toolbar.html:38
 msgid "Bulk actions"
 msgstr "批次操作"
-
-#: templates/appearance/partials/list/toolbar.html:38
-msgid "Toggle Dropdown"
-msgstr "切換下拉選單"
 
 #: templates/appearance/partials/sidebar.html:17
 msgid "Object"

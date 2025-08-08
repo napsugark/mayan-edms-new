@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2024\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,19 +37,19 @@ msgstr "البحث"
 
 #: events.py:10
 msgid "Resultset created"
-msgstr ""
+msgstr "تم إنشاء مجموعة النتائج"
 
 #: forms.py:13
 msgid "Store the search results to speed up paging and for later browsing."
-msgstr ""
+msgstr "تخزين نتائج البحث لتسريع التصفح والاستعراض لاحقًا."
 
 #: forms.py:16
 msgid "Save results"
-msgstr ""
+msgstr "حفظ النتائج"
 
 #: forms.py:22
 msgid "Persistency"
-msgstr ""
+msgstr "الثبات"
 
 #: forms.py:38
 msgid "Match all"
@@ -70,11 +70,11 @@ msgstr "مصطلحات البحث"
 
 #: forms.py:111
 msgid "Criteria"
-msgstr ""
+msgstr "معايير"
 
 #: links.py:20 models.py:61 views/saved_resultset_views.py:72
 msgid "Saved resultsets"
-msgstr ""
+msgstr "مجموعات النتائج المحفوظة"
 
 #: links.py:25
 msgid "Delete"
@@ -82,7 +82,7 @@ msgstr "حذف"
 
 #: links.py:30
 msgid "Results"
-msgstr ""
+msgstr "النتائج"
 
 #: links.py:35
 msgid "Basic search"
@@ -114,14 +114,16 @@ msgid ""
 "Time to keep the resultset in seconds. This value is increased every time "
 "the resultset is accessed."
 msgstr ""
+"المدة الزمنية لحفظ مجموعة النتائج بالثواني. تزداد هذه القيمة في كل مرة يتم "
+"فيها الوصول إلى مجموعة النتائج."
 
 #: models.py:26
 msgid "Time to live"
-msgstr ""
+msgstr "مدة البقاء"
 
 #: models.py:30
 msgid "The server date and time when the resultset was created."
-msgstr ""
+msgstr "تاريخ ووقت الخادم عند إنشاء مجموعة النتائج."
 
 #: models.py:31
 msgid "Timestamp"
@@ -129,7 +131,7 @@ msgstr "الطابع الزمني"
 
 #: models.py:34
 msgid "Epoch"
-msgstr ""
+msgstr "حقبة زمنية"
 
 #: models.py:37 serializers.py:70
 msgid "App label"
@@ -137,27 +139,27 @@ msgstr "اسم التطبيق"
 
 #: models.py:40 serializers.py:73
 msgid "Model name"
-msgstr ""
+msgstr "اسم النموذج"
 
 #: models.py:43
 msgid "Search query"
-msgstr ""
+msgstr "استعلام البحث"
 
 #: models.py:46
 msgid "Search explainer text"
-msgstr ""
+msgstr "نص شرح البحث"
 
 #: models.py:49
 msgid "Number of results stored in the resultset."
-msgstr ""
+msgstr "عدد النتائج المخزنة في مجموعة النتائج."
 
 #: models.py:50
 msgid "Result count"
-msgstr ""
+msgstr "عدد النتائج"
 
 #: models.py:53
 msgid "User for which the resultset was created."
-msgstr ""
+msgstr "المستخدم الذي أنشئت له مجموعة النتائج."
 
 #: models.py:55 serializers.py:24
 msgid "User"
@@ -165,23 +167,23 @@ msgstr "مستخدم"
 
 #: models.py:60 models.py:95
 msgid "Saved resultset"
-msgstr ""
+msgstr "مجموعة النتائج المحفوظة"
 
 #: models.py:101
 msgid "Saved resultset entry"
-msgstr ""
+msgstr "إدخال مجموعة النتائج المحفوظة"
 
 #: models.py:102
 msgid "Saved resultset entries"
-msgstr ""
+msgstr "إدخالات مجموعات النتائج المحفوظة"
 
 #: permissions.py:10
 msgid "Delete resultsets"
-msgstr ""
+msgstr "حذف مجموعات النتائج"
 
 #: permissions.py:13
 msgid "View resultsets"
-msgstr ""
+msgstr "عرض مجموعات النتائج"
 
 #: permissions.py:17
 msgid "Execute search tools"
@@ -214,9 +216,7 @@ msgstr "إعادة تعيين مؤشرات البحث الخلفية وفهرس�
 
 #: queues.py:51
 msgid "Delete expired saved resultsets"
-msgstr ""
-"نتائج البحث تتجاوز الحد الأقصى. قد لا تكون النتائج موثوقة في حال استخدام "
-"نطاقات بحث متعددة. ضيّق معايير البحث أو حسّن قيمة حد النتائج."
+msgstr "حذف مجموعات النتائج المحفوظة المنتهية الصلاحية"
 
 #: scoped_queries.py:345
 #, python-format
@@ -225,6 +225,8 @@ msgid ""
 "if multiple scopes are used. Narrow down the search criteria or increase the"
 " value of the results limit setting `%s`."
 msgstr ""
+"تتجاوز نتائج الاستعلام الحد الحالي البالغ %d. لن تكون النتائج موثوقة إذا تم "
+"استخدام نطاقات متعددة. قلل معايير البحث أو زد قيمة إعداد حد النتائج %s."
 
 #: scoped_queries.py:364
 #, python-format
@@ -290,7 +292,7 @@ msgstr "التعبير العادي"
 
 #: serializers.py:20
 msgid "Results URL"
-msgstr ""
+msgstr "رابط النتائج"
 
 #: serializers.py:30 serializers.py:82
 msgid "URL"
@@ -298,7 +300,7 @@ msgstr "URL"
 
 #: serializers.py:53
 msgid "User must be authenticated."
-msgstr ""
+msgstr "يجب أن يكون المستخدم مصادقًا عليه."
 
 #: serializers.py:61
 msgid "Field name"
@@ -357,23 +359,23 @@ msgstr "الحد الأقصى لعدد نتائج البحث التي سيتم �
 
 #: settings.py:77
 msgid "Maximum number of saved resultsets to keep per user."
-msgstr ""
+msgstr "الحد الأقصى لعدد مجموعات النتائج المحفوظة لكل مستخدم."
 
 #: settings.py:83
 msgid "Maximum number of results to store per resultset."
-msgstr ""
+msgstr "الحد الأقصى لعدد النتائج لتخزينها في كل مجموعة نتائج."
 
 #: settings.py:89
 msgid "Time to keep the resultset in seconds."
-msgstr ""
+msgstr "المدة الزمنية لحفظ مجموعة النتائج بالثواني."
 
 #: settings.py:95
 msgid "Amount to increase the time to live on each access of the resultset."
-msgstr ""
+msgstr "مقدار زيادة مدة البقاء في كل مرة يتم فيها الوصول إلى مجموعة النتائج."
 
 #: settings.py:102
 msgid "Sets the default state of the \"Store results\" checkbox."
-msgstr ""
+msgstr "تحدد الحالة الافتراضية لخانة الاختيار \"حفظ النتائج\"."
 
 #: templates/dynamic_search/app/list_toolbar.html:18
 msgid "Filter terms"
@@ -431,47 +433,48 @@ msgstr "إلى السلسلة"
 #: views/saved_resultset_views.py:30
 #, python-format
 msgid "Error deleting saved resultset \"%(instance)s\"; %(exception)s"
-msgstr ""
+msgstr "خطأ في حذف مجموعة النتائج المحفوظة \"%(instance)s\"؛ %(exception)s"
 
 #: views/saved_resultset_views.py:39
 #, python-format
 msgid "%(count)d saved resultsets deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)d مجموعة نتائج محفوظة بنجاح"
 
 #: views/saved_resultset_views.py:42
 #, python-format
 msgid "Saved resultset \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "تم حذف مجموعة النتائج المحفوظة \"%(object)s\" بنجاح"
 
 #: views/saved_resultset_views.py:45
 #, python-format
 msgid "%(count)d saved resultset deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)d مجموعة نتائج محفوظة بنجاح"
 
 #: views/saved_resultset_views.py:48
 #, python-format
 msgid "Delete the %(count)d selected saved resultsets."
-msgstr ""
+msgstr "حذف مجموعات النتائج المحفوظة المحددة (%(count)d)"
 
 #: views/saved_resultset_views.py:50
 #, python-format
 msgid "Delete saved resultset: %(object)s."
-msgstr ""
+msgstr "حذف مجموعة النتائج المحفوظة: %(object)s"
 
 #: views/saved_resultset_views.py:51
 #, python-format
 msgid "Delete the %(count)d saved resultset."
-msgstr ""
+msgstr "حذف مجموعة النتائج المحفوظة (%(count)d)"
 
 #: views/saved_resultset_views.py:68
 msgid ""
 "Saved resultsets are objects that store the results of a previous search for"
 " a determined amount of time."
 msgstr ""
+"مجموعات النتائج المحفوظة هي كائنات تخزن نتائج بحث سابق لفترة زمنية محددة"
 
 #: views/saved_resultset_views.py:71
 msgid "No saved resultsets available"
-msgstr ""
+msgstr "لا توجد مجموعات نتائج محفوظة متاحة"
 
 #: views/search_views.py:62
 msgid "This tool erases and populates the search backend's internal index."

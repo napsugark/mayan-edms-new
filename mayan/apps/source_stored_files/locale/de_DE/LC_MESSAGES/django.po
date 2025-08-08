@@ -7,7 +7,7 @@
 # Tobias Paepke <tobias.paepke@paepke.net>, 2024
 # Roberto Rosario, 2024
 # Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2024
-# Mathias Behrle <mathiasb@m9s.biz>, 2024
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2024\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -172,7 +172,7 @@ msgstr "Keine Quelldateien verfügbar"
 
 #: source_backends/stored_file_mixins.py:191
 msgid "Width value to be passed to the image converter backend."
-msgstr ""
+msgstr "Wert der Breite, die an das Bildkonverterbackend übergeben wird."
 
 #: source_backends/stored_file_mixins.py:197
 msgid "Preview width"
@@ -184,6 +184,9 @@ msgid ""
 "have the image converter calculate the correct aspect ratio for the "
 "specified preview width."
 msgstr ""
+"Wert der Höhe, die an das Bildkonverterbackend übergeben wird. Leer lassen, "
+"um den Bildkonverter das korrekte Darstellungsverhältnis auf Basis der "
+"Vorschaubreite berechnen zu lassen."
 
 #: source_backends/stored_file_mixins.py:211
 msgid "Preview height"
@@ -194,6 +197,8 @@ msgid ""
 "Maximum file size in bytes for which previews will be generated. Example: "
 "20000 = 20KB."
 msgstr ""
+"Maximale Dateigröße in Bytes für die Vorschauansichten generiert werden. "
+"Beispiel: 20000 = 20KB."
 
 #: source_backends/stored_file_mixins.py:221
 msgid "Max size preview"
@@ -205,7 +210,7 @@ msgstr "Dateibilder"
 
 #: templates/source_stored_files/errors/staging_file_error.html:5
 msgid "Error generating preview"
-msgstr ""
+msgstr "Fehler bei der Generierung der Vorschau."
 
 #: templates/source_stored_files/errors/staging_file_too_large.html:5
 msgid "File too large for preview"
