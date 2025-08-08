@@ -6,7 +6,7 @@ ifneq ($(wildcard config-local.env),)
 endif
 
 generate-setup: ## Create and update the setup.py file.
-generate-setup: generate-requirements
+generate-setup: requirements-generate
 	@./contrib/scripts/generate_setup.py
 	@echo "Complete."
 
