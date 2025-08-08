@@ -2,32 +2,20 @@ Apps
 ====
 
 - :doc:`acls/index`
-- :doc:`authentication/index`
-- :doc:`cabinets/index`
-- :doc:`checkouts/index`
 - :doc:`document_signatures/index`
 - :doc:`documents/index`
 - :doc:`linking/index`
 - :doc:`locales/index`
-- :doc:`mailer/index`
-- :doc:`platform/index`
 - :doc:`rest_api/index`
 - :doc:`smart_settings/index`
-- :doc:`storage/index`
 
 .. toctree::
     :hidden:
 
     acls/index
-    authentication/index
-    cabinets/index
-    checkouts/index
     document_signatures/index
     documents/index
     linking/index
     locales/index
-    mailer/index
-    platform/index
     rest_api/index
     smart_settings/index
-    storage/index
