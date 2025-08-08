@@ -240,12 +240,12 @@ msgstr "تم إرسال %(count)d إصدار وثيقة إلى طابور OCR."
 #: views.py:202
 msgid "Submit the selected document version to the OCR queue?"
 msgid_plural "Submit the selected document versions to the OCR queue?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "إرسال المستند المحدد إلى قائمة انتظار التعرف الضوئي على الحروف؟"
+msgstr[1] "إرسال المستند المحدد إلى قائمة انتظار التعرف الضوئي على الحروف؟"
+msgstr[2] "إرسال المستندات المحددة إلى قائمة انتظار التعرف الضوئي على الحروف؟"
+msgstr[3] "إرسال المستندات المحددة إلى قائمة انتظار التعرف الضوئي على الحروف؟"
+msgstr[4] "إرسال المستندات المحددة إلى قائمة انتظار التعرف الضوئي على الحروف؟"
+msgstr[5] "إرسال المستندات المحددة إلى قائمة انتظار التعرف الضوئي على الحروف؟"
 
 #: views.py:238
 #, python-format

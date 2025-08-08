@@ -34,5 +34,5 @@ JavaScriptDependency(
 )
 
 PythonDependency(
-    module=__name__, name='bleach', version_string='==6.1.0'
+    module=__name__, name='bleach', version_string='==6.2.0'
 )

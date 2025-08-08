@@ -317,12 +317,12 @@ msgstr "تم إرسال %(count)d ملف مستند إلى قائمة انتظا
 #: views/document_file_views.py:123
 msgid "Submit the selected document file to the file metadata queue?"
 msgid_plural "Submit the selected documents files to the file metadata queue?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "إرسال المستند المحدد إلى قائمة انتظار البيانات الوصفية للملف؟"
+msgstr[1] "إرسال المستند المحدد إلى قائمة انتظار البيانات الوصفية للملف؟"
+msgstr[2] "إرسال المستندات المحددة إلى قائمة انتظار البيانات الوصفية للملف؟"
+msgstr[3] "إرسال المستندات المحددة إلى قائمة انتظار البيانات الوصفية للملف؟"
+msgstr[4] "إرسال المستندات المحددة إلى قائمة انتظار البيانات الوصفية للملف؟"
+msgstr[5] "إرسال المستندات المحددة إلى قائمة انتظار البيانات الوصفية للملف؟"
 
 #: views/document_type_views.py:48
 #, python-format

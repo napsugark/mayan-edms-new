@@ -621,23 +621,23 @@ msgstr "تم وضع قالب الفهرس في قائمة الانتظار لإ�
 #, python-format
 msgid "%(count)d index template queued for rebuild."
 msgid_plural "%(count)d index templates queued for rebuild."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "فهارس %(count)d في قائمة الانتظار لإعادة البناء."
+msgstr[1] "فهارس %(count)d في قائمة الانتظار لإعادة البناء."
+msgstr[2] "فهارس %(count)d في قائمة الانتظار لإعادة البناء."
+msgstr[3] "فهارس %(count)d في قائمة الانتظار لإعادة البناء."
+msgstr[4] "فهارس %(count)d في قائمة الانتظار لإعادة البناء."
+msgstr[5] "فهارس %(count)d في قائمة الانتظار لإعادة البناء."
 
 #: views/index_template_views.py:465
 #, python-format
 msgid "%(count)d index reset."
 msgid_plural "%(count)d indexes reset."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "إعادة تعيين فهارس %(count)d."
+msgstr[1] "إعادة تعيين فهارس %(count)d."
+msgstr[2] "إعادة تعيين فهارس %(count)d."
+msgstr[3] "إعادة تعيين فهارس %(count)d."
+msgstr[4] "إعادة تعيين فهارس %(count)d."
+msgstr[5] "إعادة تعيين فهارس %(count)d."
 
 #: views/index_template_views.py:478
 msgid "Index templates for which their instances will be deleted."

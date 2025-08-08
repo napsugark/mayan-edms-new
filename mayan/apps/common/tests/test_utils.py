@@ -3,7 +3,8 @@ from django.db import models
 from mayan.apps.testing.tests.base import BaseTestCase
 
 from ..utils import (
-    ResolverPipelineModelAttribute, flatten_list, group_iterator, parse_range
+    ResolverPipelineModelAttribute, flatten_list, flatten_map, group_iterator,
+    parse_range
 )
 
 
@@ -58,6 +59,30 @@ class FlattenListTestCase(BaseTestCase):
                 )
             ), ['test string1', 1]
         )
+
+
+class FlattenMapTestCase(BaseTestCase):
+    def test_default(self):
+        test_dictionary_source = {'a': 1, 'b': 2, 'c': {'d': 3}}
+        test_dictionary_result = {'a': 1, 'b': 2, 'c_d': 3}
+
+        result = {}
+
+        flatten_map(dictionary=test_dictionary_source, result=result)
+
+        self.assertEqual(result, test_dictionary_result)
+
+    def test_separator(self):
+        test_dictionary_source = {'a': 1, 'b': 2, 'c': {'d': 3}}
+        test_dictionary_result = {'a': 1, 'b': 2, 'c__d': 3}
+
+        result = {}
+
+        flatten_map(
+            dictionary=test_dictionary_source, result=result, separator='__'
+        )
+
+        self.assertEqual(result, test_dictionary_result)
 
 
 class GroupIteratorTestCase(BaseTestCase):

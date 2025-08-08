@@ -6,6 +6,7 @@
 # Translators:
 # Mohammed ALDOUB <voulnet@gmail.com>, 2024
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""

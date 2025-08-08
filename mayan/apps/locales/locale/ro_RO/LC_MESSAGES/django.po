@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Roberto Rosario, 2024
-# Harald Ersch, 2024
+# Harald Ersch, 2025
 # 
 msgid ""
 msgstr ""
@@ -74,7 +74,7 @@ msgstr ""
 
 #: settings.py:22
 msgid "Default profile timezone for new user accounts."
-msgstr ""
+msgstr "Fus orar implicit al profilului pentru conturile de utilizator noi."
 
 #: views.py:52
 #, python-format

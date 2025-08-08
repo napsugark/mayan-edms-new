@@ -662,17 +662,17 @@ msgstr "Valoarea setării %(count)d a fost adusă la valoarea inițială."
 #: views.py:136
 #, python-format
 msgid "Revert the value of the %(count)d selected settings."
-msgstr ""
+msgstr "Reveniți la valoarea setărilor selectate pentru %(count)d ."
 
 #: views.py:138
 #, python-format
 msgid "Revert the value of setting: %(object)s"
-msgstr ""
+msgstr "Reveniți la valoarea setării: %(object)s"
 
 #: views.py:140
 #, python-format
 msgid "Revert the value of %(count)d selected setting."
-msgstr ""
+msgstr "Reveniți la valoarea setării selectate %(count)d ."
 
 #: views.py:150
 msgid "Unsaved changes will be lost."

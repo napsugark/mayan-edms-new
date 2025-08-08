@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1.2
 # vim:set ft=dockerfile:
 
-FROM {{ FORGE_DOCKER_BASE_IMAGE_NAME }}:{{ FORGE_DOCKER_BASE_IMAGE_TAG }}
+FROM ubuntu:24.04
 
 COPY config.env /config.env
 
@@ -18,15 +18,16 @@ set -x \
 && DEBIAN_FRONTEND=noninteractive \
 apt-get update \
 && apt-get install --no-install-recommends --yes \
-    {{ LINUX_PACKAGES_DEBIAN_BASE }} \
-    {{ LINUX_PACKAGES_DEBIAN_BUILD }} \
-    {{ LINUX_PACKAGES_DEBIAN_DOCUMENTATION }} \
-    {{ LINUX_PACKAGES_DEBIAN_FORGE }} \
-    {{ LINUX_PACKAGES_DEBIAN_MYSQL }} \
-    {{ LINUX_PACKAGES_DEBIAN_POSTGRESQL }} \
-    {{ LINUX_PACKAGES_DEBIAN_PUSH }} \
-    {{ LINUX_PACKAGES_DEBIAN_PYTHON }} \
-    {{ LINUX_PACKAGES_DEBIAN_TEST }}
+    ca-certificates clamav file fuse ghostscript git gnupg1 graphviz libarchive-zip-perl libfile-mimeinfo-perl libimage-exiftool-perl libmariadb3 libpq5 libreoffice-calc-nogui libreoffice-draw-nogui libreoffice-impress-nogui libreoffice-math-nogui libreoffice-writer-nogui poppler-utils sane-utils software-properties-common sudo supervisor tesseract-ocr \
+    g++ gcc libffi-dev libjpeg-dev libldap2-dev libpng-dev libsasl2-dev libssl-dev libtiff-dev make zlib1g-dev \
+    enchant-2 libcairo2 \
+    bash-completion curl less vim virtualenvwrapper \
+    default-libmysqlclient-dev \
+    less \
+    libpq-dev \
+    openssh-client rsync \
+    make python3-dev python3-venv \
+    tesseract-ocr-deu
 
 RUN --mount=type=cache,target=/var/cache/apt \
 set -x \

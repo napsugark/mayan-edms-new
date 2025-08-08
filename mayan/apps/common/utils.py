@@ -281,7 +281,7 @@ def flatten_map(dictionary, result, prefix=None, separator='_'):
         prefix_string = '{}{}'.format(prefix_base, key)
 
         if isinstance(value, dict):
-            flatten_map(dictionary=value, prefix=prefix_string, result=result)
+            flatten_map(dictionary=value, prefix=prefix_string, result=result, separator=separator)
         else:
             result[prefix_string] = value
 
