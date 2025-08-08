@@ -7,7 +7,7 @@
 # Stefaniu Criste <gupi@hangar.ro>, 2024
 # Roberto Rosario, 2024
 # Badea Gabriel <gcbadea@gmail.com>, 2024
-# Harald Ersch, 2024
+# Harald Ersch, 2025
 # 
 msgid ""
 msgstr ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Harald Ersch, 2024\n"
+"Last-Translator: Harald Ersch, 2025\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/rosarior/teams/13584/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -333,12 +333,12 @@ msgstr "Exportați evenimente de tip: %s"
 #: views/notification_views.py:20
 #, python-format
 msgid "Error deleting notification \"%(instance)s\"; %(exception)s"
-msgstr ""
+msgstr "Eroare la ștergerea notificării „ %(instance)s ”; %(exception)s"
 
 #: views/notification_views.py:27
 #, python-format
 msgid "%(count)d notifications deleted successfully."
-msgstr ""
+msgstr "%(count)d notificări au fost șterse cu succes."
 
 #: views/notification_views.py:30
 #, python-format
@@ -348,22 +348,22 @@ msgstr "Utilizatorul „%(object)s” a fost șters cu succes."
 #: views/notification_views.py:33
 #, python-format
 msgid "%(count)d notification deleted successfully."
-msgstr ""
+msgstr "%(count)d notificare a fost ștearsă cu succes."
 
 #: views/notification_views.py:35
 #, python-format
 msgid "Delete the %(count)d selected notifications."
-msgstr ""
+msgstr "Ștergeți %(count)d notificări selectate  ."
 
 #: views/notification_views.py:36
 #, python-format
 msgid "Delete notification: %(object)s."
-msgstr ""
+msgstr "Ștergere notificare: %(object)s ."
 
 #: views/notification_views.py:37
 #, python-format
 msgid "Delete the %(count)d selected notification."
-msgstr ""
+msgstr "Ștergeți notificarea selectată %(count)d ."
 
 #: views/notification_views.py:52
 msgid "Subscribe to global or object events to receive notifications."
