@@ -3,7 +3,6 @@ from django.utils.translation import gettext_lazy as _
 
 from mayan.apps.app_manager.apps import MayanAppConfig
 from mayan.apps.templating.classes import AJAXTemplate
-from mayan.settings import BASE_DIR
 
 from .handlers import handler_pre_initial_setup, handler_pre_upgrade
 from .links import (

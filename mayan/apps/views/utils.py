@@ -22,11 +22,6 @@ def get_request_data(request):
     return query_dict
 
 
-def is_url_query_positive(value):
-    if value is not None:
-        return value.lower() in URL_QUERY_POSITIVE_VALUES
-
-
 def request_is_ajax(request):
     return request.META.get('HTTP_X_REQUESTED_WITH') == 'XMLHttpRequest'
 
