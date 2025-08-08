@@ -1,3 +1,10 @@
+4.8.5 (2025-08-08)
+==================
+- Merge fixes and improvements from version 4.7.2.
+- Backport makefile major release branch references.
+- Backport documenation file references fixes.
+- Backport fundraisers app.
+
 4.8.4 (2025-07-27)
 ==================
 - Increase the GitLab CI artifact expiration from 4 hours to 24 hours.

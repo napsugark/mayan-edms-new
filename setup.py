@@ -67,6 +67,7 @@ def find_packages(directory):
 install_requires = """
 django==4.2.23
 CairoSVG==2.7.1
+Markdown==3.7
 Pillow==10.4.0
 PyYAML==6.0.2
 Whoosh==2.7.4
@@ -104,6 +105,7 @@ gunicorn==23.0.0
 importlib-metadata==8.0.0
 jsonschema==4.23.0
 mozilla-django-oidc==4.0.1
+nh3==0.2.18
 node-semver==0.9.0
 ollama==0.2.1
 pycountry==24.6.1
