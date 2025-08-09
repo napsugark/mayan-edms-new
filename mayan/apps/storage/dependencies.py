@@ -5,7 +5,7 @@ PythonDependency(
     module=__name__, name='boto3', version_string='==1.35.85'
 )
 PythonDependency(
-    module=__name__, name='django-storages', version_string='==1.14.4'
+    module=__name__, name='django-storages', version_string='==1.14.6'
 )
 PythonDependency(
     module=__name__, name='extract-msg', version_string='==0.52.0'

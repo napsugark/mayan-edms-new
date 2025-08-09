@@ -64,7 +64,7 @@ msgstr "Tema utilizatorului a fost editată"
 
 #: links.py:21
 msgid "Reload the current content"
-msgstr ""
+msgstr "Reîncărcați conținutul curent"
 
 #: links.py:27
 msgid "Theme settings"

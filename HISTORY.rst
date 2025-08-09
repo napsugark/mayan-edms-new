@@ -350,6 +350,36 @@
 - Prefix the templating app tags and filter functions to avoid name or
   reserved word clashes.
 - Cap the default concurrency of the Celery workers.
+- Fix context of the workflow launch view when only one document is selected.
+- Quote environment variables prior to loading.
+- Formalize the pattern used to get all the request `GET` and `POST` data.
+- Improve how the select all toolbar checkbox is disabled when there are no
+  results.
+
+4.8.5 (2025-08-08)
+==================
+- Merge fixes and improvements from version 4.7.2.
+- Backport makefile major release branch references.
+- Backport documenation file references fixes.
+- Backport fundraisers app.
+- Build documentation features part dynamically from apps.
+- Fix inter document documentation references.
+- Update `.gitignore` to not include final app documentations builds.
+- Remove obsolete documentation chapter
+- Persist success icon when a file upload finishes.
+- Remove dropzone hard coded icons.
+- Update the version check code to use the new version of the PyPI API.
+- Unify the label of empty dropdown options.
+
+4.8.4 (2025-07-27)
+==================
+- Increase the GitLab CI artifact expiration from 4 hours to 24 hours.
+- Add Mayan Forge, a Docker based development environment for Mayan EDMS.
+- Update dependency versions:
+
+  - Django from 4.2.16 to 4.2.23
+  - requests from 2.32.3 to 2.32.4
+  - python_gnupg from 0.5.3 to 0.5.4
 
 4.8.3 (2024-10-04)
 ==================
@@ -564,6 +594,50 @@
   workflow transition regardless of the current state or transition.
   The workflow state action context is now composed of the keys:
   `workflow_instance`, `workflow_instance_context`, `action`, and `log_entry`.
+
+4.7.2 (2025-08-07)
+==================
+- Docker image tags:
+
+  - Base Debian from 12.5-slim to 12.11-slim.
+  - ElasticSearch from 7.17.20 to 7.17.28
+  - Forge base from 24.04 to noble-20250714
+  - PostgreSQL from 14.12-alpine to 14.18-alpine
+  - Python from 3.11.9-slim to 3.11.13-slim.
+  - RabbitMQ from 3.12.14-management-alpine to 3.13.7-management-alpine
+
+- Update dependency versions:
+
+  - Django from 4.2.13 to 4.2.23.
+  - PyYAML from 6.0.1 to 6.0.2.
+  - bleach from 6.1.0 to 6.2.0.
+  - django-auth-ldap from 4.6.0 to 4.8.0
+  - django-solo from 2.2.0 to 2.3.0
+  - django-storages from 1.14.2 to 1.14.6.
+  - extract-msg from 0.48.5 to 0.48.7.
+  - furl from 2.1.3 to 2.1.4.
+  - pip from 24.0 to 24.3.
+  - psycopg from 3.1.14 to 3.1.20.
+  - pycryptodome from 3.20.0 to 3.21.0
+  - pytz from 2024.1 to 2024.2.
+  - redis from 5.0.3 to 5.0.8.
+  - requests from 2.32.3 to 2.32.4
+  - sentry-sdk from 1.45.0 to 1.45.1
+  - twine from 5.1.0 to 5.1.1.
+  - whitenoise from 6.6.0 to 6.7.0
+  - pip from 24.3 to 24.3.1
+
+- Fix `flatten_map` not using the `separator` argument.
+- Remove localize fonts from testing Dockerfile.
+- Fix Whoosh search result limit.
+- Backport search app testing improvements.
+- Fix make file target for testing dependencies generation. Each requirement
+  entry generation now specified the settings file to use.
+- Remove the specialized and custom animated list toolbar checkbox and
+  instead use a styled standard HTML checkbox.
+- Backport multi item bulk action dropdown template improvements.
+- Added `CITATION.cff` file for citations.
+- Update README files.
 
 4.7.1 (2024-06-04)
 ==================
@@ -788,6 +862,36 @@
 - Add the ID field of primary models as search fields.
 - Expose the document index instance depth and node count values via the API.
 - Add a document type API view to return all documents of that type.
+
+4.6.6 (2025-08-06)
+==================
+- Increase the GitLab CI artifact expiration from 4 hours to 24 hours.
+- Add Mayan Forge, a Docker based development environment for Mayan EDMS.
+- Update dependency versions:
+
+  - Django from 4.2.13 to 4.2.23.
+  - PyYAML from 6.0.1 to 6.0.2.
+  - bleach from 6.1.0 to 6.2.0.
+  - django-storages from 1.14.2 to 1.14.6.
+  - extract-msg from 0.48.5 to 0.48.7.
+  - furl from 2.1.3 to 2.1.4.
+  - pip from 24.0 to 24.3.
+  - psycopg from 3.1.14 to 3.1.20.
+  - redis from 5.0.3 to 5.0.8.
+  - twine from 5.1.0 to 5.1.1.
+
+- Update Docker image tags:
+
+  - Base Debian from 12.5-slim to 12.11-slim.
+  - PostgreSQL from 13.15-alpine to 13.21-alpine.
+  - Python from 3.11.9-slim to 3.11.13-slim.
+  - ElasticSearch from 7.17.20 to 7.17.28
+
+- Quote environment variables prior to loading.
+- Fix context of the workflow launch view when only one document is selected.
+- Improve documentation navigation.
+- Update translation helper script to use the new `MayanAppConfig` accessors.
+- Backport `MayanAppConfig` improvements needed by the translation helper.
 
 4.6.5 (2024-06-03)
 ==================

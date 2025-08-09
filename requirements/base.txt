@@ -17,7 +17,7 @@ django-model-utils==5.0.0
 django-mptt==0.16.0
 django-qsstats-magic==1.1.0
 django-solo==2.4.0
-django-storages==1.14.4
+django-storages==1.14.6
 django-stronghold==0.4.0
 django-widget-tweaks==1.5.0
 djangorestframework==3.15.2

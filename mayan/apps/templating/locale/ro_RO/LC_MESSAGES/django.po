@@ -36,7 +36,7 @@ msgstr ""
 
 #: fields.py:28
 msgid "Use Django's default templating language. "
-msgstr ""
+msgstr "Folosește limbajul implicit de șablonare al Django. "
 
 #: fields.py:42
 #, python-format
@@ -88,6 +88,8 @@ msgid ""
 "Theme name of the CSS stylesheet used to change the visual appearance of the"
 " template preview."
 msgstr ""
+"Numele temei foii de stil CSS utilizată pentru a modifica aspectul vizual al"
+" previzualizării șablonului."
 
 #: views.py:59
 #, python-format

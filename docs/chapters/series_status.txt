@@ -87,7 +87,7 @@ Current series status
    * - 4.6
      - Extended support
      - Yes
-     - Yes
+     - No
      - Updated
    * - 4.5
      - Extended support

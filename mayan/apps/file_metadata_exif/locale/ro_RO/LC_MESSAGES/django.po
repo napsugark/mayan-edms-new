@@ -22,7 +22,7 @@ msgstr ""
 
 #: apps.py:11
 msgid "File metadata EXIF"
-msgstr ""
+msgstr "Metadate fișier EXIF"
 
 #: dependencies.py:11
 msgid ""

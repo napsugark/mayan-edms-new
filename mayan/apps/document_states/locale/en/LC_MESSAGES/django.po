@@ -1360,6 +1360,26 @@ msgstr ""
 
 #: views/workflow_template_views.py:186
 #, python-format
+msgid "%(count)d workflows deleted successfully."
+msgstr ""
+
+#: views/workflow_template_views.py:175
+#, python-format
+msgid "Workflow \"%(object)s\" deleted successfully."
+msgstr ""
+
+#: views/workflow_template_views.py:178
+#, python-format
+msgid "%(count)d workflow deleted successfully."
+msgstr ""
+
+#: views/workflow_template_views.py:180
+#, python-format
+msgid "Delete the %(count)d selected workflows."
+msgstr ""
+
+#: views/workflow_template_views.py:181
+#, python-format
 msgid "Delete workflow: %(object)s."
 msgstr ""
 

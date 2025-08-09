@@ -344,7 +344,8 @@ class FileMetadataDriver(
                 coroutine.send(
                     {
                         'document_file_driver_entry': document_file_driver_entry,
-                        'internal_name': internal_name, 'key': key, 'value': value_clean
+                        'internal_name': internal_name, 'key': key,
+                        'value': value_clean
                     }
                 )
 

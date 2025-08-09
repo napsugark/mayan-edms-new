@@ -24,7 +24,7 @@ msgstr ""
 
 #: apps.py:15
 msgid "Appearance (Bootstrap)"
-msgstr ""
+msgstr "Aspect (Bootstrap)"
 
 #: dependencies.py:8
 msgid "Lato font"

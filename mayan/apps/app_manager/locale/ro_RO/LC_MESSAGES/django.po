@@ -22,19 +22,19 @@ msgstr ""
 
 #: apps.py:147
 msgid "App class full path"
-msgstr ""
+msgstr "Calea completă a clasei de aplicație"
 
 #: apps.py:153
 msgid "App URL"
-msgstr ""
+msgstr "Adresa URL a aplicației"
 
 #: apps.py:164
 msgid "Has REST API"
-msgstr ""
+msgstr "Are API REST"
 
 #: apps.py:169
 msgid "Has tests"
-msgstr ""
+msgstr "Are teste"
 
 #: apps.py:174
 msgid "Name"
@@ -42,20 +42,20 @@ msgstr "Nume"
 
 #: apps.py:179
 msgid "Verbose name"
-msgstr ""
+msgstr "Nume detaliat"
 
 #: apps.py:198
 msgid "App manager"
-msgstr ""
+msgstr "Manager de aplicații"
 
 #: links.py:8
 msgid "Apps"
-msgstr ""
+msgstr "Aplicații"
 
 #: views.py:16
 msgid "Detected and active Mayan EDMS apps."
-msgstr ""
+msgstr "Aplicații EDMS Mayan detectate și active."
 
 #: views.py:17
 msgid "System apps"
-msgstr ""
+msgstr "Aplicații de sistem"

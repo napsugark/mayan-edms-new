@@ -1,0 +1,16 @@
+name: mayanforge-4.9.2
+
+services:
+  forge:
+    environment:
+      - SSH_AUTH_SOCK=/ssh-agent
+    image: ${MAYAN_FORGE_DOCKER_IMAGE_NAME:-mayanedms/mayanforge}:${MAYAN_FORGE_DOCKER_IMAGE_TAG:-4.9.2}
+    network_mode: "host"
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    user: "${HOST_UID}:${HOST_GID}"
+    volumes:
+      - ../:/workspace
+      - $SSH_AUTH_SOCK:/ssh-agent
+    working_dir: /workspace

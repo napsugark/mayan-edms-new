@@ -112,7 +112,7 @@ services:
       timeout: 5s
       retries: 5
       start_period: 30s
-    image: ${MAYAN_DOCKER_POSTGRESQL_IMAGE:-postgres}:${MAYAN_DOCKER_POSTGRESQL_TAG:-14.15-alpine3.21}
+    image: ${MAYAN_DOCKER_POSTGRESQL_IMAGE:-postgres}:${MAYAN_DOCKER_POSTGRESQL_TAG:-14.18-alpine}
     networks:
       - mayan
     # Enable to allow external access to the database.
@@ -139,7 +139,7 @@ services:
       PGHOST: ${MAYAN_DATABASE_HOST:-postgresql}
       PGPASSWORD: ${MAYAN_DATABASE_PASSWORD:-mayandbpass}
       PGUSER: ${MAYAN_DATABASE_USER:-mayan}
-    image: ${MAYAN_DOCKER_POSTGRESQL_IMAGE:-postgres}:${MAYAN_DOCKER_POSTGRESQL_TAG:-14.15-alpine3.21}
+    image: ${MAYAN_DOCKER_POSTGRESQL_IMAGE:-postgres}:${MAYAN_DOCKER_POSTGRESQL_TAG:-14.18-alpine}
     networks:
       - mayan
     profiles:

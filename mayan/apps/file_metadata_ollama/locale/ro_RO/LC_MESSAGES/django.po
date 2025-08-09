@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Harald Ersch, 2025
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -18,12 +21,12 @@ msgstr ""
 
 #: apps.py:10
 msgid "File metadata Ollama"
-msgstr ""
+msgstr "Metadate fișier Ollama"
 
 #: drivers.py:14
 msgid "Analyze content using Ollama."
-msgstr ""
+msgstr "Analizează conținutul folosind Ollama."
 
 #: drivers.py:17
 msgid "Ollama Chat AI driver"
-msgstr ""
+msgstr "Driver de inteligență artificială Ollama Chat"

@@ -142,7 +142,7 @@ msgstr ""
 
 #: links.py:33
 msgid "View modes"
-msgstr ""
+msgstr "Moduri de vizualizare"
 
 #: literals.py:10
 msgid "Items"
@@ -150,11 +150,11 @@ msgstr "Articole"
 
 #: literals.py:11
 msgid "List"
-msgstr ""
+msgstr "Listă"
 
 #: model_mixins.py:14 model_mixins.py:23
 msgid "The app to which the view belongs."
-msgstr ""
+msgstr "Aplicația căreia îi aparține vizualizarea."
 
 #: model_mixins.py:15 model_mixins.py:25
 msgid "App"
@@ -163,11 +163,11 @@ msgstr "App"
 #: model_mixins.py:41
 #, python-format
 msgid "Unknown mode: %s"
-msgstr ""
+msgstr "Mod necunoscut: %s"
 
 #: model_mixins.py:43
 msgid "The current mode of the view."
-msgstr ""
+msgstr "Modul curent al vizualizării."
 
 #: model_mixins.py:44 models.py:56
 msgid "Value"
@@ -179,7 +179,7 @@ msgstr "Spațiu de nume"
 
 #: models.py:17 models.py:46
 msgid "Full name of the view including the namespace."
-msgstr ""
+msgstr "Numele complet al vizualizării, inclusiv spațiul de nume."
 
 #: models.py:18 models.py:47
 msgid "Name"
@@ -204,14 +204,16 @@ msgstr ""
 #: models.py:55
 msgid "Stored value used to identify the display mode of the view."
 msgstr ""
+"Valoare stocată utilizată pentru a identifica modul de afișare al "
+"vizualizării."
 
 #: models.py:62
 msgid "User view mode"
-msgstr ""
+msgstr "Mod de vizualizare utilizator"
 
 #: models.py:63
 msgid "User view modes"
-msgstr ""
+msgstr "Moduri de vizualizare utilizator"
 
 #: settings.py:16
 msgid "The number objects that will be displayed per page."
@@ -308,6 +310,8 @@ msgstr "Obiectul tip %(object)s a fost șters cu succes."
 #, python-format
 msgid "Error deleting confirm view \"%(instance)s\"; %(exception)s"
 msgstr ""
+"Modurile de vizualizare controlează formatul utilizat pentru afișarea unei "
+"colecții de obiecte."
 
 #: views.py:26
 #, python-format
@@ -360,4 +364,4 @@ msgstr ""
 #: views.py:106
 #, python-format
 msgid "Persistent view modes for user: %s"
-msgstr ""
+msgstr "Moduri de vizualizare persistente pentru utilizator: %s"

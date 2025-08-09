@@ -203,12 +203,40 @@ Open an issue at |SOURCE_CODE_ISSUES| and mark it as
 Confidential. Allow us at least 48 hours to find and release a fix
 for the issue before submitting it to the CVE database.
 
+The issue must include a reproducible proof-of-concept exploit.
+
+The exploit must be shown to happen in a production deployment using a non
+self-signed SSL certificate.
+
+Exploits that are only reproducible on a development or testing deployment
+using Django's insecure `runserver` (https://docs.djangoproject.com/en/4.2/ref/django-admin/#runserver)
+are not valid.
+
+Theoretical vulnerabilities, speculative risks, or static analysis output
+without real-world impact are not security issues.
+
+Likewise reports consisting of configuration recommendations or generic
+best-practice checklists will not be treated as security vulnerabilities.
+
+For verification, all security reports must be digitally signed with a
+valid GPG key to ensure the authenticity and integrity of the
+communication.
+
+Disclose any relevant affiliation and any conflicts of interest.
+
+We maintain a strict policy against unethical behavior in the
+vulnerability disclosure process. Attempts to submit fraudulent,
+AI-generated, or non-actionable CVEs will be formally reported as
+abuse.
+
+We reserve the right to request blacklisting for
+individuals or organizations that misuse either the CVE or our disclosure
+process.
 
 I want to contact the team directly to report a security issue
 --------------------------------------------------------------
 
-The contact method is via email info@mayan-edms.com. Send the complete
-procedure to recreate the security issue.
+The contact method is via email info@mayan-edms.com.
 
 
 Are security bounties available?

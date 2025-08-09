@@ -22,7 +22,7 @@ msgstr ""
 
 #: apps.py:11
 msgid "File metadata MSG"
-msgstr ""
+msgstr "Metadate fișier MSG"
 
 #: drivers.py:15
 msgid ""

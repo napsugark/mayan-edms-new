@@ -63,10 +63,17 @@ I found a bug
 ^^^^^^^^^^^^^
 
 For bugs, open an issue at |SOURCE_CODE_ISSUES|.
+Include all the relevant information to replicate the bug. At a minimum
+include:
+
+- The Mayan EDMS version.
+- The tracelog text of the bug.
+- The steps to replicate the bug.
 
 
 I want to join the development team
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 Perfect! We need all the help we can get. Tell us where we can see what
 you've done using Mayan EDMS. It could be a fork, a new UI, an API client, a
@@ -181,18 +188,12 @@ been expanding its feature set and provide some functionality from other
 system types.
 
 
-Technical
-=========
+I want to cite Mayan EDMS on my work
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-LDAP
-----
+Use the include `CITATION.cff` file. This file can be used to generate
+citation in many different formats.
 
-How to do LDAP authentication
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-A sample settings file called ldap_connection_settings.py is included in the
-contrib/settings/ folder of the repository showing how to setup LDAP
-authentication. This file can be found on the web at:
-|SOURCE_CODE_REPOSITORY|blob/master/contrib/settings/ldap_connection_settings.py.
-This is a community contributed file. Use the Python settings file method to
-use this file.
+- Mayan EDMS DOI: https://doi.org/10.5281/zenodo.16760961
+- Roberto Rosario, Mayan EDMS Copyright holder ORCID: https://orcid.org/0009-0007-3999-2835
+- Exploring Mayan EDMS: The Definitive Guide for Mayan EDMS version 3.2 ISBN: 979-8316928941

@@ -78,11 +78,11 @@ msgstr "Cel mai recent fișier"
 
 #: apps.py:939
 msgid "Return the active version of the document."
-msgstr ""
+msgstr "Returnează versiunea activă a documentului."
 
 #: apps.py:940
 msgid "Active version"
-msgstr ""
+msgstr "Versiune activă"
 
 #: apps.py:990
 msgid "Type"
