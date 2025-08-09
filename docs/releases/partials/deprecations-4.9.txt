@@ -20,3 +20,4 @@
 - The `date_parse` filter (`{{ |date_parse }}`) is deprecated in favor of
   the tag version (`{% date_parse %}`) of the same function which allows
   more control via arguments.
+- The Python package `coveralls` will be remove in the next minor version.

@@ -2,6 +2,7 @@
 ==================
 - Merge changes from version 4.8.5.
 - Downgrade coveralls from 4.0.1 to 3.3.1.
+- Deprecate coveralls. Will be removed in the next minor version.
 
 4.9.2 (2025-07-23)
 ==================
