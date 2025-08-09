@@ -1,3 +1,8 @@
+4.9.3 (2025-08-09)
+==================
+- Merge changes from version 4.8.5.
+- Downgrade coveralls from 4.0.1 to 3.3.1.
+
 4.9.2 (2025-07-23)
 ==================
 - Increase the GitLab CI artifact expiration from 4 hours to 24 hours.
