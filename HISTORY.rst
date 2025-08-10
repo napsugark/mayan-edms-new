@@ -14,6 +14,10 @@
 - Don't error out if `backend.model_mixins.get_backend_class_label` can't
   find the old `importer` modules instead of the new
   `mayan.apps.importer...` path.
+- Support Docker Compose configurable `env_file` file via
+  `MAYAN_DOCKER_ENV_FILE`. Defaults to `.env`. This affects only the
+  environment variables passed to the Mayan EDMS stack does not affect the
+  values passed to the Docker Compose file.
 
 4.6.6 (2025-08-06)
 ==================
