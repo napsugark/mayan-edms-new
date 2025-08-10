@@ -18,6 +18,8 @@
   `MAYAN_DOCKER_ENV_FILE`. Defaults to `.env`. This affects only the
   environment variables passed to the Mayan EDMS stack does not affect the
   values passed to the Docker Compose file.
+- Support an optional `.env-local` file for the Mayan EDMS Docker Compose
+  file.
 
 4.6.6 (2025-08-06)
 ==================
