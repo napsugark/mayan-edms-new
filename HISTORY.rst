@@ -11,6 +11,10 @@
   - New target to update all Forge's files.
   - Set `PIP_PREFER_BINARY=1`.
 
+- Don't error out if `backend.model_mixins.get_backend_class_label` can't
+  find the old `importer` modules instead of the new
+  `mayan.apps.importer...` path.
+
 4.6.6 (2025-08-06)
 ==================
 - Increase the GitLab CI artifact expiration from 4 hours to 24 hours.

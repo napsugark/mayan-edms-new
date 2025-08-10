@@ -66,7 +66,10 @@ class BackendModelMixin(models.Model):
         loaded but not initialized. As such the label returned is a class
         property.
         """
-        backend_class = self.get_backend_class()
+        try:
+            backend_class = self.get_backend_class()
+        except ModuleNotFoundError as exception:
+            return _(message='Error: `%s`') % exception
 
         return backend_class.label
 
