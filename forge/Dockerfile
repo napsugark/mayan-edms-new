@@ -18,12 +18,11 @@ set -x \
 && DEBIAN_FRONTEND=noninteractive \
 apt-get update \
 && apt-get install --no-install-recommends --yes \
-    ca-certificates clamav file fuse ghostscript git gnupg1 graphviz libarchive-zip-perl libfile-mimeinfo-perl libimage-exiftool-perl libmariadb3 libpq5 libreoffice-calc-nogui libreoffice-draw-nogui libreoffice-impress-nogui libreoffice-math-nogui libreoffice-writer-nogui poppler-utils sane-utils software-properties-common sudo supervisor tesseract-ocr \
+    ca-certificates clamav file fuse ghostscript git gnupg1 graphviz libarchive-zip-perl libfile-mimeinfo-perl libimage-exiftool-perl libmariadb3 libpq5 libreoffice-calc-nogui libreoffice-draw-nogui libreoffice-impress-nogui libreoffice-math-nogui libreoffice-writer-nogui poppler-utils sane-utils sudo supervisor tesseract-ocr \
     g++ gcc libffi-dev libjpeg-dev libldap2-dev libpng-dev libsasl2-dev libssl-dev libtiff-dev make zlib1g-dev \
     enchant-2 libcairo2 \
-    bash-completion curl less vim virtualenvwrapper \
+    bash-completion curl less software-properties-common squid-deb-proxy-client vim virtualenvwrapper \
     default-libmysqlclient-dev \
-    less \
     libpq-dev \
     openssh-client rsync \
     make python3-dev python3-venv \

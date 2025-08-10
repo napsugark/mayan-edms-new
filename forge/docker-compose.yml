@@ -1,10 +1,15 @@
-name: mayanforge-4.6.5
+name: mayanforge-4.6.6
 
 services:
   forge:
+    env_file:
+      - .env
+      - path: .env-local
+        required: false
     environment:
+      - PIP_PREFER_BINARY=1
       - SSH_AUTH_SOCK=/ssh-agent
-    image: ${MAYAN_FORGE_DOCKER_IMAGE_NAME:-mayanedms/mayanforge}:${MAYAN_FORGE_DOCKER_IMAGE_TAG:-4.6.5}
+    image: ${MAYAN_FORGE_DOCKER_IMAGE_NAME:-mayanedms/mayanforge}:${MAYAN_FORGE_DOCKER_IMAGE_TAG:-4.6.6}
     network_mode: "host"
     restart: unless-stopped
     stdin_open: true
@@ -13,4 +18,6 @@ services:
     volumes:
       - ../:/workspace
       - $SSH_AUTH_SOCK:/ssh-agent
+      # Optional: Mount host's PIP cache.
+      # - ~/.cache/pip:/home/ubuntu/.cache/pip
     working_dir: /workspace

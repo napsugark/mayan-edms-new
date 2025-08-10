@@ -1,6 +1,15 @@
 4.6.7 (2025-XX-XX)
 ==================
-- Fix `forge-shell` target.
+- Forge updates:
+
+  - Fix `forge-shell` target.
+  - Add `squid-deb-proxy-client` to the container image.
+  - Support optional `.env-local` file.
+  - Add `.env-local` to .gitignore.
+  - Support PIP indexes.
+  - Support host PIP caches.
+  - New target to update all Forge's files.
+  - Set `PIP_PREFER_BINARY=1`.
 
 4.6.6 (2025-08-06)
 ==================

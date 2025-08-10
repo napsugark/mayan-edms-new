@@ -2,7 +2,12 @@ name: {{ FORGE_DOCKER_COMPOSE_PROJECT_NAME }}-{{ FORGE_DOCKER_COMPOSE_PROJECT_VE
 
 services:
   forge:
+    env_file:
+      - .env
+      - path: .env-local
+        required: false
     environment:
+      - PIP_PREFER_BINARY=1
       - SSH_AUTH_SOCK=/ssh-agent
     image: ${MAYAN_FORGE_DOCKER_IMAGE_NAME:-{{ FORGE_DOCKER_IMAGE_NAME }}}:${MAYAN_FORGE_DOCKER_IMAGE_TAG:-{{ FORGE_DOCKER_IMAGE_TAG }}}
     network_mode: "host"
@@ -13,4 +18,6 @@ services:
     volumes:
       - ../:/workspace
       - $SSH_AUTH_SOCK:/ssh-agent
+      # Optional: Mount host's PIP cache.
+      # - ~/.cache/pip:/home/ubuntu/.cache/pip
     working_dir: /workspace
