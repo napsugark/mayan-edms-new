@@ -1,3 +1,7 @@
+4.6.7 (2025-XX-XX)
+==================
+- Fix `forge-shell` target.
+
 4.6.6 (2025-08-06)
 ==================
 - Increase the GitLab CI artifact expiration from 4 hours to 24 hours.
