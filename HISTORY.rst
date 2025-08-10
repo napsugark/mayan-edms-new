@@ -20,6 +20,7 @@
   values passed to the Docker Compose file.
 - Support an optional `.env-local` file for the Mayan EDMS Docker Compose
   file.
+- Remove the Docker Compose version key.
 
 4.6.6 (2025-08-06)
 ==================
