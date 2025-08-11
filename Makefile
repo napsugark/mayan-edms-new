@@ -223,7 +223,7 @@ increase-version: ## Increase the version number of the entire project's files.
 	make versions-update; \
 	make generate-setup
 
-requirements-generate: ## Generate all requirements files from the project dependency declarations.
+generate-requirements: ## Generate all requirements files from the project dependency declarations.
 	@./manage.py dependencies_generate_requirements build --settings=mayan.settings.development > requirements/build.txt
 	@./manage.py dependencies_generate_requirements development --settings=mayan.settings.development > requirements/development.txt
 	@./manage.py dependencies_generate_requirements documentation --settings=mayan.settings.development > requirements/documentation.txt
