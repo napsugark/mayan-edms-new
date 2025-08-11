@@ -146,7 +146,6 @@ apt-get install --no-install-recommends --yes \
 USER mayan
 
 RUN set -a \
-&& . /config.env \
 && sed -E "s/=(.*)/\=\"\1\"/g" /config.env > /tmp/config.env \
 && . /tmp/config.env \
 && rm /tmp/config.env \
@@ -196,7 +195,6 @@ EXPOSE 8000
 CMD ["run_all"]
 
 RUN set -a \
-&& . /config.env \
 && sed -E "s/=(.*)/\=\"\1\"/g" /config.env > /tmp/config.env \
 && . /tmp/config.env \
 && rm /tmp/config.env \
