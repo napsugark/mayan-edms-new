@@ -37,7 +37,7 @@ Docker
 Backends
 ^^^^^^^^
 
-- Improved resilience of `backend.model_mixins.get_backend_class_label` by ensuring it no longer errors out when encountering old `importer` module paths instead of the updated `mayan.apps.importer...` paths.
+- Improved resilience of `backend.model_mixins.get_backend_class_label` by ensuring it no longer errors out when encountering old module paths.
 
 
 Settings
