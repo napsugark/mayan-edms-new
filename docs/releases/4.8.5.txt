@@ -5,9 +5,13 @@ Released: August 8, 2025
 
 
 Summary
-^^^^^^^
+-------
 
 Version 4.8.5 is a maintenance and refinement release that consolidates fixes and improvements from earlier branches, notably version 4.7.2. It delivers enhancements to the documentation system, user interface consistency, and build processes. This release also backports the fundraisers app and developer tooling updates.
+
+
+Changes
+-------
 
 
 Documentation
