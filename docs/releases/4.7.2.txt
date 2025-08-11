@@ -3,6 +3,7 @@ Version 4.7.2
 
 Released: August 07, 2025
 
+
 Summary
 -------
 
@@ -45,8 +46,8 @@ Dependency Version Upgrades:
 - pip from 24.3 to 24.3.1
 
 
-Development & Testing Tools
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Development & Testing
+^^^^^^^^^^^^^^^^^^^^^
 
 Makefile Improvements: Fixed the make target responsible for generating testing dependency requirements. Each generated requirement entry now explicitly defines the settings file to use, ensuring reproducibility across environments.
 
@@ -70,8 +71,8 @@ Updated Docker Image Tags:
 Removed localized fonts from the testing Dockerfile to reduce image size and eliminate unnecessary dependencies.
 
 
-Search App
-^^^^^^^^^^
+Search
+^^^^^^
 
 Fixed an issue where search result limits were not being applied correctly in Whoosh-based searches, improving result predictability.
 
