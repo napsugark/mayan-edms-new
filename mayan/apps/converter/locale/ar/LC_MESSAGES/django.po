@@ -11,6 +11,7 @@
 # Marwan Rahhal <Marwanr@sssit.net>, 2024
 # Yaman Sanobar <yman.snober@gmail.com>, 2024
 # Mohamad Ashmar, 2025
+# Hany salah, 2025
 # 
 msgid ""
 msgstr ""
@@ -18,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-04 17:04+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
-"Last-Translator: Mohamad Ashmar, 2025\n"
+"Last-Translator: Hany salah, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -658,12 +659,12 @@ msgstr "حذف الطلب  %(count)d"
 #: views/asset_views.py:60
 msgid "Delete the selected asset?"
 msgid_plural "Delete the selected assets?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "حذف الأصول المحددة؟"
+msgstr[1] "حذف الأصل المحددة؟"
+msgstr[2] "حذف الأصول المحددة؟"
+msgstr[3] "حذف الأصول المحددة؟"
+msgstr[4] "حذف الأصول المحددة؟"
+msgstr[5] "حذف الأصول المحددة؟"
 
 #: views/asset_views.py:71
 #, python-format
