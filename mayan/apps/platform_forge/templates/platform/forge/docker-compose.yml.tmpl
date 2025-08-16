@@ -20,4 +20,6 @@ services:
       - $SSH_AUTH_SOCK:/ssh-agent
       # Optional: Mount host's PIP cache.
       # - ~/.cache/pip:/home/ubuntu/.cache/pip
+      - /etc/ssl/certs/ca-certificates.crt:/etc/ssl/certs/ca-certificates.crt
+      - ~/.transifexrc:/.transifexrc
     working_dir: /workspace

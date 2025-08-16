@@ -45,6 +45,11 @@ RUN echo "export WORKON_HOME=\$HOME/.virtualenvs" >> /home/ubuntu/.bashrc \
 RUN echo "PS1_ORIGINAL=\"\$PS1\"" >> /home/ubuntu/.bashrc \
 && echo "PS1=\"🛠️  \$PS1_ORIGINAL\"" >> /home/ubuntu/.bashrc
 
+# Transifex
+RUN curl --location "https://github.com/transifex/cli/releases/download/v1.6.17/tx-linux-amd64.tar.gz" | tar --extract --gunzip tx \
+&& mv tx /usr/local/bin/txcli \
+&& echo "alias tx='/usr/local/bin/txcli --root-config /.transifexrc'" >> /home/ubuntu/.bashrc
+
 COPY forge/rootfs /
 
 WORKDIR /workspace
