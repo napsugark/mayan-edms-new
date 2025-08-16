@@ -58,7 +58,6 @@ CMD ["/bin/bash"]
 
 RUN apt-get clean autoclean \
 && apt-get autoremove --purge --yes \
-&& rm --force --recursive /var/lib/apt/lists/* \
 && rm --force /var/cache/apt/archives/*.deb \
 # Remove temporary files owned by root from the platform_template step.
 && rm --force /tmp/* \

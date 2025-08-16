@@ -1,6 +1,9 @@
 4.6.8 (XXXX-XX-XX)
 ==================
-- Add the Transifex CLI utility to the Forge container.
+- Forge updates:
+
+  - Add the Transifex CLI utility to the Forge container.
+  - Keep the seeded APT list files.
 
 4.6.7 (2025-08-11)
 ==================
