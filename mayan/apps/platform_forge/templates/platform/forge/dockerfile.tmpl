@@ -39,6 +39,8 @@ set -x \
 
 RUN echo "ubuntu ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
+COPY forge/rootfs /
+
 RUN echo "export WORKON_HOME=\$HOME/.virtualenvs" >> /home/ubuntu/.bashrc \
 && echo "source /usr/share/virtualenvwrapper/virtualenvwrapper.sh" >> /home/ubuntu/.bashrc
 
@@ -50,7 +52,18 @@ RUN curl --location "https://github.com/transifex/cli/releases/download/{{ FORGE
 && mv tx /usr/local/bin/txcli \
 && echo "alias tx='/usr/local/bin/txcli --root-config /.transifexrc'" >> /home/ubuntu/.bashrc
 
-COPY forge/rootfs /
+# Virtualenv
+SHELL ["/bin/bash", "-lc"]
+
+RUN export WORKON_HOME=/home/ubuntu/.virtualenvs \
+ && source /usr/share/virtualenvwrapper/virtualenvwrapper.sh \
+ && mkdir /workspace \
+ && mkvirtualenv "mayan-edms" -a /workspace -p /usr/bin/python{{ FORGE_PYTHON_VERSION }} \
+ && workon "mayan-edms" \
+ && pip install --upgrade {{ FORGE_PYTHON_PACKAGES }} \
+ && deactivate \
+ && rmdir /workspace \
+ && chown --recursive ubuntu:ubuntu /home/ubuntu
 
 WORKDIR /workspace
 

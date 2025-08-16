@@ -21,7 +21,7 @@ apt-get update \
     ca-certificates clamav file fuse ghostscript git gnupg1 graphviz libarchive-zip-perl libfile-mimeinfo-perl libimage-exiftool-perl libmariadb3 libpq5 libreoffice-calc-nogui libreoffice-draw-nogui libreoffice-impress-nogui libreoffice-math-nogui libreoffice-writer-nogui poppler-utils sane-utils sudo supervisor tesseract-ocr \
     g++ gcc libffi-dev libjpeg-dev libldap2-dev libpng-dev libsasl2-dev libssl-dev libtiff-dev make zlib1g-dev \
     enchant-2 libcairo2 \
-    bash-completion curl less software-properties-common squid-deb-proxy-client vim virtualenvwrapper \
+    bash-completion curl gettext less software-properties-common squid-deb-proxy-client vim virtualenvwrapper \
     default-libmysqlclient-dev \
     libpq-dev \
     openssh-client rsync \
@@ -39,6 +39,8 @@ set -x \
 
 RUN echo "ubuntu ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
+COPY forge/rootfs /
+
 RUN echo "export WORKON_HOME=\$HOME/.virtualenvs" >> /home/ubuntu/.bashrc \
 && echo "source /usr/share/virtualenvwrapper/virtualenvwrapper.sh" >> /home/ubuntu/.bashrc
 
@@ -50,7 +52,18 @@ RUN curl --location "https://github.com/transifex/cli/releases/download/v1.6.17/
 && mv tx /usr/local/bin/txcli \
 && echo "alias tx='/usr/local/bin/txcli --root-config /.transifexrc'" >> /home/ubuntu/.bashrc
 
-COPY forge/rootfs /
+# Virtualenv
+SHELL ["/bin/bash", "-lc"]
+
+RUN export WORKON_HOME=/home/ubuntu/.virtualenvs \
+ && source /usr/share/virtualenvwrapper/virtualenvwrapper.sh \
+ && mkdir /workspace \
+ && mkvirtualenv "mayan-edms" -a /workspace -p /usr/bin/python3.11 \
+ && workon "mayan-edms" \
+ && pip install --upgrade fancycompleter==0.8 setuptools==69.5.1 \
+ && deactivate \
+ && rmdir /workspace \
+ && chown --recursive ubuntu:ubuntu /home/ubuntu
 
 WORKDIR /workspace
 

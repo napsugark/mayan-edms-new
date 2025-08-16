@@ -4,6 +4,9 @@
 
   - Add the Transifex CLI utility to the Forge container.
   - Keep the seeded APT list files.
+  - Create the virtualenv in the Docker image.
+  - Preinstall platform Python packages to exact versions (setuptools, fancycompleter).
+  - Preinstall `gettext` to handle translations.
 
 - Reinforce `load_env_file` to support equal signs in the value portion.
 
