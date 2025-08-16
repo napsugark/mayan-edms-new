@@ -5,6 +5,8 @@
   - Add the Transifex CLI utility to the Forge container.
   - Keep the seeded APT list files.
 
+- Reinforce `load_env_file` to support equal signs in the value portion.
+
 4.6.7 (2025-08-11)
 ==================
 - Forge updates:
