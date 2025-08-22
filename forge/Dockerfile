@@ -55,15 +55,20 @@ RUN curl --location "https://github.com/transifex/cli/releases/download/v1.6.17/
 # Virtualenv
 SHELL ["/bin/bash", "-lc"]
 
-RUN export WORKON_HOME=/home/ubuntu/.virtualenvs \
- && source /usr/share/virtualenvwrapper/virtualenvwrapper.sh \
- && mkdir /workspace \
- && mkvirtualenv "mayan-edms" -a /workspace -p /usr/bin/python3.11 \
- && workon "mayan-edms" \
- && pip install --upgrade fancycompleter==0.8 setuptools==69.5.1 \
- && deactivate \
- && rmdir /workspace \
- && chown --recursive ubuntu:ubuntu /home/ubuntu
+RUN set -a \
+&& sed -E "s/=(.*)/\=\"\1\"/g" /config.env > /tmp/config.env \
+&& . /tmp/config.env \
+&& rm /tmp/config.env \
+&& set +a \
+&& export WORKON_HOME=/home/ubuntu/.virtualenvs \
+&& source /usr/share/virtualenvwrapper/virtualenvwrapper.sh \
+&& mkdir /workspace \
+&& mkvirtualenv "mayan-edms" -a /workspace -p /usr/bin/python3.11 \
+&& workon "mayan-edms" \
+&& /venv_dependencies.py \
+&& deactivate \
+&& rmdir /workspace \
+&& chown --recursive ubuntu:ubuntu /home/ubuntu
 
 WORKDIR /workspace
 
