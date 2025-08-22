@@ -45,8 +45,6 @@ job_docker_build:
     - DOCKER_VERSION=`cat docker/rootfs/version`
     - make docker-build DOCKER_IMAGE_MAYAN_NAME=${CI_REGISTRY_IMAGE} IMAGE_VERSION=${DOCKER_VERSION} DOCKER_IMAGE_LABELS_EXTRA='--label com.gitlab.ci.job.id=${CI_JOB_ID} --label com.gitlab.ci.pipeline.id=${CI_PIPELINE_ID} --label org.opencontainers.image.revision=${CI_COMMIT_SHA}'
     - docker push "${CI_REGISTRY_IMAGE}:${DOCKER_VERSION}"
-  services:
-    - {{ DOCKER_DIND_IMAGE_VERSION }}
   stage: stage_build_container
   variables:
     DOCKER_DRIVER: overlay2
@@ -78,8 +76,6 @@ job_docker_push_major:
     - docker push registry-1.docker.io/mayanedms/mayanedms:latest
     - docker push registry-1.docker.io/mayanedms/mayanedms:s"${MAJOR_VERSION}"
     - docker push registry-1.docker.io/mayanedms/mayanedms:s"${MINOR_VERSION}"
-  services:
-    - {{ DOCKER_DIND_IMAGE_VERSION }}
   stage: stage_push
   variables:
     DOCKER_DRIVER: overlay2
@@ -107,8 +103,6 @@ job_docker_push_minor:
     - docker login --username "${DOCKER_HUB_USERNAME}" --password "${DOCKER_HUB_PASSWORD}" https://registry-1.docker.io
     - docker push registry-1.docker.io/mayanedms/mayanedms:v"${DOCKER_VERSION}"
     - docker push registry-1.docker.io/mayanedms/mayanedms:s"${MINOR_VERSION}"
-  services:
-    - {{ DOCKER_DIND_IMAGE_VERSION }}
   stage: stage_push
   variables:
     DOCKER_DRIVER: overlay2
@@ -130,8 +124,6 @@ job_docker_nightly:
     - docker login --username "${DOCKER_HUB_USERNAME}" --password "${DOCKER_HUB_PASSWORD}" https://registry-1.docker.io
     - docker tag "${CI_REGISTRY_IMAGE}:${DOCKER_VERSION}" "registry-1.docker.io/mayanedms/mayanedms:${CI_COMMIT_REF_SLUG}"
     - docker push "registry-1.docker.io/mayanedms/mayanedms:${CI_COMMIT_REF_SLUG}"
-  services:
-    - {{ DOCKER_DIND_IMAGE_VERSION }}
   stage: stage_push
   variables:
     DOCKER_DRIVER: overlay2
