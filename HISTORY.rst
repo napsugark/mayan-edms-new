@@ -9,6 +9,7 @@
   - Preinstall `gettext` to handle translations.
 
 - Reinforce `load_env_file` to support equal signs in the value portion.
+- Don't load the unprocessed `config.env` file.
 
 4.6.7 (2025-08-11)
 ==================
