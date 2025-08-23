@@ -58,7 +58,7 @@ job_docker_push_major:
     - docker login --username ${CI_REGISTRY_USER} --password ${CI_REGISTRY_PASSWORD} ${CI_REGISTRY}
   cache:
 {% platform_gitlab_ci_cache_paths apk=True indent=4 %}
-  image: {{ DOCKER_DIND_IMAGE_VERSION }}
+  image: {{ DOCKER_CLI_IMAGE_VERSION }}
   only:
     - {{ GITLAB_CI_BRANCH_RELEASES_ALL_MAJOR }}
     - {{ GITLAB_CI_BRANCH_RELEASES_DOCKER_MAJOR }}
@@ -90,7 +90,7 @@ job_docker_push_minor:
     - docker login --username ${CI_REGISTRY_USER} --password ${CI_REGISTRY_PASSWORD} ${CI_REGISTRY}
   cache:
 {% platform_gitlab_ci_cache_paths apk=True indent=4 %}
-  image: {{ DOCKER_DIND_IMAGE_VERSION }}
+  image: {{ DOCKER_CLI_IMAGE_VERSION }}
   only:
     - {{ GITLAB_CI_BRANCH_RELEASES_ALL_MINOR }}
     - {{ GITLAB_CI_BRANCH_RELEASES_DOCKER_MINOR }}
@@ -113,7 +113,7 @@ job_docker_nightly:
   before_script:
 {% platform_gitlab_ci_config_env_before_script indent=4 %}
     - docker login --username ${CI_REGISTRY_USER} --password ${CI_REGISTRY_PASSWORD} ${CI_REGISTRY}
-  image: {{ DOCKER_DIND_IMAGE_VERSION }}
+  image: {{ DOCKER_CLI_IMAGE_VERSION }}
   needs:
     - job_docker_build
   only:

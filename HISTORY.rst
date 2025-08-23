@@ -12,6 +12,7 @@
 - Don't load the unprocessed `config.env` file.
 - Don't load the DIND image as a service.
 - Optimize file metadata migration 0011.
+- Use the CLI version of the Docker image when the full daemon is not required.
 
 4.6.7 (2025-08-11)
 ==================
