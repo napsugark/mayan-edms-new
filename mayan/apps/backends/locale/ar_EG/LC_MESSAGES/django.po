@@ -42,10 +42,15 @@ msgstr "بيانات في صيغة جيسون لفصيلة المُخدّم"
 msgid "Backend data"
 msgstr "بيانات الخاصة بالمبرمجين"
 
-#: model_mixins.py:73
+#: model_mixins.py:72
+#, python-format
+msgid "Error: `%s`"
+msgstr ""
+
+#: model_mixins.py:76
 msgid "Backend"
 msgstr "في الخفاء"
 
-#: model_mixins.py:75
+#: model_mixins.py:78
 msgid "The backend class for this entry."
 msgstr "فئة الواجهة الخلفية لهذا الإدخال."

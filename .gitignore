@@ -40,3 +40,4 @@ gitlab-ci-volume/
 .DS_Store
 config-local.env
 MANIFEST.in
+forge/.env-local

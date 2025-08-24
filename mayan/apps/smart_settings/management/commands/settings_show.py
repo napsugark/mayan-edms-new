@@ -22,7 +22,7 @@ class Command(management.BaseCommand):
     def handle(self, *args, **options):
         self.stdout.write(
             msg=setting_cluster.get_data_dump(
-                namespace=options.get('namespace'),
-                filter_term=options.get('filter_term')
+                filter_term=options.get('filter_term'),
+                namespace_name=options.get('namespace')
             )
         )

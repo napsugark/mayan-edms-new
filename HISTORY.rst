@@ -266,6 +266,53 @@
 - Expose the document index instance depth and node count values via the API.
 - Add a document type API view to return all documents of that type.
 
+4.6.9 (XXXX-XX-XX)
+==================
+- Add Docker DIND service to all docker push jobs.
+
+4.6.8 (2025-08-24)
+==================
+- Forge updates:
+
+  - Add the Transifex CLI utility to the Forge container.
+  - Keep the seeded APT list files.
+  - Create the virtualenv in the Docker image.
+  - Preinstall platform Python packages to exact versions (setuptools, fancycompleter).
+  - Preinstall `gettext` to handle translations.
+
+- Reinforce `load_env_file` to support equal signs in the value portion.
+- Don't load the unprocessed `config.env` file.
+- Don't load the DIND image as a service.
+- Optimize file metadata migration 0011.
+- Use the CLI version of the Docker image when the full daemon is not required.
+- Upgrade sentry-sdk from version 1.40.6 to 2.35.0.
+- Add trademark policy document.
+- Added `CITATION.cff` file for citations.
+
+4.6.7 (2025-08-11)
+==================
+- Forge updates:
+
+  - Fix `forge-shell` target.
+  - Add `squid-deb-proxy-client` to the container image.
+  - Support optional `.env-local` file.
+  - Add `.env-local` to .gitignore.
+  - Support PIP indexes.
+  - Support host PIP caches.
+  - New target to update all Forge's files.
+  - Set `PIP_PREFER_BINARY=1`.
+
+- Don't error out if `backend.model_mixins.get_backend_class_label` can't
+  find old modules path.
+- Support Docker Compose configurable `env_file` file via
+  `MAYAN_DOCKER_ENV_FILE`. Defaults to `.env`. This affects only the
+  environment variables passed to the Mayan EDMS stack does not affect the
+  values passed to the Docker Compose file.
+- Support an optional `.env-local` file for the Mayan EDMS Docker Compose
+  file.
+- Remove the Docker Compose version key.
+- Fix management command `settings_show` internal interface usage.
+
 4.6.6 (2025-08-06)
 ==================
 - Increase the GitLab CI artifact expiration from 4 hours to 24 hours.
