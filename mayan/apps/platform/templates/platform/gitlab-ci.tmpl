@@ -45,7 +45,9 @@ job_docker_build:
     - DOCKER_VERSION=`cat docker/rootfs/version`
     - make docker-build DOCKER_IMAGE_MAYAN_NAME=${CI_REGISTRY_IMAGE} IMAGE_VERSION=${DOCKER_VERSION} DOCKER_IMAGE_LABELS_EXTRA='--label com.gitlab.ci.job.id=${CI_JOB_ID} --label com.gitlab.ci.pipeline.id=${CI_PIPELINE_ID} --label org.opencontainers.image.revision=${CI_COMMIT_SHA}'
     - docker push "${CI_REGISTRY_IMAGE}:${DOCKER_VERSION}"
-  stage: stage_build_container
+  image: {{ DOCKER_DIND_IMAGE_VERSION }}
+  services:
+    - {{ DOCKER_DIND_IMAGE_VERSION }}
   variables:
     DOCKER_DRIVER: overlay2
 {% platform_gitlab_ci_cache_variables indent=4 apk=True pip=True %}
