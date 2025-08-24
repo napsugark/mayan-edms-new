@@ -225,10 +225,6 @@ job_python_build:
 {% platform_gitlab_ci_cache_variables apt=True indent=4 pip=True %}
 
 job_python_push_pypi:
-  cache:
-    paths:
-      - .apt
-      - .cache/pip
   before_script:
 {% platform_gitlab_ci_config_env_before_script indent=4 %}
 {% platform_gitlab_ci_cache_before_script apt=True indent=4 %}
