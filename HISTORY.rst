@@ -13,6 +13,7 @@
 - Don't load the DIND image as a service.
 - Optimize file metadata migration 0011.
 - Use the CLI version of the Docker image when the full daemon is not required.
+- Upgrade sentry-sdk from version 1.40.6 to 2.35.0.
 
 4.6.7 (2025-08-11)
 ==================

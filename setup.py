@@ -115,7 +115,7 @@ python_gnupg==0.4.9
 pytz==2024.1
 qrcode==7.4.2
 requests==2.31.0
-sentry-sdk==1.40.6
+sentry-sdk==2.35.0
 setuptools==69.5.1
 sh==2.0.7
 swagger-spec-validator==3.0.3
