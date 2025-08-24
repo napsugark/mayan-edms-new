@@ -88,6 +88,8 @@ job_docker_push_major:
     - docker push registry-1.docker.io/mayanedms/mayanedms:latest
     - docker push registry-1.docker.io/mayanedms/mayanedms:s"${MAJOR_VERSION}"
     - docker push registry-1.docker.io/mayanedms/mayanedms:s"${MINOR_VERSION}"
+  services:
+    - docker:23.0.6-dind
   stage: stage_push
   variables:
     DOCKER_DRIVER: overlay2
@@ -118,6 +120,8 @@ job_docker_push_minor:
     - docker login --username "${DOCKER_HUB_USERNAME}" --password "${DOCKER_HUB_PASSWORD}" https://registry-1.docker.io
     - docker push registry-1.docker.io/mayanedms/mayanedms:v"${DOCKER_VERSION}"
     - docker push registry-1.docker.io/mayanedms/mayanedms:s"${MINOR_VERSION}"
+  services:
+    - docker:23.0.6-dind
   stage: stage_push
   variables:
     DOCKER_DRIVER: overlay2
@@ -139,6 +143,8 @@ job_docker_nightly:
     - docker login --username "${DOCKER_HUB_USERNAME}" --password "${DOCKER_HUB_PASSWORD}" https://registry-1.docker.io
     - docker tag "${CI_REGISTRY_IMAGE}:${DOCKER_VERSION}" "registry-1.docker.io/mayanedms/mayanedms:${CI_COMMIT_REF_SLUG}"
     - docker push "registry-1.docker.io/mayanedms/mayanedms:${CI_COMMIT_REF_SLUG}"
+  services:
+    - docker:23.0.6-dind
   stage: stage_push
   variables:
     DOCKER_DRIVER: overlay2
