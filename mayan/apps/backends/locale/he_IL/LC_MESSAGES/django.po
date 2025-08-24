@@ -40,10 +40,15 @@ msgstr "נתונים מקודדים ב-JSON עבור מחלקת ה-backend."
 msgid "Backend data"
 msgstr "נתוני backend"
 
-#: model_mixins.py:73
+#: model_mixins.py:72
+#, python-format
+msgid "Error: `%s`"
+msgstr ""
+
+#: model_mixins.py:76
 msgid "Backend"
 msgstr "מנוע אחורי (backend)"
 
-#: model_mixins.py:75
+#: model_mixins.py:78
 msgid "The backend class for this entry."
 msgstr "פונקצית (class) ה-backend עבור ערך זה."

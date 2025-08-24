@@ -43,3 +43,4 @@ gitlab-ci-volume/
 config-local.env
 MANIFEST.in
 forge/Dockerfile
+forge/.env-local

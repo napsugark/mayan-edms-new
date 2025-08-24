@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1.2
 # vim:set ft=dockerfile:
 
-FROM ubuntu:24.04
+FROM ubuntu:noble-20250714
 
 COPY config.env /config.env
 
@@ -18,12 +18,11 @@ set -x \
 && DEBIAN_FRONTEND=noninteractive \
 apt-get update \
 && apt-get install --no-install-recommends --yes \
-    ca-certificates clamav file fuse ghostscript git gnupg1 graphviz libarchive-zip-perl libfile-mimeinfo-perl libimage-exiftool-perl libmariadb3 libpq5 libreoffice-calc-nogui libreoffice-draw-nogui libreoffice-impress-nogui libreoffice-math-nogui libreoffice-writer-nogui poppler-utils sane-utils software-properties-common sudo supervisor tesseract-ocr \
+    ca-certificates clamav file fuse ghostscript git gnupg1 graphviz libarchive-zip-perl libfile-mimeinfo-perl libimage-exiftool-perl libmariadb3 libpq5 libreoffice-calc-nogui libreoffice-draw-nogui libreoffice-impress-nogui libreoffice-math-nogui libreoffice-writer-nogui poppler-utils sane-utils sudo supervisor tesseract-ocr \
     g++ gcc libffi-dev libjpeg-dev libldap2-dev libpng-dev libsasl2-dev libssl-dev libtiff-dev make zlib1g-dev \
     enchant-2 libcairo2 \
-    bash-completion curl less vim virtualenvwrapper \
+    bash-completion curl gettext less software-properties-common squid-deb-proxy-client vim virtualenvwrapper \
     default-libmysqlclient-dev \
-    less \
     libpq-dev \
     openssh-client rsync \
     make python3-dev python3-venv \
@@ -40,13 +39,36 @@ set -x \
 
 RUN echo "ubuntu ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
+COPY forge/rootfs /
+
 RUN echo "export WORKON_HOME=\$HOME/.virtualenvs" >> /home/ubuntu/.bashrc \
 && echo "source /usr/share/virtualenvwrapper/virtualenvwrapper.sh" >> /home/ubuntu/.bashrc
 
 RUN echo "PS1_ORIGINAL=\"\$PS1\"" >> /home/ubuntu/.bashrc \
 && echo "PS1=\"🛠️  \$PS1_ORIGINAL\"" >> /home/ubuntu/.bashrc
 
-COPY forge/rootfs /
+# Transifex
+RUN curl --location "https://github.com/transifex/cli/releases/download/v1.6.17/tx-linux-amd64.tar.gz" | tar --extract --gunzip tx \
+&& mv tx /usr/local/bin/txcli \
+&& echo "alias tx='/usr/local/bin/txcli --root-config /.transifexrc'" >> /home/ubuntu/.bashrc
+
+# Virtualenv
+SHELL ["/bin/bash", "-lc"]
+
+RUN set -a \
+&& sed -E "s/=(.*)/\=\"\1\"/g" /config.env > /tmp/config.env \
+&& . /tmp/config.env \
+&& rm /tmp/config.env \
+&& set +a \
+&& export WORKON_HOME=/home/ubuntu/.virtualenvs \
+&& source /usr/share/virtualenvwrapper/virtualenvwrapper.sh \
+&& mkdir /workspace \
+&& mkvirtualenv "mayan-edms" -a /workspace -p /usr/bin/python3.11 \
+&& workon "mayan-edms" \
+&& /venv_dependencies.py \
+&& deactivate \
+&& rmdir /workspace \
+&& chown --recursive ubuntu:ubuntu /home/ubuntu
 
 WORKDIR /workspace
 
@@ -54,7 +76,6 @@ CMD ["/bin/bash"]
 
 RUN apt-get clean autoclean \
 && apt-get autoremove --purge --yes \
-&& rm --force --recursive /var/lib/apt/lists/* \
 && rm --force /var/cache/apt/archives/*.deb \
 # Remove temporary files owned by root from the platform_template step.
 && rm --force /tmp/* \

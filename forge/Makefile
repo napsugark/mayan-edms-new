@@ -44,9 +44,12 @@ forge-docker-compose-update: copy-config-env
 forge-down: ## Create and start the Forge container.
 	@docker compose --file forge/docker-compose.yml down
 
-forge-up: ## Create and start the Forge container.
-	@docker compose --file forge/docker-compose.yml up --detach
-
 forge-shell: ## Launch a bash instance inside the Forge container.
 forge-shell: forge-up
 	@docker compose --file forge/docker-compose.yml exec --env TERM=$(TERM) --interactive --tty forge bash
+
+forge-up: ## Create and start the Forge container.
+	@docker compose --file forge/docker-compose.yml up --detach
+
+forge-update: ## Update all Forge Docker files.
+forge-update: forge-docker-compose-update forge-dockerfile-update
