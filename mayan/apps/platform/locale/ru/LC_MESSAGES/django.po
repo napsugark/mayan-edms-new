@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"POT-Creation-Date: 2025-08-24 18:50+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: Ilya Pavlov <spirkaa@gmail.com>, 2024\n"
 "Language-Team: Russian (https://app.transifex.com/rosarior/teams/13584/ru/)\n"
@@ -44,11 +44,11 @@ msgstr "Шаблон, генерирующий Dockerfile."
 msgid "Template that generates a GitLab CI config file."
 msgstr "Шаблон, генерирующий конфиг GitLab CI."
 
-#: classes.py:601
+#: classes.py:606
 msgid "Template for Supervisord."
 msgstr "Шаблон для Supervisord."
 
-#: classes.py:675
+#: classes.py:680
 msgid "Template showing the queues of a worker."
 msgstr "Шаблон, показывающий очереди процесса."
 

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"POT-Creation-Date: 2025-08-24 18:50+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: Ford Guo <agile.guo@gmail.com>, 2024\n"
 "Language-Team: Chinese Simplified (https://app.transifex.com/rosarior/teams/13584/zh-Hans/)\n"
@@ -46,11 +46,11 @@ msgstr "用來產生Dockerfile檔案的範本"
 msgid "Template that generates a GitLab CI config file."
 msgstr "用來產生GitLab CI config檔的範本"
 
-#: classes.py:601
+#: classes.py:606
 msgid "Template for Supervisord."
 msgstr "Supervisord的模板"
 
-#: classes.py:675
+#: classes.py:680
 msgid "Template showing the queues of a worker."
 msgstr "显示工作队列模板。"
 

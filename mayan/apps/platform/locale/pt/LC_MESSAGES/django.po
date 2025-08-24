@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"POT-Creation-Date: 2025-08-24 18:50+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: 425fe09b3064b9f906f637fff94056ae_a00ea56 <0fa3588fa89906bfcb3a354600956e0e_308047>, 2024\n"
 "Language-Team: Portuguese (https://app.transifex.com/rosarior/teams/13584/pt/)\n"
@@ -46,11 +46,11 @@ msgstr "Modelo que gera um ficheiro Dockerfile."
 msgid "Template that generates a GitLab CI config file."
 msgstr "Modelo que gera um ficheiro GitLab CI config."
 
-#: classes.py:601
+#: classes.py:606
 msgid "Template for Supervisord."
 msgstr "Template para Supervisord"
 
-#: classes.py:675
+#: classes.py:680
 msgid "Template showing the queues of a worker."
 msgstr "Template exibindo as filas de um worker"
 

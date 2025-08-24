@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"POT-Creation-Date: 2025-08-24 18:50+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Language-Team: Croatian (https://app.transifex.com/rosarior/teams/13584/hr/)\n"
 "MIME-Version: 1.0\n"
@@ -40,11 +40,11 @@ msgstr ""
 msgid "Template that generates a GitLab CI config file."
 msgstr ""
 
-#: classes.py:601
+#: classes.py:606
 msgid "Template for Supervisord."
 msgstr ""
 
-#: classes.py:675
+#: classes.py:680
 msgid "Template showing the queues of a worker."
 msgstr ""
 
