@@ -1,3 +1,7 @@
+4.7.3 (2025-08-24)
+==================
+- Improvements and changes from version 4.6.8.
+
 4.7.2 (2025-08-07)
 ==================
 - Docker image tags:
