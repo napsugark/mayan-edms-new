@@ -53,6 +53,7 @@ job_docker_build:
     - docker push "${CI_REGISTRY_IMAGE}:${DOCKER_VERSION}"
   services:
     - docker:23.0.6-dind
+  stage: stage_build_container
   variables:
     DOCKER_DRIVER: overlay2
     APK_CACHE_DIR: ${CI_PROJECT_DIR}/.cache/apk

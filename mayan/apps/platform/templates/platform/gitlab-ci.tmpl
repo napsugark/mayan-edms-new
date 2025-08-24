@@ -47,6 +47,7 @@ job_docker_build:
     - docker push "${CI_REGISTRY_IMAGE}:${DOCKER_VERSION}"
   services:
     - {{ DOCKER_DIND_IMAGE_VERSION }}
+  stage: stage_build_container
   variables:
     DOCKER_DRIVER: overlay2
 {% platform_gitlab_ci_cache_variables indent=4 apk=True pip=True %}
