@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-06 21:22+0000\n"
+"POT-Creation-Date: 2025-08-24 10:17+0000\n"
 "PO-Revision-Date: 2025-08-06 21:25+0000\n"
 "Last-Translator: Harald Ersch, 2025\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/rosarior/teams/13584/ro_RO/)\n"
@@ -24,10 +24,10 @@ msgstr ""
 msgid "Platform Forge"
 msgstr "Forja Platformei"
 
-#: platform_templates.py:17
+#: platform_templates.py:18
 msgid "Template that generates the Mayan Forge Docker Compose file."
 msgstr "Șablon care generează fișierul Docker Compose din Mayan Forge."
 
-#: platform_templates.py:53
+#: platform_templates.py:54
 msgid "Template that generates a Mayan Forge Dockerfile file."
 msgstr "Șablon care generează un fișier Dockerfile Mayan Forge."

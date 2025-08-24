@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-06 21:22+0000\n"
+"POT-Creation-Date: 2025-08-24 10:17+0000\n"
 "PO-Revision-Date: 2025-08-06 21:25+0000\n"
 "Language-Team: Russian (https://app.transifex.com/rosarior/teams/13584/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -20,10 +20,10 @@ msgstr ""
 msgid "Platform Forge"
 msgstr ""
 
-#: platform_templates.py:17
+#: platform_templates.py:18
 msgid "Template that generates the Mayan Forge Docker Compose file."
 msgstr ""
 
-#: platform_templates.py:53
+#: platform_templates.py:54
 msgid "Template that generates a Mayan Forge Dockerfile file."
 msgstr ""

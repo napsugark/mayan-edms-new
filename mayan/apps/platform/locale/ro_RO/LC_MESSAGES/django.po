@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-07 11:57+0000\n"
+"POT-Creation-Date: 2025-08-24 10:17+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
 "Last-Translator: Harald Ersch, 2024\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/rosarior/teams/13584/ro_RO/)\n"
@@ -46,11 +46,11 @@ msgstr "Șablon care generează un fișier Dockerfile."
 msgid "Template that generates a GitLab CI config file."
 msgstr "Șablon care generează un fișier de configurare GitLab CI."
 
-#: classes.py:598
+#: classes.py:603
 msgid "Template for Supervisord."
 msgstr "Șablon pentru Supervisord."
 
-#: classes.py:672
+#: classes.py:677
 msgid "Template showing the queues of a worker."
 msgstr "Șablon care arată cozile unui lucrător."
 

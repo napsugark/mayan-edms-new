@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Roberto Rosario, 2024
+# Roberto Rosario, 2025
 # 
 msgid ""
 msgstr ""
@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-11 08:30+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
-"Last-Translator: Roberto Rosario, 2024\n"
+"Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Spanish (https://app.transifex.com/rosarior/teams/13584/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,7 +43,7 @@ msgstr "Datos del controlador"
 #: model_mixins.py:72
 #, python-format
 msgid "Error: `%s`"
-msgstr ""
+msgstr "Error: `%s`"
 
 #: model_mixins.py:76
 msgid "Backend"
