@@ -1,3 +1,5 @@
+from mayan.apps.forms.literals import EMPTY_LABEL
+
 from ..literals import FIELD_TYPE_CHOICE_CHAR, WORKFLOW_ACTION_ON_ENTRY
 
 DOCUMENT_WORKFLOW_LAUNCH_ACTION_CLASS_PATH = 'mayan.apps.document_states.workflow_actions.DocumentWorkflowLaunchAction'
@@ -64,7 +66,8 @@ TEST_WORKFLOW_TEMPLATE_TRANSITION_FIELD_LOOKUP_CHOICE_LIST = ['1', '2', '3']
 TEST_WORKFLOW_TEMPLATE_TRANSITION_FIELD_LOOKUP_CHOICE_DATA = ','.join(
     TEST_WORKFLOW_TEMPLATE_TRANSITION_FIELD_LOOKUP_CHOICE_LIST
 )
-TEST_WORKFLOW_TEMPLATE_TRANSITION_FIELD_LOOKUP_CHOICE_MARK_UP = '<option value="" selected>------</option><option value="{option_0}">{option_0}</option><option value="{option_1}">{option_1}</option><option value="{option_2}">{option_2}</option>'.format(
+TEST_WORKFLOW_TEMPLATE_TRANSITION_FIELD_LOOKUP_CHOICE_MARK_UP = '<option value="" selected>{EMPTY_LABEL}</option><option value="{option_0}">{option_0}</option><option value="{option_1}">{option_1}</option><option value="{option_2}">{option_2}</option>'.format(
+    EMPTY_LABEL=EMPTY_LABEL,
     option_0=TEST_WORKFLOW_TEMPLATE_TRANSITION_FIELD_LOOKUP_CHOICE_LIST[0],
     option_1=TEST_WORKFLOW_TEMPLATE_TRANSITION_FIELD_LOOKUP_CHOICE_LIST[1],
     option_2=TEST_WORKFLOW_TEMPLATE_TRANSITION_FIELD_LOOKUP_CHOICE_LIST[2]
