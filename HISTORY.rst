@@ -1,4 +1,4 @@
-4.8.6 (XXXX-XX-XX)
+4.8.6 (2025-08-25)
 ==================
 - Improvements and changes from version 4.7.3 and 4.7.4.
 - Fix workflow template field test after change in form default empty values.
