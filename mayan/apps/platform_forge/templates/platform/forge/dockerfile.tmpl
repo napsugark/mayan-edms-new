@@ -63,8 +63,8 @@ RUN set -a \
 && export WORKON_HOME=/home/ubuntu/.virtualenvs \
 && source /usr/share/virtualenvwrapper/virtualenvwrapper.sh \
 && mkdir /workspace \
-&& mkvirtualenv "mayan-edms" -a /workspace -p /usr/bin/python{{ FORGE_PYTHON_VERSION }} \
-&& workon "mayan-edms" \
+&& mkvirtualenv "mayan-edms-{{ FORGE_VIRTUALENV_SUFFIX }}" -a /workspace -p /usr/bin/python{{ FORGE_PYTHON_VERSION }} \
+&& workon "mayan-edms-{{ FORGE_VIRTUALENV_SUFFIX }}" \
 && /venv_dependencies.py \
 && deactivate \
 && rmdir /workspace \

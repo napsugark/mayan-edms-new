@@ -1,6 +1,6 @@
 4.8.6 (XXXX-XX-XX)
 ==================
-- Improvements and changes from version 4.7.3.
+- Improvements and changes from version 4.7.3 and 4.7.4.
 - Fix workflow template field test after change in form default empty values.
 
 4.8.5 (2025-08-08)
@@ -261,6 +261,12 @@
   workflow transition regardless of the current state or transition.
   The workflow state action context is now composed of the keys:
   `workflow_instance`, `workflow_instance_context`, `action`, and `log_entry`.
+
+4.7.4 (2025-08-25)
+==================
+- Improve sources app migration 0032 to deal with the phantom
+  'source_id' field of the source document file metadata model.
+- Include the version string as part of the Forge virtualenv.
 
 4.7.3 (2025-08-24)
 ==================
