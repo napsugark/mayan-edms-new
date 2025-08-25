@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-04 04:33+0000\n"
+"POT-Creation-Date: 2025-08-25 17:01+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Roberto Rosario, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/rosarior/teams/13584/nl/)\n"
@@ -128,7 +128,7 @@ msgstr "Origineel"
 msgid "Keeps the original filename of the uploaded file."
 msgstr "Behoudt de originele bestandsnaam van het geüploade bestand."
 
-#: classes.py:77 forms/document_forms.py:109 models/document_models.py:50
+#: classes.py:77 forms/document_forms.py:107 models/document_models.py:50
 msgid "UUID"
 msgstr "UUID"
 
@@ -369,11 +369,11 @@ msgstr ""
 "bestandsnaam om besturingssystemen die afhankelijk zijn van "
 "bestandsextensies in staat te stellen het document correct te openen."
 
-#: forms/document_forms.py:104
+#: forms/document_forms.py:102
 msgid "Date created"
 msgstr "Datum gecreeërd"
 
-#: forms/document_forms.py:112 models/document_models.py:78
+#: forms/document_forms.py:110 models/document_models.py:78
 msgid "Language"
 msgstr "Taal"
 

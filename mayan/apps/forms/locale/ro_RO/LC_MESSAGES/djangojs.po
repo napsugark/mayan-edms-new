@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 12:52+0000\n"
+"POT-Creation-Date: 2025-08-25 17:03+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Harald Ersch, 2024\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/rosarior/teams/13584/ro_RO/)\n"
@@ -20,31 +20,31 @@ msgstr ""
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: templates/forms/app/foot.html:14
+#: templates/forms/app/foot.html:20
 msgid "Cancel upload"
 msgstr "Anulați încărcarea"
 
-#: templates/forms/app/foot.html:15
+#: templates/forms/app/foot.html:21
 msgid "Are you sure you want to cancel this upload?"
 msgstr "Sigur doriți să anulați încărcarea?"
 
-#: templates/forms/app/foot.html:16
+#: templates/forms/app/foot.html:22
 msgid "Drop files or click here to upload files"
 msgstr "Drop fișiere sau faceți clic aici pentru a încărca fișiere"
 
-#: templates/forms/app/foot.html:17
+#: templates/forms/app/foot.html:23
 msgid "Your browser does not support drag and drop file uploads."
 msgstr "Browserul dvs. nu acceptă încărcarea de fișiere de tip drag and drop."
 
-#: templates/forms/app/foot.html:18
+#: templates/forms/app/foot.html:24
 msgid "Please use the fallback form below to upload your files."
 msgstr ""
 "Utilizați formularul de rezervă de mai jos pentru a încărca fișierele."
 
-#: templates/forms/app/foot.html:19
+#: templates/forms/app/foot.html:25
 msgid "Clear"
 msgstr "Golire"
 
-#: templates/forms/app/foot.html:20
+#: templates/forms/app/foot.html:26
 msgid "Server responded with {{statusCode}} code."
 msgstr "Serverul a răspuns cu codul {{statusCode}}."

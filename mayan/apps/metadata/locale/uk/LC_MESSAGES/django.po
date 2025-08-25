@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"POT-Creation-Date: 2025-08-25 17:02+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Leo Lado, 2024\n"
 "Language-Team: Ukrainian (https://app.transifex.com/rosarior/teams/13584/uk/)\n"
@@ -77,76 +77,76 @@ msgstr "Тип метаданих відредаговано"
 msgid "Metadata type relationship updated"
 msgstr "Оновлено зв’язок типу метаданих"
 
-#: forms.py:13
+#: forms.py:14
 msgid "ID"
 msgstr "ID"
 
-#: forms.py:16 models/metadata_type_models.py:35
+#: forms.py:17 models/metadata_type_models.py:35
 msgid "Name"
 msgstr "Ім'я"
 
-#: forms.py:24 models/metadata_instance_models.py:43 workflow_actions.py:112
+#: forms.py:25 models/metadata_instance_models.py:43 workflow_actions.py:112
 msgid "Value"
 msgstr "Значення"
 
-#: forms.py:29
+#: forms.py:30
 msgid "Update"
 msgstr "Оновлення"
 
-#: forms.py:49 forms.py:232 models/document_type_metadata_type_models.py:31
+#: forms.py:50 forms.py:233 models/document_type_metadata_type_models.py:31
 msgid "Required"
 msgstr "Обов'язково"
 
-#: forms.py:81
+#: forms.py:82
 #, python-format
 msgid "Lookup value error: %s"
 msgstr "Помилка пошуку значення: %s"
 
-#: forms.py:94
+#: forms.py:95
 #, python-format
 msgid "Default value error: %s"
 msgstr "Помилка значення за замовчуванням: %s"
 
-#: forms.py:115 models/metadata_type_models.py:120
+#: forms.py:116 models/metadata_type_models.py:120
 #, python-format
 msgid "\"%s\" is required for this document type."
 msgstr "\"%s\" потрібно для цього типу документа."
 
-#: forms.py:136
+#: forms.py:137
 msgid "Metadata types to be added to the selected documents."
 msgstr "Типи метаданих, які потрібно додати до вибраних документів."
 
-#: forms.py:137 models/document_type_metadata_type_models.py:28
+#: forms.py:138 models/document_type_metadata_type_models.py:28
 #: models/metadata_type_models.py:83 search.py:12 serializers.py:52
 #: serializers.py:114 workflow_actions.py:148
 msgid "Metadata type"
 msgstr "Тип метаданих"
 
-#: forms.py:162
+#: forms.py:163
 msgid "Remove"
 msgstr "Видалити"
 
-#: forms.py:181
+#: forms.py:182
 msgid "Basic"
 msgstr "Основний"
 
-#: forms.py:185
+#: forms.py:186
 msgid "Values"
 msgstr "Значення"
 
-#: forms.py:189
+#: forms.py:190
 msgid "Validation"
 msgstr "Перевірка"
 
-#: forms.py:193
+#: forms.py:194
 msgid "Parsing"
 msgstr "Аналіз"
 
-#: forms.py:230
+#: forms.py:231
 msgid "None"
 msgstr "None"
 
-#: forms.py:231
+#: forms.py:232
 msgid "Optional"
 msgstr "Додатково"
 

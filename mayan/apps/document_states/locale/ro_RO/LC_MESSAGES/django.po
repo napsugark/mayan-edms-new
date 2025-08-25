@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-27 19:21+0000\n"
+"POT-Creation-Date: 2025-08-25 17:01+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Harald Ersch, 2024\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/rosarior/teams/13584/ro_RO/)\n"
@@ -567,20 +567,20 @@ msgstr "Proxy de runtime pentru starea fluxului de lucru"
 msgid "Workflow state runtime proxies"
 msgstr "Proxy-uri runtime de stare de flux de lucru"
 
-#: models/workflow_transition_field_model_mixins.py:71
+#: models/workflow_transition_field_model_mixins.py:72
 #, python-format
 msgid "Lookup value error: %s"
 msgstr "Valoarea erorii de căutare: %s"
 
-#: models/workflow_transition_field_model_mixins.py:110
+#: models/workflow_transition_field_model_mixins.py:111
 msgid "Has a default?"
 msgstr "Are o valoare implicită?"
 
-#: models/workflow_transition_field_model_mixins.py:118
+#: models/workflow_transition_field_model_mixins.py:119
 msgid "Has a lookup?"
 msgstr "Are o căutare?"
 
-#: models/workflow_transition_field_model_mixins.py:129
+#: models/workflow_transition_field_model_mixins.py:130
 msgid "Value is not one of the provided options."
 msgstr "Valoarea nu este una dintre opțiunile furnizate."
 

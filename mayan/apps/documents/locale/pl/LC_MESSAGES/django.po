@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-04 04:33+0000\n"
+"POT-Creation-Date: 2025-08-25 17:01+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Wojciech Warczakowski <w.warczakowski@gmail.com>, 2024\n"
 "Language-Team: Polish (https://app.transifex.com/rosarior/teams/13584/pl/)\n"
@@ -135,7 +135,7 @@ msgstr "Oryginał"
 msgid "Keeps the original filename of the uploaded file."
 msgstr "Przechowuje oryginalną nazwę pliku przesłanego pliku."
 
-#: classes.py:77 forms/document_forms.py:109 models/document_models.py:50
+#: classes.py:77 forms/document_forms.py:107 models/document_models.py:50
 msgid "UUID"
 msgstr "UUID"
 
@@ -372,11 +372,11 @@ msgstr ""
 " systemom operacyjnym korzystającym z rozszerzeń plików prawidłowe "
 "otwieranie dokumentu."
 
-#: forms/document_forms.py:104
+#: forms/document_forms.py:102
 msgid "Date created"
 msgstr "Data utworzenia"
 
-#: forms/document_forms.py:112 models/document_models.py:78
+#: forms/document_forms.py:110 models/document_models.py:78
 msgid "Language"
 msgstr "Język"
 

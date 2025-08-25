@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-04 04:33+0000\n"
+"POT-Creation-Date: 2025-08-25 17:01+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
@@ -134,7 +134,7 @@ msgstr "الأصول"
 msgid "Keeps the original filename of the uploaded file."
 msgstr "الإحتفاظ باسم الملف الذي تم تحميله."
 
-#: classes.py:77 forms/document_forms.py:109 models/document_models.py:50
+#: classes.py:77 forms/document_forms.py:107 models/document_models.py:50
 msgid "UUID"
 msgstr "UUID"
 
@@ -369,11 +369,11 @@ msgstr ""
 "يأخذ امتداد الملف وينقله إلى نهاية اسم الملف مما يسمح لأنظمة التشغيل التي "
 "تعتمد على امتدادات الملفات بفتح المستند بشكل صحيح."
 
-#: forms/document_forms.py:104
+#: forms/document_forms.py:102
 msgid "Date created"
 msgstr "تاريخ الإنشاء"
 
-#: forms/document_forms.py:112 models/document_models.py:78
+#: forms/document_forms.py:110 models/document_models.py:78
 msgid "Language"
 msgstr "اللغة"
 

@@ -275,6 +275,13 @@ source_lang   = en
 resource_name = v4.8 File metadata Ollama
 type          = PO
 
+[o:rosarior:p:mayan-edms:r:fundraisers-4-8]
+file_filter   = mayan/apps/fundraisers/locale/<lang>/LC_MESSAGES/django.po
+source_file   = mayan/apps/fundraisers/locale/en/LC_MESSAGES/django.po
+source_lang   = en
+resource_name = v4.8 Fundraisers
+type          = PO
+
 [o:rosarior:p:mayan-edms:r:linking-4-8]
 file_filter   = mayan/apps/linking/locale/<lang>/LC_MESSAGES/django.po
 source_file   = mayan/apps/linking/locale/en/LC_MESSAGES/django.po

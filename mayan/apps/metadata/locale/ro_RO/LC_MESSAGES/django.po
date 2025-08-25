@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"POT-Creation-Date: 2025-08-25 17:02+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Harald Ersch, 2025\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/rosarior/teams/13584/ro_RO/)\n"
@@ -77,77 +77,77 @@ msgstr "Tipul de metadate a fost editat"
 msgid "Metadata type relationship updated"
 msgstr "Relația tipului de metadate a fost actualizată"
 
-#: forms.py:13
+#: forms.py:14
 msgid "ID"
 msgstr "ID-ul"
 
-#: forms.py:16 models/metadata_type_models.py:35
+#: forms.py:17 models/metadata_type_models.py:35
 msgid "Name"
 msgstr "Nume"
 
-#: forms.py:24 models/metadata_instance_models.py:43 workflow_actions.py:112
+#: forms.py:25 models/metadata_instance_models.py:43 workflow_actions.py:112
 msgid "Value"
 msgstr "Valoare"
 
-#: forms.py:29
+#: forms.py:30
 msgid "Update"
 msgstr "Actualizați"
 
-#: forms.py:49 forms.py:232 models/document_type_metadata_type_models.py:31
+#: forms.py:50 forms.py:233 models/document_type_metadata_type_models.py:31
 msgid "Required"
 msgstr "Necesară"
 
-#: forms.py:81
+#: forms.py:82
 #, python-format
 msgid "Lookup value error: %s"
 msgstr "Valoarea erorii de căutare: %s"
 
-#: forms.py:94
+#: forms.py:95
 #, python-format
 msgid "Default value error: %s"
 msgstr "Valoare eroare standard: %s"
 
-#: forms.py:115 models/metadata_type_models.py:120
+#: forms.py:116 models/metadata_type_models.py:120
 #, python-format
 msgid "\"%s\" is required for this document type."
 msgstr "\"%s\" este necesar pentru acest tip de document."
 
-#: forms.py:136
+#: forms.py:137
 msgid "Metadata types to be added to the selected documents."
 msgstr ""
 "Tipurile de metadate care urmează să fie adăugate la documentele selectate."
 
-#: forms.py:137 models/document_type_metadata_type_models.py:28
+#: forms.py:138 models/document_type_metadata_type_models.py:28
 #: models/metadata_type_models.py:83 search.py:12 serializers.py:52
 #: serializers.py:114 workflow_actions.py:148
 msgid "Metadata type"
 msgstr "Tip de metadate"
 
-#: forms.py:162
+#: forms.py:163
 msgid "Remove"
 msgstr "Eliminați"
 
-#: forms.py:181
+#: forms.py:182
 msgid "Basic"
 msgstr "De bază"
 
-#: forms.py:185
+#: forms.py:186
 msgid "Values"
 msgstr "Valori"
 
-#: forms.py:189
+#: forms.py:190
 msgid "Validation"
 msgstr "Validare"
 
-#: forms.py:193
+#: forms.py:194
 msgid "Parsing"
 msgstr "Analizare"
 
-#: forms.py:230
+#: forms.py:231
 msgid "None"
 msgstr "Nici unul"
 
-#: forms.py:231
+#: forms.py:232
 msgid "Optional"
 msgstr "Facultativ"
 

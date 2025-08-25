@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-27 19:21+0000\n"
+"POT-Creation-Date: 2025-08-25 17:01+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Jorge <emailcurro@gmail.com>, 2024\n"
 "Language-Team: Catalan (https://app.transifex.com/rosarior/teams/13584/ca/)\n"
@@ -537,20 +537,20 @@ msgstr ""
 msgid "Workflow state runtime proxies"
 msgstr ""
 
-#: models/workflow_transition_field_model_mixins.py:71
+#: models/workflow_transition_field_model_mixins.py:72
 #, python-format
 msgid "Lookup value error: %s"
 msgstr ""
 
-#: models/workflow_transition_field_model_mixins.py:110
+#: models/workflow_transition_field_model_mixins.py:111
 msgid "Has a default?"
 msgstr ""
 
-#: models/workflow_transition_field_model_mixins.py:118
+#: models/workflow_transition_field_model_mixins.py:119
 msgid "Has a lookup?"
 msgstr ""
 
-#: models/workflow_transition_field_model_mixins.py:129
+#: models/workflow_transition_field_model_mixins.py:130
 msgid "Value is not one of the provided options."
 msgstr ""
 
