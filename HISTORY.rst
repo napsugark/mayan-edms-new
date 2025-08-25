@@ -2,6 +2,7 @@
 ==================
 - Improve sources app migration 0032 to deal with the phantom
   'source_id' field of the source document file metadata model.
+- Include the version string as part of the Forge virtualenv.
 
 4.7.3 (2025-08-24)
 ==================
