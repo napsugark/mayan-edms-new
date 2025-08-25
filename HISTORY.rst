@@ -1,3 +1,8 @@
+4.7.4 (2025-08-25)
+==================
+- Improve sources app migration 0032 to deal with the phantom
+  'source_id' field of the source document file metadata model.
+
 4.7.3 (2025-08-24)
 ==================
 - Improvements and changes from version 4.6.8.
