@@ -36,7 +36,7 @@ job_docker_build:
     - key: pip-cache-4.9
       paths:
         - ${PIP_CACHE_DIR}
-  image: docker:27.4.1-dind-alpine3.21
+  image: docker:27.4.1-dind
   only:
     - builds/docker
     - releases/all/major
@@ -52,7 +52,7 @@ job_docker_build:
     - make docker-build DOCKER_IMAGE_MAYAN_NAME=${CI_REGISTRY_IMAGE} IMAGE_VERSION=${DOCKER_VERSION} DOCKER_IMAGE_LABELS_EXTRA='--label com.gitlab.ci.job.id=${CI_JOB_ID} --label com.gitlab.ci.pipeline.id=${CI_PIPELINE_ID} --label org.opencontainers.image.revision=${CI_COMMIT_SHA}'
     - docker push "${CI_REGISTRY_IMAGE}:${DOCKER_VERSION}"
   services:
-    - docker:27.4.1-dind-alpine3.21
+    - docker:27.4.1-dind
   stage: stage_build_container
   variables:
     DOCKER_DRIVER: overlay2
@@ -70,7 +70,7 @@ job_docker_push_major:
     - key: apk-cache-4.9
       paths:
         - ${APK_CACHE_DIR}
-  image: docker:27.4.1-dind-alpine3.21
+  image: docker:27.4.1-cli
   only:
     - releases/all/major
     - releases/docker/major
@@ -89,7 +89,7 @@ job_docker_push_major:
     - docker push registry-1.docker.io/mayanedms/mayanedms:s"${MAJOR_VERSION}"
     - docker push registry-1.docker.io/mayanedms/mayanedms:s"${MINOR_VERSION}"
   services:
-    - docker:27.4.1-dind-alpine3.21
+    - docker:27.4.1-dind
   stage: stage_push
   variables:
     DOCKER_DRIVER: overlay2
@@ -107,7 +107,7 @@ job_docker_push_minor:
     - key: apk-cache-4.9
       paths:
         - ${APK_CACHE_DIR}
-  image: docker:27.4.1-dind-alpine3.21
+  image: docker:27.4.1-cli
   only:
     - releases/all/minor
     - releases/docker/minor
@@ -121,7 +121,7 @@ job_docker_push_minor:
     - docker push registry-1.docker.io/mayanedms/mayanedms:v"${DOCKER_VERSION}"
     - docker push registry-1.docker.io/mayanedms/mayanedms:s"${MINOR_VERSION}"
   services:
-    - docker:27.4.1-dind-alpine3.21
+    - docker:27.4.1-dind
   stage: stage_push
   variables:
     DOCKER_DRIVER: overlay2
@@ -132,7 +132,7 @@ job_docker_nightly:
   before_script:
     - set -a && sed -E "s/=(.*)/\=\"\1\"/g" config.env > /tmp/config.env && . /tmp/config.env && rm /tmp/config.env && set +a
     - docker login --username ${CI_REGISTRY_PUSH_USER} --password ${CI_REGISTRY_PUSH_PASSWORD} ${CI_REGISTRY}
-  image: docker:27.4.1-dind-alpine3.21
+  image: docker:27.4.1-cli
   needs:
     - job_docker_build
   only:
@@ -144,7 +144,7 @@ job_docker_nightly:
     - docker tag "${CI_REGISTRY_IMAGE}:${DOCKER_VERSION}" "registry-1.docker.io/mayanedms/mayanedms:${CI_COMMIT_REF_SLUG}"
     - docker push "registry-1.docker.io/mayanedms/mayanedms:${CI_COMMIT_REF_SLUG}"
   services:
-    - docker:27.4.1-dind-alpine3.21
+    - docker:27.4.1-dind
   stage: stage_push
   variables:
     DOCKER_DRIVER: overlay2
@@ -163,7 +163,7 @@ job_documentation_build:
     - printf "dir::state::lists    ${APT_STATE_LISTS};\ndir::cache::archives    ${APT_CACHE_ARCHIVES};\n" > /etc/apt/apt.conf.d/99gitlab-ci-cache
     - if [ "${APT_PROXY}" ]; then echo "Acquire::http { Proxy \"http://${APT_PROXY}\"; };" > /etc/apt/apt.conf.d/01proxy; fi
     - apt-get update
-    - apt-get install --yes --no-install-recommends enchant-2 libcairo2 g++ gcc libffi-dev libjpeg-dev libldap2-dev libpng-dev libsasl2-dev libssl-dev libtiff-dev make software-properties-common zlib1g-dev make python3-dev python3-venv
+    - apt-get install --yes --no-install-recommends enchant-2 libcairo2 g++ gcc libffi-dev libjpeg-dev libldap2-dev libpng-dev libsasl2-dev libssl-dev libtiff-dev make zlib1g-dev make python3-dev python3-venv
     - python3 -m venv venv
     - . venv/bin/activate
     - pip install pip==${PYTHON_PIP_VERSION}
@@ -274,10 +274,6 @@ job_python_build:
     PIP_CACHE_DIR: ${CI_PROJECT_DIR}/.cache/pip
 
 job_python_push_pypi:
-  cache:
-    paths:
-      - .apt
-      - .cache/pip
   before_script:
     - set -a && sed -E "s/=(.*)/\=\"\1\"/g" config.env > /tmp/config.env && . /tmp/config.env && rm /tmp/config.env && set +a
     - export APT_STATE_LISTS=${APT_CACHE_DIR}/lists && export APT_CACHE_ARCHIVES=${APT_CACHE_DIR}/archives
@@ -324,7 +320,7 @@ job_python_push_pypi:
     - printf "dir::state::lists    ${APT_STATE_LISTS};\ndir::cache::archives    ${APT_CACHE_ARCHIVES};\n" > /etc/apt/apt.conf.d/99gitlab-ci-cache
     - if [ "${APT_PROXY}" ]; then echo "Acquire::http { Proxy \"http://${APT_PROXY}\"; };" > /etc/apt/apt.conf.d/01proxy; fi
     - apt-get update
-    - apt-get install --yes --no-install-recommends ca-certificates clamav file fuse ghostscript git gnupg1 graphviz less libarchive-zip-perl libfile-mimeinfo-perl libimage-exiftool-perl libmariadb3 libpq5 libreoffice-calc-nogui libreoffice-draw-nogui libreoffice-impress-nogui libreoffice-math-nogui libreoffice-writer-nogui poppler-utils sane-utils sudo supervisor tesseract-ocr g++ gcc libffi-dev libjpeg-dev libldap2-dev libpng-dev libsasl2-dev libssl-dev libtiff-dev make software-properties-common zlib1g-dev make python3-dev python3-venv tesseract-ocr-deu
+    - apt-get install --yes --no-install-recommends ca-certificates clamav file fuse ghostscript git gnupg1 graphviz libarchive-zip-perl libfile-mimeinfo-perl libimage-exiftool-perl libmariadb3 libpq5 libreoffice-calc-nogui libreoffice-draw-nogui libreoffice-impress-nogui libreoffice-math-nogui libreoffice-writer-nogui poppler-utils sane-utils sudo supervisor tesseract-ocr g++ gcc libffi-dev libjpeg-dev libldap2-dev libpng-dev libsasl2-dev libssl-dev libtiff-dev make zlib1g-dev make python3-dev python3-venv tesseract-ocr-deu
     - python3 -m venv venv
     - . venv/bin/activate
     - pip install pip==${PYTHON_PIP_VERSION}

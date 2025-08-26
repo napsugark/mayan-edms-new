@@ -4,6 +4,7 @@ from mayan.apps.platform.platform_templates import PlatformTemplate, Variable
 from mayan.settings.literals import (
     FORGE_DOCKER_BASE_IMAGE_NAME, FORGE_DOCKER_BASE_IMAGE_TAG,
     FORGE_DOCKER_COMPOSE_PROJECT_NAME, FORGE_DOCKER_IMAGE_NAME,
+    FORGE_PYTHON_PACKAGES, FORGE_PYTHON_VERSION, FORGE_TRANSIFEX_VERSION,
     LINUX_PACKAGES_DEBIAN_BASE, LINUX_PACKAGES_DEBIAN_BUILD,
     LINUX_PACKAGES_DEBIAN_DOCUMENTATION, LINUX_PACKAGES_DEBIAN_FORGE,
     LINUX_PACKAGES_DEBIAN_MYSQL, LINUX_PACKAGES_DEBIAN_POSTGRESQL,
@@ -56,6 +57,10 @@ class PlatformTemplateForgeDockerfile(PlatformTemplate):
     template_name = 'platform/forge/dockerfile.tmpl'
 
     def __init__(self):
+        with open(file='docker/rootfs/version', mode='r') as file_object:
+            version_string = file_object.readline()
+            version_string_clean = version_string.strip()
+
         self.variables = (
             Variable(
                 name='FORGE_DOCKER_BASE_IMAGE_NAME',
@@ -66,6 +71,26 @@ class PlatformTemplateForgeDockerfile(PlatformTemplate):
                 name='FORGE_DOCKER_BASE_IMAGE_TAG',
                 default=FORGE_DOCKER_BASE_IMAGE_TAG,
                 environment_name='MAYAN_FORGE_DOCKER_BASE_IMAGE_TAG'
+            ),
+            Variable(
+                name='FORGE_PYTHON_PACKAGES',
+                default=FORGE_PYTHON_PACKAGES,
+                environment_name='MAYAN_FORGE_PYTHON_PACKAGES'
+            ),
+            Variable(
+                name='FORGE_VIRTUALENV_SUFFIX',
+                default=version_string_clean,
+                environment_name='MAYAN_FORGE_VIRTUALENV_SUFFIX'
+            ),
+            Variable(
+                name='FORGE_PYTHON_VERSION',
+                default=FORGE_PYTHON_VERSION,
+                environment_name='MAYAN_FORGE_PYTHON_VERSION'
+            ),
+            Variable(
+                name='FORGE_TRANSIFEX_VERSION',
+                default=FORGE_TRANSIFEX_VERSION,
+                environment_name='MAYAN_FORGE_TRANSIFEX_VERSION'
             ),
             Variable(
                 name='LINUX_PACKAGES_DEBIAN_BASE',

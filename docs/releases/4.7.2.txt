@@ -3,9 +3,6 @@ Version 4.7.2
 
 Released: August 07, 2025
 
-This version includes the changes from versions 4.6.5, 4.5.13, 4.4.16, plus
-the following:
-
 
 Summary
 -------
@@ -49,8 +46,8 @@ Dependency Version Upgrades:
 - pip from 24.3 to 24.3.1
 
 
-Development & Testing Tools
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Development & Testing
+^^^^^^^^^^^^^^^^^^^^^
 
 Makefile Improvements: Fixed the make target responsible for generating testing dependency requirements. Each generated requirement entry now explicitly defines the settings file to use, ensuring reproducibility across environments.
 
@@ -64,18 +61,18 @@ Docker
 
 Updated Docker Image Tags:
 
-  - Base Debian from 12.5-slim to 12.11-slim.
-  - ElasticSearch from 7.17.20 to 7.17.28
-  - Forge base from 24.04 to noble-20250714
-  - PostgreSQL from 14.12-alpine to 14.18-alpine
-  - Python from 3.11.9-slim to 3.11.13-slim.
-  - RabbitMQ from 3.12.14-management-alpine to 3.13.7-management-alpine
+- Base Debian from 12.5-slim to 12.11-slim.
+- ElasticSearch from 7.17.20 to 7.17.28
+- Forge base from 24.04 to noble-20250714
+- PostgreSQL from 14.12-alpine to 14.18-alpine
+- Python from 3.11.9-slim to 3.11.13-slim.
+- RabbitMQ from 3.12.14-management-alpine to 3.13.7-management-alpine
 
 Removed localized fonts from the testing Dockerfile to reduce image size and eliminate unnecessary dependencies.
 
 
-Search App
-^^^^^^^^^^
+Search
+^^^^^^
 
 Fixed an issue where search result limits were not being applied correctly in Whoosh-based searches, improving result predictability.
 

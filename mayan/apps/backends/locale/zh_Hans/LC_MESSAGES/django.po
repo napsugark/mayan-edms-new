@@ -40,10 +40,15 @@ msgstr ""
 msgid "Backend data"
 msgstr "后端数据"
 
-#: model_mixins.py:73
+#: model_mixins.py:72
+#, python-format
+msgid "Error: `%s`"
+msgstr ""
+
+#: model_mixins.py:76
 msgid "Backend"
 msgstr "后端"
 
-#: model_mixins.py:75
+#: model_mixins.py:78
 msgid "The backend class for this entry."
 msgstr ""

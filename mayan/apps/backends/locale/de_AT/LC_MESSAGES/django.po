@@ -42,10 +42,15 @@ msgstr "JSON kodierte Daten für die Backend Klasse."
 msgid "Backend data"
 msgstr "Backenddaten"
 
-#: model_mixins.py:73
+#: model_mixins.py:72
+#, python-format
+msgid "Error: `%s`"
+msgstr ""
+
+#: model_mixins.py:76
 msgid "Backend"
 msgstr "Backend"
 
-#: model_mixins.py:75
+#: model_mixins.py:78
 msgid "The backend class for this entry."
 msgstr "Die Backend-Klasse für diesen Eintrag."

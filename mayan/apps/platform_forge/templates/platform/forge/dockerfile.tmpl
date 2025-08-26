@@ -39,13 +39,36 @@ set -x \
 
 RUN echo "ubuntu ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
+COPY forge/rootfs /
+
 RUN echo "export WORKON_HOME=\$HOME/.virtualenvs" >> /home/ubuntu/.bashrc \
 && echo "source /usr/share/virtualenvwrapper/virtualenvwrapper.sh" >> /home/ubuntu/.bashrc
 
 RUN echo "PS1_ORIGINAL=\"\$PS1\"" >> /home/ubuntu/.bashrc \
 && echo "PS1=\"🛠️  \$PS1_ORIGINAL\"" >> /home/ubuntu/.bashrc
 
-COPY forge/rootfs /
+# Transifex
+RUN curl --location "https://github.com/transifex/cli/releases/download/{{ FORGE_TRANSIFEX_VERSION }}/tx-linux-amd64.tar.gz" | tar --extract --gunzip tx \
+&& mv tx /usr/local/bin/txcli \
+&& echo "alias tx='/usr/local/bin/txcli --root-config /.transifexrc'" >> /home/ubuntu/.bashrc
+
+# Virtualenv
+SHELL ["/bin/bash", "-lc"]
+
+RUN set -a \
+&& sed -E "s/=(.*)/\=\"\1\"/g" /config.env > /tmp/config.env \
+&& . /tmp/config.env \
+&& rm /tmp/config.env \
+&& set +a \
+&& export WORKON_HOME=/home/ubuntu/.virtualenvs \
+&& source /usr/share/virtualenvwrapper/virtualenvwrapper.sh \
+&& mkdir /workspace \
+&& mkvirtualenv "mayan-edms-{{ FORGE_VIRTUALENV_SUFFIX }}" -a /workspace -p /usr/bin/python{{ FORGE_PYTHON_VERSION }} \
+&& workon "mayan-edms-{{ FORGE_VIRTUALENV_SUFFIX }}" \
+&& /venv_dependencies.py \
+&& deactivate \
+&& rmdir /workspace \
+&& chown --recursive ubuntu:ubuntu /home/ubuntu
 
 WORKDIR /workspace
 
@@ -53,7 +76,6 @@ CMD ["/bin/bash"]
 
 RUN apt-get clean autoclean \
 && apt-get autoremove --purge --yes \
-&& rm --force --recursive /var/lib/apt/lists/* \
 && rm --force /var/cache/apt/archives/*.deb \
 # Remove temporary files owned by root from the platform_template step.
 && rm --force /tmp/* \
