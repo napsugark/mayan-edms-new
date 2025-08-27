@@ -6,6 +6,7 @@
   - Update the translation file detection to ensure all JavaScript files are
     included.
   - Fix task manager test missing a call to `super().tearDown`.
+  - Add documentation step to update forge files.
 
 4.6.8 (2025-08-24)
 ==================
