@@ -22,7 +22,7 @@ msgstr ""
 
 #: apps.py:11
 msgid "File metadata PyPDF"
-msgstr ""
+msgstr "Metadate fișier PyPDF"
 
 #: drivers.py:9
 msgid "Read meta information stored in files."
@@ -30,4 +30,4 @@ msgstr "Citiți meta-informațiile stocate în fișiere."
 
 #: drivers.py:11
 msgid "PyPDF"
-msgstr ""
+msgstr "PyPDF"

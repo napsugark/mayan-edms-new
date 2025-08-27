@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:40+0000\n"
+"POT-Creation-Date: 2025-08-27 11:45+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: Frédéric Sheedy <sheedf@gmail.com>, 2025\n"
 "Language-Team: French (https://app.transifex.com/rosarior/teams/13584/fr/)\n"
@@ -24,6 +24,6 @@ msgstr ""
 msgid "Platform GitLab"
 msgstr ""
 
-#: platform_templates.py:28
+#: platform_templates.py:29
 msgid "Template that generates a GitLab CI config file."
 msgstr "Modèle qui génère un fichier de configuration GitLab CI."

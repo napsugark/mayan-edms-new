@@ -56,7 +56,7 @@ msgstr "Șablon care generează un fișier Dockerfile."
 
 #: settings.py:24
 msgid "Docker"
-msgstr "Docker"
+msgstr "Docher"
 
 #: settings.py:30
 msgid ""

@@ -1467,18 +1467,24 @@ msgstr ""
 msgid ""
 "Time interval in seconds, at which the document trashing task will execute."
 msgstr ""
+"Interval de timp, în secunde, la care se va executa sarcina de ștergere a "
+"documentelor din coșul de gunoi."
 
 #: settings.py:177
 msgid ""
 "Time interval in seconds, at which the document stub prune task will "
 "execute."
 msgstr ""
+"Interval de timp, în secunde, la care se va executa sarcina de ștergere a "
+"documentului."
 
 #: settings.py:185
 msgid ""
 "Time interval in seconds, at which the trashed document deletion task will "
 "execute."
 msgstr ""
+"Interval de timp, în secunde, la care se va executa sarcina de ștergere a "
+"documentelor din coșul de gunoi."
 
 #: settings.py:192
 msgid "Height in pixels of the document thumbnail image."

@@ -151,10 +151,14 @@ msgid ""
 "Number of pages to show on each side of the current page in the elided "
 "pager."
 msgstr ""
+"Numărul de pagini care vor fi afișate pe fiecare parte a paginii curente în "
+"paginatorul omis."
 
 #: settings.py:36
 msgid "Number of pages to show at both ends of the elided pager."
 msgstr ""
+"Numărul de pagini care vor fi afișate la ambele capete ale paginatorului "
+"omis."
 
 #: settings.py:42
 msgid "Maximum number of characters that will be displayed as the view title."
@@ -175,14 +179,16 @@ msgstr ""
 #: settings.py:65
 msgid "Total pages to show in the page selection dropdown."
 msgstr ""
+"Numărul total de pagini care vor fi afișate în meniul derulant de selectare "
+"a paginilor."
 
 #: settings.py:71
 msgid "Enable page selection dropdown."
-msgstr ""
+msgstr "Activează meniul derulant de selectare a paginii."
 
 #: settings.py:77
 msgid "Enable the page selection input field."
-msgstr ""
+msgstr "Activați câmpul de introducere pentru selectarea paginii."
 
 #: settings.py:83
 msgid ""
@@ -201,7 +207,7 @@ msgstr ""
 
 #: templates/appearance/app/foot.html:22
 msgid "Copy content to clipboard"
-msgstr ""
+msgstr "Copiați conținutul în clipboard"
 
 #: templates/appearance/app/foot.html:22
 msgid "Copy"
@@ -209,15 +215,15 @@ msgstr "Copiere"
 
 #: templates/appearance/app/foot.html:28
 msgid "Reset input size height"
-msgstr ""
+msgstr "Resetați înălțimea dimensiunii de intrare"
 
 #: templates/appearance/app/foot.html:28
 msgid "Reset"
-msgstr ""
+msgstr "Resetare"
 
 #: templates/appearance/app/foot.html:126
 msgid "Page number must be a positive integer."
-msgstr ""
+msgstr "Numărul paginii trebuie să fie un număr întreg pozitiv."
 
 #: templatetags/appearance_tags.py:77
 msgid "None"

@@ -40,13 +40,15 @@ msgstr "Valoare"
 
 #: classes.py:162
 msgid "Has errors"
-msgstr ""
+msgstr "Are erori"
 
 #: classes.py:164
 msgid ""
 "Indicates that this setting was not loaded correctly. Settings with errors "
 "revert to their default value."
 msgstr ""
+"Indică faptul că această setare nu a fost încărcată corect. Setările cu "
+"erori revin la valoarea implicită."
 
 #: classes.py:171
 msgid "Choices"

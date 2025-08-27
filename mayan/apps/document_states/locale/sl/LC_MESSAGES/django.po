@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"POT-Creation-Date: 2025-08-27 11:43+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: Jože Detečnik <joze.detecnik@3tav.si>, 2025\n"
 "Language-Team: Slovenian (https://app.transifex.com/rosarior/teams/13584/sl/)\n"
@@ -1100,7 +1100,7 @@ msgstr ""
 
 #: views/workflow_proxy_views.py:95
 #, python-format
-msgid "Documents in the workflow \"%s\", state \"%s\""
+msgid "Documents in the workflow \"%(workflow)s\", state \"%(state)s\""
 msgstr ""
 
 #: views/workflow_template_state_escalation_views.py:43
@@ -1365,26 +1365,6 @@ msgid "Delete the %(count)d selected workflows."
 msgstr ""
 
 #: views/workflow_template_views.py:186
-#, python-format
-msgid "%(count)d workflows deleted successfully."
-msgstr ""
-
-#: views/workflow_template_views.py:175
-#, python-format
-msgid "Workflow \"%(object)s\" deleted successfully."
-msgstr ""
-
-#: views/workflow_template_views.py:178
-#, python-format
-msgid "%(count)d workflow deleted successfully."
-msgstr ""
-
-#: views/workflow_template_views.py:180
-#, python-format
-msgid "Delete the %(count)d selected workflows."
-msgstr ""
-
-#: views/workflow_template_views.py:181
 #, python-format
 msgid "Delete workflow: %(object)s."
 msgstr ""

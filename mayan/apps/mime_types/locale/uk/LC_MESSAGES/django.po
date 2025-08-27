@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"POT-Creation-Date: 2025-08-27 11:45+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: Leo Lado, 2025\n"
 "Language-Team: Ukrainian (https://app.transifex.com/rosarior/teams/13584/uk/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
-#: apps.py:9 settings.py:10
+#: apps.py:9 settings.py:11
 msgid "MIME types"
 msgstr "MIME типи"
 
@@ -45,10 +45,10 @@ msgstr ""
 msgid "determine file type using content tests"
 msgstr "визначити тип файлу за допомогою тестів вмісту"
 
-#: settings.py:16
+#: settings.py:18
 msgid "Path to the class to use when to detect file MIME types."
 msgstr "Шлях до класу, який використовується для виявлення типів MIME файлів."
 
-#: settings.py:22
+#: settings.py:24
 msgid "Arguments to pass to the MIME_TYPE_BACKEND."
 msgstr "Аргументи, які передаються до MIME_TYPE_BACKEND."

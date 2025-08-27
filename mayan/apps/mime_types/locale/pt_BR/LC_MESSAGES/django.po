@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"POT-Creation-Date: 2025-08-27 11:45+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: Márcia Ferreira, 2025\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rosarior/teams/13584/pt_BR/)\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: apps.py:9 settings.py:10
+#: apps.py:9 settings.py:11
 msgid "MIME types"
 msgstr "MIME types"
 
@@ -46,11 +46,11 @@ msgstr ""
 msgid "determine file type using content tests"
 msgstr "Determinar o tipo de ficheiro utilizando teste de conteúdo"
 
-#: settings.py:16
+#: settings.py:18
 msgid "Path to the class to use when to detect file MIME types."
 msgstr ""
 "Caminho para a classe a utilizar quando a detetar ficheiros do tipo MIME"
 
-#: settings.py:22
+#: settings.py:24
 msgid "Arguments to pass to the MIME_TYPE_BACKEND."
 msgstr "Argumentos a passar para MIME_TIPO_BACKEND"

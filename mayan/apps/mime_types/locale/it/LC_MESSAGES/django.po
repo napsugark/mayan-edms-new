@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"POT-Creation-Date: 2025-08-27 11:45+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Italian (https://app.transifex.com/rosarior/teams/13584/it/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: apps.py:9 settings.py:10
+#: apps.py:9 settings.py:11
 msgid "MIME types"
 msgstr "Tipi MIME"
 
@@ -42,10 +42,10 @@ msgstr ""
 msgid "determine file type using content tests"
 msgstr ""
 
-#: settings.py:16
+#: settings.py:18
 msgid "Path to the class to use when to detect file MIME types."
 msgstr ""
 
-#: settings.py:22
+#: settings.py:24
 msgid "Arguments to pass to the MIME_TYPE_BACKEND."
 msgstr ""

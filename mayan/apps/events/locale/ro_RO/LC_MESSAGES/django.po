@@ -217,7 +217,7 @@ msgstr "Angajați un eveniment"
 
 #: queues.py:25
 msgid "Launch the event prune backend"
-msgstr ""
+msgstr "Lansează backend-ul pentru evenimentul de ștergere"
 
 #: queues.py:31
 msgid "Clear event querysets"
@@ -266,14 +266,18 @@ msgid ""
 "Path to the event pruning subclass that will be called periodically to clear"
 " the event log."
 msgstr ""
+"Calea către subclasa de eliminare a evenimentelor care va fi apelată "
+"periodic pentru a șterge jurnalul de evenimente."
 
 #: settings.py:34
 msgid "Arguments to pass to `EVENTS_PRUNE_BACKEND`."
-msgstr ""
+msgstr "Argumente de transmis către `EVENTS_PRUNE_BACKEND`."
 
 #: settings.py:40
 msgid "Time interval in seconds, at which the event prune task will execute."
 msgstr ""
+"Interval de timp, în secunde, la care se va executa sarcina de ștergere a "
+"evenimentului."
 
 #: views/clear_views.py:27
 msgid ""

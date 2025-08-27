@@ -114,7 +114,7 @@ msgstr "Nivel nice"
 
 #: classes.py:55
 msgid "The Python path to the task code."
-msgstr ""
+msgstr "Calea Python către codul sarcinii."
 
 #: classes.py:56
 msgid "Dotted path"
@@ -122,11 +122,11 @@ msgstr "Calea punctată"
 
 #: classes.py:62
 msgid "Human readable description of the task type."
-msgstr ""
+msgstr "Descriere lizibilă de către om a tipului de sarcină."
 
 #: classes.py:70
 msgid "Unique internal name of the task type."
-msgstr ""
+msgstr "Nume intern unic al tipului de activitate."
 
 #: classes.py:77 classes.py:251
 msgid "Queue"
@@ -135,6 +135,8 @@ msgstr "Coadă"
 #: classes.py:83
 msgid "Trigger interval if the task type is set for periodic execution."
 msgstr ""
+"Interval de declanșare dacă tipul de sarcină este setat pentru execuție "
+"periodică."
 
 #: classes.py:86
 msgid "Schedule"
@@ -142,11 +144,11 @@ msgstr "Orar"
 
 #: classes.py:91 classes.py:329
 msgid "Worker"
-msgstr ""
+msgstr "Lucrător"
 
 #: classes.py:217
 msgid "Number of task types managed by the queue."
-msgstr ""
+msgstr "Numărul de tipuri de activități gestionate de coadă."
 
 #: classes.py:219 classes.py:317
 msgid "Task type count"
@@ -170,7 +172,7 @@ msgstr "Număr de cozi"
 
 #: classes.py:315
 msgid "Number of task types managed by the worker."
-msgstr ""
+msgstr "Numărul de tipuri de sarcini gestionate de lucrător."
 
 #: links.py:13 links.py:18
 msgid "Task type list"
@@ -236,7 +238,7 @@ msgstr "Coadă de așteptare de test"
 
 #: views.py:20
 msgid "Task types"
-msgstr ""
+msgstr "Tipuri de sarcini"
 
 #: views.py:43
 #, python-format

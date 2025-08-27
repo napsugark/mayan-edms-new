@@ -394,7 +394,7 @@ msgstr "Nu sunt disponibile drivere pentru metadate ale fișierelor."
 
 #: views/tool_views.py:26
 msgid "File metadata drivers enabled and detected."
-msgstr "Driverele de metadate ale fișierelor au fost detectate și activate ."
+msgstr "Driverele de metadate ale fișierelor au fost activate și detectate."
 
 #: views/view_mixins.py:34
 #, python-format

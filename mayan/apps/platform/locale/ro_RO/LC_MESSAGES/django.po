@@ -76,7 +76,7 @@ msgstr "Permite setarea valorii `timeout` a funcției Gunicorn."
 
 #: settings.py:68
 msgid "Allows setting Gunicorn's `max_requests_jitter` value."
-msgstr "Permite setarea valorii `max_requests_jitter` pentru Gunicorn."
+msgstr "Permite setarea valorii `max_requests_jitter` a funcției Gunicorn."
 
 #: settings.py:74
 msgid "Allows setting Gunicorn's `max_requests` value."

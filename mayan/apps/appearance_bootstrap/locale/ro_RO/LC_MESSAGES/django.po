@@ -218,7 +218,7 @@ msgstr "Nu"
 
 #: templates/appearance/confirm.html:52
 msgid "Do not ask me again."
-msgstr ""
+msgstr "Nu mă mai întreba."
 
 #: templates/appearance/home.html:27
 msgid "Getting started"
@@ -301,7 +301,7 @@ msgstr "Pagina"
 
 #: templates/appearance/partials/list/pagination.html:46
 msgid "Jump to page"
-msgstr ""
+msgstr "Salt la pagină"
 
 #: templates/appearance/partials/list/table/head/row_cell_identifier.html:6
 msgid "Identifier"

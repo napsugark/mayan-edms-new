@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"POT-Creation-Date: 2025-08-27 11:43+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: Harald Ersch, 2025\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/rosarior/teams/13584/ro_RO/)\n"
@@ -40,16 +40,20 @@ msgid ""
 "Deprecated: Use `state_active` instead. Return the current state of the "
 "selected workflow."
 msgstr ""
+"Depreciat: Folosiți în schimb `state_active`. Returnați starea curentă a "
+"fluxului de lucru selectat."
 
 #: apps.py:243 apps.py:260
 msgid "Current completion of a workflow"
-msgstr ""
+msgstr "Finalizarea curentă a unui flux de lucru"
 
 #: apps.py:245
 msgid ""
 "Deprecated: Use `state_active.completion` instead. Return the completion "
 "value of the current state of the selected workflow."
 msgstr ""
+"Depreciat: Folosiți `state_active.completion` în schimb. Returnați valoarea "
+"de finalizare a stării curente a fluxului de lucru selectat."
 
 #: apps.py:254
 msgid "Return the current state of the selected workflow."
@@ -98,6 +102,8 @@ msgstr "Obțineți ultima tranziție"
 #: apps.py:343
 msgid "A record of all state changes made to the workflow instance over time."
 msgstr ""
+"O înregistrare a tuturor modificărilor de stare aduse instanței fluxului de "
+"lucru în timp."
 
 #: apps.py:371 apps.py:375 apps.py:408 apps.py:419
 msgid "None"
@@ -368,7 +374,7 @@ msgstr "Eveniment declanșator: %s"
 
 #: models/workflow_instance_models.py:34
 msgid "The workflow template."
-msgstr ""
+msgstr "Șablonul de flux de lucru."
 
 #: models/workflow_instance_models.py:36 models/workflow_models.py:66
 #: models/workflow_state_models.py:38 models/workflow_transition_models.py:39
@@ -386,7 +392,7 @@ msgstr "Marcă temporală"
 
 #: models/workflow_instance_models.py:45
 msgid "The document to which the workflow instance is attached."
-msgstr ""
+msgstr "Documentul la care este atașată instanța fluxului de lucru."
 
 #: models/workflow_instance_models.py:47
 msgid "Document"
@@ -399,11 +405,11 @@ msgstr "Context"
 
 #: models/workflow_instance_models.py:53
 msgid "The currently active state of the workflow instance."
-msgstr ""
+msgstr "Starea activă curentă a instanței fluxului de lucru."
 
 #: models/workflow_instance_models.py:55
 msgid "Active state"
-msgstr ""
+msgstr "Stare activă"
 
 #: models/workflow_instance_models.py:64
 #: models/workflow_instance_models.py:108
@@ -438,7 +444,7 @@ msgstr "Nu este o alegere de tranziție valabilă."
 
 #: models/workflow_model_mixins.py:146
 msgid "Final state"
-msgstr ""
+msgstr "Starea finală"
 
 #: models/workflow_model_mixins.py:153
 msgid "Initial state"
@@ -471,10 +477,12 @@ msgstr "Un text scurt pentru a descrie fluxul de lucru."
 #: models/workflow_models.py:57
 msgid "Ignore workflow instances if they are in their final state."
 msgstr ""
+"Ignorați instanțele fluxului de lucru dacă acestea se află în starea lor "
+"finală."
 
 #: models/workflow_models.py:59
 msgid "Ignore completed"
-msgstr ""
+msgstr "Ignoră finalizatele"
 
 #: models/workflow_models.py:97
 msgid "Workflow runtime proxy"
@@ -509,6 +517,8 @@ msgid ""
 "A short text describing the action. Actions are execute by alphabetical "
 "order."
 msgstr ""
+"Un text scurt care descrie acțiunea. Acțiunile sunt executate în ordine "
+"alfabetică."
 
 #: models/workflow_state_action_models.py:56
 msgid "At which moment of the state this action will execute."
@@ -600,10 +610,12 @@ msgid ""
 "The state at which the workflow will stop. Only one state can be the final "
 "state."
 msgstr ""
+"Starea la care se va opri fluxul de lucru. O singură stare poate fi starea "
+"finală."
 
 #: models/workflow_state_models.py:56
 msgid "Final"
-msgstr ""
+msgstr "Final"
 
 #: models/workflow_state_models.py:60
 msgid ""
@@ -1171,8 +1183,8 @@ msgstr "Nu există documente în această stare de lucru"
 
 #: views/workflow_proxy_views.py:95
 #, python-format
-msgid "Documents in the workflow \"%s\", state \"%s\""
-msgstr "Documentele din fluxul de lucru \"%s\", starea \"%s\""
+msgid "Documents in the workflow \"%(workflow)s\", state \"%(state)s\""
+msgstr ""
 
 #: views/workflow_template_state_escalation_views.py:43
 #, python-format
@@ -1394,21 +1406,29 @@ msgstr ""
 #, python-format
 msgid "Workflows queued for launch successfully for %(count)d documents."
 msgstr ""
+"Fluxurile de lucru au fost puse în coadă pentru lansare cu succes pentru "
+"documentele %(count)d ."
 
 #: views/workflow_template_views.py:84
 #, python-format
 msgid "Workflows queued for launch successfully for document \"%(object)s\"."
 msgstr ""
+"Fluxurile de lucru au fost puse în coadă pentru lansare pentru documentul „ "
+"%(object)s ”."
 
 #: views/workflow_template_views.py:88
 #, python-format
 msgid "Workflows queued for launch successfully for %(count)d document."
 msgstr ""
+"Fluxurile de lucru au fost puse în coadă pentru lansare cu succes pentru "
+"documentul %(count)d ."
 
 #: views/workflow_template_views.py:92
 #, python-format
 msgid "Queue launching workflows for the selected %(count)d documents."
 msgstr ""
+"Lansarea în coadă a fluxurilor de lucru pentru %(count)d  documente "
+"selectate."
 
 #: views/workflow_template_views.py:95
 #, python-format
@@ -1419,6 +1439,8 @@ msgstr "Lansați fluxul de lucru: %(object)s."
 #, python-format
 msgid "Queue launching workflows for the selected %(count)d document."
 msgstr ""
+"Lansarea în coadă a fluxurilor de lucru pentru documentul %(count)d "
+"selectat."
 
 #: views/workflow_template_views.py:105
 msgid ""

@@ -138,7 +138,7 @@ msgstr "Șterge"
 
 #: links.py:27
 msgid "Confirm views"
-msgstr ""
+msgstr "Confirmați vizualizările"
 
 #: links.py:33
 msgid "View modes"
@@ -191,15 +191,15 @@ msgstr "Utilizator"
 
 #: models.py:26
 msgid "Remember the last confirmation of the view."
-msgstr ""
+msgstr "Ține minte ultima confirmare a punctului de vedere."
 
 #: models.py:27
 msgid "Remember"
-msgstr ""
+msgstr "Ține minte"
 
 #: models.py:36 models.py:37
 msgid "User confirm view"
-msgstr ""
+msgstr "Vizualizare confirmată de utilizator"
 
 #: models.py:55
 msgid "Stored value used to identify the display mode of the view."
@@ -310,56 +310,65 @@ msgstr "Obiectul tip %(object)s a fost șters cu succes."
 #, python-format
 msgid "Error deleting confirm view \"%(instance)s\"; %(exception)s"
 msgstr ""
-"Modurile de vizualizare controlează formatul utilizat pentru afișarea unei "
-"colecții de obiecte."
+"Eroare la ștergerea vizualizării de confirmare „ %(instance)s ”; "
+"%(exception)s"
 
 #: views.py:26
 #, python-format
 msgid "%(count)d confirm view properties deleted successfully."
 msgstr ""
+"%(count)d proprietate a vizualizării de confirmare a fost ștersă cu succes."
 
 #: views.py:29
 #, python-format
 msgid "Confirm view property \"%(object)s\" deleted successfully."
 msgstr ""
+"Proprietatea de vizualizare de confirmare „ %(object)s ” a fost ștearsă cu "
+"succes."
 
 #: views.py:32
 #, python-format
 msgid "%(count)d confirm view property deleted successfully."
 msgstr ""
+" %(count)d proprietate a vizualizării de confirmare a fost ștersă cu succes."
 
 #: views.py:35 views.py:39
 #, python-format
 msgid "Delete the %(count)d selected confirm view property"
 msgstr ""
+"Ștergeți proprietatea de vizualizare a confirmării selectate %(count)d"
 
 #: views.py:37
 #, python-format
 msgid "Delete confirm view property: %(object)s"
-msgstr ""
+msgstr "Ștergeți proprietatea de vizualizare confirmată: %(object)s"
 
 #: views.py:67
 msgid ""
 "Persistent confirmation properties modes remember the user preferences for a"
 " given confirmation view."
 msgstr ""
+"Modurile de proprietăți de confirmare persistente rețin preferințele "
+"utilizatorului pentru o anumită vizualizare de confirmare."
 
 #: views.py:71
 msgid "No confirmation view properties available"
-msgstr ""
+msgstr "Nu sunt disponibile proprietăți de vizualizare a confirmării"
 
 #: views.py:75
 #, python-format
 msgid "Confirmation view properties for user: %s"
-msgstr ""
+msgstr "Proprietăți de vizualizare a confirmării pentru utilizator: %s"
 
 #: views.py:100
 msgid "View modes control the format used to display a collection of objects."
 msgstr ""
+"Modurile de vizualizare controlează formatul utilizat pentru afișarea unei "
+"colecții de obiecte."
 
 #: views.py:103
 msgid "No view modes available"
-msgstr ""
+msgstr "Nu sunt disponibile moduri de vizualizare"
 
 #: views.py:106
 #, python-format
