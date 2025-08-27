@@ -10,6 +10,9 @@
   - Fix loading of the config env file.
   - Minor layout and structure tweaks.
 
+- Update the translation file detection to ensure all JavaScript files are
+  included.
+
 4.9.3 (2025-08-09)
 ==================
 - Merge changes from version 4.8.5.
