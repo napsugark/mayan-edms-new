@@ -1,3 +1,9 @@
+4.9.4 (XXXX-XX-XX)
+==================
+- Merge changes from version 4.8.6.
+- Add setting migration to change the removed mime type backend. Avoids
+  GitLab issue #1187 on old installations.
+
 4.9.3 (2025-08-09)
 ==================
 - Merge changes from version 4.8.5.

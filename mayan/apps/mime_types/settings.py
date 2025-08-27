@@ -5,9 +5,11 @@ from mayan.apps.smart_settings.settings import setting_cluster
 from .literals import (
     DEFAULT_MIME_TYPE_BACKEND, DEFAULT_MIME_TYPE_BACKEND_ARGUMENTS
 )
+from .setting_migrations import SettingMigrationMIMEType
 
 setting_namespace = setting_cluster.do_namespace_add(
-    label=_(message='MIME types'), name='mime_types'
+    label=_(message='MIME types'), migration_class=SettingMigrationMIMEType,
+    name='mime_types', version='0002'
 )
 
 setting_backend = setting_namespace.do_setting_add(
