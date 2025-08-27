@@ -29,7 +29,7 @@
 [pypi-badge]: https://img.shields.io/pypi/v/mayan-edms?style=for-the-badge&logo=python&label=PyPI
 [pypi-url]: https://pypi.org/project/mayan-edms/
 
-[license-badge]: https://img.shields.io/pypi/l/mayan-edms.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white
+[license-badge]: https://img.shields.io/pypi/l/mayan-edms.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=008800
 [license-url]: https://gitlab.com/mayan-edms/mayan-edms/blob/master/LICENSE
 
 [support-badge]: https://img.shields.io/badge/Get_support-brightgreen?style=for-the-badge

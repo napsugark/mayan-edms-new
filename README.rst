@@ -85,7 +85,7 @@ Important links
 .. |pypi| image:: https://img.shields.io/pypi/v/mayan-edms.svg
    :target: https://pypi.org/project/mayan-edms/
 
-.. |license| image:: https://img.shields.io/pypi/l/mayan-edms.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white
+.. |license| image:: https://img.shields.io/pypi/l/mayan-edms.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=008800
    :target: https://gitlab.com/mayan-edms/mayan-edms/blob/master/LICENSE
 
 .. |support| image:: https://img.shields.io/badge/Get_support-brightgreen?style=for-the-badge

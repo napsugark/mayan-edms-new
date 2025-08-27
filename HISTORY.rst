@@ -3,6 +3,12 @@
 - Merge changes from version 4.8.6.
 - Add setting migration to change the removed mime type backend. Avoids
   GitLab issue #1187 on old installations.
+- Documentation updates:
+
+  - Put badges on index page for important information at a quick glance.
+  - Fix link to features chapter.
+  - Fix loading of the config env file.
+  - Minor layout and structure tweaks.
 
 4.9.3 (2025-08-09)
 ==================
