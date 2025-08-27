@@ -1,4 +1,4 @@
-name: mayanforge-4.9.2
+name: mayanforge-4.9.3
 
 services:
   forge:
@@ -9,7 +9,7 @@ services:
     environment:
       - PIP_PREFER_BINARY=1
       - SSH_AUTH_SOCK=/ssh-agent
-    image: ${MAYAN_FORGE_DOCKER_IMAGE_NAME:-mayanedms/mayanforge}:${MAYAN_FORGE_DOCKER_IMAGE_TAG:-4.9.2}
+    image: ${MAYAN_FORGE_DOCKER_IMAGE_NAME:-mayanedms/mayanforge}:${MAYAN_FORGE_DOCKER_IMAGE_TAG:-4.9.3}
     network_mode: "host"
     restart: unless-stopped
     stdin_open: true
