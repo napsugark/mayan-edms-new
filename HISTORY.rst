@@ -15,6 +15,7 @@
 - Fix workflow app translation string interpolation.
 - Downgrade coveralls from 4.0.1 to 3.3.1.
 - Deprecate coveralls. Will be removed in the next minor version.
+- Downgrade coverage from version 7.6.9 to 6.5.0 to support coveralls 3.3.1.
 
 4.9.2 (2025-07-23)
 ==================
