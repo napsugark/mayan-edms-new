@@ -12,6 +12,7 @@
 
 - Update the translation file detection to ensure all JavaScript files are
   included.
+- Fix workflow app translation string interpolation.
 
 4.9.3 (2025-08-09)
 ==================

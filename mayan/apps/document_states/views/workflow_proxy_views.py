@@ -92,9 +92,13 @@ class WorkflowRuntimeProxyStateDocumentListView(
                     message='There are no documents in this workflow state'
                 ),
                 'title': _(
-                    message='Documents in the workflow "%s", state "%s"'
+                    message='Documents in the workflow "%(workflow)s", '
+                    'state "%(state)s"'
                 ) % (
-                    self.external_object.workflow, self.external_object
+                    {
+                        'state': self.external_object,
+                        'workflow': self.external_object.workflow
+                    }
                 ),
                 'workflow': WorkflowRuntimeProxy.objects.get(
                     pk=self.external_object.workflow.pk
