@@ -1,6 +1,8 @@
 4.6.9 (XXXX-XX-XX)
 ==================
 - Add Docker DIND service to all docker push jobs.
+- Update the translation file detection to ensure all JavaScript files are
+  included.
 
 4.6.8 (2025-08-24)
 ==================
