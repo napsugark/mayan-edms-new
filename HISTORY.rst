@@ -1,6 +1,6 @@
-4.9.4 (XXXX-XX-XX)
+4.9.3 (2025-08-27)
 ==================
-- Merge changes from version 4.8.6.
+- Merge changes from version 4.8.5 and 4.8.6.
 - Add setting migration to change the removed mime type backend. Avoids
   GitLab issue #1187 on old installations.
 - Documentation updates:
@@ -13,10 +13,6 @@
 - Update the translation file detection to ensure all JavaScript files are
   included.
 - Fix workflow app translation string interpolation.
-
-4.9.3 (2025-08-09)
-==================
-- Merge changes from version 4.8.5.
 - Downgrade coveralls from 4.0.1 to 3.3.1.
 - Deprecate coveralls. Will be removed in the next minor version.
 
