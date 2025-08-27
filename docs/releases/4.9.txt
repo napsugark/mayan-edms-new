@@ -36,7 +36,7 @@ resource usage.
 Celery
 ^^^^^^
 
-We have rebalanced the Celery workers' maximum tasks per child configuration,
+We have re-balanced the Celery workers' maximum tasks per child configuration,
 based on a comprehensive analysis of performance data from a default
 installation under various workload types. By averaging the most effective
 results, we've optimized this setting to strike a balance between minimizing
@@ -159,7 +159,7 @@ controlled by a new backend system and adds the settings
 `EVENTS_PRUNE_BACKEND`, `EVENTS_PRUNE_BACKEND_ARGUMENTS`
 and `EVENTS_PRUNE_TASK_INTERVAL` (defaults to 30 days).
 
-The default event prunning backends included are:
+The default event pruning backends included are:
 `EventLogPruneBackendLatest`, `EventLogPruneBackendLatestPerObject`,
 `EventLogPruneBackendLatestPerObjectEventType`,
 `EventLogPruneBackendOlderThanDays`.
@@ -482,7 +482,7 @@ Support deleting event types and event type namespaces.
 
 Ensure even types are unique per event type namespace.
 
-Support unregistering model event types.
+Support deregistering model event types.
 
 Improved test mixin class inheritance. Reduces imports and test
 scaffolding.
