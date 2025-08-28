@@ -1,13 +1,17 @@
 4.6.9 (XXXX-XX-XX)
 ==================
 - Add Docker DIND service to all docker push jobs.
-- Backports version series 4.9:
+- Backports from version series 4.9:
 
   - Update the translation file detection to ensure all JavaScript files are
     included.
   - Fix task manager test missing a call to `super().tearDown`.
   - Add documentation step to update forge files.
   - Include the version string as part of the Forge virtualenv.
+
+- Backports version series 4.8:
+
+  - Persist success icon when a file upload finishes.
 
 4.6.8 (2025-08-24)
 ==================
