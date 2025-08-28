@@ -23,23 +23,24 @@ LABEL org.opencontainers.image.title="Mayan EDMS"
 
 COPY config.env /config.env
 
-ENV LC_ALL=C.UTF-8 \
+ENV DEBIAN_FRONTEND=noninteractive \
+    LC_ALL=C.UTF-8 \
+    MAYAN_MEDIA_ROOT=/var/lib/mayan \
+    MAYAN_STATIC_ROOT=${PROJECT_INSTALL_DIR}static \
+    PIP_PREFER_BINARY \
     PYTHONUNBUFFERED=1 \
     PROJECT_INSTALL_DIR=/opt/mayan-edms/
 
-ENV MAYAN_MEDIA_ROOT=/var/lib/mayan \
-    MAYAN_STATIC_ROOT=${PROJECT_INSTALL_DIR}static
-
 # Debian package caching.
 ARG APT_PROXY
+
 RUN --mount=type=cache,target=/var/cache/apt \
 set -x \
 && if [ "${APT_PROXY}" ]; \
     then echo "Acquire::http { Proxy \"http://${APT_PROXY}\"; };" > /etc/apt/apt.conf.d/01proxy \
 ; fi \
 # Install base OS packages to run Mayan EDMS.
-&& DEBIAN_FRONTEND=noninteractive \
-apt-get update \
+&& apt-get update \
 && apt-get install --no-install-recommends --yes \
     ca-certificates \
     clamav \
@@ -124,7 +125,6 @@ COPY --chown=mayan:mayan mayan /src/mayan
 
 # Install development packages needed to build the Python packages.
 RUN --mount=type=cache,target=/var/cache/apt \
-DEBIAN_FRONTEND=noninteractive \
 apt-get install --no-install-recommends --yes \
     default-libmysqlclient-dev \
     g++ \

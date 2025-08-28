@@ -24,6 +24,13 @@
     `apt` invocation.
   - Add `PIP_PREFER_BINARY=1`.
 
+- Docker updates
+
+  - Consolidate `ENV` statements.
+  - Add global `DEBIAN_FRONTEND=noninteractive` and remove it from each
+    `apt` invocation.
+  - Add `PIP_PREFER_BINARY=1`.
+
 4.6.8 (2025-08-24)
 ==================
 - Forge updates:
