@@ -8,6 +8,10 @@
   - Fix task manager test missing a call to `super().tearDown`.
   - Add documentation step to update forge files.
   - Include the version string as part of the Forge virtualenv.
+  - Optimize test mixin `RandomPrimaryKeyModelMonkeyPatchMixin`. Mixin now uses
+    an optimistic approach only resorting to introspecting the database on
+    random primary key collisions. Test case unit speed improvements have
+    ranged from 11 to 20% less time.
 
 - Backports version series 4.8:
 
