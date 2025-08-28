@@ -1,3 +1,7 @@
+4.9.4 (XXXX-XX-XX)
+==================
+- Fix task manager test missing a call to `super().tearDown`.
+
 4.9.3 (2025-08-27)
 ==================
 - Merge changes from version 4.8.5 and 4.8.6.
