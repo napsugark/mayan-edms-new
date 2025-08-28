@@ -1,6 +1,10 @@
 4.9.4 (XXXX-XX-XX)
 ==================
 - Fix task manager test missing a call to `super().tearDown`.
+- Optimize test mixin `RandomPrimaryKeyModelMonkeyPatchMixin`. Mixin now uses
+  an optimistic approach only resorting to introspecting the database on
+  random primary key collisions. Test case unit speed improvements have
+  ranged from 11 to 20% less time.
 
 4.9.3 (2025-08-27)
 ==================
