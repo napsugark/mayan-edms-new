@@ -23,6 +23,8 @@
   - Add global `DEBIAN_FRONTEND=noninteractive` and remove it from each
     `apt` invocation.
   - Add `PIP_PREFER_BINARY=1`.
+  - Update Forge Docker Compose with optional volumen mount to support
+    Docker Out of Docker (DOoD).
 
 - Docker updates
 
@@ -32,6 +34,7 @@
   - Add `PIP_PREFER_BINARY=1`.
 
 - Update `EnvironmentFileLoader` to not process empty config lines.
+
 
 4.6.8 (2025-08-24)
 ==================
