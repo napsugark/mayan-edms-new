@@ -31,6 +31,8 @@
     `apt` invocation.
   - Add `PIP_PREFER_BINARY=1`.
 
+- Update `EnvironmentFileLoader` to not process empty config lines.
+
 4.6.8 (2025-08-24)
 ==================
 - Forge updates:
