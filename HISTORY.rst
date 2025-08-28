@@ -7,6 +7,7 @@
     included.
   - Fix task manager test missing a call to `super().tearDown`.
   - Add documentation step to update forge files.
+  - Include the version string as part of the Forge virtualenv.
 
 4.6.8 (2025-08-24)
 ==================

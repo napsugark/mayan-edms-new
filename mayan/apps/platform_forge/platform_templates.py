@@ -57,6 +57,10 @@ class PlatformTemplateForgeDockerfile(PlatformTemplate):
     template_name = 'platform/forge/dockerfile.tmpl'
 
     def __init__(self):
+        with open(file='docker/rootfs/version', mode='r') as file_object:
+            version_string = file_object.readline()
+            version_string_clean = version_string.strip()
+
         self.variables = (
             Variable(
                 name='FORGE_DOCKER_BASE_IMAGE_NAME',
@@ -82,6 +86,11 @@ class PlatformTemplateForgeDockerfile(PlatformTemplate):
                 name='FORGE_TRANSIFEX_VERSION',
                 default=FORGE_TRANSIFEX_VERSION,
                 environment_name='MAYAN_FORGE_TRANSIFEX_VERSION'
+            ),
+            Variable(
+                name='FORGE_VIRTUALENV_SUFFIX',
+                default=version_string_clean,
+                environment_name='MAYAN_FORGE_VIRTUALENV_SUFFIX'
             ),
             Variable(
                 name='LINUX_PACKAGES_DEBIAN_BASE',
