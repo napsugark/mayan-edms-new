@@ -164,7 +164,7 @@ class FileMetadataDriver(
         """
 
     def process(self, document_file):
-        logger.info(
+        logger.debug(
             'Starting processing document file: %s', document_file
         )
 

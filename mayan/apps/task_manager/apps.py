@@ -34,14 +34,14 @@ class TaskManagerApp(MayanAppConfig):
     def check_broker_connectivity(self):
         connection = celery_app.connection()
 
-        logger.debug('Starting Celery broker connectivity test')
+        logger.info('Starting Celery broker connectivity test')
         try:
             connection.ensure_connection(
                 interval_step=0, interval_max=0, interval_start=0,
                 timeout=0.1
             )
         except Exception as exception:
-            print(
+            logger.critical(
                 'Failed to connect to the Celery broker at {}; {}'.format(
                     connection.as_uri(), exception
                 )
@@ -61,14 +61,14 @@ class TaskManagerApp(MayanAppConfig):
                 'interval_max': 1
             }
 
-            logger.debug('Starting Celery result backend connectivity test')
+            logger.info('Starting Celery result backend connectivity test')
             try:
                 backend.set(
                     key=TEST_CELERY_RESULT_KEY,
                     value=TEST_CELERY_RESULT_VALUE
                 )
             except Exception as exception:
-                print(
+                logger.critical(
                     'Failed to connect to the Celery result backend at {}; {}'.format(
                         backend.as_uri(), exception
                     )

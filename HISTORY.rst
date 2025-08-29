@@ -34,7 +34,9 @@
   - Add `PIP_PREFER_BINARY=1`.
 
 - Update `EnvironmentFileLoader` to not process empty config lines.
-
+- Revised log messages levels. Reduce the severity of some messages that were
+  confusing users in diagnosing issues. Increase the severity of base
+  configuration problems like the Celery components and lock manager.
 
 4.6.8 (2025-08-24)
 ==================

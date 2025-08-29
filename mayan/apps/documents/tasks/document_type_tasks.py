@@ -13,11 +13,11 @@ def task_document_type_document_stubs_delete():
         app_label='documents', model_name='DocumentType'
     )
 
-    logger.info(msg='Starting')
+    logger.debug(msg='Starting')
 
     DocumentType.objects.document_stubs_delete()
 
-    logger.info(msg='Finished')
+    logger.debug(msg='Finished')
 
 
 @app.task(ignore_result=True)

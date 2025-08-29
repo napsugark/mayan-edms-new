@@ -108,7 +108,7 @@ class DocumentCheckout(ExtraDataModelMixin, models.Model):
                 actor=self.user, target=self.document
             )
 
-            logger.info(
+            logger.debug(
                 'Document "%s" checked out by user "%s"',
                 self.document, self.user
             )

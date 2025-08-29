@@ -296,7 +296,7 @@ class EventType:
         if actor is None and target is None:
             # If the actor and the target are None there is no way to
             # create a new event.
-            logger.warning(
+            logger.error(
                 'Attempting to commit event "%s" without an actor or a '
                 'target. This is not supported.', self
             )

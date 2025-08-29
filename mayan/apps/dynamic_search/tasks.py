@@ -28,7 +28,7 @@ logger = logging.getLogger(name=__name__)
     retry_backoff_max=TASK_DEINDEX_INSTANCE_RETRY_BACKOFF_MAX
 )
 def task_deindex_instance(self, app_label, model_name, object_id):
-    logger.info('Executing')
+    logger.debug('Executing')
 
     Model = apps.get_model(app_label=app_label, model_name=model_name)
     instance = Model._meta.default_manager.get(pk=object_id)
@@ -39,13 +39,13 @@ def task_deindex_instance(self, app_label, model_name, object_id):
         raise self.retry(exc=exception)
     except ObjectDoesNotExist as exception:
         # Object was deleted before it could be deindexed.
-        logger.info(
+        logger.debug(
             str(
                 exception
             )
         )
 
-    logger.info('Finished')
+    logger.debug('Finished')
 
 
 @app.task(
@@ -57,7 +57,7 @@ def task_index_instance(
     self, app_label, model_name, object_id, exclude_app_label=None,
     exclude_model_name=None, exclude_kwargs=None
 ):
-    logger.info('Executing')
+    logger.debug('Executing')
 
     Model = apps.get_model(app_label=app_label, model_name=model_name)
     if exclude_app_label and exclude_model_name:
@@ -81,7 +81,7 @@ def task_index_instance(
         raise self.retry(exc=exception)
     except ObjectDoesNotExist as exception:
         # Object was deleted before it could be indexed.
-        logger.info(
+        logger.debug(
             str(
                 exception
             )
@@ -100,10 +100,10 @@ def task_index_instance(
             'arguments {}.'
         ).format(kwargs)
 
-        logger.error(error_message)
+        logger.debug(error_message)
         raise DynamicSearchException(error_message) from exception
     else:
-        logger.info('Finished')
+        logger.debug('Finished')
 
 
 @app.task(
@@ -128,7 +128,7 @@ def task_index_instances(self, search_model_full_name, id_list):
             'keyword arguments {}.'
         ).format(kwargs)
 
-        logger.error(error_message)
+        logger.debug(error_message)
         raise DynamicSearchException(error_message) from exception
 
 

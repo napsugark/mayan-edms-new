@@ -27,14 +27,14 @@ class DocumentFilePageContentManager(models.Manager):
             )
 
     def process_document_file(self, document_file, user=None):
-        logger.info(
+        logger.debug(
             'Starting parsing for document file: %s', document_file
         )
         logger.debug('document file: %d', document_file.pk)
         try:
             Parser.parse_document_file(document_file=document_file)
 
-            logger.info(
+            logger.debug(
                 'Parsing complete for document file: %s', document_file
             )
             document_file.error_log.all().delete()

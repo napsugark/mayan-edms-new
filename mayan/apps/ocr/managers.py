@@ -34,7 +34,7 @@ class DocumentVersionPageOCRContentManager(models.Manager):
     def process_document_version_page(
         self, document_version_page, user=None
     ):
-        logger.info(
+        logger.debug(
             'Processing page: %d of document version: %s',
             document_version_page.page_number,
             document_version_page.document_version
@@ -88,7 +88,7 @@ class DocumentVersionPageOCRContentManager(models.Manager):
                 )
                 raise
             else:
-                logger.info(
+                logger.debug(
                     'Finished processing page: %d of document version: %s',
                     document_version_page.page_number,
                     document_version_page.document_version

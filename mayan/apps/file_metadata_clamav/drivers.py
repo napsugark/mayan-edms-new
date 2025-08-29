@@ -70,7 +70,7 @@ class ClamScanDriver(FileMetadataDriver):
 
                         return result
         else:
-            logger.warning(
+            logger.error(
                 'clamscan binary not found, not processing document '
                 'file: %s', document_file
             )
