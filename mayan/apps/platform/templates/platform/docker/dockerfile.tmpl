@@ -25,11 +25,12 @@ COPY config.env /config.env
 
 ENV DEBIAN_FRONTEND=noninteractive \
     LC_ALL=C.UTF-8 \
-    MAYAN_MEDIA_ROOT=/var/lib/mayan \
-    MAYAN_STATIC_ROOT=${PROJECT_INSTALL_DIR}static \
     PIP_PREFER_BINARY=1 \
     PYTHONUNBUFFERED=1 \
     PROJECT_INSTALL_DIR=/opt/mayan-edms/
+
+ENV MAYAN_MEDIA_ROOT=/var/lib/mayan \
+    MAYAN_STATIC_ROOT=${PROJECT_INSTALL_DIR}static
 
 # Debian package caching.
 ARG APT_PROXY
