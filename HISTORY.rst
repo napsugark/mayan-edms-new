@@ -37,6 +37,7 @@
 - Revised log messages levels. Reduce the severity of some messages that were
   confusing users in diagnosing issues. Increase the severity of base
   configuration problems like the Celery components and lock manager.
+- Add new GitOps branch and target to build and try Docker images in staging.
 
 4.6.8 (2025-08-24)
 ==================
