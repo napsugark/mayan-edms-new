@@ -95,7 +95,7 @@ class SettingCluster(AppsModuleLoaderMixin):
                     )
             except IOError as exception:
                 if exception.errno == errno.ENOENT:
-                    logger.error(
+                    logger.warning(
                         'The path to the configuration file `%s` doesn\'t '
                         'exist. It is not possible to save the backup file.',
                         path
