@@ -1,4 +1,4 @@
-4.6.9 (XXXX-XX-XX)
+4.6.9 (2025-10-31)
 ==================
 - Add Docker DIND service to all docker push jobs.
 - Backports from version series 4.9:
