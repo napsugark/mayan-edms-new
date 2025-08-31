@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-06 21:21+0000\n"
+"POT-Creation-Date: 2025-08-31 12:27+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
 "Last-Translator: Hmayag Antonian <hmayag@freemail.gr>, 2024\n"
 "Language-Team: Greek (https://app.transifex.com/rosarior/teams/13584/el/)\n"
@@ -25,21 +25,21 @@ msgstr ""
 msgid "Common"
 msgstr "Common"
 
-#: dependencies.py:189
+#: dependencies.py:194
 msgid "Used to allow offline translation of the code text strings."
 msgstr ""
 "Χρησιμοποιείται για την εκτός σύνδεσης μετάφραση συμβολοσειρών κειμένου του "
 "κώδικα."
 
-#: dependencies.py:198
+#: dependencies.py:203
 msgid "Provides style checking."
 msgstr "Παρέχει έλεγχο του στυλ."
 
-#: dependencies.py:203
+#: dependencies.py:208
 msgid "Command line environment with autocompletion."
 msgstr "Γραμμή εντολών με αυτόματη συμπλήρωση."
 
-#: dependencies.py:212
+#: dependencies.py:217
 msgid "Checks proper formatting of the README file."
 msgstr "Ελέγχει την ορθή μορφοποίηση του αρχείου README."
 

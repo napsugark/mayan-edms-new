@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-06 21:21+0000\n"
+"POT-Creation-Date: 2025-08-31 12:27+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
 "Last-Translator: Emine Öztürk <oemine075@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/rosarior/teams/13584/tr_TR/)\n"
@@ -27,20 +27,20 @@ msgstr ""
 msgid "Common"
 msgstr "Ortak"
 
-#: dependencies.py:189
+#: dependencies.py:194
 msgid "Used to allow offline translation of the code text strings."
 msgstr ""
 "Kod metin dizelerinin çevrimdışı çevirisine izin vermek için kullanılır."
 
-#: dependencies.py:198
+#: dependencies.py:203
 msgid "Provides style checking."
 msgstr "Stil kontrolü sağlar."
 
-#: dependencies.py:203
+#: dependencies.py:208
 msgid "Command line environment with autocompletion."
 msgstr "Otomatik tamamlama ile komut satırı ortamı."
 
-#: dependencies.py:212
+#: dependencies.py:217
 msgid "Checks proper formatting of the README file."
 msgstr "README dosyasının doğru biçimlendirmesini denetler."
 
