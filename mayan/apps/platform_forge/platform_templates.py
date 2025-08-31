@@ -93,6 +93,11 @@ class PlatformTemplateForgeDockerfile(PlatformTemplate):
                 environment_name='MAYAN_FORGE_TRANSIFEX_VERSION'
             ),
             Variable(
+                name='FORGE_VIRTUALENV_SUFFIX',
+                default=version_string_clean,
+                environment_name='MAYAN_FORGE_VIRTUALENV_SUFFIX'
+            ),
+            Variable(
                 name='LINUX_PACKAGES_DEBIAN_BASE',
                 default=LINUX_PACKAGES_DEBIAN_BASE,
                 environment_name='MAYAN_FORGE_LINUX_PACKAGES_DEBIAN_BASE'

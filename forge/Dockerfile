@@ -5,7 +5,10 @@ FROM ubuntu:noble-20250714
 
 COPY config.env /config.env
 
-ENV LC_ALL=C.UTF-8
+ENV DEBIAN_FRONTEND=noninteractive \
+    LC_ALL=C.UTF-8 \
+    PIP_PREFER_BINARY=1 \
+    PYTHONUNBUFFERED=1
 
 # Debian package caching.
 ARG APT_PROXY
@@ -15,8 +18,7 @@ set -x \
 && if [ "${APT_PROXY}" ]; \
     then echo "Acquire::http { Proxy \"http://${APT_PROXY}\"; };" > /etc/apt/apt.conf.d/01proxy \
 ; fi \
-&& DEBIAN_FRONTEND=noninteractive \
-apt-get update \
+&& apt-get update \
 && apt-get install --no-install-recommends --yes \
     ca-certificates clamav file fuse ghostscript git gnupg1 graphviz libarchive-zip-perl libfile-mimeinfo-perl libimage-exiftool-perl libmariadb3 libpq5 libreoffice-calc-nogui libreoffice-draw-nogui libreoffice-impress-nogui libreoffice-math-nogui libreoffice-writer-nogui poppler-utils sane-utils sudo supervisor tesseract-ocr \
     g++ gcc libffi-dev libjpeg-dev libldap2-dev libpng-dev libsasl2-dev libssl-dev libtiff-dev make zlib1g-dev \
@@ -33,7 +35,6 @@ set -x \
 && if [ "${APT_PROXY}" ]; \
     then echo "Acquire::http { Proxy \"http://${APT_PROXY}\"; };" > /etc/apt/apt.conf.d/01proxy \
 ; fi \
-&& DEBIAN_FRONTEND=noninteractive \
 && add-apt-repository --yes ppa:deadsnakes/ppa \
 && apt-get install --yes python3.11 python3.11-dev python3.10 python3.10-dev
 

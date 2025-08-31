@@ -16,7 +16,7 @@ logger = logging.getLogger(name=__name__)
 def task_document_version_ocr_process(
     self, document_version_id, user_id=None
 ):
-    logger.info(
+    logger.debug(
         'Starting OCR for document version page ID: %s', document_version_id
     )
     DocumentVersion = apps.get_model(
@@ -73,7 +73,7 @@ def task_document_version_page_ocr_process(
             user=user
         )
     except CachePartitionFile.DoesNotExist as exception:
-        logger.info(
+        logger.debug(
             'Document version page image not found. Possible cause '
             'overloaded system or cache size too small. Retrying task.',
         )
@@ -88,7 +88,7 @@ def task_document_version_page_ocr_process(
 def task_document_version_ocr_finished(
     self, results, document_version_id, user_id=None
 ):
-    logger.info(
+    logger.debug(
         'OCR complete for document version ID: %s', document_version_id
     )
 

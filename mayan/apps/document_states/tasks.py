@@ -22,11 +22,11 @@ def task_launch_all_workflows(user_id=None):
     else:
         user = None
 
-    logger.info('Start launching workflows')
+    logger.debug('Start launching workflows')
     for document in Document.valid.all():
         Workflow.objects.launch_for(document=document, user=user)
 
-    logger.info('Finished launching workflows')
+    logger.debug('Finished launching workflows')
 
 
 @app.task(ignore_result=True)
@@ -45,14 +45,14 @@ def task_launch_workflow(workflow_id, user_id=None):
 
     workflow = Workflow.objects.get(pk=workflow_id)
 
-    logger.info('Start launching workflow: %d', workflow_id)
+    logger.debug('Start launching workflow: %d', workflow_id)
     queryset_documents = Document.valid.filter(
         document_type__in=workflow.document_types.all()
     )
     for document in queryset_documents:
         workflow.launch_for(document=document, user=user)
 
-    logger.info('Finished launching workflow: %d', workflow_id)
+    logger.debug('Finished launching workflow: %d', workflow_id)
 
 
 @app.task(ignore_result=True)
@@ -72,13 +72,13 @@ def task_launch_workflow_for(document_id, workflow_id, user_id=None):
     document = Document.valid.get(pk=document_id)
     workflow = Workflow.objects.get(pk=workflow_id)
 
-    logger.info(
+    logger.debug(
         'Start launching workflow: %d for document: %d',
         workflow_id, document_id
     )
     workflow.launch_for(document=document, user=user)
 
-    logger.info(
+    logger.debug(
         'Finished launching workflow: %d for document: %d', workflow_id,
         document_id
     )
@@ -93,12 +93,12 @@ def task_launch_all_workflow_for(document_id):
 
     document = Document.valid.get(pk=document_id)
 
-    logger.info(
+    logger.debug(
         'Start launching all workflows for document: %d', document_id
     )
     Workflow.objects.launch_for(document=document)
 
-    logger.info(
+    logger.debug(
         'Finished launching all workflows for document: %d', document_id
     )
 

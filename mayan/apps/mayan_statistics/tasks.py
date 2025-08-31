@@ -9,8 +9,8 @@ logger = logging.getLogger(name=__name__)
 
 @app.task(ignore_result=True)
 def task_execute_statistic(slug):
-    logger.info('Executing')
+    logger.debug('Executing')
 
     StatisticType.get(slug=slug).execute()
 
-    logger.info('Finshed')
+    logger.debug('Finshed')

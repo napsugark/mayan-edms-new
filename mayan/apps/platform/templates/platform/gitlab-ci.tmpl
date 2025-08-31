@@ -375,3 +375,18 @@ job_staging_deploy:
   when: manual
   variables:
 {% platform_gitlab_ci_cache_variables apt=True indent=4 %}
+
+# Combined
+
+job_docker_build_try:
+  extends: job_docker_build
+  only:
+    - try/staging
+
+job_staging_deploy_try:
+  extends: job_staging_deploy
+  needs:
+    - job_docker_build_try
+  only:
+    - try/staging
+  when: on_success

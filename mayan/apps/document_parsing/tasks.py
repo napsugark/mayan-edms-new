@@ -26,7 +26,7 @@ def task_parse_document_file(document_file_pk, user_id):
     document_file = DocumentFile.objects.get(
         pk=document_file_pk
     )
-    logger.info(
+    logger.debug(
         'Starting parsing for document file: %s', document_file
     )
     DocumentFilePageContent.objects.process_document_file(

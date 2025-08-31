@@ -85,7 +85,7 @@ class DocumentFileBusinessLogicMixin(ModelMixinFileFieldOpen):
         self._event_keep_attributes = ('_event_actor',)
         user = getattr(self, '_event_actor', None)
 
-        logger.info('Creating new file for document: %s', self.document)
+        logger.debug('Creating new file for document: %s', self.document)
         DocumentFile.execute_pre_create_hooks(
             kwargs={
                 'document': self.document,
@@ -98,7 +98,7 @@ class DocumentFileBusinessLogicMixin(ModelMixinFileFieldOpen):
             self._event_ignore = True
             result = self._save(*args, **kwargs)
 
-            logger.info(
+            logger.debug(
                 'New document file "%s" created for document: %s',
                 self, self.document
             )

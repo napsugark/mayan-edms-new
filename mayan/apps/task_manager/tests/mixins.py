@@ -34,6 +34,8 @@ class TaskManagerTestMixin:
         for test_queue in self._test_queue_list:
             test_queue.remove()
 
+        super().tearDown()
+
     def _create_test_queue(self, label=None, name=None):
         total_test_queue_count = len(self._test_queue_list)
         label = label or '{}_{}'.format(

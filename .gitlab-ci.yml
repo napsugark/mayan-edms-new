@@ -462,3 +462,18 @@ job_staging_deploy:
   when: manual
   variables:
     APT_CACHE_DIR: ${CI_PROJECT_DIR}/.cache/apt
+
+# Combined
+
+job_docker_build_try:
+  extends: job_docker_build
+  only:
+    - try/staging
+
+job_staging_deploy_try:
+  extends: job_staging_deploy
+  needs:
+    - job_docker_build_try
+  only:
+    - try/staging
+  when: on_success

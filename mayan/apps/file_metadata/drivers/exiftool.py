@@ -59,7 +59,7 @@ class EXIFToolDriver(FileMetadataDriver):
                     else:
                         return json.loads(s=output)[0]
         else:
-            logger.warning(
+            logger.error(
                 'EXIFTool binary not found, not processing document '
                 'file: %s', document_file
             )

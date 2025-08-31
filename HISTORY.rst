@@ -279,6 +279,43 @@
 4.6.9 (XXXX-XX-XX)
 ==================
 - Add Docker DIND service to all docker push jobs.
+- Backports from version series 4.9:
+
+  - Update the translation file detection to ensure all JavaScript files are
+    included.
+  - Fix task manager test missing a call to `super().tearDown`.
+  - Add documentation step to update forge files.
+  - Include the version string as part of the Forge virtualenv.
+  - Optimize test mixin `RandomPrimaryKeyModelMonkeyPatchMixin`. Mixin now uses
+    an optimistic approach only resorting to introspecting the database on
+    random primary key collisions. Test case unit speed improvements have
+    ranged from 11 to 20% less time.
+
+- Backports version series 4.8:
+
+  - Persist success icon when a file upload finishes.
+
+- Forge updates
+
+  - Consolidate `ENV` statements.
+  - Add global `DEBIAN_FRONTEND=noninteractive` and remove it from each
+    `apt` invocation.
+  - Add `PIP_PREFER_BINARY=1`.
+  - Update Forge Docker Compose with optional volumen mount to support
+    Docker Out of Docker (DOoD).
+
+- Docker updates
+
+  - Consolidate `ENV` statements.
+  - Add global `DEBIAN_FRONTEND=noninteractive` and remove it from each
+    `apt` invocation.
+  - Add `PIP_PREFER_BINARY=1`.
+
+- Update `EnvironmentFileLoader` to not process empty config lines.
+- Revised log messages levels. Reduce the severity of some messages that were
+  confusing users in diagnosing issues. Increase the severity of base
+  configuration problems like the Celery components and lock manager.
+- Add new GitOps branch and target to build and try Docker images in staging.
 
 4.6.8 (2025-08-24)
 ==================
