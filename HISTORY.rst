@@ -40,6 +40,8 @@
 - Add new GitOps branch and target to build and try Docker images in staging.
 - Make `setuptools` a build and virtualenv dependency.
 - Remove `wheel` installation from the Docker build job.
+- Add `setuptools` to the DockerFile build image to ensure compliance with
+  PEP 625.
 
 4.6.8 (2025-08-24)
 ==================

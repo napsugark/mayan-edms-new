@@ -7,7 +7,7 @@ Released: August 24, 2025
 Summary
 -------
 
-This release strengthens the Docker build and Forge environments, introduces CI/CD enhancements for GitOps, and improves both testing performance and logging clarity. It also backports fixes from the 4.8 and 4.9 series, ensuring consistent behavior across branches. Developers benefit from faster test execution, refined configuration handling, and a more flexible Docker setup.
+This release strengthens the Docker build and Forge environments, introduces CI/CD enhancements for GitOps, add compliance with PEP 625, and improves both testing performance and logging clarity. It also backports fixes from the 4.8 and 4.9 series, ensuring consistent behavior across branches. Developers benefit from faster test execution, refined configuration handling, and a more flexible Docker setup.
 
 
 Changes
@@ -53,6 +53,8 @@ Docker Build System
 - Set `PIP_PREFER_BINARY=1` to prefer binary wheels across Docker builds.
 - Made `setuptools` a required dependency for both builds and virtual environments.
 - Removed `wheel` installation from the Docker build job to streamline the build process.
+- Add `setuptools` to the DockerFile build image to ensure compliance with
+  PEP 625.
 
 
 Core Application & Configuration
