@@ -157,6 +157,9 @@ RUN set -a \
 && . "${PROJECT_INSTALL_DIR}bin/activate" \
 && pip install --no-cache-dir \
     pip==${PYTHON_PIP_VERSION} \
+    setuptools==${PYTHON_SETUPTOOLS_VERSION} \
+    wheel==${PYTHON_WHEEL_VERSION} \
+&& pip install --no-cache-dir \
     amqp==${PYTHON_AMQP_VERSION} \
     mysqlclient==${PYTHON_MYSQL_VERSION} \
     psycopg==${PYTHON_PSYCOPG_VERSION} \
