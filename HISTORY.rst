@@ -276,7 +276,7 @@
 - Expose the document index instance depth and node count values via the API.
 - Add a document type API view to return all documents of that type.
 
-4.6.9 (XXXX-XX-XX)
+4.6.9 (2025-08-31)
 ==================
 - Add Docker DIND service to all docker push jobs.
 - Backports from version series 4.9:
@@ -316,6 +316,10 @@
   confusing users in diagnosing issues. Increase the severity of base
   configuration problems like the Celery components and lock manager.
 - Add new GitOps branch and target to build and try Docker images in staging.
+- Make `setuptools` a build and virtualenv dependency.
+- Remove `wheel` installation from the Docker build job.
+- Add `setuptools` to the DockerFile build image to ensure compliance with
+  PEP 625.
 
 4.6.8 (2025-08-24)
 ==================

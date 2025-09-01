@@ -26,7 +26,6 @@ job_docker_build:
     - python3 -m venv venv
     - . venv/bin/activate
     - pip install pip==${PYTHON_PIP_VERSION}
-    - pip install wheel==${PYTHON_WHEEL_VERSION}
     - pip install --requirement requirements/common.txt
     - cat requirements/base.txt | grep -v 'django-auth-ldap'| pip install -r /dev/stdin
   cache:
@@ -167,6 +166,7 @@ job_documentation_build:
     - python3 -m venv venv
     - . venv/bin/activate
     - pip install pip==${PYTHON_PIP_VERSION}
+    - pip install setuptools==${PYTHON_SETUPTOOLS_VERSION}
     - pip install wheel==${PYTHON_WHEEL_VERSION}
   cache:
     - key: apt-cache-4.7
@@ -246,6 +246,8 @@ job_python_build:
     - python3 -m venv venv
     - . venv/bin/activate
     - pip install pip==${PYTHON_PIP_VERSION}
+    - pip install setuptools==${PYTHON_SETUPTOOLS_VERSION}
+    - pip install wheel==${PYTHON_WHEEL_VERSION}
   cache:
     - key: apt-cache-4.7
       paths:

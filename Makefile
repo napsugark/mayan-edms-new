@@ -296,6 +296,7 @@ setup-dev-environment: setup-dev-operating-system-packages setup-dev-python-libr
 setup-dev-operating-system-packages:  ## Install the operating system packages needed for development.
 	sudo apt-get install --yes clamav exiftool gcc gettext gnupg1 graphviz libcairo2 libffi-dev libfuse2 libjpeg-dev libldap2-dev libpng-dev libsasl2-dev poppler-utils python3-dev sane-utils tesseract-ocr-deu
 
+copy-config-env: ## Copy and convert `config.env` to `settings.literals.py`.
 copy-config-env:
 	@contrib/scripts/copy_config_env.py > mayan/settings/literals.py
 
