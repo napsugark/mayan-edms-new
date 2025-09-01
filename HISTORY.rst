@@ -1,5 +1,6 @@
-4.7.5 (XXXX-XX-XX)
+4.7.5 (2025-09-01)
 ==================
+- Improvements and changes from version 4.6.9.
 - Update `safety` from version 3.2.1 to 3.2.3 to fix dependency bug conflict
   with `dparse` and `psutil`.
 
