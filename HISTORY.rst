@@ -1,3 +1,7 @@
+4.8.7 (XXXX-XX-XX)
+==================
+- Don't add 'forge/Dockerfile' into .gitignore.
+
 4.8.6 (2025-08-25)
 ==================
 - Improvements and changes from version 4.7.3 and 4.7.4.
