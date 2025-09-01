@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-01 01:14+0000\n"
+"POT-Creation-Date: 2025-09-01 10:35+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2024\n"
 "Language-Team: German (Austria) (https://app.transifex.com/rosarior/teams/13584/de_AT/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Language: de_AT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: templates/appearance/app/foot.html:71
+#: templates/appearance/app/foot.html:61
 msgid ""
 "Too many pending requests. Additional requests will be blocked until a "
 "pending one is completed or after the cooling off period ends."
