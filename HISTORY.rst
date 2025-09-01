@@ -1,3 +1,8 @@
+4.7.5 (XXXX-XX-XX)
+==================
+- Update `safety` from version 3.2.1 to 3.2.3 to fix dependency bug conflict
+  with `dparse` and `psutil`.
+
 4.7.4 (2025-08-25)
 ==================
 - Improve sources app migration 0032 to deal with the phantom
