@@ -35,7 +35,7 @@ def task_cache_partition_purge(
     else:
         user = None
 
-    logger.info('Starting cache partition id %s purge', cache_partition)
+    logger.debug('Starting cache partition id %s purge', cache_partition)
 
     try:
         cache_partition._event_action_object = content_object
@@ -43,7 +43,7 @@ def task_cache_partition_purge(
     except LockError as exception:
         raise self.retry(exc=exception)
     else:
-        logger.info('Finished cache partition id %s purge', cache_partition)
+        logger.debug('Finished cache partition id %s purge', cache_partition)
 
 
 @app.task(bind=True, ignore_result=True)
@@ -59,10 +59,10 @@ def task_cache_purge(self, cache_id, user_id=None):
     else:
         user = None
 
-    logger.info('Starting cache id %s purge', cache)
+    logger.debug('Starting cache id %s purge', cache)
     try:
         cache.purge(user=user)
     except LockError as exception:
         raise self.retry(exc=exception)
     else:
-        logger.info('Finished cache id %s purge', cache)
+        logger.debug('Finished cache id %s purge', cache)

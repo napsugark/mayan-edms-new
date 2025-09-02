@@ -115,6 +115,11 @@ Release checklist
 
        git commit -s -m "Bump version to ..."
 
+#. Update forge files:
+   ::
+
+       make forge-update
+
 #. Tag version:
    ::
 

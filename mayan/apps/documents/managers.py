@@ -57,14 +57,14 @@ class DocumentFilePageManager(models.Manager):
 
 class DocumentTypeManager(models.Manager):
     def check_delete_periods(self):
-        logger.info(msg='Executing')
+        logger.debug(msg='Executing')
 
         queryset_document_types_with_deletion_setup = self.filter(
             delete_time_period__isnull=False, delete_time_unit__isnull=False
         ).only('id')
 
         for document_type in queryset_document_types_with_deletion_setup:
-            logger.info(
+            logger.debug(
                 'Checking deletion period of document type: %s',
                 document_type
             )
@@ -73,7 +73,7 @@ class DocumentTypeManager(models.Manager):
                     document_type.delete_time_unit: document_type.delete_time_period
                 }
             )
-            logger.info(
+            logger.debug(
                 'Document type: %s, has a deletion period delta of: %s',
                 document_type, delta
             )
@@ -83,24 +83,24 @@ class DocumentTypeManager(models.Manager):
             ).only('id')
 
             for document in queryset_documents_to_delete:
-                logger.info(
+                logger.debug(
                     'Document "%s" with id: %d, trashed on: %s, exceeded '
                     'delete period', document, document.pk,
                     document.trashed_date_time
                 )
                 document.delete()
 
-        logger.info(msg='Finished')
+        logger.debug(msg='Finished')
 
     def check_trash_periods(self):
-        logger.info(msg='Executing')
+        logger.debug(msg='Executing')
 
         queryset_document_types_with_trashed_setup = self.filter(
             trash_time_period__isnull=False, trash_time_unit__isnull=False
         ).only('id')
 
         for document_type in queryset_document_types_with_trashed_setup:
-            logger.info(
+            logger.debug(
                 'Checking trash period of document type: %s', document_type
             )
 
@@ -109,7 +109,7 @@ class DocumentTypeManager(models.Manager):
                     document_type.trash_time_unit: document_type.trash_time_period
                 }
             )
-            logger.info(
+            logger.debug(
                 'Document type: %s, has a trash period delta of: %s',
                 document_type, delta
             )
@@ -119,20 +119,20 @@ class DocumentTypeManager(models.Manager):
             ).only('id')
 
             for document in queryset_documents_to_trash:
-                logger.info(
+                logger.debug(
                     'Document "%s" with id: %d, added on: %s, exceeded '
                     'trash period.', document, document.pk,
                     document.datetime_created
                 )
                 document.delete()
 
-        logger.info(msg='Finished')
+        logger.debug(msg='Finished')
 
     def document_stubs_delete(self):
-        logger.info(msg='Executing')
+        logger.debug(msg='Executing')
 
         for document_type in self.filter(document_stub_pruning_enabled=True):
-            logger.info(
+            logger.debug(
                 'Checking expired document stubs of document type: %s',
                 document_type
             )
@@ -152,7 +152,7 @@ class DocumentTypeManager(models.Manager):
             for stale_stub_document in queryset_stale_stub_documents:
                 stale_stub_document.delete(to_trash=False)
 
-        logger.info(msg='Finished')
+        logger.debug(msg='Finished')
 
     def get_by_natural_key(self, label):
         return self.get(label=label)

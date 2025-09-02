@@ -22,7 +22,7 @@ class LockManagerApp(MayanAppConfig):
         super().ready()
 
         if COMMAND_NAME_LOCK_MANAGER_PURGE_LOCKS not in sys.argv:
-            logger.debug('Starting lock backend connectivity test')
+            logger.info('Starting lock backend connectivity test')
             # Don't test for locks during the `task_manager_purge_locks`
             # command as there may be some stuck locks which will block
             # the command.
@@ -35,10 +35,10 @@ class LockManagerApp(MayanAppConfig):
                     name=lock_name, timeout=1
                 )
             except Exception as exception:
-                raise RuntimeError(
-                    'Error initializing the locking backend: {}; {}'.format(
-                        setting_backend.value, exception
-                    )
-                ) from exception
+                error_message = 'Error initializing the locking backend: {}; {}'.format(
+                    setting_backend.value, exception
+                )
+                logger.critical(error_message)
+                raise RuntimeError(error_message) from exception
             else:
                 lock.release()

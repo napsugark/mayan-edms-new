@@ -298,7 +298,7 @@ class FileMetadataDriver(
                     driver.do_model_instance_populate()
 
     def process(self, document_file):
-        logger.info('Starting processing document file: %s', document_file)
+        logger.debug('Starting processing document file: %s', document_file)
 
         FileMetadataEntry = apps.get_model(
             app_label='file_metadata', model_name='FileMetadataEntry'

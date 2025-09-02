@@ -10,7 +10,7 @@
 # Vítor Figueiró <vfigueiro@gmail.com>, 2024
 # 425fe09b3064b9f906f637fff94056ae_a00ea56 <0fa3588fa89906bfcb3a354600956e0e_308047>, 2024
 # Márcia Ferreira, 2024
-# Daniel Flores <dfloresbr@gmail.com>, 2024
+# Daniel Flores <dfloresbr@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
@@ -209,6 +209,9 @@ msgid ""
 "Changing the password of staff or super user accounts via the user interface"
 " is not allowed. Use administration tools to perform this operation."
 msgstr ""
+"A alteração da senha de contas de pessoal ou de superusuário por meio da "
+"interface do usuário não é permitida. Utilize as ferramentas de "
+"administração para realizar essa operação."
 
 #: views/authentication_views.py:400
 msgid "Change user password"

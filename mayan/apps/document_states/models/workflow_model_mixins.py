@@ -146,7 +146,7 @@ class WorkflowBusinessLogicMixin:
         queryset = self.document_types.all()
         if queryset.filter(pk=document.document_type.pk).exists():
             try:
-                logger.info(
+                logger.debug(
                     'Launching workflow %s for document %s', self, document
                 )
                 WorkflowInstance = apps.get_model(
@@ -168,12 +168,12 @@ class WorkflowBusinessLogicMixin:
                     # Break pattern by passing `workflow_instance`
                     # until initial entry logs patch is merged.
             except IntegrityError:
-                logger.info(
+                logger.debug(
                     'Workflow %s already launched for document %s',
                     self, document
                 )
             else:
-                logger.info(
+                logger.debug(
                     'Workflow %s launched for document %s', self, document
                 )
                 return workflow_instance
