@@ -53,7 +53,8 @@ sys.path.append(
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 # extensions = ['sphinx.ext.autodoc', 'sphinx.ext.viewcode', 'sphinx.ext.intersphinx']
 extensions = [
-    'sphinx_sitemap', 'sphinx.ext.extlinks', 'sphinxcontrib.spelling',
+    'sphinx_sitemap', 'sphinx.ext.extlinks', 'sphinx.ext.graphviz',
+    'sphinxcontrib.spelling'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

@@ -5,6 +5,8 @@
   an optimistic approach only resorting to introspecting the database on
   random primary key collisions. Test case unit speed improvements have
   ranged from 11 to 20% less time.
+- Improve and simplify series support chapter.
+- Add Sphinx GraphViz extention.
 
 4.9.3 (2025-08-27)
 ==================
