@@ -1,5 +1,6 @@
 4.9.4 (XXXX-XX-XX)
 ==================
+- Merge changes from version 4.8.7.
 - Fix task manager test missing a call to `super().tearDown`.
 - Optimize test mixin `RandomPrimaryKeyModelMonkeyPatchMixin`. Mixin now uses
   an optimistic approach only resorting to introspecting the database on
@@ -7,6 +8,12 @@
   ranged from 11 to 20% less time.
 - Improve and simplify series support chapter.
 - Add Sphinx GraphViz extention.
+- Docker Compose update:
+
+  - Improve container dependency. Ensures services start before Mayan EDMS.
+    Also ensures that Mayan EDMS shuts down before services.
+  - Added health checks to ElasticSearch, Mayan EDMS, RabbitMQ, Redis.
+  - Improved the PostgreSQL health check by specifying the database name.
 
 4.9.3 (2025-08-27)
 ==================
