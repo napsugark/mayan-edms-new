@@ -16,6 +16,7 @@
   - Improved the PostgreSQL health check by specifying the database name.
 
 - Change README to use the black and white logo.
+- Remove donation links. The Mayan EDMS project no longer accepts donations.
 
 4.9.3 (2025-08-27)
 ==================

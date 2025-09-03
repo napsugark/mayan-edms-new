@@ -11,9 +11,6 @@
 [doi-badge-imgshield]: https://img.shields.io/badge/DOI-10.5281%20%2F%20zenodo.16760961-blue.svg?style=for-the-badge&logo=doi
 [doi-url]: https://doi.org/10.5281/zenodo.16760961
 
-[donation-badge]: https://img.shields.io/badge/donation-PayPal-brightgreen?style=for-the-badge
-[donation-url]: https://paypal.me/MayanEDMS
-
 [docker-image-tag-badge]: https://img.shields.io/docker/v/mayanedms/mayanedms?style=for-the-badge&sort=semver&logo=docker
 
 [docker-image-url]: https://hub.docker.com/r/mayanedms/mayanedms

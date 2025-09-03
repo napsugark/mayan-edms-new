@@ -76,9 +76,6 @@ Important links
 .. |docker_tag| image:: https://img.shields.io/docker/v/mayanedms/mayanedms?style=for-the-badge&sort=semver&logo=docker
    :target: https://hub.docker.com/r/mayanedms/mayanedms
 
-.. |donation| image:: https://img.shields.io/badge/donation-PayPal-brightgreen
-   :target: https://paypal.me/MayanEDMS
-
 .. |gitlab_tag| image:: https://img.shields.io/gitlab/v/tag/mayan-edms%2Fmayan-edms?style=for-the-badge&sort=semver&logo=gitlab&label=GitLab
    :target: https://gitlab.com/mayan-edms/mayan-edms
 
