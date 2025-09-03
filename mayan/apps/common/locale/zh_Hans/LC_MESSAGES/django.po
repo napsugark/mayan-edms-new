@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 11:22+0000\n"
+"POT-Creation-Date: 2025-09-03 18:22+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: Leon Chu, 2025\n"
 "Language-Team: Chinese Simplified (https://app.transifex.com/rosarior/teams/13584/zh-Hans/)\n"
@@ -27,11 +27,11 @@ msgstr ""
 msgid "Common"
 msgstr "常用"
 
-#: dependencies.py:188
+#: dependencies.py:193
 msgid "Command line environment with autocompletion."
 msgstr "含有自動完成之命令列環境"
 
-#: dependencies.py:193
+#: dependencies.py:198
 msgid "Checks proper formatting of the README file."
 msgstr "檢查適當的README檔案格式"
 
