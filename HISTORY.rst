@@ -1,4 +1,4 @@
-4.8.7 (2025-09-02)
+4.8.7 (2025-09-03)
 ==================
 - Don't add 'forge/Dockerfile' into .gitignore.
 - Merge changes and improvements from version 4.7.5.

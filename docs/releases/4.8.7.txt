@@ -1,7 +1,7 @@
 Version 4.8.7
 =============
 
-Released: September 2, 2025
+Released: September 3, 2025
 
 
 Summary
