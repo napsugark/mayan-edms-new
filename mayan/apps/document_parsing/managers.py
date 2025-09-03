@@ -28,7 +28,7 @@ class DocumentFilePageContentManager(models.Manager):
         )
 
     def process_document_file(self, document_file, user=None):
-        logger.info(
+        logger.debug(
             'Starting parsing for document file: %s', document_file
         )
         logger.debug('document file: %d', document_file.pk)
@@ -58,7 +58,7 @@ class DocumentFilePageContentManager(models.Manager):
                 domain_name=ERROR_LOG_DOMAIN_NAME, text=error_log_text
             )
         else:
-            logger.info(
+            logger.debug(
                 'Parsing complete for document file: %s', document_file
             )
             queryset_error_logs = document_file.error_log.filter(

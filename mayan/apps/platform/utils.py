@@ -61,8 +61,10 @@ class EnvironmentFileLoader:
         key = None
         value = None
 
-        if not line.startswith('#'):
-            key, value = line.strip().split('=', 1)
+        line_clean = line.strip()
+
+        if line_clean and not line_clean.startswith('#'):
+            key, value = line_clean.split('=', 1)
 
         return key, value
 

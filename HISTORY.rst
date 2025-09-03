@@ -385,6 +385,15 @@
 - Improve how the select all toolbar checkbox is disabled when there are no
   results.
 
+4.8.7 (2025-09-03)
+==================
+- Don't add 'forge/Dockerfile' into .gitignore.
+- Merge changes and improvements from version 4.7.5.
+- Change how the ClamAV file metadata test is configured. Enable the ClamAV
+  driver inside the test method and not in the test case to avoid raising an
+  exception while `setUp` is still executing thus making the test skip
+  `tearDown` which skips important test cleanups.
+
 4.8.6 (2025-08-25)
 ==================
 - Improvements and changes from version 4.7.3 and 4.7.4.
@@ -628,6 +637,12 @@
   workflow transition regardless of the current state or transition.
   The workflow state action context is now composed of the keys:
   `workflow_instance`, `workflow_instance_context`, `action`, and `log_entry`.
+
+4.7.5 (2025-09-01)
+==================
+- Improvements and changes from version 4.6.9.
+- Update `safety` from version 3.2.1 to 3.2.3 to fix dependency bug conflict
+  with `dparse` and `psutil`.
 
 4.7.4 (2025-08-25)
 ==================
@@ -907,9 +922,50 @@
 - Expose the document index instance depth and node count values via the API.
 - Add a document type API view to return all documents of that type.
 
-4.6.9 (XXXX-XX-XX)
+4.6.9 (2025-08-31)
 ==================
 - Add Docker DIND service to all docker push jobs.
+- Backports from version series 4.9:
+
+  - Update the translation file detection to ensure all JavaScript files are
+    included.
+  - Fix task manager test missing a call to `super().tearDown`.
+  - Add documentation step to update forge files.
+  - Include the version string as part of the Forge virtualenv.
+  - Optimize test mixin `RandomPrimaryKeyModelMonkeyPatchMixin`. Mixin now uses
+    an optimistic approach only resorting to introspecting the database on
+    random primary key collisions. Test case unit speed improvements have
+    ranged from 11 to 20% less time.
+
+- Backports version series 4.8:
+
+  - Persist success icon when a file upload finishes.
+
+- Forge updates
+
+  - Consolidate `ENV` statements.
+  - Add global `DEBIAN_FRONTEND=noninteractive` and remove it from each
+    `apt` invocation.
+  - Add `PIP_PREFER_BINARY=1`.
+  - Update Forge Docker Compose with optional volumen mount to support
+    Docker Out of Docker (DOoD).
+
+- Docker updates
+
+  - Consolidate `ENV` statements.
+  - Add global `DEBIAN_FRONTEND=noninteractive` and remove it from each
+    `apt` invocation.
+  - Add `PIP_PREFER_BINARY=1`.
+
+- Update `EnvironmentFileLoader` to not process empty config lines.
+- Revised log messages levels. Reduce the severity of some messages that were
+  confusing users in diagnosing issues. Increase the severity of base
+  configuration problems like the Celery components and lock manager.
+- Add new GitOps branch and target to build and try Docker images in staging.
+- Make `setuptools` a build and virtualenv dependency.
+- Remove `wheel` installation from the Docker build job.
+- Add `setuptools` to the DockerFile build image to ensure compliance with
+  PEP 625.
 
 4.6.8 (2025-08-24)
 ==================

@@ -72,7 +72,7 @@ class DuplicateBackend(
         return StoredDuplicateBackend.objects.get(pk=self.model_instance_id)
 
     def process(self, document):
-        logger.info(
+        logger.debug(
             'Starting processing document: %s', document
         )
 

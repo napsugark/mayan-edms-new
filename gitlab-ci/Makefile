@@ -138,3 +138,10 @@ gitlab-ci-tests-python-upgrade: ## Trigger upgrade tests as a CD/CI pipeline
 gitlab-ci-tests-python-upgrade:
 	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_TESTS_PYTHON_UPGRADE) || true
 	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_TESTS_PYTHON_UPGRADE)
+
+# GitOps Combined
+
+gitlab-ci-try-staging: ## Trigger a build and deploy to staging
+gitlab-ci-try-staging:
+	git push $(GIT_REMOTE_NAME)	:$(GITLAB_CI_BRANCH_TRY_STAGING) || true
+	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_TRY_STAGING)

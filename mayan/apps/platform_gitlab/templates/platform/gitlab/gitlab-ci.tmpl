@@ -25,7 +25,6 @@ job_docker_build:
     - python3 -m venv venv
     - . venv/bin/activate
     - pip install pip==${PYTHON_PIP_VERSION}
-    - pip install wheel==${PYTHON_WHEEL_VERSION}
     - pip install --requirement requirements/common.txt
     - cat requirements/base.txt | grep -v 'django-auth-ldap'| pip install -r /dev/stdin
   cache:
@@ -150,6 +149,7 @@ job_documentation_build:
     - python3 -m venv venv
     - . venv/bin/activate
     - pip install pip==${PYTHON_PIP_VERSION}
+    - pip install setuptools==${PYTHON_SETUPTOOLS_VERSION}
     - pip install wheel==${PYTHON_WHEEL_VERSION}
   cache:
 {% platform_gitlab_ci_cache_paths apt=True indent=4 pip=True %}
@@ -202,6 +202,8 @@ job_python_build:
     - python3 -m venv venv
     - . venv/bin/activate
     - pip install pip==${PYTHON_PIP_VERSION}
+    - pip install setuptools==${PYTHON_SETUPTOOLS_VERSION}
+    - pip install wheel==${PYTHON_WHEEL_VERSION}
   cache:
 {% platform_gitlab_ci_cache_paths apt=True indent=4 pip=True %}
   image: {{ DOCKER_LINUX_IMAGE_VERSION }}
@@ -361,3 +363,18 @@ job_staging_deploy:
   when: manual
   variables:
 {% platform_gitlab_ci_cache_variables apt=True indent=4 %}
+
+# Combined
+
+job_docker_build_try:
+  extends: job_docker_build
+  only:
+    - try/staging
+
+job_staging_deploy_try:
+  extends: job_staging_deploy
+  needs:
+    - job_docker_build_try
+  only:
+    - try/staging
+  when: on_success

@@ -209,6 +209,9 @@ msgid ""
 "Changing the password of staff or super user accounts via the user interface"
 " is not allowed. Use administration tools to perform this operation."
 msgstr ""
+"A alteração da senha de contas de pessoal ou de superusuário por meio da "
+"interface do usuário não é permitida. Utilize as ferramentas de "
+"administração para realizar essa operação."
 
 #: views/authentication_views.py:400
 msgid "Change user password"

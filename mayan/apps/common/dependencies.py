@@ -4,7 +4,9 @@ from mayan.apps.dependencies.classes import PythonDependency
 from mayan.apps.dependencies.environments import (
     environment_build, environment_development, environment_documentation
 )
-from mayan.settings.literals import PYTHON_WHEEL_VERSION
+from mayan.settings.literals import (
+    PYTHON_SETUPTOOLS_VERSION, PYTHON_WHEEL_VERSION
+)
 
 PythonDependency(
     legal_text='''
@@ -130,9 +132,6 @@ PythonDependency(
     module=__name__, name='requests', version_string='==2.32.4'
 )
 PythonDependency(
-    module=__name__, name='setuptools', version_string='==75.6.0'
-)
-PythonDependency(
     legal_text='''
         Copyright (C) 2011-2012 by Andrew Moffat
 
@@ -158,6 +157,12 @@ PythonDependency(
 
 # Build
 
+PythonDependency(
+    environment=environment_build,
+    module=__name__, name='setuptools', version_string='=={}'.format(
+        PYTHON_SETUPTOOLS_VERSION
+    )
+)
 PythonDependency(
     environment=environment_build, module=__name__, name='twine',
     version_string='==6.0.1'
