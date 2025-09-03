@@ -1,6 +1,6 @@
 |support| |doi| |license| |docker_tag| |docker_pulls| |docker_stars| |gitlab_tag|
 
-.. image:: https://gitlab.com/mayan-edms/mayan-edms/raw/master/docs/_static/mayan_logo.png
+.. image:: https://gitlab.com/mayan-edms/mayan-edms/raw/master/docs/_static/mayan_logo_bw.png
     :align: center
     :width: 200
     :height: 200

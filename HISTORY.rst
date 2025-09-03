@@ -15,6 +15,8 @@
   - Added health checks to ElasticSearch, Mayan EDMS, RabbitMQ, Redis.
   - Improved the PostgreSQL health check by specifying the database name.
 
+- Change README to use the black and white logo.
+
 4.9.3 (2025-08-27)
 ==================
 - Merge changes from version 4.8.5 and 4.8.6.
