@@ -118,7 +118,6 @@ pytz==2024.2
 qrcode==8.0
 requests==2.32.4
 sentry-sdk==2.35.0
-setuptools==75.6.0
 sh==2.1.0
 swagger-spec-validator==3.0.4
 whitenoise==6.8.2
