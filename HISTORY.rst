@@ -2,6 +2,10 @@
 ==================
 - Don't add 'forge/Dockerfile' into .gitignore.
 - Merge changes and improvements from version 4.7.5.
+- Change how the ClamAV file metadata test is configured. Enable the ClamAV
+  driver inside the test method and not in the test case to avoid raising an
+  exception while `setUp` is still executing thus making the test skip
+  `tearDown` which skips important test cleanups.
 
 4.8.6 (2025-08-25)
 ==================
