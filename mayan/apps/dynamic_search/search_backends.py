@@ -231,7 +231,10 @@ class SearchBackend:
     def __init__(self, _test_mode=False):
         self._test_mode = _test_mode
 
-    def _search(self, limit, query, search_model, user):
+    def _search(
+        self, search_field, query_type, value, is_quoted_value=False,
+        is_raw_value=False
+    ):
         raise NotImplementedError
 
     def deindex_instance(self, instance):

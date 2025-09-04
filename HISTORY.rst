@@ -1,3 +1,7 @@
+4.7.6 (XXXX-XX-XX)
+==================
+- Improvements and changes from version 4.6.10.
+
 4.7.5 (2025-09-01)
 ==================
 - Improvements and changes from version 4.6.9.
@@ -281,6 +285,13 @@
 - Add the ID field of primary models as search fields.
 - Expose the document index instance depth and node count values via the API.
 - Add a document type API view to return all documents of that type.
+
+4.6.10 (XXXX-XX-XX)
+===================
+- Fix base search class `_search` interface.
+- Add `SEARCH_QUERY_RESULTS_LIMIT_ERROR`. Control whether or not to raise
+  an error when the number of search results exceed the value of
+  `SEARCH_QUERY_RESULTS_LIMIT`. Default to `True` for backwards compatibility.
 
 4.6.9 (2025-08-31)
 ==================
