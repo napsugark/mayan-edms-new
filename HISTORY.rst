@@ -1,3 +1,7 @@
+4.6.10 (XXXX-XX-XX)
+===================
+- Fix base search class `_search` interface.
+
 4.6.9 (2025-08-31)
 ==================
 - Add Docker DIND service to all docker push jobs.
