@@ -7,7 +7,8 @@ from .literals import (
     DEFAULT_SEARCH_DEFAULT_OPERATOR, DEFAULT_SEARCH_DISABLE_SIMPLE_SEARCH,
     DEFAULT_SEARCH_INDEXING_CHUNK_SIZE,
     DEFAULT_SEARCH_MATCH_ALL_DEFAULT_VALUE,
-    DEFAULT_SEARCH_QUERY_RESULTS_LIMIT, DEFAULT_SEARCH_RESULTS_LIMIT,
+    DEFAULT_SEARCH_QUERY_RESULTS_LIMIT,
+    DEFAULT_SEARCH_QUERY_RESULTS_LIMIT_ERROR, DEFAULT_SEARCH_RESULTS_LIMIT,
     SCOPE_OPERATOR_CHOICES
 )
 
@@ -63,6 +64,13 @@ setting_query_results_limit = setting_namespace.do_setting_add(
     help_text=_(
         'Maximum number of search results to fetch and display per '
         'search query unit.'
+    )
+)
+setting_query_results_limit_error = setting_namespace.do_setting_add(
+    default=DEFAULT_SEARCH_QUERY_RESULTS_LIMIT_ERROR,
+    global_name='SEARCH_QUERY_RESULTS_LIMIT_ERROR', help_text=_(
+        message='Raise an error when the number of search results '
+        'exceed the value of `SEARCH_QUERY_RESULTS_LIMIT`.'
     )
 )
 setting_results_limit = setting_namespace.do_setting_add(

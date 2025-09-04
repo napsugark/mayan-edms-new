@@ -12,7 +12,10 @@ from .literals import (
 )
 from .search_query_terms import QueryToken
 from .search_query_types import QueryType
-from .settings import setting_query_results_limit, setting_results_limit
+from .settings import (
+    setting_query_results_limit, setting_query_results_limit_error,
+    setting_results_limit
+)
 
 logger = logging.getLogger(name=__name__)
 
@@ -346,15 +349,20 @@ class ScopedQueryEntryDataFilter(ScopedQueryEntryData):
                 )
 
                 if len(results) >= limit:
-                    raise DynamicSearchScopedQueryError(
-                        _(
-                            'Search results exceed limit setting. Results '
-                            'might not be reliable if multiple scopes are '
-                            'used. Narrow down the search criteria or '
-                            'increase the value of the results limit '
-                            'setting.'
-                        )
+                    error_message = _(
+                        'Search results exceed limit setting. Results '
+                        'might not be reliable if multiple scopes are '
+                        'used. Narrow down the search criteria or '
+                        'increase the value of the results limit '
+                        'setting.'
                     )
+
+                    logger.warning(error_message)
+
+                    if setting_query_results_limit_error.value:
+                        raise DynamicSearchScopedQueryError(error_message)
+
+                    return results[:limit]
 
                 return results
             except DynamicSearchBackendException:
