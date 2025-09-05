@@ -80,6 +80,7 @@
 - Move `nh3` dependency to the common app.
 - Split sources API URLs.
 - Rename the target `copy-config-env` to `config-env-copy`.
+- Don't append the changelog to the PyPI description.
 
 4.9.5 (XXXX-XX-XX)
 ==================
