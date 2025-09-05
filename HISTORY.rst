@@ -76,6 +76,8 @@
 - Rename duplicated documents link and view title for clarity.
 - Remove the deprecated `coveralls` library.
 - Remove the unused `selenium` library and associated code.
+- Update messaging app code to replace `bleach` with `nh3`.
+- Move `nh3` dependency to the common app.
 
 4.9.5 (XXXX-XX-XX)
 ==================

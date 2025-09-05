@@ -128,6 +128,7 @@ PythonDependency(
         License: LGPL 2.1
     ''', module=__name__, name='pycountry', version_string='==24.6.1'
 )
+PythonDependency(module=__name__, name='nh3', version_string='==0.3.0')
 PythonDependency(
     module=__name__, name='requests', version_string='==2.32.5'
 )

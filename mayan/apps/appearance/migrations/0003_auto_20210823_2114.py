@@ -1,4 +1,4 @@
-import bleach
+import nh3
 
 from django.db import migrations
 
@@ -12,9 +12,7 @@ def code_sanitize_themes(apps, schema_editor):
     )
 
     for theme in Theme.objects.all():
-        theme.stylesheet = bleach.clean(
-            text=theme.stylesheet, tags=('style',)
-        )
+        theme.stylesheet = nh3.clean(html=theme.stylesheet)
         theme.save()
 
 
