@@ -16,14 +16,19 @@ setting_namespace = SettingNamespaceSingleton(
     global_symbol_table=globals()
 )
 
-if COMMAND_NAME_SETTINGS_REVERT in sys.argv:
-    setting_namespace.update_globals(only_critical=True)
-    DATABASES = {
+
+def get_databases_sqlite():
+    return {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': Path(MEDIA_ROOT, 'db.sqlite3')  # NOQA: F821
         }
     }
+
+
+if COMMAND_NAME_SETTINGS_REVERT in sys.argv:
+    setting_namespace.update_globals(only_critical=True)
+    DATABASES = get_databases_sqlite()
 else:
     setting_namespace.update_globals()
 
@@ -424,11 +429,4 @@ if not DATABASES:
             }
         }
     else:
-        DATABASES = {
-            'default': {
-                'ENGINE': 'django.db.backends.sqlite3',
-                'NAME': str(
-                    Path(MEDIA_ROOT, 'db.sqlite3')  # NOQA: F821
-                )
-            }
-        }
+        DATABASES = get_databases_sqlite()

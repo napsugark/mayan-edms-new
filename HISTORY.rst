@@ -85,6 +85,8 @@
 - Add `pkg-config` as a build time dependency.
 - Pass `GITLAB_CI_BRANCH_TRY_STAGING` to the GitLab CI template instead of
   hard coding the branch name.
+- Add `get_databases_sqlite` to generate the SQLite database entry in a
+  consistent manner.
 
 4.9.5 (XXXX-XX-XX)
 ==================
