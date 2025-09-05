@@ -82,6 +82,7 @@
 - Rename the target `copy-config-env` to `config-env-copy`.
 - Don't append the changelog to the PyPI description.
 - Prefix all GitLab CI branch with `ci`.
+- Add `pkg-config` as a build time dependency.
 
 4.9.5 (XXXX-XX-XX)
 ==================
