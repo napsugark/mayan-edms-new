@@ -124,9 +124,6 @@ whitenoise==6.6.0
 with open(file='README.rst') as file_object:
     readme = file_object.read()
 
-with open(file='HISTORY.rst') as file_object:
-    history = file_object.read()
-
 setup(
     author='Roberto Rosario',
     author_email='roberto.rosario@mayan-edms.com',
@@ -151,7 +148,7 @@ setup(
     include_package_data=True,
     install_requires=install_requires,
     license='GPL 2.0',
-    long_description=readme + '\n\n' + history,
+    long_description=readme,
     name=PACKAGE_NAME,
     packages=find_packages(PACKAGE_DIR),
     platforms=['any'],

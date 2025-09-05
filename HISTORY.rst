@@ -4,6 +4,7 @@
 - Add `SEARCH_QUERY_RESULTS_LIMIT_ERROR`. Control whether or not to raise
   an error when the number of search results exceed the value of
   `SEARCH_QUERY_RESULTS_LIMIT`. Default to `True` for backwards compatibility.
+- Don't append the changelog to the PyPI description.
 
 4.6.9 (2025-08-31)
 ==================
