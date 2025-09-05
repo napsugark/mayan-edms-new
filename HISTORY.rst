@@ -83,6 +83,8 @@
 - Don't append the changelog to the PyPI description.
 - Prefix all GitLab CI branch with `ci`.
 - Add `pkg-config` as a build time dependency.
+- Pass `GITLAB_CI_BRANCH_TRY_STAGING` to the GitLab CI template instead of
+  hard coding the branch name.
 
 4.9.5 (XXXX-XX-XX)
 ==================
