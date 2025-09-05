@@ -231,7 +231,7 @@ version-increase: ## Increase the version number of the entire project's files.
 	make python-setup-generate
 
 versions-update: ## Update the version number of the entire project's files.
-versions-update: copy-config-env
+versions-update: config-env-copy
 	@VERSION_BASE=`grep "__version__ =" mayan/__init__.py| cut -d\' -f 2`; \
 	VERSION=`mayan/apps/dependencies/versions.py $${VERSION_BASE} upstream;` \
 	VERSION_PYTHON=`if [ -z "${LOCAL_VERSION}" ]; then echo "$${VERSION}"; else echo "$${VERSION}+${LOCAL_VERSION}"; fi`; \
@@ -287,7 +287,7 @@ check-missing-migrations: ## Make sure all models have proper migrations.
 check-missing-inits: ## Find missing __init__.py files from modules.
 	@contrib/scripts/find_missing_inits.py
 
-copy-config-env: ## Copy and convert `config.env` to `settings.literals.py`.
+config-env-copy: ## Copy and convert `config.env` to `settings.literals.py`.
 	@contrib/scripts/copy_config_env.py > mayan/settings/literals.py
 
 # Development environment

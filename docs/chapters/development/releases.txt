@@ -26,7 +26,7 @@ Release checklist
 
 #. Copy the ``config.env`` values::
 
-    make copy-config-env
+    make config-env-copy
 
 #. Update and commit the Docker Compose file::
 

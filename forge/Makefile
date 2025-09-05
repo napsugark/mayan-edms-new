@@ -32,11 +32,11 @@ forge-build: forge-buildkitd-config-create
 	docker buildx stop mirrored
 
 forge-dockerfile-update: ## Update the Dockerfile file from the platform template.
-forge-dockerfile-update: copy-config-env
+forge-dockerfile-update: config-env-copy
 	./manage.py platforms_template forge_dockerfile > forge/Dockerfile
 
 forge-docker-compose-update: ## Update the Docker Compose file from the platform template.
-forge-docker-compose-update: copy-config-env
+forge-docker-compose-update: config-env-copy
 	./manage.py platforms_template forge_docker_compose > forge/docker-compose.yml
 
 # Run

@@ -79,6 +79,7 @@
 - Update messaging app code to replace `bleach` with `nh3`.
 - Move `nh3` dependency to the common app.
 - Split sources API URLs.
+- Rename the target `copy-config-env` to `config-env-copy`.
 
 4.9.5 (XXXX-XX-XX)
 ==================
