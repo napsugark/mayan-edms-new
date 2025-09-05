@@ -11,7 +11,7 @@ class AppearanceApp(MayanAppConfig):
     app_url = 'appearance'
     has_javascript_translations = True
     has_static_media = True
-    has_tests = True
+    has_tests = False
     name = 'mayan.apps.appearance'
     static_media_ignore_patterns = (
         'AUTHORS*', 'CHANGE*', 'CONTRIBUT*', 'CODE_OF_CONDUCT*', 'Grunt*',

@@ -17,7 +17,3 @@ PythonDependency(
     environment=environment_testing, module=__name__,
     name='django-test-migrations', version_string='==1.5.0'
 )
-PythonDependency(
-    environment=environment_testing, module=__name__, name='selenium',
-    version_string='==4.35.0'
-)

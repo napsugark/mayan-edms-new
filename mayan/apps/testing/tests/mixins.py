@@ -1,9 +1,6 @@
 import os
 import time
 
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.firefox.webdriver import WebDriver
-
 from django.conf import settings
 from django.db.models import Q
 from django.urls import reverse
@@ -55,51 +52,6 @@ class EnvironmentTestCaseMixin:
     def _set_environment_variable(self, name, value):
         self._test_environment_variable_list.append(name)
         os.environ[name] = value
-
-
-class SeleniumTestMixin:
-    SKIP_VARIABLE_NAME = 'TESTS_SELENIUM_SKIP'
-
-    @staticmethod
-    def _get_skip_variable_value():
-        return os.environ.get(
-            SeleniumTestMixin._get_skip_variable_environment_name(),
-            getattr(settings, SeleniumTestMixin.SKIP_VARIABLE_NAME, False)
-        )
-
-    @staticmethod
-    def _get_skip_variable_environment_name():
-        return 'MAYAN_{}'.format(SeleniumTestMixin.SKIP_VARIABLE_NAME)
-
-    @classmethod
-    def setUpClass(cls):
-        super().setUpClass()
-        cls.webdriver = None
-        if not SeleniumTestMixin._get_skip_variable_value():
-            options = Options()
-            options.add_argument('--headless')
-            cls.webdriver = WebDriver(
-                firefox_options=options, log_path='/dev/null'
-            )
-
-    @classmethod
-    def tearDownClass(cls):
-        if cls.webdriver:
-            cls.webdriver.quit()
-        super().tearDownClass()
-
-    def setUp(self):
-        if SeleniumTestMixin._get_skip_variable_value():
-            self.skipTest(reason='Skipping selenium test')
-        super().setUp()
-
-    def _open_url(self, fragment=None, path=None, viewname=None):
-        url = '{}{}{}'.format(
-            self.live_server_url, path or reverse(viewname=viewname),
-            fragment or ''
-        )
-
-        self.webdriver.get(url=url)
 
 
 class TestMixinObjectCreationTrack:

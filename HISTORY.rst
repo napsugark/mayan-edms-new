@@ -75,6 +75,7 @@
   `dict_keys` object.
 - Rename duplicated documents link and view title for clarity.
 - Remove the deprecated `coveralls` library.
+- Remove the unused `selenium` library and associated code.
 
 4.9.5 (XXXX-XX-XX)
 ==================
