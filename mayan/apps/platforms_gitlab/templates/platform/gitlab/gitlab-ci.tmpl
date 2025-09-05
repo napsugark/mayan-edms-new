@@ -1,4 +1,4 @@
-{% load platform_gitlab_tags %}
+{% load platforms_gitlab_tags %}
 
 .job_docker_push_variables:
   &job_docker_push_variables
@@ -17,8 +17,8 @@ stages:
 
 job_docker_build:
   before_script:
-{% platform_gitlab_ci_config_env_before_script indent=4 %}
-{% platform_gitlab_ci_cache_before_script apk=True indent=4 %}
+{% platforms_gitlab_ci_config_env_before_script indent=4 %}
+{% platforms_gitlab_ci_cache_before_script apk=True indent=4 %}
     - docker login --username ${CI_REGISTRY_PUSH_USER} --password ${CI_REGISTRY_PUSH_PASSWORD} ${CI_REGISTRY}
     - apk update
     - apk add --cache-dir ${APK_CACHE_DIR} {{ LINUX_PACKAGES_ALPINE_BUILD }} {{ LINUX_PACKAGES_ALPINE_PYTHON }}
@@ -28,7 +28,7 @@ job_docker_build:
     - pip install --requirement requirements/common.txt
     - cat requirements/base.txt | grep -v 'django-auth-ldap'| pip install -r /dev/stdin
   cache:
-{% platform_gitlab_ci_cache_paths apk=True indent=4 pip=True %}
+{% platforms_gitlab_ci_cache_paths apk=True indent=4 pip=True %}
   image: {{ DOCKER_DIND_IMAGE_VERSION }}
   only:
     - {{ GITLAB_CI_BRANCH_BUILDS_DOCKER }}
@@ -49,16 +49,16 @@ job_docker_build:
   stage: stage_build_container
   variables:
     DOCKER_DRIVER: overlay2
-{% platform_gitlab_ci_cache_variables indent=4 apk=True pip=True %}
+{% platforms_gitlab_ci_cache_variables indent=4 apk=True pip=True %}
 
 job_docker_push_major:
   before_script:
-{% platform_gitlab_ci_config_env_before_script indent=4 %}
-{% platform_gitlab_ci_cache_before_script apk=True indent=4 %}
+{% platforms_gitlab_ci_config_env_before_script indent=4 %}
+{% platforms_gitlab_ci_cache_before_script apk=True indent=4 %}
     - apk add --cache-dir ${APK_CACHE_DIR} {{ LINUX_PACKAGES_ALPINE_PYTHON }}
     - docker login --username ${CI_REGISTRY_PUSH_USER} --password ${CI_REGISTRY_PUSH_PASSWORD} ${CI_REGISTRY}
   cache:
-{% platform_gitlab_ci_cache_paths apk=True indent=4 %}
+{% platforms_gitlab_ci_cache_paths apk=True indent=4 %}
   image: {{ DOCKER_CLI_IMAGE_VERSION }}
   only:
     - {{ GITLAB_CI_BRANCH_RELEASES_ALL_MAJOR }}
@@ -82,17 +82,17 @@ job_docker_push_major:
   stage: stage_push
   variables:
     DOCKER_DRIVER: overlay2
-{% platform_gitlab_ci_cache_variables indent=4 apk=True %}
+{% platforms_gitlab_ci_cache_variables indent=4 apk=True %}
     << : *job_docker_push_variables
 
 job_docker_push_minor:
   before_script:
-{% platform_gitlab_ci_config_env_before_script indent=4 %}
-{% platform_gitlab_ci_cache_before_script apk=True indent=4 %}
+{% platforms_gitlab_ci_config_env_before_script indent=4 %}
+{% platforms_gitlab_ci_cache_before_script apk=True indent=4 %}
     - apk add --cache-dir ${APK_CACHE_DIR} {{ LINUX_PACKAGES_ALPINE_PYTHON }}
     - docker login --username ${CI_REGISTRY_PUSH_USER} --password ${CI_REGISTRY_PUSH_PASSWORD} ${CI_REGISTRY}
   cache:
-{% platform_gitlab_ci_cache_paths apk=True indent=4 %}
+{% platforms_gitlab_ci_cache_paths apk=True indent=4 %}
   image: {{ DOCKER_CLI_IMAGE_VERSION }}
   only:
     - {{ GITLAB_CI_BRANCH_RELEASES_ALL_MINOR }}
@@ -111,12 +111,12 @@ job_docker_push_minor:
   stage: stage_push
   variables:
     DOCKER_DRIVER: overlay2
-{% platform_gitlab_ci_cache_variables indent=4 apk=True %}
+{% platforms_gitlab_ci_cache_variables indent=4 apk=True %}
     << : *job_docker_push_variables
 
 job_docker_nightly:
   before_script:
-{% platform_gitlab_ci_config_env_before_script indent=4 %}
+{% platforms_gitlab_ci_config_env_before_script indent=4 %}
     - docker login --username ${CI_REGISTRY_PUSH_USER} --password ${CI_REGISTRY_PUSH_PASSWORD} ${CI_REGISTRY}
   image: {{ DOCKER_CLI_IMAGE_VERSION }}
   needs:
@@ -143,8 +143,8 @@ job_documentation_build:
     paths:
     - docs
   before_script:
-{% platform_gitlab_ci_config_env_before_script indent=4 %}
-{% platform_gitlab_ci_cache_before_script apt=True indent=4 %}
+{% platforms_gitlab_ci_config_env_before_script indent=4 %}
+{% platforms_gitlab_ci_cache_before_script apt=True indent=4 %}
     - apt-get install --yes --no-install-recommends {{ LINUX_PACKAGES_DEBIAN_DOCUMENTATION }} {{ LINUX_PACKAGES_DEBIAN_BUILD }} {{ LINUX_PACKAGES_DEBIAN_PYTHON }}
     - python3 -m venv venv
     - . venv/bin/activate
@@ -152,7 +152,7 @@ job_documentation_build:
     - pip install setuptools==${PYTHON_SETUPTOOLS_VERSION}
     - pip install wheel==${PYTHON_WHEEL_VERSION}
   cache:
-{% platform_gitlab_ci_cache_paths apt=True indent=4 pip=True %}
+{% platforms_gitlab_ci_cache_paths apt=True indent=4 pip=True %}
   image: {{ DOCKER_LINUX_IMAGE_VERSION }}
   only:
     - {{ GITLAB_CI_BRANCH_BUILDS_DOCUMENTATION }}
@@ -167,15 +167,15 @@ job_documentation_build:
     - make docs-html
   stage: stage_build_documentation
   variables:
-{% platform_gitlab_ci_cache_variables apt=True indent=4 pip=True %}
+{% platforms_gitlab_ci_cache_variables apt=True indent=4 pip=True %}
 
 job_documentation_push:
   before_script:
-{% platform_gitlab_ci_config_env_before_script indent=4 %}
-{% platform_gitlab_ci_cache_before_script apt=True indent=4 %}
-{% platform_gitlab_ci_ssh_before_script hostname='${DOCUMENTATION_SSH_KNOWN_HOSTS}' indent=4 private_key='${DOCUMENTATION_SSH_PRIVATE_KEY}' %}
+{% platforms_gitlab_ci_config_env_before_script indent=4 %}
+{% platforms_gitlab_ci_cache_before_script apt=True indent=4 %}
+{% platforms_gitlab_ci_ssh_before_script hostname='${DOCUMENTATION_SSH_KNOWN_HOSTS}' indent=4 private_key='${DOCUMENTATION_SSH_PRIVATE_KEY}' %}
   cache:
-{% platform_gitlab_ci_cache_paths apt=True indent=4 pip=True %}
+{% platforms_gitlab_ci_cache_paths apt=True indent=4 pip=True %}
   image: {{ DOCKER_LINUX_IMAGE_VERSION }}
   only:
     - {{ GITLAB_CI_BRANCH_RELEASES_ALL_MAJOR }}
@@ -185,7 +185,7 @@ job_documentation_push:
     - rsync -avzP --progress -e ssh docs/_build/html/* ${DOCUMENTATION_SSH_USERNAME}@${DOCUMENTATION_HOSTNAME}:${DOCUMENTATION_SERVER_PATH}
   stage: stage_push
   variables:
-{% platform_gitlab_ci_cache_variables apt=True indent=4 pip=True %}
+{% platforms_gitlab_ci_cache_variables apt=True indent=4 pip=True %}
 
 # Python
 
@@ -195,8 +195,8 @@ job_python_build:
     paths:
     - dist
   before_script:
-{% platform_gitlab_ci_config_env_before_script indent=4 %}
-{% platform_gitlab_ci_cache_before_script apt=True indent=4 %}
+{% platforms_gitlab_ci_config_env_before_script indent=4 %}
+{% platforms_gitlab_ci_cache_before_script apt=True indent=4 %}
     - apt-get update
     - apt-get install --yes --no-install-recommends {{ LINUX_PACKAGES_DEBIAN_PYTHON }}
     - python3 -m venv venv
@@ -205,7 +205,7 @@ job_python_build:
     - pip install setuptools==${PYTHON_SETUPTOOLS_VERSION}
     - pip install wheel==${PYTHON_WHEEL_VERSION}
   cache:
-{% platform_gitlab_ci_cache_paths apt=True indent=4 pip=True %}
+{% platforms_gitlab_ci_cache_paths apt=True indent=4 pip=True %}
   image: {{ DOCKER_LINUX_IMAGE_VERSION }}
   only:
     - {{ GITLAB_CI_BRANCH_BUILDS_PYTHON }}
@@ -224,19 +224,19 @@ job_python_build:
     - make python-wheel-production
   stage: stage_build_python
   variables:
-{% platform_gitlab_ci_cache_variables apt=True indent=4 pip=True %}
+{% platforms_gitlab_ci_cache_variables apt=True indent=4 pip=True %}
 
 job_python_push_pypi:
   before_script:
-{% platform_gitlab_ci_config_env_before_script indent=4 %}
-{% platform_gitlab_ci_cache_before_script apt=True indent=4 %}
+{% platforms_gitlab_ci_config_env_before_script indent=4 %}
+{% platforms_gitlab_ci_cache_before_script apt=True indent=4 %}
     - apt-get update
     - apt-get install --yes --no-install-recommends {{ LINUX_PACKAGES_DEBIAN_PYTHON }}
     - python3 -m venv venv
     - . venv/bin/activate
     - pip install pip==${PYTHON_PIP_VERSION}
   cache:
-{% platform_gitlab_ci_cache_paths apt=True indent=4 pip=True %}
+{% platforms_gitlab_ci_cache_paths apt=True indent=4 pip=True %}
   image: {{ DOCKER_LINUX_IMAGE_VERSION }}
   only:
     - {{ GITLAB_CI_BRANCH_RELEASES_ALL_MAJOR }}
@@ -250,15 +250,15 @@ job_python_push_pypi:
     - twine upload --verbose dist/* -r pypi
   stage: stage_push
   variables:
-{% platform_gitlab_ci_cache_variables apt=True indent=4 pip=True %}
+{% platforms_gitlab_ci_cache_variables apt=True indent=4 pip=True %}
 
 # Run the test suit
 
 .job_base_test:
   &job_base_test
   before_script:
-{% platform_gitlab_ci_config_env_before_script indent=4 %}
-{% platform_gitlab_ci_cache_before_script apt=True indent=4 %}
+{% platforms_gitlab_ci_config_env_before_script indent=4 %}
+{% platforms_gitlab_ci_cache_before_script apt=True indent=4 %}
     - apt-get install --yes --no-install-recommends {{ LINUX_PACKAGES_DEBIAN_BASE }} {{ LINUX_PACKAGES_DEBIAN_BUILD }} {{ LINUX_PACKAGES_DEBIAN_PYTHON }} {{ LINUX_PACKAGES_DEBIAN_TEST }}
     - python3 -m venv venv
     - . venv/bin/activate
@@ -266,7 +266,7 @@ job_python_push_pypi:
     - pip install wheel==${PYTHON_WHEEL_VERSION}
     - pip install --requirement requirements.txt --requirement requirements/testing-base.txt --requirement requirements/build.txt
   cache:
-{% platform_gitlab_ci_cache_paths apt=True indent=4 pip=True %}
+{% platforms_gitlab_ci_cache_paths apt=True indent=4 pip=True %}
   image: {{ DOCKER_LINUX_IMAGE_VERSION }}
   only:
     - {{ GITLAB_CI_BRANCH_RELEASES_ALL_MAJOR }}
@@ -281,7 +281,7 @@ job_python_push_pypi:
     - {{ GITLAB_CI_BRANCH_TESTS_PYTHON_BASE }}
   stage: stage_test_python
   variables:
-{% platform_gitlab_ci_cache_variables apt=True indent=4 pip=True %}
+{% platforms_gitlab_ci_cache_variables apt=True indent=4 pip=True %}
 
 job_postgres_test:
   << : *job_base_test
@@ -310,11 +310,11 @@ job_sqlite_test:
 
 job_demo_deploy:
   before_script:
-{% platform_gitlab_ci_config_env_before_script indent=4 %}
-{% platform_gitlab_ci_cache_before_script apt=True indent=4 %}
-{% platform_gitlab_ci_ssh_before_script hostname='${DEMO_SSH_KNOWN_HOST}' indent=4 private_key='${DEMO_PRIVATE_KEY}' %}
+{% platforms_gitlab_ci_config_env_before_script indent=4 %}
+{% platforms_gitlab_ci_cache_before_script apt=True indent=4 %}
+{% platforms_gitlab_ci_ssh_before_script hostname='${DEMO_SSH_KNOWN_HOST}' indent=4 private_key='${DEMO_PRIVATE_KEY}' %}
   cache:
-{% platform_gitlab_ci_cache_paths apt=True indent=4 %}
+{% platforms_gitlab_ci_cache_paths apt=True indent=4 %}
   environment:
     name: demo
   image: {{ DOCKER_LINUX_IMAGE_VERSION }}
@@ -332,15 +332,15 @@ job_demo_deploy:
   stage: stage_deploy
   when: manual
   variables:
-{% platform_gitlab_ci_cache_variables apt=True indent=4 %}
+{% platforms_gitlab_ci_cache_variables apt=True indent=4 %}
 
 job_staging_deploy:
   before_script:
-{% platform_gitlab_ci_config_env_before_script indent=4 %}
-{% platform_gitlab_ci_cache_before_script apt=True indent=4 %}
-{% platform_gitlab_ci_ssh_before_script hostname='${STAGING_SSH_KNOWN_HOST}' indent=4 private_key='${STAGING_PRIVATE_KEY}' %}
+{% platforms_gitlab_ci_config_env_before_script indent=4 %}
+{% platforms_gitlab_ci_cache_before_script apt=True indent=4 %}
+{% platforms_gitlab_ci_ssh_before_script hostname='${STAGING_SSH_KNOWN_HOST}' indent=4 private_key='${STAGING_PRIVATE_KEY}' %}
   cache:
-{% platform_gitlab_ci_cache_paths apt=True indent=4 %}
+{% platforms_gitlab_ci_cache_paths apt=True indent=4 %}
   environment:
     name: staging
   image: {{ DOCKER_LINUX_IMAGE_VERSION }}
@@ -362,7 +362,7 @@ job_staging_deploy:
   stage: stage_deploy
   when: manual
   variables:
-{% platform_gitlab_ci_cache_variables apt=True indent=4 %}
+{% platforms_gitlab_ci_cache_variables apt=True indent=4 %}
 
 # Combined
 
