@@ -78,6 +78,7 @@
 - Remove the unused `selenium` library and associated code.
 - Update messaging app code to replace `bleach` with `nh3`.
 - Move `nh3` dependency to the common app.
+- Split sources API URLs.
 
 4.9.5 (XXXX-XX-XX)
 ==================

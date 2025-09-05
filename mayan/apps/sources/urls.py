@@ -87,7 +87,7 @@ urlpatterns.extend(urlpatterns_documents)
 urlpatterns.extend(urlpatterns_document_files)
 urlpatterns.extend(urlpatterns_sources)
 
-api_urls = [
+api_urls_document_files = [
     re_path(
         route=r'^documents/(?P<document_id>[0-9]+)/files/(?P<document_file_id>[0-9]+)/source_metadata/$',
         name='document_file_source_metadata-list',
@@ -97,7 +97,10 @@ api_urls = [
         route=r'^documents/(?P<document_id>[0-9]+)/files/(?P<document_file_id>[0-9]+)/source_metadata/(?P<document_file_source_metadata_id>[0-9]+)/$',
         name='document_file_source_metadata-detail',
         view=APIDocumentFileSourceMetadataDetailView.as_view()
-    ),
+    )
+]
+
+api_urls_sources = [
     re_path(
         route=r'^sources/$', name='source-list',
         view=APISourceListView.as_view()
@@ -119,3 +122,7 @@ api_urls = [
         name='source_action-execute', view=APISourceActionExecuteView.as_view()
     )
 ]
+
+api_urls = []
+api_urls.extend(api_urls_document_files)
+api_urls.extend(api_urls_sources)
