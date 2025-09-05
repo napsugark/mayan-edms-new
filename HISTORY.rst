@@ -87,6 +87,8 @@
   hard coding the branch name.
 - Add `get_databases_sqlite` to generate the SQLite database entry in a
   consistent manner.
+- Change the default value of `APPEARANCE_MESSAGE_POSITION` from `top-right`
+  to `bottom-right`.
 
 4.9.5 (XXXX-XX-XX)
 ==================
