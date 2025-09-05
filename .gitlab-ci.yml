@@ -37,15 +37,15 @@ job_docker_build:
         - ${PIP_CACHE_DIR}
   image: docker:28.2.2-dind
   only:
-    - builds/docker
-    - releases/all/major
-    - releases/all/minor
-    - releases/docker/major
-    - releases/docker/minor
-    - releases/nightly
-    - releases/staging
-    - tests/all
-    - tests/docker
+    - ci/builds/docker
+    - ci/releases/all/major
+    - ci/releases/all/minor
+    - ci/releases/docker/major
+    - ci/releases/docker/minor
+    - ci/releases/nightly
+    - ci/releases/staging
+    - ci/tests/all
+    - ci/tests/docker
   script:
     - DOCKER_VERSION=`cat docker/rootfs/version`
     - make docker-build DOCKER_IMAGE_MAYAN_NAME=${CI_REGISTRY_IMAGE} IMAGE_VERSION=${DOCKER_VERSION} DOCKER_IMAGE_LABELS_EXTRA='--label com.gitlab.ci.job.id=${CI_JOB_ID} --label com.gitlab.ci.pipeline.id=${CI_PIPELINE_ID} --label org.opencontainers.image.revision=${CI_COMMIT_SHA}'
@@ -71,8 +71,8 @@ job_docker_push_major:
         - ${APK_CACHE_DIR}
   image: docker:28.2.2-cli
   only:
-    - releases/all/major
-    - releases/docker/major
+    - ci/releases/all/major
+    - ci/releases/docker/major
   script:
     - DOCKER_VERSION=`cat docker/rootfs/version`
     - docker pull "${CI_REGISTRY_IMAGE}:${DOCKER_VERSION}"
@@ -108,8 +108,8 @@ job_docker_push_minor:
         - ${APK_CACHE_DIR}
   image: docker:28.2.2-cli
   only:
-    - releases/all/minor
-    - releases/docker/minor
+    - ci/releases/all/minor
+    - ci/releases/docker/minor
   script:
     - DOCKER_VERSION=`cat docker/rootfs/version`
     - docker pull "${CI_REGISTRY_IMAGE}:${DOCKER_VERSION}"
@@ -135,7 +135,7 @@ job_docker_nightly:
   needs:
     - job_docker_build
   only:
-    - releases/nightly
+    - ci/releases/nightly
   script:
     - DOCKER_VERSION=`cat docker/rootfs/version`
     - docker pull "${CI_REGISTRY_IMAGE}:${DOCKER_VERSION}"
@@ -177,10 +177,10 @@ job_documentation_build:
         - ${PIP_CACHE_DIR}
   image: debian:12.11-slim
   only:
-    - builds/documentation
-    - releases/all/major
-    - releases/documentation
-    - tests/all
+    - ci/builds/documentation
+    - ci/releases/all/major
+    - ci/releases/documentation
+    - ci/tests/all
   script:
     - pip install --requirement requirements/common.txt
     - pip install --requirement requirements/base.txt
@@ -216,8 +216,8 @@ job_documentation_push:
         - ${PIP_CACHE_DIR}
   image: debian:12.11-slim
   only:
-    - releases/all/major
-    - releases/documentation
+    - ci/releases/all/major
+    - ci/releases/documentation
   script:
     - ssh ${DOCUMENTATION_SSH_USERNAME}@${DOCUMENTATION_HOSTNAME} "rm -Rf ${DOCUMENTATION_SERVER_PATH}/*"
     - rsync -avzP --progress -e ssh docs/_build/html/* ${DOCUMENTATION_SSH_USERNAME}@${DOCUMENTATION_HOSTNAME}:${DOCUMENTATION_SERVER_PATH}
@@ -256,17 +256,17 @@ job_python_build:
         - ${PIP_CACHE_DIR}
   image: debian:12.11-slim
   only:
-    - builds/python
-    - releases/all/major
-    - releases/all/minor
-    - releases/docker/major
-    - releases/docker/minor
-    - releases/python/major
-    - releases/python/minor
-    - releases/testing
-    - tests/all
-    - tests/python/all
-    - tests/python/upgrade
+    - ci/builds/python
+    - ci/releases/all/major
+    - ci/releases/all/minor
+    - ci/releases/docker/major
+    - ci/releases/docker/minor
+    - ci/releases/python/major
+    - ci/releases/python/minor
+    - ci/releases/testing
+    - ci/tests/all
+    - ci/tests/python/all
+    - ci/tests/python/upgrade
   script:
     - pip install --requirement requirements/build.txt
     - make python-wheel-production
@@ -297,11 +297,11 @@ job_python_push_pypi:
         - ${PIP_CACHE_DIR}
   image: debian:12.11-slim
   only:
-    - releases/all/major
-    - releases/all/minor
-    - releases/python/major
-    - releases/python/minor
-    - releases/testing
+    - ci/releases/all/major
+    - ci/releases/all/minor
+    - ci/releases/python/major
+    - ci/releases/python/minor
+    - ci/releases/testing
   script:
     - pip install --requirement requirements/build.txt
     - echo "${PYPIRC}" > ~/.pypirc
@@ -337,16 +337,16 @@ job_python_push_pypi:
         - ${PIP_CACHE_DIR}
   image: debian:12.11-slim
   only:
-    - releases/all/major
-    - releases/all/minor
-    - releases/docker/major
-    - releases/docker/minor
-    - releases/python/major
-    - releases/python/minor
-    - releases/staging
-    - tests/all
-    - tests/python/all
-    - tests/python/base
+    - ci/releases/all/major
+    - ci/releases/all/minor
+    - ci/releases/docker/major
+    - ci/releases/docker/minor
+    - ci/releases/python/major
+    - ci/releases/python/minor
+    - ci/releases/staging
+    - ci/tests/all
+    - ci/tests/python/all
+    - ci/tests/python/base
   stage: stage_test_python
   variables:
     APT_CACHE_DIR: ${CI_PROJECT_DIR}/.cache/apt
@@ -400,14 +400,14 @@ job_demo_deploy:
     name: demo
   image: debian:12.11-slim
   only:
-    - builds/docker
-    - deployments/demo
-    - releases/all/major
-    - releases/all/minor
-    - releases/docker/major
-    - releases/docker/minor
-    - releases/nightly
-    - releases/staging
+    - ci/builds/docker
+    - ci/deployments/demo
+    - ci/releases/all/major
+    - ci/releases/all/minor
+    - ci/releases/docker/major
+    - ci/releases/docker/minor
+    - ci/releases/nightly
+    - ci/releases/staging
   script:
     - ssh ${DEMO_USERNAME}@${DEMO_IP_ADDRESS} "curl --remote-name-all https://gitlab.com/mayan-edms/mayan-edms/-/raw/master/docker/{.env,docker-compose.yml} --show-error --silent && docker compose pull && docker compose down --remove-orphans --volumes || true && docker compose up --detach"
   stage: stage_deploy
@@ -438,14 +438,14 @@ job_staging_deploy:
     name: staging
   image: debian:12.11-slim
   only:
-    - builds/docker
-    - deployments/staging
-    - releases/all/major
-    - releases/all/minor
-    - releases/docker/major
-    - releases/docker/minor
-    - releases/nightly
-    - releases/staging
+    - ci/builds/docker
+    - ci/deployments/staging
+    - ci/releases/all/major
+    - ci/releases/all/minor
+    - ci/releases/docker/major
+    - ci/releases/docker/minor
+    - ci/releases/nightly
+    - ci/releases/staging
   script:
     - ssh ${STAGING_SSH_USERNAME}@${STAGING_HOSTNAME} "docker compose down --remove-orphans --volumes || true"
     - scp docker/.env docker/docker-compose.yml ${STAGING_SSH_USERNAME}@${STAGING_HOSTNAME}:~
