@@ -9,7 +9,7 @@ PythonDependency(
 )
 PythonDependency(
     environment=environment_documentation, module=__name__,
-    name='sphinx-sitemap', version_string='==2.6.0'
+    name='sphinx-sitemap', version_string='==2.8.0'
 )
 PythonDependency(
     environment=environment_documentation, module=__name__,
