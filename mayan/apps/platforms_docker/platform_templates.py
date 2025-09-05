@@ -25,7 +25,7 @@ from mayan.settings.literals import (
 class PlatformTemplateDockerEntrypoint(PlatformTemplate):
     label = _(message='Template for entrypoint.sh file inside a Docker image.')
     name = 'docker_entrypoint'
-    template_name = 'platform/docker/entrypoint.tmpl'
+    template_name = 'platforms_docker/entrypoint.tmpl'
 
     def get_context(self):
         context = load_env_file()
@@ -41,7 +41,7 @@ class PlatformTemplateDockerEntrypoint(PlatformTemplate):
 class PlatformTemplateDockerComposefile(PlatformTemplate):
     label = _(message='Template that generates the Docker Compose file.')
     name = 'docker_docker_compose'
-    template_name = 'platform/docker/docker-compose.yml.tmpl'
+    template_name = 'platforms_docker/docker-compose.yml.tmpl'
 
     def __init__(self):
         self.variables = (
@@ -161,7 +161,7 @@ class PlatformTemplateDockerComposefile(PlatformTemplate):
 class PlatformTemplateDockerSupervisord(PlatformTemplateSupervisord):
     label = _(message='Template for Supervisord inside a Docker image.')
     name = 'docker_supervisord'
-    template_name = 'platform/docker/supervisord.tmpl'
+    template_name = 'platforms_docker/supervisord.tmpl'
 
     def get_context(self):
         return {
@@ -176,7 +176,7 @@ class PlatformTemplateDockerSupervisord(PlatformTemplateSupervisord):
 class PlatformTemplateDockerfile(PlatformTemplate):
     label = _(message='Template that generates a Dockerfile file.')
     name = 'docker_dockerfile'
-    template_name = 'platform/docker/dockerfile.tmpl'
+    template_name = 'platforms_docker/dockerfile.tmpl'
 
     def __init__(self):
         self.variables = (

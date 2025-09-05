@@ -82,7 +82,7 @@ class PlatformTemplate(BaseBackend):
         return result
 
     def get_template_name(self):
-        return self.template_name or 'platform/{}.tmpl'.format(self.name)
+        return self.template_name or 'platforms/{}.tmpl'.format(self.name)
 
     def get_variables_context(self):
         result = {}
