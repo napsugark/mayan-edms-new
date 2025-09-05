@@ -12,7 +12,9 @@ from .literals import (
 )
 from .search_query_terms import QueryToken
 from .search_query_types import QueryType
-from .settings import setting_query_results_limit
+from .settings import (
+    setting_query_results_limit, setting_query_results_limit_error
+)
 
 logger = logging.getLogger(name=__name__)
 
@@ -323,6 +325,7 @@ class ScopedQueryEntryDataFilter(ScopedQueryEntryData):
 
     def do_resolve(self, search_backend):
         scope_limit = setting_query_results_limit.value
+        scope_limit_triggered = False
 
         if self.value:
             query_type, value = QueryType.check_all(value=self.value)
@@ -339,19 +342,25 @@ class ScopedQueryEntryDataFilter(ScopedQueryEntryData):
                 for item in results:
                     count += 1
 
-                    if count > scope_limit:
-                        raise DynamicSearchScopedQueryError(
-                            _(
-                                message='Query results exceed the current '
-                                'limit of %d. Results will not be reliable '
-                                'if multiple scopes are used. Narrow down '
-                                'the search criteria or increase the value '
-                                'of the results limit setting `%s`.'
-                            ) % (
-                                setting_query_results_limit.value,
-                                setting_query_results_limit.global_name
-                            )
+                    if count > scope_limit and not scope_limit_triggered:
+                        scope_limit_triggered = True
+                        error_message = _(
+                            message='Query results exceed the current '
+                            'limit of %d. Results will not be reliable '
+                            'if multiple scopes are used. Narrow down '
+                            'the search criteria or increase the value '
+                            'of the results limit setting `%s`.'
+                        ) % (
+                            setting_query_results_limit.value,
+                            setting_query_results_limit.global_name
                         )
+
+                        logger.warning(error_message)
+
+                        if setting_query_results_limit_error.value:
+                            raise DynamicSearchScopedQueryError(error_message)
+
+                        break
 
                     yield item
             except DynamicSearchBackendException:
