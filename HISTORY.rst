@@ -89,6 +89,7 @@
   consistent manner.
 - Change the default value of `APPEARANCE_MESSAGE_POSITION` from `top-right`
   to `bottom-right`.
+- Add SPDX license expression to comply with PEP 639.
 
 4.9.5 (XXXX-XX-XX)
 ==================
