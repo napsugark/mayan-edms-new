@@ -1,3 +1,7 @@
+4.8.8 (XXXX-XX-XX)
+==================
+- Improvements and changes from version 4.7.6.
+
 4.8.7 (2025-09-03)
 ==================
 - Don't add 'forge/Dockerfile' into .gitignore.
@@ -270,6 +274,10 @@
   workflow transition regardless of the current state or transition.
   The workflow state action context is now composed of the keys:
   `workflow_instance`, `workflow_instance_context`, `action`, and `log_entry`.
+
+4.7.6 (XXXX-XX-XX)
+==================
+- Improvements and changes from version 4.6.10.
 
 4.7.5 (2025-09-01)
 ==================
@@ -554,6 +562,13 @@
 - Add the ID field of primary models as search fields.
 - Expose the document index instance depth and node count values via the API.
 - Add a document type API view to return all documents of that type.
+
+4.6.10 (XXXX-XX-XX)
+===================
+- Fix base search class `_search` interface.
+- Add `SEARCH_QUERY_RESULTS_LIMIT_ERROR`. Control whether or not to raise
+  an error when the number of search results exceed the value of
+  `SEARCH_QUERY_RESULTS_LIMIT`. Default to `True` for backwards compatibility.
 
 4.6.9 (2025-08-31)
 ==================
