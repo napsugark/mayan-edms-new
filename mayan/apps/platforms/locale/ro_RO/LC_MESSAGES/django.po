@@ -60,28 +60,28 @@ msgstr ""
 
 #: settings.py:40
 msgid "Load an alternate settings file."
-msgstr ""
+msgstr "Încărcați un fișier de setări alternative."
 
 #: settings.py:49
 msgid "Allows setting Gunicorn's `workers` value."
-msgstr ""
+msgstr "Permite setarea valorii `workers` a lui Gunicorn."
 
 #: settings.py:55
 msgid "Allows setting Gunicorn's `worker_class` value."
-msgstr ""
+msgstr "Permite setarea valorii `worker_class` a lui Gunicorn."
 
 #: settings.py:62
 msgid "Allows setting Gunicorn's `timeout` value."
-msgstr ""
+msgstr "Permite setarea valorii `timeout` a funcției Gunicorn."
 
 #: settings.py:68
 msgid "Allows setting Gunicorn's `max_requests_jitter` value."
-msgstr ""
+msgstr "Permite setarea valorii `max_requests_jitter` a funcției Gunicorn."
 
 #: settings.py:74
 msgid "Allows setting Gunicorn's `max_requests` value."
-msgstr ""
+msgstr "Permite setarea valorii `max_requests` pentru Gunicorn."
 
 #: settings.py:80
 msgid "Allows setting Gunicorn's `limit_request_line` value."
-msgstr ""
+msgstr "Permite setarea valorii `limit_request_line` a lui Gunicorn."

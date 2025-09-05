@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"POT-Creation-Date: 2025-08-27 11:43+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Austria) (https://app.transifex.com/rosarior/teams/13584/de_AT/)\n"
@@ -49,16 +49,20 @@ msgid ""
 "Deprecated: Use `state_active` instead. Return the current state of the "
 "selected workflow."
 msgstr ""
+"Überholt: Verwenden Sie stattdessen `state_active`. Gibt den aktuellen "
+"Status des ausgewählten Workflows zurück."
 
 #: apps.py:243 apps.py:260
 msgid "Current completion of a workflow"
-msgstr ""
+msgstr "Aktueller Fortschritt des Workflows"
 
 #: apps.py:245
 msgid ""
 "Deprecated: Use `state_active.completion` instead. Return the completion "
 "value of the current state of the selected workflow."
 msgstr ""
+"Überholt: Verwenden Sie stattdessen `state_active.completion`. Gibt den "
+"aktuellen Fortschrittsstatus des ausgewählten Workflows zurück."
 
 #: apps.py:254
 msgid "Return the current state of the selected workflow."
@@ -107,6 +111,7 @@ msgstr "Letzten Übergang holen"
 #: apps.py:343
 msgid "A record of all state changes made to the workflow instance over time."
 msgstr ""
+"Aufzeichnung aller Statusänderungen einer Workflowinstanz über die Zeit."
 
 #: apps.py:371 apps.py:375 apps.py:408 apps.py:419
 msgid "None"
@@ -226,7 +231,7 @@ msgstr "Basis"
 
 #: forms/workflow_template_transition_field_forms.py:17
 msgid "Field"
-msgstr ""
+msgstr "Feld"
 
 #: forms/workflow_template_transition_field_forms.py:21
 msgid "Value"
@@ -379,7 +384,7 @@ msgstr "Ereignistrigger %s"
 
 #: models/workflow_instance_models.py:34
 msgid "The workflow template."
-msgstr ""
+msgstr "Die Workflowvorlage."
 
 #: models/workflow_instance_models.py:36 models/workflow_models.py:66
 #: models/workflow_state_models.py:38 models/workflow_transition_models.py:39
@@ -397,7 +402,7 @@ msgstr "Zeit"
 
 #: models/workflow_instance_models.py:45
 msgid "The document to which the workflow instance is attached."
-msgstr ""
+msgstr "Das Dokument, mit dem die Workflowinstanz verbunden ist."
 
 #: models/workflow_instance_models.py:47
 msgid "Document"
@@ -410,11 +415,11 @@ msgstr "Kontext"
 
 #: models/workflow_instance_models.py:53
 msgid "The currently active state of the workflow instance."
-msgstr ""
+msgstr "Der momentane aktive Status der Workflowinstanz."
 
 #: models/workflow_instance_models.py:55
 msgid "Active state"
-msgstr ""
+msgstr "Aktivstatus"
 
 #: models/workflow_instance_models.py:64
 #: models/workflow_instance_models.py:108
@@ -449,7 +454,7 @@ msgstr "Kein gültiger Übergang."
 
 #: models/workflow_model_mixins.py:146
 msgid "Final state"
-msgstr ""
+msgstr "Endstatus"
 
 #: models/workflow_model_mixins.py:153
 msgid "Initial state"
@@ -482,11 +487,11 @@ msgstr "Ein kurzer Text zur Beschreibung des Workflows."
 
 #: models/workflow_models.py:57
 msgid "Ignore workflow instances if they are in their final state."
-msgstr ""
+msgstr "Ignoriere Workflowinstanzen in Endstatus."
 
 #: models/workflow_models.py:59
 msgid "Ignore completed"
-msgstr ""
+msgstr "Ignoriere beendete"
 
 #: models/workflow_models.py:97
 msgid "Workflow runtime proxy"
@@ -521,6 +526,8 @@ msgid ""
 "A short text describing the action. Actions are execute by alphabetical "
 "order."
 msgstr ""
+"Ein kurzer Text, der die Aktion beschreibt. Aktionen werden in "
+"alphabetischer Reihenfolge ausgeführt."
 
 #: models/workflow_state_action_models.py:56
 msgid "At which moment of the state this action will execute."
@@ -612,10 +619,12 @@ msgid ""
 "The state at which the workflow will stop. Only one state can be the final "
 "state."
 msgstr ""
+"Der Status, in dem der Workflow gestoppt wird. Nur ein Status kann der "
+"Endzustand sein."
 
 #: models/workflow_state_models.py:56
 msgid "Final"
-msgstr ""
+msgstr "Ende"
 
 #: models/workflow_state_models.py:60
 msgid ""
@@ -644,11 +653,11 @@ msgstr "Fehler für Suchwert: %s"
 
 #: models/workflow_transition_field_model_mixins.py:111
 msgid "Has a default?"
-msgstr ""
+msgstr "Standard vorhanden"
 
 #: models/workflow_transition_field_model_mixins.py:119
 msgid "Has a lookup?"
-msgstr ""
+msgstr "Weist eine Suche auf"
 
 #: models/workflow_transition_field_model_mixins.py:130
 msgid "Value is not one of the provided options."
@@ -668,7 +677,7 @@ msgstr "Der Feldname, der auf der Benutzeroberfläche angezeigt wird."
 
 #: models/workflow_transition_field_models.py:48
 msgid "Optional default value for the field. Can be a template."
-msgstr ""
+msgstr "Optionaler Standardwert für das Feld. Kann eine Vorlage sein."
 
 #: models/workflow_transition_field_models.py:49
 msgid "Default"
@@ -698,7 +707,7 @@ msgstr "Hilfetext"
 
 #: models/workflow_transition_field_models.py:65
 msgid "Whether this field needs to be filled out or not to proceed."
-msgstr ""
+msgstr "Ob dieses Feld ausgefüllt werden muss bevor fortgefahren werden kann."
 
 #: models/workflow_transition_field_models.py:67
 msgid "Required"
@@ -1180,8 +1189,8 @@ msgstr "In diesem Workflow-Status befinden sich keine Dokumente"
 
 #: views/workflow_proxy_views.py:95
 #, python-format
-msgid "Documents in the workflow \"%s\", state \"%s\""
-msgstr "Dokumente im Workflow \"%s\" mit Status \"%s\""
+msgid "Documents in the workflow \"%(workflow)s\", state \"%(state)s\""
+msgstr ""
 
 #: views/workflow_template_state_escalation_views.py:43
 #, python-format
@@ -1203,10 +1212,12 @@ msgid ""
 "Workflow state escalation allow workflows to execute a transition "
 "automatically after a specific amount of time."
 msgstr ""
+"Workflowstatuseskalationen erlauben die automatische Ausführung nach einer "
+"bestimmten Zeitspanne."
 
 #: views/workflow_template_state_escalation_views.py:156
 msgid "There are no escalations for this workflow state."
-msgstr ""
+msgstr "Keine Eskalationen für diesen Workflowstatus definiert."
 
 #: views/workflow_template_state_escalation_views.py:159
 #, python-format
@@ -1354,6 +1365,8 @@ msgstr "Workflow-Übergang bearbeiten: %s"
 msgid ""
 "Create a transition and use it to move a workflow from one state to another."
 msgstr ""
+"Einen Übergang erstellen und ihn verwenden, um von einem Status in einen "
+"anderen zu wechseln."
 
 #: views/workflow_template_transition_views.py:150
 msgid "This workflow doesn't have any transitions"
@@ -1395,21 +1408,26 @@ msgstr ""
 #, python-format
 msgid "Workflows queued for launch successfully for %(count)d documents."
 msgstr ""
+"Workflows für %(count)d Dokumente erfolgreich in Warteschlange eingereiht."
 
 #: views/workflow_template_views.py:84
 #, python-format
 msgid "Workflows queued for launch successfully for document \"%(object)s\"."
 msgstr ""
+"Workflows für Dokument \"%(object)s\" erfolgreich in Warteschlange "
+"eingereiht."
 
 #: views/workflow_template_views.py:88
 #, python-format
 msgid "Workflows queued for launch successfully for %(count)d document."
 msgstr ""
+"Workflows für %(count)d Dokumente erfolgreich in Warteschlange eingereiht."
 
 #: views/workflow_template_views.py:92
 #, python-format
 msgid "Queue launching workflows for the selected %(count)d documents."
 msgstr ""
+"Warteschlange startet Workflows für die %(count)d ausgewählten Dokumente."
 
 #: views/workflow_template_views.py:95
 #, python-format
@@ -1420,6 +1438,7 @@ msgstr "Workflow %(object)s starten"
 #, python-format
 msgid "Queue launching workflows for the selected %(count)d document."
 msgstr ""
+"Warteschlange startet Workflows für das %(count)d ausgewählte Dokument."
 
 #: views/workflow_template_views.py:105
 msgid ""
@@ -1596,6 +1615,8 @@ msgid ""
 "Username to use for making the request with HTTP Basic Auth. The credential "
 "object is available as {{ credential }}."
 msgstr ""
+"Benutzername, der für den HTTP Basic Auth request verwendet wird. Das "
+"Zugangsdatenobjekt ist verfügbar als {{ credential }}."
 
 #: workflow_actions.py:207
 msgid "Password"
@@ -1606,6 +1627,8 @@ msgid ""
 "Password to use for making the request with HTTP Basic Auth. The credential "
 "object is available as {{ credential }}."
 msgstr ""
+"Passwort, das für den HTTP Basic Auth request verwendet wird. Das "
+"Zugangsdatenobjekt ist verfügbar als {{ credential }}."
 
 #: workflow_actions.py:221
 msgid "Headers"
@@ -1616,6 +1639,8 @@ msgid ""
 "Headers to send with the HTTP request. Must be in JSON format. The "
 "credential object is available as {{ credential }}."
 msgstr ""
+"Kopfzeilen, die mit dem HTTP Basic Auth request gesendet werden. Müssen im "
+"JSON Format sein. Das Zugangsdatenobjekt ist verfügbar als {{ credential }}."
 
 #: workflow_actions.py:234
 msgid "Payload"
@@ -1635,19 +1660,21 @@ msgstr "Antwortwartezeit in Sekunden."
 
 #: workflow_actions.py:257
 msgid "Store response"
-msgstr ""
+msgstr "Antwort speichern"
 
 #: workflow_actions.py:262
 msgid "Store the response in the workflow context."
-msgstr ""
+msgstr "Antwort im Workflowkontext speichern."
 
 #: workflow_actions.py:267
 msgid "Response variable name"
-msgstr ""
+msgstr "Antwort Variablenname"
 
 #: workflow_actions.py:272
 msgid "Variable used to store the response in the workflow instance context."
 msgstr ""
+"Variable die benutzt wird um die Antwort im Kontext der Workflowinstanz zu "
+"speichern."
 
 #: workflow_actions.py:279
 msgid "Perform an HTTP request"
@@ -1655,11 +1682,11 @@ msgstr "Eine HTTP-Anfrage ausführen"
 
 #: workflow_actions.py:290
 msgid "Request"
-msgstr ""
+msgstr "Anfrage"
 
 #: workflow_actions.py:298
 msgid "Response"
-msgstr ""
+msgstr "Antwort"
 
 #: workflow_actions.py:319
 #, python-format

@@ -44,11 +44,11 @@ msgstr "Metadatenwert von"
 
 #: apps.py:249
 msgid "Document link"
-msgstr ""
+msgstr "Dokumentenlink"
 
 #: apps.py:255
 msgid "Document thumbnail"
-msgstr ""
+msgstr "Dokumentenvorschaubild"
 
 #: events.py:10
 msgid "Document metadata added"

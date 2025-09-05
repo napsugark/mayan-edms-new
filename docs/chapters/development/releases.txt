@@ -2,46 +2,6 @@
 Installable package
 ===================
 
-Source file package
--------------------
-
-This is the sequence of step used to produce an installable package:
-
-1. Generate the packaged version (will produce dist/mayan-edms-x.y.z.tar.gz)::
-
-    $ make sdist
-
-2. Do a test install::
-
-    $ cd /tmp
-    $ virtualenv venv
-    $ source venv/bin/activate
-    $ pip install <path of the Git repository>/dist/mayan-edms-x.y.z.tar.gz
-    $ mayan-edms.py common_initial_setup
-    $ mayan-edms.py runserver
-
-
-Wheel package
--------------
-
-1. Install the development requirements::
-
-    $ pip install -r requirements/development.txt
-
-2. Create wheel package using the makefile::
-
-    $ make wheel
-
-3. Do a test install::
-
-    $ cd /tmp
-    $ virtualenv venv
-    $ source venv/bin/activate
-    $ pip install <path of the Git repository>/dist/mayan_edms-x.y.z-py2-none-any.whl
-    $ mayan-edms.py common_initial_setup
-    $ mayan-edms.py runserver
-
-
 Version numbering
 =================
 
@@ -115,6 +75,11 @@ Release checklist
 
        git commit -s -m "Bump version to ..."
 
+#. Update forge files:
+   ::
+
+       make forge-update
+
 #. Tag version:
    ::
 
@@ -177,10 +142,3 @@ Manual release
    ::
 
        make release-via-docker-ubuntu
-
-Other steps
------------
-
-#. Update the contrib/scripts/install/docker.sh values
-
-#. Upload contrib/scripts/install/docker.sh to https://get.mayan-edms.com

@@ -15,7 +15,6 @@ Forum
 Search for information or post a question, report or feature request at:
 https://forum.mayan-edms.com.
 
-Mayan EDMS developers do their best to reply to basic questions.
 Be sure to use the search feature of the forum as some posts may already
 contain the answers to your questions.
 

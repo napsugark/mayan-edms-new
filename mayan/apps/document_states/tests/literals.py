@@ -66,8 +66,8 @@ TEST_WORKFLOW_TEMPLATE_TRANSITION_FIELD_LOOKUP_CHOICE_LIST = ['1', '2', '3']
 TEST_WORKFLOW_TEMPLATE_TRANSITION_FIELD_LOOKUP_CHOICE_DATA = ','.join(
     TEST_WORKFLOW_TEMPLATE_TRANSITION_FIELD_LOOKUP_CHOICE_LIST
 )
-TEST_WORKFLOW_TEMPLATE_TRANSITION_FIELD_LOOKUP_CHOICE_MARK_UP = '<option value="" selected>{empty_label}</option><option value="{option_0}">{option_0}</option><option value="{option_1}">{option_1}</option><option value="{option_2}">{option_2}</option>'.format(
-    empty_label=EMPTY_LABEL,
+TEST_WORKFLOW_TEMPLATE_TRANSITION_FIELD_LOOKUP_CHOICE_MARK_UP = '<option value="" selected>{EMPTY_LABEL}</option><option value="{option_0}">{option_0}</option><option value="{option_1}">{option_1}</option><option value="{option_2}">{option_2}</option>'.format(
+    EMPTY_LABEL=EMPTY_LABEL,
     option_0=TEST_WORKFLOW_TEMPLATE_TRANSITION_FIELD_LOOKUP_CHOICE_LIST[0],
     option_1=TEST_WORKFLOW_TEMPLATE_TRANSITION_FIELD_LOOKUP_CHOICE_LIST[1],
     option_2=TEST_WORKFLOW_TEMPLATE_TRANSITION_FIELD_LOOKUP_CHOICE_LIST[2]

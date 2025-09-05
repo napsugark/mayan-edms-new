@@ -106,6 +106,7 @@ INSTALLED_APPS = (
     'mayan.apps.permissions.apps.PermissionsApp',
     'mayan.apps.platforms.apps.PlatformsApp',
     'mayan.apps.platforms_docker.apps.PlatformsDockerApp',
+    'mayan.apps.platforms_forge.apps.PlatformsForgeApp',
     'mayan.apps.platforms_gitlab.apps.PlatformsGitlabApp',
     'mayan.apps.platforms_sentry.apps.PlatformsSentryApp',
     'mayan.apps.quotas.apps.QuotasApp',

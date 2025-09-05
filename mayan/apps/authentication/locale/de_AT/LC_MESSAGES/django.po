@@ -229,6 +229,8 @@ msgstr "Passwort für Benutzer %s erfolgreich zurückgesetzt."
 #, python-format
 msgid "Error resetting password for user \"%(user)s\": %(error)s"
 msgstr ""
+"Fehler beim Zurücksetzen des Passworts für den Benutzer  \"%(user)s\": "
+"%(error)s"
 
 #: views/impersonation_views.py:87
 #, python-format

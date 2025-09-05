@@ -28,7 +28,7 @@ msgstr "Duplikate"
 
 #: apps.py:60
 msgid "Duplicate backend"
-msgstr "Duplizierungsbackend"
+msgstr "Duplikatsbackend"
 
 #: classes.py:89
 msgid "Null backend"
@@ -52,11 +52,11 @@ msgstr "Duplikatsuche"
 
 #: models.py:19 models.py:31
 msgid "Stored duplicate backend"
-msgstr "Gespeichertes Duplizierungsbackend"
+msgstr "Gespeichertes Duplikatsbackend"
 
 #: models.py:20
 msgid "Stored duplicate backends"
-msgstr "Gespeicherte Duplizierungsbackends"
+msgstr "Gespeicherte Duplikatsbackends"
 
 #: models.py:35
 msgid "Document"
@@ -64,15 +64,15 @@ msgstr "Dokument"
 
 #: models.py:47
 msgid "Duplicated backend entry"
-msgstr "Duplizierungsbackendeintrag"
+msgstr "Duplikatsbackendeintrag"
 
 #: models.py:48
 msgid "Duplicated backend entries"
-msgstr "Duplizierungsbackendeinträge"
+msgstr "Duplikatsbackendeinträge"
 
 #: queues.py:10
 msgid "Duplicates slow"
-msgstr "Duplizierung langsam"
+msgstr "Duplikate langsam"
 
 #: queues.py:15
 msgid "Clean empty duplicate lists"

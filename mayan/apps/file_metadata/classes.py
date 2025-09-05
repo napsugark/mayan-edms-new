@@ -301,7 +301,7 @@ class FileMetadataDriver(
 
     def process(self, document_file):
         try:
-            logger.info('Starting processing document file: %s', document_file)
+            logger.debug('Starting processing document file: %s', document_file)
 
             FileMetadataEntry = apps.get_model(
                 app_label='file_metadata', model_name='FileMetadataEntry'
@@ -335,10 +335,17 @@ class FileMetadataDriver(
 
             for key, value in file_metadata_dictionary.items():
                 internal_name = internal_name_dictionary_deduplicated[key]
+
+                # Drivers should not be returning `None` values.
+                # Added to workaround undocumented backward incompatible
+                # changes in Ollama.
+                value_clean = value or ''
+
                 coroutine.send(
                     {
                         'document_file_driver_entry': document_file_driver_entry,
-                        'internal_name': internal_name, 'key': key, 'value': value
+                        'internal_name': internal_name, 'key': key,
+                        'value': value_clean
                     }
                 )
 

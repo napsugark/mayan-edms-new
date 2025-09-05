@@ -8,6 +8,7 @@
 # Mohammed ALDOUB <voulnet@gmail.com>, 2025
 # Roberto Rosario, 2025
 # Marwan Rahhal <Marwanr@sssit.net>, 2025
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:32+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2025\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,33 +30,35 @@ msgstr "البحث الديناميكي"
 
 #: apps.py:87
 msgid "The underlying database model whose content is indexed for search."
-msgstr ""
+msgstr "نموذج قاعدة البيانات الأساسي الذي تتم فهرسة محتواه للبحث."
 
 #: apps.py:89
 msgid "Model"
-msgstr ""
+msgstr "النموذج"
 
 #: apps.py:94
 msgid "The unique name used to reference the search model."
-msgstr ""
+msgstr "الاسم الفريد المستخدم للإشارة إلى نموذج البحث."
 
 #: apps.py:102
 msgid "The underlying database field whose content is indexed for search."
-msgstr ""
+msgstr "حقل قاعدة البيانات الأساسي الذي تتم فهرسة محتواه للبحث."
 
 #: apps.py:105
 msgid "Field"
-msgstr ""
+msgstr "مجال"
 
 #: apps.py:116
 msgid ""
 "The underlying database field type. This determines the kind of data that is"
 " stored in the database."
 msgstr ""
+"نوع حقل قاعدة البيانات الأساسي. يحدد هذا نوع البيانات المخزنة في قاعدة "
+"البيانات."
 
 #: apps.py:119 serializers.py:61
 msgid "Field class"
-msgstr ""
+msgstr "فئة الحقل"
 
 #: apps.py:123 serializers.py:67
 msgid "Description"
@@ -70,19 +73,19 @@ msgstr "البحث"
 
 #: events.py:10
 msgid "Resultset created"
-msgstr ""
+msgstr "تم إنشاء مجموعة النتائج"
 
 #: forms.py:13
 msgid "Store the search results to speed up paging and for later browsing."
-msgstr ""
+msgstr "تخزين نتائج البحث لتسريع التصفح والاستعراض لاحقًا."
 
 #: forms.py:16
 msgid "Save results"
-msgstr ""
+msgstr "حفظ النتائج"
 
 #: forms.py:22
 msgid "Persistency"
-msgstr ""
+msgstr "الثبات"
 
 #: forms.py:38
 msgid "Match all"
@@ -90,11 +93,11 @@ msgstr "تطابق الكل"
 
 #: forms.py:39
 msgid "Return only results that match all fields."
-msgstr ""
+msgstr "إرجاع النتائج التي تتطابق فقط مع كافة الحقول."
 
 #: forms.py:76
 msgid "Search logic"
-msgstr ""
+msgstr "منطق البحث"
 
 #: forms.py:104 templates/dynamic_search/search_box.html:43
 #: templates/dynamic_search/search_box_toolbar.html:25
@@ -103,11 +106,11 @@ msgstr "مصطلحات البحث"
 
 #: forms.py:115
 msgid "Criteria"
-msgstr ""
+msgstr "معايير"
 
 #: links.py:21 models.py:61 views/saved_resultset_views.py:72
 msgid "Saved resultsets"
-msgstr ""
+msgstr "مجموعات النتائج المحفوظة"
 
 #: links.py:26
 msgid "Delete"
@@ -115,11 +118,11 @@ msgstr "حذف"
 
 #: links.py:31
 msgid "Results"
-msgstr ""
+msgstr "النتائج"
 
 #: links.py:36
 msgid "Basic search"
-msgstr ""
+msgstr "البحث الأساسي"
 
 #: links.py:40 templates/dynamic_search/search_box.html:49
 #: templates/dynamic_search/search_box_toolbar.html:33
@@ -140,7 +143,7 @@ msgstr "مجالات"
 
 #: links.py:60 views/tool_views.py:15
 msgid "Search models"
-msgstr ""
+msgstr "نماذج البحث"
 
 #: literals.py:27
 msgid "Yes"
@@ -155,14 +158,16 @@ msgid ""
 "Time to keep the resultset in seconds. This value is increased every time "
 "the resultset is accessed."
 msgstr ""
+"المدة الزمنية لحفظ مجموعة النتائج بالثواني. تزداد هذه القيمة في كل مرة يتم "
+"فيها الوصول إلى مجموعة النتائج."
 
 #: models.py:26
 msgid "Time to live"
-msgstr ""
+msgstr "مدة البقاء"
 
 #: models.py:30
 msgid "The server date and time when the resultset was created."
-msgstr ""
+msgstr "تاريخ ووقت الخادم عند إنشاء مجموعة النتائج."
 
 #: models.py:31
 msgid "Timestamp"
@@ -170,7 +175,7 @@ msgstr "الطابع الزمني"
 
 #: models.py:34
 msgid "Epoch"
-msgstr ""
+msgstr "حقبة زمنية"
 
 #: models.py:37 serializers.py:79
 msgid "App label"
@@ -178,27 +183,27 @@ msgstr "اسم التطبيق"
 
 #: models.py:40 serializers.py:82
 msgid "Model name"
-msgstr ""
+msgstr "اسم النموذج"
 
 #: models.py:43
 msgid "Search query"
-msgstr ""
+msgstr "استعلام البحث"
 
 #: models.py:46
 msgid "Search explainer text"
-msgstr ""
+msgstr "نص شرح البحث"
 
 #: models.py:49
 msgid "Number of results stored in the resultset."
-msgstr ""
+msgstr "عدد النتائج المخزنة في مجموعة النتائج."
 
 #: models.py:50
 msgid "Result count"
-msgstr ""
+msgstr "عدد النتائج"
 
 #: models.py:53
 msgid "User for which the resultset was created."
-msgstr ""
+msgstr "المستخدم الذي أنشئت له مجموعة النتائج."
 
 #: models.py:55 serializers.py:24
 msgid "User"
@@ -206,23 +211,23 @@ msgstr "مستخدم"
 
 #: models.py:60 models.py:95
 msgid "Saved resultset"
-msgstr ""
+msgstr "مجموعة النتائج المحفوظة"
 
 #: models.py:101
 msgid "Saved resultset entry"
-msgstr ""
+msgstr "إدخال مجموعة النتائج المحفوظة"
 
 #: models.py:102
 msgid "Saved resultset entries"
-msgstr ""
+msgstr "إدخالات مجموعات النتائج المحفوظة"
 
 #: permissions.py:10
 msgid "Delete resultsets"
-msgstr ""
+msgstr "حذف مجموعات النتائج"
 
 #: permissions.py:13
 msgid "View resultsets"
-msgstr ""
+msgstr "عرض مجموعات النتائج"
 
 #: permissions.py:17
 msgid "Execute search tools"
@@ -230,7 +235,7 @@ msgstr "تفعيل أدوات البحث"
 
 #: queues.py:14
 msgid "Search slow"
-msgstr ""
+msgstr "البحث بطيء"
 
 #: queues.py:19
 msgid "Remove a model instance from the search engine."
@@ -242,20 +247,20 @@ msgstr "فهرسة لطرق البحث"
 
 #: queues.py:30
 msgid "Index all instances of a search model to the search engine."
-msgstr ""
+msgstr "فهرسة جميع حالات نموذج البحث لمحرك البحث."
 
 #: queues.py:36
 msgid ""
 "Index all related instances of a search model after a many to many event."
-msgstr ""
+msgstr "فهرسة جميع الحالات ذات الصلة بنموذج البحث بعد حدث متعدد إلى متعدد."
 
 #: queues.py:44
 msgid "Reset the search backend indices and index all instances again."
-msgstr ""
+msgstr "إعادة تعيين مؤشرات البحث الخلفية وفهرسة جميع الحالات مرة أخرى."
 
 #: queues.py:51
 msgid "Delete expired saved resultsets"
-msgstr ""
+msgstr "حذف مجموعات النتائج المحفوظة المنتهية الصلاحية"
 
 #: scoped_queries.py:345
 #, python-format
@@ -264,6 +269,8 @@ msgid ""
 "if multiple scopes are used. Narrow down the search criteria or increase the"
 " value of the results limit setting `%s`."
 msgstr ""
+"تتجاوز نتائج الاستعلام الحد الحالي البالغ %d. لن تكون النتائج موثوقة إذا تم "
+"استخدام نطاقات متعددة. قلل معايير البحث أو زد قيمة إعداد حد النتائج %s."
 
 #: scoped_queries.py:364
 #, python-format
@@ -271,32 +278,34 @@ msgid ""
 "Search backend error. Verify that the search service is available and that "
 "the search syntax is valid for the active search backend; %s"
 msgstr ""
+"خطأ في واجهة البحث الخلفية. تأكد من توفر خدمة البحث وصلاحية صيغة البحث "
+"لواجهة البحث الخلفية النشطة؛%s"
 
 #: search_fields.py:100
 msgid "Uniquely identifies the search field."
-msgstr ""
+msgstr "يحدد بشكل فريد حقل البحث."
 
 #: search_fields.py:101 serializers.py:64
 msgid "Field name"
-msgstr ""
+msgstr "اسم الحقل"
 
 #: search_fields.py:179
 msgid ""
 "The type of search field. This determines how the information will be "
 "handled for search indexing."
-msgstr ""
+msgstr "نوع حقل البحث. يحدد هذا كيفية معالجة المعلومات لفهرسة البحث."
 
 #: search_fields.py:183 serializers.py:70
 msgid "Search field class"
-msgstr ""
+msgstr "فئة حقل البحث"
 
 #: search_fields.py:223
 msgid "Concrete"
-msgstr ""
+msgstr "ملموس"
 
 #: search_fields.py:245
 msgid "Direct"
-msgstr ""
+msgstr "مباشر"
 
 #: search_fields.py:267
 msgid "Related"
@@ -304,68 +313,68 @@ msgstr "ذات صلة"
 
 #: search_fields.py:325
 msgid "Virtual"
-msgstr ""
+msgstr "افتراضي"
 
 #: search_fields.py:340
 msgid "Any"
-msgstr ""
+msgstr "أي"
 
 #: search_models.py:49
 #, python-format
 msgid "Unknown search model `%s`."
-msgstr ""
+msgstr "نموذج بحث غير معروف ``.%s"
 
 #: search_models.py:145
 msgid "All content"
-msgstr ""
+msgstr "كل المحتوى"
 
 #: search_models.py:199
 msgid "Full name"
-msgstr ""
+msgstr "الاسم الكامل"
 
 #: search_query_types.py:171
 msgid "Exact"
-msgstr ""
+msgstr "بالضبط"
 
 #: search_query_types.py:177
 msgid "Fuzzy"
-msgstr ""
+msgstr "غامض"
 
 #: search_query_types.py:183
 msgid "Greater than"
-msgstr ""
+msgstr "أعظم من"
 
 #: search_query_types.py:189
 msgid "Greater than or equal"
-msgstr ""
+msgstr "أكبر من أو يساوي"
 
 #: search_query_types.py:195
 msgid "Less than"
-msgstr ""
+msgstr "أقل من"
 
 #: search_query_types.py:201
 msgid "Less than or equal"
-msgstr ""
+msgstr "أقل من أو يساوي"
 
 #: search_query_types.py:207
 msgid "Partial"
-msgstr ""
+msgstr "جزئي"
 
 #: search_query_types.py:213
 msgid "Range"
-msgstr ""
+msgstr "يتراوح"
 
 #: search_query_types.py:248
 msgid "Range exclusive"
-msgstr ""
+msgstr "نطاق حصري"
 
 #: search_query_types.py:254
 msgid "Regular expression"
-msgstr ""
+msgstr "التعبير العادي"
 
 #: serializers.py:20
 msgid "Results URL"
-msgstr ""
+msgstr "رابط النتائج"
 
 #: serializers.py:30 serializers.py:91
 msgid "URL"
@@ -373,7 +382,7 @@ msgstr "URL"
 
 #: serializers.py:53
 msgid "User must be authenticated."
-msgstr ""
+msgstr "يجب أن يكون المستخدم مصادقًا عليه."
 
 #: serializers.py:73
 msgid "Label"
@@ -381,11 +390,11 @@ msgstr "العنوان"
 
 #: serializers.py:85
 msgid "Primary key"
-msgstr ""
+msgstr "المفتاح الأساسي"
 
 #: serializers.py:88
 msgid "Search fields"
-msgstr ""
+msgstr "حقول البحث"
 
 #: settings.py:25
 msgid "Full path to the backend to be used to handle the search."
@@ -396,10 +405,12 @@ msgid ""
 "Arguments to pass to the search backend. For example values to change the "
 "behavior, host names, or authentication arguments."
 msgstr ""
+"الوسائط المُرسَلة إلى خادم البحث. على سبيل المثال، القيم لتغيير السلوك، أو "
+"أسماء المضيفين، أو وسائط المصادقة."
 
 #: settings.py:39
 msgid "The search operator to use when none is specified."
-msgstr ""
+msgstr "عامل البحث الذي يجب استخدامه عندما لا يتم تحديد أي عامل بحث."
 
 #: settings.py:46
 msgid ""
@@ -408,36 +419,37 @@ msgstr "لتعطيل بحث شريط المصطلح الفردي مع ترك ز�
 
 #: settings.py:53
 msgid "Amount of objects to process when performing bulk indexing."
-msgstr ""
+msgstr "عدد الكائنات التي يجب معالجتها عند تنفيذ الفهرسة المجمعة."
 
 #: settings.py:59
 msgid "Sets the default state of the \"Match all\" checkbox."
-msgstr ""
+msgstr "تعيين الحالة الافتراضية لمربع الاختيار \"مطابقة الكل\"."
 
 #: settings.py:65
 msgid ""
 "Maximum number of search results to fetch and display per search query unit."
 msgstr ""
+"الحد الأقصى لعدد نتائج البحث التي سيتم جلبها وعرضها لكل وحدة استعلام بحث."
 
 #: settings.py:72
 msgid "Maximum number of search results to fetch and display."
-msgstr ""
+msgstr "الحد الأقصى لعدد نتائج البحث التي سيتم جلبها وعرضها."
 
 #: settings.py:78
 msgid "Maximum number of saved resultsets to keep per user."
-msgstr ""
+msgstr "الحد الأقصى لعدد مجموعات النتائج المحفوظة لكل مستخدم."
 
 #: settings.py:84
 msgid "Maximum number of results to store per resultset."
-msgstr ""
+msgstr "الحد الأقصى لعدد النتائج لتخزينها في كل مجموعة نتائج."
 
 #: settings.py:90
 msgid "Time to keep the resultset in seconds."
-msgstr ""
+msgstr "المدة الزمنية لحفظ مجموعة النتائج بالثواني."
 
 #: settings.py:96
 msgid "Amount to increase the time to live on each access of the resultset."
-msgstr ""
+msgstr "مقدار زيادة مدة البقاء في كل مرة يتم فيها الوصول إلى مجموعة النتائج."
 
 #: settings.py:103
 msgid ""
@@ -446,14 +458,17 @@ msgid ""
 "the value is a list of the full search field name. Disabled fields will "
 "neither be available for search nor be indexed by the search backend."
 msgstr ""
+"تحدد الحقول التي يجب تعطيلها من نموذج البحث. التنسيق هو قاموس من القوائم. "
+"اسم نموذج البحث هو مفتاح القاموس والقيمة هي قائمة باسم حقل البحث الكامل. لن "
+"تكون الحقول المعطلة متاحة للبحث ولن تتم فهرستها بواسطة نظام البحث الخلفي."
 
 #: settings.py:113
 msgid "Sets the default state of the \"Store results\" checkbox."
-msgstr ""
+msgstr "تحدد الحالة الافتراضية لخانة الاختيار \"حفظ النتائج\"."
 
 #: templates/dynamic_search/app/list_toolbar.html:24
 msgid "Filter terms"
-msgstr ""
+msgstr "شروط التصفية"
 
 #: templates/dynamic_search/search_box.html:49
 #: templates/dynamic_search/search_box_toolbar.html:33
@@ -462,92 +477,93 @@ msgstr "المتقدمة"
 
 #: value_transformations.py:38
 msgid "Replace accents"
-msgstr ""
+msgstr "استبدال لهجات"
 
 #: value_transformations.py:50
 msgid "@ sign replace"
-msgstr ""
+msgstr "@ استبدال التوقيع"
 
 #: value_transformations.py:60
 msgid "Case fold"
-msgstr ""
+msgstr "أضعاف القضية"
 
 #: value_transformations.py:70 value_transformations.py:80
 msgid "Hyphen replace"
-msgstr ""
+msgstr "استبدال الواصلة"
 
 #: value_transformations.py:90
 msgid "To boolean"
-msgstr ""
+msgstr "إلى منطقية"
 
 #: value_transformations.py:105
 msgid "To date time"
-msgstr ""
+msgstr "حتى الآن الوقت"
 
 #: value_transformations.py:132
 msgid "Date time ISO format"
-msgstr ""
+msgstr "التاريخ والوقت بصيغة ISO"
 
 #: value_transformations.py:146
 msgid "Date time simple format"
-msgstr ""
+msgstr "التاريخ والوقت بتنسيق بسيط"
 
 #: value_transformations.py:158
 msgid "Date time timestamp format"
-msgstr ""
+msgstr "تنسيق الطابع الزمني والتاريخ"
 
 #: value_transformations.py:174
 msgid "To integer"
-msgstr ""
+msgstr "إلى عدد صحيح"
 
 #: value_transformations.py:184
 msgid "To string"
-msgstr ""
+msgstr "إلى السلسلة"
 
 #: views/saved_resultset_views.py:30
 #, python-format
 msgid "Error deleting saved resultset \"%(instance)s\"; %(exception)s"
-msgstr ""
+msgstr "خطأ في حذف مجموعة النتائج المحفوظة \"%(instance)s\"؛ %(exception)s"
 
 #: views/saved_resultset_views.py:39
 #, python-format
 msgid "%(count)d saved resultsets deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)d مجموعة نتائج محفوظة بنجاح"
 
 #: views/saved_resultset_views.py:42
 #, python-format
 msgid "Saved resultset \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "تم حذف مجموعة النتائج المحفوظة \"%(object)s\" بنجاح"
 
 #: views/saved_resultset_views.py:45
 #, python-format
 msgid "%(count)d saved resultset deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)d مجموعة نتائج محفوظة بنجاح"
 
 #: views/saved_resultset_views.py:48
 #, python-format
 msgid "Delete the %(count)d selected saved resultsets."
-msgstr ""
+msgstr "حذف مجموعات النتائج المحفوظة المحددة (%(count)d)"
 
 #: views/saved_resultset_views.py:50
 #, python-format
 msgid "Delete saved resultset: %(object)s."
-msgstr ""
+msgstr "حذف مجموعة النتائج المحفوظة: %(object)s"
 
 #: views/saved_resultset_views.py:51
 #, python-format
 msgid "Delete the %(count)d saved resultset."
-msgstr ""
+msgstr "حذف مجموعة النتائج المحفوظة (%(count)d)"
 
 #: views/saved_resultset_views.py:68
 msgid ""
 "Saved resultsets are objects that store the results of a previous search for"
 " a determined amount of time."
 msgstr ""
+"مجموعات النتائج المحفوظة هي كائنات تخزن نتائج بحث سابق لفترة زمنية محددة"
 
 #: views/saved_resultset_views.py:71
 msgid "No saved resultsets available"
-msgstr ""
+msgstr "لا توجد مجموعات نتائج محفوظة متاحة"
 
 #: views/search_views.py:58
 msgid "This tool erases and populates the search backend's internal index."
@@ -565,7 +581,7 @@ msgstr ""
 msgid ""
 "The currently selected search backend does not support or requires "
 "reindexing."
-msgstr ""
+msgstr "لا يدعم برنامج البحث المحدد حاليًا إعادة الفهرسة أو لا يتطلبها."
 
 #: views/search_views.py:87
 msgid "Search backend reindexing queued."
@@ -579,7 +595,7 @@ msgstr "ابحث عن: %s"
 #: views/search_views.py:135
 #, python-format
 msgid "Advanced search for: %s"
-msgstr ""
+msgstr "بحث متقدم عن:%s"
 
 #: views/search_views.py:191
 msgid "Try again using different terms. "
@@ -592,7 +608,7 @@ msgstr "لا نتائج للبحث"
 #: views/search_views.py:196
 #, python-format
 msgid "Search query: %s"
-msgstr ""
+msgstr "استعلام البحث:%s"
 
 #: views/search_views.py:199
 #, python-format
@@ -602,9 +618,9 @@ msgstr "نتائج البحث عن: %s"
 #: views/tool_views.py:34
 #, python-format
 msgid "Fields for search model: %s"
-msgstr ""
+msgstr "حقول نموذج البحث: %s"
 
 #: views/tool_views.py:45
 #, python-format
 msgid "Search model: %s, not found"
-msgstr ""
+msgstr "نموذج البحث: %s غير موجود"

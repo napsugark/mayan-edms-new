@@ -43,6 +43,14 @@ class FileMetadataDriverOllamaChat(FileMetadataDriver):
 
         response = client.chat(model=self.model, messages=self.messages)
 
-        flatten_map(dictionary=response, result=result)
+        try:
+            # Handle undocumented backwards incompatible change in Ollama.
+            response.items()
+        except AttributeError:
+            dictionary = response.model_dump()
+        else:
+            dictionary = response
+
+        flatten_map(dictionary=dictionary, result=result)
 
         return result

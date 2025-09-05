@@ -9,8 +9,8 @@
 # T W, 2025
 # Roberto Rosario, 2025
 # Tobias Paepke <tobias.paepke@paepke.net>, 2025
-# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # Berny <berny@bernhard-marx.de>, 2025
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 12:51+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Berny <berny@bernhard-marx.de>, 2025\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,19 +29,19 @@ msgstr ""
 #: apps.py:41 events.py:6 links.py:34 models.py:71 permissions.py:6
 #: settings.py:13
 msgid "Signature captures"
-msgstr "Unterschriftserfassungen"
+msgstr "Unterschriften erfassen"
 
 #: events.py:11
 msgid "Signature capture created"
-msgstr "Unterschriftserfassung erstellt"
+msgstr "Unterschrift erfasst"
 
 #: events.py:15
 msgid "Signature capture deleted"
-msgstr "Unterschriftserfassung gelöscht"
+msgstr "Unterschrift gelöscht"
 
 #: events.py:19
 msgid "Signature capture edited"
-msgstr "Unterschriftserfassung bearbeitet"
+msgstr "Unterschrift bearbeitet"
 
 #: forms.py:26
 msgid "Asset preview image"
@@ -53,7 +53,7 @@ msgstr "Vorschau"
 
 #: links.py:17
 msgid "Create new signature capture"
-msgstr "Neue Unterschriftserfassung erstellen"
+msgstr "Neue Unterschrift erfassen"
 
 #: links.py:23
 msgid "Delete"
@@ -113,9 +113,9 @@ msgid ""
 "relationship to the document. Can only contain letters, numbers, and "
 "underscores."
 msgstr ""
-"Dieser Wert wird verwendet, um auf diese Unterschriftserfassung zu verweisen"
-" in Beziehung auf das Dokument. Darf nur Buchstaben, Zahlen und Unterstriche"
-" enthalten."
+"Dieser Wert wird verwendet, um auf diese Unterschrift in Beziehung auf das "
+"Dokument zu verweisen. Darf nur Buchstaben, Zahlen und Unterstriche "
+"enthalten."
 
 #: models.py:61 transformations.py:40
 msgid "Internal name"
@@ -123,39 +123,39 @@ msgstr "Interner Name"
 
 #: models.py:70
 msgid "Signature capture"
-msgstr "Unterschriftserfassung"
+msgstr "Erfasste Unterschrift"
 
 #: permissions.py:10
 msgid "Create signature captures"
-msgstr "Unterschriftserfassungen erstellen"
+msgstr "Unterschriften erfassen"
 
 #: permissions.py:14
 msgid "Delete signature captures"
-msgstr "Unterschriftserfassungen löschen"
+msgstr "Unterschriften löschen"
 
 #: permissions.py:18
 msgid "Edit signature captures"
-msgstr "Unterschriftserfassungen bearbeiten"
+msgstr "Unterschriften bearbeiten"
 
 #: permissions.py:22
 msgid "View signature captures"
-msgstr "Unterschriftserfassungen anzeigen"
+msgstr "Erfasste Unterschriften anzeigen"
 
 #: search.py:11
 msgid "Signature capture text"
-msgstr "Unterschriftserfassungstext"
+msgstr "Unterschriftstext"
 
 #: search.py:15
 msgid "Signature capture user first name"
-msgstr "Unterschriftserfassung Vorname"
+msgstr "Unterschrift Vorname Benutzer"
 
 #: search.py:19
 msgid "Signature capture user last name"
-msgstr "Unterschriftserfassung Nachname"
+msgstr "Unterschrift Nachname Benutzer"
 
 #: search.py:23
 msgid "Signature capture user username"
-msgstr "Unterschriftserfassung Benutzername"
+msgstr "Unterschrift Benutzername"
 
 #: search.py:34
 msgid "Document type label"
@@ -235,7 +235,7 @@ msgstr "Oben unterschreiben"
 
 #: transformations.py:18
 msgid "Paste a signature capture (percent coordinates)"
-msgstr "Eine Unterschriftserfassung einfügen (Koordinaten in Prozent)"
+msgstr "Eine Unterschrift einfügen (Koordinaten in Prozent)"
 
 #: transformations.py:39
 msgid "Signature capture internal name"
@@ -244,12 +244,12 @@ msgstr "Interner Name der Unterschriftserfassung"
 #: views.py:44
 #, python-format
 msgid "Create signature capture for document: %s"
-msgstr "Unterschriftserfassung für Dokument %s erstellen"
+msgstr "Unterschrift erfassen für Dokument %s"
 
 #: views.py:75
 #, python-format
 msgid "Delete signature capture: %s"
-msgstr "Unterschriftserfassung %s löschen"
+msgstr "Unterschrift %s löschen"
 
 #: views.py:97
 #, python-format
@@ -259,21 +259,21 @@ msgstr "Details für %s"
 #: views.py:113
 #, python-format
 msgid "Edit document signature capture: %s"
-msgstr "Unterschriftserfassung %s bearbeiten"
+msgstr "Unterschrift %s bearbeiten"
 
 #: views.py:140
 msgid ""
 "Signature captures are electronic versions of a persons's handwritten "
 "signature."
 msgstr ""
-"Unterschriftserfassungen sind digitale Versionen einer handschriftlichen "
+"Erfasste Unterschriften sind digitale Versionen einer handschriftlichen "
 "persönlichen Unterschrift."
 
 #: views.py:143
 msgid "Document has no signature captures"
-msgstr "Das Dokument verfügt über keine Unterschriftserfassungen"
+msgstr "Das Dokument verfügt über keine erfassten Unterschriften"
 
 #: views.py:146
 #, python-format
 msgid "Signature captures for document: %s"
-msgstr "Unterschriftserfassungen für Dokument %s"
+msgstr "Unterschriften für Dokument %s"

@@ -1,6 +1,45 @@
+x-mayan-depends_on-basic:
+  &mayan-depends_on-basic
+  depends_on:
+    elasticsearch:
+      condition: service_healthy
+      required: false
+    postgresql:
+      condition: service_healthy
+      required: false
+    rabbitmq:
+      condition: service_healthy
+      required: false
+    redis:
+      condition: service_healthy
+      required: false
+
+x-mayan-depends_on-advanced:
+  &mayan-depends_on-advanced
+  depends_on:
+    elasticsearch:
+      condition: service_healthy
+      required: false
+    postgresql:
+      condition: service_healthy
+      required: false
+    rabbitmq:
+      condition: service_healthy
+      required: false
+    redis:
+      condition: service_healthy
+      required: false
+    setup_or_upgrade:
+      condition: service_completed_successfully
+      required: false
+
 x-mayan-container:
   &mayan-container
-  env_file: .env
+  <<: [*mayan-depends_on-basic]
+  env_file:
+    - ${MAYAN_DOCKER_ENV_FILE:-.env}
+    - path: .env-local
+      required: false
   environment:
     MAYAN_CELERY_BROKER_URL: amqp://${MAYAN_RABBITMQ_USER:-{{ DEFAULT_RABBITMQ_USER }}}:${MAYAN_RABBITMQ_PASSWORD:-{{ DEFAULT_RABBITMQ_PASSWORD }}}@${MAYAN_DOCKER_RABBITMQ_HOSTNAME:-rabbitmq}:${MAYAN_DOCKER_RABBITMQ_PORT:-5672}/${MAYAN_RABBITMQ_VHOST:-{{ DEFAULT_RABBITMQ_VHOST }}}
     MAYAN_CELERY_RESULT_BACKEND: redis://:${MAYAN_REDIS_PASSWORD:-{{ DEFAULT_REDIS_PASSWORD }}}@${MAYAN_DOCKER_REDIS_HOSTNAME:-redis}:${MAYAN_DOCKER_REDIS_PORT:-6379}/${MAYAN_REDIS_RESULT_DATABASE:-1}
@@ -23,18 +62,21 @@ x-mayan-container:
     # - /opt/staging_folder:/staging_folder
     # - /opt/watch_folder:/watch_folder
 
-x-mayan-dependencies:
-  &mayan-dependencies
-  depends_on:
-    setup_or_upgrade:
-      condition: service_completed_successfully
-
 x-mayan-frontend-ports:
   &mayan-frontend-ports
   # Disable ports if using Traefik. Set to an empty list `[]`.
   ports:
     - "${MAYAN_FRONTEND_HTTP_PORT:-80}:8000"
     # []
+
+x-mayan-healthcheck:
+  &mayan-healthcheck
+  healthcheck:
+    test: ["CMD-SHELL", "/opt/mayan-edms/bin/python -c \"import sys,urllib.request; r=urllib.request.urlopen('http://127.0.0.1:8000/', timeout=5); sys.exit(0 if r.status<400 else 1)\""]
+    interval: 30s
+    timeout: 5s
+    retries: 10
+    start_period: 30s
 
 x-mayan-traefik-labels:
   &mayan-traefik-labels
@@ -61,7 +103,7 @@ networks:
 
 services:
   app:
-    <<: [*mayan-container, *mayan-traefik-labels, *mayan-frontend-ports]
+    <<: [*mayan-container, *mayan-healthcheck, *mayan-traefik-labels, *mayan-frontend-ports]
     profiles:
       - all_in_one
 
@@ -73,6 +115,12 @@ services:
       - xpack.security.enabled=true
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
       - ELASTIC_PASSWORD=${MAYAN_ELASTICSEARCH_PASSWORD:-{{ DEFAULT_ELASTICSEARCH_PASSWORD }}}
+    healthcheck:
+      test: ["CMD", "curl", "--silent", "--user", "elastic:${MAYAN_ELASTICSEARCH_PASSWORD:-{{ DEFAULT_ELASTICSEARCH_PASSWORD }}}", "http://localhost:9200/_cluster/health?wait_for_status=green || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+      start_period: 30s
     image: ${MAYAN_DOCKER_ELASTICSEARCH_IMAGE:-{{ DOCKER_ELASTIC_IMAGE_NAME }}}:${MAYAN_DOCKER_ELASTICSEARCH_TAG:-{{ DOCKER_ELASTIC_IMAGE_TAG }}}
     networks:
       - mayan
@@ -107,7 +155,7 @@ services:
       POSTGRES_PASSWORD: ${MAYAN_DATABASE_PASSWORD:-{{ DEFAULT_DATABASE_PASSWORD }}}
       POSTGRES_USER: ${MAYAN_DATABASE_USER:-{{ DEFAULT_DATABASE_USER }}}
     healthcheck:
-      test: ["CMD", "pg_isready", "--username", "${MAYAN_DATABASE_USER:-{{ DEFAULT_DATABASE_USER }}}"]
+      test: ["CMD", "pg_isready", "--dbname", "${MAYAN_DATABASE_NAME:-{{ DEFAULT_DATABASE_NAME }}}", "--username", "${MAYAN_DATABASE_USER:-{{ DEFAULT_DATABASE_USER }}}"]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -154,6 +202,12 @@ services:
       RABBITMQ_DEFAULT_PASS: ${MAYAN_RABBITMQ_PASSWORD:-{{ DEFAULT_RABBITMQ_PASSWORD }}}
       RABBITMQ_DEFAULT_VHOST: ${MAYAN_RABBITMQ_VHOST:-{{ DEFAULT_RABBITMQ_VHOST }}}
       RABBITMQ_SERVER_ADDITIONAL_ERL_ARGS: ${MAYAN_RABBITMQ_SERVER_ADDITIONAL_ERL_ARGS:--rabbit consumer_timeout ${MAYAN_RABBITMQ_CONSUMER_TIMEOUT:-{{ DEFAULT_RABBITMQ_CONSUMER_TIMEOUT }}}}
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "ping"]
+      interval: 30s
+      timeout: 30s
+      retries: 5
+      start_period: 20s
     hostname: ${MAYAN_DOCKER_RABBITMQ_HOSTNAME:-rabbitmq}
     image: ${MAYAN_DOCKER_RABBITMQ_IMAGE:-{{ DOCKER_RABBITMQ_IMAGE_NAME }}}:${MAYAN_DOCKER_RABBITMQ_TAG:-{{ DOCKER_RABBITMQ_IMAGE_TAG }}}
     labels:
@@ -196,6 +250,12 @@ services:
       - "256"
       - --requirepass
       - "${MAYAN_REDIS_PASSWORD:-{{ DEFAULT_REDIS_PASSWORD }}}"
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${MAYAN_REDIS_PASSWORD:-{{ DEFAULT_REDIS_PASSWORD }}}", "ping | grep PONG"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
     image: ${MAYAN_DOCKER_REDIS_IMAGE:-{{ DOCKER_REDIS_IMAGE_NAME }}}:${MAYAN_DOCKER_REDIS_TAG:-{{ DOCKER_REDIS_IMAGE_TAG }}}
     networks:
       - mayan
@@ -207,7 +267,7 @@ services:
 
   # Run a frontend gunicorn container
   frontend:
-    <<: [*mayan-container, *mayan-traefik-labels, *mayan-frontend-ports, *mayan-dependencies]
+    <<: [*mayan-depends_on-advanced, *mayan-container, *mayan-healthcheck, *mayan-traefik-labels, *mayan-frontend-ports]
     command:
       - run_frontend
     profiles:
@@ -216,7 +276,7 @@ services:
 
   # Enable to run mirror a cabinet.
   cabinet_mirror:
-    <<: [*mayan-container, *mayan-dependencies]
+    <<: [*mayan-depends_on-advanced, *mayan-container]
     cap_add:
       - SYS_ADMIN
     devices:
@@ -243,7 +303,7 @@ services:
 
   # Enable to run mirror an index.
   index_mirror:
-    <<: [*mayan-container, *mayan-dependencies]
+    <<: [*mayan-depends_on-advanced, *mayan-container]
     cap_add:
       - SYS_ADMIN
     devices:
@@ -270,7 +330,7 @@ services:
 
   # Run a separate class A worker
   worker_a:
-    <<: [*mayan-container, *mayan-dependencies]
+    <<: [*mayan-depends_on-advanced, *mayan-container]
     command:
       - run_worker
       - worker_a
@@ -281,7 +341,7 @@ services:
 
   # Run a separate class B worker
   worker_b:
-    <<: [*mayan-container, *mayan-dependencies]
+    <<: [*mayan-depends_on-advanced, *mayan-container]
     command:
       - run_worker
       - worker_b
@@ -292,7 +352,7 @@ services:
 
   # Run a separate class C worker
   worker_c:
-    <<: [*mayan-container, *mayan-dependencies]
+    <<: [*mayan-depends_on-advanced, *mayan-container]
     command:
       - run_worker
       - worker_c
@@ -303,7 +363,7 @@ services:
 
   # Run a separate class D worker
   worker_d:
-    <<: [*mayan-container, *mayan-dependencies]
+    <<: [*mayan-depends_on-advanced, *mayan-container]
     command:
       - run_worker
       - worker_d
@@ -314,7 +374,7 @@ services:
 
   # Run a separate class E worker
   worker_e:
-    <<: [*mayan-container, *mayan-dependencies]
+    <<: [*mayan-depends_on-advanced, *mayan-container]
     command:
       - run_worker
       - worker_e
@@ -324,7 +384,7 @@ services:
       - multi_container
 
   worker_custom_queue:
-    <<: [*mayan-container, *mayan-dependencies]
+    <<: [*mayan-depends_on-advanced, *mayan-container]
     command:
       - /bin/sh
       - -c
@@ -334,7 +394,7 @@ services:
 
   # Run a separate Celery beat container
   celery_beat:
-    <<: [*mayan-container, *mayan-dependencies]
+    <<: [*mayan-depends_on-advanced, *mayan-container]
     command:
       - run_celery
       - "beat --pidfile= --loglevel=ERROR"

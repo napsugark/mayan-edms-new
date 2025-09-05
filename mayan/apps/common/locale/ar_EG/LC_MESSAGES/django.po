@@ -7,14 +7,15 @@
 # WM Shinkada <shinkadawasim@gmail.com>, 2025
 # Mohammed ALDOUB <voulnet@gmail.com>, 2025
 # Marwan Rahhal <Marwanr@sssit.net>, 2025
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:31+0000\n"
+"POT-Creation-Date: 2025-09-03 18:22+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2025\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,11 +27,11 @@ msgstr ""
 msgid "Common"
 msgstr "المشتركة"
 
-#: dependencies.py:188
+#: dependencies.py:193
 msgid "Command line environment with autocompletion."
 msgstr "بيئة سطر الأوامر مع الإكمال التلقائي."
 
-#: dependencies.py:193
+#: dependencies.py:198
 msgid "Checks proper formatting of the README file."
 msgstr "يتحقق من التنسيق الصحيح لملف إقرأني"
 
@@ -52,7 +53,7 @@ msgstr "المنتدى"
 
 #: links.py:52
 msgid "Knowledge base"
-msgstr ""
+msgstr "قاعدة المعرفة"
 
 #: links.py:55 views.py:55
 msgid "License"
@@ -60,7 +61,7 @@ msgstr "الرخص"
 
 #: links.py:58
 msgid "Mailing list"
-msgstr ""
+msgstr "قائمة البريد"
 
 #: links.py:64
 msgid "Copy"
@@ -68,7 +69,7 @@ msgstr "نسخ"
 
 #: links.py:69
 msgid "Release notes"
-msgstr ""
+msgstr "ملاحظات الإصدار"
 
 #: links.py:73
 msgid "Setup"
@@ -84,7 +85,7 @@ msgstr "متجر عالمي"
 
 #: links.py:84
 msgid "Support"
-msgstr ""
+msgstr "الدعم"
 
 #: links.py:88 views.py:136
 msgid "Tools"
@@ -148,12 +149,16 @@ msgid ""
 "In list mode, show the \"list facet\" menu options as a dropdown menu "
 "instead of individual buttons."
 msgstr ""
+"في وضع القائمة، اعرض خيارات قائمة \"جوانب القائمة\" كقائمة منسدلة بدلاً من "
+"أزرار فردية."
 
 #: settings.py:32
 msgid ""
 "In list mode, show the \"object\" menu options as a dropdown menu instead of"
 " individual buttons."
 msgstr ""
+"في وضع القائمة، اعرض خيارات قائمة \"الكائن\" كقائمة منسدلة بدلاً من أزرار "
+"فردية."
 
 #: settings.py:40
 msgid ""
@@ -161,6 +166,9 @@ msgid ""
 "apps must be also configured via their respective storage backend settings "
 "to use alternate persistence."
 msgstr ""
+"يعطّل استخدام مجلد media المحلي. عند استخدام هذا الإعداد، يجب أيضًا تكوين "
+"جميع التطبيقات عبر إعدادات الواجهة الخلفية للتخزين الخاصة بها لاستخدام وسيلة"
+" تخزين بديلة."
 
 #: settings.py:48
 msgid ""
@@ -169,6 +177,10 @@ msgid ""
 "Python path to: an application configuration class (preferred), or a package"
 " containing an application. Example: ['app_1', 'app_2']"
 msgstr ""
+" قائمة بالسلاسل النصية التي تحدد جميع التطبيقات المراد إزالتها من القائمة "
+"المثبتة عادةً بواسطة Mayan EDMS. يجب أن تكون كل سلسلة نصية مسار Python "
+"منقطًا يشير إلى: فئة تكوين تطبيق (مفضل)، أو حزمة تحتوي على تطبيق. مثال: "
+"['app_1', 'app_2']"
 
 #: settings.py:58
 msgid ""
@@ -178,6 +190,10 @@ msgid ""
 " containing an application. These apps will be installed after the default "
 "apps. Example: ['app_1', 'app_2']"
 msgstr ""
+"قائمة بالسلاسل النصية التي تحدد جميع التطبيقات المثبتة بالإضافة إلى تلك "
+"المثبتة عادةً بواسطة Mayan EDMS. يجب أن تكون كل سلسلة نصية مسار Python "
+"منقطًا يشير إلى: فئة تكوين تطبيق (مفضل)، أو حزمة تحتوي على تطبيق. سيتم تثبيت"
+" هذه التطبيقات بعد التطبيقات الافتراضية. مثال: ['app_1', 'app_2']"
 
 #: settings.py:70
 msgid ""
@@ -187,6 +203,10 @@ msgid ""
 " containing an application. These apps will be installed before the default "
 "apps. Example: ['app_1', 'app_2']"
 msgstr ""
+" قائمة بالسلاسل النصية التي تحدد جميع التطبيقات المثبتة بالإضافة إلى تلك "
+"المثبتة عادةً بواسطة Mayan EDMS. يجب أن تكون كل سلسلة نصية مسار Python "
+"منقطًا يشير إلى: فئة تكوين تطبيق (مفضل)، أو حزمة تحتوي على تطبيق. سيتم تثبيت"
+" هذه التطبيقات قبل التطبيقات الافتراضية. مثال: ['app_1', 'app_2']"
 
 #: settings.py:81
 msgid ""
@@ -198,11 +218,11 @@ msgstr ""
 
 #: settings.py:90
 msgid "Name of the dashboard to display in the home view."
-msgstr ""
+msgstr "اسم لوحة التحكم المراد عرضها في الواجهة الرئيسية."
 
 #: settings.py:95
 msgid "Sets the project's name."
-msgstr ""
+msgstr "يضبط اسم المشروع."
 
 #: templates/common/app/viewport.html:15
 msgid "Click here to fix this."
@@ -229,7 +249,7 @@ msgstr " حول النظام"
 
 #: views.py:45
 msgid "Home"
-msgstr ""
+msgstr " الصفحة الرئيسية"
 
 #: views.py:71
 #, python-format

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"POT-Creation-Date: 2025-08-27 11:43+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/rosarior/teams/13584/es_MX/)\n"
@@ -37,16 +37,20 @@ msgid ""
 "Deprecated: Use `state_active` instead. Return the current state of the "
 "selected workflow."
 msgstr ""
+"Obsoleto: Use `state_active` en su lugar. Devuelve el estado actual del "
+"flujo de trabajdo seleccionado."
 
 #: apps.py:243 apps.py:260
 msgid "Current completion of a workflow"
-msgstr ""
+msgstr "Nivel de progreso actual de un flujo de trabajo"
 
 #: apps.py:245
 msgid ""
 "Deprecated: Use `state_active.completion` instead. Return the completion "
 "value of the current state of the selected workflow."
 msgstr ""
+"Obsoleto: Use `state_active.completion` en su lugar. Devuelve el valor de "
+"progreso del estado actual del flujo de trabajo seleccionado."
 
 #: apps.py:254
 msgid "Return the current state of the selected workflow."
@@ -95,6 +99,8 @@ msgstr "Obtener la última transición"
 #: apps.py:343
 msgid "A record of all state changes made to the workflow instance over time."
 msgstr ""
+"Un registro de todos los cambios de estado realizados en la instancia flujo "
+"de trabajo a lo largo del tiempo."
 
 #: apps.py:371 apps.py:375 apps.py:408 apps.py:419
 msgid "None"
@@ -365,7 +371,7 @@ msgstr "Disparador de eventos: %s"
 
 #: models/workflow_instance_models.py:34
 msgid "The workflow template."
-msgstr ""
+msgstr "La plantilla flujo de trabajo."
 
 #: models/workflow_instance_models.py:36 models/workflow_models.py:66
 #: models/workflow_state_models.py:38 models/workflow_transition_models.py:39
@@ -383,7 +389,7 @@ msgstr "Fecha y hora"
 
 #: models/workflow_instance_models.py:45
 msgid "The document to which the workflow instance is attached."
-msgstr ""
+msgstr "El documento al que se adjunta la instancia flujo de trabajo."
 
 #: models/workflow_instance_models.py:47
 msgid "Document"
@@ -396,11 +402,11 @@ msgstr "Contexto"
 
 #: models/workflow_instance_models.py:53
 msgid "The currently active state of the workflow instance."
-msgstr ""
+msgstr "El estado actualmente activo de la instancia flujo de trabajo."
 
 #: models/workflow_instance_models.py:55
 msgid "Active state"
-msgstr ""
+msgstr "Estado activo"
 
 #: models/workflow_instance_models.py:64
 #: models/workflow_instance_models.py:108
@@ -435,7 +441,7 @@ msgstr "No hay opción valida de transición."
 
 #: models/workflow_model_mixins.py:146
 msgid "Final state"
-msgstr ""
+msgstr "Estado final"
 
 #: models/workflow_model_mixins.py:153
 msgid "Initial state"
@@ -467,11 +473,11 @@ msgstr "Un texto breve para describir el flujo de trabajo."
 
 #: models/workflow_models.py:57
 msgid "Ignore workflow instances if they are in their final state."
-msgstr ""
+msgstr "Ignorar instancias flujo de trabajo si están en su estado final."
 
 #: models/workflow_models.py:59
 msgid "Ignore completed"
-msgstr ""
+msgstr "Ignorar completado"
 
 #: models/workflow_models.py:97
 msgid "Workflow runtime proxy"
@@ -506,6 +512,8 @@ msgid ""
 "A short text describing the action. Actions are execute by alphabetical "
 "order."
 msgstr ""
+"Un texto breve que describe la acción. Las acciones se ejecutan en orden "
+"alfabético."
 
 #: models/workflow_state_action_models.py:56
 msgid "At which moment of the state this action will execute."
@@ -597,10 +605,12 @@ msgid ""
 "The state at which the workflow will stop. Only one state can be the final "
 "state."
 msgstr ""
+"El estado en el que se detendrá el flujo de trabajo. Solo un estado puede "
+"ser el estado final."
 
 #: models/workflow_state_models.py:56
 msgid "Final"
-msgstr ""
+msgstr "Final"
 
 #: models/workflow_state_models.py:60
 msgid ""
@@ -1173,8 +1183,8 @@ msgstr "No hay documentos en este estado de flujo de trabajo."
 
 #: views/workflow_proxy_views.py:95
 #, python-format
-msgid "Documents in the workflow \"%s\", state \"%s\""
-msgstr "Documentos en el flujo de trabajo \"%s\", estado \"%s\""
+msgid "Documents in the workflow \"%(workflow)s\", state \"%(state)s\""
+msgstr ""
 
 #: views/workflow_template_state_escalation_views.py:43
 #, python-format
@@ -1398,21 +1408,29 @@ msgstr ""
 #, python-format
 msgid "Workflows queued for launch successfully for %(count)d documents."
 msgstr ""
+"Flujos de trabajo puestos en cola para su lanzamiento exitoso para %(count)d"
+" documentos."
 
 #: views/workflow_template_views.py:84
 #, python-format
 msgid "Workflows queued for launch successfully for document \"%(object)s\"."
 msgstr ""
+"Flujos de trabajo en cola para su lanzamiento exitoso para el documento "
+"\"%(object)s\"."
 
 #: views/workflow_template_views.py:88
 #, python-format
 msgid "Workflows queued for launch successfully for %(count)d document."
 msgstr ""
+"Flujos de trabajo en cola para su lanzamiento exitoso para %(count)d "
+"documento."
 
 #: views/workflow_template_views.py:92
 #, python-format
 msgid "Queue launching workflows for the selected %(count)d documents."
 msgstr ""
+"Poner en cola de tareas lanzando flujos de trabajo para los %(count)d "
+"documentos seleccionados."
 
 #: views/workflow_template_views.py:95
 #, python-format
@@ -1423,6 +1441,8 @@ msgstr "Iniciar flujo de trabajo: %(object)s."
 #, python-format
 msgid "Queue launching workflows for the selected %(count)d document."
 msgstr ""
+"Cola de tareas lanzando flujos de trabajo para %(count)d documento "
+"seleccionado."
 
 #: views/workflow_template_views.py:105
 msgid ""

@@ -350,7 +350,9 @@ class MessageProcessor:
                 command_arguments = self.get_django_language_arguments()
                 self.command_makemessages(
                     _env=environment, *command_arguments, domain='djangojs',
-                    extension='html', no_obsolete=True
+                    extension='js,html', ignore=[
+                        '*/node_modules/*', '**/*.min.js', '*/vendor/*'
+                    ], no_obsolete=True
                 )
             else:
                 print(

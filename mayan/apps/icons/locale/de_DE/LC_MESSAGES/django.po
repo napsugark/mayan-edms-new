@@ -22,7 +22,7 @@ msgstr ""
 
 #: apps.py:17
 msgid "Icons"
-msgstr ""
+msgstr "Icons"
 
 #: dependencies.py:6
 msgid "FontAwesome"

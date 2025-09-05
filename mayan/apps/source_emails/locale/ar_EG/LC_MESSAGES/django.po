@@ -7,6 +7,7 @@
 # WM Shinkada <shinkadawasim@gmail.com>, 2025
 # John Kawas <john@clinicalclouds.com>, 2025
 # Marwan Rahhal <Marwanr@sssit.net>, 2025
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2025\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 
 #: apps.py:13
 msgid "Emails"
-msgstr ""
+msgstr "رسائل البريد الإلكتروني"
 
 #: source_backends/imap_source_backends.py:21
 msgid "IMAP email"
@@ -83,7 +84,7 @@ msgstr "صندوق بريد الوجهة"
 
 #: source_backends/imap_source_backends.py:116
 msgid "IMAP protocol"
-msgstr ""
+msgstr "بروتوكول IMAP"
 
 #: source_backends/mixins.py:33
 msgid "Host"
@@ -115,7 +116,7 @@ msgstr "تخزين نص البريد الإلكتروني"
 
 #: source_backends/mixins.py:77
 msgid "Common email options"
-msgstr ""
+msgstr "خيارات البريد الإلكتروني الشائعة"
 
 #: source_backends/pop3_source_backends.py:18
 msgid "POP3 email"
@@ -127,12 +128,12 @@ msgstr "انتهاء الوقت"
 
 #: source_backends/pop3_source_backends.py:45
 msgid "POP3 protocol"
-msgstr ""
+msgstr "بروتوكول POP3"
 
 #: tests/source_backends.py:58
 msgid "Test IMAP email"
-msgstr ""
+msgstr "اختبار بريد IMAP"
 
 #: tests/source_backends.py:73
 msgid "Test POP3 email"
-msgstr ""
+msgstr "اختبار بريد POP3"

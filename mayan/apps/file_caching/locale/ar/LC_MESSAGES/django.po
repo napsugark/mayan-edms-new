@@ -8,6 +8,7 @@
 # Yaman Sanobar <yman.snober@gmail.com>, 2025
 # Roberto Rosario, 2025
 # Marwan Rahhal <Marwanr@sssit.net>, 2025
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:32+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2025\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,11 +30,11 @@ msgstr "الحفظ المؤقت"
 
 #: dashboard_widgets.py:16
 msgid "Total cache allocated"
-msgstr ""
+msgstr "إجمالي الذاكرة المؤقتة المخصصة"
 
 #: dashboard_widgets.py:45
 msgid "Total cache used"
-msgstr ""
+msgstr "إجمالي الذاكرة المؤقتة المستخدمة"
 
 #: events.py:10
 msgid "Cache created"
@@ -49,11 +50,11 @@ msgstr "الغاء الحفظ المؤقت"
 
 #: events.py:19
 msgid "Cache partition purged"
-msgstr ""
+msgstr "تم مسح قسم ذاكرة التخزين المؤقت"
 
 #: forms.py:11
 msgid "Identification"
-msgstr ""
+msgstr "تحديد الهوية"
 
 #: forms.py:15
 msgid "Storage"
@@ -61,11 +62,11 @@ msgstr "المساحة التخزينية"
 
 #: forms.py:19
 msgid "Configuration"
-msgstr ""
+msgstr "التكوين"
 
 #: forms.py:25
 msgid "Objects"
-msgstr ""
+msgstr "كائنات"
 
 #: links.py:28 links.py:51
 msgid "File caches"
@@ -89,19 +90,19 @@ msgstr "أكبر حجم للملف"
 
 #: model_mixins.py:70
 msgid "Partition count"
-msgstr ""
+msgstr "عدد الأقسام"
 
 #: model_mixins.py:71
 msgid "Total cached objects."
-msgstr ""
+msgstr "إجمالي الكائنات المخزنة مؤقتًا."
 
 #: model_mixins.py:78
 msgid "Partition file count"
-msgstr ""
+msgstr "عدد ملفات التقسيم"
 
 #: model_mixins.py:80
 msgid "Total cached files."
-msgstr ""
+msgstr "إجمالي الملفات المخزنة مؤقتًا."
 
 #: model_mixins.py:111 model_mixins.py:324
 msgid "Current size"
@@ -117,7 +118,7 @@ msgstr "العنوان"
 
 #: model_mixins.py:326
 msgid "Current size of the cache partition."
-msgstr ""
+msgstr "الحجم الحالي لقسم ذاكرة التخزين المؤقت."
 
 #: models.py:21
 msgid "Internal name of the defined storage for this cache."
@@ -165,7 +166,7 @@ msgstr "حجم الملف"
 
 #: models.py:118
 msgid "Times this cache partition file has been accessed."
-msgstr ""
+msgstr "عدد المرات التي تم فيها الوصول إلى ملف قسم ذاكرة التخزين المؤقت هذا."
 
 #: models.py:125
 msgid "Cache partition file"
@@ -177,7 +178,7 @@ msgstr "قسم الملفات المؤقتة"
 
 #: permissions.py:10
 msgid "Purge an object cache"
-msgstr ""
+msgstr "مسح ذاكرة التخزين المؤقت للكائنات"
 
 #: permissions.py:14 queues.py:20
 msgid "Purge a file cache"
@@ -189,28 +190,32 @@ msgstr "إستعراض ملفات الذاكرة المؤقتة"
 
 #: queues.py:10
 msgid "File caching slow"
-msgstr ""
+msgstr "التخزين المؤقت للملفات بطيء"
 
 #: queues.py:15
 msgid "Purge a file cache partition"
-msgstr ""
+msgstr "مسح قسم ذاكرة التخزين المؤقت للملفات"
 
 #: settings.py:17
 msgid ""
 "Number of times a cache will retry failed attempts to prune files to free up"
 " space for new a file being requested, before giving up."
 msgstr ""
+"عدد المرات التي ستعيد فيها ذاكرة التخزين المؤقت محاولات فاشلة لتقليم الملفات"
+" لتحرير مساحة للملف الجديد المطلوب، قبل الاستسلام."
 
 #: settings.py:25
 msgid ""
 "Number of times a cache will attempt to prune files to free up space for new"
 " a file being requested, before giving up."
 msgstr ""
+"عدد المرات التي تحاول فيها ذاكرة التخزين المؤقت تقليم الملفات لتحرير مساحة "
+"للملف الجديد المطلوب، قبل الاستسلام."
 
 #: views.py:36
 #, python-format
 msgid "Details of cache: %s"
-msgstr ""
+msgstr "تفاصيل ذاكرة التخزين المؤقت:%s"
 
 #: views.py:48
 msgid "File caches list"
@@ -219,26 +224,26 @@ msgstr "حفظ الملفات المؤقتة"
 #: views.py:69
 #, python-format
 msgid "Details of cache partition: %s"
-msgstr ""
+msgstr "Details of cache partition: %s"
 
 #: views.py:87
 #, python-format
 msgid "Purge cache partitions of \"%s\"?"
-msgstr ""
+msgstr "مسح أقسام ذاكرة التخزين المؤقت لـ \"%s?"
 
 #: views.py:104
 msgid "Object cache partitions submitted for purging."
-msgstr ""
+msgstr "أقسام ذاكرة التخزين المؤقت للكائنات المرسلة للتطهير."
 
 #: views.py:114
 #, python-format
 msgid "%(count)d caches submitted for purging."
-msgstr ""
+msgstr "%(count)dمخابئ تم إرسالها للتطهير."
 
 #: views.py:117
 #, python-format
 msgid "%(count)d cache submitted for purging."
-msgstr ""
+msgstr "%(count)dتم إرسال ذاكرة التخزين المؤقت للتطهير."
 
 #: views.py:126
 msgid "Submit the selected cache for purging?"

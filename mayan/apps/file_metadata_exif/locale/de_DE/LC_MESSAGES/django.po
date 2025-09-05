@@ -22,7 +22,7 @@ msgstr ""
 
 #: apps.py:11
 msgid "File metadata EXIF"
-msgstr ""
+msgstr "Dateimetadaten EXIF"
 
 #: dependencies.py:11
 msgid ""
@@ -33,7 +33,7 @@ msgstr ""
 
 #: drivers.py:19
 msgid "Read meta information stored in files."
-msgstr ""
+msgstr "Lese in Dateien gespeicherte Metainformationen."
 
 #: drivers.py:24
 msgid "EXIF Tool"

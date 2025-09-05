@@ -10,17 +10,17 @@
 # Jesaja Everling <jeverling@gmail.com>, 2025
 # Roberto Rosario, 2025
 # Marvin Haschker <marvin@haschker.me>, 2025
-# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # Bjoern Kowarsch <bjoern.kowarsch@gmail.com>, 2025
 # Ingo Buchholz <ingo.buchholz@takwa.de>, 2025
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:31+0000\n"
+"POT-Creation-Date: 2025-09-03 18:22+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Ingo Buchholz <ingo.buchholz@takwa.de>, 2025\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Austria) (https://app.transifex.com/rosarior/teams/13584/de_AT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,11 +32,11 @@ msgstr ""
 msgid "Common"
 msgstr "Allgemein"
 
-#: dependencies.py:188
+#: dependencies.py:193
 msgid "Command line environment with autocompletion."
 msgstr "Kommandozeilenumgebung mit Autovervollständigung."
 
-#: dependencies.py:193
+#: dependencies.py:198
 msgid "Checks proper formatting of the README file."
 msgstr "Überprüft die korrekte Formatierung der README-Datei."
 
@@ -66,7 +66,7 @@ msgstr "Lizenz"
 
 #: links.py:58
 msgid "Mailing list"
-msgstr ""
+msgstr "Mailingliste"
 
 #: links.py:64
 msgid "Copy"
@@ -74,7 +74,7 @@ msgstr "Kopieren"
 
 #: links.py:69
 msgid "Release notes"
-msgstr ""
+msgstr "Release Notes"
 
 #: links.py:73
 msgid "Setup"
@@ -197,6 +197,12 @@ msgid ""
 " containing an application. These apps will be installed after the default "
 "apps. Example: ['app_1', 'app_2']"
 msgstr ""
+"Eine Liste von Zeichenketten der Applikationen, die zu der Liste der "
+"üblicherweise von Mayan EDMS installierten Applikationen zusätzlich "
+"installiert werden sollen. Jede Zeichenkette sollte ein punktierter "
+"Pythonpfad sein: zu einer Applikationskonfigurationsklasse (bevorzugt) oder "
+"zu einem Paket, das die Applikation enthält. Diese Apps werden nach den "
+"Default-Apps installiert. Beispiel: ['app_1', 'app_2']"
 
 #: settings.py:70
 msgid ""

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-01 01:14+0000\n"
+"POT-Creation-Date: 2025-08-27 11:46+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Austria) (https://app.transifex.com/rosarior/teams/13584/de_AT/)\n"
@@ -20,7 +20,19 @@ msgstr ""
 "Language: de_AT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: templates/appearance/app/foot.html:71
+#: static/appearance/js/mayan_app.js:267
+msgid "Copied!"
+msgstr ""
+
+#: static/appearance/js/mayan_app.js:269
+msgid "Failed. Check clipboard permissions."
+msgstr ""
+
+#: static/appearance/js/mayan_app.js:566
+msgid "Done!"
+msgstr ""
+
+#: templates/appearance/app/foot.html:68
 msgid ""
 "Too many pending requests. Additional requests will be blocked until a "
 "pending one is completed or after the cooling off period ends."

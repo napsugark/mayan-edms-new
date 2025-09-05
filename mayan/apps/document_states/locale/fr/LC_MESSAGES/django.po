@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"POT-Creation-Date: 2025-08-27 11:43+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: Frédéric Sheedy <sheedf@gmail.com>, 2025\n"
 "Language-Team: French (https://app.transifex.com/rosarior/teams/13584/fr/)\n"
@@ -1154,8 +1154,8 @@ msgstr "Aucun document dans cet état de flux de travail"
 
 #: views/workflow_proxy_views.py:95
 #, python-format
-msgid "Documents in the workflow \"%s\", state \"%s\""
-msgstr "Les documents dans le flux de travail \"%s\", état \"%s\""
+msgid "Documents in the workflow \"%(workflow)s\", state \"%(state)s\""
+msgstr ""
 
 #: views/workflow_template_state_escalation_views.py:43
 #, python-format

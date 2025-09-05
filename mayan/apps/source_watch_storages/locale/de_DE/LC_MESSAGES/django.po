@@ -22,8 +22,8 @@ msgstr ""
 
 #: apps.py:11
 msgid "Watch storages"
-msgstr "Beobachtungsspeicherorte"
+msgstr "Beobachtungs-Speicherorte"
 
 #: source_backends.py:28
 msgid "Watch storage"
-msgstr "Beobachtungsspeicherort"
+msgstr "Beobachtungs-Speicherort"

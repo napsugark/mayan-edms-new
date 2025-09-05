@@ -76,7 +76,7 @@ msgstr "Pagina %(page_number)d"
 
 #: links.py:27
 msgid "OCR setup"
-msgstr ""
+msgstr "Configurare OCR"
 
 #: links.py:32
 msgid "OCR documents per type"

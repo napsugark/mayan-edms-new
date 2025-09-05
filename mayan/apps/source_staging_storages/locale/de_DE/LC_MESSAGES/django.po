@@ -22,8 +22,8 @@ msgstr ""
 
 #: apps.py:13
 msgid "Staging storages"
-msgstr "Staging Speicherorte"
+msgstr "Staging-Speicherorte"
 
 #: source_backends.py:29
 msgid "Staging storage"
-msgstr "Staging Speicherort"
+msgstr "Staging-Speicherort"

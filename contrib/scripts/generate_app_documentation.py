@@ -30,7 +30,7 @@ if __name__ == '__main__':
 
     with path_file_documentation_features.open(mode='w') as file_object:
         file_object.writelines(
-            ('========\n' 'Features\n', '========\n', '\n')
+            ('.. _features:\n', '========\n', 'Features\n', '========\n', '\n')
         )
 
     app_list = []

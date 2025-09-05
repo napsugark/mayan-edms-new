@@ -63,7 +63,7 @@ msgstr "Vorname"
 
 #: apps.py:115
 msgid "The given name of the user."
-msgstr ""
+msgstr "Der Vorname des Benutzers."
 
 #: apps.py:121
 msgid "Last login"
@@ -71,7 +71,7 @@ msgstr "Letzte Anmeldung"
 
 #: apps.py:124
 msgid "The family name of the user."
-msgstr ""
+msgstr "Der Nachname des Benutzers."
 
 #: apps.py:127 search.py:37
 msgid "Last name"
@@ -99,11 +99,11 @@ msgstr "Verwendbares Passwort"
 
 #: apps.py:178
 msgid "All the groups"
-msgstr ""
+msgstr "Alle Gruppen"
 
 #: apps.py:182
 msgid "All the users"
-msgstr ""
+msgstr "Alle Benutzer"
 
 #: dashboard_widgets.py:14
 msgid "Total users"

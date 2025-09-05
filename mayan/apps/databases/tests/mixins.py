@@ -2,8 +2,9 @@ import random
 
 from django.apps import apps
 from django.contrib.contenttypes.models import ContentType
-from django.db import connection, connections, models
+from django.db import connection, connections, models, transaction
 from django.db.models.signals import post_save, pre_save
+from django.db.utils import IntegrityError
 
 from mayan.apps.acls.classes import ModelPermission
 from mayan.apps.permissions.tests.mixins import PermissionTestMixin
@@ -72,87 +73,108 @@ class PropertyModelTestViewMixin:
 class RandomPrimaryKeyModelMonkeyPatchMixin:
     random_primary_key_enable = True
     random_primary_key_maximum_attempts = 100
-    random_primary_key_random_ceiling = 10000
-    random_primary_key_random_floor = 100
-
-    @staticmethod
-    def get_unique_primary_key(model):
-        manager = model._meta.default_manager
-
-        attempts = 0
-        while True:
-            primary_key = random.randint(
-                RandomPrimaryKeyModelMonkeyPatchMixin.random_primary_key_random_floor,
-                RandomPrimaryKeyModelMonkeyPatchMixin.random_primary_key_random_ceiling
-            )
-
-            if not manager.filter(pk=primary_key).exists():
-                break
-
-            attempts += 1
-
-            if attempts > RandomPrimaryKeyModelMonkeyPatchMixin.random_primary_key_maximum_attempts:
-                raise ValueError(
-                    'Maximum number of retries for an unique random primary '
-                    'key reached.'
-                )
-
-        return primary_key
+    random_primary_key_random_ceiling = 32767
+    random_primary_key_random_floor = 1
 
     @classmethod
     def setUpClass(cls):
         RandomSeedIdempotent.seed()
         super().setUpClass()
 
-    def setUp(self):
+    def do_patch_apply(self):
         if self.random_primary_key_enable:
-            self.method_original_save = models.Model.save
+            method_save_random_pk = self.factory_method_save_random_pk()
 
-            def method_new_save(instance, *args, **kwargs):
-                if instance.pk:
-                    return self.method_original_save(
-                        instance, *args, **kwargs
+            if not getattr(models.Model, '_random_pk_patched', False):
+                self._method_original_save = models.Model.save
+                setattr(models.Model, 'save', method_save_random_pk)
+                models.Model._random_pk_patched = True
+            else:
+                raise RuntimeError(
+                    'The test class is already patched by '
+                    '`RandomPrimaryKeyModelMonkeyPatchMixin`. This patch '
+                    'must not be applied more than once. Fix the '
+                    'previous test case to ensure `tearDown` is called.'
+                )
+
+    def do_patch_unapply(self):
+        if self.random_primary_key_enable:
+            models.Model.save = self._method_original_save
+            models.Model._random_pk_patched = False
+
+    def factory_method_save_random_pk(self):
+        def method_save_random_pk(instance, *args, **kwargs):
+            manager = instance._meta.default_manager
+
+            if instance.pk:
+                return self._method_original_save(
+                    instance, *args, **kwargs
+                )
+            else:
+                # Set meta.auto_created to True to have the original save_base
+                # not send the pre_save signal which would normally send
+                # the instance without a primary key. Since we assign a random
+                # primary key any pre_save signal handler that relies on an
+                # empty primary key will fail.
+                # The meta.auto_created and manual pre_save sending emulates
+                # the original behavior. Since meta.auto_created also disables
+                # the post_save signal we must also send it ourselves.
+                # This hack work with Django 1.11 .save_base() but can break
+                # in future versions if that method is updated.
+                pre_save.send(
+                    sender=instance.__class__, instance=instance,
+                    raw=False, update_fields=None
+                )
+                instance._meta.auto_created = True
+
+                kwargs['force_insert'] = True
+
+                attempts = 0
+                while True:
+                    primary_key_random = random.randint(
+                        RandomPrimaryKeyModelMonkeyPatchMixin.random_primary_key_random_floor,
+                        RandomPrimaryKeyModelMonkeyPatchMixin.random_primary_key_random_ceiling
                     )
-                else:
-                    # Set meta.auto_created to True to have the original save_base
-                    # not send the pre_save signal which would normally send
-                    # the instance without a primary key. Since we assign a random
-                    # primary key any pre_save signal handler that relies on an
-                    # empty primary key will fail.
-                    # The meta.auto_created and manual pre_save sending emulates
-                    # the original behavior. Since meta.auto_created also disables
-                    # the post_save signal we must also send it ourselves.
-                    # This hack work with Django 1.11 .save_base() but can break
-                    # in future versions if that method is updated.
-                    pre_save.send(
-                        sender=instance.__class__, instance=instance,
-                        raw=False, update_fields=None
-                    )
-                    instance._meta.auto_created = True
-                    instance.pk = RandomPrimaryKeyModelMonkeyPatchMixin.get_unique_primary_key(
-                        model=instance._meta.model
-                    )
-                    instance.id = instance.pk
 
-                    kwargs['force_insert'] = True
+                    instance.pk = primary_key_random
 
-                    result = instance.save_base(*args, **kwargs)
-                    instance._meta.auto_created = False
+                    try:
+                        with transaction.atomic():
+                            result = self._method_original_save(
+                                instance, *args, **kwargs
+                            )
+                    except IntegrityError:
+                        queryset = manager.filter(pk=instance.pk).exists()
+                        if queryset:
+                            # Primary key collision.
+                            attempts += 1
 
-                    post_save.send(
-                        created=True, instance=instance, raw=False,
-                        sender=instance.__class__, update_fields=None
-                    )
+                            if attempts > RandomPrimaryKeyModelMonkeyPatchMixin.random_primary_key_maximum_attempts:
+                                raise ValueError(
+                                    'Maximum number of retries for a unique random primary key reached.'
+                                )
+                        else:
+                            # This is not a primary key collision, re-raise
+                            # the real problem.
+                            raise
+                    else:
+                        instance._meta.auto_created = False
 
-                    return result
+                        post_save.send(
+                            created=True, instance=instance, raw=False,
+                            sender=instance.__class__, update_fields=None
+                        )
 
-            setattr(models.Model, 'save', method_new_save)
+                        return result
 
+        return method_save_random_pk
+
+    def setUp(self):
+        self.do_patch_apply()
         super().setUp()
 
     def tearDown(self):
-        if self.random_primary_key_enable:
-            models.Model.save = self.method_original_save
+        self.do_patch_unapply()
         super().tearDown()
 
 

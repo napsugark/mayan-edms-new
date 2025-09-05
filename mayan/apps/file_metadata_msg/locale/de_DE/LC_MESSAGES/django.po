@@ -22,13 +22,15 @@ msgstr ""
 
 #: apps.py:11
 msgid "File metadata MSG"
-msgstr ""
+msgstr "Dateimetadaten MSG"
 
 #: drivers.py:15
 msgid ""
 "Extracts information from emails saved in Microsoft Outlook's .msg files."
 msgstr ""
+"Extrahiert Informationen aus E-Mails gespeichert in Microsoft Outlooks .msg "
+"Dateien."
 
 #: drivers.py:22
 msgid "Extract msg"
-msgstr "Nachricht extrahieren"
+msgstr "Microsoft Outlook Nachricht extrahieren"

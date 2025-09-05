@@ -255,6 +255,10 @@ msgid ""
 "unpinned or immutable dependency bugs in third party libraries. End users "
 "can ignore missing dependencies under this environment."
 msgstr ""
+"Umgebung für die direkte Dokumentation von Abhängigkeiten, um ungepinnte "
+"oder unveränderliche Abhängigkeitsfehler in Drittbibliotheken umgehen zu "
+"gehen. Endbenutzer können fehlende Abhängigkeiten in dieser Umgebung "
+"ignorieren."
 
 #: environments.py:40
 msgid "Documentation (override)"

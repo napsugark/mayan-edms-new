@@ -148,6 +148,8 @@ msgstr "Schlüssel"
 #: models.py:30
 msgid "The actual value stored in the source metadata for the document file."
 msgstr ""
+"Der aktuelle, in den Quellenmetadaten gespeicherte Wert für die "
+"Dokumentendatei."
 
 #: models.py:32
 msgid "Value"
@@ -179,7 +181,7 @@ msgstr "Quellen-Einrichtung"
 
 #: permissions.py:12
 msgid "View document file source metadata"
-msgstr ""
+msgstr "Dokumentendateimetadaten anzeigen"
 
 #: permissions.py:19
 msgid "Create new document sources"
@@ -199,7 +201,7 @@ msgstr "Existierende Dokumentenquellen anzeigen"
 
 #: queues.py:12
 msgid "Sources periodic"
-msgstr "Quellen wiederkehrend"
+msgstr "Quellen regelmäßig"
 
 #: queues.py:18
 msgid "Handle source backend action background task"
@@ -211,11 +213,11 @@ msgstr "Überprüfungsintervall für Quellen"
 
 #: search.py:11 search.py:23
 msgid "Source metadata key"
-msgstr ""
+msgstr "Quellenmetadaten Schlüssel"
 
 #: search.py:16 search.py:26
 msgid "Source metadata value"
-msgstr ""
+msgstr "Quellenmetadaten Wert"
 
 #: serializers.py:22 serializers.py:107
 msgid "URL"
@@ -290,6 +292,8 @@ msgid ""
 "The threshold at which the SOURCES_CACHE_STORAGE_BACKEND will start deleting"
 " the oldest source cache files. Specify the size in bytes."
 msgstr ""
+"Der Grenzwert in Bytes ab dem das SOURCES_CACHE_STORAGE_BACKEND beginnt die "
+"ältesten Quellencachedateien zu löschen."
 
 #: settings.py:37
 msgid "Path to the Storage subclass used to store cached source image files."
@@ -381,7 +385,7 @@ msgstr ""
 
 #: storages.py:20
 msgid "Sources cache"
-msgstr ""
+msgstr "Quellencache"
 
 #: tests/arguments.py:8
 msgid "Python file like object."

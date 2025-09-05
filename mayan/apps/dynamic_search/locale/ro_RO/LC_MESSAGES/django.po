@@ -30,18 +30,22 @@ msgstr "Căutarea dinamică"
 #: apps.py:87
 msgid "The underlying database model whose content is indexed for search."
 msgstr ""
+"Modelul bazei de date subiacente al cărui conținut este indexat pentru "
+"căutare."
 
 #: apps.py:89
 msgid "Model"
-msgstr ""
+msgstr "Model"
 
 #: apps.py:94
 msgid "The unique name used to reference the search model."
-msgstr ""
+msgstr "Numele unic folosit pentru a face referire la modelul de căutare."
 
 #: apps.py:102
 msgid "The underlying database field whose content is indexed for search."
 msgstr ""
+"Câmpul bazei de date subiacente al cărui conținut este indexat pentru "
+"căutare."
 
 #: apps.py:105
 msgid "Field"
@@ -52,10 +56,12 @@ msgid ""
 "The underlying database field type. This determines the kind of data that is"
 " stored in the database."
 msgstr ""
+"Tipul de câmp al bazei de date subiacente. Acesta determină tipul de date "
+"stocate în baza de date."
 
 #: apps.py:119 serializers.py:61
 msgid "Field class"
-msgstr ""
+msgstr "Clasa de câmp"
 
 #: apps.py:123 serializers.py:67
 msgid "Description"
@@ -142,7 +148,7 @@ msgstr "Câmpuri"
 
 #: links.py:60 views/tool_views.py:15
 msgid "Search models"
-msgstr ""
+msgstr "Modele de căutare"
 
 #: literals.py:27
 msgid "Yes"
@@ -289,7 +295,7 @@ msgstr ""
 
 #: search_fields.py:100
 msgid "Uniquely identifies the search field."
-msgstr ""
+msgstr "Identifică în mod unic câmpul de căutare."
 
 #: search_fields.py:101 serializers.py:64
 msgid "Field name"
@@ -300,18 +306,20 @@ msgid ""
 "The type of search field. This determines how the information will be "
 "handled for search indexing."
 msgstr ""
+"Tipul câmpului de căutare. Acesta determină modul în care vor fi gestionate "
+"informațiile pentru indexarea căutării."
 
 #: search_fields.py:183 serializers.py:70
 msgid "Search field class"
-msgstr ""
+msgstr "Clasa câmpului de căutare"
 
 #: search_fields.py:223
 msgid "Concrete"
-msgstr ""
+msgstr "Fizic"
 
 #: search_fields.py:245
 msgid "Direct"
-msgstr ""
+msgstr "Direct"
 
 #: search_fields.py:267
 msgid "Related"
@@ -319,7 +327,7 @@ msgstr "Înrudite"
 
 #: search_fields.py:325
 msgid "Virtual"
-msgstr ""
+msgstr "Virtual"
 
 #: search_fields.py:340
 msgid "Any"
@@ -475,6 +483,11 @@ msgid ""
 "the value is a list of the full search field name. Disabled fields will "
 "neither be available for search nor be indexed by the search backend."
 msgstr ""
+"Specifică câmpurile din care modelul de căutare va fi dezactivat. Formatul "
+"este un dicționar de liste. Numele modelului de căutare este cheia "
+"dicționarului, iar valoarea este o listă cu numele complet al câmpului de "
+"căutare. Câmpurile dezactivate nu vor fi disponibile pentru căutare și nici "
+"indexate de backend-ul de căutare."
 
 #: settings.py:113
 msgid "Sets the default state of the \"Store results\" checkbox."
@@ -639,9 +652,9 @@ msgstr "Rezultatele căutării pentru: %s"
 #: views/tool_views.py:34
 #, python-format
 msgid "Fields for search model: %s"
-msgstr ""
+msgstr "Câmpuri pentru modelul de căutare: %s"
 
 #: views/tool_views.py:45
 #, python-format
 msgid "Search model: %s, not found"
-msgstr ""
+msgstr "Model de căutare: %s , negăsit"

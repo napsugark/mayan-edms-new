@@ -6,6 +6,7 @@
 # Translators:
 # Marwan Rahhal <Marwanr@sssit.net>, 2025
 # Roberto Rosario, 2025
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:33+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Roberto Rosario, 2025\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,21 +28,21 @@ msgstr "القوالب"
 
 #: apps.py:23
 msgid "Current date and time"
-msgstr ""
+msgstr "التاريخ والوقت الحاليان"
 
 #: classes.py:83
 #, python-format
 msgid "Model `%s` is not available for template sandbox."
-msgstr ""
+msgstr "النموذج %s غير متاح لبيئة القوالب الآمنة."
 
 #: fields.py:28
 msgid "Use Django's default templating language. "
-msgstr ""
+msgstr "استخدم لغة القوالب الافتراضية لجانجو."
 
 #: fields.py:42
 #, python-format
 msgid "Available template context variables: %s"
-msgstr ""
+msgstr "متغيرات سياق القالب المتاحة: %s"
 
 #: forms.py:10
 msgid "Resulting text from the evaluated template."
@@ -69,7 +70,7 @@ msgstr "استخدام قالب الحماية"
 
 #: serializers.py:8
 msgid "Hex hash"
-msgstr ""
+msgstr "بصمة ست عشرية"
 
 #: serializers.py:11
 msgid "Name"
@@ -77,7 +78,7 @@ msgstr "اسم"
 
 #: serializers.py:14
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: serializers.py:17
 msgid "URL"
@@ -87,7 +88,7 @@ msgstr "URL"
 msgid ""
 "Theme name of the CSS stylesheet used to change the visual appearance of the"
 " template preview."
-msgstr ""
+msgstr "اسم سمة ورقة الأنماط المستخدمة لتغيير المظهر المرئي لمعاينة القالب."
 
 #: views.py:59
 #, python-format

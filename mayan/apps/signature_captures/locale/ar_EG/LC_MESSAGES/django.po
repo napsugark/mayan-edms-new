@@ -7,6 +7,7 @@
 # Yaman Sanobar <yman.snober@gmail.com>, 2025
 # Mohammed ALDOUB <voulnet@gmail.com>, 2025
 # Marwan Rahhal <Marwanr@sssit.net>, 2025
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 12:51+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2025\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,23 +26,23 @@ msgstr ""
 #: apps.py:41 events.py:6 links.py:34 models.py:71 permissions.py:6
 #: settings.py:13
 msgid "Signature captures"
-msgstr ""
+msgstr "يلتقط التوقيع"
 
 #: events.py:11
 msgid "Signature capture created"
-msgstr ""
+msgstr "تم إنشاء التقاط التوقيع"
 
 #: events.py:15
 msgid "Signature capture deleted"
-msgstr ""
+msgstr "تم حذف التقاط التوقيع"
 
 #: events.py:19
 msgid "Signature capture edited"
-msgstr ""
+msgstr "تم تحرير التقاط التوقيع"
 
 #: forms.py:26
 msgid "Asset preview image"
-msgstr ""
+msgstr "صورة معاينة الأصل"
 
 #: forms.py:26
 msgid "Preview"
@@ -49,7 +50,7 @@ msgstr "استعراض "
 
 #: links.py:17
 msgid "Create new signature capture"
-msgstr ""
+msgstr "إنشاء التقاط توقيع جديد"
 
 #: links.py:23
 msgid "Delete"
@@ -61,7 +62,7 @@ msgstr "تعديل"
 
 #: model_mixins.py:89
 msgid "Creation date and time"
-msgstr ""
+msgstr "زمن الإنشاء"
 
 #: models.py:27
 msgid "Document"
@@ -69,23 +70,23 @@ msgstr "الوثيقة"
 
 #: models.py:31
 msgid "Data representing the handwritten signature."
-msgstr ""
+msgstr "البيانات التي تمثل التوقيع المكتوب بخط اليد."
 
 #: models.py:32
 msgid "Signature capture data"
-msgstr ""
+msgstr "بيانات التقاط التوقيع"
 
 #: models.py:36
 msgid "Vector representation of the handwritten signature."
-msgstr ""
+msgstr "تمثيل متجه للتوقيع المكتوب بخط اليد."
 
 #: models.py:37
 msgid "SVG signature capture data"
-msgstr ""
+msgstr "بيانات التقاط توقيع SVG"
 
 #: models.py:40
 msgid "Print version of the captured signature."
-msgstr ""
+msgstr "نسخة مطبوعة من التوقيع الملتقط."
 
 #: models.py:41
 msgid "Text"
@@ -97,11 +98,11 @@ msgstr "مستخدم"
 
 #: models.py:49
 msgid "Date and time created"
-msgstr ""
+msgstr "تاريخ ووقت الإنشاء"
 
 #: models.py:53
 msgid "Date and time edited"
-msgstr ""
+msgstr "التاريخ والوقت المحرر"
 
 #: models.py:57
 msgid ""
@@ -109,6 +110,8 @@ msgid ""
 "relationship to the document. Can only contain letters, numbers, and "
 "underscores."
 msgstr ""
+"سيتم استخدام هذه القيمة عند الإشارة إلى عملية التقاط التوقيع هذه فيما يتعلق بالمستند. لا يمكن أن تحتوي إلا على أحرف وأرقام وشرطات سفلية.\n"
+" "
 
 #: models.py:61 transformations.py:40
 msgid "Internal name"
@@ -116,39 +119,39 @@ msgstr "الإسم الداخلي"
 
 #: models.py:70
 msgid "Signature capture"
-msgstr ""
+msgstr "التقاط التوقيع"
 
 #: permissions.py:10
 msgid "Create signature captures"
-msgstr ""
+msgstr "إنشاء لقطات التوقيع"
 
 #: permissions.py:14
 msgid "Delete signature captures"
-msgstr ""
+msgstr "حذف لقطات التوقيع"
 
 #: permissions.py:18
 msgid "Edit signature captures"
-msgstr ""
+msgstr "تحرير لقطات التوقيع"
 
 #: permissions.py:22
 msgid "View signature captures"
-msgstr ""
+msgstr "عرض لقطات التوقيع"
 
 #: search.py:11
 msgid "Signature capture text"
-msgstr ""
+msgstr "نص التقاط التوقيع"
 
 #: search.py:15
 msgid "Signature capture user first name"
-msgstr ""
+msgstr "اسم المستخدم الأول لالتقاط التوقيع"
 
 #: search.py:19
 msgid "Signature capture user last name"
-msgstr ""
+msgstr "اسم المستخدم الأخير لالتقاط التوقيع"
 
 #: search.py:23
 msgid "Signature capture user username"
-msgstr ""
+msgstr "اسم المستخدم لالتقاط التوقيع"
 
 #: search.py:34
 msgid "Document type label"
@@ -160,23 +163,23 @@ msgstr "اسم الوثيقة"
 
 #: search.py:41
 msgid "User first name"
-msgstr ""
+msgstr "الاسم الأول للمستخدم"
 
 #: search.py:44
 msgid "User last name"
-msgstr ""
+msgstr "اسم المستخدم الأخير"
 
 #: search.py:47
 msgid "User username"
-msgstr ""
+msgstr "اسم مستخدم المستخدم"
 
 #: serializers.py:11
 msgid "Document URL"
-msgstr ""
+msgstr "عنوان URL للمستند"
 
 #: serializers.py:15
 msgid "Image URL"
-msgstr ""
+msgstr "رابط الصورة"
 
 #: serializers.py:27
 msgid "URL"
@@ -189,72 +192,83 @@ msgid ""
 "deleting the oldest signature capture cache files. Specify the size in "
 "bytes."
 msgstr ""
+"الحد الذي يبدأ عنده "
+"SIGNATURE_CAPTURES_SIGNATURE_CAPTURE_CACHE_STORAGE_BACKEND بحذف أقدم ملفات "
+"ذاكرة التخزين المؤقت لالتقاط التوقيع. حدد الحجم بالبايت."
 
 #: settings.py:30
 msgid ""
 "Path to the Storage subclass to use when storing the cached signature "
 "capture files."
 msgstr ""
+"المسار إلى الفئة الفرعية للتخزين التي سيتم استخدامها عند تخزين ملفات التقاط "
+"التوقيع المخزنة مؤقتًا."
 
 #: settings.py:38
 msgid ""
 "Arguments to pass to the "
 "SIGNATURE_CAPTURES_SIGNATURE_CAPTURE_CACHE_STORAGE_BACKEND."
 msgstr ""
+"الوسائط التي سيتم تمريرها إلى "
+"SIGNATURE_CAPTURES_SIGNATURE_CAPTURE_CACHE_STORAGE_BACKEND."
 
 #: storages.py:14
 msgid ""
 "Unable to initialize the converter signature capture cachestorage. Check the"
 " settings {} and {} for formatting errors."
 msgstr ""
+"تعذر تهيئة ذاكرة التخزين المؤقت لالتقاط توقيع المحول. تحقق من إعدادات {} و{}"
+" بحثًا عن أخطاء التنسيق."
 
 #: storages.py:20
 msgid "Signature captures cache"
-msgstr ""
+msgstr "التوقيع يلتقط ذاكرة التخزين المؤقت"
 
 #: templates/signature_captures/widget_signature_capture.html:64
 msgid "Sign above"
-msgstr ""
+msgstr "التوقيع أعلاه"
 
 #: transformations.py:18
 msgid "Paste a signature capture (percent coordinates)"
-msgstr ""
+msgstr "لصق التقاط التوقيع (إحداثيات النسبة المئوية)"
 
 #: transformations.py:39
 msgid "Signature capture internal name"
-msgstr ""
+msgstr "اسم داخلي لالتقاط التوقيع"
 
 #: views.py:44
 #, python-format
 msgid "Create signature capture for document: %s"
-msgstr ""
+msgstr "إنشاء التقاط التوقيع للمستند:%s"
 
 #: views.py:75
 #, python-format
 msgid "Delete signature capture: %s"
-msgstr ""
+msgstr "حذف التقاط التوقيع:%s"
 
 #: views.py:97
 #, python-format
 msgid "Details of: %s"
-msgstr ""
+msgstr "تفاصيل:%s"
 
 #: views.py:113
 #, python-format
 msgid "Edit document signature capture: %s"
-msgstr ""
+msgstr "تحرير التقاط توقيع المستند:%s"
 
 #: views.py:140
 msgid ""
 "Signature captures are electronic versions of a persons's handwritten "
 "signature."
 msgstr ""
+"تعتبر التقاطات التوقيع عبارة عن نسخ إلكترونية من توقيع الشخص المكتوب بخط "
+"يده."
 
 #: views.py:143
 msgid "Document has no signature captures"
-msgstr ""
+msgstr "المستند لا يحتوي على أي توقيعات"
 
 #: views.py:146
 #, python-format
 msgid "Signature captures for document: %s"
-msgstr ""
+msgstr "التقاط التوقيعات للمستندات:%s"

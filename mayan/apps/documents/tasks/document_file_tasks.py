@@ -112,7 +112,7 @@ def task_document_file_create(
             document_file._event_actor = user
             document_file.save(skip_introspection=True)
         except OperationalError as exception:
-            logger.error(
+            logger.warning(
                 'Operational error while uploading new file for '
                 'document: %s; %s. Retrying.', document, exception
             )

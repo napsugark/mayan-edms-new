@@ -285,10 +285,9 @@ check-missing-migrations: ## Make sure all models have proper migrations.
 	./manage.py makemigrations --dry-run --noinput --check
 
 check-missing-inits: ## Find missing __init__.py files from modules.
-check-missing-inits:
 	@contrib/scripts/find_missing_inits.py
 
-copy-config-env:
+copy-config-env: ## Copy and convert `config.env` to `settings.literals.py`.
 	@contrib/scripts/copy_config_env.py > mayan/settings/literals.py
 
 # Development environment
@@ -301,5 +300,6 @@ dev-setup-os-ubuntu:  ## Install the operating system packages needed for develo
 
 
 -include docker/Makefile
+-include forge/Makefile
 -include gitlab-ci/Makefile
 -include python/Makefile

@@ -4,7 +4,9 @@ from mayan.apps.dependencies.classes import PythonDependency
 from mayan.apps.dependencies.environments import (
     environment_build, environment_development, environment_documentation
 )
-from mayan.settings.literals import PYTHON_WHEEL_VERSION
+from mayan.settings.literals import (
+    PYTHON_SETUPTOOLS_VERSION, PYTHON_WHEEL_VERSION
+)
 
 PythonDependency(
     legal_text='''
@@ -35,7 +37,7 @@ PythonDependency(
         ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
         (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
         SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-    ''', module=__name__, name='django', version_string='==4.2.20'
+    ''', module=__name__, name='django', version_string='==4.2.23'
 )
 PythonDependency(
     legal_text='''
@@ -127,10 +129,7 @@ PythonDependency(
     ''', module=__name__, name='pycountry', version_string='==24.6.1'
 )
 PythonDependency(
-    module=__name__, name='requests', version_string='==2.32.3'
-)
-PythonDependency(
-    module=__name__, name='setuptools', version_string='==78.1.0'
+    module=__name__, name='requests', version_string='==2.32.4'
 )
 PythonDependency(
     legal_text='''
@@ -158,6 +157,12 @@ PythonDependency(
 
 # Build
 
+PythonDependency(
+    environment=environment_build,
+    module=__name__, name='setuptools', version_string='=={}'.format(
+        PYTHON_SETUPTOOLS_VERSION
+    )
+)
 PythonDependency(
     environment=environment_build, module=__name__, name='twine',
     version_string='==6.1.0'

@@ -12,8 +12,8 @@
 # Ingo Buchholz <ingo.buchholz@takwa.de>, 2025
 # Roberto Rosario, 2025
 # Marvin Haschker <marvin@haschker.me>, 2025
-# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # Berny <berny@bernhard-marx.de>, 2025
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -21,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:32+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Berny <berny@bernhard-marx.de>, 2025\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -376,7 +376,7 @@ msgstr "Dokumentenprüfsumme"
 #: serializers/index_instance_serializers.py:15
 #: serializers/index_instance_serializers.py:61
 msgid "Node count"
-msgstr ""
+msgstr "Knotenanzahl"
 
 #: serializers/index_instance_serializers.py:19
 #: serializers/index_template_serializers.py:179

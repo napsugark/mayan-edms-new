@@ -74,7 +74,7 @@ msgstr ""
 
 #: settings.py:22
 msgid "Default profile timezone for new user accounts."
-msgstr ""
+msgstr "Fus orar implicit pentru conturile de utilizator noi."
 
 #: views.py:52
 #, python-format

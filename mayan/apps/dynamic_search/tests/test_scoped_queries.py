@@ -1,9 +1,14 @@
 from mayan.apps.testing.tests.base import BaseTestCase
 
-from ..exceptions import DynamicSearchScopedQueryError
+from ..exceptions import (
+    DynamicSearchBackendException, DynamicSearchScopedQueryError
+)
 from ..literals import (
     ERROR_TEXT_NO_RESULT_SCOPE, SCOPE_DELIMITER, SCOPE_MARKER,
     SCOPE_RESULT_MARKER
+)
+from ..settings import (
+    setting_query_results_limit, setting_query_results_limit_error
 )
 
 from .literals import (
@@ -375,3 +380,64 @@ class ScopedQueryDataFilterEntryQueryTypeTestCase(
         self.assertEqual(test_scope_entry.is_quoted_value, False)
         self.assertEqual(test_scope_entry.is_raw_value, True)
         self.assertEqual(test_scope_entry.value, '2021 2022')
+
+
+class ScopedQuerySettingTestCase(
+    ScopedQueryTestMixin, TestSearchObjectHierarchyTestMixin,
+    SearchTestMixin, BaseTestCase
+):
+    auto_test_search_objects_create = False
+
+    def test_scope_query_limit(self):
+        test_model = self._test_model_dict['TestModelAttribute']
+
+        test_model.objects.create(label='attribute')
+        test_model.objects.create(label='attribute')
+
+        search_value = test_model.objects.first().label
+
+        self._add_test_scoped_query_entry_filter(
+            field_name='label', scope_identifer='0', value=search_value
+        )
+        self._add_test_scoped_query_result_scope(value='0')
+
+        setting_query_results_limit.do_value_raw_set(raw_value=1)
+
+        self._silence_logger(name='mayan.apps.dynamic_search.scoped_queries')
+
+        with self.assertRaises(expected_exception=DynamicSearchBackendException):
+            results = self._test_scoped_query.do_resolve(
+                search_backend=self._test_search_backend
+            )
+
+            len(
+                list(results)
+            )
+
+    def test_scope_query_limit_error(self):
+        test_model = self._test_model_dict['TestModelAttribute']
+
+        test_model.objects.create(label='attribute')
+        test_model.objects.create(label='attribute')
+
+        search_value = test_model.objects.first().label
+
+        self._add_test_scoped_query_entry_filter(
+            field_name='label', scope_identifer='0', value=search_value
+        )
+        self._add_test_scoped_query_result_scope(value='0')
+
+        setting_query_results_limit.do_value_raw_set(raw_value=1)
+        setting_query_results_limit_error.do_value_raw_set(raw_value=False)
+
+        self._silence_logger(name='mayan.apps.dynamic_search.scoped_queries')
+
+        results = self._test_scoped_query.do_resolve(
+            search_backend=self._test_search_backend
+        )
+
+        self.assertEqual(
+            len(
+                list(results)
+            ), 1
+        )

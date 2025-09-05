@@ -47,7 +47,7 @@ def task_index_instance_document_add(
             )
             raise self.retry(exc=exception)
         except LockError as exception:
-            logger.warning(
+            logger.debug(
                 'Unable to acquire lock for document %s; %s ',
                 document, exception
             )

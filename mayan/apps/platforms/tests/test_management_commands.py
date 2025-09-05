@@ -2,7 +2,7 @@ from mayan.apps.common.tests.mixins import ManagementCommandTestMixin
 from mayan.apps.testing.tests.base import BaseTestCase
 
 from ..literals import COMMAND_NAME_PLATFORMS_TEMPLATE
-from ..platforms_templates import PlatformTemplate
+from ..platform_templates import PlatformTemplate
 
 from .literals import (
     TEST_TEMPLATE_LABEL, TEST_TEMPLATE_NAME, TEST_TEMPLATE_STRING,

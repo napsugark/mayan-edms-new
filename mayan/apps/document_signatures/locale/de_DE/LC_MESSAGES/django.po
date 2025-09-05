@@ -10,9 +10,9 @@
 # Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2025
 # Felix <felix.com@gmx.com>, 2025
 # Roberto Rosario, 2025
-# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # Tobias Paepke <tobias.paepke@paepke.net>, 2025
 # Ingo Buchholz <ingo.buchholz@takwa.de>, 2025
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -20,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 04:33+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Ingo Buchholz <ingo.buchholz@takwa.de>, 2025\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -134,7 +134,7 @@ msgstr "Schlüsseltyp"
 
 #: links.py:44
 msgid "Sign detached"
-msgstr "Unterschrift separat"
+msgstr "Separate Unterschrift"
 
 #: links.py:51
 msgid "Delete"

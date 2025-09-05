@@ -65,7 +65,7 @@ def find_packages(directory):
 
 
 install_requires = """
-django==4.2.20
+django==4.2.23
 CairoSVG==2.7.1
 Markdown==3.7
 Pillow==11.1.0
@@ -83,7 +83,7 @@ django-model-utils==5.0.0
 django-mptt==0.16.0
 django-qsstats-magic==1.1.0
 django-solo==2.4.0
-django-storages==1.14.5
+django-storages==1.14.6
 django-stronghold==0.4.0
 django-widget-tweaks==1.5.0
 djangorestframework==3.15.2
@@ -114,9 +114,8 @@ python-dateutil==2.9.0.post0
 python_gnupg==0.5.4
 pytz==2025.2
 qrcode==8.0
-requests==2.32.3
-sentry-sdk==2.27.0
-setuptools==78.1.0
+requests==2.32.4
+sentry-sdk==2.35.0
 sh==2.2.2
 swagger-spec-validator==3.0.4
 whitenoise==6.9.0

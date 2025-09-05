@@ -206,7 +206,7 @@ msgid ""
 "Changing the password of staff or super user accounts via the user interface"
 " is not allowed. Use administration tools to perform this operation."
 msgstr ""
-"Es ist nicht erlaubt das Passwort von Mitarbeitern oder Administratoren über"
+"Es ist nicht möglich das Passwort von Mitarbeitern oder Administratoren über"
 " die Benutzeroberfläche zu ändern. Benutzen Sie stattdessen "
 "Administrationswerkzeuge."
 
@@ -230,6 +230,8 @@ msgstr "Passwort für Benutzer %s erfolgreich zurückgesetzt."
 #, python-format
 msgid "Error resetting password for user \"%(user)s\": %(error)s"
 msgstr ""
+"Fehler beim Zurücksetzen des Passworts für den Benutzer  \"%(user)s\": "
+"%(error)s"
 
 #: views/impersonation_views.py:87
 #, python-format

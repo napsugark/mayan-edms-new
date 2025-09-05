@@ -429,6 +429,13 @@ source_lang   = en
 resource_name = v4.9 Platform Docker
 type          = PO
 
+[o:rosarior:p:mayan-edms:r:platform_forge-4-9]
+file_filter   = mayan/apps/platform_forge/locale/<lang>/LC_MESSAGES/django.po
+source_file   = mayan/apps/platform_forge/locale/en/LC_MESSAGES/django.po
+source_lang   = en
+resource_name = v4.9 Platform Forge
+type          = PO
+
 [o:rosarior:p:mayan-edms:r:platform_gitlab-4-9]
 file_filter   = mayan/apps/platform_gitlab/locale/<lang>/LC_MESSAGES/django.po
 source_file   = mayan/apps/platform_gitlab/locale/en/LC_MESSAGES/django.po

@@ -75,9 +75,77 @@
   `dict_keys` object.
 - Rename duplicated documents link and view title for clarity.
 
-4.9.2 (20XX-XX-XX)
+4.9.5 (XXXX-XX-XX)
+==================
+- Improvements and changes from version 4.8.8.
+
+4.9.4 (2025-09-03)
+==================
+- Merge changes from version 4.8.7.
+- Fix task manager test missing a call to `super().tearDown`.
+- Optimize test mixin `RandomPrimaryKeyModelMonkeyPatchMixin`. Mixin now uses
+  an optimistic approach only resorting to introspecting the database on
+  random primary key collisions. Test case unit speed improvements have
+  ranged from 11 to 20% less time.
+- Improve and simplify series support chapter.
+- Add Sphinx GraphViz extention.
+- Docker Compose update:
+
+  - Improve container dependency. Ensures services start before Mayan EDMS.
+    Also ensures that Mayan EDMS shuts down before services.
+  - Added health checks to ElasticSearch, Mayan EDMS, RabbitMQ, Redis.
+  - Improved the PostgreSQL health check by specifying the database name.
+
+- Change README to use the black and white logo.
+- Remove donation links. The Mayan EDMS project no longer accepts donations.
+- Remove outdated documentation sections.
+
+4.9.3 (2025-08-27)
+==================
+- Merge changes from version 4.8.5 and 4.8.6.
+- Add setting migration to change the removed mime type backend. Avoids
+  GitLab issue #1187 on old installations.
+- Documentation updates:
+
+  - Put badges on index page for important information at a quick glance.
+  - Fix link to features chapter.
+  - Fix loading of the config env file.
+  - Minor layout and structure tweaks.
+
+- Update the translation file detection to ensure all JavaScript files are
+  included.
+- Fix workflow app translation string interpolation.
+- Downgrade coveralls from 4.0.1 to 3.3.1.
+- Deprecate coveralls. Will be removed in the next minor version.
+- Downgrade coverage from version 7.6.9 to 6.5.0 to support coveralls 3.3.1.
+
+4.9.2 (2025-07-23)
 ==================
 - Increase the GitLab CI artifact expiration from 4 hours to 24 hours.
+- Update dependency versions:
+
+  - Django from 4.2.18 to 4.2.23
+  - requests from 2.32.3 to 2.32.4
+  - python_gnupg from 0.5.3 to 0.5.4
+  - ollama from 0.4.4 to 0.4.5
+  - furl from 2.1.3 to 2.1.4
+  - psycopg from 3.2.3 to 3.2.9
+
+- Update Docker image tags:
+
+  - Elasticsearch from 7.17.26 to 7.16.28
+  - Debian from 12.8-slim to 12.11-slim
+  - RabbitMQ from 4.0.5-management-alpine to 4.0.9-management-alpine
+  - Redis from 7.4.1-alpine3.20 to 7.4.5-alpine3.21
+  - Traefik from v2.11.16 to v2.11.27
+
+- Reinforce the Ollama document file metadata client to handle undocumented
+  backward incompatible changes made in Ollama.
+- Fix toolbar render issue on recent Chromium based browsers.
+- Update copyright year.
+- Add Ollama integration feature document.
+- Improve documentation navigation.
+- Update translation files.
 
 4.9.1 (2025-01-22)
 ==================
@@ -403,6 +471,54 @@
 - Prefix the templating app tags and filter functions to avoid name or
   reserved word clashes.
 - Cap the default concurrency of the Celery workers.
+- Fix context of the workflow launch view when only one document is selected.
+- Quote environment variables prior to loading.
+- Formalize the pattern used to get all the request `GET` and `POST` data.
+- Improve how the select all toolbar checkbox is disabled when there are no
+  results.
+
+4.8.8 (XXXX-XX-XX)
+==================
+- Improvements and changes from version 4.7.6.
+
+4.8.7 (2025-09-03)
+==================
+- Don't add 'forge/Dockerfile' into .gitignore.
+- Merge changes and improvements from version 4.7.5.
+- Change how the ClamAV file metadata test is configured. Enable the ClamAV
+  driver inside the test method and not in the test case to avoid raising an
+  exception while `setUp` is still executing thus making the test skip
+  `tearDown` which skips important test cleanups.
+
+4.8.6 (2025-08-25)
+==================
+- Improvements and changes from version 4.7.3 and 4.7.4.
+- Fix workflow template field test after change in form default empty values.
+
+4.8.5 (2025-08-08)
+==================
+- Merge fixes and improvements from version 4.7.2.
+- Backport makefile major release branch references.
+- Backport documenation file references fixes.
+- Backport fundraisers app.
+- Build documentation features part dynamically from apps.
+- Fix inter document documentation references.
+- Update `.gitignore` to not include final app documentations builds.
+- Remove obsolete documentation chapter
+- Persist success icon when a file upload finishes.
+- Remove dropzone hard coded icons.
+- Update the version check code to use the new version of the PyPI API.
+- Unify the label of empty dropdown options.
+
+4.8.4 (2025-07-27)
+==================
+- Increase the GitLab CI artifact expiration from 4 hours to 24 hours.
+- Add Mayan Forge, a Docker based development environment for Mayan EDMS.
+- Update dependency versions:
+
+  - Django from 4.2.16 to 4.2.23
+  - requests from 2.32.3 to 2.32.4
+  - python_gnupg from 0.5.3 to 0.5.4
 
 4.8.3 (2024-10-04)
 ==================
@@ -617,6 +733,70 @@
   workflow transition regardless of the current state or transition.
   The workflow state action context is now composed of the keys:
   `workflow_instance`, `workflow_instance_context`, `action`, and `log_entry`.
+
+4.7.6 (XXXX-XX-XX)
+==================
+- Improvements and changes from version 4.6.10.
+
+4.7.5 (2025-09-01)
+==================
+- Improvements and changes from version 4.6.9.
+- Update `safety` from version 3.2.1 to 3.2.3 to fix dependency bug conflict
+  with `dparse` and `psutil`.
+
+4.7.4 (2025-08-25)
+==================
+- Improve sources app migration 0032 to deal with the phantom
+  'source_id' field of the source document file metadata model.
+- Include the version string as part of the Forge virtualenv.
+
+4.7.3 (2025-08-24)
+==================
+- Improvements and changes from version 4.6.8.
+
+4.7.2 (2025-08-07)
+==================
+- Docker image tags:
+
+  - Base Debian from 12.5-slim to 12.11-slim.
+  - ElasticSearch from 7.17.20 to 7.17.28
+  - Forge base from 24.04 to noble-20250714
+  - PostgreSQL from 14.12-alpine to 14.18-alpine
+  - Python from 3.11.9-slim to 3.11.13-slim.
+  - RabbitMQ from 3.12.14-management-alpine to 3.13.7-management-alpine
+
+- Update dependency versions:
+
+  - Django from 4.2.13 to 4.2.23.
+  - PyYAML from 6.0.1 to 6.0.2.
+  - bleach from 6.1.0 to 6.2.0.
+  - django-auth-ldap from 4.6.0 to 4.8.0
+  - django-solo from 2.2.0 to 2.3.0
+  - django-storages from 1.14.2 to 1.14.6.
+  - extract-msg from 0.48.5 to 0.48.7.
+  - furl from 2.1.3 to 2.1.4.
+  - pip from 24.0 to 24.3.
+  - psycopg from 3.1.14 to 3.1.20.
+  - pycryptodome from 3.20.0 to 3.21.0
+  - pytz from 2024.1 to 2024.2.
+  - redis from 5.0.3 to 5.0.8.
+  - requests from 2.32.3 to 2.32.4
+  - sentry-sdk from 1.45.0 to 1.45.1
+  - twine from 5.1.0 to 5.1.1.
+  - whitenoise from 6.6.0 to 6.7.0
+  - pip from 24.3 to 24.3.1
+
+- Fix `flatten_map` not using the `separator` argument.
+- Remove localize fonts from testing Dockerfile.
+- Fix Whoosh search result limit.
+- Backport search app testing improvements.
+- Fix make file target for testing dependencies generation. Each requirement
+  entry generation now specified the settings file to use.
+- Remove the specialized and custom animated list toolbar checkbox and
+  instead use a styled standard HTML checkbox.
+- Backport multi item bulk action dropdown template improvements.
+- Added `CITATION.cff` file for citations.
+- Update README files.
 
 4.7.1 (2024-06-04)
 ==================
@@ -841,6 +1021,131 @@
 - Add the ID field of primary models as search fields.
 - Expose the document index instance depth and node count values via the API.
 - Add a document type API view to return all documents of that type.
+
+4.6.10 (XXXX-XX-XX)
+===================
+- Fix base search class `_search` interface.
+- Add `SEARCH_QUERY_RESULTS_LIMIT_ERROR`. Control whether or not to raise
+  an error when the number of search results exceed the value of
+  `SEARCH_QUERY_RESULTS_LIMIT`. Default to `True` for backwards compatibility.
+
+4.6.9 (2025-08-31)
+==================
+- Add Docker DIND service to all docker push jobs.
+- Backports from version series 4.9:
+
+  - Update the translation file detection to ensure all JavaScript files are
+    included.
+  - Fix task manager test missing a call to `super().tearDown`.
+  - Add documentation step to update forge files.
+  - Include the version string as part of the Forge virtualenv.
+  - Optimize test mixin `RandomPrimaryKeyModelMonkeyPatchMixin`. Mixin now uses
+    an optimistic approach only resorting to introspecting the database on
+    random primary key collisions. Test case unit speed improvements have
+    ranged from 11 to 20% less time.
+
+- Backports version series 4.8:
+
+  - Persist success icon when a file upload finishes.
+
+- Forge updates
+
+  - Consolidate `ENV` statements.
+  - Add global `DEBIAN_FRONTEND=noninteractive` and remove it from each
+    `apt` invocation.
+  - Add `PIP_PREFER_BINARY=1`.
+  - Update Forge Docker Compose with optional volumen mount to support
+    Docker Out of Docker (DOoD).
+
+- Docker updates
+
+  - Consolidate `ENV` statements.
+  - Add global `DEBIAN_FRONTEND=noninteractive` and remove it from each
+    `apt` invocation.
+  - Add `PIP_PREFER_BINARY=1`.
+
+- Update `EnvironmentFileLoader` to not process empty config lines.
+- Revised log messages levels. Reduce the severity of some messages that were
+  confusing users in diagnosing issues. Increase the severity of base
+  configuration problems like the Celery components and lock manager.
+- Add new GitOps branch and target to build and try Docker images in staging.
+- Make `setuptools` a build and virtualenv dependency.
+- Remove `wheel` installation from the Docker build job.
+- Add `setuptools` to the DockerFile build image to ensure compliance with
+  PEP 625.
+
+4.6.8 (2025-08-24)
+==================
+- Forge updates:
+
+  - Add the Transifex CLI utility to the Forge container.
+  - Keep the seeded APT list files.
+  - Create the virtualenv in the Docker image.
+  - Preinstall platform Python packages to exact versions (setuptools, fancycompleter).
+  - Preinstall `gettext` to handle translations.
+
+- Reinforce `load_env_file` to support equal signs in the value portion.
+- Don't load the unprocessed `config.env` file.
+- Don't load the DIND image as a service.
+- Optimize file metadata migration 0011.
+- Use the CLI version of the Docker image when the full daemon is not required.
+- Upgrade sentry-sdk from version 1.40.6 to 2.35.0.
+- Add trademark policy document.
+- Added `CITATION.cff` file for citations.
+
+4.6.7 (2025-08-11)
+==================
+- Forge updates:
+
+  - Fix `forge-shell` target.
+  - Add `squid-deb-proxy-client` to the container image.
+  - Support optional `.env-local` file.
+  - Add `.env-local` to .gitignore.
+  - Support PIP indexes.
+  - Support host PIP caches.
+  - New target to update all Forge's files.
+  - Set `PIP_PREFER_BINARY=1`.
+
+- Don't error out if `backend.model_mixins.get_backend_class_label` can't
+  find old modules path.
+- Support Docker Compose configurable `env_file` file via
+  `MAYAN_DOCKER_ENV_FILE`. Defaults to `.env`. This affects only the
+  environment variables passed to the Mayan EDMS stack does not affect the
+  values passed to the Docker Compose file.
+- Support an optional `.env-local` file for the Mayan EDMS Docker Compose
+  file.
+- Remove the Docker Compose version key.
+- Fix management command `settings_show` internal interface usage.
+
+4.6.6 (2025-08-06)
+==================
+- Increase the GitLab CI artifact expiration from 4 hours to 24 hours.
+- Add Mayan Forge, a Docker based development environment for Mayan EDMS.
+- Update dependency versions:
+
+  - Django from 4.2.13 to 4.2.23.
+  - PyYAML from 6.0.1 to 6.0.2.
+  - bleach from 6.1.0 to 6.2.0.
+  - django-storages from 1.14.2 to 1.14.6.
+  - extract-msg from 0.48.5 to 0.48.7.
+  - furl from 2.1.3 to 2.1.4.
+  - pip from 24.0 to 24.3.
+  - psycopg from 3.1.14 to 3.1.20.
+  - redis from 5.0.3 to 5.0.8.
+  - twine from 5.1.0 to 5.1.1.
+
+- Update Docker image tags:
+
+  - Base Debian from 12.5-slim to 12.11-slim.
+  - PostgreSQL from 13.15-alpine to 13.21-alpine.
+  - Python from 3.11.9-slim to 3.11.13-slim.
+  - ElasticSearch from 7.17.20 to 7.17.28
+
+- Quote environment variables prior to loading.
+- Fix context of the workflow launch view when only one document is selected.
+- Improve documentation navigation.
+- Update translation helper script to use the new `MayanAppConfig` accessors.
+- Backport `MayanAppConfig` improvements needed by the translation helper.
 
 4.6.5 (2024-06-03)
 ==================

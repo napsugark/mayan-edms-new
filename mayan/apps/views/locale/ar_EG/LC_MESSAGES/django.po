@@ -10,6 +10,7 @@
 # Mohammed ALDOUB <voulnet@gmail.com>, 2025
 # WM Shinkada <shinkadawasim@gmail.com>, 2025
 # Marwan Rahhal <Marwanr@sssit.net>, 2025
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -17,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:33+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2025\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -92,7 +93,7 @@ msgstr "%(object)s الإنشاء الناجح."
 #: generics.py:761
 #, python-format
 msgid "Error retrieving %(object)s; %(error)s"
-msgstr ""
+msgstr "خطأ في استرجاع %(object)s؛ %(error)s"
 
 #: generics.py:822
 #, python-format
@@ -107,32 +108,32 @@ msgstr "%(object)s التعديل الناجح."
 #: generics.py:899
 #, python-format
 msgid "%(count)d objects deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)d عنصر بنجاح."
 
 #: generics.py:900
 #, python-format
 msgid "\"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "تم حذف \"%(object)s\" بنجاح."
 
 #: generics.py:901
 #, python-format
 msgid "%(count)d object deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)d كائن بنجاح."
 
 #: generics.py:902
 #, python-format
 msgid "Delete %(count)d objects."
-msgstr ""
+msgstr "حذف %(count)d عنصر"
 
 #: generics.py:903
 #, python-format
 msgid "Delete \"%(object)s\"."
-msgstr ""
+msgstr "حذف \"%(object)s\""
 
 #: generics.py:904
 #, python-format
 msgid "Delete %(count)d object."
-msgstr ""
+msgstr "حذف %(count)d كائن."
 
 #: links.py:15 links.py:21
 msgid "Delete"
@@ -140,23 +141,23 @@ msgstr "حذف"
 
 #: links.py:27
 msgid "Confirm views"
-msgstr ""
+msgstr "عروض التأكيد"
 
 #: links.py:33
 msgid "View modes"
-msgstr ""
+msgstr "أنماط العرض"
 
 #: literals.py:10
 msgid "Items"
-msgstr ""
+msgstr "عناصر"
 
 #: literals.py:11
 msgid "List"
-msgstr ""
+msgstr "قائمة"
 
 #: model_mixins.py:14 model_mixins.py:23
 msgid "The app to which the view belongs."
-msgstr ""
+msgstr "التطبيق الذي ينتمي إليه العرض."
 
 #: model_mixins.py:15 model_mixins.py:25
 msgid "App"
@@ -165,11 +166,11 @@ msgstr "التطبيقات"
 #: model_mixins.py:41
 #, python-format
 msgid "Unknown mode: %s"
-msgstr ""
+msgstr "نمط غير معروف: %s"
 
 #: model_mixins.py:43
 msgid "The current mode of the view."
-msgstr ""
+msgstr "نمط العرض الحالي."
 
 #: model_mixins.py:44 models.py:56
 msgid "Value"
@@ -181,7 +182,7 @@ msgstr "مساحة الاسم"
 
 #: models.py:17 models.py:46
 msgid "Full name of the view including the namespace."
-msgstr ""
+msgstr "الاسم الكامل للعرض متضمناً مساحة الأسماء."
 
 #: models.py:18 models.py:47
 msgid "Name"
@@ -193,27 +194,27 @@ msgstr "مستخدم"
 
 #: models.py:26
 msgid "Remember the last confirmation of the view."
-msgstr ""
+msgstr "تذكر آخر تأكيد للعرض."
 
 #: models.py:27
 msgid "Remember"
-msgstr ""
+msgstr "تذكر"
 
 #: models.py:36 models.py:37
 msgid "User confirm view"
-msgstr ""
+msgstr "عرض تأكيد المستخدم"
 
 #: models.py:55
 msgid "Stored value used to identify the display mode of the view."
-msgstr ""
+msgstr "قيمة مخزنة تُستخدم لتحديد نمط عرض العرض."
 
 #: models.py:62
 msgid "User view mode"
-msgstr ""
+msgstr "نمط عرض المستخدم"
 
 #: models.py:63
 msgid "User view modes"
-msgstr ""
+msgstr "أنماط عرض المستخدم"
 
 #: settings.py:16
 msgid "The number objects that will be displayed per page."
@@ -221,7 +222,7 @@ msgstr "عدد العناصر الظاهرة في الصفحة"
 
 #: settings.py:22
 msgid "A string specifying the name to use for the paging parameter."
-msgstr ""
+msgstr "سلسلة نصية تحدد الاسم المستخدم لمعامل التصفح."
 
 #: templatetags/views_tags.py:30
 msgid "Confirm delete"
@@ -263,7 +264,7 @@ msgstr "تعذر إجراء العملية على الكائن %(instance)s ؛ %
 #: view_mixins.py:420
 #, python-format
 msgid "Operation performed on %(count)d objects."
-msgstr ""
+msgstr "تم تنفيذ العملية على %(count)d عنصر."
 
 #: view_mixins.py:422
 #, python-format
@@ -273,22 +274,22 @@ msgstr "تم تنفيذ العملية على %(object)s."
 #: view_mixins.py:424
 #, python-format
 msgid "Operation performed on %(count)d object."
-msgstr ""
+msgstr "تم تنفيذ العملية على %(count)d كائن."
 
 #: view_mixins.py:426
 #, python-format
 msgid "Perform operation on %(count)d objects."
-msgstr ""
+msgstr "تنفيذ العملية على %(count)d عنصر."
 
 #: view_mixins.py:427
 #, python-format
 msgid "Perform operation on %(object)s."
-msgstr ""
+msgstr "تنفيذ العملية على %(object)s."
 
 #: view_mixins.py:428
 #, python-format
 msgid "Perform operation on %(count)d object."
-msgstr ""
+msgstr "تنفيذ العملية على %(count)d كائن."
 
 #: view_mixins.py:513
 msgid "Object"
@@ -307,57 +308,57 @@ msgstr "%(object)s احذف الناجح."
 #: views.py:21
 #, python-format
 msgid "Error deleting confirm view \"%(instance)s\"; %(exception)s"
-msgstr ""
+msgstr "خطأ في حذف عرض التأكيد \"%(instance)s\"؛ %(exception)s"
 
 #: views.py:26
 #, python-format
 msgid "%(count)d confirm view properties deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)d خاصية لعرض التأكيد بنجاح."
 
 #: views.py:29
 #, python-format
 msgid "Confirm view property \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "تم حذف خاصية عرض التأكيد \"%(object)s\" بنجاح."
 
 #: views.py:32
 #, python-format
 msgid "%(count)d confirm view property deleted successfully."
-msgstr ""
+msgstr "تم حذف %(count)d خاصية لعرض التأكيد بنجاح."
 
 #: views.py:35 views.py:39
 #, python-format
 msgid "Delete the %(count)d selected confirm view property"
-msgstr ""
+msgstr "تم حذف %(count)d خاصية لعرض التأكيد بنجاح."
 
 #: views.py:37
 #, python-format
 msgid "Delete confirm view property: %(object)s"
-msgstr ""
+msgstr "حذف خاصية عرض التأكيد: %(object)s"
 
 #: views.py:67
 msgid ""
 "Persistent confirmation properties modes remember the user preferences for a"
 " given confirmation view."
-msgstr ""
+msgstr "تخزن أنماط خصائص التأكيد الدائمة تفضيلات المستخدم لعرض تأكيد معين."
 
 #: views.py:71
 msgid "No confirmation view properties available"
-msgstr ""
+msgstr "لا تتوفر خصائص لعرض التأكيد"
 
 #: views.py:75
 #, python-format
 msgid "Confirmation view properties for user: %s"
-msgstr ""
+msgstr "خصائص عرض التأكيد للمستخدم: %s"
 
 #: views.py:100
 msgid "View modes control the format used to display a collection of objects."
-msgstr ""
+msgstr "تتحكم أنماط العرض في التنسيق المستخدم لعرض مجموعة من العناصر."
 
 #: views.py:103
 msgid "No view modes available"
-msgstr ""
+msgstr "لا تتوفر أنماط عرض"
 
 #: views.py:106
 #, python-format
 msgid "Persistent view modes for user: %s"
-msgstr ""
+msgstr "أنماط العرض الدائمة للمستخدم: %s"

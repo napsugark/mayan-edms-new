@@ -274,8 +274,8 @@ msgid ""
 "Checking out a document, blocks certain operations for a predetermined "
 "amount of time."
 msgstr ""
-"Durch Ausbuchen eines Dokuments werden bestimmte Vorgänge für eine bestimmte"
-" Zeitspanne gesperrt."
+"Durch Ausbuchen eines Dokuments werden bestimmte Vorgänge für eine "
+"festgelegte Zeitspanne gesperrt."
 
 #: views.py:184
 msgid "No documents have been checked out"

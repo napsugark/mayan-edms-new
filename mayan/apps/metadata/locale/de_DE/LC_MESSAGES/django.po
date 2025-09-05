@@ -44,23 +44,23 @@ msgstr "Metadatenwert von"
 
 #: apps.py:249
 msgid "Document link"
-msgstr ""
+msgstr "Dokumentenlink"
 
 #: apps.py:255
 msgid "Document thumbnail"
-msgstr ""
+msgstr "Dokumentenvorschaubild"
 
 #: events.py:10
 msgid "Document metadata added"
-msgstr "Dokumentmetadaten hinzugefügt"
+msgstr "Dokumentenmetadaten hinzugefügt"
 
 #: events.py:13
 msgid "Document metadata edited"
-msgstr "Dokumentmetadaten bearbeitet"
+msgstr "Dokumentenmetadaten bearbeitet"
 
 #: events.py:16
 msgid "Document metadata removed"
-msgstr "Dokumentmetadaten entfernt"
+msgstr "Dokumentenmetadaten entfernt"
 
 #: events.py:19
 msgid "Metadata type created"
@@ -254,7 +254,7 @@ msgstr ""
 #: models/metadata_instance_models.py:49 models/metadata_instance_models.py:50
 #: search.py:21
 msgid "Document metadata"
-msgstr "Dokument Metadaten"
+msgstr "Dokumentenmetadaten"
 
 #: models/metadata_instance_models.py:86
 msgid "Metadata type is required for this document type."

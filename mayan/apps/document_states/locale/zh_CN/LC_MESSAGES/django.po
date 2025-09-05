@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"POT-Creation-Date: 2025-08-27 11:43+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/rosarior/teams/13584/zh_CN/)\n"
@@ -1104,8 +1104,8 @@ msgstr ""
 
 #: views/workflow_proxy_views.py:95
 #, python-format
-msgid "Documents in the workflow \"%s\", state \"%s\""
-msgstr "工作流“%s”中的文档，状态“%s”"
+msgid "Documents in the workflow \"%(workflow)s\", state \"%(state)s\""
+msgstr ""
 
 #: views/workflow_template_state_escalation_views.py:43
 #, python-format

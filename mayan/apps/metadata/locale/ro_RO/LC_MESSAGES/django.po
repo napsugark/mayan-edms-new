@@ -39,11 +39,11 @@ msgstr "Valoarea metadatelor pentru"
 
 #: apps.py:249
 msgid "Document link"
-msgstr ""
+msgstr "Legătură document"
 
 #: apps.py:255
 msgid "Document thumbnail"
-msgstr ""
+msgstr "Miniatură document"
 
 #: events.py:10
 msgid "Document metadata added"

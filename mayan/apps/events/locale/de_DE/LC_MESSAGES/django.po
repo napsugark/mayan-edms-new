@@ -9,8 +9,8 @@
 # Bjoern Kowarsch <bjoern.kowarsch@gmail.com>, 2025
 # Felix <felix.com@gmx.com>, 2025
 # Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2025
-# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # Roberto Rosario, 2025
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:32+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Roberto Rosario, 2025\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -219,7 +219,7 @@ msgstr "Ein Ereignis speichern"
 
 #: queues.py:25
 msgid "Launch the event prune backend"
-msgstr ""
+msgstr "Das Ereignissäuberungsbackend starten"
 
 #: queues.py:31
 msgid "Clear event querysets"
@@ -268,14 +268,18 @@ msgid ""
 "Path to the event pruning subclass that will be called periodically to clear"
 " the event log."
 msgstr ""
+"Pfad zur Unterklasse für die Ereignissäuberung, das regelmäßig aufgerufen "
+"wird um das Ereignisprotokoll zu leeren."
 
 #: settings.py:34
 msgid "Arguments to pass to `EVENTS_PRUNE_BACKEND`."
-msgstr ""
+msgstr "Argumente die an das `EVENTS_PRUNE_BACKEND` übergeben werden."
 
 #: settings.py:40
 msgid "Time interval in seconds, at which the event prune task will execute."
 msgstr ""
+"Zeitintervall in Sekunden, zu dem der Task für die Ereignissäuberung "
+"ausgeführt wird."
 
 #: views/clear_views.py:27
 msgid ""
@@ -350,12 +354,12 @@ msgstr "Ereignisse für Typ %s exportieren"
 #: views/notification_views.py:20
 #, python-format
 msgid "Error deleting notification \"%(instance)s\"; %(exception)s"
-msgstr ""
+msgstr "Fehler beim Löschen der Benachrichtigung \"%(instance)s\"; %(exception)s"
 
 #: views/notification_views.py:27
 #, python-format
 msgid "%(count)d notifications deleted successfully."
-msgstr ""
+msgstr "%(count)d Benachrichtigungen erfolgreich gelöscht."
 
 #: views/notification_views.py:30
 #, python-format
@@ -365,22 +369,22 @@ msgstr "Benutzer \"%(object)s\" erfolgreich gelöscht."
 #: views/notification_views.py:33
 #, python-format
 msgid "%(count)d notification deleted successfully."
-msgstr ""
+msgstr "%(count)d Benachrichtigung erfolgreich gelöscht."
 
 #: views/notification_views.py:35
 #, python-format
 msgid "Delete the %(count)d selected notifications."
-msgstr ""
+msgstr "%(count)d ausgewählte Benachrichtigungen löschen."
 
 #: views/notification_views.py:36
 #, python-format
 msgid "Delete notification: %(object)s."
-msgstr ""
+msgstr "Benachrichtigung löschen: %(object)s."
 
 #: views/notification_views.py:37
 #, python-format
 msgid "Delete the %(count)d selected notification."
-msgstr ""
+msgstr "%(count)d ausgewählte Benachrichtigung löschen."
 
 #: views/notification_views.py:52
 msgid "Subscribe to global or object events to receive notifications."
@@ -436,6 +440,8 @@ msgid ""
 "Subscribe to the events of an object to receive notifications when those "
 "events occur."
 msgstr ""
+"Zu den Ereignissen eines Objekts subskribieren um Benachrichtigungen zu "
+"erhalte, wenn diese Ereignisse auftreten."
 
 #: views/subscription_views.py:159
 msgid "There are no object event subscriptions"

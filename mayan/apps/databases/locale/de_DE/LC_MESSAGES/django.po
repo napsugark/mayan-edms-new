@@ -7,16 +7,16 @@
 # Roberto Rosario, 2025
 # Felix <felix.com@gmx.com>, 2025
 # Marvin Haschker <marvin@haschker.me>, 2025
-# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # Berny <berny@bernhard-marx.de>, 2025
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"POT-Creation-Date: 2025-08-27 11:22+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Berny <berny@bernhard-marx.de>, 2025\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,7 +46,7 @@ msgstr "Bezeichner"
 
 #: classes.py:97
 msgid "Example usage of the property."
-msgstr ""
+msgstr "Beispiel für die Verwendung der Eigenschaft."
 
 #: classes.py:98 classes.py:282
 msgid "Name"
@@ -70,7 +70,7 @@ msgstr "Modellfelder für Rückverweis"
 
 #: classes.py:264
 msgid "Name of the app where the model is defined."
-msgstr ""
+msgstr "Name der App, in der das Modell definiert ist."
 
 #: classes.py:265
 msgid "App"
@@ -78,7 +78,7 @@ msgstr "App"
 
 #: classes.py:270
 msgid "Complete unique name of the model."
-msgstr ""
+msgstr "Kompletter einzigartiger Name des Modells."
 
 #: classes.py:271
 msgid "Full name"
@@ -86,7 +86,7 @@ msgstr "Kompletter Name"
 
 #: classes.py:276
 msgid "Human readable name of the model."
-msgstr ""
+msgstr "Visuell lesbarer Name des Modells."
 
 #: links.py:12
 msgid "Properties"
@@ -94,7 +94,7 @@ msgstr "Eigenschaften"
 
 #: links.py:15
 msgid "Property models"
-msgstr ""
+msgstr "Eigenschaften-Modelle"
 
 #: literals.py:16
 msgid ""
@@ -127,13 +127,13 @@ msgstr "Warnung"
 
 #: views.py:27
 msgid "No properties available"
-msgstr ""
+msgstr "Keine Eigenschaften verfügbar"
 
 #: views.py:29
 #, python-format
 msgid "Properties for model: %s"
-msgstr ""
+msgstr "Eigenschaften für Modell: %s"
 
 #: views.py:49
 msgid "Models with registered properties"
-msgstr ""
+msgstr "Modelle mit registrierten Eigenschaften"

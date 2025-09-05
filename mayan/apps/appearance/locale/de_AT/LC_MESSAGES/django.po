@@ -4,9 +4,9 @@
 # 
 # Translators:
 # Translators:
-# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # Niklas Maurer <niklas.maurer@web.energy>, 2025
 # Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2025
+# Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:31+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2025\n"
+"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Austria) (https://app.transifex.com/rosarior/teams/13584/de_AT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,7 +64,7 @@ msgstr "Benutzerthema bearbeitet"
 
 #: links.py:21
 msgid "Reload the current content"
-msgstr ""
+msgstr "Aktuellen Inhalt neu laden"
 
 #: links.py:27
 msgid "Theme settings"
@@ -151,10 +151,14 @@ msgid ""
 "Number of pages to show on each side of the current page in the elided "
 "pager."
 msgstr ""
+"Anzahl der Seiten die auf jeder Seite der aktuellen Seite im ausgelassenen "
+"Pager angezeigt werden."
 
 #: settings.py:36
 msgid "Number of pages to show at both ends of the elided pager."
 msgstr ""
+"Anzahl der Seiten, die an beiden Enden des ausgelassenen Pagers angezeigt "
+"werden."
 
 #: settings.py:42
 msgid "Maximum number of characters that will be displayed as the view title."
@@ -175,14 +179,15 @@ msgstr ""
 #: settings.py:65
 msgid "Total pages to show in the page selection dropdown."
 msgstr ""
+"Gesamtzahl der Seiten die im Seitenauswahl-Dropdownfeld angezeigt werden."
 
 #: settings.py:71
 msgid "Enable page selection dropdown."
-msgstr ""
+msgstr "Dropdown für Seitenauswahl aktivieren."
 
 #: settings.py:77
 msgid "Enable the page selection input field."
-msgstr ""
+msgstr "Das Eingabefeld für die Seitenauswahl aktivieren."
 
 #: settings.py:83
 msgid ""
@@ -199,7 +204,7 @@ msgstr ""
 
 #: templates/appearance/app/foot.html:22
 msgid "Copy content to clipboard"
-msgstr ""
+msgstr "Inhalt in die Zwischenablage kopieren"
 
 #: templates/appearance/app/foot.html:22
 msgid "Copy"
@@ -207,15 +212,15 @@ msgstr "Kopieren"
 
 #: templates/appearance/app/foot.html:28
 msgid "Reset input size height"
-msgstr ""
+msgstr "Höhe des Eingabefelds zurücksetzen"
 
 #: templates/appearance/app/foot.html:28
 msgid "Reset"
-msgstr ""
+msgstr "Zurücksetzen"
 
 #: templates/appearance/app/foot.html:126
 msgid "Page number must be a positive integer."
-msgstr ""
+msgstr "Seitenzahl muss eine positive Ganzzahl sein."
 
 #: templatetags/appearance_tags.py:77
 msgid "None"

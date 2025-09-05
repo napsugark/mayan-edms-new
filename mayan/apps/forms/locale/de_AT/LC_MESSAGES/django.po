@@ -24,7 +24,7 @@ msgstr ""
 
 #: apps.py:17 settings.py:8
 msgid "Forms"
-msgstr ""
+msgstr "Formulare"
 
 #: forms.py:42
 msgid "Search"

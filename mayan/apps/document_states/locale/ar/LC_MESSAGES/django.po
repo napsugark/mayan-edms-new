@@ -12,14 +12,15 @@
 # Mohammed ALDOUB <voulnet@gmail.com>, 2025
 # Yaman Sanobar <yman.snober@gmail.com>, 2025
 # Marwan Rahhal <Marwanr@sssit.net>, 2025
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"POT-Creation-Date: 2025-08-27 11:43+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2025\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,16 +45,20 @@ msgid ""
 "Deprecated: Use `state_active` instead. Return the current state of the "
 "selected workflow."
 msgstr ""
+"مُهمَل: استخدم `state_active` بدلاً من ذلك. إرجاع الحالة الحالية لسير العمل "
+"المُحدد."
 
 #: apps.py:243 apps.py:260
 msgid "Current completion of a workflow"
-msgstr ""
+msgstr "الإكمال الحالي لسير العمل"
 
 #: apps.py:245
 msgid ""
 "Deprecated: Use `state_active.completion` instead. Return the completion "
 "value of the current state of the selected workflow."
 msgstr ""
+"مُهمَل: استخدم `state_active.completion` بدلاً من ذلك. إرجاع قيمة الإكمال "
+"للحالة الحالية لسير العمل المُحدد."
 
 #: apps.py:254
 msgid "Return the current state of the selected workflow."
@@ -99,6 +104,7 @@ msgstr "احصل على آخر انتقال"
 #: apps.py:343
 msgid "A record of all state changes made to the workflow instance over time."
 msgstr ""
+"سجل لجميع تغييرات الحالة التي تم إجراؤها على مثيل سير العمل بمرور الوقت."
 
 #: apps.py:371 apps.py:375 apps.py:408 apps.py:419
 msgid "None"
@@ -169,11 +175,11 @@ msgstr "خلفية فارغة"
 
 #: events.py:10
 msgid "Workflow instance created"
-msgstr ""
+msgstr "تم إنشاء مثيل سير العمل"
 
 #: events.py:13
 msgid "Workflow instance transitioned"
-msgstr ""
+msgstr "تم نقل مثيل سير العمل"
 
 #: events.py:18
 msgid "Workflow created"
@@ -198,7 +204,7 @@ msgstr "انتقال"
 
 #: forms/workflow_template_forms.py:26
 msgid "Workflow template preview image"
-msgstr ""
+msgstr "صورة معاينة قالب سير العمل"
 
 #: forms/workflow_template_state_forms.py:37
 msgid "The action type for this action entry."
@@ -210,11 +216,11 @@ msgstr "إجراء"
 
 #: forms/workflow_template_transition_field_forms.py:13
 msgid "Basic"
-msgstr ""
+msgstr "أساسي"
 
 #: forms/workflow_template_transition_field_forms.py:17
 msgid "Field"
-msgstr ""
+msgstr "مجال"
 
 #: forms/workflow_template_transition_field_forms.py:21
 msgid "Value"
@@ -286,11 +292,11 @@ msgstr "خلق العمل"
 
 #: links.py:148
 msgid "Create escalation"
-msgstr ""
+msgstr "إنشاء مسار تصعيد"
 
 #: links.py:169 models/workflow_state_model_mixins.py:136
 msgid "Escalations"
-msgstr ""
+msgstr "التصعيد"
 
 #: links.py:178
 msgid "Create state"
@@ -367,7 +373,7 @@ msgstr "مشغل الحدث: %s"
 
 #: models/workflow_instance_models.py:34
 msgid "The workflow template."
-msgstr ""
+msgstr "قالب سير العمل."
 
 #: models/workflow_instance_models.py:36 models/workflow_models.py:66
 #: models/workflow_state_models.py:38 models/workflow_transition_models.py:39
@@ -376,7 +382,7 @@ msgstr "المسار"
 
 #: models/workflow_instance_models.py:40
 msgid "Workflow instance creation date time."
-msgstr ""
+msgstr "تاريخ ووقت إنشاء مثيل سير العمل."
 
 #: models/workflow_instance_models.py:41
 #: models/workflow_instance_models.py:111
@@ -385,7 +391,7 @@ msgstr "التاريخ والوقت"
 
 #: models/workflow_instance_models.py:45
 msgid "The document to which the workflow instance is attached."
-msgstr ""
+msgstr "المستند الذي تم إرفاق مثيل سير العمل به."
 
 #: models/workflow_instance_models.py:47
 msgid "Document"
@@ -398,11 +404,11 @@ msgstr "سياق الكلام"
 
 #: models/workflow_instance_models.py:53
 msgid "The currently active state of the workflow instance."
-msgstr ""
+msgstr "الحالة النشطة حاليًا لمثيل سير العمل."
 
 #: models/workflow_instance_models.py:55
 msgid "Active state"
-msgstr ""
+msgstr "الحالة النشطة"
 
 #: models/workflow_instance_models.py:64
 #: models/workflow_instance_models.py:108
@@ -437,7 +443,7 @@ msgstr "ليس اختيار انتقال صالح."
 
 #: models/workflow_model_mixins.py:146
 msgid "Final state"
-msgstr ""
+msgstr "الحالة النهائية"
 
 #: models/workflow_model_mixins.py:153
 msgid "Initial state"
@@ -469,11 +475,11 @@ msgstr "وصف المسار"
 
 #: models/workflow_models.py:57
 msgid "Ignore workflow instances if they are in their final state."
-msgstr ""
+msgstr "تجاهل حالات سير العمل إذا كانت في حالتها النهائية."
 
 #: models/workflow_models.py:59
 msgid "Ignore completed"
-msgstr ""
+msgstr "تجاهل الانتهاء"
 
 #: models/workflow_models.py:97
 msgid "Workflow runtime proxy"
@@ -505,7 +511,7 @@ msgstr "حالة المسار"
 msgid ""
 "A short text describing the action. Actions are execute by alphabetical "
 "order."
-msgstr ""
+msgstr "نص قصير يصف الإجراء. تُنفَّذ الإجراءات حسب الترتيب الأبجدي."
 
 #: models/workflow_state_action_models.py:56
 msgid "At which moment of the state this action will execute."
@@ -525,7 +531,7 @@ msgstr "إجراءات حالة المسار"
 
 #: models/workflow_state_escalation_model_mixins.py:35
 msgid "Workflow escalation."
-msgstr ""
+msgstr "تصعيد سير العمل."
 
 #: models/workflow_state_escalation_models.py:42
 msgid ""
@@ -533,24 +539,28 @@ msgid ""
 "with a lower priority number are executed before escalations with a higher "
 "priority number."
 msgstr ""
+"حدد ترتيب تقييم التصعيدات. تُنفَّذ التصعيدات ذات الأولوية الأقل قبل "
+"التصعيدات ذات الأولوية الأعلى."
 
 #: models/workflow_state_escalation_models.py:45
 msgid "Priority"
-msgstr ""
+msgstr "أولوية"
 
 #: models/workflow_state_escalation_models.py:49
 msgid ""
 "Enable automatic transition the workflow after a specified amount of time "
 "has elapsed in the state without change."
 msgstr ""
+"تمكين الانتقال التلقائي لسير العمل بعد مرور فترة زمنية محددة في الحالة دون "
+"تغيير."
 
 #: models/workflow_state_escalation_models.py:57
 msgid "Time unit"
-msgstr ""
+msgstr "وحدة الوقت"
 
 #: models/workflow_state_escalation_models.py:62
 msgid "Amount of the selected escalation units of time."
-msgstr ""
+msgstr "كمية وحدات التصعيد المحددة للوقت."
 
 #: models/workflow_state_escalation_models.py:63
 msgid "Amount"
@@ -559,15 +569,15 @@ msgstr "كمية"
 #: models/workflow_state_escalation_models.py:67
 msgid ""
 "Comment to save to the workflow instance when the escalation is executed."
-msgstr ""
+msgstr "إضافة ملاحظة لحفظها في حالة سير العمل عند تنفيذ عملية التصعيد"
 
 #: models/workflow_state_escalation_models.py:75
 msgid "Workflow state escalation"
-msgstr ""
+msgstr "تصعيد حالة سير العمل"
 
 #: models/workflow_state_escalation_models.py:76
 msgid "Workflow state escalations"
-msgstr ""
+msgstr "تصعيدات حالة سير العمل"
 
 #: models/workflow_state_models.py:41
 msgid "A short text to describe the workflow state."
@@ -590,10 +600,12 @@ msgid ""
 "The state at which the workflow will stop. Only one state can be the final "
 "state."
 msgstr ""
+"الحالة التي سيتوقف عندها سير العمل. حالة واحدة فقط يمكن أن تكون الحالة "
+"النهائية."
 
 #: models/workflow_state_models.py:56
 msgid "Final"
-msgstr ""
+msgstr "نهائي"
 
 #: models/workflow_state_models.py:60
 msgid ""
@@ -622,11 +634,11 @@ msgstr "خطأ في قيمة البحث: %s"
 
 #: models/workflow_transition_field_model_mixins.py:111
 msgid "Has a default?"
-msgstr ""
+msgstr "هل يوجد إعداد افتراضي؟"
 
 #: models/workflow_transition_field_model_mixins.py:119
 msgid "Has a lookup?"
-msgstr ""
+msgstr "هل لديك بحث؟"
 
 #: models/workflow_transition_field_model_mixins.py:130
 msgid "Value is not one of the provided options."
@@ -645,7 +657,7 @@ msgstr "اسم الحقل الذي سيظهر على واجهة المستخدم
 
 #: models/workflow_transition_field_models.py:48
 msgid "Optional default value for the field. Can be a template."
-msgstr ""
+msgstr "قيمة افتراضية اختيارية للحقل. يمكن أن تكون قالبًا."
 
 #: models/workflow_transition_field_models.py:49
 msgid "Default"
@@ -673,7 +685,7 @@ msgstr "نص المساعدة"
 
 #: models/workflow_transition_field_models.py:65
 msgid "Whether this field needs to be filled out or not to proceed."
-msgstr ""
+msgstr "ما إذا كان هذا الحقل يحتاج إلى ملئه أم لا للمتابعة."
 
 #: models/workflow_transition_field_models.py:67
 msgid "Required"
@@ -712,8 +724,8 @@ msgid ""
 " the logical true."
 msgstr ""
 "الشرط الذي سيحدد ما إذا كان هذا الانتقال ممكّنًا أم لا. يتم تقييم الشرط "
-"مقابل مثيل سير العمل. تعتبر الشروط التي لا تُرجع أي قيمة  ، وتعتبر أي قيمة "
-"أخرى هي الحقيقة المنطقية."
+"مقابل مثيل سير العمل. تعتبر الشروط التي لا تُرجع أي قيمة  ،('')  وتعتبر أي "
+"قيمة أخرى هي الحقيقة المنطقية."
 
 #: models/workflow_transition_models.py:42
 msgid "A short text to describe the transition."
@@ -756,23 +768,23 @@ msgstr "مسارات الوثيقة"
 
 #: permissions.py:10
 msgid "Create workflow templates"
-msgstr ""
+msgstr "إنشاء قوالب سير العمل"
 
 #: permissions.py:13
 msgid "Delete workflow templates"
-msgstr ""
+msgstr "حذف قوالب سير العمل"
 
 #: permissions.py:16
 msgid "Edit workflow templates"
-msgstr ""
+msgstr "تحرير قوالب سير العمل"
 
 #: permissions.py:19
 msgid "View workflow templates"
-msgstr ""
+msgstr "عرض قوالب سير العمل"
 
 #: permissions.py:25
 msgid "Transition workflow instances"
-msgstr ""
+msgstr "حالات سير عمل الانتقال"
 
 #: permissions.py:28
 msgid "Execute workflow tools"
@@ -780,7 +792,7 @@ msgstr "تفعيل ادوات المسار"
 
 #: queues.py:14
 msgid "Workflows slow"
-msgstr ""
+msgstr "سير العمل بطيء"
 
 #: queues.py:18
 msgid "Launch a workflow for a document"
@@ -792,11 +804,11 @@ msgstr "تفعيل المسارات للوثيقة"
 
 #: queues.py:26
 msgid "Check a workflow instance for state escalation."
-msgstr ""
+msgstr "التحقق من مثيل سير العمل لتصعيد الحالة."
 
 #: queues.py:31
 msgid "Check all workflow instances for state escalation."
-msgstr ""
+msgstr "التحقق من جميع حالات سير العمل لتصعيد الحالة."
 
 #: queues.py:38
 msgid "Launch all workflows for all documents"
@@ -808,22 +820,22 @@ msgstr "ابدأ المسار"
 
 #: search.py:9
 msgid "Document workflow transition comment"
-msgstr ""
+msgstr "تعليق على انتقال سير عمل المستند"
 
 #: serializers/workflow_instance_serializers.py:30
 msgid "Primary key of the workflow template to launch."
-msgstr ""
+msgstr "المفتاح الأساسي لقالب سير العمل لبدء التشغيل."
 
 #: serializers/workflow_instance_serializers.py:31
 #: serializers/workflow_template_state_serializers.py:59
 #: serializers/workflow_template_transition_serializers.py:48
 msgid "Workflow template ID"
-msgstr ""
+msgstr "معرف قالب سير العمل"
 
 #: serializers/workflow_instance_serializers.py:43
 #: serializers/workflow_instance_serializers.py:157
 msgid "Document URL"
-msgstr ""
+msgstr "عنوان URL للمستند"
 
 #: serializers/workflow_instance_serializers.py:55
 msgid "Primary key of the transition to be added."
@@ -831,7 +843,7 @@ msgstr "سيتم إضافة المفتاح الأساسي للانتقال."
 
 #: serializers/workflow_instance_serializers.py:56
 msgid "Transition ID"
-msgstr ""
+msgstr "معرف الانتقال"
 
 #: serializers/workflow_instance_serializers.py:61
 #: serializers/workflow_instance_serializers.py:176
@@ -848,7 +860,7 @@ msgstr "URL"
 
 #: serializers/workflow_instance_serializers.py:80
 msgid "Workflow instance URL"
-msgstr ""
+msgstr "عنوان URL لمثيل سير العمل"
 
 #: serializers/workflow_instance_serializers.py:92
 #: serializers/workflow_instance_serializers.py:173
@@ -857,11 +869,11 @@ msgstr ""
 #: serializers/workflow_template_transition_serializers.py:52
 #: serializers/workflow_template_transition_trigger_serializers.py:44
 msgid "Workflow template URL"
-msgstr ""
+msgstr "عنوان URL لقالب سير العمل"
 
 #: serializers/workflow_instance_serializers.py:146
 msgid "Workflow template"
-msgstr ""
+msgstr "قالب سير العمل"
 
 #: serializers/workflow_instance_serializers.py:153
 msgid "Current state"
@@ -869,11 +881,11 @@ msgstr "الوضع الحالي"
 
 #: serializers/workflow_instance_serializers.py:160
 msgid "Last log entry"
-msgstr ""
+msgstr "آخر إدخال في السجل"
 
 #: serializers/workflow_instance_serializers.py:164
 msgid "Log entries URL"
-msgstr ""
+msgstr "عنوان URL لإدخالات السجل"
 
 #: serializers/workflow_instance_serializers.py:165
 msgid "A link to the entire history of this workflow."
@@ -881,7 +893,7 @@ msgstr "ربط سجل المسار"
 
 #: serializers/workflow_instance_serializers.py:169
 msgid "Log entry transitions URL"
-msgstr ""
+msgstr "انتقالات إدخالات السجل في عنوان URL"
 
 #: serializers/workflow_instance_serializers.py:177
 msgid ""
@@ -906,19 +918,19 @@ msgstr "عنوان URL لأنواع المستندات"
 #: serializers/workflow_template_serializers.py:28
 #: serializers/workflow_template_state_serializers.py:23
 msgid "Documents URL"
-msgstr ""
+msgstr "رابط المستندات"
 
 #: serializers/workflow_template_serializers.py:33
 msgid "Image URL"
-msgstr ""
+msgstr "رابط الصورة"
 
 #: serializers/workflow_template_serializers.py:37
 msgid "States URL"
-msgstr ""
+msgstr "عنوان URL للولايات"
 
 #: serializers/workflow_template_serializers.py:41
 msgid "Transitions URL"
-msgstr ""
+msgstr "عنوان URL للانتقالات"
 
 #: serializers/workflow_template_serializers.py:70
 msgid "Primary key of the document type to add to the workflow."
@@ -936,42 +948,42 @@ msgstr "المفتاح الأساسي لنوع المستند المراد حذ�
 #: serializers/workflow_template_state_escalation_serializers.py:32
 #: serializers/workflow_template_state_serializers.py:100
 msgid "Workflow template state ID"
-msgstr ""
+msgstr "معرف حالة قالب سير العمل"
 
 #: serializers/workflow_template_state_escalation_serializers.py:36
 #: serializers/workflow_template_state_serializers.py:104
 msgid "Workflow template state URL"
-msgstr ""
+msgstr "عنوان URL لحالة قالب سير العمل"
 
 #: serializers/workflow_template_state_escalation_serializers.py:49
 msgid "Primary key of the workflow template transition to be added."
-msgstr ""
+msgstr "المفتاح الأساسي لانتقال قالب سير العمل الذي سيتم إضافته."
 
 #: serializers/workflow_template_state_escalation_serializers.py:50
 msgid "Workflow template transition ID"
-msgstr ""
+msgstr "معرف انتقال قالب سير العمل"
 
 #: serializers/workflow_template_state_escalation_serializers.py:55
 msgid "Workflow template transition URL"
-msgstr ""
+msgstr "عنوان URL لانتقال قالب سير العمل"
 
 #: serializers/workflow_template_state_serializers.py:11
 msgid "Actions URL"
-msgstr ""
+msgstr "عنوان URL للإجراءات"
 
 #: serializers/workflow_template_state_serializers.py:35
 msgid "Escalations URL"
-msgstr ""
+msgstr "عنوان URL للتصعيد"
 
 #: serializers/workflow_template_transition_field_serializers.py:37
 #: serializers/workflow_template_transition_trigger_serializers.py:52
 msgid "Workflow transition ID"
-msgstr ""
+msgstr "معرف انتقال سير العمل"
 
 #: serializers/workflow_template_transition_field_serializers.py:41
 #: serializers/workflow_template_transition_trigger_serializers.py:56
 msgid "Workflow transition URL"
-msgstr ""
+msgstr "عنوان URL لانتقال سير العمل"
 
 #: serializers/workflow_template_transition_serializers.py:23
 msgid "Primary key of the destination state to be added."
@@ -979,11 +991,11 @@ msgstr "المفتاح الأساسي للدولة الوجهة المراد إ�
 
 #: serializers/workflow_template_transition_serializers.py:24
 msgid "Destination state ID"
-msgstr ""
+msgstr "معرف دولة الوجهة"
 
 #: serializers/workflow_template_transition_serializers.py:29
 msgid "Field list URL"
-msgstr ""
+msgstr "عنوان URL لقائمة الحقول"
 
 #: serializers/workflow_template_transition_serializers.py:36
 msgid "Primary key of the origin state to be added."
@@ -991,11 +1003,11 @@ msgstr "المفتاح الأساسي لحالة الأصل المراد إضا�
 
 #: serializers/workflow_template_transition_serializers.py:37
 msgid "Origin state ID"
-msgstr ""
+msgstr "معرف الدولة الأصلية"
 
 #: serializers/workflow_template_transition_serializers.py:42
 msgid "Trigger list URL"
-msgstr ""
+msgstr "عنوان URL لقائمة المشغلات"
 
 #: serializers/workflow_template_transition_trigger_serializers.py:24
 msgid "Event Type ID"
@@ -1036,6 +1048,8 @@ msgid ""
 "Interval in seconds on which the task to check for expired workflow states "
 "will be launched."
 msgstr ""
+"الفترة الزمنية بالثواني التي سيتم فيها تشغيل مهمة التحقق من حالات سير العمل "
+"منتهية الصلاحية."
 
 #: storages.py:14
 msgid ""
@@ -1100,7 +1114,7 @@ msgstr "إختيار"
 #: views/workflow_instance_views.py:226
 #, python-format
 msgid "Select transition for workflow \"%(workflow)s\" of document \"%(document)s\""
-msgstr ""
+msgstr "حدد الانتقال لسير العمل \"\" للمستند \"\"%(workflow)s%(document)s"
 
 #: views/workflow_proxy_views.py:37
 msgid ""
@@ -1133,43 +1147,45 @@ msgstr "لا توجد وثائق في المسار"
 
 #: views/workflow_proxy_views.py:95
 #, python-format
-msgid "Documents in the workflow \"%s\", state \"%s\""
-msgstr "الوثائق الموجودة في المسار &quot;%s&quot; ، الحالة &quot;%s&quot;"
+msgid "Documents in the workflow \"%(workflow)s\", state \"%(state)s\""
+msgstr ""
 
 #: views/workflow_template_state_escalation_views.py:43
 #, python-format
 msgid "Create escalation for workflow state: %s"
-msgstr ""
+msgstr "إنشاء تصعيد لحالة سير العمل:%s"
 
 #: views/workflow_template_state_escalation_views.py:84
 #, python-format
 msgid "Delete workflow state escalation: %s"
-msgstr ""
+msgstr "حذف تصعيد حالة سير العمل:%s"
 
 #: views/workflow_template_state_escalation_views.py:115
 #, python-format
 msgid "Edit workflow state escalation: %s"
-msgstr ""
+msgstr "تحرير تصعيد حالة سير العمل%s"
 
 #: views/workflow_template_state_escalation_views.py:151
 msgid ""
 "Workflow state escalation allow workflows to execute a transition "
 "automatically after a specific amount of time."
 msgstr ""
+"يتيح تصعيد حالة سير العمل لسير العمل تنفيذ انتقال تلقائيًا بعد فترة زمنية "
+"محددة."
 
 #: views/workflow_template_state_escalation_views.py:156
 msgid "There are no escalations for this workflow state."
-msgstr ""
+msgstr "لا توجد تصعيدات لحالة سير العمل هذه."
 
 #: views/workflow_template_state_escalation_views.py:159
 #, python-format
 msgid "Escalations for workflow template state: %s"
-msgstr ""
+msgstr "التصعيدات لحالة قالب سير العمل:%s"
 
 #: views/workflow_template_state_views.py:56
 #, python-format
 msgid "Create a \"%(backend_label)s\" workflow action for: %(workflow_state)s"
-msgstr ""
+msgstr "إنشاء \"%(backend_label)sإجراء سير العمل لـ:%(workflow_state)s"
 
 #: views/workflow_template_state_views.py:103
 #, python-format
@@ -1201,7 +1217,7 @@ msgstr "إجراءات حالة المسار: %s"
 #: views/workflow_template_state_views.py:219
 #, python-format
 msgid "New workflow state action selection for: %s"
-msgstr ""
+msgstr "%sاختيار إجراء حالة سير العمل الجديد لـ:"
 
 #: views/workflow_template_state_views.py:250
 #, python-format
@@ -1302,7 +1318,7 @@ msgstr "تعديل انتقال المسار: %s"
 #: views/workflow_template_transition_views.py:146
 msgid ""
 "Create a transition and use it to move a workflow from one state to another."
-msgstr ""
+msgstr "إنشاء انتقال واستخدامه لنقل سير العمل من حالة إلى أخرى."
 
 #: views/workflow_template_transition_views.py:150
 msgid "This workflow doesn't have any transitions"
@@ -1337,37 +1353,37 @@ msgstr "تم تحديد المسارات للوثيقة: %s"
 #: views/workflow_template_views.py:72
 #, python-format
 msgid "Error launching workflows for document \"%(instance)s\"; %(exception)s"
-msgstr ""
+msgstr "حدث خطأ أثناء تشغيل سير العمل للمستند \"%(instance)s%(exception)s"
 
 #: views/workflow_template_views.py:80
 #, python-format
 msgid "Workflows queued for launch successfully for %(count)d documents."
-msgstr ""
+msgstr "تم وضع سير العمل في قائمة الانتظار لإطلاقها بنجاح%(count)dوثائق"
 
 #: views/workflow_template_views.py:84
 #, python-format
 msgid "Workflows queued for launch successfully for document \"%(object)s\"."
-msgstr ""
+msgstr "تم وضع سير العمل في قائمة الانتظار لإطلاق المستند بنجاح \"%(object)s"
 
 #: views/workflow_template_views.py:88
 #, python-format
 msgid "Workflows queued for launch successfully for %(count)d document."
-msgstr ""
+msgstr "تم وضع سير العمل في قائمة الانتظار لإطلاقها بنجاح%(count)dوثيقة"
 
 #: views/workflow_template_views.py:92
 #, python-format
 msgid "Queue launching workflows for the selected %(count)d documents."
-msgstr ""
+msgstr "تشغيل سير العمل في قائمة الانتظار للعناصر المحددة%(count)dوثائق"
 
 #: views/workflow_template_views.py:95
 #, python-format
 msgid "Launch workflow: %(object)s."
-msgstr ""
+msgstr "إطلاق سير العمل:%(object)s"
 
 #: views/workflow_template_views.py:97
 #, python-format
 msgid "Queue launching workflows for the selected %(count)d document."
-msgstr ""
+msgstr "تشغيل سير العمل في قائمة الانتظار للعناصر المحددة%(count)ddocument"
 
 #: views/workflow_template_views.py:105
 msgid ""
@@ -1384,37 +1400,37 @@ msgstr "سيتم تفعيل المسارات"
 #: views/workflow_template_views.py:168
 #, python-format
 msgid "Error deleting workflow \"%(instance)s\"; %(exception)s"
-msgstr ""
+msgstr "خطأ في حذف سير العمل \"%(instance)s%(exception)s"
 
 #: views/workflow_template_views.py:177
 #, python-format
 msgid "%(count)d workflows deleted successfully."
-msgstr ""
+msgstr "%(count)dتم حذف سير العمل بنجاح."
 
 #: views/workflow_template_views.py:180
 #, python-format
 msgid "Workflow \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "سير العمل%(object)s\"تم الحذف بنجاح."
 
 #: views/workflow_template_views.py:183
 #, python-format
 msgid "%(count)d workflow deleted successfully."
-msgstr ""
+msgstr "%(count)dتم حذف سير العمل بنجاح."
 
 #: views/workflow_template_views.py:185
 #, python-format
 msgid "Delete the %(count)d selected workflows."
-msgstr ""
+msgstr "حذف%(count)dمهام سير العمل المحددة."
 
 #: views/workflow_template_views.py:186
 #, python-format
 msgid "Delete workflow: %(object)s."
-msgstr ""
+msgstr "حذف سير العمل: .%(object)s"
 
 #: views/workflow_template_views.py:187
 #, python-format
 msgid "Delete the %(count)d selected workflow."
-msgstr ""
+msgstr "حذف سير العمل المحدد.%(count)d"
 
 #: views/workflow_template_views.py:193
 msgid "All workflow instances will also be deleted."
@@ -1488,7 +1504,7 @@ msgstr "اسم الوثيقة"
 
 #: workflow_actions.py:33
 msgid "The new label to be assigned to the document."
-msgstr ""
+msgstr "التسمية الجديدة التي سيتم تعيينها للمستند."
 
 #: workflow_actions.py:41
 msgid "Document description"
@@ -1496,7 +1512,7 @@ msgstr "وصف الوثيقة"
 
 #: workflow_actions.py:45
 msgid "The new description to be assigned to the document."
-msgstr ""
+msgstr "الوصف الجديد الذي سيتم تعيينه للمستند."
 
 #: workflow_actions.py:54
 msgid "Modify document properties"
@@ -1512,7 +1528,7 @@ msgstr "إضافة مسارات جديدة للوثيقة "
 
 #: workflow_actions.py:174
 msgid "The URL to access."
-msgstr ""
+msgstr "عنوان URL للوصول إليه."
 
 #: workflow_actions.py:180
 msgid "Method"
@@ -1523,6 +1539,8 @@ msgid ""
 "The HTTP method to use for the request. Typical choices are OPTIONS, HEAD, "
 "POST, GET, PUT, PATCH, DELETE."
 msgstr ""
+"طريقة HTTP المُستخدمة للطلب. الخيارات المُستخدمة عادةً هي: OPTIONS، HEAD، "
+"POST، GET، PUT، PATCH، DELETE."
 
 #: workflow_actions.py:193
 msgid "Username"
@@ -1533,6 +1551,8 @@ msgid ""
 "Username to use for making the request with HTTP Basic Auth. The credential "
 "object is available as {{ credential }}."
 msgstr ""
+"اسم المستخدم المُستخدَم لتقديم الطلب باستخدام مصادقة HTTP الأساسية. كائن "
+"بيانات الاعتماد متاح كـ {{ credential }}."
 
 #: workflow_actions.py:207
 msgid "Password"
@@ -1543,6 +1563,8 @@ msgid ""
 "Password to use for making the request with HTTP Basic Auth. The credential "
 "object is available as {{ credential }}."
 msgstr ""
+"كلمة المرور المستخدمة لتقديم الطلب باستخدام مصادقة HTTP الأساسية. كائن "
+"بيانات الاعتماد متاح كـ {{ credential }}."
 
 #: workflow_actions.py:221
 msgid "Headers"
@@ -1553,6 +1575,8 @@ msgid ""
 "Headers to send with the HTTP request. Must be in JSON format. The "
 "credential object is available as {{ credential }}."
 msgstr ""
+"العناوين المُراد إرسالها مع طلب HTTP. يجب أن تكون بصيغة JSON. كائن بيانات "
+"الاعتماد متاح كـ {{ credential }}."
 
 #: workflow_actions.py:234
 msgid "Payload"
@@ -1560,7 +1584,7 @@ msgstr "الحمولة"
 
 #: workflow_actions.py:238
 msgid "A JSON document to include in the request."
-msgstr ""
+msgstr "مستند JSON المراد تضمينه في الطلب."
 
 #: workflow_actions.py:245
 msgid "Timeout"
@@ -1568,23 +1592,23 @@ msgstr "انتهاء الوقت"
 
 #: workflow_actions.py:250
 msgid "Time in seconds to wait for a response."
-msgstr ""
+msgstr "الوقت بالثواني للانتظار للحصول على الرد."
 
 #: workflow_actions.py:257
 msgid "Store response"
-msgstr ""
+msgstr "استجابة المتجر"
 
 #: workflow_actions.py:262
 msgid "Store the response in the workflow context."
-msgstr ""
+msgstr "قم بتخزين الاستجابة في سياق سير العمل."
 
 #: workflow_actions.py:267
 msgid "Response variable name"
-msgstr ""
+msgstr "اسم متغير الاستجابة"
 
 #: workflow_actions.py:272
 msgid "Variable used to store the response in the workflow instance context."
-msgstr ""
+msgstr "متغير يستخدم لتخزين الاستجابة في سياق مثيل سير العمل."
 
 #: workflow_actions.py:279
 msgid "Perform an HTTP request"
@@ -1592,11 +1616,11 @@ msgstr "نفذ طلب HTTP"
 
 #: workflow_actions.py:290
 msgid "Request"
-msgstr ""
+msgstr "طلب"
 
 #: workflow_actions.py:298
 msgid "Response"
-msgstr ""
+msgstr "إجابة"
 
 #: workflow_actions.py:319
 #, python-format

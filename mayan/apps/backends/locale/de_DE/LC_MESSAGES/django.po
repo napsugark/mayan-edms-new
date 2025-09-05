@@ -5,14 +5,13 @@
 # 
 # Translators:
 # Marvin Haschker <marvin@haschker.me>, 2025
-# Thomas Lauterbach <lauterbachthomas@googlemail.com>, 2025
 # Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-02 14:05+0000\n"
+"POT-Creation-Date: 2025-08-11 08:30+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
@@ -28,7 +27,7 @@ msgstr "Backends"
 
 #: model_mixins.py:22
 msgid "The dotted Python path to the backend class."
-msgstr "Der punktierte Pythonpfad zur Backendklasse."
+msgstr "Der punktierte Pythonpfad zur Backend-Klasse."
 
 #: model_mixins.py:23
 msgid "Backend path"
@@ -36,16 +35,21 @@ msgstr "Backendpfad"
 
 #: model_mixins.py:27
 msgid "JSON encoded data for the backend class."
-msgstr "JSON kodierte Daten für die Backend Klasse."
+msgstr "JSON kodierte Daten für die Backend-Klasse."
 
 #: model_mixins.py:28
 msgid "Backend data"
 msgstr "Backenddaten"
 
-#: model_mixins.py:73
+#: model_mixins.py:72
+#, python-format
+msgid "Error: `%s`"
+msgstr ""
+
+#: model_mixins.py:76
 msgid "Backend"
 msgstr "Backend"
 
-#: model_mixins.py:75
+#: model_mixins.py:78
 msgid "The backend class for this entry."
 msgstr "Die Backend-Klasse für diesen Eintrag."

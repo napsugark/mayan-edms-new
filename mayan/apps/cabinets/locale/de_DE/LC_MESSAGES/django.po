@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:31+0000\n"
+"POT-Creation-Date: 2025-08-27 11:22+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
@@ -126,7 +126,7 @@ msgstr "Aktenschrank"
 
 #: models.py:134
 msgid "Parent and Label"
-msgstr "Überebene und Bezeichnung"
+msgstr "Übergeordnete Ebene und Bezeichner"
 
 #: models.py:142
 #, python-format
@@ -143,7 +143,7 @@ msgstr "Dokumenten-Aktenschränke"
 
 #: permissions.py:12
 msgid "Add documents to cabinets"
-msgstr "%(count)d Dokumente zu Aktenschränken hinzufügen"
+msgstr "Dokumente zu Aktenschränken hinzufügen"
 
 #: permissions.py:15
 msgid "Create cabinets"
@@ -159,7 +159,7 @@ msgstr "Aktenschränke bearbeiten"
 
 #: permissions.py:24
 msgid "Remove documents from cabinets"
-msgstr "%(count)d Dokumente aus Aktenschränken entfernen"
+msgstr "Dokumente aus Aktenschränken entfernen"
 
 #: permissions.py:27
 msgid "View cabinets"
@@ -191,11 +191,11 @@ msgstr "MIME-Typ der Dokumentendatei"
 
 #: search.py:50
 msgid "The database ID of the cabinet."
-msgstr ""
+msgstr "Die Datenbank-ID des Aktenschranks."
 
 #: search.py:51
 msgid "Cabinet ID"
-msgstr ""
+msgstr "Aktenschrank-ID"
 
 #: serializers.py:18
 msgid "List of children cabinets."

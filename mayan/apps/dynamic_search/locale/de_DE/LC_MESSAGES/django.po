@@ -34,32 +34,38 @@ msgstr "Dynamische Suche"
 #: apps.py:87
 msgid "The underlying database model whose content is indexed for search."
 msgstr ""
+"Das zugrundeliegende Datenbankmodell, dessen Inhalt für die Suche indiziert "
+"wird."
 
 #: apps.py:89
 msgid "Model"
-msgstr ""
+msgstr "Modell"
 
 #: apps.py:94
 msgid "The unique name used to reference the search model."
-msgstr ""
+msgstr "Eindeutiger Name um das Suchmodell zu referenzieren."
 
 #: apps.py:102
 msgid "The underlying database field whose content is indexed for search."
 msgstr ""
+"Das zugrundeliegende Datenbankfeld, dessen Inhalt für die Suche indiziert "
+"wird."
 
 #: apps.py:105
 msgid "Field"
-msgstr ""
+msgstr "Feld"
 
 #: apps.py:116
 msgid ""
 "The underlying database field type. This determines the kind of data that is"
 " stored in the database."
 msgstr ""
+"Der zugrundeliegende Datenbankfeldtyp. Dies bestimmt die Art der Daten, die "
+"in der Datenbank gespeichert werden."
 
 #: apps.py:119 serializers.py:61
 msgid "Field class"
-msgstr ""
+msgstr "Feldklasse"
 
 #: apps.py:123 serializers.py:67
 msgid "Description"
@@ -74,19 +80,21 @@ msgstr "Suche"
 
 #: events.py:10
 msgid "Resultset created"
-msgstr ""
+msgstr "Erzeugtes Ergebnisset"
 
 #: forms.py:13
 msgid "Store the search results to speed up paging and for later browsing."
 msgstr ""
+"Suchergebnisse speichern um das Blättern in den Seiten und spätere Ansicht "
+"zu beschleunigen."
 
 #: forms.py:16
 msgid "Save results"
-msgstr ""
+msgstr "Ergebnisse speichern"
 
 #: forms.py:22
 msgid "Persistency"
-msgstr ""
+msgstr "Persistenz"
 
 #: forms.py:38
 msgid "Match all"
@@ -94,7 +102,7 @@ msgstr "Alle Felder"
 
 #: forms.py:39
 msgid "Return only results that match all fields."
-msgstr "Nur Resultate zurückgeben für die alle Felder zutreffen."
+msgstr "Nur Resultate zurückgeben, die für alle Felder zutreffen."
 
 #: forms.py:76
 msgid "Search logic"
@@ -107,11 +115,11 @@ msgstr "Suchbegriffe"
 
 #: forms.py:115
 msgid "Criteria"
-msgstr ""
+msgstr "Kriterien"
 
 #: links.py:21 models.py:61 views/saved_resultset_views.py:72
 msgid "Saved resultsets"
-msgstr ""
+msgstr "Gespeicherte Ergebnissets"
 
 #: links.py:26
 msgid "Delete"
@@ -144,7 +152,7 @@ msgstr "Felder"
 
 #: links.py:60 views/tool_views.py:15
 msgid "Search models"
-msgstr ""
+msgstr "Suchmodelle"
 
 #: literals.py:27
 msgid "Yes"
@@ -159,14 +167,17 @@ msgid ""
 "Time to keep the resultset in seconds. This value is increased every time "
 "the resultset is accessed."
 msgstr ""
+"Zeitspanne wie lange Ergebnissets behalten werden. Dieser Wert wird jedes "
+"Mal zurückgesetzt, wenn auf ein Ergebnisset zugegriffen wird."
 
 #: models.py:26
 msgid "Time to live"
-msgstr ""
+msgstr "Erhaltungszeit"
 
 #: models.py:30
 msgid "The server date and time when the resultset was created."
 msgstr ""
+"Datum und Uhrzeit des Servers, zu denen das Ergebnisset erstellt wurde."
 
 #: models.py:31
 msgid "Timestamp"
@@ -174,7 +185,7 @@ msgstr "Zeitstempel"
 
 #: models.py:34
 msgid "Epoch"
-msgstr ""
+msgstr "Epoche"
 
 #: models.py:37 serializers.py:79
 msgid "App label"
@@ -186,23 +197,23 @@ msgstr "Modellname"
 
 #: models.py:43
 msgid "Search query"
-msgstr ""
+msgstr "Suchabfrage"
 
 #: models.py:46
 msgid "Search explainer text"
-msgstr ""
+msgstr "Text Sucherklärer"
 
 #: models.py:49
 msgid "Number of results stored in the resultset."
-msgstr ""
+msgstr "Anzahl der Ergebnisse, die im Ergebnisset gespeichert sind."
 
 #: models.py:50
 msgid "Result count"
-msgstr ""
+msgstr "Ergebnis Anzahl"
 
 #: models.py:53
 msgid "User for which the resultset was created."
-msgstr ""
+msgstr "Benutzer für den das Ergebnisset erstellt wurde."
 
 #: models.py:55 serializers.py:24
 msgid "User"
@@ -210,23 +221,23 @@ msgstr "Benutzer"
 
 #: models.py:60 models.py:95
 msgid "Saved resultset"
-msgstr ""
+msgstr "Gespeichertes Ergebnisset"
 
 #: models.py:101
 msgid "Saved resultset entry"
-msgstr ""
+msgstr "Eintrag gespeichertes Ergebnisset"
 
 #: models.py:102
 msgid "Saved resultset entries"
-msgstr ""
+msgstr "Einträge gespeichertes Ergebnisset"
 
 #: permissions.py:10
 msgid "Delete resultsets"
-msgstr ""
+msgstr "Ergebnissets löschen"
 
 #: permissions.py:13
 msgid "View resultsets"
-msgstr ""
+msgstr "Ergebnissets ansehen"
 
 #: permissions.py:17
 msgid "Execute search tools"
@@ -262,7 +273,7 @@ msgstr ""
 
 #: queues.py:51
 msgid "Delete expired saved resultsets"
-msgstr ""
+msgstr "Abgelaufene gespeicherte Ergebnissets löschen"
 
 #: scoped_queries.py:345
 #, python-format
@@ -271,6 +282,10 @@ msgid ""
 "if multiple scopes are used. Narrow down the search criteria or increase the"
 " value of the results limit setting `%s`."
 msgstr ""
+"Die Suchergebnisse überschreiten den eingestellten Grenzwert  von %d .  "
+"Ergebnisse können nicht zuverlässig sein, wenn mehrere Suchbereiche "
+"verwendet werden. Schränken Sie die Suchkriterien weiter ein oder erhöhen "
+"Sie den Grenzwert für die Ergebnisse  `%s`."
 
 #: scoped_queries.py:364
 #, python-format
@@ -283,7 +298,7 @@ msgstr ""
 
 #: search_fields.py:100
 msgid "Uniquely identifies the search field."
-msgstr ""
+msgstr "Identifiziert eindeutig das Suchfeld."
 
 #: search_fields.py:101 serializers.py:64
 msgid "Field name"
@@ -294,18 +309,20 @@ msgid ""
 "The type of search field. This determines how the information will be "
 "handled for search indexing."
 msgstr ""
+"Der Typ des Suchfelds. Dies bestimmt wie die Information für die "
+"Suchindizierung verwendet wird."
 
 #: search_fields.py:183 serializers.py:70
 msgid "Search field class"
-msgstr ""
+msgstr "Suchfeldklasse"
 
 #: search_fields.py:223
 msgid "Concrete"
-msgstr ""
+msgstr "Konkret"
 
 #: search_fields.py:245
 msgid "Direct"
-msgstr ""
+msgstr "Direkt"
 
 #: search_fields.py:267
 msgid "Related"
@@ -313,7 +330,7 @@ msgstr "Verwandt"
 
 #: search_fields.py:325
 msgid "Virtual"
-msgstr ""
+msgstr "Virtuell"
 
 #: search_fields.py:340
 msgid "Any"
@@ -374,7 +391,7 @@ msgstr "Regulärer Ausdruck"
 
 #: serializers.py:20
 msgid "Results URL"
-msgstr ""
+msgstr "Ergebnis URL"
 
 #: serializers.py:30 serializers.py:91
 msgid "URL"
@@ -382,7 +399,7 @@ msgstr "URL"
 
 #: serializers.py:53
 msgid "User must be authenticated."
-msgstr ""
+msgstr "Benutzer muss authentifiziert sein."
 
 #: serializers.py:73
 msgid "Label"
@@ -410,7 +427,7 @@ msgstr ""
 
 #: settings.py:39
 msgid "The search operator to use when none is specified."
-msgstr "Der Suchoperator, der bei none benutzt werden soll."
+msgstr "Der Suchoperator, der verwendet wird, wenn keiner angegeben wurde."
 
 #: settings.py:46
 msgid ""
@@ -422,7 +439,7 @@ msgstr ""
 #: settings.py:53
 msgid "Amount of objects to process when performing bulk indexing."
 msgstr ""
-"Anzahl der Objekte, die bei der Massenindizierung verarbeite.t werden sollen"
+"Anzahl der Objekte, die bei der Massenindizierung verarbeitet werden sollen."
 
 #: settings.py:59
 msgid "Sets the default state of the \"Match all\" checkbox."
@@ -442,19 +459,21 @@ msgstr ""
 
 #: settings.py:78
 msgid "Maximum number of saved resultsets to keep per user."
-msgstr ""
+msgstr "Maximale Anzahl der gespeicherten Ergebnissets pro Benutzer."
 
 #: settings.py:84
 msgid "Maximum number of results to store per resultset."
-msgstr ""
+msgstr "Maximale Anzahl der gespeicherten Ergebnisse pro Ergebnisset."
 
 #: settings.py:90
 msgid "Time to keep the resultset in seconds."
-msgstr ""
+msgstr "Zeit in Sekunden für das Speichern von Ergebnissets."
 
 #: settings.py:96
 msgid "Amount to increase the time to live on each access of the resultset."
 msgstr ""
+"Betrag für die Verlängerung der Speicherzeit bei Zugriff auf ein "
+"Ergebnisset."
 
 #: settings.py:103
 msgid ""
@@ -463,10 +482,15 @@ msgid ""
 "the value is a list of the full search field name. Disabled fields will "
 "neither be available for search nor be indexed by the search backend."
 msgstr ""
+"Spezifiziert die Felder die vom Suchmodell ausgeschlossen werden sollen. Das"
+" Format ist ein Dictionary von Listen. Der Suchmodellname ist der Schlüssel "
+"des Dictionaries und der Wert eine Liste von Fullsearch Feldnamen. "
+"Deaktivierte Felder sind weder für die Suche verfügbar noch werden sie im "
+"Suchbackend indiziert."
 
 #: settings.py:113
 msgid "Sets the default state of the \"Store results\" checkbox."
-msgstr ""
+msgstr "Setzt den Defaultwert für die \"Ergebnisse speichern\" Checkbox."
 
 #: templates/dynamic_search/app/list_toolbar.html:24
 msgid "Filter terms"
@@ -525,46 +549,50 @@ msgstr "Zu Zeichenkette"
 #, python-format
 msgid "Error deleting saved resultset \"%(instance)s\"; %(exception)s"
 msgstr ""
+"Fehler beim Löschen  des gespeicherten Ergebnissets \"%(instance)s\"; "
+"%(exception)s"
 
 #: views/saved_resultset_views.py:39
 #, python-format
 msgid "%(count)d saved resultsets deleted successfully."
-msgstr ""
+msgstr "%(count)d gespeicherte Ergebnissets erfolgreich gelöscht."
 
 #: views/saved_resultset_views.py:42
 #, python-format
 msgid "Saved resultset \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "Gespeichertes Ergebnisset \"%(object)s\" erfolgreich gelöscht."
 
 #: views/saved_resultset_views.py:45
 #, python-format
 msgid "%(count)d saved resultset deleted successfully."
-msgstr ""
+msgstr "%(count)d gespeichertes Ergebnisset erfolgreich gelöscht."
 
 #: views/saved_resultset_views.py:48
 #, python-format
 msgid "Delete the %(count)d selected saved resultsets."
-msgstr ""
+msgstr "%(count)d ausgewählte Ergebnissets löschen."
 
 #: views/saved_resultset_views.py:50
 #, python-format
 msgid "Delete saved resultset: %(object)s."
-msgstr ""
+msgstr "Ergebnisset löschen: %(object)s."
 
 #: views/saved_resultset_views.py:51
 #, python-format
 msgid "Delete the %(count)d saved resultset."
-msgstr ""
+msgstr "%(count)d Ergebnisset löschen."
 
 #: views/saved_resultset_views.py:68
 msgid ""
 "Saved resultsets are objects that store the results of a previous search for"
 " a determined amount of time."
 msgstr ""
+"Gespeicherte Ergebnissets sind Objekte, die die Ergebnisse einer früheren "
+"Suche für eine bestimmte Zeitdauer speichern."
 
 #: views/saved_resultset_views.py:71
 msgid "No saved resultsets available"
-msgstr ""
+msgstr "Keine gespeicherten Ergebnissets verfügbar."
 
 #: views/search_views.py:58
 msgid "This tool erases and populates the search backend's internal index."
@@ -621,9 +649,9 @@ msgstr "Suchergebnisse für: %s"
 #: views/tool_views.py:34
 #, python-format
 msgid "Fields for search model: %s"
-msgstr ""
+msgstr "Felder für Suchmodell: %s"
 
 #: views/tool_views.py:45
 #, python-format
 msgid "Search model: %s, not found"
-msgstr ""
+msgstr "Suchmodell: %s, nicht gefunden"

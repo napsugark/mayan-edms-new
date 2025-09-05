@@ -7,6 +7,7 @@
 # WM Shinkada <shinkadawasim@gmail.com>, 2025
 # Mohammed ALDOUB <voulnet@gmail.com>, 2025
 # Marwan Rahhal <Marwanr@sssit.net>, 2025
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2025\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -72,7 +73,7 @@ msgstr "تحقق من انتهاء الصلاحية"
 
 #: forms.py:50
 msgid "New files allowed?"
-msgstr ""
+msgstr "هل يُسمح بملفات جديدة؟"
 
 #: forms.py:51
 msgid "Yes"
@@ -136,11 +137,11 @@ msgstr "التحقق من تاريخ انتهاء الصلاحية للوقت و
 
 #: models.py:51
 msgid "Do not allow new file of this document to be uploaded."
-msgstr ""
+msgstr "لا تسمح بتحميل ملف جديد لهذا المستند."
 
 #: models.py:52
 msgid "Block new file upload"
-msgstr ""
+msgstr "حظر تحميل ملف جديد"
 
 #: models.py:60 permissions.py:6
 msgid "Document checkout"
@@ -188,77 +189,77 @@ msgstr "المفتاح الأساسي للمستند المراد سحبه."
 
 #: serializers.py:47
 msgid "Document ID"
-msgstr ""
+msgstr "معرّف المستند"
 
 #: views.py:28
 #, python-format
 msgid "Unable to check in document \"%(instance)s\"; %(exception)s"
-msgstr ""
+msgstr "تعذّر إيداع المستند \"%(instance)s\"؛ %(exception)s"
 
 #: views.py:32
 #, python-format
 msgid "%(count)d documents checked in successfully."
-msgstr ""
+msgstr "تم إيداع %(count)d مستندات بنجاح."
 
 #: views.py:35
 #, python-format
 msgid "Document \"%(object)s\" checked in successfully."
-msgstr ""
+msgstr "تم إيداع المستند \"%(object)s\" بنجاح."
 
 #: views.py:38
 #, python-format
 msgid "%(count)d document checked in successfully."
-msgstr ""
+msgstr "تم إيداع %(count)d مستند بنجاح."
 
 #: views.py:40
 #, python-format
 msgid "Check in %(count)d documents."
-msgstr ""
+msgstr "إيداع %(count)d مستندات."
 
 #: views.py:41
 #, python-format
 msgid "Check in document \"%(object)s\"."
-msgstr ""
+msgstr "إيداع المستند \"%(object)s\"."
 
 #: views.py:42
 #, python-format
 msgid "Check in %(count)d document."
-msgstr ""
+msgstr "إيداع %(count)d مستند."
 
 #: views.py:95
 #, python-format
 msgid "Unable to checkout document \"%(instance)s\"; %(exception)s"
-msgstr ""
+msgstr "تعذّر سحب المستند \"%(instance)s\"؛ %(exception)s"
 
 #: views.py:102
 #, python-format
 msgid "%(count)d documents checked out successfully."
-msgstr ""
+msgstr "تم سحب %(count)d مستندات بنجاح."
 
 #: views.py:105
 #, python-format
 msgid "Document \"%(object)s\" checked out successfully."
-msgstr ""
+msgstr "تم سحب المستند \"%(object)s\" بنجاح."
 
 #: views.py:108
 #, python-format
 msgid "%(count)d document checked out successfully."
-msgstr ""
+msgstr "تم سحب %(count)d مستند بنجاح."
 
 #: views.py:110
 #, python-format
 msgid "Checkout %(count)d documents."
-msgstr ""
+msgstr "سحب %(count)d مستندات."
 
 #: views.py:111
 #, python-format
 msgid "Checkout document \"%(object)s\"."
-msgstr ""
+msgstr "سحب المستند \"%(object)s\"."
 
 #: views.py:112
 #, python-format
 msgid "Checkout %(count)d document."
-msgstr ""
+msgstr "سحب %(count)d مستند."
 
 #: views.py:160
 #, python-format

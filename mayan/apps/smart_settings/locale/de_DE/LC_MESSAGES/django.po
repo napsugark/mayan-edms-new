@@ -28,7 +28,7 @@ msgstr ""
 
 #: apps.py:29 permissions.py:6
 msgid "Smart settings"
-msgstr "Einstellungen"
+msgstr "Smart Settings"
 
 #: apps.py:39
 msgid "Setting count"
@@ -44,13 +44,15 @@ msgstr "Wert"
 
 #: classes.py:162
 msgid "Has errors"
-msgstr ""
+msgstr "Fehler vorhanden"
 
 #: classes.py:164
 msgid ""
 "Indicates that this setting was not loaded correctly. Settings with errors "
 "revert to their default value."
 msgstr ""
+"Zeigt an, dass diese Einstellung nicht korrekt geladen wurde. Für "
+"fehlerhafte Einstellungen werden Standardwerte verwendet."
 
 #: classes.py:171
 msgid "Choices"
@@ -63,6 +65,8 @@ msgstr "Mögliche Werte, die für diese Einstellung erlaubt sind."
 #: classes.py:194
 msgid "Cannot revert setting. Setting value has not been updated."
 msgstr ""
+"Kann Einstellung nicht zurücksetzen. Einstellungswert wurde nicht "
+"aktualisiert."
 
 #: classes.py:231
 msgid "Default"
@@ -70,11 +74,11 @@ msgstr "Standard"
 
 #: classes.py:244
 msgid "Modified"
-msgstr ""
+msgstr "Geändert"
 
 #: classes.py:246
 msgid "The value of this setting being modified since the last restart."
-msgstr ""
+msgstr "Der Wert dieser seit dem letzten Neustart geänderten Einstellung."
 
 #: classes.py:252
 msgid "Overridden"
@@ -84,6 +88,7 @@ msgstr "Überschrieben"
 msgid ""
 "The value of the setting is being overridden by an environment variable."
 msgstr ""
+"Der Wert dieser Einstellung wird von einer Umgebungsvariablen überschrieben."
 
 #: forms.py:32
 msgid "Enter the new setting value."
@@ -119,6 +124,9 @@ msgid ""
 "Local storage is currently disabled, changes to settings will not be saved. "
 "Instead, use environment variables to modify settings."
 msgstr ""
+"Lokale Speicherung ist momentan deaktiviert, geänderte Einstellungen werden "
+"nicht gespeichert. Verwenden Sie stattdessen Umgebungsvariablen zur Änderung"
+" von Einstellungen."
 
 #: models.py:8
 msgid "A short text used as the tag name."
@@ -126,23 +134,23 @@ msgstr "Ein kurzer Text für den Namen des Tags."
 
 #: models.py:9
 msgid "Global name"
-msgstr ""
+msgstr "Globaler Name"
 
 #: models.py:12
 msgid "New value"
-msgstr ""
+msgstr "Neuer Wert"
 
 #: models.py:15
 msgid "Old value"
-msgstr ""
+msgstr "Alter Wert"
 
 #: models.py:19
 msgid "Updated setting"
-msgstr ""
+msgstr "Aktualisierte Einstellung"
 
 #: models.py:20
 msgid "Updated settings"
-msgstr ""
+msgstr "Aktualisierte Einstellungen"
 
 #: permissions.py:10
 msgid "Edit settings"
@@ -228,6 +236,11 @@ msgid ""
 "https://docs.djangoproject.com/en/4.2/ref/settings/#std-setting-"
 "CSRF_COOKIE_SECURE"
 msgstr ""
+"Ob ein secure cookie als CSRF cookie verwendet werden soll. Bei setzen auf "
+"Wahr (True) wird das cookie als \"secure\" markiert, d.h. Browser sollten "
+"sicherstellen, dass das cookie nür über eine HTTPS Verbindung gesendet wird."
+" https://docs.djangoproject.com/en/4.2/ref/settings/#std-setting-"
+"CSRF_COOKIE_SECURE"
 
 #: settings.py:85
 msgid ""
@@ -235,6 +248,8 @@ msgid ""
 "https://docs.djangoproject.com/en/4.2/ref/settings/#std-setting-"
 "CSRF_TRUSTED_ORIGINS"
 msgstr ""
+"Eine Liste von vertrauenswürdigen Herkunfts-URLs (origins) (z.B POST).\n"
+"https://docs.djangoproject.com/en/4.2/ref/settings/#std-setting-CSRF_TRUSTED_ORIGINS"
 
 #: settings.py:92
 msgid ""
@@ -242,6 +257,9 @@ msgid ""
 "cookie. https://docs.djangoproject.com/en/4.2/ref/settings/#std-setting-"
 "CSRF_USE_SESSIONS"
 msgstr ""
+"Ob das CSRF token in der Benutzersitzung statt einem cookie gespeichert "
+"wird. https://docs.djangoproject.com/en/4.2/ref/settings/#std-setting-"
+"CSRF_USE_SESSIONS"
 
 #: settings.py:99
 msgid ""
@@ -542,6 +560,10 @@ msgid ""
 "Django. It is a nested dictionary whose contents map a storage alias to a "
 "dictionary containing the options for an individual storage."
 msgstr ""
+"Ein Dictionary welches eine Liste aller Speicher enthält, die mit Django "
+"verwendet werden. Es ist ein geschachteltes Dictionary, dessen Inhalt einen "
+"Storage Alias zu einem Dictionary zuordnet, welches die Optionen für den "
+"jeweiligen Storage enthält."
 
 #: settings.py:323
 msgid ""
@@ -596,6 +618,8 @@ msgid ""
 "Settings updated. Save and restart your installation for changes to take "
 "effect."
 msgstr ""
+"Einstellungen aktualisiert. Speichern Sie und starten Sie Ihre Installation "
+"neu, damit die Änderungen wirksam werden."
 
 #: tests/test_classes.py:192
 msgid "English"
@@ -603,15 +627,15 @@ msgstr "Englisch"
 
 #: views.py:41
 msgid "This will overwrite the content of the configuration file."
-msgstr ""
+msgstr "Diese wird den Inhalt der Konfigurationsdatei überschreiben."
 
 #: views.py:44
 msgid "Save settings to the configuration file?"
-msgstr ""
+msgstr "Einstellungen in der Konfigurationsdatei speichern?"
 
 #: views.py:52
 msgid "Settings saved to configuration file successfully."
-msgstr ""
+msgstr "Einstellungen erfolgreich in der Konfigurationsdatei gespeichert."
 
 #: views.py:60
 msgid "Setting namespaces"
@@ -626,6 +650,8 @@ msgid ""
 "This setting is overridden by an environment variable, changing its value "
 "will have no effect."
 msgstr ""
+"Diese Einstellung wurde durch eine Umgebungsvariable überschrieben, eine "
+"Änderung ihres Werts wird keine Wirksamkeit entfalten."
 
 #: views.py:108
 #, python-format
@@ -635,36 +661,36 @@ msgstr "Einstellung %s bearbeiten"
 #: views.py:129
 #, python-format
 msgid "%(count)d settings value reverted."
-msgstr ""
+msgstr "%(count)d Einstellungswerte zurückgesetzt."
 
 #: views.py:132
 #, python-format
 msgid "Value of setting \"%(object)s\" reverted."
-msgstr ""
+msgstr "Wert von Einstellung \"%(object)s\" zurückgesetzt."
 
 #: views.py:134
 #, python-format
 msgid "%(count)d setting value reverted."
-msgstr ""
+msgstr "%(count)d Einstellungswert zurückgesetzt."
 
 #: views.py:136
 #, python-format
 msgid "Revert the value of the %(count)d selected settings."
-msgstr ""
+msgstr "Wert von %(count)d ausgewählten Einstellungen zurücksetzen."
 
 #: views.py:138
 #, python-format
 msgid "Revert the value of setting: %(object)s"
-msgstr ""
+msgstr "Setze den Wert von Einstellung %(object)s zurück"
 
 #: views.py:140
 #, python-format
 msgid "Revert the value of %(count)d selected setting."
-msgstr ""
+msgstr "Wert von %(count)d ausgewählter Einstellung zurücksetzen."
 
 #: views.py:150
 msgid "Unsaved changes will be lost."
-msgstr ""
+msgstr "Ungespeicherte Änderungen gehen verloren."
 
 #: views.py:187
 msgid ""

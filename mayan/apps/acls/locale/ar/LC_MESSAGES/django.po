@@ -9,6 +9,7 @@
 # Yaman Sanobar <yman.snober@gmail.com>, 2025
 # Ali <alimahwer@yahoo.com>, 2025
 # Ayoub BENSAKHRIA <bensakhria.ayoub@gmail.com>, 2025
+# Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
@@ -16,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Ayoub BENSAKHRIA <bensakhria.ayoub@gmail.com>, 2025\n"
+"Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -92,7 +93,7 @@ msgstr "عدد الأذونات"
 
 #: models.py:42 serializers.py:16
 msgid "Content type"
-msgstr ""
+msgstr "نوع المحتوى"
 
 #: models.py:45 workflow_actions.py:54
 msgid "Object ID"
@@ -125,19 +126,19 @@ msgstr "إستعراض قوائم الصلاحيات"
 
 #: serializers.py:19
 msgid "Permissions add URL"
-msgstr ""
+msgstr "رابط إضافة الصلاحيات"
 
 #: serializers.py:39
 msgid "Permissions remove URL"
-msgstr ""
+msgstr "رابط إزالة الصلاحيات"
 
 #: serializers.py:59
 msgid "Permissions URL"
-msgstr ""
+msgstr "رابط الصلاحيات"
 
 #: serializers.py:82
 msgid "Role ID"
-msgstr ""
+msgstr "معرّف الدور"
 
 #: serializers.py:85
 msgid "URL"
@@ -149,7 +150,7 @@ msgstr "المفتاح الأساسي للإذن بالإضافة إلى قائ�
 
 #: serializers.py:119 serializers.py:126
 msgid "Permission ID"
-msgstr ""
+msgstr "معرّف الصلاحية"
 
 #: serializers.py:125
 msgid "Primary key of the permission to remove from the ACL."
@@ -255,7 +256,7 @@ msgstr "إتاحة الوصول إلى الكائن"
 
 #: workflow_actions.py:133 workflow_actions.py:232
 msgid "Access"
-msgstr ""
+msgstr "وصول"
 
 #: workflow_actions.py:171
 msgid "Revoke object access"

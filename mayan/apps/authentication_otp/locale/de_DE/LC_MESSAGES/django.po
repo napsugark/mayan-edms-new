@@ -22,7 +22,7 @@ msgstr ""
 
 #: apps.py:23 events.py:6
 msgid "Authentication OTP"
-msgstr "Authentifizierung Einmalpasswort"
+msgstr "Authentifizierung Einmalpasswort (OTP)"
 
 #: events.py:10
 msgid "OTP disabled"

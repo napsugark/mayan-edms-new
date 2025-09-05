@@ -22,19 +22,19 @@ msgstr ""
 
 #: apps.py:147
 msgid "App class full path"
-msgstr ""
+msgstr "App Klasse voller Pfad"
 
 #: apps.py:153
 msgid "App URL"
-msgstr ""
+msgstr "App URL"
 
 #: apps.py:164
 msgid "Has REST API"
-msgstr ""
+msgstr "Mit REST API"
 
 #: apps.py:169
 msgid "Has tests"
-msgstr ""
+msgstr "Mit Tests"
 
 #: apps.py:174
 msgid "Name"
@@ -42,20 +42,20 @@ msgstr "Name"
 
 #: apps.py:179
 msgid "Verbose name"
-msgstr ""
+msgstr "Ausführlicher Name"
 
 #: apps.py:198
 msgid "App manager"
-msgstr ""
+msgstr "App-Manager"
 
 #: links.py:8
 msgid "Apps"
-msgstr ""
+msgstr "Apps"
 
 #: views.py:16
 msgid "Detected and active Mayan EDMS apps."
-msgstr ""
+msgstr "Entdeckte und aktive Mayan EDMS Apps."
 
 #: views.py:17
 msgid "System apps"
-msgstr ""
+msgstr "System Apps"

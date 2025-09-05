@@ -68,7 +68,7 @@ class Parser:
                 ).append(parser_class)
 
     def process_document_file(self, document_file):
-        logger.info(
+        logger.debug(
             'Starting parsing for document file: %s', document_file
         )
         logger.debug('document file: %d', document_file.pk)
@@ -84,7 +84,7 @@ class Parser:
             model_name='DocumentFilePageContent'
         )
 
-        logger.info(
+        logger.debug(
             'Processing page: %d of document file: %s',
             document_file_page.page_number, document_file_page.document_file
         )
@@ -109,7 +109,7 @@ class Parser:
             finally:
                 file_object.close()
 
-        logger.info(
+        logger.debug(
             'Finished processing page: %d of document file: %s',
             document_file_page.page_number, document_file_page.document_file
         )

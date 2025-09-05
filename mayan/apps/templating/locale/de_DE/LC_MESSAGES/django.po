@@ -30,21 +30,21 @@ msgstr "Vorlagen"
 
 #: apps.py:23
 msgid "Current date and time"
-msgstr ""
+msgstr "Aktuelles Datum und Zeit"
 
 #: classes.py:83
 #, python-format
 msgid "Model `%s` is not available for template sandbox."
-msgstr ""
+msgstr "Modell `%s` ist nicht für die Vorlagensandbox verfügbar."
 
 #: fields.py:28
 msgid "Use Django's default templating language. "
-msgstr ""
+msgstr "Verwenden Sie die Standard Vorlagensprache von Django."
 
 #: fields.py:42
 #, python-format
 msgid "Available template context variables: %s"
-msgstr ""
+msgstr "Verfügbare Kontextvariablen:  %s"
 
 #: forms.py:10
 msgid "Resulting text from the evaluated template."
@@ -91,6 +91,8 @@ msgid ""
 "Theme name of the CSS stylesheet used to change the visual appearance of the"
 " template preview."
 msgstr ""
+"Themenname des CSS Stylesheet das für die Darstellung der Vorlagenvorschau "
+"verwendet wird."
 
 #: views.py:59
 #, python-format

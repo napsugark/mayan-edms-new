@@ -89,11 +89,13 @@ msgstr "Ein komprimiertes Bündel von Dokumentendateien erzeugen"
 #: settings.py:21
 msgid "Path to the download subclass to use when downloading document files."
 msgstr ""
+"Pfad zur Download-Unterklasse, die für den Download von Dokumentendateien "
+"verwendet wird."
 
 #: settings.py:29
 msgid ""
 "Arguments to pass to the DOCUMENT_DOWNLOADS_DOCUMENT_FILE_DOWNLOAD_BACKEND."
-msgstr ""
+msgstr "Argumente für das DOCUMENT_DOWNLOADS_DOCUMENT_FILE_DOWNLOAD_BACKEND."
 
 #: settings.py:36
 msgid ""
