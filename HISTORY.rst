@@ -74,6 +74,7 @@
 - Ensure `get_language_option_list` returns a list of options and not a
   `dict_keys` object.
 - Rename duplicated documents link and view title for clarity.
+- Remove the deprecated `coveralls` library.
 
 4.9.5 (XXXX-XX-XX)
 ==================

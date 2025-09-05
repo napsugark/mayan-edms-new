@@ -14,10 +14,6 @@ PythonDependency(
     version_string='==7.10.6'
 )
 PythonDependency(
-    environment=environment_testing, module=__name__, name='coveralls',
-    version_string='==3.3.1'
-)
-PythonDependency(
     environment=environment_testing, module=__name__,
     name='django-test-migrations', version_string='==1.5.0'
 )
