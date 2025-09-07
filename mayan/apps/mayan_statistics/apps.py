@@ -51,20 +51,29 @@ class StatisticsApp(MayanAppConfig):
             label=_(message='Last update'), source=StatisticType
         )
 
+        # StatisticNamespace
+
         menu_list_facet.bind_links(
             links=(link_statistic_namespace_detail,),
             sources=(StatisticNamespace,)
         )
-        menu_object.bind_links(
-            links=(link_statistic_type_detail, link_statistic_type_queue),
-            sources=(StatisticType,)
-        )
+
         menu_return.bind_links(
             links=(link_statistic_namespace_list,),
             sources=(
                 StatisticNamespace, 'statistics:statistic_namespace_list'
             )
         )
+
+        # StatisticType
+
+        menu_list_facet.bind_links(
+            links=(link_statistic_type_detail,), sources=(StatisticType,)
+        )
+        menu_object.bind_links(
+            links=(link_statistic_type_queue,), sources=(StatisticType,)
+        )
+
         menu_tools.bind_links(
             links=(link_statistics,)
         )
