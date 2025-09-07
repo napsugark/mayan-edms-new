@@ -21,7 +21,9 @@ def get_databases_sqlite():
     return {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': Path(MEDIA_ROOT, 'db.sqlite3')  # NOQA: F821
+            'NAME': str(
+                Path(MEDIA_ROOT, 'db.sqlite3')  # NOQA: F821
+            )
         }
     }
 
