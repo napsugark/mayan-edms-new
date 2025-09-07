@@ -4,5 +4,5 @@ from mayan.apps.dependencies.classes import JavaScriptDependency
 
 JavaScriptDependency(
     label=_(message='FontAwesome'), module=__name__,
-    name='@fortawesome/fontawesome-free', version_string='=7.0.1'
+    name='@fortawesome/fontawesome-free', version_string='=6.7.2'
 )
