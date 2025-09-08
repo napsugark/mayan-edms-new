@@ -2,8 +2,11 @@ import base64
 
 from django.template import Library, Node, TemplateSyntaxError
 from django.utils.html import strip_spaces_between_tags
+from django.utils.translation import gettext_lazy as _
 
 from mayan.apps.common.utils import flatten_map, flatten_object
+
+from ..decorators import templating_dangerous_tag
 
 register = Library()
 
@@ -92,6 +95,11 @@ class SpacelessPlusNode(Node):
 
 
 @register.simple_tag(name='method')
+@templating_dangerous_tag(
+    reason=_(
+        message='Tag can bypass access controls and create permanent changes.'
+    )
+)
 def tag_method(obj, method, *args, **kwargs):
     """
     Call an object method. {% method object method **kwargs %}

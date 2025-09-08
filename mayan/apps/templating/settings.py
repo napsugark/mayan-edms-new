@@ -2,6 +2,8 @@ from django.utils.translation import gettext_lazy as _
 
 from mayan.apps.smart_settings.settings import setting_cluster
 
+from .literals import DEFAULT_TEMPLATING_TAGS_DANGEROUS_ALLOW_LIST
+
 CHOICES_TEMPLATING_WIDGET_HIGHLIGHT_THEME = (
     'a11y-dark', 'a11y-light', 'agate', 'an-old-hope', 'androidstudio',
     'arduino-light', 'arta', 'ascetic', 'atom-one-dark',
@@ -94,6 +96,13 @@ setting_namespace = setting_cluster.do_namespace_add(
     label=_(message='Templating'), name='templating'
 )
 
+setting_templating_dangerous_tags_allow_list = setting_namespace.do_setting_add(
+    default=DEFAULT_TEMPLATING_TAGS_DANGEROUS_ALLOW_LIST,
+    global_name='TEMPLATING_TAGS_DANGEROUS_ALLOW_LIST', help_text=_(
+        message='A comma separated list of dangerous templating tags and '
+        'filters that are allowed.'
+    )
+)
 setting_templating_widget_highlight_theme = setting_namespace.do_setting_add(
     choices=CHOICES_TEMPLATING_WIDGET_HIGHLIGHT_THEME,
     default=DEFAULT_TEMPLATING_WIDGET_HIGHLIGHT_THEME,

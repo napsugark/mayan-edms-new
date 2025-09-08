@@ -2,8 +2,33 @@ import html
 
 from mayan.apps.testing.tests.base import BaseTestCase
 
+from ..exceptions import DangerousTagError
+from ..settings import setting_templating_dangerous_tags_allow_list
+from ..templatetags.templating_test_tags import (
+    templating_test_filter_dangerous, templating_test_tag,
+    templating_test_tag_dangerous
+)
+
 from .literals import TEST_TEMPLATE_TAG_RESULT
 from .mixins import TemplateTestMixin
+
+
+class TemplateFilterDangerousTestCase(TemplateTestMixin, BaseTestCase):
+    def test_user_template_filter_dangerous(self):
+        with self.assertRaises(expected_exception=DangerousTagError):
+            self._render_test_template(
+                template_string='{% load templating_test_tags %}{{ 1|dangerous_filter }}'
+            )
+
+    def test_user_template_filter_dangerous_allowed(self):
+        setting_templating_dangerous_tags_allow_list.do_value_raw_set(
+            raw_value='dangerous_filter'
+        )
+
+        result = self._render_test_template(
+            template_string='{% load templating_test_tags %}{{ 1|dangerous_filter }}'
+        )
+        self.assertEqual(result, TEST_TEMPLATE_TAG_RESULT)
 
 
 class TemplateFilterDictGetTestCase(TemplateTestMixin, BaseTestCase):
@@ -141,6 +166,36 @@ class TemplateFilterSplitTestCase(TemplateTestMixin, BaseTestCase):
             template_string='{% with x|split:"," as result %}{{ result.0 }}-{{ result.1 }}-{{ result.2 }}{% endwith %}', context={'x': '1,2,3'}
         )
         self.assertEqual(result, '1-2-3')
+
+
+class TemplateTagDangerousTestCase(TemplateTestMixin, BaseTestCase):
+    def test_user_template_tag_dangerous(self):
+        with self.assertRaises(expected_exception=DangerousTagError):
+            self._render_test_template(
+                template_string='{% load templating_test_tags %}{% dangerous_tag %}'
+            )
+
+    def test_user_template_tag_dangerous_allowed(self):
+        setting_templating_dangerous_tags_allow_list.do_value_raw_set(
+            raw_value='dangerous_tag'
+        )
+
+        result = self._render_test_template(
+            template_string='{% load templating_test_tags %}{% dangerous_tag %}'
+        )
+        self.assertEqual(result, TEST_TEMPLATE_TAG_RESULT)
+
+
+class TemplateTagDocstringTestCase(TemplateTestMixin, BaseTestCase):
+    def test_user_template_get_docstring(self):
+        result = templating_test_filter_dangerous.__doc__
+        self.assertEqual(result, '\nTest docstring dangerous filter\n')
+
+        result = templating_test_tag.__doc__
+        self.assertEqual(result, '\nTest docstring\n')
+
+        result = templating_test_tag_dangerous.__doc__
+        self.assertEqual(result, '\nTest docstring dangerous tag\n')
 
 
 class TemplateTagLoadingTestCase(TemplateTestMixin, BaseTestCase):

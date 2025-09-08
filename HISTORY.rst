@@ -104,6 +104,12 @@
   - Solve various warnings.
   - Rename scripts and make file target to follow the {object}-{verb} layout.
 
+- Add support for marking template tags and filters as "dangerous". These are
+  tags or filters that if not properly used or controlled with adequate
+  permissions can allow more access than intended. Adds the setting
+  `TEMPLATING_TAGS_DANGEROUS_ALLOW_LIST`, which defaults to allowing the
+  existing tags for backward compatibility.
+
 4.9.5 (XXXX-XX-XX)
 ==================
 - Improvements and changes from version 4.8.8.
