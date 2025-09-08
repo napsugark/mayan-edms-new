@@ -22,126 +22,126 @@ gitlab-ci-run:
 
 gitlab-ci-release-documentation: ## Trigger the documentation build and publication using GitLab CI
 gitlab-ci-release-documentation:
-	git push $(GIT_REMOTE_NAME)
-	git push $(GIT_REMOTE_NAME) --tags
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_DOCUMENTATION) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_DOCUMENTATION)
+	git push $(GITLAB_CI_REMOTE_NAME)
+	git push $(GITLAB_CI_REMOTE_NAME) --tags
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_DOCUMENTATION) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_DOCUMENTATION)
 
 gitlab-ci-release-docker-major: ## Trigger the Docker image build and publication using GitLab CI
 gitlab-ci-release-docker-major:
-	git push $(GIT_REMOTE_NAME)
-	git push $(GIT_REMOTE_NAME) --tags
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_DOCKER_MAJOR) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_DOCKER_MAJOR)
+	git push $(GITLAB_CI_REMOTE_NAME)
+	git push $(GITLAB_CI_REMOTE_NAME) --tags
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_DOCKER_MAJOR) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_DOCKER_MAJOR)
 
 gitlab-ci-release-python-major: ## Trigger the Python package build and publication using GitLab CI
 gitlab-ci-release-python-major:
-	git push $(GIT_REMOTE_NAME)
-	git push $(GIT_REMOTE_NAME) --tags
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_PYTHON_MAJOR) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_PYTHON_MAJOR)
+	git push $(GITLAB_CI_REMOTE_NAME)
+	git push $(GITLAB_CI_REMOTE_NAME) --tags
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_PYTHON_MAJOR) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_PYTHON_MAJOR)
 
 gitlab-ci-release-all-major: ## Trigger the Python package, Docker image, and documentation build and publication using GitLab CI
 gitlab-ci-release-all-major:
-	git push $(GIT_REMOTE_NAME)
-	git push $(GIT_REMOTE_NAME) --tags
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_ALL_MAJOR) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_ALL_MAJOR)
+	git push $(GITLAB_CI_REMOTE_NAME)
+	git push $(GITLAB_CI_REMOTE_NAME) --tags
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_ALL_MAJOR) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_ALL_MAJOR)
 
 # Minor releases
 
 gitlab-ci-release-docker-minor: ## Trigger the Docker image build and publication of a minor version using GitLab CI
 gitlab-ci-release-docker-minor:
-	git push $(GIT_REMOTE_NAME)
-	git push $(GIT_REMOTE_NAME) --tags
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_DOCKER_MINOR) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_DOCKER_MINOR)
+	git push $(GITLAB_CI_REMOTE_NAME)
+	git push $(GITLAB_CI_REMOTE_NAME) --tags
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_DOCKER_MINOR) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_DOCKER_MINOR)
 
 gitlab-ci-release-python-minor: ## Trigger the Python package build and publication of a minor version using GitLab CI
 gitlab-ci-release-python-minor:
-	git push $(GIT_REMOTE_NAME)
-	git push $(GIT_REMOTE_NAME) --tags
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_PYTHON_MINOR) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_PYTHON_MINOR)
+	git push $(GITLAB_CI_REMOTE_NAME)
+	git push $(GITLAB_CI_REMOTE_NAME) --tags
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_PYTHON_MINOR) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_PYTHON_MINOR)
 
 gitlab-ci-release-all-minor: ## Trigger the Python package, Docker image build and publication of a minor version using GitLab CI
 gitlab-ci-release-all-minor:
-	git push $(GIT_REMOTE_NAME)
-	git push $(GIT_REMOTE_NAME) --tags
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_ALL_MINOR) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_ALL_MINOR)
+	git push $(GITLAB_CI_REMOTE_NAME)
+	git push $(GITLAB_CI_REMOTE_NAME) --tags
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_ALL_MINOR) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_ALL_MINOR)
 
 # Development releases
 
 gitlab-ci-release-nightly: ## Trigger the Docker image build and publication of a nightly version using GitLab CI
 gitlab-ci-release-nightly:
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_NIGHTLY) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_NIGHTLY)
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_NIGHTLY) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_NIGHTLY)
 
 gitlab-ci-release-testing: ## Trigger the Docker image build and publication of a test version using GitLab CI
 gitlab-ci-release-testing:
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_TESTING) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_TESTING)
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_RELEASES_TESTING) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_RELEASES_TESTING)
 
 # GitOps builds
 
 gitlab-ci-builds-docker: ## Trigger all tests as a CD/CI pipeline
 gitlab-ci-builds-docker:
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_BUILDS_DOCKER) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_BUILDS_DOCKER)
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_BUILDS_DOCKER) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_BUILDS_DOCKER)
 
 gitlab-ci-builds-documentation: ## Trigger normal and migration tests as a CD/CI pipeline
 gitlab-ci-builds-documentation:
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_BUILDS_DOCUMENTATION) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_BUILDS_DOCUMENTATION)
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_BUILDS_DOCUMENTATION) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_BUILDS_DOCUMENTATION)
 
 gitlab-ci-builds-python: ## Trigger upgrade tests as a CD/CI pipeline
 gitlab-ci-builds-python:
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_BUILDS_PYTHON) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_BUILDS_PYTHON)
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_BUILDS_PYTHON) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_BUILDS_PYTHON)
 
 # GitOps deployments
 
 gitlab-ci-deployments-demo: ## Trigger the demo deployment
 gitlab-ci-deployments-demo:
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_DEPLOYMENTS_DEMO) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_DEPLOYMENTS_DEMO)
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_DEPLOYMENTS_DEMO) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_DEPLOYMENTS_DEMO)
 
 gitlab-ci-deployments-staging: ## Trigger the staging deployment
 gitlab-ci-deployments-staging:
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_DEPLOYMENTS_STAGING) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_DEPLOYMENTS_STAGING)
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_DEPLOYMENTS_STAGING) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_DEPLOYMENTS_STAGING)
 
 # GitOps testing
 
 gitlab-ci-tests-all: ## Trigger all tests as a CD/CI pipeline
 gitlab-ci-tests-all:
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_TESTS_ALL) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_TESTS_ALL)
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_TESTS_ALL) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_TESTS_ALL)
 
 gitlab-ci-tests-docker: ## Trigger a build and test of a Docker image as a CD/CI pipeline
 gitlab-ci-tests-docker:
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_TESTS_DOCKER) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_TESTS_DOCKER)
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_TESTS_DOCKER) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_TESTS_DOCKER)
 
 gitlab-ci-tests-python-all: ## Trigger all Python tests as a CD/CI pipeline
 gitlab-ci-tests-python-all:
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_TESTS_PYTHON_ALL) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_TESTS_PYTHON_ALL)
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_TESTS_PYTHON_ALL) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_TESTS_PYTHON_ALL)
 
 gitlab-ci-tests-python-base: ## Trigger base Python tests as a CD/CI pipeline
 gitlab-ci-tests-python-base:
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_TESTS_PYTHON_BASE) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_TESTS_PYTHON_BASE)
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_TESTS_PYTHON_BASE) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_TESTS_PYTHON_BASE)
 
 gitlab-ci-tests-python-upgrade: ## Trigger upgrade tests as a CD/CI pipeline
 gitlab-ci-tests-python-upgrade:
-	git push $(GIT_REMOTE_NAME) :$(GITLAB_CI_BRANCH_TESTS_PYTHON_UPGRADE) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_TESTS_PYTHON_UPGRADE)
+	git push $(GITLAB_CI_REMOTE_NAME) :$(GITLAB_CI_BRANCH_TESTS_PYTHON_UPGRADE) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_TESTS_PYTHON_UPGRADE)
 
 # GitOps Combined
 
 gitlab-ci-try-staging: ## Trigger a build and deploy to staging
 gitlab-ci-try-staging:
-	git push $(GIT_REMOTE_NAME)	:$(GITLAB_CI_BRANCH_TRY_STAGING) || true
-	git push $(GIT_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_TRY_STAGING)
+	git push $(GITLAB_CI_REMOTE_NAME)	:$(GITLAB_CI_BRANCH_TRY_STAGING) || true
+	git push $(GITLAB_CI_REMOTE_NAME) HEAD:$(GITLAB_CI_BRANCH_TRY_STAGING)

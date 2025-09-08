@@ -92,6 +92,7 @@
 - Add SPDX license expression to comply with PEP 639.
 - Change the statistic view icon to a facet link.
 - Prefix tag and filters functions with `tag_` and `filter_` respectively.
+- Rename `GIT_REMOTE_NAME` to `GITLAB_CI_REMOTE_NAME`.
 
 4.9.5 (XXXX-XX-XX)
 ==================
