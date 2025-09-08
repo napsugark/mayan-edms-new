@@ -15,7 +15,6 @@ apps.
 - :doc:`files`
 - :doc:`quick_labels`
 - :doc:`versioning`
-- :doc:`troubleshooting`
 
 
 .. toctree::
@@ -25,4 +24,3 @@ apps.
     files
     quick_labels
     versioning
-    troubleshooting

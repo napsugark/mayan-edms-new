@@ -95,6 +95,14 @@
 - Rename `GIT_REMOTE_NAME` to `GITLAB_CI_REMOTE_NAME`.
 - Sort the output of the `platforms_template` command by template name.
 - Move the icon related template tags to the icons app.
+- Complete the documentation reorganization.
+
+  - Remove all `parts` paths.
+  - All documentation content is stored in chapters.
+  - Include deprecation, backward incompatible changes, removals in the
+    document of the series first release.
+  - Solve various warnings.
+  - Rename scripts and make file target to follow the {object}-{verb} layout.
 
 4.9.5 (XXXX-XX-XX)
 ==================

@@ -1,3 +1,7 @@
+========================
+Removals in version 4.10
+========================
+
 - Removed Django admin interface.
 - Removed Django admin and sites apps.
 - Remove setting `COMMON_COLLAPSE_LIST_MENU_OBJECT`.

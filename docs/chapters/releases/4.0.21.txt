@@ -63,12 +63,6 @@ Removals
 - None
 
 
-Upgrade process
----------------
-
-.. include:: partials/upgrade-3.5-4.0.txt
-
-
 Backward incompatible changes
 -----------------------------
 

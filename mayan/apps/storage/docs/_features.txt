@@ -1,4 +1,4 @@
-- :ref:`Pluggable storage backends<apps-storage>`.
+- Pluggable storage backends.
 
   - Built in support for file system storage.
   - It is very easy to use 3rd party plugins such as the ones available for

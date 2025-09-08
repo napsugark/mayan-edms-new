@@ -1,6 +1,6 @@
 - Free open source software.
 
-  - :doc:`Very permissive license compatible with commercial usage <../parts/license>`.
+  - :doc:`Very permissive license compatible with commercial usage <license>`.
   - Use as-is or add your own customizations.
   - Sell your own services or custom code.
 

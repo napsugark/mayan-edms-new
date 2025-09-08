@@ -1,5 +1,0 @@
-- Converted the action to move a document to the trash into a background task.
-  Breaking change: A ``DELETE`` request now returns 202 ACCEPTED, instead of
-  204 NO CONTENT.
-- The PostgreSQL image was updated from 13.14-alpine to 14.11-alpine. An update
-  of the binary file must be performed before upgrading Mayan EDMS.

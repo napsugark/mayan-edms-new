@@ -8,7 +8,7 @@ For developers
 - :doc:`contributing`
 - :doc:`releases`
 - :doc:`translations`
-- :doc:`../../mercs/index`
+- :doc:`mercs/index`
 - :doc:`caa_entity`
 - :doc:`caa_individual`
 
@@ -22,6 +22,6 @@ For developers
     contributing
     releases
     translations
-    ../../mercs/index
+    mercs/index
     caa_entity
     caa_individual

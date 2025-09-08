@@ -518,19 +518,110 @@ Other
 Removals
 --------
 
-.. include:: partials/removals-4.4.txt
+Management commands
+^^^^^^^^^^^^^^^^^^^
+
+- Remove deprecated management commands:
+
+  - ``checkdependencies`` replaced by ``dependencies_check``.
+  - ``checkversion`` replaced by ``dependencies_check_version``.
+  - ``createautoadmin`` replaced by ``autoadmin_create``.
+  - ``generaterequirements`` replaced by ``dependencies_generate_requirements``.
+  - ``initialsetup`` replaced by ``common_initial_setup``.
+  - ``installdependencies`` replaced by ``dependencies_install``.
+  - ``mountindex`` replaced by ``mirroring_mount_index``.
+  - ``performupgrade`` replaced by ``common_perform_upgrade``.
+  - ``platformtemplate`` replaced by ``platform_template``.
+  - ``preparestatic`` replaced by ``appearance_prepare_static``.
+  - ``purgelocks`` replaced by ``lock_manager_purge_locks``.
+  - ``purgepermissions`` replaced by ``permissions_purge``.
+  - ``purgeperiodictasks`` replaced by ``task_manager_purge_periodic_tasks``.
+  - ``purgestatistics`` replaced by ``statistics_purge``.
+  - ``revertsettings`` replaced by ``settings_revert``.
+  - ``savesettings`` replaced by ``settings_save``.
+  - ``showsettings`` replaced by ``settings_show``.
+  - ``showversion`` replaced by ``dependencies_show_version``.
 
 
 Backward incompatible changes
 -----------------------------
 
-.. include:: partials/backward-incompatible-4.4.txt
+Cabinets
+^^^^^^^^
+
+The cabinet create permission is now required to create parent as well as
+child cabinets. This change replaces requiring the edit permission to create
+child cabinets via the HTTP views.
+
+
+Documents
+^^^^^^^^^
+
+A new permission was added to change the type of a document. When support for
+changing the type of a document was added, it was considered a property and
+controlled via the document property edit permission.
+
+Since changing the type of a documents now causes a cascade of other
+changes, it was isolated as an individual class of event along
+with its own permission.
+
+The new document change type permission is required for the document being
+changed and for the document type to which the document will be changed
+into.
+
+
+Downloads
+^^^^^^^^^
+
+Download files are now associated to a specific users and not to a parent
+object. Delete, download, and view permissions were added to allow users to
+share a download file.
+
+
+OCR
+^^^
+
+The OCR backend code is now executed under a new method called
+``_execute`` to avoid subclasses not calling the super class.
+
+The base backend class now prepares the image to be processed for OCR and
+passes the file object to the subclass.
+
+
+Search
+^^^^^^
+
+In addition to the search system refactor, new search indexes were added.
+The search backend needs to be reindexed to ensure these new indexes are
+populated.
+
+
+Settings
+^^^^^^^^
+
+The default secret key value is now only used if the secret key file is not
+found not just if the secret key file is present but unreadable.
+
+
+Templating
+^^^^^^^^^^
+
+The ``home_view`` setting was removed from the default Template context.
+Template instances need to include their own context using the new
+``context`` argument.
 
 
 Deprecations
 ------------
 
-.. include:: partials/deprecations-4.4.txt
+- The Cabinet API serializer field named ``parent``, will be removed in
+  version 5.0. Use the ``parent_id`` instead which is functionally identical.
+- The ``IndexTemplateNodeSerializer`` serializer fields ``parent`` and ``index``
+  will be removed in version 5.0. Use fields ``parent_id`` and ``index_id``
+  which are functionally identical.
+- The ``WorkflowInstanceSerializer`` field named ``workflow_template_url``
+  will be removed in version 5.0. Use the ``url`` attribute of the
+  ``workflow_template`` instead.
 
 
 Issues closed

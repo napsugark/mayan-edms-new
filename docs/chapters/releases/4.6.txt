@@ -303,22 +303,25 @@ Other
 - Fix double separator in the user menu.
 - Theme updates.
 
+
 Removals
 --------
 
-.. include:: partials/removals-4.6.txt
+- None
 
 
 Backward incompatible changes
 -----------------------------
 
-.. include:: partials/backward-incompatible-4.6.txt
+- Existing templates that access the file metadata attributes need to be
+  updated to use the new normalized version of the attribute.
 
 
 Deprecations
 ------------
 
-.. include:: partials/deprecations-4.6.txt
+- The Keycloak Docker Compose service will be removed from the
+  Mayan EDMS Docker Compose file into a separate Docker Compose file.
 
 
 Issues closed

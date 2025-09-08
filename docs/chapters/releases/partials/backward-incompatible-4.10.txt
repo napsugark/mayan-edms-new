@@ -1,3 +1,7 @@
+=============================================
+Backward incompatible changes in version 4.10
+=============================================
+
 - Renamed command `platform_template` to `platforms_template`.
 - Setting `PLATFORM_CLIENT_BACKEND_ENABLED` was renamed to
   `PLATFORMS_CLIENT_BACKEND_ENABLED`.

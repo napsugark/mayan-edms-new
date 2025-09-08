@@ -1,9 +1,9 @@
-- :ref:`Document versioning<apps-documents>`.
+- Document versioning.
 
   - Store many versions of the same document, download or revert to a
     previous version.
 
-- :doc:`Non destructive page remapping and disabling <../releases/4.0>`.
+- :doc:`Non destructive page remapping and disabling <releases/4.0>`.
 
   - Change the order of the pages of the files uploaded to a document or
     disable them to remove them from view. Pages from multiple document files

@@ -23,14 +23,14 @@ if __name__ == '__main__':
     django.setup()
 
     path_documentation = Path(BASE_DIR, '..', 'docs')
-    path_file_documentation_features = path_documentation / 'parts' / 'features.txt'
-    path_documentation_apps = path_documentation / 'apps'
+    path_file_documentation_features = path_documentation / 'chapters' / 'features.txt'
+    path_documentation_apps = path_documentation / 'chapters' / 'apps'
 
     shutil.rmtree(path=path_documentation_apps, ignore_errors=True)
 
     with path_file_documentation_features.open(mode='w') as file_object:
         file_object.writelines(
-            ('.. _features:\n', '========\n', 'Features\n', '========\n', '\n')
+            ('.. _features:\n\n', '========\n', 'Features\n', '========\n', '\n')
         )
 
     app_list = []
@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
         try:
             with (path_app_documentation / '_features.txt').open(mode='r') as file_object_source:
-                with (path_documentation / 'parts' / 'features.txt').open(mode='a') as file_object_target:
+                with (path_documentation / 'chapters' / 'features.txt').open(mode='a') as file_object_target:
                     shutil.copyfileobj(
                         fsrc=file_object_source, fdst=file_object_target
                     )
@@ -77,15 +77,18 @@ if __name__ == '__main__':
             Non fatal, just means the app does not provide features.
             """
 
-    with (path_documentation / 'parts' / 'features.txt').open(mode='a') as file_object:
+    with (path_documentation / 'chapters' / 'features.txt').open(mode='a') as file_object:
         file_object.writelines(app_feature_footer_list)
 
     app_list.sort()
 
     with (path_documentation_apps / 'index.txt').open(mode='w') as file_object:
+        title = 'Apps documentation'
+        title_length = len(title)
+
         file_object.writelines(
             (
-                'Apps\n', '====\n', '\n'
+                '{} \n'.format(title), '{}\n'.format('=' * title_length), '\n'
             )
         )
 

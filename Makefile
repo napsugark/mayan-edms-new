@@ -168,12 +168,12 @@ coverage-html:
 
 # Documentation
 
-docs-generate-app-documentation: ## Collect app documentation into the docs folder
-docs-generate-app-documentation:
-	./contrib/scripts/generate_app_documentation.py
+docs-app-documentation-generate: ## Collect app documentation into the docs folder
+docs-app-documentation-generate:
+	./contrib/scripts/app_documentation_generator.py
 
 docs-html: ## Run the html documentation target. Use optional FILENAMES to specific which files to build.
-docs-html: docs-generate-app-documentation
+docs-html: docs-app-documentation-generate
 	cd docs;make html
 
 docs-spellcheck: ## Spellcheck the documentation.

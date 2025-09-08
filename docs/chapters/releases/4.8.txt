@@ -234,19 +234,58 @@ Other
 Removals
 --------
 
-.. include:: partials/removals-4.8.txt
+- Removed `devpi-server` and related make file targets.
+- Removed Docker Compose file `version` tag
+  (https://github.com/docker/compose/issues/11628).
+- Removed vagrant files and make file targets.
+- Removed KeyCloak from the Docker Compose file.
+- Removed icons class `fontawesome-stack`.
+- Removed templating field help text link to upstream Django template
+  documentation. GitLab issue #1172.
+- Removed the icons class `fontawesome-dual-classes`. Replaced the two last
+  uses with `fontawesome-dual`.
+- Removed document count column of document types. This information is already
+  available via the chart "Total documents per document type" and does not
+  impact the database as much as the removed column.
 
 
 Backward incompatible changes
 -----------------------------
 
-.. include:: partials/backward-incompatible-4.8.txt
+Split form related code and moved it to its own app. All imports from
+`django.forms` are updated to explicit imports from `mayan.apps.forms`
+modules. New form modules are: `form_fields`, `formsets`, `form_widgets`,
+`forms`.
+
+The setting `VIEWS_SHOW_DROPZONE_SUBMIT_BUTTON` has been renamed to
+`FORMS_SHOW_DROPZONE_SUBMIT_BUTTON`.
+
+The module `navigation.classes` has been split into three separate modules:
+`navigation.links`, `navigation.menus`, and `navigation.source_columns`.
+
+The default Docker image no longer includes Debian Chinese and Korean font
+packages. Removed package names: `fonts-arphic-uming`, `fonts-arphic-ukai`,
+`fonts-unfonts-core`.
+
+Updated the permission required to view the list of detected file metadata
+drivers from "view file metadata" to "view settings". This change is
+required as the driver list view now may contain low level credentials.
+
+Renamed development setup targets. Changed the prefix `setup-dev` to
+`dev-setup`. Updated the OS target to include the OS name `ubuntu`.
+
+Renamed the icon class `fontawesomecss` to `fontawesome-css`.
+
+Pass the value to `SourceColumnWidget` subclasses during initialization
+instead of during rendering. 3rd party apps using custom column widgets
+need to be updated.
 
 
 Deprecations
 ------------
 
-.. include:: partials/deprecations-4.8.txt
+The MIME type detection backend based on Python Magic will be removed in
+the next minor version.
 
 
 Issues closed

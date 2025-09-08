@@ -66,19 +66,19 @@ Start exploring the documentation and discover why Mayan EDMS is trusted by mill
 .. toctree::
     :hidden:
 
-    parts/features
-    parts/installation
-    releases/index
+    chapters/features
+    chapters/installation
+    chapters/releases/index
     chapters/series_status
-    parts/getting_started
-    apps/index
+    chapters/getting_started
+    chapters/apps/index
     chapters/docker/index
     chapters/portainer/index
     chapters/development/index
     chapters/security
-    parts/faq
-    parts/license
-    parts/contact
+    chapters/faq
+    chapters/license
+    chapters/contact
 
 
 .. _Docker: https://www.docker.com/

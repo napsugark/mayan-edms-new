@@ -46,7 +46,7 @@ class ReleaseNoteExporter:
         return result
 
     def __init__(self, output_format, version, releases_path):
-        self.releases_path = releases_path or Path('.').resolve() / 'docs' / 'releases'
+        self.releases_path = releases_path or Path('.').resolve() / 'docs' / 'chapters' / 'releases'
         self.output_format = output_format
         self.version = version
 

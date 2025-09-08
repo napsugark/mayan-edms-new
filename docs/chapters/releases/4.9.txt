@@ -542,16 +542,48 @@ model.
 Removals
 --------
 
-.. include:: partials/removals-4.9.txt
+- Remove the MIME type detection backend based on Python Magic.
 
 
 Backward incompatible changes
 -----------------------------
 
-.. include:: partials/backward-incompatible-4.9.txt
+- The system will start even where the are settings with badly formatted
+  values. This is the opposite of the previous behavior in which a badly
+  setting would stop the start up process. Controlled with the new setting
+  `SETTINGS_IGNORE_ERRORS` which defaults to `True`.
+- Setting namespaces and settings now singletons. Calling the creation of
+  a new setting in a namespace or a namespace in a cluster with a duplicated
+  identifier will no longer raise and error, instead the previously created
+  instance will be returned.
+- Event types are now singletons. Calling the creation of a new event type
+  with a duplicated identifier will no longer raise and error, instead the
+  previously created instance will be returned.
 
 
 Deprecations
 ------------
 
-.. include:: partials/deprecations-4.9.txt
+- Setting `COMMON_COLLAPSE_LIST_MENU_OBJECT` will be removed in the next
+  minor version.
+- Setting `COMMON_COLLAPSE_LIST_MENU_LIST_FACET` will be removed in the
+  next minor version.
+- The user theme feature will be removed in the next minor version.
+- Template model property
+  `workflow.< workflow internal name >.get_current_state' is deprecated.
+  Use `state_active` instead to return the current state of the selected
+  workflow.
+- Template model property
+  `workflow.< workflow internal name >.get_current_state.completion` is
+  deprecated. Use `state_active.completion` instead to return the completion
+  value of the current state of the selected workflow.
+- The math filters provided by the `django-mathfilters` libray will be removed
+  in the next minor version. These are replaced by Mayan EDMS native filters:
+  `math_add`, `math_absolute`, `math_divide`, `math_floor_divide`,
+  `math_modulo`, `math_multiply`, `math_substract`.
+- The template filter `dict_get` is deprecated in favor of the new
+  `dictionary_get`. Both operate exactly the same differing only by name.
+- The `date_parse` filter (`{{ |date_parse }}`) is deprecated in favor of
+  the tag version (`{% date_parse %}`) of the same function which allows
+  more control via arguments.
+- The Python package `coveralls` will be remove in the next minor version.

@@ -2,27 +2,6 @@
 REST API
 ========
 
-Introduction
-============
-
-.. include::  ../../partials/kb_migration.txt
-
-.. note::
-
-    Knowledge Base content
-
-    Articles:
-
-    - Using the REST API
-    - Optimizing API responses using the dynamic API fields feature
-    - Using API sorting and ordering
-    - The batch request API system
-
-    Troubleshooting:
-
-    - The API for the file downloads section is missing
-    - How to retrieve the list of available search models
-
 Examples
 ========
 
@@ -173,48 +152,3 @@ Use sessions to avoid having to add the headers on each request:
      'trash_time_period': None,
      'trash_time_unit': None,
      'url': 'http://127.0.0.1:8000/api/v4/document_types/1/'}]}
-
-
-Batch API requests
-------------------
-
-
-.. include::  ../../partials/kb_migration.txt
-
-.. note::
-
-    Knowledge Base content
-
-    Articles:
-
-    - Using the REST API
-    - Optimizing API responses using the dynamic API fields feature
-    - Using API sorting and ordering
-    - The batch request API system
-
-    Troubleshooting:
-
-    - The API for the file downloads section is missing
-    - How to retrieve the list of available search models
-
-
-Dynamic fields
---------------
-
-.. include::  ../../partials/kb_migration.txt
-
-.. note::
-
-    Knowledge Base content
-
-    Articles:
-
-    - Using the REST API
-    - Optimizing API responses using the dynamic API fields feature
-    - Using API sorting and ordering
-    - The batch request API system
-
-    Troubleshooting:
-
-    - The API for the file downloads section is missing
-    - How to retrieve the list of available search models

@@ -30,7 +30,7 @@ Removals
 
 Upgrade instructions using Git. This process of installation is no longer
 supported. For building custom installations refer to the
-:doc:`../chapters/development/index` chapter.
+:doc:`../development/index` chapter.
 
 
 Upgrading process

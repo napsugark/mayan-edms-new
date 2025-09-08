@@ -1,1 +1,0 @@
-- Remove the MIME type detection backend based on Python Magic.

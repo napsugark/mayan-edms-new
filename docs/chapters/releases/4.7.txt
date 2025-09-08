@@ -426,19 +426,37 @@ Other
 Removals
 --------
 
-.. include:: partials/removals-4.7.txt
+- Removed URI.js. Instead use the JavaScript native URL class.
+- Removed jQuery Lazy Load libary ``jquery-lazyload``.
+- Removed jquery-scrollstop.
+- Removed the development dependencies:
+
+  - flake8
+  - ruff
+  - pdbpp
+
+- Remove Django Rosetta from dependencies.
+- Remove tornado and sphinx-autobuild libraries.
+- Remove the tox testing dependency.
+- Remove flanker from the source_emails apps. Use pure Python libraries
+  to parse emails.
 
 
 Backward incompatible changes
 -----------------------------
 
-.. include:: partials/backward-incompatible-4.7.txt
+- Converted the action to move a document to the trash into a background task.
+  Breaking change: A ``DELETE`` request now returns 202 ACCEPTED, instead of
+  204 NO CONTENT.
+- The PostgreSQL image was updated from 13.14-alpine to 14.11-alpine. An update
+  of the binary file must be performed before upgrading Mayan EDMS.
 
 
 Deprecations
 ------------
 
-.. include:: partials/deprecations-4.7.txt
+- The Keycloak Docker Compose service will be removed from the
+  Mayan EDMS Docker Compose file into a separate Docker Compose file.
 
 
 Issues closed
