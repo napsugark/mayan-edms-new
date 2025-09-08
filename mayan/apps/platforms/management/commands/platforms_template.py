@@ -29,11 +29,15 @@ class Command(management.BaseCommand):
 
             space_padding = maximum_name_length + 2
 
-            for template_class in PlatformTemplate.get_all():
-                template = template_class()
+            choices = PlatformTemplate.get_choices()
+            choices.sort(
+                key=lambda x: x[0]
+            )
+
+            for template_name, template_label in choices:
                 self.stdout.write(
                     msg='* {:<{}}{}'.format(
-                        template.name, space_padding, template.get_label()
+                        template_name, space_padding, template_label
                     )
                 )
 

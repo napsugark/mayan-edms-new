@@ -93,6 +93,7 @@
 - Change the statistic view icon to a facet link.
 - Prefix tag and filters functions with `tag_` and `filter_` respectively.
 - Rename `GIT_REMOTE_NAME` to `GITLAB_CI_REMOTE_NAME`.
+- Sort the output of the `platforms_template` command by template name.
 
 4.9.5 (XXXX-XX-XX)
 ==================
