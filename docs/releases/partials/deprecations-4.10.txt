@@ -1,0 +1,3 @@
+- The Portainer installation files will be removed in the next minor release.
+  These files were initially community-submitted, but community interest in
+  ongoing maintenance has diminished.
