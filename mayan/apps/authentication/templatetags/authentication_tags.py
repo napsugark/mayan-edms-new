@@ -7,8 +7,10 @@ from ..literals import (
 register = Library()
 
 
-@register.simple_tag(takes_context=True)
-def authentication_impersonation_check(context):
+@register.simple_tag(
+    name='authentication_impersonation_check', takes_context=True
+)
+def tag_authentication_impersonation_check(context):
     request = getattr(context, 'request', None)
 
     if request:

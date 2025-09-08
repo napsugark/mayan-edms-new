@@ -8,8 +8,8 @@ from mayan.settings.literals import LINUX_PACKAGES_DEBIAN_PUSH
 register = Library()
 
 
-@register.simple_tag
-def platforms_gitlab_ci_cache_before_script(indent, apk=False, apt=False):
+@register.simple_tag(name='platforms_gitlab_ci_cache_before_script')
+def tag_platforms_gitlab_ci_cache_before_script(indent, apk=False, apt=False):
     data = []
 
     if apk:
@@ -34,8 +34,10 @@ def platforms_gitlab_ci_cache_before_script(indent, apk=False, apt=False):
     return yaml_dump(data=data, indent=indent)
 
 
-@register.simple_tag
-def platforms_gitlab_ci_cache_paths(indent, apk=False, apt=False, pip=False):
+@register.simple_tag(name='platforms_gitlab_ci_cache_paths')
+def tag_platforms_gitlab_ci_cache_paths(
+    indent, apk=False, apt=False, pip=False
+):
     cache_list = []
 
     version_base = Version(version_string=mayan.__version__)
@@ -71,8 +73,8 @@ def platforms_gitlab_ci_cache_paths(indent, apk=False, apt=False, pip=False):
     return yaml_dump(data=cache_list, indent=indent)
 
 
-@register.simple_tag
-def platforms_gitlab_ci_cache_variables(
+@register.simple_tag(name='platforms_gitlab_ci_cache_variables')
+def tag_platforms_gitlab_ci_cache_variables(
     indent, apk=False, apt=False, pip=False
 ):
     variables = {}
@@ -89,8 +91,8 @@ def platforms_gitlab_ci_cache_variables(
     return yaml_dump(data=variables, indent=indent)
 
 
-@register.simple_tag
-def platforms_gitlab_ci_config_env_before_script(indent):
+@register.simple_tag(name='platforms_gitlab_ci_config_env_before_script')
+def tag_platforms_gitlab_ci_config_env_before_script(indent):
     data = [
         r'set -a && sed -E "s/=(.*)/\=\"\1\"/g" config.env > /tmp/config.env && . /tmp/config.env && rm /tmp/config.env && set +a'
     ]
@@ -98,8 +100,8 @@ def platforms_gitlab_ci_config_env_before_script(indent):
     return yaml_dump(data=data, indent=indent)
 
 
-@register.simple_tag
-def platforms_gitlab_ci_ssh_before_script(indent, hostname, private_key):
+@register.simple_tag(name='platforms_gitlab_ci_ssh_before_script')
+def tag_platforms_gitlab_ci_ssh_before_script(indent, hostname, private_key):
     data = [
         'mkdir --parents ~/.ssh',
         'chmod 700 ~/.ssh',

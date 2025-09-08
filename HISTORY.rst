@@ -91,6 +91,7 @@
   to `bottom-right`.
 - Add SPDX license expression to comply with PEP 639.
 - Change the statistic view icon to a facet link.
+- Prefix tag and filters functions with `tag_` and `filter_` respectively.
 
 4.9.5 (XXXX-XX-XX)
 ==================

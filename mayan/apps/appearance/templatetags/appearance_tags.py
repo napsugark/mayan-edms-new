@@ -13,8 +13,48 @@ app_templates_cache = {}
 register = Library()
 
 
-@register.simple_tag(takes_context=True)
-def appearance_app_templates(context, template_name):
+@register.filter(name='appearance_form_get_visile_fields_map')
+def filter_appearance_form_get_visile_fields_map(form):
+    field_map = {
+        field.name: field for field in form.visible_fields()
+    }
+    return field_map
+
+
+@register.filter(name='appearance_get_choice_value')
+def filter_appearance_get_choice_value(field):
+    try:
+        return dict(field.field.choices)[
+            field.value()
+        ]
+    except TypeError:
+        return ', '.join(
+            [
+                subwidget.data['label'] for subwidget in field.subwidgets if subwidget.data['selected']
+            ]
+        )
+    except KeyError:
+        return _(message='None')
+
+
+@register.filter(name='appearance_get_form_media_js')
+def filter_appearance_get_form_media_js(form=None):
+    if form:
+        return [
+            form.media.absolute_path(path) for path in form.media._js
+        ]
+
+
+@register.filter(name='appearance_object_list_count')
+def filter_appearance_object_list_count(object_list):
+    try:
+        return object_list.count()
+    except TypeError:
+        return len(object_list)
+
+
+@register.simple_tag(name='appearance_app_templates', takes_context=True)
+def tag_appearance_app_templates(context, template_name):
     """
     Fetch the app templates for the requested `template_name`, render it with
     the current `request` from the `context`, and cache it for future use
@@ -52,40 +92,8 @@ def appearance_app_templates(context, template_name):
     )
 
 
-@register.filter
-def appearance_form_get_visile_fields_map(form):
-    field_map = {
-        field.name: field for field in form.visible_fields()
-    }
-    return field_map
-
-
-@register.filter
-def appearance_get_choice_value(field):
-    try:
-        return dict(field.field.choices)[
-            field.value()
-        ]
-    except TypeError:
-        return ', '.join(
-            [
-                subwidget.data['label'] for subwidget in field.subwidgets if subwidget.data['selected']
-            ]
-        )
-    except KeyError:
-        return _(message='None')
-
-
-@register.filter
-def appearance_get_form_media_js(form=None):
-    if form:
-        return [
-            form.media.absolute_path(path) for path in form.media._js
-        ]
-
-
-@register.simple_tag
-def appearance_get_icon(icon_path, **kwargs):
+@register.simple_tag(name='appearance_get_icon')
+def tag_appearance_get_icon(icon_path, **kwargs):
     extra_context = {}
 
     for key, value in kwargs.items():
@@ -107,16 +115,8 @@ def appearance_get_icon(icon_path, **kwargs):
     return icon_class.render(**extra_context)
 
 
-@register.simple_tag
-def appearance_icon_render(icon, enable_shadow=False):
+@register.simple_tag(name='appearance_icon_render')
+def tag_appearance_icon_render(icon, enable_shadow=False):
     return icon.render(
         extra_context={'enable_shadow': enable_shadow}
     )
-
-
-@register.filter
-def appearance_object_list_count(object_list):
-    try:
-        return object_list.count()
-    except TypeError:
-        return len(object_list)

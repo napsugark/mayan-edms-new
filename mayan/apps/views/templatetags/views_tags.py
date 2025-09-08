@@ -15,8 +15,8 @@ logger = logging.getLogger(name=__name__)
 register = Library()
 
 
-@register.simple_tag(takes_context=True)
-def views_calculate_title(context):
+@register.simple_tag(name='views_calculate_title', takes_context=True)
+def tag_views_calculate_title(context):
     title = ''
     title_full = ''
 
@@ -53,16 +53,18 @@ def views_calculate_title(context):
     return {'title': title, 'title_full': title_full}
 
 
-@register.simple_tag(takes_context=True)
-def views_get_list_mode_icon(context):
+@register.simple_tag(name='views_get_list_mode_icon', takes_context=True)
+def tag_views_get_list_mode_icon(context):
     if context.get('list_as_items', False):
         return icon_list_mode_list
     else:
         return icon_list_mode_items
 
 
-@register.simple_tag(takes_context=True)
-def views_get_list_mode_querystring(context):
+@register.simple_tag(
+    name='views_get_list_mode_querystring', takes_context=True
+)
+def tag_views_get_list_mode_querystring(context):
     list_as_items = context.get('list_as_items', False)
 
     if list_as_items:
@@ -74,19 +76,19 @@ def views_get_list_mode_querystring(context):
         TEXT_LIST_AS_ITEMS_PARAMETER: list_mode
     }
 
-    return views_update_query_string(context=context, **kwargs)
+    return tag_views_update_query_string(context=context, **kwargs)
 
 
-@register.simple_tag(takes_context=True)
-def views_get_paging_query_string(context, page_number):
+@register.simple_tag(name='views_get_paging_query_string', takes_context=True)
+def tag_views_get_paging_query_string(context, page_number):
     kwargs = {
         setting_paging_argument.value: page_number
     }
-    return views_update_query_string(context=context, **kwargs)
+    return tag_views_update_query_string(context=context, **kwargs)
 
 
-@register.simple_tag
-def views_get_proper_elided_page_range(
+@register.simple_tag(name='views_get_proper_elided_page_range')
+def tag_views_get_proper_elided_page_range(
     paginator, number, on_each_side=None, on_ends=None
 ):
     kwargs = {
@@ -102,8 +104,8 @@ def views_get_proper_elided_page_range(
     return paginator.get_elided_page_range(**kwargs)
 
 
-@register.simple_tag(takes_context=True)
-def views_render_subtemplate(context, template_name, template_context):
+@register.simple_tag(name='views_render_subtemplate', takes_context=True)
+def tag_views_render_subtemplate(context, template_name, template_context):
     """
     Renders the specified template with the mixed parent and
     subtemplate contexts.
@@ -119,8 +121,8 @@ def views_render_subtemplate(context, template_name, template_context):
     )
 
 
-@register.simple_tag(takes_context=True)
-def views_update_query_string(context, **kwargs):
+@register.simple_tag(name='views_update_query_string', takes_context=True)
+def tag_views_update_query_string(context, **kwargs):
     try:
         request = context.request
     except AttributeError:

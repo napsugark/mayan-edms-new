@@ -7,8 +7,10 @@ from ..exceptions import AppImageError
 register = Library()
 
 
-@register.simple_tag(takes_context=True)
-def converter_get_object_image_data(
+@register.simple_tag(
+    name='converter_get_object_image_data', takes_context=True
+)
+def tag_converter_get_object_image_data(
     context, obj, maximum_layer_order=None, transformation_instance_list=None,
     user=None
 ):

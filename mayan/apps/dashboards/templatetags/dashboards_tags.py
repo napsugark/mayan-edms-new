@@ -5,8 +5,8 @@ from ..classes import Dashboard
 register = Library()
 
 
-@register.simple_tag(takes_context=True)
-def dashboards_render_dashboard(context, name):
+@register.simple_tag(name='dashboards_render_dashboard', takes_context=True)
+def tag_dashboards_render_dashboard(context, name):
     if name:
         return Dashboard.get(name=name).render(request=context.request)
     else:
