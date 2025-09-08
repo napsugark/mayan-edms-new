@@ -1,9 +1,9 @@
 {% load i18n %}
 
-{% load appearance_tags %}
+{% load icons_tags %}
 {% load navigation_tags %}
 
-{% appearance_get_icon 'mayan.apps.appearance.icons.icon_menu_actions' extra_context__html_data__style='pointer-events: none;' extra_context__icon_css_classes_extra='mayan-icon-padding-none' as icon_menu_actions %}
+{% icons_get_icon 'mayan.apps.appearance.icons.icon_menu_actions' extra_context__html_data__style='pointer-events: none;' extra_context__icon_css_classes_extra='mayan-icon-padding-none' as icon_menu_actions %}
 
 {% navigation_resolved_menus_is_single_link resolved_menus=object_menus_link_results as resolved_menus_is_single_link %}
 {% if resolved_menus_is_single_link %}

@@ -1,11 +1,11 @@
 {% load i18n %}
 
-{% load appearance_tags %}
+{% load icons_tags %}
 {% load search_tags %}
 {% load smart_settings_tags %}
 
-{% appearance_get_icon "mayan.apps.dynamic_search.icons.icon_search" as icon_search %}
-{% appearance_get_icon "mayan.apps.dynamic_search.icons.icon_search_advanced" as icon_search_advanced %}
+{% icons_get_icon "mayan.apps.dynamic_search.icons.icon_search" as icon_search %}
+{% icons_get_icon "mayan.apps.dynamic_search.icons.icon_search_advanced" as icon_search_advanced %}
 {% search_get_default_search_model as default_search_model %}
 {% search_get_search_models as search_models %}
 {% smart_setting global_name="SEARCH_DISABLE_SIMPLE_SEARCH" as setting_disable_simple_search %}

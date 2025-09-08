@@ -1,6 +1,6 @@
 {% load static %}
 
-{% load appearance_tags %}
+{% load icons_tags %}
 {% load smart_settings_tags %}
 
 {% smart_setting "FORMS_SHOW_DROPZONE_SUBMIT_BUTTON" as setting_forms_show_dropzone_submit_button %}
@@ -9,10 +9,10 @@
 
 <script src="{% url 'locales:javascript_catalog' 'mayan.apps.forms' %}" type="text/javascript"></script>
 
-{% appearance_get_icon "mayan.apps.forms.icons.icon_dropzone_fail" extra_context__html_data__class="text-danger" as icon_dropzone_fail %}
-{% appearance_get_icon "mayan.apps.forms.icons.icon_dropzone_file" as icon_dropzone_file %}
-{% appearance_get_icon "mayan.apps.forms.icons.icon_dropzone_ok" extra_context__html_data__class="text-success" as icon_dropzone_ok %}
-{% appearance_get_icon "mayan.apps.forms.icons.icon_dropzone_upload" as icon_dropzone_upload %}
+{% icons_get_icon "mayan.apps.forms.icons.icon_dropzone_fail" extra_context__html_data__class="text-danger" as icon_dropzone_fail %}
+{% icons_get_icon "mayan.apps.forms.icons.icon_dropzone_file" as icon_dropzone_file %}
+{% icons_get_icon "mayan.apps.forms.icons.icon_dropzone_ok" extra_context__html_data__class="text-success" as icon_dropzone_ok %}
+{% icons_get_icon "mayan.apps.forms.icons.icon_dropzone_upload" as icon_dropzone_upload %}
 
 <script>
     'use strict';

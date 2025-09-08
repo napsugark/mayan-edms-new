@@ -1,6 +1,6 @@
 {% load i18n %}
 
-{% load appearance_tags %}
+{% load icons_tags %}
 
 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 match-height">
     <div class="panel panel-secondary dashboards-panel-widget">
@@ -9,7 +9,7 @@
                 <div class="col-xs-2">
                     {% if icon %}
                         <div class="dashboards-panel-widget-icon">
-                            {% appearance_icon_render icon enable_shadow=True %}
+                            {% icons_icon_render icon enable_shadow=True %}
                         </div>
                     {% endif %}
                 </div>
@@ -25,7 +25,7 @@
             <a href="{{ link }}">
                 <div class="panel-footer">
                     <span class="pull-left">{% trans 'View details' %}</span>
-                    <span class="pull-right">{% appearance_icon_render link_icon %}</span>
+                    <span class="pull-right">{% icons_icon_render link_icon %}</span>
                     <div class="clearfix"></div>
                 </div>
             </a>

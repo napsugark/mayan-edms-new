@@ -1,7 +1,7 @@
 {% load i18n %}
 
-{% load appearance_tags %}
 {% load converter_tags %}
+{% load icons_tags %}
 
 {% if instance %}
 
@@ -39,7 +39,7 @@
                     <span class="lazyload-spinner-container text-primary"
                         style="height: {% if display_full_height %}100%{% else %}{{ display_height|default:150 }}px{% endif %}; display: block;"
                     >
-                        {% appearance_get_icon 'mayan.apps.documents.icons.icon_document_image_loading' %}
+                        {% icons_get_icon 'mayan.apps.documents.icons.icon_document_image_loading' %}
                     </span>
                 </span>
 

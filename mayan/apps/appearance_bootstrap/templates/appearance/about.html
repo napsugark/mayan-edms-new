@@ -3,8 +3,8 @@
 {% load i18n %}
 {% load static %}
 
-{% load appearance_tags %}
 {% load common_tags %}
+{% load icons_tags %}
 {% load navigation_tags %}
 
 {% block title %}{% trans 'About' %}{% endblock %}
@@ -51,7 +51,7 @@
                 <ul class="media-list media-list-about">
                     <li class="media">
                         <div class="media-left">
-                            {% appearance_get_icon 'mayan.apps.common.icons.icon_mailing_list' %}
+                            {% icons_get_icon 'mayan.apps.common.icons.icon_mailing_list' %}
                         </div>
                         <div class="media-body">
                             {% blocktrans with link_mailing_list.url as link_mailing_list_url %}To get the latest news subscribe to the <a class="new_window" href="{{ link_mailing_list_url }}"> Mailing list</a>.{% endblocktrans %}
@@ -60,7 +60,7 @@
 
                     <li class="media">
                         <div class="media-left">
-                            {% appearance_get_icon 'mayan.apps.common.icons.icon_knowledge_base' %}
+                            {% icons_get_icon 'mayan.apps.common.icons.icon_knowledge_base' %}
                         </div>
                         <div class="media-body">
                             {% blocktrans with link_knowledge_base.url as link_knowledge_base_url %}For articles, tutorials, troubleshooting, subscribe to the <a class="new_window" href="{{ link_knowledge_base_url }}"> Knowledge base</a>.{% endblocktrans %}
@@ -69,7 +69,7 @@
 
                     <li class="media">
                         <div class="media-left">
-                            {% appearance_get_icon 'mayan.apps.common.icons.icon_support' %}
+                            {% icons_get_icon 'mayan.apps.common.icons.icon_support' %}
                         </div>
                         <div class="media-body">
                             {% blocktrans with link_support.url as link_support_url%}Need professional help? Check out the <a class="new_window" href="{{ link_support_url }}"> Support</a> offerings.{% endblocktrans %}
@@ -78,7 +78,7 @@
 
                     <li class="media">
                         <div class="media-left">
-                            {% appearance_get_icon 'mayan.apps.common.icons.icon_forum' %}
+                            {% icons_get_icon 'mayan.apps.common.icons.icon_forum' %}
                         </div>
                         <div class="media-body">
                             {% blocktrans with link_forum.url as link_forum_url %}For discussions visit the <a class="new_window" href="{{ link_forum_url }}">Community forum</a>.{% endblocktrans %}
@@ -87,7 +87,7 @@
 
                     <li class="media">
                         <div class="media-left">
-                            {% appearance_get_icon 'mayan.apps.common.icons.icon_release_notes' %}
+                            {% icons_get_icon 'mayan.apps.common.icons.icon_release_notes' %}
                         </div>
                         <div class="media-body">
                             {% blocktrans with link_release_notes.url as link_release_notes_url %}The complete list of changes is available via the <a class="new_window" href="{{ link_release_notes_url }}">Release notes</a>.{% endblocktrans %}
@@ -96,7 +96,7 @@
 
                     <li class="media">
                         <div class="media-left">
-                            {% appearance_get_icon 'mayan.apps.common.icons.icon_documentation' %}
+                            {% icons_get_icon 'mayan.apps.common.icons.icon_documentation' %}
                         </div>
                         <div class="media-body">
                             {% blocktrans with link_documentation.url as link_documentation_url %}For questions check the <a class="new_window" href="{{ link_documentation_url }}">Documentation</a>.{% endblocktrans %}
@@ -105,7 +105,7 @@
 
                     <li class="media">
                         <div class="media-left">
-                            {% appearance_get_icon 'mayan.apps.common.icons.icon_source_code' %}
+                            {% icons_get_icon 'mayan.apps.common.icons.icon_source_code' %}
                         </div>
                         <div class="media-body">
                             {% blocktrans with link_source_code.url as link_source_code_url %}If you found a bug or have a feature idea open a ticket in the <a class="new_window" href="{{ link_source_code_url }}">Source code repository</a>.{% endblocktrans %}
