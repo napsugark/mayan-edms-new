@@ -47,9 +47,4 @@ class TestSearchBackendProxy:
         )
 
     def _search(self, *args, **kwargs):
-        _skip_refresh = kwargs.pop('_skip_refresh', False)
-
-        if not _skip_refresh:
-            self._backend.refresh()
-
         return self._backend._search(*args, **kwargs)

@@ -86,13 +86,13 @@ docker-runtest-all: ## Executed the test suite in a test container.
 
 # Test and staging containers
 
-docker-elastic-start: ## Start an Elastic Search test container.
-docker-elastic-start:
-	@docker run --detach -e ES_JAVA_OPTS="-Xms256m -Xmx256m" -e "discovery.type=single-node" -e "network.host=0.0.0.0" -e "ingest.geoip.downloader.enabled=false" --name $(CONTAINER_NAME_TEST_ELASTIC) --publish 9200:9200 --publish 9300:9300 $(DOCKER_ELASTIC_IMAGE_NAME):$(DOCKER_ELASTIC_IMAGE_TAG)
+docker-elasticsearch-start: ## Start an Elasticsearch test container.
+docker-elasticsearch-start:
+	@docker run --detach -e ELASTIC_PASSWORD=${DEFAULT_ELASTICSEARCH_PASSWORD} -e ES_JAVA_OPTS="-Xms256m -Xmx256m" -e "discovery.type=single-node" -e "ingest.geoip.downloader.enabled=false" --name $(CONTAINER_NAME_TEST_ELASTIC) --publish 9200:9200 --publish 9300:9300 $(DOCKER_ELASTIC_IMAGE_NAME):$(DOCKER_ELASTIC_IMAGE_TAG)
 	@while ! nc -z 127.0.0.1 9200; do echo -n .; sleep 1; done
 
-docker-elastic-stop: ## Stop and delete the Elastic Search container.
-docker-elastic-stop:
+docker-elasticsearch-stop: ## Stop and delete the Elasticsearch container.
+docker-elasticsearch-stop:
 	@docker rm --force $(CONTAINER_NAME_TEST_ELASTIC) >/dev/null 2>&1
 
 docker-mysql-start: ## Start a MySQL Docker test container.

@@ -109,6 +109,21 @@
   permissions can allow more access than intended. Adds the setting
   `TEMPLATING_TAGS_DANGEROUS_ALLOW_LIST`, which defaults to allowing the
   existing tags for backward compatibility.
+- Add support for Elasticsearch 9.
+
+    - Change how the Elasticsearch backend is initialized, all Elasticsearch
+      client specific arguments are passed via the `client_kwargs` argument.
+    - Add support to change the default page size via then new
+      `search_page_size` argument.
+    - Add support to change the default point in time keep alive with the
+      new `point_in_time_keep_alive` argument.
+    - Update Docker Compose file to default to Elasticsearch over HTTPS.
+    - Rename the target `docker-elastic-start` to
+      `docker-elasticsearch-start`.
+    - Rename the target `docker-elastic-stop` to
+      `docker-elasticsearch-stop`.
+    - Rename the Elasticsearch backend from `ElasticSearchBackend` to
+      `ElasticsearchSearchBackend` for consistency.
 
 4.9.5 (XXXX-XX-XX)
 ==================
@@ -128,7 +143,7 @@
 
   - Improve container dependency. Ensures services start before Mayan EDMS.
     Also ensures that Mayan EDMS shuts down before services.
-  - Added health checks to ElasticSearch, Mayan EDMS, RabbitMQ, Redis.
+  - Added health checks to Elasticsearch, Mayan EDMS, RabbitMQ, Redis.
   - Improved the PostgreSQL health check by specifying the database name.
 
 - Change README to use the black and white logo.
@@ -249,7 +264,7 @@
   - Debian from 12.7-slim to 12.8-slim
   - Docker in Docker from docker:27.0.3-dind-alpine3.20 to
     docker:27.4.1-dind-alpine3.21
-  - ElasticSearch from 7.17.24 to 7.17.26
+  - Elasticsearch from 7.17.24 to 7.17.26
   - PostgreSQL from 14.13-alpine3.20 to 14.15-alpine3.21
   - RabbitMQ from 3.13.7-management-alpine to 4.0.5-management-alpine
   - Redis from 7.2.5-alpine3.20 to 7.4.1-alpine3.20
@@ -637,7 +652,7 @@
 - Docker image tags:
 
   - Debian from 12.5-slim to 12.6-slim.
-  - ElasticSearch from 7.17.20 to 7.17.22.
+  - Elasticsearch from 7.17.20 to 7.17.22.
   - Update GitLab CI Docker in Docker image from 23.0.6-dind to 27.0.3-dind-alpine3.20 due
     to bugs https://github.com/docker/buildx/issues/593 and
     https://github.com/moby/buildkit/issues/2343.
@@ -794,7 +809,7 @@
 - Docker image tags:
 
   - Base Debian from 12.5-slim to 12.11-slim.
-  - ElasticSearch from 7.17.20 to 7.17.28
+  - Elasticsearch from 7.17.20 to 7.17.28
   - Forge base from 24.04 to noble-20250714
   - PostgreSQL from 14.12-alpine to 14.18-alpine
   - Python from 3.11.9-slim to 3.11.13-slim.
@@ -1039,16 +1054,16 @@
   users by group and by roles.
 - HTTP request workflow action now supports storing the response in the
   workflow context.
-- Update ElasticSearch Docker image tag from 7.17.17 to 7.17.19.
+- Update Elasticsearch Docker image tag from 7.17.17 to 7.17.19.
 - Search updates:
 
-  - Update the ElasticSearch backend search method.
+  - Update the Elasticsearch backend search method.
   - Use generators to yield the ID list of scope results.
   - Stop yielding results after the count exceeds the search limit setting.
   - Increase scope result limit to 100000.
   - Add support to store search results into resultsets.
   - Convert the search backends into folder modules.
-  - Support ignoring SSL certificates for ElasticSearch.
+  - Support ignoring SSL certificates for Elasticsearch.
 
 - Fix document type model verbose name.
 - Fix detached signature link object reference.
@@ -1174,7 +1189,7 @@
   - Base Debian from 12.5-slim to 12.11-slim.
   - PostgreSQL from 13.15-alpine to 13.21-alpine.
   - Python from 3.11.9-slim to 3.11.13-slim.
-  - ElasticSearch from 7.17.20 to 7.17.28
+  - Elasticsearch from 7.17.20 to 7.17.28
 
 - Quote environment variables prior to loading.
 - Fix context of the workflow launch view when only one document is selected.
@@ -1952,7 +1967,7 @@
 - Fix detached signature link object reference.
 - Update dependencies:
 
-  - ElasticSearch Docker image from 7.17.9 to 7.17.20.
+  - Elasticsearch Docker image from 7.17.9 to 7.17.20.
   - KeyCloak Docker image from 20.0.1 to 20.0.5.
   - MySQL Docker image from 8.0.32 to 8.0.36.
   - PostgreSQL Docker image from 13.10-alpine to 13.14-alpine.
@@ -1963,7 +1978,7 @@
   - Update psycopg2 from 2.9.3 to 2.9.9.
 
 - Improve unconfigured task error message.
-- Support ignoring SSL certificates for ElasticSearch.
+- Support ignoring SSL certificates for Elasticsearch.
 
 4.4.14 (2024-03-27)
 ===================
@@ -1987,7 +2002,7 @@
 - Encapsulate MPTT exceptions as validation errors when users attempt
   to perform invalid index template node tree manipulations.
 - Update ``DEFAULT_SEARCH_QUERY_RESULTS_LIMIT`` from 100000 to 10000 to
-  workaround conflicting with ElasticSearch non scroll search limit.
+  workaround conflicting with Elasticsearch non scroll search limit.
 - Minor code style fixes.
 - Add an extra line to ``COMMON_EXTRA_APPS`` help text to clarify the apps
   inclusion order.
@@ -3776,7 +3791,7 @@
   - Add Linux ``file`` command backend.
   - Rename ``mimetype`` app to ``mime_types``.
 
-- Add a search backend for Elastic Search.
+- Add a search backend for Elasticsearch.
 - Search app updates:
 
   - Support initializing the search backends.

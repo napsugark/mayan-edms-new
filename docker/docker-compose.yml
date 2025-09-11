@@ -112,16 +112,15 @@ services:
       - bootstrap.memory_lock=true
       - discovery.type=single-node
       - http.max_content_length=400mb
-      - xpack.security.enabled=true
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
       - ELASTIC_PASSWORD=${MAYAN_ELASTICSEARCH_PASSWORD:-mayanespassword}
     healthcheck:
-      test: ["CMD", "curl", "--silent", "--user", "elastic:${MAYAN_ELASTICSEARCH_PASSWORD:-mayanespassword}", "http://localhost:9200/_cluster/health?wait_for_status=green || exit 1"]
+      test: ["CMD", "curl", "--silent", "--user", "elastic:${MAYAN_ELASTICSEARCH_PASSWORD:-mayanespassword}", "https://localhost:9200/_cluster/health?wait_for_status=green || exit 1"]
       interval: 10s
       timeout: 5s
       retries: 15
       start_period: 30s
-    image: ${MAYAN_DOCKER_ELASTICSEARCH_IMAGE:-elasticsearch}:${MAYAN_DOCKER_ELASTICSEARCH_TAG:-7.17.29}
+    image: ${MAYAN_DOCKER_ELASTICSEARCH_IMAGE:-elasticsearch}:${MAYAN_DOCKER_ELASTICSEARCH_TAG:-9.1.3}
     networks:
       - mayan
     # Enable to allow external access to the database.

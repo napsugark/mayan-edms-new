@@ -112,11 +112,10 @@ services:
       - bootstrap.memory_lock=true
       - discovery.type=single-node
       - http.max_content_length=400mb
-      - xpack.security.enabled=true
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
       - ELASTIC_PASSWORD=${MAYAN_ELASTICSEARCH_PASSWORD:-{{ DEFAULT_ELASTICSEARCH_PASSWORD }}}
     healthcheck:
-      test: ["CMD", "curl", "--silent", "--user", "elastic:${MAYAN_ELASTICSEARCH_PASSWORD:-{{ DEFAULT_ELASTICSEARCH_PASSWORD }}}", "http://localhost:9200/_cluster/health?wait_for_status=green || exit 1"]
+      test: ["CMD", "curl", "--silent", "--user", "elastic:${MAYAN_ELASTICSEARCH_PASSWORD:-{{ DEFAULT_ELASTICSEARCH_PASSWORD }}}", "https://localhost:9200/_cluster/health?wait_for_status=green || exit 1"]
       interval: 10s
       timeout: 5s
       retries: 15

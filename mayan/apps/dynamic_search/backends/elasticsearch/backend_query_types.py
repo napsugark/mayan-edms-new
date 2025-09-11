@@ -1,5 +1,4 @@
-import elasticsearch_dsl
-from elasticsearch_dsl import Q
+from elasticsearch.dsl import Q, field
 
 from ...search_query_types import (
     BackendQueryType, QueryTypeExact, QueryTypeFuzzy, QueryTypeGreaterThan,
@@ -8,7 +7,7 @@ from ...search_query_types import (
     QueryTypeRegularExpression
 )
 
-from .backend import ElasticSearchBackend
+from .backend import ElasticsearchSearchBackend
 
 
 class BackendQueryTypeExact(BackendQueryType):
@@ -26,7 +25,7 @@ class BackendQueryTypeExact(BackendQueryType):
                 template = '{}'
 
                 if self.is_quoted_value:
-                    if self.get_search_backend_field_type() == elasticsearch_dsl.field.Text:
+                    if self.get_search_backend_field_type() == field.Text:
                         return Q(
                             'bool', must_not=(
                                 Q(
@@ -120,7 +119,7 @@ class BackendQueryTypePartial(BackendQueryType):
 
     def do_resolve(self):
         if self.value is not None:
-            if self.get_search_backend_field_type() != elasticsearch_dsl.field.Date:
+            if self.get_search_backend_field_type() != field.Date:
                 if self.is_quoted_value:
                     return Q(
                         name_or_query='match_phrase', _expand__to_dot=False,
@@ -129,7 +128,7 @@ class BackendQueryTypePartial(BackendQueryType):
                         }
                     )
                 else:
-                    if self.get_search_backend_field_type() != elasticsearch_dsl.field.Integer:
+                    if self.get_search_backend_field_type() != field.Integer:
                         return Q(
                             name_or_query='wildcard', _expand__to_dot=False,
                             **{
@@ -180,37 +179,37 @@ class BackendQueryTypeRegularExpression(BackendQueryType):
 
 
 BackendQueryType.register(
-    klass=BackendQueryTypeExact, search_backend=ElasticSearchBackend
+    klass=BackendQueryTypeExact, search_backend=ElasticsearchSearchBackend
 )
 BackendQueryType.register(
-    klass=BackendQueryFuzzy, search_backend=ElasticSearchBackend
+    klass=BackendQueryFuzzy, search_backend=ElasticsearchSearchBackend
 )
 BackendQueryType.register(
-    klass=BackendQueryTypeGreaterThan, search_backend=ElasticSearchBackend
+    klass=BackendQueryTypeGreaterThan, search_backend=ElasticsearchSearchBackend
 )
 BackendQueryType.register(
     klass=BackendQueryTypeGreaterThanOrEqual,
-    search_backend=ElasticSearchBackend
+    search_backend=ElasticsearchSearchBackend
 )
 BackendQueryType.register(
-    klass=BackendQueryTypeLessThan, search_backend=ElasticSearchBackend
+    klass=BackendQueryTypeLessThan, search_backend=ElasticsearchSearchBackend
 )
 BackendQueryType.register(
     klass=BackendQueryTypeLessThanOrEqual,
-    search_backend=ElasticSearchBackend
+    search_backend=ElasticsearchSearchBackend
 )
 BackendQueryType.register(
-    klass=BackendQueryTypePartial, search_backend=ElasticSearchBackend
+    klass=BackendQueryTypePartial, search_backend=ElasticsearchSearchBackend
 )
 BackendQueryType.register(
     klass=BackendQueryTypeRange,
-    search_backend=ElasticSearchBackend
+    search_backend=ElasticsearchSearchBackend
 )
 BackendQueryType.register(
     klass=BackendQueryTypeRangeExclusive,
-    search_backend=ElasticSearchBackend
+    search_backend=ElasticsearchSearchBackend
 )
 BackendQueryType.register(
     klass=BackendQueryTypeRegularExpression,
-    search_backend=ElasticSearchBackend
+    search_backend=ElasticsearchSearchBackend
 )

@@ -7,3 +7,5 @@ Backward incompatible changes in version 4.10
   `PLATFORMS_CLIENT_BACKEND_ENABLED`.
 - Setting `PLATFORM_CLIENT_BACKEND_ARGUMENTS` was renamed to
   `PLATFORMS_CLIENT_BACKEND_ARGUMENTS`.
+- Renamed the Elasticsearch backend from `ElasticSearchBackend` to
+  `ElasticsearchSearchBackend` for consistency.

@@ -62,12 +62,12 @@ class DjangoSearchReindexManagementCommandTestCase(
         """Backend does not support indexing."""
 
 
-@skip(reason='Skip until a Mock ElasticSearch server class is added.')
-class ElasticSearchReindexManagementCommandTestCase(
+@skip(reason='Skip until a Mock Elasticsearch server class is added.')
+class ElasticsearchSearchReindexManagementCommandTestCase(
     SearchReindexManagementCommandTestCaseMixin, BaseTestCase
 ):
-    _test_search_backend_path = 'mayan.apps.dynamic_search.backends.elasticsearch.ElasticSearchBackend'
-    """Test against ElasticSearch backend."""
+    _test_search_backend_path = 'mayan.apps.dynamic_search.backends.elasticsearch.ElasticsearchSearchBackend'
+    """Test against Elasticsearch backend."""
 
 
 class WhooshSearchReindexManagementCommandTestCase(
@@ -186,12 +186,12 @@ class DjangoSearchIndexObjectManagementCommandTestCase(
         """Backend does not support indexing."""
 
 
-@skip(reason='Skip until a Mock ElasticSearch server class is added.')
-class ElasticSearchIndexObjectManagementCommandTestCase(
+@skip(reason='Skip until a Mock Elasticsearch server class is added.')
+class ElasticsearchSearchIndexObjectManagementCommandTestCase(
     SearchIndexObjectManagementCommandTestCaseMixin, BaseTestCase
 ):
-    _test_search_backend_path = 'mayan.apps.dynamic_search.backends.elasticsearch.ElasticSearchBackend'
-    """Test against ElasticSearch backend."""
+    _test_search_backend_path = 'mayan.apps.dynamic_search.backends.elasticsearch.ElasticsearchSearchBackend'
+    """Test against Elasticsearch backend."""
 
 
 class WhooshSearchIndexObjectManagementCommandTestCase(
@@ -236,12 +236,12 @@ class DjangoSearchStatusManagementCommandTestCase(
     """Test against DjangoSearch backend."""
 
 
-@skip(reason='Skip until a Mock ElasticSearch server class is added.')
-class ElasticSearchStatusManagementCommandTestCase(
+@skip(reason='Skip until a Mock Elasticsearch server class is added.')
+class ElasticsearchSearchStatusManagementCommandTestCase(
     SearchStatusManagementCommandTestCaseMixin, BaseTestCase
 ):
-    _test_search_backend_path = 'mayan.apps.dynamic_search.backends.elasticsearch.ElasticSearchBackend'
-    """Test against ElasticSearch backend."""
+    _test_search_backend_path = 'mayan.apps.dynamic_search.backends.elasticsearch.ElasticsearchSearchBackend'
+    """Test against Elasticsearch backend."""
 
 
 class WhooshSearchStatusManagementCommandTestCase(

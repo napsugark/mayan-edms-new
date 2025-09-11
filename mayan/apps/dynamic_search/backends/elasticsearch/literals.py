@@ -1,4 +1,4 @@
-import elasticsearch_dsl
+from elasticsearch.dsl import field
 
 from django.db import models
 
@@ -17,13 +17,10 @@ from ...value_transformations import (
     ValueTransformationToString
 )
 
-DEFAULT_ELASTICSEARCH_CLIENT_MAXSIZE = 10
-DEFAULT_ELASTICSEARCH_CLIENT_SNIFF_ON_START = False
-DEFAULT_ELASTICSEARCH_CLIENT_SNIFF_ON_CONNECTION_FAIL = False
-DEFAULT_ELASTICSEARCH_CLIENT_SNIFFER_TIMEOUT = None
-DEFAULT_ELASTICSEARCH_CLIENT_VERIFY_CERTS = True
-DEFAULT_ELASTICSEARCH_HOST = 'http://127.0.0.1:9200'
+DEFAULT_ELASTICSEARCH_HOSTS = ['https://127.0.0.1:9200']
 DEFAULT_ELASTICSEARCH_INDICES_NAMESPACE = 'mayan'
+DEFAULT_ELASTICSEARCH_INDICES_NAMESPACE_TEST = 'mayan-test'
+DEFAULT_ELASTICSEARCH_POINT_IN_TIME_KEEP_ALIVE = '5m'
 DEFAULT_ELASTICSEARCH_SEARCH_PAGE_SIZE = 10000
 
 """
@@ -39,7 +36,7 @@ An integer. Values from -2147483648 to 2147483647 are safe in all
 databases supported by Django.
 https://docs.djangoproject.com/en/3.2/ref/models/fields/#integerfield
 
-ElasticSearch:
+Elasticsearch:
 A signed 32-bit integer with a minimum value of -2^31 (-2147483648)
 and a maximum value of 2^31-1 (2147483647).
 https://www.elastic.co/guide/en/elasticsearch/reference/current/number.html
@@ -55,7 +52,7 @@ https://docs.djangoproject.com/en/3.2/ref/models/fields/#positiveintegerfield
 
 DJANGO_TO_ELASTICSEARCH_FIELD_MAP = {
     models.AutoField: {
-        'field': elasticsearch_dsl.field.Integer,
+        'field': field.Integer,
         'query_type_list': [
             QueryTypeExact, QueryTypePartial, QueryTypeGreaterThan,
             QueryTypeGreaterThanOrEqual, QueryTypeLessThan,
@@ -71,7 +68,7 @@ DJANGO_TO_ELASTICSEARCH_FIELD_MAP = {
         }
     },
     models.BigIntegerField: {
-        'field': elasticsearch_dsl.field.Long,
+        'field': field.Long,
         'query_type_list': [
             QueryTypeExact, QueryTypeGreaterThan,
             QueryTypeGreaterThanOrEqual, QueryTypeLessThan,
@@ -82,7 +79,7 @@ DJANGO_TO_ELASTICSEARCH_FIELD_MAP = {
         }
     },
     models.BooleanField: {
-        'field': elasticsearch_dsl.field.Boolean,
+        'field': field.Boolean,
         'query_type_list': [
             QueryTypeExact
         ],
@@ -97,7 +94,7 @@ DJANGO_TO_ELASTICSEARCH_FIELD_MAP = {
         }
     },
     models.CharField: {
-        'field': elasticsearch_dsl.field.Text,
+        'field': field.Text,
         'query_type_list': [
             QueryTypeExact, QueryTypeFuzzy, QueryTypePartial,
             QueryTypeRegularExpression, QueryTypeGreaterThan,
@@ -116,7 +113,7 @@ DJANGO_TO_ELASTICSEARCH_FIELD_MAP = {
         }
     },
     models.DateTimeField: {
-        'field': elasticsearch_dsl.field.Date,
+        'field': field.Date,
         'query_type_list': [
             QueryTypeExact, QueryTypeGreaterThan,
             QueryTypeGreaterThanOrEqual, QueryTypeLessThan,
@@ -131,7 +128,7 @@ DJANGO_TO_ELASTICSEARCH_FIELD_MAP = {
         }
     },
     models.EmailField: {
-        'field': elasticsearch_dsl.field.Keyword,
+        'field': field.Keyword,
         'query_type_list': [
             QueryTypeExact, QueryTypePartial
         ],
@@ -147,7 +144,7 @@ DJANGO_TO_ELASTICSEARCH_FIELD_MAP = {
         }
     },
     models.IntegerField: {
-        'field': elasticsearch_dsl.field.Integer,
+        'field': field.Integer,
         'query_type_list': [
             QueryTypeExact, QueryTypeGreaterThan,
             QueryTypeGreaterThanOrEqual, QueryTypeLessThan,
@@ -158,7 +155,7 @@ DJANGO_TO_ELASTICSEARCH_FIELD_MAP = {
         }
     },
     models.PositiveBigIntegerField: {
-        'field': elasticsearch_dsl.field.Long(signed=False),
+        'field': field.Long(signed=False),
         'query_type_list': [
             QueryTypeExact, QueryTypeGreaterThan,
             QueryTypeGreaterThanOrEqual, QueryTypeLessThan,
@@ -169,7 +166,7 @@ DJANGO_TO_ELASTICSEARCH_FIELD_MAP = {
         }
     },
     models.PositiveIntegerField: {
-        'field': elasticsearch_dsl.field.Integer,
+        'field': field.Integer,
         'query_type_list': [
             QueryTypeExact, QueryTypeGreaterThan,
             QueryTypeGreaterThanOrEqual, QueryTypeLessThan,
@@ -180,7 +177,7 @@ DJANGO_TO_ELASTICSEARCH_FIELD_MAP = {
         }
     },
     models.TextField: {
-        'field': elasticsearch_dsl.field.Text,
+        'field': field.Text,
         'query_type_list': [
             QueryTypeExact, QueryTypeFuzzy, QueryTypePartial,
             QueryTypeRegularExpression, QueryTypeGreaterThan,
@@ -199,7 +196,7 @@ DJANGO_TO_ELASTICSEARCH_FIELD_MAP = {
         }
     },
     models.UUIDField: {
-        'field': elasticsearch_dsl.field.Keyword,
+        'field': field.Keyword,
         'query_type_list': [
             QueryTypeExact, QueryTypePartial, QueryTypeRegularExpression
         ],
@@ -214,4 +211,5 @@ DJANGO_TO_ELASTICSEARCH_FIELD_MAP = {
     }
 }
 
+INDEX_NAME_DELIMITER = '--'
 MAXIMUM_API_ATTEMPT_COUNT = 10

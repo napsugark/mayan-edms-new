@@ -18,6 +18,7 @@ django-rosetta
 django-suit
 django-test-without-migrations
 django-timezone-field
+elasticsearch-dsl
 flake8
 flanker
 librabbitmq

@@ -3,7 +3,9 @@ import functools
 
 import elasticsearch
 from elasticsearch import Elasticsearch, helpers
-from elasticsearch_dsl import Search
+from elasticsearch.dsl import Search
+
+from mayan.settings.literals import DEFAULT_ELASTICSEARCH_PASSWORD
 
 from ...exceptions import (
     DynamicSearchBackendException, DynamicSearchValueTransformationError
@@ -13,102 +15,117 @@ from ...search_fields import SearchFieldVirtualAllFields
 from ...search_models import SearchModel
 
 from .literals import (
-    DEFAULT_ELASTICSEARCH_CLIENT_MAXSIZE,
-    DEFAULT_ELASTICSEARCH_CLIENT_SNIFF_ON_CONNECTION_FAIL,
-    DEFAULT_ELASTICSEARCH_CLIENT_SNIFF_ON_START,
-    DEFAULT_ELASTICSEARCH_CLIENT_SNIFFER_TIMEOUT, DEFAULT_ELASTICSEARCH_HOST,
-    DEFAULT_ELASTICSEARCH_CLIENT_VERIFY_CERTS,
-    DEFAULT_ELASTICSEARCH_INDICES_NAMESPACE,
+    DEFAULT_ELASTICSEARCH_HOSTS, DEFAULT_ELASTICSEARCH_INDICES_NAMESPACE,
+    DEFAULT_ELASTICSEARCH_INDICES_NAMESPACE_TEST,
+    DEFAULT_ELASTICSEARCH_POINT_IN_TIME_KEEP_ALIVE,
     DEFAULT_ELASTICSEARCH_SEARCH_PAGE_SIZE,
-    DJANGO_TO_ELASTICSEARCH_FIELD_MAP, MAXIMUM_API_ATTEMPT_COUNT
+    DJANGO_TO_ELASTICSEARCH_FIELD_MAP, INDEX_NAME_DELIMITER,
+    MAXIMUM_API_ATTEMPT_COUNT
 )
 
 
-class ElasticSearchBackend(SearchBackend):
+class ElasticsearchSearchBackend(SearchBackend):
     feature_reindex = True
     field_type_mapping = DJANGO_TO_ELASTICSEARCH_FIELD_MAP
 
     def __init__(
-        self, client_http_auth=None, client_host=DEFAULT_ELASTICSEARCH_HOST,
-        client_hosts=None,
-        client_maxsize=DEFAULT_ELASTICSEARCH_CLIENT_MAXSIZE,
-        client_port=None, client_scheme=None,
-        client_sniff_on_connection_fail=DEFAULT_ELASTICSEARCH_CLIENT_SNIFF_ON_CONNECTION_FAIL,
-        client_sniff_on_start=DEFAULT_ELASTICSEARCH_CLIENT_SNIFF_ON_START,
-        client_sniffer_timeout=DEFAULT_ELASTICSEARCH_CLIENT_SNIFFER_TIMEOUT,
-        client_verify_certs=DEFAULT_ELASTICSEARCH_CLIENT_VERIFY_CERTS,
+        self, client_kwargs=None,
         indices_namespace=DEFAULT_ELASTICSEARCH_INDICES_NAMESPACE,
+        search_page_size=DEFAULT_ELASTICSEARCH_SEARCH_PAGE_SIZE,
+        point_in_time_keep_alive=DEFAULT_ELASTICSEARCH_POINT_IN_TIME_KEEP_ALIVE,
         **kwargs
+
     ):
         super().__init__(**kwargs)
 
         self.indices_namespace = indices_namespace
+        self.point_in_time_keep_alive = point_in_time_keep_alive
+        self.search_page_size = search_page_size
 
-        self.client_kwargs = {
-            'hosts': client_hosts or (client_host,),
-            'http_auth': client_http_auth, 'maxsize': client_maxsize,
-            'port': client_port, 'scheme': client_scheme,
-            'sniff_on_start': client_sniff_on_start,
-            'sniff_on_connection_fail': client_sniff_on_connection_fail,
-            'sniffer_timeout': client_sniffer_timeout,
-            'verify_certs': client_verify_certs
+        self.client_kwargs = client_kwargs or {
+            'basic_auth': ('elastic', DEFAULT_ELASTICSEARCH_PASSWORD),
+            'hosts': DEFAULT_ELASTICSEARCH_HOSTS,
+            'verify_certs': False
         }
 
         if self._test_mode:
-            self.indices_namespace = 'mayan-test'
+            self.indices_namespace = DEFAULT_ELASTICSEARCH_INDICES_NAMESPACE_TEST
+
+        self._client = Elasticsearch(**self.client_kwargs)
 
     def do_search_execute(self, index_name, search):
-        point_in_time_keep_alive = '5m'
+        model = self._get_model_for_index(index_name=index_name)
+        self._client.indices.refresh(index=index_name)
 
-        client = self._get_client()
+        pk_field = model._meta.pk
 
-        point_in_time = client.open_point_in_time(
-            index=index_name, keep_alive=point_in_time_keep_alive
+        point_in_time = self._client.open_point_in_time(
+            index=index_name, keep_alive=self.point_in_time_keep_alive
+        )
+        pit_id = point_in_time['id']
+
+        base = (
+            Search(using=self._client)
+            .extra(
+                pit={
+                    'id': pit_id, 'keep_alive': self.point_in_time_keep_alive
+                },
+                size=self.search_page_size,
+                track_total_hits=False
+            )
+            .sort('_shard_doc')
+            .source(False)
         )
 
-        search = search.extra(pit=point_in_time)
-        search = search.extra(size=DEFAULT_ELASTICSEARCH_SEARCH_PAGE_SIZE)
-        search = search.index()
-        search = search.sort('_doc')
-        search = search.source(False)
+        query_dict = search.to_dict().get('query')
+        if query_dict:
+            base = base.update_from_dict(
+                {'query': query_dict}
+            )
 
-        search_after = 0
+        search_after = None
 
         try:
             while True:
-                search = search.extra(
-                    search_after=[search_after]
-                )
-                response = search.execute()
+                if search_after is None:
+                    search_new = base
+                else:
+                    search_new = search_new.extra(search_after=search_after)
 
-                if not len(response):
+                response = search_new.execute()
+
+                if not response or not len(response):
                     break
 
                 for entry in response:
                     result_id = entry.meta.id
-                    yield result_id
+                    yield pk_field.to_python(value=result_id)
 
-                search_after = response[-1].meta.sort[0]
-
-            client.close_point_in_time(
-                body={
-                    'id': point_in_time['id']
-                }
-            )
+                search_after = response[-1].meta.sort
         except elasticsearch.exceptions.NotFoundError as exception:
             raise DynamicSearchBackendException(
                 'Index not found. Make sure the search engine '
                 'was properly initialized or upgraded if '
                 'it already existed.'
             ) from exception
-
-    def _get_client(self):
-        return Elasticsearch(**self.client_kwargs)
+        finally:
+            self._client.close_point_in_time(id=pit_id)
 
     def _get_index_name(self, search_model):
-        return '{}-{}'.format(
-            self.indices_namespace, search_model.model_name.lower()
+        return '{}{}{}'.format(
+            self.indices_namespace, INDEX_NAME_DELIMITER,
+            search_model.full_name
         )
+
+    @functools.lru_cache(maxsize=256)
+    def _get_model_for_index(self, index_name):
+        indices_namespace, search_model_name = index_name.split(
+            INDEX_NAME_DELIMITER
+        )
+        search_model = SearchModel.get(name=search_model_name)
+        model = search_model.model
+
+        return model
 
     @functools.cache
     def _get_search_model_index_mappings(self, search_model):
@@ -128,21 +145,19 @@ class ElasticSearchBackend(SearchBackend):
         return mappings
 
     def _get_status(self):
-        client = self._get_client()
         result = []
 
-        title = 'Elastic Search search model indexing status'
+        title = 'Elasticsearch search model indexing status'
+        title_length = len(title)
         result.append(title)
-        result.append(
-            len(title) * '='
-        )
+        result.append('=' * title_length)
 
         self.refresh()
 
         for search_model in SearchModel.all():
             index_name = self._get_index_name(search_model=search_model)
             try:
-                index_stats = client.count(index=index_name)
+                index_stats = self._client.count(index=index_name)
             except elasticsearch.exceptions.NotFoundError:
                 index_stats = {}
 
@@ -165,12 +180,13 @@ class ElasticSearchBackend(SearchBackend):
             query_type=query_type, search_field=search_field
         )
 
-        client = self._get_client()
         index_name = self._get_index_name(
             search_model=search_field.search_model
         )
 
         if isinstance(search_field, SearchFieldVirtualAllFields):
+            seen = set()
+
             for search_field in search_field.field_composition:
                 try:
                     search_field_query = query_type.resolve_for_backend(
@@ -182,22 +198,24 @@ class ElasticSearchBackend(SearchBackend):
                     """Skip the search field."""
                 else:
                     if search_field_query is not None:
-
                         index_name = self._get_index_name(
                             search_model=search_field.search_model
                         )
 
-                        search = Search(index=index_name, using=client)
+                        search = Search(index=index_name, using=self._client)
                         search = search.filter(search_field_query)
 
                         result = self.do_search_execute(
                             index_name=index_name, search=search
                         )
-                        yield from result
+                        for item in result:
+                            if item not in seen:
+                                seen.add(item)
+                                yield item
             else:
-                return ()
+                return
         else:
-            search = Search(index=index_name, using=client)
+            search = Search(index=index_name, using=self._client)
 
             try:
                 search_field_query = query_type.resolve_for_backend(
@@ -206,10 +224,10 @@ class ElasticSearchBackend(SearchBackend):
                     search_field=search_field, value=value
                 )
             except DynamicSearchValueTransformationError:
-                return ()
+                return
             else:
                 if search_field_query is None:
-                    return ()
+                    return
                 else:
                     search = search.filter(search_field_query)
 
@@ -218,8 +236,6 @@ class ElasticSearchBackend(SearchBackend):
                     )
 
     def _update_mappings(self, search_model=None):
-        client = self._get_client()
-
         if search_model:
             search_models = (search_model,)
         else:
@@ -228,34 +244,27 @@ class ElasticSearchBackend(SearchBackend):
         for search_model in search_models:
             index_name = self._get_index_name(search_model=search_model)
 
-            mappings = self._get_search_model_index_mappings(
-                search_model=search_model
-            )
-
             try:
-                client.indices.delete(index=index_name)
+                self._client.indices.delete(index=index_name)
             except elasticsearch.exceptions.NotFoundError:
                 """
                 Non fatal, might be that this is the first time
                 the method is executed. Proceed.
                 """
 
+            mappings = self._get_search_model_index_mappings(
+                search_model=search_model
+            )
+
             try:
-                client.indices.create(
+                self._client.indices.create(
                     index=index_name,
-                    body={
-                        'mappings': {
-                            'properties': mappings
-                        }
-                    }
+                    mappings={'properties': mappings}
                 )
             except elasticsearch.exceptions.RequestError:
                 try:
-                    client.indices.put_mapping(
-                        index=index_name,
-                        body={
-                            'properties': mappings
-                        }
+                    self._client.indices.put_mapping(
+                        index=index_name, properties=mappings
                     )
                 except elasticsearch.exceptions.RequestError:
                     """
@@ -267,11 +276,8 @@ class ElasticSearchBackend(SearchBackend):
 
     def deindex_instance(self, instance):
         search_model = SearchModel.get_for_model(instance=instance)
-        client = self._get_client()
-        client.delete(
-            id=instance.pk,
-            index=self._get_index_name(search_model=search_model)
-        )
+        index_name = self._get_index_name(search_model=search_model)
+        self._client.delete(id=instance.pk, index=index_name)
 
     def index_instance(
         self, instance, exclude_model=None, exclude_kwargs=None
@@ -282,18 +288,16 @@ class ElasticSearchBackend(SearchBackend):
             exclude_kwargs=exclude_kwargs, exclude_model=exclude_model,
             instance=instance, search_backend=self
         )
-        self._get_client().index(
-            index=self._get_index_name(search_model=search_model),
-            id=instance.pk, document=document
+        index_name = self._get_index_name(search_model=search_model)
+        self._client.index(
+            document=document, id=instance.pk, index=index_name
         )
 
     def index_instances(self, search_model, id_list):
-        client = self._get_client()
         index_name = self._get_index_name(search_model=search_model)
 
         def generate_actions():
             queryset = search_model.get_queryset()
-
             queryset = queryset.filter(pk__in=id_list)
 
             for instance in queryset:
@@ -304,8 +308,9 @@ class ElasticSearchBackend(SearchBackend):
 
                 yield kwargs
 
+        action = generate_actions()
         bulk_indexing_generator = helpers.streaming_bulk(
-            actions=generate_actions(), client=client, index=index_name,
+            actions=action, client=self._client, index=index_name,
             yield_ok=False
         )
 
@@ -313,7 +318,6 @@ class ElasticSearchBackend(SearchBackend):
 
     def refresh(self):
         attempt_count = 0
-        client = self._get_client()
         search_model_index = 0
         search_models = SearchModel.all()
 
@@ -322,7 +326,7 @@ class ElasticSearchBackend(SearchBackend):
             index_name = self._get_index_name(search_model=search_model)
 
             try:
-                client.indices.refresh(index=index_name)
+                self._client.indices.refresh(index=index_name)
             except elasticsearch.exceptions.NotFoundError as exception:
                 attempt_count += 1
 
@@ -344,17 +348,14 @@ class ElasticSearchBackend(SearchBackend):
         self._update_mappings(search_model=search_model)
 
     def tear_down(self, search_model=None):
-        client = self._get_client()
-
         if search_model:
             search_models = (search_model,)
         else:
             search_models = SearchModel.all()
 
         for search_model in search_models:
+            index_name = self._get_index_name(search_model=search_model)
             try:
-                client.indices.delete(
-                    index=self._get_index_name(search_model=search_model)
-                )
+                self._client.indices.delete(index=index_name)
             except elasticsearch.exceptions.NotFoundError:
                 """Ignore non existent indexes."""

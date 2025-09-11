@@ -4,7 +4,7 @@ from ..exceptions import DynamicSearchBackendException
 from ..search_query_types import QueryTypeExact
 
 from .mixins.backend_mixins import (
-    BackendSearchTestMixin, ElasticSearchBackendTestMixin,
+    BackendSearchTestMixin, ElasticsearchSearchBackendTestMixin,
     SearchBackendLimitTestMixin
 )
 from .mixins.backend_query_type_mixins import (
@@ -16,16 +16,17 @@ from .mixins.backend_search_field_mixins import (
 from .mixins.base import TestSearchObjectSimpleTestMixin
 
 
-class ElasticSearchSearchBackendLimitTestCase(
-    ElasticSearchBackendTestMixin, SearchBackendLimitTestMixin, BaseTestCase
+class ElasticsearchSearchSearchBackendLimitTestCase(
+    ElasticsearchSearchBackendTestMixin, SearchBackendLimitTestMixin,
+    BaseTestCase
 ):
     """
-    Search limit test case for the ElasticSearch backend.
+    Search limit test case for the Elasticsearch backend.
     """
 
 
-class ElasticSearchBackendIndexingTestCase(
-    BackendSearchTestMixin, ElasticSearchBackendTestMixin,
+class ElasticsearchSearchBackendIndexingTestCase(
+    BackendSearchTestMixin, ElasticsearchSearchBackendTestMixin,
     TestSearchObjectSimpleTestMixin, BaseTestCase
 ):
     def test_search_without_indexes(self):
@@ -35,24 +36,23 @@ class ElasticSearchBackendIndexingTestCase(
             self._do_backend_search(
                 field_name='char',
                 query_type=QueryTypeExact,
-                value=self._test_object.char,
-                _skip_refresh=True,
+                value=self._test_object.char
             )
 
 
-class ElasticSearchBackendSearchFieldTestCase(
-    BackendSearchFieldTestCaseMixin, ElasticSearchBackendTestMixin,
+class ElasticsearchSearchBackendSearchFieldTestCase(
+    BackendSearchFieldTestCaseMixin, ElasticsearchSearchBackendTestMixin,
     BaseTestCase
 ):
     """
-    Field test case for the ElasticSearch backend.
+    Field test case for the Elasticsearch backend.
     """
 
 
-class ElasticSearchBackendFieldTypeQueryTypeTestCase(
-    BackendFieldTypeQueryTypeTestCaseMixin, ElasticSearchBackendTestMixin,
-    BaseTestCase
+class ElasticsearchSearchBackendFieldTypeQueryTypeTestCase(
+    BackendFieldTypeQueryTypeTestCaseMixin,
+    ElasticsearchSearchBackendTestMixin, BaseTestCase
 ):
     """
-    Field query type test case for the ElasticSearch backend.
+    Field query type test case for the Elasticsearch backend.
     """
