@@ -110,7 +110,7 @@ is 3.7. The code was updated to support Python 3.10.
 
 Dependencies updated:
 
-- ElasticSearch from 7.16.0 to 7.17.0.
+- Elasticsearch from 7.16.0 to 7.17.0.
 - Debian from 11.2-slim to 11.3-slim.
 - PostgreSQL from 12.9-alpine to 12.10-alpine.
 - RabbitMQ from 3.9-alpine to 3.10-alpine.
@@ -142,7 +142,7 @@ Dependencies updated:
 - node-semver from 0.8.0 to 0.8.1.
 - packaging from 21.0 to 21.3.
 - python_gnupg from 0.4.7 to 0.4.8.
-- elasticsearch from 7.16.0 to 7.17.1.
+- Elasticsearch from 7.16.0 to 7.17.1.
 - django-activity-stream from 0.10.0 to 1.4.0.
 - chart.js from 2.7.3 to 2.8.0.
 - python-magic from 0.4.24 to 0.4.26.
@@ -366,7 +366,7 @@ to a filtering term.
 The special "match-all-fields" ``q`` URL query key has been converted into a
 documented literal named ``QUERY_PARAMETER_ANY_FIELD``.
 
-Support was added for hyphenated text when using the ElasticSearch backend.
+Support was added for hyphenated text when using the Elasticsearch backend.
 Hyphenated words are now indexed as a whole word and not split at the hyphen
 location.
 
@@ -393,9 +393,9 @@ dictionary instead for both purposes. The canonical method to obtain the
 search field of a search model is now using the method
 ``.get_search_fields()`` instead of accessing the private structures.
 
-The ElasticSearch backend default settings were updated to match those of
+The Elasticsearch backend default settings were updated to match those of
 the official Python client. This change may affect connectivity with existing
-ElasticSearch server when used in clustered mode.
+Elasticsearch server when used in clustered mode.
 
 Support was added for showing search model fields help texts. By default the
 help text from the model field will be used.
@@ -423,10 +423,10 @@ Unused ``SearchModel`` methods were removed.
 
 Sorting of ``SearchModel`` instances was improved.
 
-The ElasticSearch backend now uses the count API to obtain accurate search
+The Elasticsearch backend now uses the count API to obtain accurate search
 model status information.
 
-Existing indexes are now deleted when calling the ElasticSearch backend
+Existing indexes are now deleted when calling the Elasticsearch backend
 initialize method. This ensures complete initialization and cleanup of
 existing data as the command intends.
 
@@ -440,13 +440,13 @@ consolidated.
 The evaluation of the "Match all" parameter was fixed when using a single
 level scoped search.
 
-The ``UUID`` field to ElasticSearch field mapping was changed from ``Keyword``
+The ``UUID`` field to Elasticsearch field mapping was changed from ``Keyword``
 to ``Text`` to avoid search indexing error when processing document
-containers with more than 910 documents. ElasticSearch's ``Keyword`` field
+containers with more than 910 documents. Elasticsearch's ``Keyword`` field
 is limited to 32766 bytes and attempting to index a container with more
 than 910 documents would exceed this limit.
 
-The ElasticSearch backend search query configuration was updated to be more
+The Elasticsearch backend search query configuration was updated to be more
 strict and lower the number of hits a search would match. The ``match``
 query was changed to ``match_phrase`` and the ``fuzzy`` query was removed.
 

@@ -62,7 +62,7 @@ Docker
 Updated Docker Image Tags:
 
 - Base Debian from 12.5-slim to 12.11-slim.
-- ElasticSearch from 7.17.20 to 7.17.28
+- Elasticsearch from 7.17.20 to 7.17.28
 - Forge base from 24.04 to noble-20250714
 - PostgreSQL from 14.12-alpine to 14.18-alpine
 - Python from 3.11.9-slim to 3.11.13-slim.
