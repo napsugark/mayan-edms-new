@@ -15,7 +15,7 @@ Dependencies
 
 Updated dependencies:
 
-- ElasticSearch Docker image from 7.17.9 to 7.17.20.
+- Elasticsearch Docker image from 7.17.9 to 7.17.20.
 - KeyCloak Docker image from 20.0.1 to 20.0.5.
 - MySQL Docker image from 8.0.32 to 8.0.36.
 - PostgreSQL Docker image from 13.10-alpine to 13.14-alpine.
@@ -39,7 +39,7 @@ Lowered the severity of searching indexing problems to ``INFO``. This
 reduces user confusion between normal messages when processing the
 asynchronous task queue and actual coding errors.
 
-Support ignoring the self signed SSL certificates for ElasticSearch over
+Support ignoring the self signed SSL certificates for Elasticsearch over
 HTTPS.
 
 

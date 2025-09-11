@@ -42,7 +42,7 @@ Search
 ^^^^^^
 
 Updated ``DEFAULT_SEARCH_QUERY_RESULTS_LIMIT`` from 100000 to 10000 to
-workaround conflicting with the ElasticSearch non scroll search hard coded
+workaround conflicting with the Elasticsearch non scroll search hard coded
 limit.
 
 
