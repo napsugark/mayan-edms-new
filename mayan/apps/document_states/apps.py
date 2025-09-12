@@ -25,7 +25,9 @@ from mayan.apps.rest_api.fields import DynamicSerializerField
 from mayan.apps.templating.classes import ModelTemplating
 
 from .classes import DocumentStateHelper, WorkflowAction
-from .column_widgets import WorkflowLogExtraDataWidget
+from .column_widgets import (
+    WorkflowLogExtraDataWidget, WorkflowTemplateTransitionTriggerColumnWidget
+)
 from .events import (
     event_workflow_instance_created, event_workflow_instance_transitioned,
     event_workflow_template_edited
@@ -39,7 +41,6 @@ from .handlers import (
     handler_workflow_template_transition_post_edit,
     handler_workflow_template_transition_pre_delete
 )
-from .html_widgets import widget_transition_events
 from .links import (
     link_document_workflow_templates_launch_multiple,
     link_document_workflow_templates_launch_single,
@@ -579,13 +580,12 @@ class DocumentStatesApp(MayanAppConfig):
             source=WorkflowTransition
         )
         SourceColumn(
-            func=lambda context: widget_transition_events(
-                transition=context['object']
-            ), help_text=_(
+            attribute='trigger_events', help_text=_(
                 message='Triggers are system events that will cause the '
                 'transition to be applied.'
             ), include_label=True, label=_(message='Triggers'),
-            source=WorkflowTransition
+            source=WorkflowTransition,
+            widget=WorkflowTemplateTransitionTriggerColumnWidget
         )
 
         # Workflow template transition field

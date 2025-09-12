@@ -125,6 +125,9 @@
     - Rename the Elasticsearch backend from `ElasticSearchBackend` to
       `ElasticsearchSearchBackend` for consistency.
 
+- Update the workflow template transition trigger widget to a
+  `SourceColumnWidget` subclass.
+
 4.9.5 (XXXX-XX-XX)
 ==================
 - Improvements and changes from version 4.8.8.
