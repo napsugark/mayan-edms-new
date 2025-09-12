@@ -12,7 +12,7 @@ from mayan.apps.credentials.class_mixins import (
 from .classes import WorkflowAction
 from .exceptions import WorkflowStateActionError
 from .literals import (
-    DEFAULT_HTTP_ACTION_TIMEOUT,
+    DEFAULT_HTTP_ACTION_TIMEOUT, DEFAULT_HTTP_ACTION_VERIFY_CERTIFICATES,
     WORKFLOW_ACTION_HTTP_REQUEST_DEFAULT_RESPONSE_STORE_NAME
 )
 from .models.workflow_instance_models import WorkflowInstance
@@ -176,6 +176,16 @@ class HTTPAction(BackendMixinCredentialsOptional, WorkflowAction):
                 'model_variable': 'workflow_instance',
                 'required': True
             }
+        }, 'verify_certificate': {
+            'label': _(message='Verify SSL Certificate'),
+            'class': 'django.forms.fields.BooleanField',
+            'default': DEFAULT_HTTP_ACTION_VERIFY_CERTIFICATES,
+            'kwargs': {
+                'help_text': _(
+                    'Verify or ignore the SSL certificate of the URL.'
+                ),
+                'required': False
+            }
         }, 'method': {
             'label': _(message='Method'),
             'class': 'mayan.apps.templating.fields.ModelTemplateField',
@@ -290,7 +300,7 @@ class HTTPAction(BackendMixinCredentialsOptional, WorkflowAction):
                 _(message='Request'), {
                     'fields': (
                         'url', 'username', 'password', 'headers', 'timeout',
-                        'method', 'payload'
+                        'method', 'payload', 'verify_certificate'
                     )
                 },
             ),
@@ -349,6 +359,9 @@ class HTTPAction(BackendMixinCredentialsOptional, WorkflowAction):
         username = self.render_field(
             field_name='username', context=authentication_context
         )
+        verify = self.kwargs.get(
+            'verify_certificate', DEFAULT_HTTP_ACTION_VERIFY_CERTIFICATES
+        )
 
         if '.' in timeout:
             timeout = float(timeout)
@@ -365,10 +378,11 @@ class HTTPAction(BackendMixinCredentialsOptional, WorkflowAction):
 
         response = requests.request(
             auth=authentication, headers=headers, json=payload,
-            method=method, timeout=timeout, url=url
+            method=method, timeout=timeout, url=url, verify=verify
         )
 
-        if self.kwargs.get('response_store', False):
+        response_store = self.kwargs.get('response_store', False)
+        if response_store:
             try:
                 json = response.json()
             except requests.exceptions.JSONDecodeError:

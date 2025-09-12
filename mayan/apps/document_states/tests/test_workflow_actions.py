@@ -323,6 +323,48 @@ class HTTPWorkflowActionTestCase(
         events = self._get_test_events()
         self.assertEqual(events.count(), 0)
 
+    @mock.patch('requests.request')
+    def test_http_post_action_verify_certificates_false(self, mock_object):
+
+        self._clear_events()
+
+        self._execute_workflow_template_state_action(
+            klass=HTTPAction, kwargs={
+                'method': 'POST', 'payload': TEST_PAYLOAD_JSON,
+                'url': self.testserver_url, 'verify_certificate': False
+            }
+        )
+
+        events = self._get_test_events()
+        self.assertEqual(events.count(), 0)
+
+        payload = json.loads(s=TEST_PAYLOAD_JSON)
+        mock_object.assert_called_once_with(
+            auth=None, headers={}, json=payload, method='POST',
+            timeout=None, url=self.testserver_url, verify=False
+        )
+
+    @mock.patch('requests.request')
+    def test_http_post_action_verify_certificates_true(self, mock_object):
+
+        self._clear_events()
+
+        self._execute_workflow_template_state_action(
+            klass=HTTPAction, kwargs={
+                'method': 'POST', 'payload': TEST_PAYLOAD_JSON,
+                'url': self.testserver_url, 'verify_certificate': True
+            }
+        )
+
+        events = self._get_test_events()
+        self.assertEqual(events.count(), 0)
+
+        payload = json.loads(s=TEST_PAYLOAD_JSON)
+        mock_object.assert_called_once_with(
+            auth=None, headers={}, json=payload, method='POST',
+            timeout=None, url=self.testserver_url, verify=True
+        )
+
 
 class HTTPCredentialTemplateWorkflowActionTestCase(
     StoredCredentialPasswordUsernameTestMixin, TestServerTestCaseMixin,

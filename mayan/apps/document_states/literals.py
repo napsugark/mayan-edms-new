@@ -4,7 +4,10 @@ from django.conf import settings
 from django.utils.translation import gettext_lazy as _
 
 DEFAULT_GRAPHVIZ_DOT_PATH = '/usr/bin/dot'
+
 DEFAULT_HTTP_ACTION_TIMEOUT = 4  # 4 seconds.
+DEFAULT_HTTP_ACTION_VERIFY_CERTIFICATES = True
+
 DEFAULT_WORKFLOWS_IMAGE_CACHE_MAXIMUM_SIZE = 50 * 2 ** 20  # 50 Megabytes.
 DEFAULT_WORKFLOWS_IMAGE_CACHE_STORAGE_BACKEND = 'django.core.files.storage.FileSystemStorage'
 DEFAULT_WORKFLOWS_IMAGE_CACHE_STORAGE_BACKEND_ARGUMENTS = {

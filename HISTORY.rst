@@ -127,6 +127,9 @@
 
 - Update the workflow template transition trigger widget to a
   `SourceColumnWidget` subclass.
+- Added support to the workflow HTTP action to bypass SSL certificate
+  verification. This allows the workflow to interface with intranet services
+  that are using a self-signed certificate.
 
 4.9.5 (XXXX-XX-XX)
 ==================
