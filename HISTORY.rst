@@ -130,6 +130,8 @@
 - Added support to the workflow HTTP action to bypass SSL certificate
   verification. This allows the workflow to interface with intranet services
   that are using a self-signed certificate.
+- Deprecate ORACLE support. Oracle files will be removed in the next minor
+  version.
 
 4.9.5 (XXXX-XX-XX)
 ==================
