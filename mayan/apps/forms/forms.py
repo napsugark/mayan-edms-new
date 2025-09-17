@@ -17,7 +17,9 @@ from .form_fields import (
     CharField, ChoiceField, ModelChoiceField, ModelMultipleChoiceField,
     MultipleChoiceField
 )
-from .form_mixins import FormMixinDynamicFields, FormMixinFieldsets
+from .form_mixins import (
+    FormMixinDynamicFields, FormMixinFieldsets, FormMixinFormMeta
+)
 from .form_options import DetailFormOption, FilteredSelectionFormOptions
 from .form_widgets import (
     DisableableSelectWidget, PlainWidget, RadioSelect, Select, SelectMultiple,
@@ -25,11 +27,11 @@ from .form_widgets import (
 )
 
 
-class Form(FormMixinFieldsets, DjangoForm):
+class Form(FormMixinFormMeta, FormMixinFieldsets, DjangoForm):
     """Mayan's default form class."""
 
 
-class ModelForm(FormMixinFieldsets, DjangoModelForm):
+class ModelForm(FormMixinFormMeta, FormMixinFieldsets, DjangoModelForm):
     """Mayan's default model form class."""
 
 

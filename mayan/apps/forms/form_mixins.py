@@ -1,3 +1,5 @@
+import types
+
 from django import forms as django_forms
 from django.core.exceptions import ImproperlyConfigured
 from django.utils.module_loading import import_string
@@ -70,17 +72,47 @@ class FormMixinDynamicFields:
         return media
 
 
+class FormMixinFormMeta:
+    def __init__(self, *args, **kwargs):
+        self._form_meta = self._get_form_meta()
+
+        super().__init__(*args, **kwargs)
+
+    def _get_form_meta(self, options_class_name='FormMeta'):
+        merged = {}
+
+        lineage = reversed(
+            type(self).mro()
+        )
+
+        for base in lineage:
+            options = getattr(base, options_class_name, None)
+            if options:
+                for name in dir(options):
+                    if not name.startswith('_'):
+                        merged[name] = getattr(options, name)
+
+        return types.SimpleNamespace(**merged)
+
+
 class FormMixinFieldsets:
     fieldset_exclude_list = None
     fieldsets = None
+
+    def __init__(self, *args, **kwargs):
+        self._form_meta = self._get_form_meta()
+
+        super().__init__(*args, **kwargs)
 
     def get_fieldset_exclude_list(self):
         return self.fieldset_exclude_list or ()
 
     def get_fieldsets(self):
-        if self.fieldsets:
+        fieldsets = getattr(self._form_meta, 'fieldsets', self.fieldsets)
+
+        if fieldsets:
             fieldsets_field_list = []
-            for fieldset, data in self.fieldsets:
+            for fieldset, data in fieldsets:
                 fieldsets_field_list.extend(
                     data['fields']
                 )
@@ -103,7 +135,7 @@ class FormMixinFieldsets:
                     )
                 )
 
-            return self.fieldsets
+            return fieldsets
         else:
             return (
                 (

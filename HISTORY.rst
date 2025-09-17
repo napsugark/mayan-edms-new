@@ -135,6 +135,8 @@
 - Improve form fieldset mismatch exception error.
 - Add a new template filter named `yaml_dump` that converts the given value
   into a YAML-formatted string.
+- Add `FormMixinFormMeta` to support specifying custom form options in a well
+  organized `FormMeta` form class member.
 
 4.9.5 (XXXX-XX-XX)
 ==================
