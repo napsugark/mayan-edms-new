@@ -299,6 +299,15 @@ class FileMetadataDriver(
                 for driver in cls.collection.get_all():
                     driver.do_model_instance_populate()
 
+    def get_stored_driver_instance(self):
+        StoredDriver = apps.get_model(
+            app_label='file_metadata', model_name='StoredDriver'
+        )
+
+        driver_path = get_class_full_name(klass=self.__class__)
+
+        return StoredDriver.objects.get(driver_path=driver_path)
+
     def process(self, document_file):
         try:
             logger.debug('Starting processing document file: %s', document_file)
