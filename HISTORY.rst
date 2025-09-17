@@ -132,6 +132,7 @@
   that are using a self-signed certificate.
 - Deprecate ORACLE support. Oracle files will be removed in the next minor
   version.
+- Improve form fieldset mismatch exception error.
 
 4.9.5 (XXXX-XX-XX)
 ==================
