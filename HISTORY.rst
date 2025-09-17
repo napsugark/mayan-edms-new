@@ -133,6 +133,8 @@
 - Deprecate ORACLE support. Oracle files will be removed in the next minor
   version.
 - Improve form fieldset mismatch exception error.
+- Add a new template filter named `yaml_dump` that converts the given value
+  into a YAML-formatted string.
 
 4.9.5 (XXXX-XX-XX)
 ==================
