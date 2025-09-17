@@ -139,6 +139,8 @@
   organized `FormMeta` form class member.
 - Add `get_stored_driver_instance` to allow a file metadata driver instance
   to have access to its corresponding `StoredDriver` model instance.
+- Add file metadata class method `do_document_file_process` to consolidate
+  subclass execution and avoid having that logic in the task.
 
 4.9.5 (XXXX-XX-XX)
 ==================

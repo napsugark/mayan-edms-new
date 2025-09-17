@@ -114,12 +114,25 @@ class FileMetadataDriver(
         return FileMetadataDriverCollection
 
     @classmethod
+    def do_document_file_process(cls, document_file):
+        arguments = cls.get_argument_values_for_document_file(
+            document_file=document_file
+        )
+
+        driver_instance = cls(**arguments)
+
+        driver_instance._instance_do_document_file_process(
+            document_file=document_file
+        )
+
+    @classmethod
     def do_model_instance_populate(cls):
         DocumentType = apps.get_model(
             app_label='documents', model_name='DocumentType'
         )
         DocumentTypeDriverConfiguration = apps.get_model(
-            app_label='file_metadata', model_name='DocumentTypeDriverConfiguration'
+            app_label='file_metadata',
+            model_name='DocumentTypeDriverConfiguration'
         )
         StoredDriver = apps.get_model(
             app_label='file_metadata', model_name='StoredDriver'
@@ -308,15 +321,19 @@ class FileMetadataDriver(
 
         return StoredDriver.objects.get(driver_path=driver_path)
 
-    def process(self, document_file):
+    def _instance_do_document_file_process(self, document_file):
         try:
-            logger.debug('Starting processing document file: %s', document_file)
+            logger.debug(
+                'Starting processing document file: %s', document_file
+            )
 
             FileMetadataEntry = apps.get_model(
                 app_label='file_metadata', model_name='FileMetadataEntry'
             )
 
-            file_metadata_dictionary = self._process(document_file=document_file)
+            file_metadata_dictionary = self._process(
+                document_file=document_file
+            )
 
             file_metadata_dictionary = file_metadata_dictionary or {}
 

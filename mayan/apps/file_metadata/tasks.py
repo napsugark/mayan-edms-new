@@ -114,12 +114,8 @@ def task_metadata_driver_process(self, document_file_id, stored_driver_id):
             try:
                 driver_class = stored_driver.driver_class
 
-                arguments = driver_class.get_argument_values_for_document_file(
+                driver_class.do_document_file_process(
                     document_file=document_file
                 )
-
-                driver_instance = driver_class(**arguments)
-
-                driver_instance.process(document_file=document_file)
             finally:
                 lock.release()
