@@ -96,7 +96,7 @@ class FormMixinFieldsets:
 
             if set_fields != set_fieldsets:
                 raise ImproperlyConfigured(
-                    'Mismatch fieldset fields: {fields} in form `{form}`'.format(
+                    'Mismatch fieldset fields: `{fields}` in form `{form}`'.format(
                         fields=', '.join(
                             set_fields.symmetric_difference(set_fieldsets)
                         ), form=self.__class__.__name__

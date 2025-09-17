@@ -7,6 +7,7 @@
 - Don't append the changelog to the PyPI description.
 - Add SPDX license expression to comply with PEP 639.
 - Fix label of the index template return link.
+- Improve form fieldset mismatch exception error message.
 
 4.6.9 (2025-08-31)
 ==================
