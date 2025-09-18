@@ -152,6 +152,7 @@
   `DOCKER_MYSQL_IMAGE_NAME` and `DOCKER_MYSQL_IMAGE_TAG`.
 - Move the Google credentials backend to its own app.
 - Add support for deleting multiple transformations.
+- Split the tag app view tests into separate tag and document tests modules.
 
 4.9.5 (XXXX-XX-XX)
 ==================
