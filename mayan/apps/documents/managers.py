@@ -8,6 +8,10 @@ from django.utils.timezone import now
 
 from mayan.apps.databases.classes import ModelQueryFields
 
+from .literals import (
+    DOCUMENT_TYPE_RETENTION_ITERATOR_CHUNK_SIZE,
+    DOCUMENT_TYPE_STUB_ITERATOR_CHUNK_SIZE
+)
 from .settings import (
     setting_favorite_count, setting_recently_accessed_document_count,
     setting_recently_created_document_count
@@ -78,14 +82,16 @@ class DocumentTypeManager(models.Manager):
                 document_type, delta
             )
 
-            queryset_documents_to_delete = document_type.documents.filter(
-                trashed_date_time__lt=now() - delta
-            ).only('id')
+            cutoff = now() - delta
 
-            for document in queryset_documents_to_delete:
+            queryset_documents_to_delete = document_type.documents.filter(
+                trashed_date_time__lt=cutoff
+            ).only('id', 'trashed_date_time')
+
+            for document in queryset_documents_to_delete.iterator(chunk_size=DOCUMENT_TYPE_RETENTION_ITERATOR_CHUNK_SIZE):
                 logger.debug(
                     'Document "%s" with id: %d, trashed on: %s, exceeded '
-                    'delete period', document, document.pk,
+                    'delete period', document, document.id,
                     document.trashed_date_time
                 )
                 document.delete()
@@ -114,14 +120,16 @@ class DocumentTypeManager(models.Manager):
                 document_type, delta
             )
 
-            queryset_documents_to_trash = document_type.documents.filter(
-                datetime_created__lt=now() - delta
-            ).only('id')
+            cutoff = now() - delta
 
-            for document in queryset_documents_to_trash:
+            queryset_documents_to_trash = document_type.documents.filter(
+                datetime_created__lt=cutoff
+            ).only('id', 'datetime_created')
+
+            for document in queryset_documents_to_trash.iterator(chunk_size=DOCUMENT_TYPE_RETENTION_ITERATOR_CHUNK_SIZE):
                 logger.debug(
                     'Document "%s" with id: %d, added on: %s, exceeded '
-                    'trash period.', document, document.pk,
+                    'trash period.', document, document.id,
                     document.datetime_created
                 )
                 document.delete()
@@ -141,15 +149,17 @@ class DocumentTypeManager(models.Manager):
                 seconds=document_type.document_stub_expiration_interval
             )
 
+            cutoff = now() - delta
+
             queryset_stale_stub_documents = document_type.documents.filter(
-                is_stub=True, datetime_created__lt=now() - delta
+                datetime_created__lt=cutoff, is_stub=True
             ).only('id')
 
             logger.debug(
                 'Deleting %d document stubs', queryset_stale_stub_documents.count()
             )
 
-            for stale_stub_document in queryset_stale_stub_documents:
+            for stale_stub_document in queryset_stale_stub_documents.iterator(chunk_size=DOCUMENT_TYPE_STUB_ITERATOR_CHUNK_SIZE):
                 stale_stub_document.delete(to_trash=False)
 
         logger.debug(msg='Finished')
@@ -229,7 +239,7 @@ class ValidDocumentFileManager(models.Manager):
     def get_queryset(self):
         return models.QuerySet(
             model=self.model, using=self._db
-        ).filter(document__in_trash=False)
+        ).filter(document__in_trash=False).select_related('document')
 
 
 class ValidDocumentFilePageManager(models.Manager):
@@ -238,14 +248,14 @@ class ValidDocumentFilePageManager(models.Manager):
             model=self.model, using=self._db
         ).filter(
             document_file__document__in_trash=False
-        )
+        ).select_related('document_file', 'document_file__document')
 
 
 class ValidDocumentVersionManager(models.Manager):
     def get_queryset(self):
         return models.QuerySet(
             model=self.model, using=self._db
-        ).filter(document__in_trash=False)
+        ).filter(document__in_trash=False).select_related('document')
 
 
 class ValidDocumentVersionPageManager(models.Manager):
@@ -254,7 +264,7 @@ class ValidDocumentVersionPageManager(models.Manager):
             model=self.model, using=self._db
         ).filter(
             document_version__document__in_trash=False
-        )
+        ).select_related('document_version', 'document_version__document')
 
 
 class ValidFavoriteDocumentManager(models.Manager):
@@ -267,7 +277,7 @@ class ValidFavoriteDocumentManager(models.Manager):
         # setting_favorite_count.
         queryset_favorites_to_delete = self.filter(
             user=user
-        ).only('id').values('pk').order_by('-datetime_added')[
+        ).only('id').values_list('id', flat=True).order_by('-datetime_added')[
             setting_favorite_count.value:
         ]
         self.filter(pk__in=queryset_favorites_to_delete).delete()
@@ -315,7 +325,7 @@ class ValidRecentlyAccessedDocumentManager(models.Manager):
 
             queryset_recent_to_delete = self.filter(
                 user=user
-            ).only('id').values('pk')[
+            ).only('pk').values_list('pk', flat=True)[
                 setting_recently_accessed_document_count.value:
             ]
 
@@ -351,7 +361,7 @@ class ValidRecentlyCreatedDocumentManager(models.Manager):
 
         queryset_recent = queryset_valid.order_by('-datetime_created')[
             :setting_recently_created_document_count.value
-        ].only('id').values('pk')
+        ].only('pk').values_list('pk', flat=True)
 
         queryset_final = super().get_queryset().filter(
             pk__in=queryset_recent
