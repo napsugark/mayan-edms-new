@@ -1,7 +1,7 @@
 from django.urls import reverse
 
 from mayan.apps.converter.links import (
-    link_transformation_delete, link_transformation_edit,
+    link_transformation_delete_single, link_transformation_edit,
     link_transformation_select
 )
 from mayan.apps.converter.tests.mixins import TransformationViewTestMixin
@@ -27,7 +27,7 @@ class RedactionViewTestCase(
     auto_create_test_transformation_class = False
     TestTransformationClass = TransformationRedactionPercent
 
-    def test_redaction_delete_link_no_permissions(self):
+    def test_redaction_delete_single_link_no_permissions(self):
         self._create_test_transformation()
 
         self.add_test_view(test_object=self._test_transformation)
@@ -35,11 +35,13 @@ class RedactionViewTestCase(
         context = self.get_test_view()
         context['layer_name'] = self._test_layer.name
         context['content_object'] = self._test_transformation_object
-        resolved_link = link_transformation_delete.resolve(context=context)
+        resolved_link = link_transformation_delete_single.resolve(
+            context=context
+        )
 
         self.assertEqual(resolved_link, None)
 
-    def test_redaction_delete_link_with_access(self):
+    def test_redaction_delete_single_link_with_access(self):
         self._create_test_transformation()
 
         self.grant_access(
@@ -52,13 +54,15 @@ class RedactionViewTestCase(
         context = self.get_test_view()
         context['layer_name'] = self._test_layer.name
         context['content_object'] = self._test_transformation_object
-        resolved_link = link_transformation_delete.resolve(context=context)
+        resolved_link = link_transformation_delete_single.resolve(
+            context=context
+        )
 
         self.assertNotEqual(resolved_link, None)
 
         self.assertEqual(
             resolved_link.url, reverse(
-                viewname=link_transformation_delete.view, kwargs={
+                viewname=link_transformation_delete_single.view, kwargs={
                     'app_label': self._test_transformation_object_content_type.app_label,
                     'model_name': self._test_transformation_object_content_type.model,
                     'object_id': self._test_transformation_object.pk,
@@ -216,8 +220,7 @@ class RedactionLinkDisplayTestCase(
             status_code=200
         )
         self.assertNotContains(
-            response=response,
-            text=link_transformation_delete.text,
+            response=response, text=link_transformation_delete_single.text,
             status_code=200
         )
 
@@ -249,8 +252,7 @@ class RedactionLinkDisplayTestCase(
             status_code=200
         )
         self.assertContains(
-            response=response,
-            text=link_transformation_delete.text,
+            response=response, text=link_transformation_delete_single.text,
             status_code=200
         )
 

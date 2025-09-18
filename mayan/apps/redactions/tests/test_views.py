@@ -103,13 +103,13 @@ class RedactionViewTestCase(
         events = self._get_test_events()
         self.assertEqual(events.count(), 0)
 
-    def test_redaction_delete_view_no_permission(self):
+    def test_redaction_delete_single_view_no_permission(self):
         self._create_test_transformation()
         transformation_count = LayerTransformation.objects.count()
 
         self._clear_events()
 
-        response = self._request_transformation_delete_view()
+        response = self._request_transformation_delete_single_view()
         self.assertEqual(response.status_code, 404)
 
         self.assertEqual(
@@ -119,7 +119,7 @@ class RedactionViewTestCase(
         events = self._get_test_events()
         self.assertEqual(events.count(), 0)
 
-    def test_redaction_delete_view_with_access(self):
+    def test_redaction_delete_single_view_with_access(self):
         self._create_test_transformation()
         self.grant_access(
             obj=self._test_transformation_object_parent,
@@ -129,7 +129,7 @@ class RedactionViewTestCase(
 
         self._clear_events()
 
-        response = self._request_transformation_delete_view()
+        response = self._request_transformation_delete_single_view()
         self.assertEqual(response.status_code, 302)
 
         self.assertEqual(

@@ -1,6 +1,6 @@
 from mayan.apps.documents.tests.base import GenericDocumentViewTestCase
 
-from ..links import link_transformation_delete
+from ..links import link_transformation_delete_single
 
 from .mixins import TransformationViewTestMixin
 
@@ -56,8 +56,7 @@ class TransformationLinkDisplayTestCase(
             status_code=200
         )
         self.assertNotContains(
-            response=response,
-            text=link_transformation_delete.text,
+            response=response, text=link_transformation_delete_single.text,
             status_code=200
         )
 
@@ -89,8 +88,7 @@ class TransformationLinkDisplayTestCase(
             status_code=200
         )
         self.assertContains(
-            response=response,
-            text=link_transformation_delete.text,
+            response=response, text=link_transformation_delete_single.text,
             status_code=200
         )
 
