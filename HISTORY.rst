@@ -145,6 +145,7 @@
   `source_queryset' and not `queryset`.
 - Add file metadata driver for OpenAI.
 - Add `content` as a model attribute for the document file sandbox.
+- Fix label of the index template return link.
 
 4.9.5 (XXXX-XX-XX)
 ==================
