@@ -150,6 +150,7 @@
   `DOCKER_LINUX_IMAGE_NAME` and `DOCKER_LINUX_IMAGE_TAG`.
 - Split the variable `DOCKER_MYSQL_IMAGE_VERSION` into
   `DOCKER_MYSQL_IMAGE_NAME` and `DOCKER_MYSQL_IMAGE_TAG`.
+- Move the Google credentials backend to its own app.
 
 4.9.5 (XXXX-XX-XX)
 ==================

@@ -94,6 +94,7 @@ INSTALLED_APPS = (
     'mayan.apps.common.apps.CommonApp',
     'mayan.apps.converter.apps.ConverterApp',
     'mayan.apps.credentials.apps.CredentialsApp',
+    'mayan.apps.credentials_google.apps.CredentialsGoogleApp',
     'mayan.apps.dashboards.apps.DashboardsApp',
     'mayan.apps.databases.apps.DatabasesApp',
     'mayan.apps.dependencies.apps.DependenciesApp',
