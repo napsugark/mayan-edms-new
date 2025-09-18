@@ -76,13 +76,13 @@ class TransformationViewTestCase(
         events = self._get_test_events()
         self.assertEqual(events.count(), 0)
 
-    def test_transformation_delete_view_no_permission(self):
+    def test_transformation_delete_single_view_no_permission(self):
         self._create_test_transformation()
         transformation_count = LayerTransformation.objects.count()
 
         self._clear_events()
 
-        response = self._request_transformation_delete_view()
+        response = self._request_transformation_delete_single_view()
         self.assertEqual(response.status_code, 404)
 
         self.assertEqual(
@@ -92,7 +92,7 @@ class TransformationViewTestCase(
         events = self._get_test_events()
         self.assertEqual(events.count(), 0)
 
-    def test_transformation_delete_view_with_access(self):
+    def test_transformation_delete_single_view_with_access(self):
         self._create_test_transformation()
         self.grant_access(
             obj=self._test_transformation_object_parent,
@@ -102,7 +102,43 @@ class TransformationViewTestCase(
 
         self._clear_events()
 
-        response = self._request_transformation_delete_view()
+        response = self._request_transformation_delete_single_view()
+        self.assertEqual(response.status_code, 302)
+
+        self.assertEqual(
+            LayerTransformation.objects.count(), transformation_count - 1
+        )
+
+        events = self._get_test_events()
+        self.assertEqual(events.count(), 0)
+
+    def test_transformation_delete_multiple_view_no_permission(self):
+        self._create_test_transformation()
+        transformation_count = LayerTransformation.objects.count()
+
+        self._clear_events()
+
+        response = self._request_transformation_delete_multiple_view()
+        self.assertEqual(response.status_code, 404)
+
+        self.assertEqual(
+            LayerTransformation.objects.count(), transformation_count
+        )
+
+        events = self._get_test_events()
+        self.assertEqual(events.count(), 0)
+
+    def test_transformation_delete_multiple_view_with_access(self):
+        self._create_test_transformation()
+        self.grant_access(
+            obj=self._test_transformation_object_parent,
+            permission=self._test_layer_permission_delete
+        )
+        transformation_count = LayerTransformation.objects.count()
+
+        self._clear_events()
+
+        response = self._request_transformation_delete_multiple_view()
         self.assertEqual(response.status_code, 302)
 
         self.assertEqual(

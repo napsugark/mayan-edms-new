@@ -56,7 +56,11 @@ urlpatterns_transformations = [
     ),
     re_path(
         route=r'^objects/(?P<app_label>[-\w]+)/(?P<model_name>[-\w]+)/(?P<object_id>\d+)/layers/(?P<layer_name>[-_\w]+)/transformations/(?P<transformation_id>\d+)/delete/$',
-        name='transformation_delete', view=TransformationDeleteView.as_view()
+        name='transformation_delete_single', view=TransformationDeleteView.as_view()
+    ),
+    re_path(
+        route=r'^objects/(?P<app_label>[-\w]+)/(?P<model_name>[-\w]+)/(?P<object_id>\d+)/layers/(?P<layer_name>[-_\w]+)/transformations/multiple/delete/$',
+        name='transformation_delete_multiple', view=TransformationDeleteView.as_view()
     ),
     re_path(
         route=r'^objects/(?P<app_label>[-\w]+)/(?P<model_name>[-\w]+)/(?P<object_id>\d+)/layers/(?P<layer_name>[-_\w]+)/transformations/(?P<transformation_id>\d+)/edit/$',

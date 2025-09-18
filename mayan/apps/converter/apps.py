@@ -18,8 +18,8 @@ from .handlers import handler_create_asset_cache
 from .links import (
     link_asset_create, link_asset_delete_multiple, link_asset_delete_single,
     link_asset_edit, link_asset_list, link_asset_setup,
-    link_transformation_delete, link_transformation_edit,
-    link_transformation_select
+    link_transformation_delete_multiple, link_transformation_delete_single,
+    link_transformation_edit, link_transformation_select
 )
 from .literals import IMAGE_ERROR_BROKEN_FILE
 from .permissions import (
@@ -119,9 +119,15 @@ class ConverterApp(MayanAppConfig):
             links=(link_asset_setup,)
         )
 
-        menu_object.bind_links(
-            links=(link_transformation_edit, link_transformation_delete),
+        menu_multi_item.bind_links(
+            links=(link_transformation_delete_multiple,),
             sources=(LayerTransformation,)
+        )
+
+        menu_object.bind_links(
+            links=(
+                link_transformation_edit, link_transformation_delete_single
+            ), sources=(LayerTransformation,)
         )
         menu_secondary.bind_links(
             links=(link_transformation_select,),

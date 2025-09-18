@@ -7,7 +7,7 @@ from django.urls import reverse
 from django.utils.translation import gettext_lazy as _
 
 from mayan.apps.views.generics import (
-    FormView, SingleObjectCreateView, SingleObjectDeleteView,
+    FormView, MultipleObjectDeleteView, SingleObjectCreateView,
     SingleObjectEditView, SingleObjectListView
 )
 from mayan.apps.views.view_mixins import ExternalContentTypeObjectViewMixin
@@ -112,9 +112,19 @@ class TransformationCreateView(
 
 class TransformationDeleteView(
     ViewMixinLayer, ExternalContentTypeObjectViewMixin,
-    SingleObjectDeleteView
+    MultipleObjectDeleteView
 ):
     pk_url_kwarg = 'transformation_id'
+    success_message_plural = _(message='%(count)d transformations deleted successfully.')
+    success_message_single = _(
+        message='Transformation "%(object)s" deleted successfully.'
+    )
+    success_message_singular = _(
+        message='%(count)d transformation deleted successfully.'
+    )
+    title_plural = _(message='Delete the %(count)d selected transformations')
+    title_single = _(message='Delete transformation: %(object)s')
+    title_singular = _(message='Delete the %(count)d selected transformation')
     view_icon = icon_transformation_delete
 
     def get_external_object_permission(self):
@@ -127,23 +137,17 @@ class TransformationDeleteView(
             'layer_name': self.layer.name,
             'navigation_object_list': ('content_object', 'transformation'),
             'previous': self.get_post_action_redirect(),
-            'title': _(
-                message='Delete transformation "%(transformation)s" for: '
-                '%(content_object)s?'
-            ) % {
-                'transformation': self.object,
-                'content_object': self.external_object
-            },
-            'transformation': self.object
         }
 
     def get_post_action_redirect(self):
+        obj = self.object_list.first()
+
         return reverse(
             kwargs={
-                'app_label': self.object.object_layer.content_type.app_label,
-                'model_name': self.object.object_layer.content_type.model,
-                'object_id': self.object.object_layer.object_id,
-                'layer_name': self.object.object_layer.stored_layer.name
+                'app_label': obj.object_layer.content_type.app_label,
+                'model_name': obj.object_layer.content_type.model,
+                'object_id': obj.object_layer.object_id,
+                'layer_name': obj.object_layer.stored_layer.name
             }, viewname='converter:transformation_list'
         )
 

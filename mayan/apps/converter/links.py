@@ -63,9 +63,14 @@ link_asset_setup = Link(
 
 # Transformations
 
-link_transformation_delete = LayerLink(
+link_transformation_delete_multiple = LayerLink(
+    action='delete', icon=icon_transformation_delete, multi_item=True,
+    tags='dangerous', text=_(message='Delete'),
+    view='converter:transformation_delete_multiple'
+)
+link_transformation_delete_single = LayerLink(
     action='delete', icon=icon_transformation_delete, tags='dangerous',
-    text=_(message='Delete'), view='converter:transformation_delete'
+    text=_(message='Delete'), view='converter:transformation_delete_single'
 )
 link_transformation_edit = LayerLink(
     action='edit', condition=condition_valid_transformation_and_arguments,

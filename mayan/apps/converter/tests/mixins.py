@@ -279,9 +279,20 @@ class TransformationViewTestMixin(TransformationTestMixin):
             }
         )
 
-    def _request_transformation_delete_view(self):
+    def _request_transformation_delete_multiple_view(self):
         return self.post(
-            viewname='converter:transformation_delete', kwargs={
+            data={'id_list': self._test_transformation.pk},
+            viewname='converter:transformation_delete_multiple', kwargs={
+                'app_label': self._test_transformation_object_content_type.app_label,
+                'model_name': self._test_transformation_object_content_type.model,
+                'object_id': self._test_transformation_object.pk,
+                'layer_name': self._test_layer.name
+            }
+        )
+
+    def _request_transformation_delete_single_view(self):
+        return self.post(
+            viewname='converter:transformation_delete_single', kwargs={
                 'app_label': self._test_transformation_object_content_type.app_label,
                 'model_name': self._test_transformation_object_content_type.model,
                 'object_id': self._test_transformation_object.pk,
