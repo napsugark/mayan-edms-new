@@ -148,6 +148,8 @@
 - Fix label of the index template return link.
 - Split the variable `DOCKER_LINUX_IMAGE_VERSION` into
   `DOCKER_LINUX_IMAGE_NAME` and `DOCKER_LINUX_IMAGE_TAG`.
+- Split the variable `DOCKER_MYSQL_IMAGE_VERSION` into
+  `DOCKER_MYSQL_IMAGE_NAME` and `DOCKER_MYSQL_IMAGE_TAG`.
 
 4.9.5 (XXXX-XX-XX)
 ==================

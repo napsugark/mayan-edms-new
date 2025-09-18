@@ -96,7 +96,7 @@ docker-elasticsearch-stop:
 	@docker rm --force $(CONTAINER_NAME_TEST_ELASTIC) >/dev/null 2>&1
 
 docker-mysql-start: ## Start a MySQL Docker test container.
-	@docker run --detach --name $(CONTAINER_NAME_TEST_MYSQL) --publish 3306:3306 --env MYSQL_ALLOW_EMPTY_PASSWORD="yes" --env MYSQL_USER=$(DEFAULT_DATABASE_USER) --env MYSQL_PASSWORD=$(DEFAULT_DATABASE_PASSWORD) --env MYSQL_DATABASE=$(DEFAULT_DATABASE_NAME) --volume $(CONTAINER_NAME_TEST_MYSQL):/var/lib/mysql $(DOCKER_MYSQL_IMAGE_VERSION) --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+	@docker run --detach --name $(CONTAINER_NAME_TEST_MYSQL) --publish 3306:3306 --env MYSQL_ALLOW_EMPTY_PASSWORD="yes" --env MYSQL_USER=$(DEFAULT_DATABASE_USER) --env MYSQL_PASSWORD=$(DEFAULT_DATABASE_PASSWORD) --env MYSQL_DATABASE=$(DEFAULT_DATABASE_NAME) --volume $(CONTAINER_NAME_TEST_MYSQL):/var/lib/mysql $(DOCKER_MYSQL_IMAGE_NAME):$(DOCKER_MYSQL_IMAGE_TAG) --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
 	@while ! mysql -h 127.0.0.1 --user=$(DEFAULT_DATABASE_USER) --password=$(DEFAULT_DATABASE_PASSWORD) --execute "SHOW TABLES;" $(DEFAULT_DATABASE_NAME) >/dev/null 2>&1; do echo -n .;sleep 2; done
 
 docker-mysql-stop: ## Stop and delete the MySQL container.
