@@ -144,3 +144,21 @@ class FormMixinFieldsets:
                     }
                 ),
             )
+
+
+class FormMixinFormMeta:
+    def _get_form_meta(self, options_class_name='FormMeta'):
+        merged = {}
+
+        lineage = reversed(
+            type(self).mro()
+        )
+
+        for base in lineage:
+            options = getattr(base, options_class_name, None)
+            if options:
+                for name in dir(options):
+                    if not name.startswith('_'):
+                        merged[name] = getattr(options, name)
+
+        return types.SimpleNamespace(**merged)

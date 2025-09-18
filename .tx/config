@@ -282,6 +282,13 @@ source_lang   = en
 resource_name = v4.9 File metadata Ollama
 type          = PO
 
+[o:rosarior:p:mayan-edms:r:file_metadata_openai-4-9]
+file_filter   = mayan/apps/file_metadata_openai/locale/<lang>/LC_MESSAGES/django.po
+source_file   = mayan/apps/file_metadata_openai/locale/en/LC_MESSAGES/django.po
+source_lang   = en
+resource_name = v4.9 File metadata OpenAI
+type          = PO
+
 [o:rosarior:p:mayan-edms:r:file_metadata_pypdf-4-9]
 file_filter   = mayan/apps/file_metadata_pypdf/locale/<lang>/LC_MESSAGES/django.po
 source_file   = mayan/apps/file_metadata_pypdf/locale/en/LC_MESSAGES/django.po

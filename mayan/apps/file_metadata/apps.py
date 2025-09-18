@@ -9,7 +9,7 @@ from mayan.apps.common.menus import (
 )
 from mayan.apps.databases.classes import ModelFieldRelated, ModelProperty
 from mayan.apps.documents.signals import signal_post_document_file_upload
-from mayan.apps.events.classes import ModelEventType
+from mayan.apps.events.classes import EventModelRegistry, ModelEventType
 from mayan.apps.forms import column_widgets
 from mayan.apps.logging.classes import ErrorLogDomain
 from mayan.apps.navigation.source_columns import SourceColumn
@@ -71,6 +71,10 @@ class FileMetadataApp(MayanAppConfig):
         DocumentTypeDriverConfiguration = self.get_model(
             model_name='DocumentTypeDriverConfiguration'
         )
+        StoredDriver = self.get_model(
+            model_name='StoredDriver'
+        )
+
         DocumentType = apps.get_model(
             app_label='documents', model_name='DocumentType'
         )
@@ -95,6 +99,8 @@ class FileMetadataApp(MayanAppConfig):
             name='submit_for_file_metadata_processing',
             value=method_document_file_metadata_submit_single
         )
+
+        EventModelRegistry.register(model=StoredDriver)
 
         ErrorLogDomain(
             label=_(message='File metadata'), name=ERROR_LOG_DOMAIN_NAME

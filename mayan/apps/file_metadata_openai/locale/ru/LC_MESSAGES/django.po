@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-18 14:46+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Language-Team: Russian (https://app.transifex.com/rosarior/teams/13584/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: apps.py:10
+msgid "File metadata OpenAI"
+msgstr ""
+
+#: drivers.py:25
+msgid "Analyze content using OpenAI's Response API."
+msgstr ""
+
+#: drivers.py:28
+msgid "OpenAI Response API driver"
+msgstr ""
+
+#: drivers.py:35
+msgid "Basic"
+msgstr ""
+
+#: drivers.py:40
+msgid "Authentication"
+msgstr ""
+
+#: drivers.py:45
+msgid "Control"
+msgstr ""
+
+#: drivers.py:50
+msgid "Prompt"
+msgstr ""
+
+#: drivers.py:55
+msgid "Communication"
+msgstr ""
+
+#: drivers.py:63
+msgid ""
+"API endpoint base URL. Change this only when using a compatible non-default "
+"endpoint or proxy."
+msgstr ""
+
+#: drivers.py:65
+msgid "Base URL"
+msgstr ""
+
+#: drivers.py:69
+msgid ""
+"The credential entry to use for authentication. Only use credential backend "
+"that provide a `token` value."
+msgstr ""
+
+#: drivers.py:74
+msgid "Credential"
+msgstr ""
+
+#: drivers.py:78
+msgid ""
+"Text or file content to send to the OpenAI API for analysis. The document "
+"file object is available as {{ document_file }}."
+msgstr ""
+
+#: drivers.py:81
+msgid "Input"
+msgstr ""
+
+#: drivers.py:85
+msgid ""
+"Identifier of the OpenAI model to use (for example: gpt-5, gpt-5-nano). The "
+"document file object is available as {{ document_file }}."
+msgstr ""
+
+#: drivers.py:88
+msgid "Model"
+msgstr ""
+
+#: drivers.py:92
+msgid ""
+"Optional OpenAI organization ID. Used when the API key is linked to multiple "
+"organizations. The document file object is available as {{ document_file }}."
+msgstr ""
+
+#: drivers.py:93
+msgid "Organization"
+msgstr ""
+
+#: drivers.py:97
+msgid ""
+"Optional OpenAI project ID. Allows scoping requests to a specific project.  "
+"The document file object is available as {{ document_file }}."
+msgstr ""
+
+#: drivers.py:98
+msgid "Project"
+msgstr ""
+
+#: drivers.py:102
+msgid ""
+"Maximum time (in seconds) to wait for a response from the API before "
+"failing.  The document file object is available as {{ document_file }}."
+msgstr ""
+
+#: drivers.py:103
+msgid "Timeout"
+msgstr ""
+
+#: drivers.py:174
+msgid "The credential provided does not provide a token."
+msgstr ""

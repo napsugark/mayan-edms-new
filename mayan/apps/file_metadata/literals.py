@@ -4,3 +4,5 @@ DEFAULT_FILE_METADATA_DRIVERS_ARGUMENTS = {}
 ERROR_LOG_DOMAIN_NAME = 'file_metadata'
 
 LOCK_EXPIRE = 60 * 10  # Adjust to worst case scenario
+
+RESULT_SEPARATOR = '__'
