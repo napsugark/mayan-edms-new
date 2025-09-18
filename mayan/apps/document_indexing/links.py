@@ -98,7 +98,7 @@ link_index_template_event_triggers = Link(
     view='indexing:index_template_event_triggers'
 )
 link_index_template_list = Link(
-    icon=icon_index_template_list, text=_(message='Indexes'),
+    icon=icon_index_template_list, text=_(message='Index templates'),
     view='indexing:index_template_list'
 )
 link_index_template_setup = Link(
