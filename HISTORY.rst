@@ -141,6 +141,8 @@
   to have access to its corresponding `StoredDriver` model instance.
 - Add file metadata class method `do_document_file_process` to consolidate
   subclass execution and avoid having that logic in the task.
+- Update `FormFieldMixinFilteredQueryset` to load content from
+  `source_queryset' and not `queryset`.
 
 4.9.5 (XXXX-XX-XX)
 ==================

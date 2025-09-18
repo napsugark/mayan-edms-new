@@ -53,7 +53,7 @@ class FormFieldMixinFilteredQueryset(FieldMixinFilteredQueryset):
         super().__init__(choices=self.get_choices, *args, **kwargs)
 
     def get_choices(self):
-        queryset = self.queryset
+        queryset = self.source_queryset
 
         if not queryset._prefetch_related_lookups:
             queryset = queryset.iterator()
