@@ -114,6 +114,12 @@ class DocumentParsingApp(MayanAppConfig):
             ), label=_(message='Content'), model=Document,
             name='content'
         )
+        ModelProperty(
+            description=_(
+                message='A generator returning the document file\'s pages parsed content.'
+            ), label=_(message='Content'), model=DocumentFile,
+            name='content'
+        )
 
         ModelPermission.register(
             model=DocumentFile, permissions=(
