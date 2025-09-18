@@ -153,7 +153,7 @@ job_documentation_build:
     - pip install wheel==${PYTHON_WHEEL_VERSION}
   cache:
 {% platforms_gitlab_ci_cache_paths apt=True indent=4 pip=True %}
-  image: {{ DOCKER_LINUX_IMAGE_VERSION }}
+  image: {{ DOCKER_LINUX_IMAGE_NAME }}:{{ DOCKER_LINUX_IMAGE_TAG }}
   only:
     - {{ GITLAB_CI_BRANCH_BUILDS_DOCUMENTATION }}
     - {{ GITLAB_CI_BRANCH_RELEASES_ALL_MAJOR }}
@@ -176,7 +176,7 @@ job_documentation_push:
 {% platforms_gitlab_ci_ssh_before_script hostname='${DOCUMENTATION_SSH_KNOWN_HOSTS}' indent=4 private_key='${DOCUMENTATION_SSH_PRIVATE_KEY}' %}
   cache:
 {% platforms_gitlab_ci_cache_paths apt=True indent=4 pip=True %}
-  image: {{ DOCKER_LINUX_IMAGE_VERSION }}
+  image: {{ DOCKER_LINUX_IMAGE_NAME }}:{{ DOCKER_LINUX_IMAGE_TAG }}
   only:
     - {{ GITLAB_CI_BRANCH_RELEASES_ALL_MAJOR }}
     - {{ GITLAB_CI_BRANCH_RELEASES_DOCUMENTATION }}
@@ -206,7 +206,7 @@ job_python_build:
     - pip install wheel==${PYTHON_WHEEL_VERSION}
   cache:
 {% platforms_gitlab_ci_cache_paths apt=True indent=4 pip=True %}
-  image: {{ DOCKER_LINUX_IMAGE_VERSION }}
+  image: {{ DOCKER_LINUX_IMAGE_NAME }}:{{ DOCKER_LINUX_IMAGE_TAG }}
   only:
     - {{ GITLAB_CI_BRANCH_BUILDS_PYTHON }}
     - {{ GITLAB_CI_BRANCH_RELEASES_ALL_MAJOR }}
@@ -237,7 +237,7 @@ job_python_push_pypi:
     - pip install pip==${PYTHON_PIP_VERSION}
   cache:
 {% platforms_gitlab_ci_cache_paths apt=True indent=4 pip=True %}
-  image: {{ DOCKER_LINUX_IMAGE_VERSION }}
+  image: {{ DOCKER_LINUX_IMAGE_NAME }}:{{ DOCKER_LINUX_IMAGE_TAG }}
   only:
     - {{ GITLAB_CI_BRANCH_RELEASES_ALL_MAJOR }}
     - {{ GITLAB_CI_BRANCH_RELEASES_ALL_MINOR }}
@@ -267,7 +267,7 @@ job_python_push_pypi:
     - pip install --requirement requirements.txt --requirement requirements/testing-base.txt --requirement requirements/build.txt
   cache:
 {% platforms_gitlab_ci_cache_paths apt=True indent=4 pip=True %}
-  image: {{ DOCKER_LINUX_IMAGE_VERSION }}
+  image: {{ DOCKER_LINUX_IMAGE_NAME }}:{{ DOCKER_LINUX_IMAGE_TAG }}
   only:
     - {{ GITLAB_CI_BRANCH_RELEASES_ALL_MAJOR }}
     - {{ GITLAB_CI_BRANCH_RELEASES_ALL_MINOR }}
@@ -317,7 +317,7 @@ job_demo_deploy:
 {% platforms_gitlab_ci_cache_paths apt=True indent=4 %}
   environment:
     name: demo
-  image: {{ DOCKER_LINUX_IMAGE_VERSION }}
+  image: {{ DOCKER_LINUX_IMAGE_NAME }}:{{ DOCKER_LINUX_IMAGE_TAG }}
   only:
     - {{ GITLAB_CI_BRANCH_BUILDS_DOCKER }}
     - {{ GITLAB_CI_BRANCH_DEPLOYMENTS_DEMO }}
@@ -343,7 +343,7 @@ job_staging_deploy:
 {% platforms_gitlab_ci_cache_paths apt=True indent=4 %}
   environment:
     name: staging
-  image: {{ DOCKER_LINUX_IMAGE_VERSION }}
+  image: {{ DOCKER_LINUX_IMAGE_NAME }}:{{ DOCKER_LINUX_IMAGE_TAG }}
   only:
     - {{ GITLAB_CI_BRANCH_BUILDS_DOCKER }}
     - {{ GITLAB_CI_BRANCH_DEPLOYMENTS_STAGING }}

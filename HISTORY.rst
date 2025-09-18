@@ -146,6 +146,8 @@
 - Add file metadata driver for OpenAI.
 - Add `content` as a model attribute for the document file sandbox.
 - Fix label of the index template return link.
+- Split the variable `DOCKER_LINUX_IMAGE_VERSION` into
+  `DOCKER_LINUX_IMAGE_NAME` and `DOCKER_LINUX_IMAGE_TAG`.
 
 4.9.5 (XXXX-XX-XX)
 ==================

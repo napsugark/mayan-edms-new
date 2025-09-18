@@ -6,13 +6,13 @@
 #              Mayan EDMS.
 ####
 
-FROM {{ DOCKER_LINUX_IMAGE_VERSION }} AS base_image
+FROM {{ DOCKER_LINUX_IMAGE_NAME }}:{{ DOCKER_LINUX_IMAGE_TAG }} AS base_image
 
 LABEL io.artifacthub.package.keywords="Python,Django,document management,OCR,PDF"
 LABEL io.artifacthub.package.readme-url="https://gitlab.com/mayan-edms/mayan-edms/-/raw/master/README.md"
 LABEL maintainer="Roberto Rosario roberto.rosario@mayan-edms.com"
 LABEL org.opencontainers.image.authors="Roberto Rosario roberto.rosario@mayan-edms.com, https://forum.mayan-edms.com"
-LABEL org.opencontainers.image.base.name="{{ DOCKER_LINUX_IMAGE_VERSION }}"
+LABEL org.opencontainers.image.base.name="{{ DOCKER_LINUX_IMAGE_NAME }}:{{ DOCKER_LINUX_IMAGE_TAG }}"
 LABEL org.opencontainers.image.description="Free Open Source Electronic Document Management System"
 LABEL org.opencontainers.image.documentation="https://docs.mayan-edms.com/chapters/docker/index.html"
 LABEL org.opencontainers.image.licenses="GPL-2.0-only"
