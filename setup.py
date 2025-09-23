@@ -65,7 +65,7 @@ def find_packages(directory):
 
 
 install_requires = """
-django==4.2.23
+django==4.2.24
 CairoSVG==2.7.1
 Pillow==10.3.0
 PyYAML==6.0.2
@@ -115,7 +115,7 @@ python_gnupg==0.4.9
 pytz==2024.1
 qrcode==7.4.2
 requests==2.31.0
-sentry-sdk==2.35.0
+sentry-sdk==2.38.0
 sh==2.0.7
 swagger-spec-validator==3.0.3
 whitenoise==6.6.0

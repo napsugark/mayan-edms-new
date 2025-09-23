@@ -11,6 +11,18 @@
 - Change the statistic view icon to a facet link.
 - Pass `GITLAB_CI_BRANCH_TRY_STAGING` to the GitLab CI template instead of
   hard coding the branch name.
+- Update dependency version:
+
+  - django from 4.2.23 to 4.2.24
+  - sentry-sdk from 2.35.0 to 2.38.0
+  - pip from 24.3 to 24.3.1
+
+- Update Docker image tags:
+
+  - Debian from 12.11-slim to 12.12-slim
+  - Elasticsearch from 7.17.28 to 7.17.29
+  - PostgreSQL from 13.21-alpine to 13.22-alpine
+  - Forge Ubuntu from 24.04 to noble-20250910
 
 4.6.9 (2025-08-31)
 ==================
