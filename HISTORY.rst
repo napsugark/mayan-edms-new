@@ -286,12 +286,31 @@
 - Expose the document index instance depth and node count values via the API.
 - Add a document type API view to return all documents of that type.
 
-4.6.10 (XXXX-XX-XX)
+4.6.10 (2025-09-23)
 ===================
 - Fix base search class `_search` interface.
-- Add `SEARCH_QUERY_RESULTS_LIMIT_ERROR`. Control whether or not to raise
+- Add `SEARCH_QUERY_RESULTS_LIMIT_ERROR`. Controls whether or not to raise
   an error when the number of search results exceed the value of
   `SEARCH_QUERY_RESULTS_LIMIT`. Default to `True` for backwards compatibility.
+- Don't append the changelog to the PyPI description.
+- Add SPDX license expression to comply with PEP 639.
+- Fix label of the index template return link.
+- Improve form fieldset mismatch exception error message.
+- Change the statistic view icon to a facet link.
+- Pass `GITLAB_CI_BRANCH_TRY_STAGING` to the GitLab CI template instead of
+  hard coding the branch name.
+- Update dependency version:
+
+  - django from 4.2.23 to 4.2.24
+  - sentry-sdk from 2.35.0 to 2.38.0
+  - pip from 24.3 to 24.3.1
+
+- Update Docker image tags:
+
+  - Debian from 12.11-slim to 12.12-slim
+  - Elasticsearch from 7.17.28 to 7.17.29
+  - PostgreSQL from 13.21-alpine to 13.22-alpine
+  - Forge Ubuntu from 24.04 to noble-20250910
 
 4.6.9 (2025-08-31)
 ==================

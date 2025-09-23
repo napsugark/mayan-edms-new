@@ -93,7 +93,7 @@ msgstr "مفعل"
 msgid "Index templates to be queued for rebuilding."
 msgstr "يتم وضع قوالب الفهرس في قائمة الانتظار للإنشاء."
 
-#: forms.py:49 links.py:37 models/index_template_models.py:58
+#: forms.py:49 links.py:37 links.py:101 models/index_template_models.py:58
 #: views/index_template_views.py:95
 msgid "Index templates"
 msgstr "قوالب الفهرس"
@@ -106,8 +106,7 @@ msgstr "القالب"
 msgid "Creation date"
 msgstr "تاريخ الإنشاء "
 
-#: links.py:31 links.py:47 links.py:101 links.py:109
-#: views/index_instance_views.py:42
+#: links.py:31 links.py:47 links.py:109 views/index_instance_views.py:42
 msgid "Indexes"
 msgstr "الفهارس"
 

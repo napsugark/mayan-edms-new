@@ -337,15 +337,15 @@ msgstr ""
 "Деактивира лентата за търсене на единични термини, оставяйки само бутона за "
 "разширено търсене."
 
-#: settings.py:52
+#: settings.py:53
 msgid "Amount of objects to process when performing bulk indexing."
 msgstr "Количество обекти за обработка при извършване на групово индексиране."
 
-#: settings.py:58
+#: settings.py:59
 msgid "Sets the default state of the \"Match all\" checkbox."
 msgstr "Задава състоянието по подразбиране на квадратчето „Сравни всички“."
 
-#: settings.py:64
+#: settings.py:65
 msgid ""
 "Maximum number of search results to fetch and display per search query unit."
 msgstr ""

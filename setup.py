@@ -65,7 +65,7 @@ def find_packages(directory):
 
 
 install_requires = """
-django==4.2.23
+django==4.2.24
 CairoSVG==2.7.1
 Pillow==10.3.0
 PyYAML==6.0.2
@@ -115,7 +115,7 @@ python_gnupg==0.5.2
 pytz==2024.1
 qrcode==7.4.2
 requests==2.32.4
-sentry-sdk==2.35.0
+sentry-sdk==2.38.0
 sh==2.0.7
 swagger-spec-validator==3.0.3
 whitenoise==6.7.0
@@ -123,9 +123,6 @@ whitenoise==6.7.0
 
 with open(file='README.rst') as file_object:
     readme = file_object.read()
-
-with open(file='HISTORY.rst') as file_object:
-    history = file_object.read()
 
 setup(
     author='Roberto Rosario',
@@ -150,8 +147,8 @@ setup(
     description=mayan.__description__,
     include_package_data=True,
     install_requires=install_requires,
-    license='GPL 2.0',
-    long_description=readme + '\n\n' + history,
+    license='"GPL-2.0-only',
+    long_description=readme,
     name=PACKAGE_NAME,
     packages=find_packages(PACKAGE_DIR),
     platforms=['any'],

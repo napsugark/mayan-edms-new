@@ -351,16 +351,16 @@ msgstr ""
 "Deaktiviert die Suche in der Einzelbegriffsleiste, nur die Schaltfläche für "
 "die erweiterte Suche wird angezeigt."
 
-#: settings.py:52
+#: settings.py:53
 msgid "Amount of objects to process when performing bulk indexing."
 msgstr ""
 "Anzahl der Objekte, die bei der Massenindizierung verarbeite.t werden sollen"
 
-#: settings.py:58
+#: settings.py:59
 msgid "Sets the default state of the \"Match all\" checkbox."
 msgstr "Setzt den Vorgabewert für die \"Alle Felder\" Checkbox."
 
-#: settings.py:64
+#: settings.py:65
 msgid ""
 "Maximum number of search results to fetch and display per search query unit."
 msgstr ""

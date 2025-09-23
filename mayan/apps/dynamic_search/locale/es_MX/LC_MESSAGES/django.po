@@ -352,17 +352,17 @@ msgstr ""
 "Inhabilita la búsqueda de barra de término único dejando solo el botón de "
 "búsqueda avanzada."
 
-#: settings.py:52
+#: settings.py:53
 msgid "Amount of objects to process when performing bulk indexing."
 msgstr "Cantidad de objetos a procesar al realizar la indexación masiva."
 
-#: settings.py:58
+#: settings.py:59
 msgid "Sets the default state of the \"Match all\" checkbox."
 msgstr ""
 "Establece el estado predeterminado de la casilla de verificación \"Coincidir"
 " con todos\"."
 
-#: settings.py:64
+#: settings.py:65
 msgid ""
 "Maximum number of search results to fetch and display per search query unit."
 msgstr ""

@@ -350,16 +350,16 @@ msgid ""
 msgstr ""
 "Letiltja az egyszavas keresést, csak a speciális keresés gombot hagyja meg."
 
-#: settings.py:52
+#: settings.py:53
 msgid "Amount of objects to process when performing bulk indexing."
 msgstr "A tömeges indexelés végrehajtásakor feldolgozandó objektumok száma."
 
-#: settings.py:58
+#: settings.py:59
 msgid "Sets the default state of the \"Match all\" checkbox."
 msgstr ""
 "Beállítja az „Összes egyezés” jelölőnégyzet alapértelmezett állapotát."
 
-#: settings.py:64
+#: settings.py:65
 msgid ""
 "Maximum number of search results to fetch and display per search query unit."
 msgstr ""

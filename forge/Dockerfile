@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1.2
 # vim:set ft=dockerfile:
 
-FROM ubuntu:noble-20250714
+FROM ubuntu:noble-20250910
 
 COPY config.env /config.env
 

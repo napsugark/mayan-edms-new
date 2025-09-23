@@ -339,15 +339,15 @@ msgid ""
 "Disables the single term bar search leaving only the advanced search button."
 msgstr "لتعطيل بحث شريط المصطلح الفردي مع ترك زر البحث المتقدم فقط."
 
-#: settings.py:52
+#: settings.py:53
 msgid "Amount of objects to process when performing bulk indexing."
 msgstr "عدد الكائنات التي يجب معالجتها عند تنفيذ الفهرسة المجمعة."
 
-#: settings.py:58
+#: settings.py:59
 msgid "Sets the default state of the \"Match all\" checkbox."
 msgstr "تعيين الحالة الافتراضية لمربع الاختيار \"مطابقة الكل\"."
 
-#: settings.py:64
+#: settings.py:65
 msgid ""
 "Maximum number of search results to fetch and display per search query unit."
 msgstr ""
