@@ -447,12 +447,12 @@ job_staging_deploy:
 job_docker_build_try:
   extends: job_docker_build
   only:
-    - try/staging
+    - {{ GITLAB_CI_BRANCH_TRY_STAGING }}
 
 job_staging_deploy_try:
   extends: job_staging_deploy
   needs:
     - job_docker_build_try
   only:
-    - try/staging
+    - {{ GITLAB_CI_BRANCH_TRY_STAGING }}
   when: on_success

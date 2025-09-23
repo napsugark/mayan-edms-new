@@ -9,6 +9,8 @@
 - Fix label of the index template return link.
 - Improve form fieldset mismatch exception error message.
 - Change the statistic view icon to a facet link.
+- Pass `GITLAB_CI_BRANCH_TRY_STAGING` to the GitLab CI template instead of
+  hard coding the branch name.
 
 4.6.9 (2025-08-31)
 ==================
