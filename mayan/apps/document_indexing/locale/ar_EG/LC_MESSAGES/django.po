@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-04 17:04+0000\n"
+"POT-Creation-Date: 2025-09-23 17:54+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
 "Last-Translator: Hany salah, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
@@ -93,7 +93,7 @@ msgstr "مفعل"
 msgid "Index templates to be queued for rebuilding."
 msgstr "يتم وضع قوالب الفهرس في قائمة الانتظار للإنشاء."
 
-#: forms.py:49 links.py:37 models/index_template_models.py:58
+#: forms.py:49 links.py:37 links.py:101 models/index_template_models.py:58
 #: views/index_template_views.py:95
 msgid "Index templates"
 msgstr "قوالب الفهرس"
@@ -106,8 +106,7 @@ msgstr "القالب"
 msgid "Creation date"
 msgstr "تاريخ الإنشاء "
 
-#: links.py:31 links.py:47 links.py:101 links.py:109
-#: views/index_instance_views.py:42
+#: links.py:31 links.py:47 links.py:109 views/index_instance_views.py:42
 msgid "Indexes"
 msgstr "الفهارس"
 

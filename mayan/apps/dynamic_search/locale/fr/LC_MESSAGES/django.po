@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-07 11:57+0000\n"
+"POT-Creation-Date: 2025-09-23 17:54+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
 "Last-Translator: Frédéric Sheedy <sheedf@gmail.com>, 2024\n"
 "Language-Team: French (https://app.transifex.com/rosarior/teams/13584/fr/)\n"
@@ -64,15 +64,15 @@ msgstr "Rechercher à nouveau"
 msgid "Reindex search backend"
 msgstr "Réindexer le backend de recherche"
 
-#: literals.py:21
+#: literals.py:22
 msgid "Yes"
 msgstr "Oui"
 
-#: literals.py:22
+#: literals.py:23
 msgid "No"
 msgstr "Non"
 
-#: permissions.py:6 queues.py:7 settings.py:15
+#: permissions.py:6 queues.py:7 settings.py:16
 #: templates/dynamic_search/search_box.html:47
 #: templates/dynamic_search/search_box_toolbar.html:30 views.py:108
 msgid "Search"
@@ -109,14 +109,14 @@ msgstr ""
 msgid "Reset the search backend indices and index all instances again."
 msgstr ""
 
-#: scoped_queries.py:351
+#: scoped_queries.py:353
 msgid ""
 "Search results exceed limit setting. Results might not be reliable if "
 "multiple scopes are used. Narrow down the search criteria or increase the "
 "value of the results limit setting."
 msgstr ""
 
-#: scoped_queries.py:367
+#: scoped_queries.py:375
 #, python-format
 msgid ""
 "Search backend error. Verify that the search service is available and that "
@@ -200,41 +200,47 @@ msgstr "Clé primaire"
 msgid "Search fields"
 msgstr ""
 
-#: settings.py:21
+#: settings.py:22
 msgid "Full path to the backend to be used to handle the search."
 msgstr "Chemin complet vers le logiciel à utiliser pour gérer la recherche."
 
-#: settings.py:28
+#: settings.py:29
 msgid ""
 "Arguments to pass to the search backend. For example values to change the "
 "behavior, host names, or authentication arguments."
 msgstr ""
 
-#: settings.py:37
+#: settings.py:38
 msgid "The search operator to use when none is specified."
 msgstr ""
 
-#: settings.py:44
+#: settings.py:45
 msgid ""
 "Disables the single term bar search leaving only the advanced search button."
 msgstr ""
 "Désactive la barre de recherche simple en ne laissant que le bouton de "
 "recherche avancée."
 
-#: settings.py:52
+#: settings.py:53
 msgid "Amount of objects to process when performing bulk indexing."
 msgstr ""
 
-#: settings.py:58
+#: settings.py:59
 msgid "Sets the default state of the \"Match all\" checkbox."
 msgstr "Définit l'état par défaut de la case à cocher «Correspondre à tous»;."
 
-#: settings.py:64
+#: settings.py:65
 msgid ""
 "Maximum number of search results to fetch and display per search query unit."
 msgstr ""
 
-#: settings.py:70
+#: settings.py:72
+msgid ""
+"Raise an error when the number of search results exceed the value of "
+"`SEARCH_QUERY_RESULTS_LIMIT`."
+msgstr ""
+
+#: settings.py:78
 msgid "Maximum number of search results to fetch and display."
 msgstr "Nombre maximal de résultats de recherche à afficher."
 

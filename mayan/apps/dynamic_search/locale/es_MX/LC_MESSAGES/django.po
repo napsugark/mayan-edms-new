@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-07 11:57+0000\n"
+"POT-Creation-Date: 2025-09-23 17:54+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
 "Last-Translator: Roberto Rosario, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/rosarior/teams/13584/es_MX/)\n"
@@ -58,15 +58,15 @@ msgstr "Volver a buscar"
 msgid "Reindex search backend"
 msgstr "Volver a indexar el backend de búsqueda"
 
-#: literals.py:21
+#: literals.py:22
 msgid "Yes"
 msgstr "Si"
 
-#: literals.py:22
+#: literals.py:23
 msgid "No"
 msgstr "No"
 
-#: permissions.py:6 queues.py:7 settings.py:15
+#: permissions.py:6 queues.py:7 settings.py:16
 #: templates/dynamic_search/search_box.html:47
 #: templates/dynamic_search/search_box_toolbar.html:30 views.py:108
 msgid "Search"
@@ -107,7 +107,7 @@ msgstr ""
 "Restablece los índices de back-end de búsqueda e indexa todas las instancias"
 " nuevamente."
 
-#: scoped_queries.py:351
+#: scoped_queries.py:353
 msgid ""
 "Search results exceed limit setting. Results might not be reliable if "
 "multiple scopes are used. Narrow down the search criteria or increase the "
@@ -118,7 +118,7 @@ msgstr ""
 "Reduzca los criterios de búsqueda o aumente el valor de la configuración del"
 " límite de resultados."
 
-#: scoped_queries.py:367
+#: scoped_queries.py:375
 #, python-format
 msgid ""
 "Search backend error. Verify that the search service is available and that "
@@ -205,12 +205,12 @@ msgstr "Llave primaria"
 msgid "Search fields"
 msgstr "Campos de búsqueda"
 
-#: settings.py:21
+#: settings.py:22
 msgid "Full path to the backend to be used to handle the search."
 msgstr ""
 "Ruta completa al controlador que se utilizará para manejar la búsqueda."
 
-#: settings.py:28
+#: settings.py:29
 msgid ""
 "Arguments to pass to the search backend. For example values to change the "
 "behavior, host names, or authentication arguments."
@@ -219,35 +219,41 @@ msgstr ""
 "cambiar el comportamiento, nombres de servidor o argumentos de "
 "autenticación."
 
-#: settings.py:37
+#: settings.py:38
 msgid "The search operator to use when none is specified."
 msgstr "El operador de búsqueda a usar cuando no se especifica ninguno."
 
-#: settings.py:44
+#: settings.py:45
 msgid ""
 "Disables the single term bar search leaving only the advanced search button."
 msgstr ""
 "Inhabilita la búsqueda de barra de término único dejando solo el botón de "
 "búsqueda avanzada."
 
-#: settings.py:52
+#: settings.py:53
 msgid "Amount of objects to process when performing bulk indexing."
 msgstr "Cantidad de objetos a procesar al realizar la indexación masiva."
 
-#: settings.py:58
+#: settings.py:59
 msgid "Sets the default state of the \"Match all\" checkbox."
 msgstr ""
 "Establece el estado predeterminado de la casilla de verificación \"Coincidir"
 " con todos\"."
 
-#: settings.py:64
+#: settings.py:65
 msgid ""
 "Maximum number of search results to fetch and display per search query unit."
 msgstr ""
 "Número máximo de resultados de búsqueda para obtener y mostrar por unidad de"
 " consulta de búsqueda."
 
-#: settings.py:70
+#: settings.py:72
+msgid ""
+"Raise an error when the number of search results exceed the value of "
+"`SEARCH_QUERY_RESULTS_LIMIT`."
+msgstr ""
+
+#: settings.py:78
 msgid "Maximum number of search results to fetch and display."
 msgstr "Número máximo de resultados de búsqueda para obtener y mostrar."
 

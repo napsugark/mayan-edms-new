@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-07 11:57+0000\n"
+"POT-Creation-Date: 2025-09-23 17:54+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
 "Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
@@ -61,15 +61,15 @@ msgstr "ابحث ثانيا"
 msgid "Reindex search backend"
 msgstr "طريقة بحث"
 
-#: literals.py:21
+#: literals.py:22
 msgid "Yes"
 msgstr "قبول"
 
-#: literals.py:22
+#: literals.py:23
 msgid "No"
 msgstr "رفض"
 
-#: permissions.py:6 queues.py:7 settings.py:15
+#: permissions.py:6 queues.py:7 settings.py:16
 #: templates/dynamic_search/search_box.html:47
 #: templates/dynamic_search/search_box_toolbar.html:30 views.py:108
 msgid "Search"
@@ -104,7 +104,7 @@ msgstr "فهرسة جميع الحالات ذات الصلة بنموذج الب
 msgid "Reset the search backend indices and index all instances again."
 msgstr "إعادة تعيين مؤشرات البحث الخلفية وفهرسة جميع الحالات مرة أخرى."
 
-#: scoped_queries.py:351
+#: scoped_queries.py:353
 msgid ""
 "Search results exceed limit setting. Results might not be reliable if "
 "multiple scopes are used. Narrow down the search criteria or increase the "
@@ -113,7 +113,7 @@ msgstr ""
 "نتائج البحث تتجاوز الحد الأقصى. قد لا تكون النتائج موثوقة في حال استخدام "
 "نطاقات بحث متعددة. ضيّق معايير البحث أو حسّن قيمة حد النتائج."
 
-#: scoped_queries.py:367
+#: scoped_queries.py:375
 #, python-format
 msgid ""
 "Search backend error. Verify that the search service is available and that "
@@ -199,11 +199,11 @@ msgstr "المفتاح الأساسي"
 msgid "Search fields"
 msgstr "حقول البحث"
 
-#: settings.py:21
+#: settings.py:22
 msgid "Full path to the backend to be used to handle the search."
 msgstr "المسار الكامل للواجهة الخفية لاستخدامه في معالجة البحث."
 
-#: settings.py:28
+#: settings.py:29
 msgid ""
 "Arguments to pass to the search backend. For example values to change the "
 "behavior, host names, or authentication arguments."
@@ -211,30 +211,36 @@ msgstr ""
 "الوسائط المُرسَلة إلى خادم البحث. على سبيل المثال، القيم لتغيير السلوك، أو "
 "أسماء المضيفين، أو وسائط المصادقة."
 
-#: settings.py:37
+#: settings.py:38
 msgid "The search operator to use when none is specified."
 msgstr "عامل البحث الذي يجب استخدامه عندما لا يتم تحديد أي عامل بحث."
 
-#: settings.py:44
+#: settings.py:45
 msgid ""
 "Disables the single term bar search leaving only the advanced search button."
 msgstr "لتعطيل بحث شريط المصطلح الفردي مع ترك زر البحث المتقدم فقط."
 
-#: settings.py:52
+#: settings.py:53
 msgid "Amount of objects to process when performing bulk indexing."
 msgstr "عدد الكائنات التي يجب معالجتها عند تنفيذ الفهرسة المجمعة."
 
-#: settings.py:58
+#: settings.py:59
 msgid "Sets the default state of the \"Match all\" checkbox."
 msgstr "تعيين الحالة الافتراضية لمربع الاختيار \"مطابقة الكل\"."
 
-#: settings.py:64
+#: settings.py:65
 msgid ""
 "Maximum number of search results to fetch and display per search query unit."
 msgstr ""
 "الحد الأقصى لعدد نتائج البحث التي سيتم جلبها وعرضها لكل وحدة استعلام بحث."
 
-#: settings.py:70
+#: settings.py:72
+msgid ""
+"Raise an error when the number of search results exceed the value of "
+"`SEARCH_QUERY_RESULTS_LIMIT`."
+msgstr ""
+
+#: settings.py:78
 msgid "Maximum number of search results to fetch and display."
 msgstr "الحد الأقصى لعدد نتائج البحث التي سيتم جلبها وعرضها."
 

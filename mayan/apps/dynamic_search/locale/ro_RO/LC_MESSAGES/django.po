@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-07 11:57+0000\n"
+"POT-Creation-Date: 2025-09-23 17:54+0000\n"
 "PO-Revision-Date: 2024-01-02 18:58+0000\n"
 "Last-Translator: Harald Ersch, 2024\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/rosarior/teams/13584/ro_RO/)\n"
@@ -60,15 +60,15 @@ msgstr "Caută din nou"
 msgid "Reindex search backend"
 msgstr "Reindexare backend de căutare"
 
-#: literals.py:21
+#: literals.py:22
 msgid "Yes"
 msgstr "Da"
 
-#: literals.py:22
+#: literals.py:23
 msgid "No"
 msgstr "Nu"
 
-#: permissions.py:6 queues.py:7 settings.py:15
+#: permissions.py:6 queues.py:7 settings.py:16
 #: templates/dynamic_search/search_box.html:47
 #: templates/dynamic_search/search_box_toolbar.html:30 views.py:108
 msgid "Search"
@@ -107,7 +107,7 @@ msgid "Reset the search backend indices and index all instances again."
 msgstr ""
 "Resetați indicii backend de căutare și indexați din nou toate instanțele."
 
-#: scoped_queries.py:351
+#: scoped_queries.py:353
 msgid ""
 "Search results exceed limit setting. Results might not be reliable if "
 "multiple scopes are used. Narrow down the search criteria or increase the "
@@ -117,7 +117,7 @@ msgstr ""
 "încredere dacă sunt utilizate mai multe domenii. Restrângeți criteriile de "
 "căutare sau măriți valoarea setării limitei rezultatelor."
 
-#: scoped_queries.py:367
+#: scoped_queries.py:375
 #, python-format
 msgid ""
 "Search backend error. Verify that the search service is available and that "
@@ -204,13 +204,13 @@ msgstr "Cheia principală"
 msgid "Search fields"
 msgstr "Câmpuri de căutare"
 
-#: settings.py:21
+#: settings.py:22
 msgid "Full path to the backend to be used to handle the search."
 msgstr ""
 "Calea completă către backend pentru a fi utilizată pentru a gestiona "
 "căutarea."
 
-#: settings.py:28
+#: settings.py:29
 msgid ""
 "Arguments to pass to the search backend. For example values to change the "
 "behavior, host names, or authentication arguments."
@@ -218,36 +218,42 @@ msgstr ""
 "Argumente de transmis backend-ului de căutare. De exemplu, valori pentru a "
 "schimba comportamentul, numele gazdei sau argumentele de autentificare."
 
-#: settings.py:37
+#: settings.py:38
 msgid "The search operator to use when none is specified."
 msgstr ""
 "Operatorul de căutare de utilizat atunci când nu este specificat niciunul."
 
-#: settings.py:44
+#: settings.py:45
 msgid ""
 "Disables the single term bar search leaving only the advanced search button."
 msgstr ""
 "Dezactivează căutarea în bară cu un singur termen lăsând doar butonul de "
 "căutare avansată."
 
-#: settings.py:52
+#: settings.py:53
 msgid "Amount of objects to process when performing bulk indexing."
 msgstr ""
 "Cantitatea de obiecte de procesat atunci când se efectuează indexarea în "
 "bloc."
 
-#: settings.py:58
+#: settings.py:59
 msgid "Sets the default state of the \"Match all\" checkbox."
 msgstr "Setează starea implicită a casetei de selectare „Potriviți toate”."
 
-#: settings.py:64
+#: settings.py:65
 msgid ""
 "Maximum number of search results to fetch and display per search query unit."
 msgstr ""
 "Numărul maxim de rezultate de căutare de preluat și afișat per unitate de "
 "interogare de căutare."
 
-#: settings.py:70
+#: settings.py:72
+msgid ""
+"Raise an error when the number of search results exceed the value of "
+"`SEARCH_QUERY_RESULTS_LIMIT`."
+msgstr ""
+
+#: settings.py:78
 msgid "Maximum number of search results to fetch and display."
 msgstr "Numărul maxim de rezultate ale căutării de preluat și afișat."
 
