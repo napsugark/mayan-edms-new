@@ -175,7 +175,7 @@ job_documentation_build:
     - key: pip-cache-4.6
       paths:
         - ${PIP_CACHE_DIR}
-  image: debian:12.11-slim
+  image: debian:12.12-slim
   only:
     - builds/documentation
     - releases/all/major
@@ -215,7 +215,7 @@ job_documentation_push:
     - key: pip-cache-4.6
       paths:
         - ${PIP_CACHE_DIR}
-  image: debian:12.11-slim
+  image: debian:12.12-slim
   only:
     - releases/all/major
     - releases/documentation
@@ -255,7 +255,7 @@ job_python_build:
     - key: pip-cache-4.6
       paths:
         - ${PIP_CACHE_DIR}
-  image: debian:12.11-slim
+  image: debian:12.12-slim
   only:
     - builds/python
     - releases/all/major
@@ -296,7 +296,7 @@ job_python_push_pypi:
     - key: pip-cache-4.6
       paths:
         - ${PIP_CACHE_DIR}
-  image: debian:12.11-slim
+  image: debian:12.12-slim
   only:
     - releases/all/major
     - releases/all/minor
@@ -339,7 +339,7 @@ job_python_push_pypi:
         - ${PIP_CACHE_DIR}
   dependencies:
     - job_python_build
-  image: debian:12.11-slim
+  image: debian:12.12-slim
   needs:
     - job_python_build
   only:
@@ -371,7 +371,7 @@ job_postgres_upgrade_test:
     - pip install dist/mayan_edms-*.whl
     - mayan-edms.py common_perform_upgrade --no-dependencies
   services:
-    - postgres:13.21-alpine
+    - postgres:13.22-alpine
   variables:
     POSTGRES_DB: "mayan"
     POSTGRES_PASSWORD: "mayandbpass"
@@ -409,7 +409,7 @@ job_sqlite_upgrade_test:
     - key: pip-cache-4.6
       paths:
         - ${PIP_CACHE_DIR}
-  image: debian:12.11-slim
+  image: debian:12.12-slim
   only:
     - releases/all/major
     - releases/all/minor
@@ -436,7 +436,7 @@ job_postgres_test:
     - make test-all SETTINGS=mayan.settings.testing.gitlab-ci
     - make test-migrations-all SETTINGS=mayan.settings.testing.gitlab-ci
   services:
-    - postgres:13.21-alpine
+    - postgres:13.22-alpine
   variables:
     POSTGRES_DB: "mayan"
     POSTGRES_PASSWORD: "mayandbpass"
@@ -472,7 +472,7 @@ job_demo_deploy:
         - ${APT_CACHE_DIR}
   environment:
     name: demo
-  image: debian:12.11-slim
+  image: debian:12.12-slim
   only:
     - builds/docker
     - deployments/demo
@@ -514,7 +514,7 @@ job_staging_deploy:
         - ${APT_CACHE_DIR}
   environment:
     name: staging
-  image: debian:12.11-slim
+  image: debian:12.12-slim
   only:
     - builds/docker
     - deployments/staging
