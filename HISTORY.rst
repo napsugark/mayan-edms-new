@@ -1,7 +1,7 @@
-4.6.10 (XXXX-XX-XX)
+4.6.10 (2025-09-23)
 ===================
 - Fix base search class `_search` interface.
-- Add `SEARCH_QUERY_RESULTS_LIMIT_ERROR`. Control whether or not to raise
+- Add `SEARCH_QUERY_RESULTS_LIMIT_ERROR`. Controls whether or not to raise
   an error when the number of search results exceed the value of
   `SEARCH_QUERY_RESULTS_LIMIT`. Default to `True` for backwards compatibility.
 - Don't append the changelog to the PyPI description.
