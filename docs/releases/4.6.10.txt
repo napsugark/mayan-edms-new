@@ -22,11 +22,13 @@ Changes
 Search
 ^^^^^^
 
-- Fixed the base search class _search interface to ensure consistent behavior across search backends.
-- Added the setting SEARCH_QUERY_RESULTS_LIMIT_ERROR:
+- Fixed the base search class `_search` interface to ensure consistent
+  behavior across search backends.
+- Added the setting `SEARCH_QUERY_RESULTS_LIMIT_ERROR`:
 
-  - Controls whether an error is raised when the number of search results exceeds SEARCH_QUERY_RESULTS_LIMIT.
-  - Defaults to True for backwards compatibility.
+  - Controls whether an error is raised when the number of search results
+    exceeds `SEARCH_QUERY_RESULTS_LIMIT`.
+  - Defaults to `True` for backwards compatibility.
 
 
 User Interface
