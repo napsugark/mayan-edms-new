@@ -166,7 +166,7 @@ PythonDependency(
 )
 PythonDependency(
     environment=environment_build, module=__name__, name='twine',
-    version_string='==5.1.1'
+    version_string='==6.2.0'
 )
 PythonDependency(
     environments=(environment_build, environment_documentation),
@@ -179,7 +179,7 @@ PythonDependency(
 
 PythonDependency(
     module=__name__, environment=environment_development,
-    name='devpi-server', version_string='==6.5.0'
+    name='devpi-server', version_string='==6.17.0'
 )
 PythonDependency(
     environment=environment_development, module=__name__,
@@ -206,7 +206,7 @@ PythonDependency(
 PythonDependency(
     environment=environment_development, help_text=_(
         'Command line environment with autocompletion.'
-    ), module=__name__, name='ipython', version_string='==8.21.0'
+    ), module=__name__, name='ipython', version_string='==9.5.0'
 )
 PythonDependency(
     module=__name__, environment=environment_development,

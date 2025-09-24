@@ -21,7 +21,6 @@ Changes
 
 Search
 ^^^^^^
-
 - Fixed the base search class `_search` interface to ensure consistent
   behavior across search backends.
 - Added the setting `SEARCH_QUERY_RESULTS_LIMIT_ERROR`:
@@ -33,7 +32,6 @@ Search
 
 User Interface
 ^^^^^^^^^^^^^^
-
 - Fixed the label of the index template return link for clearer navigation.
 - Improved the error message when a form fieldset mismatch exception occurs,
   providing more helpful debugging information.
@@ -43,11 +41,12 @@ User Interface
 
 Packaging & Compliance
 ^^^^^^^^^^^^^^^^^^^^^^
-
 - Stopped appending the changelog to the PyPI package description, keeping
   metadata concise.
 - Added an SPDX license expression to the package metadata in compliance with
   PEP 639.
+- Resolve a myriad of bugs and dependency conflict bugs between
+  `devpi-server`, `packaging`, `setuptools`, `twine`, `wheel`.
 
 
 Continuous Integration
@@ -55,13 +54,20 @@ Continuous Integration
 - Updated the GitLab CI template to accept `GITLAB_CI_BRANCH_TRY_STAGING` as
   a variable, instead of hardcoding the branch name. This improves
   flexibility for staging workflows.
+- Invoke `twine upload` by passing `TWINE_PASSWORD` instead of `PYPIRC`.
 
 
 Dependency Updates
 ^^^^^^^^^^^^^^^^^^
 - Django: 4.2.23 to 4.2.24
+- devpi-server: 6.5.0 to 6.17.0
+- ipython: 8.21.0 to 9.5.0
+- packaging: 21.3 to 25.0
+- pip: 24.3 to 25.2
 - sentry-sdk: 2.35.0 to 2.38.0
-- pip: 24.3 to 24.3.1
+- setuptools: 69.5.1 to 80.9.0
+- twine: 5.1.1 to 6.2.0
+- wheel: 0.42.0 to 0.45.1
 
 
 Docker Image Updates

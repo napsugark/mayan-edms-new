@@ -305,8 +305,7 @@ job_python_push_pypi:
     - releases/testing
   script:
     - pip install --requirement requirements/build.txt
-    - echo "${PYPIRC}" > ~/.pypirc
-    - twine upload --verbose dist/* -r pypi
+    - twine upload --verbose dist/*
   stage: stage_push
   variables:
     APT_CACHE_DIR: ${CI_PROJECT_DIR}/.cache/apt
