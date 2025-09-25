@@ -1,3 +1,15 @@
+4.6.11 (XXXX-XX-XX)
+===================
+- Add new languages, and language variants.
+
+  - Tibetan
+  - Spanish (Ecuador)
+  - Persian (Iran)
+  - French (France)
+  - Hungarian (Slovakia)
+  - Hungarian (Hungary)
+  - Armenian (Armenia)
+
 4.6.10 (2025-09-24)
 ===================
 - Fix base search class `_search` interface.
