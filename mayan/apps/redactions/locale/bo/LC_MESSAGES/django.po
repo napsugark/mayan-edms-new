@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-02 14:06+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgstr "རྩོམ་སྒྲིག་གསར་པ་བཟོ་བ།"
 
 #: permissions.py:13
 msgid "Delete redactions"
-msgstr "རྩོམ་སྒྲིག་སུབ་པ།"
+msgstr "རྩོམ་སྒྲིག་རྣམས་སུབ་པ།"
 
 #: permissions.py:16
 msgid "Edit redactions"

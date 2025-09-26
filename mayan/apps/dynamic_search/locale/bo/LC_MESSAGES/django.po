@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-26 15:20+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -35,37 +35,37 @@ msgstr "བཤེར་འཚོལ"
 msgid "Resultset created"
 msgstr "གྲུབ་འབྲས་ཆ་ཚང་བཟོས་ཡོད།"
 
-#: forms.py:13
+#: forms.py:12
 msgid "Store the search results to speed up paging and for later browsing."
 msgstr ""
 "འཚོལ་ཞིབ་གྲུབ་འབྲས་དེ་དག་ཤོག་ངོས་བཟོ་མགྱོགས་སུ་གཏོང་བ་དང་རྗེས་སུ་ལྟ་ཀློག་བྱེད་པར་གསོག་འཇོག་བྱོས།"
 
-#: forms.py:16
+#: forms.py:15
 msgid "Save results"
 msgstr "གྲུབ་འབྲས་ཉར་ཚགས་བྱེད་པ།"
 
-#: forms.py:22
+#: forms.py:21
 msgid "Persistency"
 msgstr "རྒྱུན་སྲིང་།"
 
-#: forms.py:38
+#: forms.py:37
 msgid "Match all"
-msgstr "ཚང་མ་མཐུན།"
+msgstr "ཚང་མ་མཐུན་པ།"
 
-#: forms.py:39
+#: forms.py:38
 msgid "Return only results that match all fields."
 msgstr "ཡིག་དུམ་ཚང་མ་མཐུན་པའི་གྲུབ་འབྲས་ཁོ་ན་ཕྱིར་ལོག་བྱེད།"
 
-#: forms.py:72
+#: forms.py:71
 msgid "Search logic"
 msgstr "འཚོལ་བཤེར་གཏན་ཚིགས།"
 
-#: forms.py:100 templates/dynamic_search/search_box.html:43
+#: forms.py:99 templates/dynamic_search/search_box.html:43
 #: templates/dynamic_search/search_box_toolbar.html:25
 msgid "Search terms"
 msgstr "འཚོལ་བཤེར་ཐ་སྙད།"
 
-#: forms.py:111
+#: forms.py:110
 msgid "Criteria"
 msgstr "ཚད་གཞི"
 
@@ -394,7 +394,7 @@ msgstr ""
 "&quot;གྲུབ་འབྲས་གསོག་འཇོག་&quot; "
 "ཞིབ་བཤེར་སྒྲོམ་གྱི་སྔོན་སྒྲིག་གནས་སྟངས་སྒྲིག་བཀོད་བྱེད།"
 
-#: templates/dynamic_search/app/list_toolbar.html:18
+#: templates/dynamic_search/app/list_toolbar.html:24
 msgid "Filter terms"
 msgstr "ཐ་སྙད་ཚགས་བཤེར་བྱེད་པ།"
 
@@ -500,7 +500,7 @@ msgstr "ཉར་ཚགས་བྱས་པའི་གྲུབ་འབྲས
 
 #: views/search_views.py:62
 msgid "This tool erases and populates the search backend's internal index."
-msgstr "ལག་ཆ་འདིས་འཚོལ་ཞིབ་རྒྱབ་ཕྱོགས་ཀྱི་ནང་ཁུལ་གྱི་དཀར་ཆག་བསུབས་ནས་བཀང་ཐུབ།"
+msgstr "ལག་ཆ་འདིས་འཚོལ་ཞིབ་རྒྱབ་ཕྱོགས་ཀྱི་ནང་ཁུལ་གྱི་དཀར་ཆག་བསུབས་ནས་བཀང་ཡོད།"
 
 #: views/search_views.py:72
 msgid ""

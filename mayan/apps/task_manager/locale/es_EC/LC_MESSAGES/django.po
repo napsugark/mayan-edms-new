@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-23 04:57+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Roberto Rosario, 2024\n"
 "Language-Team: Spanish (Ecuador) (https://app.transifex.com/rosarior/teams/13584/es_EC/)\n"
 "MIME-Version: 1.0\n"
@@ -24,19 +24,19 @@ msgstr ""
 msgid "Task manager"
 msgstr "Administrador de tareas"
 
-#: apps.py:114 apps.py:139 apps.py:182
+#: apps.py:116 apps.py:141 apps.py:184
 msgid "Label"
 msgstr "Etiqueta"
 
-#: apps.py:118 apps.py:142 apps.py:186
+#: apps.py:120 apps.py:144 apps.py:188
 msgid "Name"
 msgstr "Nombre"
 
-#: apps.py:123
+#: apps.py:125
 msgid "Default queue?"
 msgstr "¿Cola principal?"
 
-#: apps.py:128
+#: apps.py:130
 msgid ""
 "Transient queues are not persistent. Tasks in a transient queue are lost if "
 "the broker is restarted. Transient queues use less resources and managed non"
@@ -46,43 +46,43 @@ msgstr ""
 "transitoria se pierden si se reinicia el intermediario. Las colas "
 "transitorias utilizan menos recursos y gestionan tareas no críticas."
 
-#: apps.py:131
+#: apps.py:133
 msgid "Is transient?"
 msgstr "¿Es transitoria?"
 
-#: apps.py:145
+#: apps.py:147
 msgid "Dotted path"
 msgstr "Ruta separada por puntos"
 
-#: apps.py:149
+#: apps.py:151
 msgid "Schedule"
 msgstr "Horario"
 
-#: apps.py:155
+#: apps.py:157
 msgid "Type"
 msgstr "Tipo"
 
-#: apps.py:160
+#: apps.py:162
 msgid "Start time"
 msgstr "Tiempo de inicio"
 
-#: apps.py:164
+#: apps.py:166
 msgid "Host"
 msgstr "Servidor"
 
-#: apps.py:168
+#: apps.py:170
 msgid "Arguments"
 msgstr "Argumentos"
 
-#: apps.py:172
+#: apps.py:174
 msgid "Keyword arguments"
 msgstr "Argumentos explícitos"
 
-#: apps.py:177
+#: apps.py:179
 msgid "Worker process ID"
 msgstr "ID del proceso trabajador"
 
-#: apps.py:190
+#: apps.py:192
 msgid ""
 "Maximum amount of resident memory a worker can execute before it's replaced "
 "by a new process."
@@ -90,11 +90,11 @@ msgstr ""
 "Cantidad máxima de memoria residente que un trabajador puede ejecutar antes "
 "de ser reemplazada por un nuevo proceso."
 
-#: apps.py:192
+#: apps.py:194
 msgid "Maximum memory per child"
 msgstr "Memoria máxima por subprocesso"
 
-#: apps.py:196
+#: apps.py:198
 msgid ""
 "Maximum number of tasks a worker can execute before it's replaced by a new "
 "process."
@@ -102,11 +102,11 @@ msgstr ""
 "Número máximo de tareas que un trabajador puede ejecutar antes de ser "
 "reemplazado por un nuevo proceso."
 
-#: apps.py:198
+#: apps.py:200
 msgid "Maximum tasks per child"
 msgstr "Tareas máximas por subproceso"
 
-#: apps.py:202
+#: apps.py:204
 msgid ""
 "The number of worker processes/threads to launch. Defaults to the number of "
 "CPUs available on the machine."
@@ -114,11 +114,11 @@ msgstr ""
 "El número de procesos/hilos de trabajo que se lanzarán. El valor "
 "predeterminado es la cantidad de CPUs disponibles en la máquina."
 
-#: apps.py:204
+#: apps.py:206
 msgid "Concurrency"
 msgstr "Concurrencia"
 
-#: apps.py:208
+#: apps.py:210
 msgid ""
 "The nice value determines the priority of the process. A higher value lowers"
 " the priority. The default value is 0."
@@ -126,7 +126,7 @@ msgstr ""
 "El valor de amistad determina la prioridad del proceso. Un valor más alto "
 "reduce la prioridad. El valor predeterminado es 0."
 
-#: apps.py:211
+#: apps.py:213
 msgid "Nice level"
 msgstr "Nivel de amistad"
 

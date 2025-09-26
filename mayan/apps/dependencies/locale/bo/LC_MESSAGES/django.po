@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -96,7 +96,7 @@ msgstr "ཆ་ཚང།"
 
 #: classes.py:439
 msgid "Installed and correct version"
-msgstr "ཐོན་རིམ་སྒྲིག་འཇུག་དང་ནོར་བཅོས་བྱས།"
+msgstr "སྒྲིག་འཇུག་དང་ཐོན་རིམ་ལེགས་བཅོས་བྱས།"
 
 #: classes.py:441
 msgid "Missing or incorrect version"
@@ -262,7 +262,7 @@ msgid ""
 "environment will result in issues and errors during normal use."
 msgstr ""
 "མཐའ་མའི་སྤྱོད་མཁན་གྱི་རྒྱུན་ལྡན་གྱི་ཁོར་ཡུག "
-"མཐའ་འཁོར་འདིའི་འོག་ལ་རག་ལུས་མེད་ན་སྤྱིར་བཏང་བེད་སྤྱོད་བྱེད་སྐབས་གནད་དོན་དང་ནོར་འཁྲུལ་འབྱུང་སྲིད།"
+"མཐའ་འཁོར་འདིའི་འོག་ལ་རག་ལུས་མེད་པ་དེས་སྤྱིར་བཏང་བེད་སྤྱོད་བྱེད་སྐབས་གནད་དོན་དང་ནོར་འཁྲུལ་བཟོ་སྲིད།"
 
 #: environments.py:47
 msgid "Production"
@@ -341,7 +341,7 @@ msgstr "འབྲེལ་ཡོད་རྣམས་ཚེག་གིས་ད
 msgid ""
 "Comma separated names of dependencies to exclude from the list generated."
 msgstr ""
-"ཐོ་འགོད་བྱས་པའི་ཐོ་གཞུང་ལས་ཕྱིར་འཐེན་བྱེད་པའི་འབྲེལ་ཡོད་ཀྱི་མིང་ཚེག་གིས་དབྱེ་འབྱེད་བྱས།"
+"ཐོ་གཞུང་བཟོས་པ་ལས་ཕྱིར་འཐེན་བྱེད་པའི་འབྲེལ་ཡོད་ཀྱི་མིང་ཚེག་གིས་དབྱེ་འབྱེད་བྱས།"
 
 #: management/commands/dependencies_generate_requirements.py:20
 msgid ""
@@ -364,7 +364,7 @@ msgstr "རྟེན་འབྲེལ་ལ་ལྟ་བ།"
 
 #: views.py:27
 msgid "This process only checks the Python component of Mayan EDMS."
-msgstr "བྱ་རིམ་འདིས་ Mayan EDMSཡི་པའེ་ཐོན་ཆ་ཤས་ཁོ་ན་ཞིབ་བཤེར་བྱེད་ཀྱི་ཡོད།"
+msgstr "བྱ་རིམ་འདིས་ Mayan EDMS ཡི་པའེ་ཐོན་ཆ་ཤས་ཁོ་ན་ཞིབ་བཤེར་བྱེད་ཀྱི་ཡོད།"
 
 #: views.py:31
 msgid ""

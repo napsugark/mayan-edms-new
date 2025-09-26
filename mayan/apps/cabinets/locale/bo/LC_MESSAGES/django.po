@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -20,14 +20,14 @@ msgstr ""
 "Language: bo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: apps.py:53 apps.py:173 apps.py:177 apps.py:182 apps.py:187 apps.py:192
-#: events.py:6 forms.py:14 links.py:30 menus.py:14 models.py:54 models.py:160
+#: apps.py:53 apps.py:172 apps.py:176 apps.py:181 apps.py:186 apps.py:191
+#: events.py:6 forms.py:10 links.py:30 menus.py:14 models.py:54 models.py:160
 #: permissions.py:6 search.py:54 views.py:169 workflow_actions.py:39
 #: workflow_actions.py:53
 msgid "Cabinets"
 msgstr "ཆ་སྒམ།"
 
-#: apps.py:164 models.py:43
+#: apps.py:163 models.py:43
 msgid "Documents"
 msgstr "ཡིག་ཆ།"
 
@@ -93,7 +93,7 @@ msgstr "སྒམ་ཆུང་ཐོབ།()"
 
 #: model_mixins.py:64
 msgid "The path to the cabinet including all ancestors."
-msgstr "ཕ་མེས་ཚང་མ་ཚུད་པའི་བཀའ་ཤག་གི་ལམ་བུ།"
+msgstr "མེས་པོ་ཚང་མ་ཚུད་པའི་བཀའ་ཤག་གི་ལམ་བུ།"
 
 #: model_mixins.py:66 serializers.py:32
 msgid "Full path"
@@ -134,7 +134,7 @@ msgstr "ཡིག་ཆའི་སྒམ།"
 
 #: permissions.py:12
 msgid "Add documents to cabinets"
-msgstr "ཡིག་ཆ་སྒམ་ནང་ཁ་སྣོན་བྱེད་པ།"
+msgstr "ཡིག་སྒམ་ནང་ཡིག་ཆ་ཁ་སྣོན་བྱེད་པ།"
 
 #: permissions.py:15
 msgid "Create cabinets"
@@ -207,7 +207,7 @@ msgstr "ཡིག་ཆའི་ཁ་བྱང་།"
 
 #: serializers.py:30
 msgid "The name of this cabinet level appended to the names of its ancestors."
-msgstr "བཀའ་ཤག་གི་གནས་རིམ་འདིའི་མིང་དེ་ཕ་མེས་ཚོའི་མིང་ལ་སྦྱར་ཡོད།"
+msgstr "བཀའ་ཤག་གི་གནས་རིམ་འདིའི་མིང་དེ་ཕ་མེས་ཀྱི་མིང་ལ་སྦྱར་ཡོད།"
 
 #: serializers.py:35
 msgid "Parents URL"

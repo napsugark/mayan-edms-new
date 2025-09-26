@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2025-08-25 17:01+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Ara Gasparyan, 2024\n"
 "Language-Team: Armenian (Armenia) (https://app.transifex.com/rosarior/teams/13584/hy_AM/)\n"
 "MIME-Version: 1.0\n"
@@ -20,64 +20,32 @@ msgstr ""
 "Language: hy_AM\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps.py:220 apps.py:285 apps.py:662 events.py:6 menus.py:8
+#: apps.py:220 apps.py:1061 events.py:6 menus.py:8
 #: models/document_models.py:112 permissions.py:6 settings.py:33
 #: statistics.py:286
 msgid "Documents"
 msgstr "Փաստաթղթեր"
 
-#: apps.py:306
-msgid "Create a document type"
-msgstr "Ստեղծել փաստաթղթի տեսակ"
+#: apps.py:236 models/favorite_document_models.py:33
+msgid "Date and time added"
+msgstr "Ամսաթիվը և ժամը ավելացված են"
 
-#: apps.py:308
-msgid ""
-"Every uploaded document must be assigned a document type, it is the basic "
-"way Mayan EDMS categorizes documents."
-msgstr ""
-"Յուրաքանչյուր վերբեռնված փաստաթուղթ պետք է ասոցացվի փաստաթղթի տեսակ հետ, դա "
-"Mayan EDMS-ի՝ փաստաթղթերը դասակարգելու հիմնական միջոցն է:"
-
-#: apps.py:402
-msgid "File comments"
-msgstr "Ֆայլի մեկնաբանությունները"
-
-#: apps.py:406
-msgid "File encodings"
-msgstr ""
-
-#: apps.py:410
-msgid "File MIME types"
-msgstr ""
-
-#: apps.py:414
-msgid "File timestamps"
-msgstr ""
-
-#: apps.py:419 links/document_file_page_links.py:76
+#: apps.py:278 links/document_file_page_links.py:76
 #: models/document_file_models.py:107 models/document_file_page_models.py:28
 #: search.py:54
 msgid "Document file"
 msgstr ""
 
-#: apps.py:423 models/document_file_page_models.py:32
+#: apps.py:282 models/document_file_page_models.py:32
 #: models/document_version_page_models.py:42
 msgid "Page number"
 msgstr ""
 
-#: apps.py:428
-msgid "Return the latest file of the document."
-msgstr "Վերադարձնել փաստաթղթի վերջին ֆայլը։"
-
-#: apps.py:429
-msgid "Latest file"
-msgstr ""
-
-#: apps.py:433
+#: apps.py:287
 msgid "Return the document instance."
 msgstr ""
 
-#: apps.py:434 links/document_file_links.py:71
+#: apps.py:288 links/document_file_links.py:71
 #: links/document_file_page_links.py:70 links/document_version_links.py:73
 #: links/document_version_page_links.py:90 models/document_file_models.py:58
 #: models/document_models.py:111 models/document_version_models.py:30
@@ -88,29 +56,69 @@ msgstr ""
 msgid "Document"
 msgstr "Փաստաթուղթ"
 
-#: apps.py:570 apps.py:615 apps.py:648 apps.py:683 apps.py:708
+#: apps.py:343 apps.py:376 apps.py:762 apps.py:787 apps.py:994
 msgid "Thumbnail"
 msgstr ""
 
-#: apps.py:575
-msgid "Type"
-msgstr "Տեսակ"
-
-#: apps.py:580 apps.py:620 apps.py:688 forms/document_file_forms.py:89
+#: apps.py:348 apps.py:767 apps.py:1004 forms/document_file_forms.py:86
 #: links/document_file_page_links.py:122
 #: links/document_version_page_links.py:50
 msgid "Pages"
 msgstr ""
 
-#: apps.py:590 models/favorite_document_models.py:33
-msgid "Date and time added"
-msgstr "Ամսաթիվը և ժամը ավելացված են"
-
-#: apps.py:601
+#: apps.py:469
 msgid "Access date and time"
 msgstr ""
 
-#: classes.py:65 forms/document_file_forms.py:40
+#: apps.py:534
+msgid "Create a document type"
+msgstr "Ստեղծել փաստաթղթի տեսակ"
+
+#: apps.py:536
+msgid ""
+"Every uploaded document must be assigned a document type, it is the basic "
+"way Mayan EDMS categorizes documents."
+msgstr ""
+"Յուրաքանչյուր վերբեռնված փաստաթուղթ պետք է ասոցացվի փաստաթղթի տեսակ հետ, դա "
+"Mayan EDMS-ի՝ փաստաթղթերը դասակարգելու հիմնական միջոցն է:"
+
+#: apps.py:929
+msgid "File comments"
+msgstr "Ֆայլի մեկնաբանությունները"
+
+#: apps.py:933
+msgid "File encodings"
+msgstr ""
+
+#: apps.py:937
+msgid "File MIME types"
+msgstr ""
+
+#: apps.py:941
+msgid "File timestamps"
+msgstr ""
+
+#: apps.py:945
+msgid "Return the latest file of the document."
+msgstr "Վերադարձնել փաստաթղթի վերջին ֆայլը։"
+
+#: apps.py:946
+msgid "Latest file"
+msgstr ""
+
+#: apps.py:950
+msgid "Return the active version of the document."
+msgstr ""
+
+#: apps.py:951
+msgid "Active version"
+msgstr ""
+
+#: apps.py:999
+msgid "Type"
+msgstr "Տեսակ"
+
+#: classes.py:65 forms/document_file_forms.py:37
 msgid "Original"
 msgstr "Բնօրինակ "
 
@@ -118,7 +126,7 @@ msgstr "Բնօրինակ "
 msgid "Keeps the original filename of the uploaded file."
 msgstr "Պահպանում է վերբեռնված ֆայլի սկզբնական անունը:"
 
-#: classes.py:77 forms/document_forms.py:110 models/document_models.py:50
+#: classes.py:77 forms/document_forms.py:107 models/document_models.py:50
 msgid "UUID"
 msgstr ""
 
@@ -292,81 +300,82 @@ msgstr ""
 msgid "Document version uploaded (historic)"
 msgstr ""
 
-#: forms/document_file_forms.py:44
+#: forms/document_file_forms.py:41
 msgid "Detected"
 msgstr ""
 
-#: forms/document_file_forms.py:48
+#: forms/document_file_forms.py:45
 msgid "Storage"
 msgstr ""
 
-#: forms/document_file_forms.py:52
+#: forms/document_file_forms.py:49
 msgid "Other"
 msgstr ""
 
-#: forms/document_file_forms.py:61
+#: forms/document_file_forms.py:58
 msgid "Date added"
 msgstr ""
 
-#: forms/document_file_forms.py:66 models/document_file_models.py:84
+#: forms/document_file_forms.py:63 models/document_file_models.py:84
 msgid "MIME type"
 msgstr ""
 
-#: forms/document_file_forms.py:70 models/document_file_models.py:90
+#: forms/document_file_forms.py:67 models/document_file_models.py:90
 msgid "Encoding"
 msgstr ""
 
-#: forms/document_file_forms.py:74 models/document_file_models.py:102
+#: forms/document_file_forms.py:71 models/document_file_model_mixins.py:371
+#: models/document_file_models.py:102
 msgid "Size"
 msgstr ""
 
-#: forms/document_file_forms.py:80
+#: forms/document_file_forms.py:77
 msgid "Exists in storage"
 msgstr ""
 
-#: forms/document_file_forms.py:83
+#: forms/document_file_forms.py:80
 msgid "Path in storage"
 msgstr ""
 
-#: forms/document_file_forms.py:86 models/document_file_models.py:97
+#: forms/document_file_forms.py:83 models/document_file_models.py:97
 msgid "Checksum"
 msgstr ""
 
-#: forms/document_forms.py:46
+#: forms/document_forms.py:45
 msgid "Quick document rename"
 msgstr ""
 
-#: forms/document_forms.py:54
+#: forms/document_forms.py:53
 msgid "Preserve extension"
 msgstr ""
 
-#: forms/document_forms.py:56
+#: forms/document_forms.py:55
 msgid ""
 "Takes the file extension and moves it to the end of the filename allowing "
 "operating systems that rely on file extensions to open document correctly."
 msgstr ""
 
-#: forms/document_forms.py:105
+#: forms/document_forms.py:102
 msgid "Date created"
 msgstr ""
 
-#: forms/document_forms.py:113 models/document_models.py:78
+#: forms/document_forms.py:110 models/document_models.py:78
 msgid "Language"
 msgstr ""
 
-#: forms/document_type_forms.py:42 models/document_models.py:55
+#: forms/document_type_forms.py:40 models/document_models.py:55
 #: models/document_type_models.py:104 models/document_type_models.py:153
 #: serializers/document_serializers.py:28 workflow_actions.py:18
 #: workflow_actions.py:34
 msgid "Document type"
 msgstr "Փաստաթղթի տեսակ"
 
-#: forms/document_version_forms.py:18
+#: forms/document_version_forms.py:19
 msgid ""
 "The backend that will be executed against the selected document version."
 msgstr ""
 
-#: forms/document_version_forms.py:20
+#: forms/document_version_forms.py:21
 msgid "Backend"
 msgstr ""
 
@@ -387,19 +396,19 @@ msgstr ""
 msgid "Destination page number"
 msgstr ""
 
-#: forms/document_version_page_forms.py:72
+#: forms/document_version_page_forms.py:73
 msgid "Target page number can't be repeated."
 msgstr ""
 
-#: forms/misc_forms.py:10
+#: forms/misc_forms.py:11
 msgid "Page group"
 msgstr ""
 
-#: forms/misc_forms.py:13 literals.py:99
+#: forms/misc_forms.py:14 literals.py:99
 msgid "Page range"
 msgstr ""
 
-#: forms/misc_forms.py:20
+#: forms/misc_forms.py:21
 msgid ""
 "Page number from which all the transformations will be cloned. Existing "
 "transformations will be lost."
@@ -663,7 +672,7 @@ msgstr ""
 msgid "All pages"
 msgstr ""
 
-#: models/document_file_model_mixins.py:365
+#: models/document_file_model_mixins.py:366
 #: models/document_file_page_model_mixins.py:244
 #: models/document_model_mixins.py:179 models/document_models.py:63
 #: models/document_type_models.py:43 models/document_type_models.py:156
@@ -674,7 +683,7 @@ msgstr ""
 msgid "Label"
 msgstr ""
 
-#: models/document_file_model_mixins.py:506
+#: models/document_file_model_mixins.py:512
 msgid "Controls what happens when a new document file is uploaded."
 msgstr ""
 
@@ -1186,11 +1195,11 @@ msgstr ""
 msgid "Document ID"
 msgstr ""
 
-#: search.py:77 search.py:106 search.py:149 search.py:176
+#: search.py:77 search.py:106 search.py:149 search.py:177
 msgid "Document label"
 msgstr ""
 
-#: search.py:80 search.py:112 search.py:155 search.py:179
+#: search.py:80 search.py:112 search.py:155 search.py:181
 msgid "Document UUID"
 msgstr ""
 

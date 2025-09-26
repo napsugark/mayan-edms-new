@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Roberto Rosario, 2024\n"
 "Language-Team: Spanish (Ecuador) (https://app.transifex.com/rosarior/teams/13584/es_EC/)\n"
 "MIME-Version: 1.0\n"
@@ -40,19 +40,19 @@ msgstr "Usuario conectado"
 msgid "User logged out"
 msgstr "Usuario desconectado"
 
-#: forms.py:34
+#: forms.py:33
 msgid "Remember me"
 msgstr "Recuérdame"
 
-#: forms.py:81
+#: forms.py:80
 msgid "Permanent"
 msgstr "Permanente"
 
-#: forms.py:82
+#: forms.py:81
 msgid "If selected, disables ending impersonation."
 msgstr "Si se selecciona, deshabilita terminar la personificación."
 
-#: forms.py:93
+#: forms.py:92
 msgid "User"
 msgstr "Usuario"
 

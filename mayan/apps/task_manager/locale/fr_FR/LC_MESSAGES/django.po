@@ -4,19 +4,19 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Luc Didry, 2024
-# Frédéric Sheedy <sheedf@gmail.com>, 2024
-# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2024
 # Thierry Schott <DarkDare@users.noreply.github.com>, 2024
+# Luc Didry, 2024
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2024
 # Guillaume Trottier <gui.trottier@gmail.com>, 2024
+# Frédéric Sheedy <sheedf@gmail.com>, 2024
 # Yves Dubois <ydubois@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-23 04:57+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Yves Dubois <ydubois@gmail.com>, 2024\n"
 "Language-Team: French (France) (https://app.transifex.com/rosarior/teams/13584/fr_FR/)\n"
 "MIME-Version: 1.0\n"
@@ -29,98 +29,98 @@ msgstr ""
 msgid "Task manager"
 msgstr "Gestionnaire de tâche"
 
-#: apps.py:114 apps.py:139 apps.py:182
+#: apps.py:116 apps.py:141 apps.py:184
 msgid "Label"
 msgstr "Libellé"
 
-#: apps.py:118 apps.py:142 apps.py:186
+#: apps.py:120 apps.py:144 apps.py:188
 msgid "Name"
 msgstr "Nom"
 
-#: apps.py:123
+#: apps.py:125
 msgid "Default queue?"
 msgstr "File d'attente par défaut ?"
 
-#: apps.py:128
+#: apps.py:130
 msgid ""
 "Transient queues are not persistent. Tasks in a transient queue are lost if "
 "the broker is restarted. Transient queues use less resources and managed non"
 " critical tasks."
 msgstr ""
 
-#: apps.py:131
+#: apps.py:133
 msgid "Is transient?"
 msgstr "Est-il transitoire?"
 
-#: apps.py:145
+#: apps.py:147
 msgid "Dotted path"
 msgstr ""
 
-#: apps.py:149
+#: apps.py:151
 msgid "Schedule"
 msgstr "Planification"
 
-#: apps.py:155
+#: apps.py:157
 msgid "Type"
 msgstr "Type"
 
-#: apps.py:160
+#: apps.py:162
 msgid "Start time"
 msgstr "Heure de début"
 
-#: apps.py:164
+#: apps.py:166
 msgid "Host"
 msgstr "Hôte"
 
-#: apps.py:168
+#: apps.py:170
 msgid "Arguments"
 msgstr "Arguments"
 
-#: apps.py:172
+#: apps.py:174
 msgid "Keyword arguments"
 msgstr "Arguments relatifs aux mots-clés"
 
-#: apps.py:177
+#: apps.py:179
 msgid "Worker process ID"
 msgstr "ID du processus de travail"
 
-#: apps.py:190
+#: apps.py:192
 msgid ""
 "Maximum amount of resident memory a worker can execute before it's replaced "
 "by a new process."
 msgstr ""
 
-#: apps.py:192
+#: apps.py:194
 msgid "Maximum memory per child"
 msgstr ""
 
-#: apps.py:196
+#: apps.py:198
 msgid ""
 "Maximum number of tasks a worker can execute before it's replaced by a new "
 "process."
 msgstr ""
 
-#: apps.py:198
+#: apps.py:200
 msgid "Maximum tasks per child"
 msgstr ""
 
-#: apps.py:202
+#: apps.py:204
 msgid ""
 "The number of worker processes/threads to launch. Defaults to the number of "
 "CPUs available on the machine."
 msgstr ""
 
-#: apps.py:204
+#: apps.py:206
 msgid "Concurrency"
 msgstr ""
 
-#: apps.py:208
+#: apps.py:210
 msgid ""
 "The nice value determines the priority of the process. A higher value lowers"
 " the priority. The default value is 0."
 msgstr ""
 
-#: apps.py:211
+#: apps.py:213
 msgid "Nice level"
 msgstr ""
 

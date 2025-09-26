@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Ara Gasparyan, 2024\n"
 "Language-Team: Armenian (Armenia) (https://app.transifex.com/rosarior/teams/13584/hy_AM/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Converter"
 msgstr ""
 
-#: apps.py:88 forms.py:44
+#: apps.py:88 forms.py:43
 msgid "Transformation"
 msgstr ""
 
@@ -70,19 +70,19 @@ msgstr ""
 msgid "Asset edited"
 msgstr ""
 
-#: forms.py:17
+#: forms.py:16
 msgid "Asset preview image"
 msgstr ""
 
-#: forms.py:18
+#: forms.py:17
 msgid "Preview"
 msgstr ""
 
-#: forms.py:43
+#: forms.py:42
 msgid "Available transformations for this layer."
 msgstr ""
 
-#: forms.py:94
+#: forms.py:93
 #, python-format
 msgid "\"%s\" not a valid entry."
 msgstr ""
@@ -151,7 +151,7 @@ msgstr ""
 msgid "File"
 msgstr ""
 
-#: models.py:53 transformation_mixins.py:313
+#: models.py:53 transformation_mixins.py:311
 msgid "Asset"
 msgstr ""
 
@@ -334,314 +334,314 @@ msgstr ""
 msgid "Assets cache"
 msgstr ""
 
-#: transformation_mixins.py:20 transformations.py:673
+#: transformation_mixins.py:18 transformations.py:671
 msgid ""
 "Number of degrees to rotate the image counter clockwise around its center."
 msgstr ""
 
-#: transformation_mixins.py:22
+#: transformation_mixins.py:20
 msgid "Rotation"
 msgstr ""
 
-#: transformation_mixins.py:25
+#: transformation_mixins.py:23
 msgid "Opacity level of the image in percent"
 msgstr ""
 
-#: transformation_mixins.py:26
+#: transformation_mixins.py:24
 msgid "Transparency"
 msgstr ""
 
-#: transformation_mixins.py:29 transformations.py:779
+#: transformation_mixins.py:27 transformations.py:777
 msgid "Zoom level in percent."
 msgstr ""
 
-#: transformation_mixins.py:30 transformations.py:774
+#: transformation_mixins.py:28 transformations.py:772
 msgid "Zoom"
 msgstr ""
 
-#: transformation_mixins.py:114
+#: transformation_mixins.py:112
 msgid "Paste an image"
 msgstr ""
 
-#: transformation_mixins.py:120
+#: transformation_mixins.py:118
 msgid "Horizontal position in pixels from the left."
 msgstr ""
 
-#: transformation_mixins.py:121 transformation_mixins.py:166
-#: transformation_mixins.py:231 transformations.py:238 transformations.py:340
-#: transformations.py:438
+#: transformation_mixins.py:119 transformation_mixins.py:164
+#: transformation_mixins.py:229 transformations.py:236 transformations.py:338
+#: transformations.py:436
 msgid "Left"
 msgstr ""
 
-#: transformation_mixins.py:124
+#: transformation_mixins.py:122
 msgid "Vertical position in pixels from the top."
 msgstr ""
 
-#: transformation_mixins.py:125 transformation_mixins.py:171
-#: transformation_mixins.py:241 transformations.py:242 transformations.py:344
-#: transformations.py:442
+#: transformation_mixins.py:123 transformation_mixins.py:169
+#: transformation_mixins.py:239 transformations.py:240 transformations.py:342
+#: transformations.py:440
 msgid "Top"
 msgstr ""
 
-#: transformation_mixins.py:159
+#: transformation_mixins.py:157
 msgid "Paste an image (percent coordinates)"
 msgstr ""
 
-#: transformation_mixins.py:165
+#: transformation_mixins.py:163
 msgid "Horizontal position in percent from the left."
 msgstr ""
 
-#: transformation_mixins.py:170
+#: transformation_mixins.py:168
 msgid "Vertical position in percent from the top."
 msgstr ""
 
-#: transformation_mixins.py:224 transformations.py:226
+#: transformation_mixins.py:222 transformations.py:224
 msgid "Paste an asset as watermark"
 msgstr ""
 
-#: transformation_mixins.py:230
+#: transformation_mixins.py:228
 msgid "Horizontal start position in pixels from the left."
 msgstr ""
 
-#: transformation_mixins.py:235
+#: transformation_mixins.py:233
 msgid "Horizontal end position in pixels from the right."
 msgstr ""
 
-#: transformation_mixins.py:236 transformations.py:247 transformations.py:348
-#: transformations.py:446
+#: transformation_mixins.py:234 transformations.py:245 transformations.py:346
+#: transformations.py:444
 msgid "Right"
 msgstr ""
 
-#: transformation_mixins.py:240
+#: transformation_mixins.py:238
 msgid "Vertical start position in pixels from the top."
 msgstr ""
 
-#: transformation_mixins.py:245
+#: transformation_mixins.py:243
 msgid "Vertical end position in pixels from the top."
 msgstr ""
 
-#: transformation_mixins.py:246 transformations.py:252 transformations.py:352
-#: transformations.py:450
+#: transformation_mixins.py:244 transformations.py:250 transformations.py:350
+#: transformations.py:448
 msgid "Bottom"
 msgstr ""
 
-#: transformation_mixins.py:249
+#: transformation_mixins.py:247
 msgid "Horizontal position increments in pixels."
 msgstr ""
 
-#: transformation_mixins.py:250
+#: transformation_mixins.py:248
 msgid "Horizontal increment"
 msgstr ""
 
-#: transformation_mixins.py:253
+#: transformation_mixins.py:251
 msgid "Vertical position increments in pixels."
 msgstr ""
 
-#: transformation_mixins.py:254
+#: transformation_mixins.py:252
 msgid "Vertical increment"
 msgstr ""
 
-#: transformation_mixins.py:313
+#: transformation_mixins.py:311
 msgid "Asset name"
 msgstr ""
 
-#: transformation_mixins.py:356
+#: transformation_mixins.py:354
 msgid "Color used to fill the rectangle."
 msgstr ""
 
-#: transformation_mixins.py:357 transformations.py:680
+#: transformation_mixins.py:355 transformations.py:678
 msgid "Fill color"
 msgstr ""
 
-#: transformation_mixins.py:362
+#: transformation_mixins.py:360
 msgid "Opacity level of the fill color in percent"
 msgstr ""
 
-#: transformation_mixins.py:363
+#: transformation_mixins.py:361
 msgid "Fill transparency"
 msgstr ""
 
-#: transformation_mixins.py:367
+#: transformation_mixins.py:365
 msgid "Color used for the outline of the rectangle."
 msgstr ""
 
-#: transformation_mixins.py:368
+#: transformation_mixins.py:366
 msgid "Outline color"
 msgstr ""
 
-#: transformation_mixins.py:372
+#: transformation_mixins.py:370
 msgid "Width in pixels of the rectangle outline."
 msgstr ""
 
-#: transformation_mixins.py:373
+#: transformation_mixins.py:371
 msgid "Outline width"
 msgstr ""
 
-#: transformations.py:210
+#: transformations.py:208
 msgid "Paste an asset (absolute coordinates)"
 msgstr ""
 
-#: transformations.py:218
+#: transformations.py:216
 msgid "Paste an asset (percent coordinates)"
 msgstr ""
 
-#: transformations.py:232
+#: transformations.py:230
 msgid "Crop"
 msgstr ""
 
-#: transformations.py:237
+#: transformations.py:235
 msgid "Number of pixels to remove from the left."
 msgstr ""
 
-#: transformations.py:241
+#: transformations.py:239
 msgid "Number of pixels to remove from the top."
 msgstr ""
 
-#: transformations.py:246
+#: transformations.py:244
 msgid "Number of pixels to remove from the right."
 msgstr ""
 
-#: transformations.py:251
+#: transformations.py:249
 msgid "Number of pixels to remove from the bottom."
 msgstr ""
 
-#: transformations.py:334
+#: transformations.py:332
 msgid "Draw rectangle"
 msgstr ""
 
-#: transformations.py:339
+#: transformations.py:337
 msgid "Left side location in pixels."
 msgstr ""
 
-#: transformations.py:343
+#: transformations.py:341
 msgid "Top side location in pixels."
 msgstr ""
 
-#: transformations.py:347
+#: transformations.py:345
 msgid "Right side location in pixels."
 msgstr ""
 
-#: transformations.py:351
+#: transformations.py:349
 msgid "Bottom side location in pixels."
 msgstr ""
 
-#: transformations.py:432
+#: transformations.py:430
 msgid "Draw rectangle (percent coordinates)"
 msgstr ""
 
-#: transformations.py:437
+#: transformations.py:435
 msgid "Left side location in percent."
 msgstr ""
 
-#: transformations.py:441
+#: transformations.py:439
 msgid "Top side location in percent."
 msgstr ""
 
-#: transformations.py:445
+#: transformations.py:443
 msgid "Right side location in percent."
 msgstr ""
 
-#: transformations.py:449
+#: transformations.py:447
 msgid "Bottom side location in percent."
 msgstr ""
 
-#: transformations.py:532
+#: transformations.py:530
 msgid "Flip"
 msgstr ""
 
-#: transformations.py:543
+#: transformations.py:541
 msgid "Gaussian blur"
 msgstr ""
 
-#: transformations.py:548 transformations.py:749
+#: transformations.py:546 transformations.py:747
 msgid "Radius"
 msgstr ""
 
-#: transformations.py:560
+#: transformations.py:558
 msgid "Line art"
 msgstr ""
 
-#: transformations.py:574
+#: transformations.py:572
 msgid "Mirror"
 msgstr ""
 
-#: transformations.py:587
+#: transformations.py:585
 msgid "Draw a QRCode (percent coordinates)"
 msgstr ""
 
-#: transformations.py:597
+#: transformations.py:595
 msgid "Value to encode in the QRCode."
 msgstr ""
 
-#: transformations.py:598
+#: transformations.py:596
 msgid "Code value"
 msgstr ""
 
-#: transformations.py:623
+#: transformations.py:621
 msgid "Resize"
 msgstr ""
 
-#: transformations.py:629
+#: transformations.py:627
 msgid "New width in pixels."
 msgstr ""
 
-#: transformations.py:630
+#: transformations.py:628
 msgid "Width"
 msgstr ""
 
-#: transformations.py:634
+#: transformations.py:632
 msgid "New height in pixels."
 msgstr ""
 
-#: transformations.py:635
+#: transformations.py:633
 msgid "Height"
 msgstr ""
 
-#: transformations.py:667
+#: transformations.py:665
 msgid "Rotate"
 msgstr ""
 
-#: transformations.py:675
+#: transformations.py:673
 msgid "Degrees"
 msgstr ""
 
-#: transformations.py:679
+#: transformations.py:677
 msgid "Color to be used for area outside of the rotated image."
 msgstr ""
 
-#: transformations.py:711
+#: transformations.py:709
 msgid "Rotate 90 degrees"
 msgstr ""
 
-#: transformations.py:722
+#: transformations.py:720
 msgid "Rotate 180 degrees"
 msgstr ""
 
-#: transformations.py:733
+#: transformations.py:731
 msgid "Rotate 270 degrees"
 msgstr ""
 
-#: transformations.py:743
+#: transformations.py:741
 msgid "Unsharp masking"
 msgstr ""
 
-#: transformations.py:748
+#: transformations.py:746
 msgid "The blur radius in pixels."
 msgstr ""
 
-#: transformations.py:752
+#: transformations.py:750
 msgid "Unsharp strength in percent."
 msgstr ""
 
-#: transformations.py:753 transformations.py:780
+#: transformations.py:751 transformations.py:778
 msgid "Percent"
 msgstr ""
 
-#: transformations.py:757
+#: transformations.py:755
 msgid "Minimum brightness change that will be sharpened."
 msgstr ""
 
-#: transformations.py:758
+#: transformations.py:756
 msgid "Tthreshold"
 msgstr ""
 

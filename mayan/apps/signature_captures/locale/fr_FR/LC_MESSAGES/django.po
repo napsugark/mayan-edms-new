@@ -4,10 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Roberto Rosario, 2024
-# 0041b687dd284925c1885ba94464aacd_fde037b <fc746b00d74cefecce9698255909a24f_28512>, 2024
 # Thierry Schott <DarkDare@users.noreply.github.com>, 2024
+# 0041b687dd284925c1885ba94464aacd_fde037b <fc746b00d74cefecce9698255909a24f_28512>, 2024
 # Yves Dubois <ydubois@gmail.com>, 2024
+# Roberto Rosario, 2024
 # Frédéric Sheedy <sheedf@gmail.com>, 2024
 # Luc Didry, 2024
 # 
@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Luc Didry, 2024\n"
 "Language-Team: French (France) (https://app.transifex.com/rosarior/teams/13584/fr_FR/)\n"
 "MIME-Version: 1.0\n"
@@ -42,11 +42,11 @@ msgstr "Signature manuscrite supprimée"
 msgid "Signature capture edited"
 msgstr "Signature manuscrite modifiée"
 
-#: forms.py:27
+#: forms.py:26
 msgid "Asset preview image"
 msgstr "Aperçu de l'élément"
 
-#: forms.py:27
+#: forms.py:26
 msgid "Preview"
 msgstr "Prévisualiser"
 

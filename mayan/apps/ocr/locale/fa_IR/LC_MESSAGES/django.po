@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Mehdi Amani <MehdiAmani@toorintan.com>, 2024\n"
 "Language-Team: Persian (Iran) (https://app.transifex.com/rosarior/teams/13584/fa_IR/)\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Language: fa_IR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: apps.py:56 apps.py:91 events.py:6 links.py:54 links.py:80 permissions.py:6
+#: apps.py:56 apps.py:91 events.py:6 links.py:53 links.py:79 permissions.py:6
 #: queues.py:6 search.py:18 settings.py:11 workflow_actions.py:53
 msgid "OCR"
 msgstr "OCR"
@@ -62,36 +62,36 @@ msgstr "نسخه سند ارسال شده برای OCR"
 msgid "Document version OCR finished"
 msgstr "نسخه سند OCR شده"
 
-#: forms.py:13 forms.py:44 forms.py:64
+#: forms.py:12 forms.py:43 forms.py:63
 msgid "Contents"
 msgstr "محتوا"
 
-#: forms.py:99
+#: forms.py:98
 #, python-format
 msgid "Page %(page_number)d"
 msgstr "صفحه  %(page_number)d"
 
 #: links.py:27
-msgid "Setup OCR"
-msgstr "نصب OCR"
+msgid "OCR setup"
+msgstr ""
 
-#: links.py:33
+#: links.py:32
 msgid "OCR documents per type"
 msgstr "اسناد OCR در هر نوع"
 
-#: links.py:40 links.py:47
+#: links.py:39 links.py:46
 msgid "Delete OCR content"
 msgstr ""
 
-#: links.py:60
+#: links.py:59
 msgid "Download OCR text"
 msgstr "دانلود متن OCR"
 
-#: links.py:65 links.py:70
+#: links.py:64 links.py:69
 msgid "Submit for OCR"
 msgstr "ارسال برای OCR"
 
-#: links.py:86
+#: links.py:85
 msgid "Edit OCR"
 msgstr ""
 

@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Csaba Tarjányi, 2024\n"
 "Language-Team: Hungarian (Hungary) (https://app.transifex.com/rosarior/teams/13584/hu_HU/)\n"
 "MIME-Version: 1.0\n"
@@ -45,23 +45,23 @@ msgstr "Soha"
 msgid "Ask user"
 msgstr "Kérdezze a felhasználót"
 
-#: source_backends/mixins.py:35
+#: source_backends/mixins.py:36
 msgid "Uncompress"
 msgstr "Kitömörítés"
 
-#: source_backends/mixins.py:39
+#: source_backends/mixins.py:40
 msgid "Whether to expand or not compressed archives."
 msgstr "Kell-e kibontani vagy sem a tömörített archívumot."
 
-#: source_backends/mixins.py:58
+#: source_backends/mixins.py:59
 msgid "Decompression"
 msgstr "Kibontás"
 
-#: source_backends/mixins.py:91
+#: source_backends/mixins.py:92
 msgid "Expand compressed files"
 msgstr "Tömörített fájlok kibontása"
 
-#: source_backends/mixins.py:93
+#: source_backends/mixins.py:94
 msgid "Upload a compressed file's contained files as individual documents."
 msgstr ""
 "A tömörített fájlban lévő fájlok feltöltése különálló dokumentumokként."

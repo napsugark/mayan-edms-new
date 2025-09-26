@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2025-09-26 19:04+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Ara Gasparyan, 2024\n"
 "Language-Team: Armenian (Armenia) (https://app.transifex.com/rosarior/teams/13584/hy_AM/)\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgid "None"
 msgstr ""
 
 #: admin.py:26 links.py:88 models/index_template_models.py:50
-#: serializers.py:315
+#: serializers/index_template_serializers.py:196
 msgid "Document types"
 msgstr "Փաստաթղթերի տեսակներ"
 
@@ -37,7 +37,8 @@ msgstr ""
 msgid "Level"
 msgstr ""
 
-#: apps.py:163 apps.py:194 serializers.py:20 serializers.py:60
+#: apps.py:163 apps.py:194 serializers/index_instance_serializers.py:12
+#: serializers/index_instance_serializers.py:52
 msgid "Depth"
 msgstr ""
 
@@ -69,29 +70,29 @@ msgstr ""
 msgid "Index template edited"
 msgstr ""
 
-#: forms.py:19 forms.py:24
+#: forms.py:17 forms.py:22
 msgid "Namespace"
 msgstr ""
 
-#: forms.py:29 models/index_template_models.py:35
+#: forms.py:27 models/index_template_models.py:35
 msgid "Label"
 msgstr ""
 
-#: forms.py:34 models/index_template_models.py:46
+#: forms.py:32 models/index_template_models.py:46
 #: models/index_template_models.py:166
 msgid "Enabled"
 msgstr ""
 
-#: forms.py:48
+#: forms.py:46
 msgid "Index templates to be queued for rebuilding."
 msgstr ""
 
-#: forms.py:49 links.py:37 links.py:101 models/index_template_models.py:58
+#: forms.py:47 links.py:37 links.py:101 models/index_template_models.py:58
 #: views/index_template_views.py:95
 msgid "Index templates"
 msgstr ""
 
-#: forms.py:64
+#: forms.py:62
 msgid "Template"
 msgstr ""
 
@@ -349,91 +350,102 @@ msgstr ""
 msgid "Document checksum"
 msgstr ""
 
-#: serializers.py:23 serializers.py:69
+#: serializers/index_instance_serializers.py:15
+#: serializers/index_instance_serializers.py:61
 msgid "Node count"
 msgstr ""
 
-#: serializers.py:27 serializers.py:298
+#: serializers/index_instance_serializers.py:19
+#: serializers/index_template_serializers.py:179
 msgid "Nodes URL"
 msgstr ""
 
-#: serializers.py:30 serializers.py:76 serializers.py:146 serializers.py:209
-#: serializers.py:309
+#: serializers/index_instance_serializers.py:22
+#: serializers/index_instance_serializers.py:68
+#: serializers/index_template_serializers.py:27
+#: serializers/index_template_serializers.py:90
+#: serializers/index_template_serializers.py:190
 msgid "URL"
 msgstr ""
 
-#: serializers.py:57
+#: serializers/index_instance_serializers.py:49
 msgid "Children URL"
 msgstr ""
 
-#: serializers.py:63
+#: serializers/index_instance_serializers.py:55
 msgid "Documents URL"
 msgstr ""
 
-#: serializers.py:66 serializers.py:140 serializers.py:200
+#: serializers/index_instance_serializers.py:58
+#: serializers/index_template_serializers.py:21
+#: serializers/index_template_serializers.py:81
 msgid "Index URL"
 msgstr ""
 
-#: serializers.py:73 serializers.py:143 serializers.py:206
+#: serializers/index_instance_serializers.py:65
+#: serializers/index_template_serializers.py:24
+#: serializers/index_template_serializers.py:87
 msgid "Parent URL"
 msgstr ""
 
-#: serializers.py:137 serializers.py:197
+#: serializers/index_template_serializers.py:18
+#: serializers/index_template_serializers.py:78
 msgid "Children"
 msgstr ""
 
-#: serializers.py:203
+#: serializers/index_template_serializers.py:84
 msgid "Parent"
 msgstr ""
 
-#: serializers.py:271
+#: serializers/index_template_serializers.py:152
 msgid ""
 "URL of the API endpoint showing the list document types associated with this"
 " index template."
 msgstr ""
 
-#: serializers.py:273
+#: serializers/index_template_serializers.py:154
 msgid "Document types URL"
 msgstr ""
 
-#: serializers.py:279
+#: serializers/index_template_serializers.py:160
 msgid "URL of the API endpoint to add document types to this index template."
 msgstr ""
 
-#: serializers.py:281
+#: serializers/index_template_serializers.py:162
 msgid "Document types add URL"
 msgstr ""
 
-#: serializers.py:287
+#: serializers/index_template_serializers.py:168
 msgid ""
 "URL of the API endpoint to remove document types from this index template."
 msgstr ""
 
-#: serializers.py:289
+#: serializers/index_template_serializers.py:170
 msgid "Document types remove URL"
 msgstr ""
 
-#: serializers.py:294
+#: serializers/index_template_serializers.py:175
 msgid "Index template root node ID"
 msgstr ""
 
-#: serializers.py:301
+#: serializers/index_template_serializers.py:182
 msgid "Rebuild URL"
 msgstr ""
 
-#: serializers.py:305
+#: serializers/index_template_serializers.py:186
 msgid "Reset URL"
 msgstr ""
 
-#: serializers.py:353
+#: serializers/index_template_serializers.py:234
 msgid "Primary key of the document type to add to the index template."
 msgstr ""
 
-#: serializers.py:355 serializers.py:365
+#: serializers/index_template_serializers.py:236
+#: serializers/index_template_serializers.py:246
 msgid "Document type ID"
 msgstr ""
 
-#: serializers.py:363
+#: serializers/index_template_serializers.py:244
 msgid "Primary key of the document type to remove from the index template."
 msgstr ""
 

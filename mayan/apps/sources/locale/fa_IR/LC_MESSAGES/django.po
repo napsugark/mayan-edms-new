@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Mehdi Amani <MehdiAmani@toorintan.com>, 2024\n"
 "Language-Team: Persian (Iran) (https://app.transifex.com/rosarior/teams/13584/fa_IR/)\n"
 "MIME-Version: 1.0\n"
@@ -66,32 +66,32 @@ msgstr ""
 msgid "Source edited"
 msgstr ""
 
-#: forms.py:25
+#: forms.py:24
 msgid "An optional comment to explain the upload."
 msgstr ""
 
-#: forms.py:26
+#: forms.py:25
 msgid "Comment"
 msgstr "اظهار نظر"
 
-#: forms.py:32
+#: forms.py:31
 msgid "Action"
 msgstr "عمل"
 
-#: forms.py:33
+#: forms.py:32
 msgid ""
 "The action to take in regards to the pages of the new file being uploaded."
 msgstr ""
 
-#: forms.py:54
+#: forms.py:53
 msgid "The backend used to create the new source."
 msgstr ""
 
-#: forms.py:55
+#: forms.py:54
 msgid "Backend"
 msgstr ""
 
-#: forms.py:71
+#: forms.py:70
 msgid "File"
 msgstr "فایل"
 
@@ -499,7 +499,7 @@ msgstr ""
 msgid "Select document type"
 msgstr ""
 
-#: wizards.py:68
+#: wizards.py:66
 msgid ""
 "No interactive document sources have been defined or none have been enabled,"
 " create one before proceeding."
@@ -507,23 +507,23 @@ msgstr ""
 "هیچ منبع محاوره ای سند تعریف و یا فعال نشده، قبل از ادامه دادن یک منبع "
 "بسازید."
 
-#: wizards.py:85
+#: wizards.py:83
 #, python-format
 msgid "Step %(step)d of %(total_steps)d: %(step_label)s"
 msgstr ""
 
-#: wizards.py:91
+#: wizards.py:89
 msgid "Document upload wizard"
 msgstr "جادوگر بارگذاری سند"
 
-#: wizards.py:100
+#: wizards.py:98
 msgid "First"
 msgstr ""
 
-#: wizards.py:106
+#: wizards.py:104
 msgid "Previous"
 msgstr "قبلی"
 
-#: wizards.py:113
+#: wizards.py:111
 msgid "Next"
 msgstr "بعدی"

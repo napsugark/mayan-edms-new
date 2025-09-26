@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2025-09-26 19:04+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Roberto Rosario, 2024\n"
 "Language-Team: Spanish (Ecuador) (https://app.transifex.com/rosarior/teams/13584/es_EC/)\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgid "None"
 msgstr "Ninguno"
 
 #: admin.py:26 links.py:88 models/index_template_models.py:50
-#: serializers.py:315
+#: serializers/index_template_serializers.py:196
 msgid "Document types"
 msgstr "Tipos de documento"
 
@@ -38,7 +38,8 @@ msgstr "Indexación de documentos"
 msgid "Level"
 msgstr "Nível"
 
-#: apps.py:163 apps.py:194 serializers.py:20 serializers.py:60
+#: apps.py:163 apps.py:194 serializers/index_instance_serializers.py:12
+#: serializers/index_instance_serializers.py:52
 msgid "Depth"
 msgstr "Profundidad"
 
@@ -70,29 +71,29 @@ msgstr "Plantilla de índice creada"
 msgid "Index template edited"
 msgstr "Plantilla de índice editada"
 
-#: forms.py:19 forms.py:24
+#: forms.py:17 forms.py:22
 msgid "Namespace"
 msgstr "Categoría"
 
-#: forms.py:29 models/index_template_models.py:35
+#: forms.py:27 models/index_template_models.py:35
 msgid "Label"
 msgstr "Etiqueta"
 
-#: forms.py:34 models/index_template_models.py:46
+#: forms.py:32 models/index_template_models.py:46
 #: models/index_template_models.py:166
 msgid "Enabled"
 msgstr "Habilitado"
 
-#: forms.py:48
+#: forms.py:46
 msgid "Index templates to be queued for rebuilding."
 msgstr "Las plantillas de índice se pondrán en cola para su reconstrucción."
 
-#: forms.py:49 links.py:37 links.py:101 models/index_template_models.py:58
+#: forms.py:47 links.py:37 links.py:101 models/index_template_models.py:58
 #: views/index_template_views.py:95
 msgid "Index templates"
 msgstr "Plantillas de índice"
 
-#: forms.py:64
+#: forms.py:62
 msgid "Template"
 msgstr "Plantilla"
 
@@ -363,44 +364,54 @@ msgstr "UUID del Documento"
 msgid "Document checksum"
 msgstr "Suma de comprobación del documento"
 
-#: serializers.py:23 serializers.py:69
+#: serializers/index_instance_serializers.py:15
+#: serializers/index_instance_serializers.py:61
 msgid "Node count"
 msgstr "Conteo de nodos"
 
-#: serializers.py:27 serializers.py:298
+#: serializers/index_instance_serializers.py:19
+#: serializers/index_template_serializers.py:179
 msgid "Nodes URL"
 msgstr "URL de nodos"
 
-#: serializers.py:30 serializers.py:76 serializers.py:146 serializers.py:209
-#: serializers.py:309
+#: serializers/index_instance_serializers.py:22
+#: serializers/index_instance_serializers.py:68
+#: serializers/index_template_serializers.py:27
+#: serializers/index_template_serializers.py:90
+#: serializers/index_template_serializers.py:190
 msgid "URL"
 msgstr "URL"
 
-#: serializers.py:57
+#: serializers/index_instance_serializers.py:49
 msgid "Children URL"
 msgstr "URL de hijos"
 
-#: serializers.py:63
+#: serializers/index_instance_serializers.py:55
 msgid "Documents URL"
 msgstr "URL de documentos"
 
-#: serializers.py:66 serializers.py:140 serializers.py:200
+#: serializers/index_instance_serializers.py:58
+#: serializers/index_template_serializers.py:21
+#: serializers/index_template_serializers.py:81
 msgid "Index URL"
 msgstr "URL del índice"
 
-#: serializers.py:73 serializers.py:143 serializers.py:206
+#: serializers/index_instance_serializers.py:65
+#: serializers/index_template_serializers.py:24
+#: serializers/index_template_serializers.py:87
 msgid "Parent URL"
 msgstr "URL de padre"
 
-#: serializers.py:137 serializers.py:197
+#: serializers/index_template_serializers.py:18
+#: serializers/index_template_serializers.py:78
 msgid "Children"
 msgstr "Hijos"
 
-#: serializers.py:203
+#: serializers/index_template_serializers.py:84
 msgid "Parent"
 msgstr "Padre"
 
-#: serializers.py:271
+#: serializers/index_template_serializers.py:152
 msgid ""
 "URL of the API endpoint showing the list document types associated with this"
 " index template."
@@ -408,51 +419,52 @@ msgstr ""
 "URL de la API que muestra la lista de tipos de documentos asociados con esta"
 " plantilla de índice."
 
-#: serializers.py:273
+#: serializers/index_template_serializers.py:154
 msgid "Document types URL"
 msgstr "URL de tipos de documentos"
 
-#: serializers.py:279
+#: serializers/index_template_serializers.py:160
 msgid "URL of the API endpoint to add document types to this index template."
 msgstr ""
 "URL de la API para agregar tipos de documentos a esta plantilla de índice."
 
-#: serializers.py:281
+#: serializers/index_template_serializers.py:162
 msgid "Document types add URL"
 msgstr "URL para agregar tipos de documentos"
 
-#: serializers.py:287
+#: serializers/index_template_serializers.py:168
 msgid ""
 "URL of the API endpoint to remove document types from this index template."
 msgstr ""
 "URL de la API para eliminar tipos de documentos de esta plantilla de índice."
 
-#: serializers.py:289
+#: serializers/index_template_serializers.py:170
 msgid "Document types remove URL"
 msgstr "URL para eliminar tipos de documentos"
 
-#: serializers.py:294
+#: serializers/index_template_serializers.py:175
 msgid "Index template root node ID"
 msgstr "ID de nodo raíz de plantilla de índice"
 
-#: serializers.py:301
+#: serializers/index_template_serializers.py:182
 msgid "Rebuild URL"
 msgstr "URL de reconstruir"
 
-#: serializers.py:305
+#: serializers/index_template_serializers.py:186
 msgid "Reset URL"
 msgstr "URL de reiniciar"
 
-#: serializers.py:353
+#: serializers/index_template_serializers.py:234
 msgid "Primary key of the document type to add to the index template."
 msgstr ""
 "Llave principal del tipo de documento para agregar a la plantilla de índice."
 
-#: serializers.py:355 serializers.py:365
+#: serializers/index_template_serializers.py:236
+#: serializers/index_template_serializers.py:246
 msgid "Document type ID"
 msgstr "Identificador del tipo de documento"
 
-#: serializers.py:363
+#: serializers/index_template_serializers.py:244
 msgid "Primary key of the document type to remove from the index template."
 msgstr ""
 "Llave principal del tipo de documento que se eliminará de la plantilla de "

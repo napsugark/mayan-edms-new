@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -32,27 +32,27 @@ msgstr "OTP ལྕོགས་མེད་བཟོས་པ།"
 msgid "OTP enabled"
 msgstr "OTP ལྕོགས་ཅན་བཟོས།"
 
-#: forms.py:22
+#: forms.py:21
 msgid "Token is either invalid or expired."
 msgstr "རྟགས་མཚན་དེ་ནུས་མེད་ཡིན་པའམ་ཡང་ན་དུས་ཚོད་ཡོལ་ཟིན།"
 
-#: forms.py:27
+#: forms.py:26
 msgid "TOTP token"
 msgstr "TOTP རྟགས་མཚན།"
 
-#: forms.py:88
+#: forms.py:87
 msgid "OTP enabled?"
 msgstr "OTP ལྕོགས་ཅན་བཟོས་སོང་ངམ།"
 
-#: forms.py:89
+#: forms.py:88
 msgid "Yes"
 msgstr "ཡིན"
 
-#: forms.py:89
+#: forms.py:88
 msgid "No"
 msgstr "མིན"
 
-#: forms.py:106
+#: forms.py:105
 msgid ""
 "Scan the QR code or enter the secret in your authentication device. Do not "
 "share this secret, treat it like a password."
@@ -60,21 +60,21 @@ msgstr ""
 "ཁྱེད་རང་གི་བདེན་དཔང་འཕྲུལ་ཆས་ནང་QRཨང་རྟགས་པར་བཤུས་བྱེད་པའམ་ཡང་ན་གསང་བ་དེ་བླུགས།"
 " གསང་བ་འདི་མཉམ་སྤྱོད་མ་བྱེད། གསང་གྲངས་ལྟར་འཛིན་དགོས།"
 
-#: forms.py:108 forms.py:113
+#: forms.py:107 forms.py:112
 msgid "Secret"
 msgstr "གསང་བ"
 
-#: forms.py:119
+#: forms.py:118
 msgid ""
 "Enter the corresponding token to validate that the secret was saved correct."
 msgstr ""
 "གསང་བ་དེ་བདེན་པ་ཡིན་མིན་བདེན་དཔང་བྱེད་པར་འབྲེལ་ཡོད་ཀྱི་རྟགས་མཚན་བླུགས།"
 
-#: forms.py:122
+#: forms.py:121
 msgid "Token"
 msgstr "བརྡ་རྟགས།"
 
-#: forms.py:158
+#: forms.py:157
 msgid "Token is incorrect for the specified secret."
 msgstr "གསལ་བཀོད་བྱས་པའི་གསང་བའི་ཆེད་དུ་ཊོ་ཀེན་ནོར་འཁྲུལ་ཅན་རེད།"
 
@@ -114,7 +114,7 @@ msgstr "སྤྱོད་མཁན་གྱི་ཆེད་དུ་དུས
 #: views.py:45
 #, python-format
 msgid "Disable one time pad for user: %s"
-msgstr "སྤྱོད་མཁན་གྱི་ཆེད་དུ་དུས་ཚོད་གཅིག་གི་སྟེགས་བུ་ལྕོགས་མིན་བཟོས %s"
+msgstr "སྤྱོད་མཁན་གྱི་ཆེད་དུ་དུས་ཚོད་གཅིག་གི་སྟེགས་བུ་ལྕོགས་མིན་བཟོས། %s"
 
 #: views.py:56
 msgid "OTP disable successfully."

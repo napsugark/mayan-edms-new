@@ -4,19 +4,19 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Roberto Rosario, 2024
-# Yves Dubois <ydubois@gmail.com>, 2024
-# Baptiste GAILLET <baptiste.gaillet@cstb.fr>, 2024
-# Luc Didry, 2024
 # Christophe CHAUVET <christophe.chauvet@gmail.com>, 2024
+# Yves Dubois <ydubois@gmail.com>, 2024
+# Roberto Rosario, 2024
+# Luc Didry, 2024
+# Baptiste GAILLET <baptiste.gaillet@cstb.fr>, 2024
 # Frédéric Sheedy <sheedf@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Frédéric Sheedy <sheedf@gmail.com>, 2024\n"
 "Language-Team: French (France) (https://app.transifex.com/rosarior/teams/13584/fr_FR/)\n"
 "MIME-Version: 1.0\n"
@@ -45,7 +45,7 @@ msgstr "Message créé"
 msgid "Message edited"
 msgstr "Message modifié"
 
-#: forms.py:26 models.py:40 workflow_actions.py:79
+#: forms.py:25 models.py:40 workflow_actions.py:79
 msgid "Body"
 msgstr "Contenu"
 
@@ -56,6 +56,10 @@ msgstr "Créer un message"
 #: links.py:54 links.py:60
 msgid "Delete"
 msgstr "Supprimer"
+
+#: links.py:66 models.py:57 views.py:118
+msgid "Messages"
+msgstr "Messages"
 
 #: links.py:70 links.py:81
 msgid "Mark as read"
@@ -117,10 +121,6 @@ msgstr "Date et heure de création"
 msgid "Message"
 msgstr "Message"
 
-#: models.py:57 views.py:128
-msgid "Messages"
-msgstr "Messages"
-
 #: permissions.py:10
 msgid "Create messages"
 msgstr "Créer des messages"
@@ -161,131 +161,131 @@ msgstr "ID Utilisateur"
 msgid "URL"
 msgstr "URL"
 
-#: views.py:49
+#: views.py:50
 #, python-format
 msgid "Error deleting message \"%(instance)s\"; %(exception)s"
 msgstr "Erreur lors de la suppression du message \"%(instance)s\"; %(exception)s"
 
-#: views.py:53
+#: views.py:56
 #, python-format
 msgid "%(count)d messages deleted successfully."
 msgstr "%(count)d messages supprimés avec succès."
 
-#: views.py:54
+#: views.py:59
 #, python-format
 msgid "Message \"%(object)s\" deleted successfully."
 msgstr "Le message \"%(object)s\" a été supprimé avec succès."
 
-#: views.py:55
+#: views.py:62
 #, python-format
 msgid "%(count)d message deleted successfully."
 msgstr "Le message %(count)d a été supprimé avec succès."
 
-#: views.py:56
+#: views.py:64
 #, python-format
 msgid "Delete the %(count)d selected messages."
 msgstr "Supprimez les %(count)d messages sélectionnés."
 
-#: views.py:57
+#: views.py:65
 #, python-format
 msgid "Delete message: %(object)s."
 msgstr "Supprimer le message: %(object)s."
 
-#: views.py:58
+#: views.py:66
 #, python-format
 msgid "Delete the %(count)d selected message."
 msgstr "Supprimer %(count)d message sélectionné."
 
-#: views.py:100
+#: views.py:90
 #, python-format
 msgid "Details of message: %s"
 msgstr "Détails du message: %s"
 
-#: views.py:124
+#: views.py:114
 msgid "Here you will find text messages from other users or from the system."
 msgstr ""
 "Vous trouverez ici les messages provenant des autres utilisateurs ou du "
 "système."
 
-#: views.py:127
+#: views.py:117
 msgid "There are no messages"
 msgstr "Il n'y a pas de message"
 
-#: views.py:137
+#: views.py:127
 #, python-format
 msgid "Error marking message \"%(instance)s\" as read; %(exception)s"
 msgstr "Erreur à marquer le message \"%(instance)s\" comme lu; %(exception)s"
 
-#: views.py:143
+#: views.py:133
 #, python-format
 msgid "%(count)d messages marked as read successfully."
 msgstr "%(count)d messages marqués comme lus avec succès."
 
-#: views.py:146
+#: views.py:136
 #, python-format
 msgid "Message \"%(object)s\" marked as read successfully."
 msgstr "Message \"%(object)s\" marqué comme lu avec succès."
 
-#: views.py:149
+#: views.py:139
 #, python-format
 msgid "%(count)d message marked as read successfully."
 msgstr "%(count)d message marqué comme lu avec succès."
 
-#: views.py:151
+#: views.py:141
 #, python-format
 msgid "Mark the %(count)d selected messages as read."
 msgstr "Marquez les %(count)d messages sélectionnés comme lus."
 
-#: views.py:152
+#: views.py:142
 #, python-format
 msgid "Mark the message \"%(object)s\" as read."
 msgstr "Marquez le message \"%(object)s\" comme lu."
 
-#: views.py:153
+#: views.py:143
 #, python-format
 msgid "Mark the %(count)d selected message as read."
 msgstr "Marquez le %(count)d message sélectionné comme lu."
 
-#: views.py:181
+#: views.py:171
 msgid "Mark all message as read?"
 msgstr "Marquer tous les messages comme lus?"
 
-#: views.py:197
+#: views.py:187
 msgid "All messages marked as read."
 msgstr "Tous les messages ont été marqués comme lus."
 
-#: views.py:204
+#: views.py:194
 #, python-format
 msgid "Error marking message \"%(instance)s\" as unread; %(exception)s"
 msgstr ""
 "Erreur pour marquer le message \"%(instance)s\" comme non lu; %(exception)s"
 
-#: views.py:210
+#: views.py:200
 #, python-format
 msgid "%(count)d messages marked as unread successfully."
 msgstr "%(count)d messages marqués comme non lus avec succès."
 
-#: views.py:213
+#: views.py:203
 #, python-format
 msgid "Message \"%(object)s\" marked as unread successfully."
 msgstr "Message \"%(object)s\" marqué comme non lu avec succès."
 
-#: views.py:216
+#: views.py:206
 #, python-format
 msgid "%(count)d message marked as unread successfully."
 msgstr " %(count)d message marqué comme non lu avec succès."
 
-#: views.py:218
+#: views.py:208
 #, python-format
 msgid "Mark the %(count)d selected messages as unread."
 msgstr "Marquez les %(count)d messages sélectionnés comme non lus."
 
-#: views.py:219
+#: views.py:209
 #, python-format
 msgid "Mark the message \"%(object)s\" as unread."
 msgstr "Marquez le message \"%(object)s\" comme non lu."
 
-#: views.py:220
+#: views.py:210
 #, python-format
 msgid "Mark the %(count)d selected message as unread."
 msgstr "Marquez  %(count)d message sélectionné comme non lu."

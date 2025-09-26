@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-10-04 04:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgid ""
 "Utility from the poppler-utils package used to extract content from PDF "
 "files."
 msgstr ""
-"PDFཡིག་ཆ་ནས་ནང་དོན་འདོན་པར་བེད་སྤྱོད་བྱེད་པའི་poppler-utils "
+"PDF ཡིག་ཆ་ནས་ནང་དོན་འདོན་པར་བེད་སྤྱོད་བྱེད་པའི་poppler-utils "
 "ཐུམ་སྒྲིལ་ནས་བེད་སྤྱོད།"
 
 #: events.py:10
@@ -47,7 +47,7 @@ msgstr "ཡིག་ཆའི་ཡིག་ཆའི་དབྱེ་ཞིབ
 
 #: events.py:14
 msgid "Document file submitted for parsing"
-msgstr "དཔྱད་གཞིའི་ཡིག་ཆའི་ཡིག་ཆ་ཕུལ་བ།"
+msgstr "ཡིག་ཆའི་ཡིག་ཆ་དབྱེ་ཞིབ་ཆེད་ཕུལ་བ།"
 
 #: events.py:17
 msgid "Document file parsing finished"
@@ -88,7 +88,7 @@ msgstr "ཡིག་ཆའི་ཤོག་ངོས་།"
 
 #: models.py:25
 msgid "The actual text content as extracted by the document parsing backend."
-msgstr "ཡིག་ཆའི་ནང་དོན་ངོ་མ། ཡིག་ཆའི་དབྱེ་ཞིབ་རྒྱབ་ཕྱོགས་ཀྱིས་འདོན་སྤེལ་བྱས།"
+msgstr "ཡིག་ཆ་དབྱེ་ཞིབ་རྒྱབ་ཕྱོགས་ཀྱིས་བཏོན་པའི་ཡིག་ཆའི་ནང་དོན་ངོ་མ།"
 
 #: models.py:33 search.py:24
 msgid "Document file page content"

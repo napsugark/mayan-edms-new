@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 22:22+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2025-08-25 17:01+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Language: bo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: apps.py:95 apps.py:148 events.py:6 forms/workflow_template_forms.py:20
+#: apps.py:95 apps.py:148 events.py:6 forms/workflow_template_forms.py:19
 #: links.py:50 links.py:90 links.py:98 links.py:287 links.py:311
 #: models/workflow_models.py:60 queues.py:11 settings.py:14
 #: views/workflow_proxy_views.py:70 views/workflow_template_views.py:293
@@ -74,61 +74,61 @@ msgstr "ལས་ཀའི་རྒྱུན་རིམ་གྱི་དཔེ
 msgid "Get last transition"
 msgstr "མཐའ་མའི་འཕོ་འགྱུར་ཐོབ།"
 
-#: apps.py:335 apps.py:360 apps.py:371 apps.py:378
+#: apps.py:335 apps.py:359 apps.py:370 apps.py:377
 msgid "None"
 msgstr "གང་ཡང་མེད།"
 
-#: apps.py:347 apps.py:451
+#: apps.py:346 apps.py:449
 msgid "Documents"
 msgstr "ཡིག་ཆ།"
 
-#: apps.py:355 serializers/workflow_instance_serializers.py:153
+#: apps.py:354 serializers/workflow_instance_serializers.py:153
 msgid "Current state"
 msgstr "ད་ལྟའི་གནས་སྟངས།"
 
-#: apps.py:361 apps.py:391 models/workflow_instance_models.py:105
+#: apps.py:360 apps.py:390 models/workflow_instance_models.py:105
 #: serializers/workflow_instance_serializers.py:77
 msgid "User"
 msgstr "བེད་སྤྱོད་པ་།"
 
-#: apps.py:366
+#: apps.py:365
 msgid "Last transition"
 msgstr "མཐའ་མའི་འཕོ་འགྱུར།"
 
-#: apps.py:372 apps.py:387
+#: apps.py:371 apps.py:386
 msgid "Date and time"
 msgstr "ཚེས་གྲངས་དང་དུས་ཚོད།"
 
-#: apps.py:379 models/workflow_state_models.py:54
+#: apps.py:378 models/workflow_state_models.py:54
 msgid "Completion"
 msgstr "མཇུག་སྒྲིལ།"
 
-#: apps.py:412
+#: apps.py:411
 msgid "Additional details"
 msgstr "ཁ་སྣོན་གྱི་ཞིབ་ཕྲ།"
 
-#: apps.py:467
+#: apps.py:465
 msgid "When?"
 msgstr "ག་དུས?"
 
-#: apps.py:471
+#: apps.py:469
 msgid "Action type"
 msgstr "བྱ་བའི་རིགས།"
 
-#: apps.py:531
+#: apps.py:529
 msgid ""
 "Triggers are system events that will cause the transition to be applied."
 msgstr "འབྱུང་ཁུངས་ནི་བརྗེ་སྒྱུར་འཇུག་སྤྱོད་བྱེད་པའི་མ་ལག་གི་བྱུང་རིམ་ཡིན།"
 
-#: apps.py:533
+#: apps.py:531
 msgid "Triggers"
 msgstr "འབྱུང་ཁུངས།"
 
-#: apps.py:549 models/workflow_transition_field_models.py:33
+#: apps.py:547 models/workflow_transition_field_models.py:33
 msgid "Type"
 msgstr "རིགས"
 
-#: apps.py:565
+#: apps.py:563
 msgid "Widget"
 msgstr "ཡོ་ཆས།"
 
@@ -161,11 +161,11 @@ msgstr "ལས་ཀའི་འགྲོ་ལུགས་གསར་སྐྲ
 msgid "Workflow edited"
 msgstr "ལས་ཀའི་བརྒྱུད་རིམ་རྩོམ་སྒྲིག་བྱས།"
 
-#: forms/workflow_instance_forms.py:17
+#: forms/workflow_instance_forms.py:18
 msgid "Select a transition to execute in the next step."
 msgstr "གོམ་པ་རྗེས་མར་ལག་བསྟར་བྱེད་པའི་བརྗེ་སྒྱུར་འདེམས།"
 
-#: forms/workflow_instance_forms.py:18 links.py:293
+#: forms/workflow_instance_forms.py:19 links.py:293
 #: models/workflow_instance_models.py:101
 #: models/workflow_state_escalation_models.py:38
 #: models/workflow_transition_field_models.py:30
@@ -174,7 +174,7 @@ msgstr "གོམ་པ་རྗེས་མར་ལག་བསྟར་བྱ
 msgid "Transition"
 msgstr "བར་བསྐལ"
 
-#: forms/workflow_template_forms.py:27
+#: forms/workflow_template_forms.py:26
 msgid "Workflow template preview image"
 msgstr "ལས་ཀའི་རྒྱུན་རིམ་དཔེ་སྒྲོམ་གྱི་སྔོན་ལྟའི་པར་རིས།"
 
@@ -231,7 +231,7 @@ msgstr "བེད་སྤྱོད་ཆོག་པ།"
 #: handlers.py:83
 #, python-format
 msgid "Event trigger: %s"
-msgstr "བྱུང་རིམ་གྱི་འབྱུང་ཁུངས %s"
+msgstr "བྱུང་རིམ་འབྱུང་ %s"
 
 #: links.py:56 views/workflow_template_views.py:147
 msgid "Create workflow"
@@ -253,13 +253,13 @@ msgstr "བཅོས་པ།"
 
 #: links.py:86
 msgid "Launch workflow"
-msgstr "ལས་ཀའི་བརྒྱུད་རིམ་འགོ་འཛུགས།"
+msgstr "ལས་ཀའི་འགྲོ་ལུགས་འགོ་འཛུགས།"
 
 #: links.py:106
 msgid "Preview"
 msgstr "སྔོན་ལྟ་།"
 
-#: links.py:129 models/workflow_state_model_mixins.py:105
+#: links.py:129 models/workflow_state_model_mixins.py:117
 msgid "Actions"
 msgstr "བྱ་སྤྱོད།"
 
@@ -271,7 +271,7 @@ msgstr "བྱ་སྤྱོད་གཏོད་པ།"
 msgid "Create escalation"
 msgstr "འཕེལ་རིམ་བསྐྲུན་པ།"
 
-#: links.py:167 models/workflow_state_model_mixins.py:145
+#: links.py:167 models/workflow_state_model_mixins.py:157
 msgid "Escalations"
 msgstr "འཕེལ་འགྱུར།"
 
@@ -289,7 +289,7 @@ msgstr "བར་བརྒལ་གཏོད་པ།"
 
 #: links.py:225
 msgid "Transition triggers"
-msgstr "འགྱུར་ལྡོག་འབྱུང་ཁུངས།"
+msgstr "འགྱུར་ལྡོག་གི་འབྱུང་ཁུངས།"
 
 #: links.py:231
 msgid "Transitions"
@@ -303,7 +303,7 @@ msgstr "ལས་ཀའི་འགྲོ་ལུགས་འགོ་འཛུ
 msgid "Create field"
 msgstr "ས་ཁོངས་གསར་བཟོ།"
 
-#: links.py:272 models/workflow_transition_model_mixins.py:44
+#: links.py:272 models/workflow_transition_model_mixins.py:61
 msgid "Fields"
 msgstr "ས་ཁོངས།"
 
@@ -514,7 +514,7 @@ msgstr ""
 
 #: models/workflow_state_escalation_models.py:75
 msgid "Workflow state escalation"
-msgstr "ལས་ཀའི་རྒྱུན་རིམ་གྱི་གནས་སྟངས་འཕར་བ།"
+msgstr "ལས་ཀའི་རྒྱུན་རིམ་གྱི་གནས་ཚུལ་འཕར་བ།"
 
 #: models/workflow_state_escalation_models.py:76
 msgid "Workflow state escalations"
@@ -550,26 +550,26 @@ msgstr "ལས་ཀའི་འགྲོ་ལུགས་གནས་སྟང
 
 #: models/workflow_state_models.py:107
 msgid "Workflow state runtime proxy"
-msgstr "ལས་ཀའི་འགྲོ་ལུགས་གནས་སྟངས་རྒྱུག་དུས་ངོ་ཚབ།"
+msgstr "ལས་ཀའི་འགྲོ་ལུགས་གནས་སྟངས་རྒྱུག་དུས་ཀྱི་ངོ་ཚབ།"
 
 #: models/workflow_state_models.py:108
 msgid "Workflow state runtime proxies"
 msgstr "ལས་ཀའི་རྒྱུན་རིམ་གནས་སྟངས་རྒྱུག་དུས་ཀྱི་ངོ་ཚབ།"
 
-#: models/workflow_transition_field_model_mixins.py:71
+#: models/workflow_transition_field_model_mixins.py:72
 #, python-format
 msgid "Lookup value error: %s"
 msgstr "འཚོལ་ཞིབ་རིན་ཐང་གི་ནོར་ %s"
 
-#: models/workflow_transition_field_model_mixins.py:110
+#: models/workflow_transition_field_model_mixins.py:111
 msgid "Has a default?"
 msgstr "སྔོན་སྒྲིག་ཡོད་དམ།"
 
-#: models/workflow_transition_field_model_mixins.py:118
+#: models/workflow_transition_field_model_mixins.py:119
 msgid "Has a lookup?"
 msgstr "ལྟ་ཞིབ་བྱས་ཡོད་དམ།"
 
-#: models/workflow_transition_field_model_mixins.py:129
+#: models/workflow_transition_field_model_mixins.py:130
 msgid "Value is not one of the provided options."
 msgstr "རིན་ཐང་ནི་མཁོ་སྤྲོད་བྱས་པའི་གདམ་གའི་གྲས་ཤིག་མ་རེད།"
 
@@ -608,7 +608,7 @@ msgid ""
 "the field and data to provide."
 msgstr ""
 "གདམ་གའི་བརྡ་འཕྲིན་ཞིག "
-"དེས་སྤྱོད་མཁན་ཚོས་ས་ཁོངས་དང་གནས་ཚུལ་མཁོ་སྤྲོད་བྱེད་པའི་དམིགས་ཡུལ་ལེགས་པར་ཤེས་པར་བྱེད་པར་ཕན་ཐོགས།"
+"དེས་སྤྱོད་མཁན་ཚོས་མཁོ་སྤྲོད་བྱེད་པའི་ས་ཁོངས་དང་གནས་སྡུད་ཀྱི་དམིགས་ཡུལ་ལེགས་པར་ཤེས་རྟོགས་བྱེད་པར་ཕན་ཐོགས།"
 
 #: models/workflow_transition_field_models.py:61
 msgid "Help text"
@@ -624,7 +624,7 @@ msgstr "ངེས་སྦྱོང"
 
 #: models/workflow_transition_field_models.py:71
 msgid "An optional class to change the default presentation of the field."
-msgstr "ས་སྒོའི་སྔོན་སྒྲིག་གསལ་སྟོན་བསྒྱུར་བཅོས་བྱེད་པའི་འདམ་ཁའི་འཛིན་གྲྭ།"
+msgstr "ས་ཁོངས་ཀྱི་སྔོན་སྒྲིག་གསལ་སྟོན་བསྒྱུར་བཅོས་བྱེད་པའི་འདམ་ཁའི་འཛིན་གྲྭ།"
 
 #: models/workflow_transition_field_models.py:73
 msgid "Widget class"
@@ -658,8 +658,8 @@ msgid ""
 msgstr ""
 "འགྱུར་ལྡོག་འདི་ལྕོགས་ཅན་ཡིན་མིན་གཏན་འབེབས་བྱེད་པའི་ཆ་རྐྱེན། "
 "གནས་སྟངས་དེ་ལས་ཀའི་རྒྱུན་རིམ་གྱི་དཔེ་མཚོན་ལ་གཞི་བཅོལ་ནས་བརྟག་དཔྱད་བྱས། "
-"གནས་གོང་གང་རུང་སླར་ལོག་མི་བྱེད་པའི་གནས་སྟངས་དང་པའེ་ཐོན་གཏན་ཚིག་ཅན་གྱི་གང་ཡང་སླར་ལོག་མི་ཡང་ན་ཡིག་རྒྱུན་སྟོང་པ་(&#39;&#39;)དེ་གཏན་ཚིག་གི་རྫུན་མ་ཡིན་པར་བརྩི།"
-" གནས་གོང་གཞན་གང་རུང་ཞིག་གཏན་ཚིག་གི་བདེན་པ་ལ་བརྩི།"
+"གནས་གོང་གང་རུང་སླར་ལོག་མི་བྱེད་པའི་གནས་སྟངས་དང་པའེ་ཐོན་གཏན་ཚིག་ཅན་གྱི་གང་ཡང་སླར་ལོག་མི་ཡང་ན་ཡིག་རྒྱུན་སྟོང་པ་(&#39;&#39;)དེ་གཏན་ཚིགས་རྫུན་མ་ཡིན་པར་བརྩི།"
+" གནས་གོང་གཞན་གང་རུང་ཞིག་གཏན་ཚིག་བདེན་པ་ཡིན་པར་བརྩི།"
 
 #: models/workflow_transition_models.py:42
 msgid "A short text to describe the transition."
@@ -684,7 +684,7 @@ msgid "Workflow transitions"
 msgstr "ལས་ཀའི་འགྲོ་ལུགས་བརྗེ་སྒྱུར།"
 
 #: models/workflow_transition_trigger_models.py:31
-#: serializers/workflow_template_transition_trigger_serializers.py:19
+#: serializers/workflow_template_transition_trigger_serializers.py:21
 msgid "Event type"
 msgstr "བྱུང་རིམ་རིགས།"
 
@@ -774,7 +774,7 @@ msgstr "ཡིག་ཆའི་ URL །"
 
 #: serializers/workflow_instance_serializers.py:55
 msgid "Primary key of the transition to be added."
-msgstr "འགྱུར་ལྡོག་གི་ལྡེ་མིག་གཙོ་བོ་ཁ་སྣོན་བྱེད་དགོས།"
+msgstr "ཁ་སྣོན་བྱེད་དགོས་པའི་འགྱུར་ལྡོག་གི་ལྡེ་མིག་གཙོ་བོ།"
 
 #: serializers/workflow_instance_serializers.py:56
 msgid "Transition ID"
@@ -788,7 +788,7 @@ msgstr "འགྱུར་ལྡོག་ཨང་རྟགས།"
 #: serializers/workflow_template_state_serializers.py:84
 #: serializers/workflow_template_transition_field_serializers.py:13
 #: serializers/workflow_template_transition_serializers.py:45
-#: serializers/workflow_template_transition_trigger_serializers.py:26
+#: serializers/workflow_template_transition_trigger_serializers.py:28
 #: workflow_actions.py:171
 msgid "URL"
 msgstr "URL །"
@@ -802,7 +802,7 @@ msgstr "ལས་ཀའི་རྒྱུན་རིམ་གྱི་དཔེ
 #: serializers/workflow_template_state_serializers.py:62
 #: serializers/workflow_template_transition_field_serializers.py:29
 #: serializers/workflow_template_transition_serializers.py:52
-#: serializers/workflow_template_transition_trigger_serializers.py:42
+#: serializers/workflow_template_transition_trigger_serializers.py:44
 msgid "Workflow template URL"
 msgstr "ལས་ཀའི་རྒྱུན་རིམ་དཔེ་སྒྲོམ་གྱི་URL"
 
@@ -812,11 +812,11 @@ msgstr "ལས་ཀའི་འགྲོ་ལུགས་དཔེ་སྒྲ
 
 #: serializers/workflow_instance_serializers.py:160
 msgid "Last log entry"
-msgstr "མཐའ་མའི་དྲན་ཐོ།"
+msgstr "མཐའ་མའི་དྲན་ཐོ་ཐོ་འགོད།"
 
 #: serializers/workflow_instance_serializers.py:164
 msgid "Log entries URL"
-msgstr "དྲན་ཐོའི་ཐོ་འགོད།URL"
+msgstr "དྲན་ཐོའི་ཐོ་འགོད་ཁ་བྱང་།"
 
 #: serializers/workflow_instance_serializers.py:165
 msgid "A link to the entire history of this workflow."
@@ -840,7 +840,7 @@ msgstr "ཡིག་ཆའི་རིགས་URLཁ་སྣོན་བྱེ
 
 #: serializers/workflow_template_serializers.py:18
 msgid "Document types remove URL"
-msgstr "ཡིག་ཆའི་རིགས་ཀྱིས་URLམེད་པར་བཟོས།"
+msgstr "ཡིག་ཆའི་རིགས་URLམེད་པར་བཟོས།"
 
 #: serializers/workflow_template_serializers.py:23
 msgid "Document types URL"
@@ -888,7 +888,7 @@ msgstr "ལས་ཀའི་རྒྱུན་རིམ་དཔེ་སྒྲ
 
 #: serializers/workflow_template_state_escalation_serializers.py:49
 msgid "Primary key of the workflow template transition to be added."
-msgstr "ལས་ཀའི་རྒྱུན་རིམ་གྱི་དཔེ་སྒྲོམ་བརྗེ་སྒྱུར་གྱི་ལྡེ་མིག་གཙོ་བོ།"
+msgstr "ལས་ཀའི་རྒྱུན་རིམ་གྱི་ཚད་གཞི་བརྗེ་སྒྱུར་གྱི་ལྡེ་མིག་གཙོ་བོ།"
 
 #: serializers/workflow_template_state_escalation_serializers.py:50
 msgid "Workflow template transition ID"
@@ -907,12 +907,12 @@ msgid "Escalations URL"
 msgstr "འཕར་ཚད་URL"
 
 #: serializers/workflow_template_transition_field_serializers.py:37
-#: serializers/workflow_template_transition_trigger_serializers.py:50
+#: serializers/workflow_template_transition_trigger_serializers.py:52
 msgid "Workflow transition ID"
 msgstr "ལས་ཀའི་འགྲོ་ལུགས་བརྗེ་སྒྱུར་ཨང་རྟགས།"
 
 #: serializers/workflow_template_transition_field_serializers.py:41
-#: serializers/workflow_template_transition_trigger_serializers.py:54
+#: serializers/workflow_template_transition_trigger_serializers.py:56
 msgid "Workflow transition URL"
 msgstr "ལས་ཀའི་འགྲོ་ལུགས་བརྗེ་སྒྱུར་དྲ་རྒྱ།"
 
@@ -940,11 +940,11 @@ msgstr "འབྱུང་ཁུངས་མངའ་སྡེའི་ID།"
 msgid "Trigger list URL"
 msgstr "འབྱུང་ཁུངས་ཐོ་གཞུང་URL"
 
-#: serializers/workflow_template_transition_trigger_serializers.py:22
+#: serializers/workflow_template_transition_trigger_serializers.py:24
 msgid "Event Type ID"
-msgstr "བྱེད་སྒོའི་རིགས་ID"
+msgstr "བྱུང་རིམ་རིགས་ID"
 
-#: serializers/workflow_template_transition_trigger_serializers.py:116
+#: serializers/workflow_template_transition_trigger_serializers.py:118
 #, python-format
 msgid "Unknown or invalid event type ID `%s`"
 msgstr "མི་ཤེས་པའམ་ཡང་ན་ནུས་མེད་བྱུང་རིམ་རིགས་ID` %s"
@@ -961,7 +961,7 @@ msgid ""
 "deleting the oldest workflow image cache files. Specify the size in bytes."
 msgstr ""
 "WORKFLOWS_IMAGE_CACHE_STORAGE_BACKEND "
-"གིས་ལས་ཀའི་རྒྱུན་རིམ་གྱི་པར་རིས་འདྲ་མཛོད་ཡིག་ཆ་རྙིང་ཤོས་དེ་བསུབས་འགོ་ཚུགས་པའི་ཚད་གཞི།"
+"གིས་ལས་ཀའི་རྒྱུན་རིམ་གྱི་པར་རིས་མཛོད་ཡིག་ཆ་རྙིང་ཤོས་དེ་བསུབས་འགོ་ཚུགས་པའི་ཚད་གཞི།"
 " ཚད་དེ་བཱའིཊི་ནང་གསལ་བཀོད་འབད།"
 
 #: settings.py:37
@@ -993,14 +993,14 @@ msgstr ""
 
 #: storages.py:21
 msgid "Workflow preview images"
-msgstr "ལས་ཀའི་བརྒྱུད་རིམ་སྔོན་ལྟའི་པར་རིས།"
+msgstr "ལས་ཀའི་འགྲོ་ལུགས་སྔོན་ལྟའི་པར་རིས།"
 
 #: views/workflow_instance_views.py:41
 msgid ""
 "Assign workflows to the document type of this document to have this document"
 " execute those workflows. "
 msgstr ""
-"ཡིག་ཆ་འདིས་ལས་ཀའི་རྒྱུན་རིམ་དེ་དག་ལག་བསྟར་བྱེད་པར་ཡིག་ཆ་འདིའི་ཡིག་ཆའི་རིགས་ལ་ལས་ཀའི་རྒྱུན་རིམ་སྤྲོད་དགོས།"
+"ཡིག་ཆ་འདིའི་ཡིག་ཆའི་རིགས་ལ་ལས་ཀའི་རྒྱུན་རིམ་སྤྲོད་ནས་ཡིག་ཆ་འདིས་ལས་ཀའི་རྒྱུན་རིམ་དེ་དག་ལག་བསྟར་བྱེད།"
 " "
 
 #: views/workflow_instance_views.py:45
@@ -1092,27 +1092,12 @@ msgstr "ལས་ཀའི་བརྒྱུད་རིམ་གནས་སྟ
 #, python-format
 msgid "Documents in the workflow \"%s\", state \"%s\""
 msgstr ""
-"ལས་ཀའི་རྒྱུན་རིམ་ནང་ཡིག་ཆ་ &quot; %s &quot;, གནས་ཚུལ་ &quot; %s &quot;"
-
-#: views/workflow_proxy_views.py:126
-#: views/workflow_template_state_views.py:347
-msgid "Create states and link them using transitions."
-msgstr "གནས་སྟངས་གསར་བཟོ་བྱས་ནས་བརྗེ་སྒྱུར་སྤྱད་དེ་འབྲེལ་མཐུད་བྱེད།"
-
-#: views/workflow_proxy_views.py:129
-msgid "This workflow doesn't have any state"
-msgstr "ལས་ཀའི་འགྲོ་ལུགས་འདི་ལ་གནས་སྟངས་གང་ཡང་མེད།"
-
-#: views/workflow_proxy_views.py:132
-#: views/workflow_template_state_views.py:354
-#, python-format
-msgid "States of workflow: %s"
-msgstr "ལས་ཀའི་རྒྱུན་རིམ་གྱི་གནས་ %s"
+"ལས་ཀའི་རྒྱུན་རིམ་ནང་ཡིག་ཆ་ &quot; %s &quot;, མངའ་སྡེ་ &quot; %s &quot;"
 
 #: views/workflow_template_state_escalation_views.py:43
 #, python-format
 msgid "Create escalation for workflow state: %s"
-msgstr "ལས་ཀའི་རྒྱུན་རིམ་གྱི་གནས་སྟངས་ལ་འཕར་ཚད་བཟོས། %s"
+msgstr "ལས་ཀའི་རྒྱུན་རིམ་གནས་སྟངས་ལ་འཕར་ཚད་བཟོས། %s"
 
 #: views/workflow_template_state_escalation_views.py:84
 #, python-format
@@ -1122,7 +1107,7 @@ msgstr "ལས་ཀའི་རྒྱུན་རིམ་གནས་སྟང
 #: views/workflow_template_state_escalation_views.py:115
 #, python-format
 msgid "Edit workflow state escalation: %s"
-msgstr "ལས་ཀའི་རྒྱུན་རིམ་གནས་སྟངས་འཕར་ཚད་རྩོམ་སྒྲིག་བྱེད་པ། %s"
+msgstr "ལས་ཀའི་རྒྱུན་རིམ་གནས་སྟངས་འཕར་ཚད་རྩོམ་སྒྲིག: %s"
 
 #: views/workflow_template_state_escalation_views.py:151
 msgid ""
@@ -1193,9 +1178,18 @@ msgstr "ལས་ཀའི་རྒྱུན་རིམ་གྱི་གནས
 msgid "Edit workflow state: %s"
 msgstr "ལས་ཀའི་རྒྱུན་རིམ་གནས་སྟངས་རྩོམ་སྒྲིག་བྱེད་པ། %s"
 
+#: views/workflow_template_state_views.py:347
+msgid "Create states and link them using transitions."
+msgstr "གནས་སྟངས་གསར་བཟོ་བྱས་ནས་བརྗེ་སྒྱུར་སྤྱད་དེ་འབྲེལ་མཐུད་བྱེད།"
+
 #: views/workflow_template_state_views.py:350
 msgid "This workflow doesn't have any states"
 msgstr "ལས་ཀའི་འགྲོ་ལུགས་འདི་ལ་གནས་སྟངས་གང་ཡང་མེད།"
+
+#: views/workflow_template_state_views.py:354
+#, python-format
+msgid "States of workflow: %s"
+msgstr "ལས་ཀའི་རྒྱུན་རིམ་གྱི་གནས་ %s"
 
 #: views/workflow_template_transition_field_views.py:42
 #, python-format
@@ -1205,7 +1199,7 @@ msgstr "ལས་ཀའི་རྒྱུན་རིམ་བརྗེ་སྒ
 #: views/workflow_template_transition_field_views.py:78
 #, python-format
 msgid "Delete workflow transition field: %s"
-msgstr "ལས་ཀའི་རྒྱུན་རིམ་བརྗེ་སྒྱུར་ས་ཁོངས་སུབ་དགོས། %s"
+msgstr "ལས་ཀའི་རྒྱུན་རིམ་གྱི་བརྗེ་སྒྱུར་ས་ཁོངས་སུབ་དགོས། %s"
 
 #: views/workflow_template_transition_field_views.py:110
 #, python-format
@@ -1220,7 +1214,7 @@ msgid ""
 msgstr ""
 "ལས་ཀའི་རྒྱུན་རིམ་གྱི་བརྗེ་སྒྱུར་ས་ཁོངས་ཀྱིས་ལས་ཀའི་རྒྱུན་རིམ་གྱི་སྐབས་དོན་ལ་གནས་སྡུད་ཁ་སྣོན་བྱེད་ཐུབ།"
 " "
-"དེ་ནས་ལས་ཀའི་རྒྱུན་རིམ་མ་ལག་གི་ཆ་ཤས་གཞན་པས་ལས་ཀའི་རྒྱུན་རིམ་གནས་སྟངས་བྱ་སྤྱོད་ལྟ་བུའི་ཁ་སྣོན་སྐབས་དོན་གྱི་གནད་སྡུད་འདི་བེད་སྤྱོད་གཏོང་ཐུབ།"
+"དེ་ནས་ལས་ཀའི་རྒྱུན་རིམ་གྱི་མ་ལག་གི་ཆ་ཤས་གཞན་པས་ལས་ཀའི་རྒྱུན་རིམ་གྱི་གནས་སྟངས་བྱ་སྤྱོད་ལྟ་བུའི་ཁ་སྣོན་སྐབས་དོན་གྱི་གནད་སྡུད་འདི་བེད་སྤྱོད་གཏོང་ཐུབ།"
 
 #: views/workflow_template_transition_field_views.py:155
 msgid "There are no fields for this workflow transition"
@@ -1367,7 +1361,7 @@ msgstr ""
 #: views/workflow_template_views.py:172
 #, python-format
 msgid "%(count)d workflows deleted successfully."
-msgstr "%(count)d ཨེན་ཌི་ལས་ཀའི་རྒྱུན་རིམ་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+msgstr "%(count)d ཨེན་ཌི་ལས་ཀའི་རྒྱུན་རིམ་དེ་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
 
 #: views/workflow_template_views.py:175
 #, python-format
@@ -1486,11 +1480,11 @@ msgstr "ཡིག་ཆའི་རྒྱུ་ཆ་བཟོ་བཅོས་
 
 #: workflow_actions.py:62
 msgid "Document properties"
-msgstr "ཡིག་ཆའི་རྒྱུ་དངོས།"
+msgstr "ཡིག་ཆའི་རྒྱུ་ཆ།"
 
 #: workflow_actions.py:123
 msgid "Additional workflows to launch for the document."
-msgstr "ཡིག་ཆའི་ཆེད་དུ་ལས་ཀའི་འགྲོ་ལུགས་ཁ་སྣོན།"
+msgstr "ཡིག་ཆའི་ཆེད་དུ་འགོ་འཛུགས་བྱེད་པའི་ལས་ཀའི་འགྲོ་ལུགས་ཁ་སྣོན།"
 
 #: workflow_actions.py:174
 msgid "The URL to access."
@@ -1506,7 +1500,7 @@ msgid ""
 "POST, GET, PUT, PATCH, DELETE."
 msgstr ""
 "རེ་འདུན་ཆེད་དུ་བེད་སྤྱོད་གཏོང་བའི་HTTPཐབས་ལམ། "
-"སྤྱིར་བཏང་གི་འདེམས་གཞི་ནི་གདམ་ག་དང་། མགོ། རྩོམ་ཡིག། ཐོབ། བླུགས། ཐིག་ལེ། "
+"སྤྱིར་བཏང་གི་འདམ་ག་ནི་གདམ་ག་དང་། མགོ། རྩོམ་ཡིག། ཐོབ། བླུགས། ཐིག་ལེ། "
 "བསུབས་པ་བཅས་ཡིན།"
 
 #: workflow_actions.py:193

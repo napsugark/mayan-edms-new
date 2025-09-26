@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Roberto Rosario, 2024\n"
 "Language-Team: Spanish (Ecuador) (https://app.transifex.com/rosarior/teams/13584/es_EC/)\n"
 "MIME-Version: 1.0\n"
@@ -45,11 +45,11 @@ msgstr "Cuota creada"
 msgid "Quota edited"
 msgstr "Cuota editada"
 
-#: forms.py:15 model_mixins.py:16
+#: forms.py:14 model_mixins.py:16
 msgid "Backend"
 msgstr "Controlador"
 
-#: forms.py:16
+#: forms.py:15
 msgid "The quota driver for this entry."
 msgstr "El controlador de cuota para esta entrada."
 

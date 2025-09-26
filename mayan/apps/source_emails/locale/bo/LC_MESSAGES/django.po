@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -61,7 +61,7 @@ msgstr ""
 
 #: source_backends/imap_source_backends.py:80
 msgid "Store commands"
-msgstr "བཀའ་ཚིག་ཉར་ཚགས་བྱེད་པ།"
+msgstr "བཀའ་ཚིག་ཉར་ཚགས།"
 
 #: source_backends/imap_source_backends.py:87
 msgid "Execute the IMAP expunge command after processing each email message."
@@ -75,7 +75,7 @@ msgstr "རྩ་མེད་གཏོང་བ་ལག་བསྟར།"
 
 #: source_backends/imap_source_backends.py:97
 msgid "IMAP Mailbox to which processed messages will be copied."
-msgstr "ལས་སྣོན་བྱས་པའི་འཕྲིན་ཡིག་འདྲ་བཤུས་བྱེད་སའི་IMAPཡིག་སྒམ།"
+msgstr "ལས་སྣོན་བྱས་པའི་བརྡ་འཕྲིན་འདྲ་བཤུས་བྱེད་སའི་IMAPཡིག་སྒམ།"
 
 #: source_backends/imap_source_backends.py:100
 msgid "Destination mailbox"
@@ -83,7 +83,7 @@ msgstr "འགྲོ་ཡུལ་གྱི་ཡིག་སྒམ།"
 
 #: source_backends/imap_source_backends.py:116
 msgid "IMAP protocol"
-msgstr "IMAP གྲོས་མཐུན།"
+msgstr "IMAPགྲོས་མཐུན།"
 
 #: source_backends/mixins.py:33
 msgid "Host"

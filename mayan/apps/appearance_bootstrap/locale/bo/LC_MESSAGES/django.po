@@ -1,0 +1,351 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-27 19:21+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:15
+msgid "Appearance (Bootstrap)"
+msgstr "མཐོང་སྣང་། (འགོ་འཛུགས།)"
+
+#: dependencies.py:8
+msgid "Lato font"
+msgstr "Lato ཡིག་གཟུགས།"
+
+#: dependencies.py:12
+msgid "Bootstrap"
+msgstr "Bootstrap"
+
+#: dependencies.py:16
+msgid "Bootswatch"
+msgstr "Bootswatch"
+
+#: templates/403.html:5 templates/403.html:18
+msgid "Insufficient permission"
+msgstr "ཆོག་མཆན་མི་འདང་བ།"
+
+#: templates/403.html:20
+msgid "You don't have enough permissions for this operation."
+msgstr "ཁྱེད་ལ་བཀོལ་སྤྱོད་འདིའི་ཆོག་མཆན་འདང་ངེས་ཤིག་མེད།"
+
+#: templates/404.html:5 templates/404.html:18
+msgid "Page not found"
+msgstr "ཤོག་ངོས་མ་རྙེད།"
+
+#: templates/404.html:20
+msgid "The requested page could not be found."
+msgstr "རེ་འདུན་ཞུས་པའི་ཤོག་ངོས་དེ་རྙེད་མ་སོང་།"
+
+#: templates/404.html:28
+msgid "Possible reasons"
+msgstr "འབྱུང་སྲིད་པའི་རྒྱུ་རྐྱེན།"
+
+#: templates/404.html:32
+msgid "The location of the item is incorrect."
+msgstr "རྣམ་གྲངས་ཀྱི་གནས་ཡུལ་མི་འགྲིག་པ།"
+
+#: templates/404.html:33
+msgid "The location is correct, but the item no longer exists."
+msgstr "གནས་ཡུལ་དེ་བདེན་པ་ཡིན་ནའང་། ཅ་ལག་དེ་ད་ལྟ་མེད་པ་རེད།"
+
+#: templates/404.html:34
+msgid ""
+"The location is be correct, but your account does not have the required "
+"permission to access it."
+msgstr ""
+"གནས་ཡུལ་དེ་བདེན་པ་རེད། "
+"འོན་ཀྱང་ཁྱེད་ཀྱི་ཁ་བྱང་ལ་དེ་ལ་འཛུལ་ཞུགས་བྱེད་པར་དགོས་མཁོའི་ཆོག་མཆན་མེད།"
+
+#: templates/500.html:5 templates/500.html:18
+#: templates/appearance/root.html:48
+msgid "Server error"
+msgstr "ཞབས་ཞུའི་ནོར་འཁྲུལ།"
+
+#: templates/500.html:20
+msgid "There's been an unexpected error."
+msgstr "བསམ་ཡུལ་ལས་འདས་པའི་ནོར་འཁྲུལ་ཞིག་བྱུང་སོང་།"
+
+#: templates/500.html:28
+msgid "What to do next?"
+msgstr "རྗེས་མ་ག་རེ་བྱེད་དགོས་སམ།"
+
+#: templates/500.html:32
+msgid "Refresh the page."
+msgstr "ཤོག་ངོས་གསར་པ་བཟོས།"
+
+#: templates/500.html:33
+msgid "Wait a bit. The system might be overloaded."
+msgstr "ཅུང་སྒུག་རོགས། མ་ལག་དེ་ལྗིད་ཚད་ལས་བརྒལ་ཡོད་སྲིད།"
+
+#: templates/500.html:34
+msgid "Contact your system administrator."
+msgstr "ཁྱེད་རང་གི་མ་ལག་དོ་དམ་པ་ལ་འབྲེལ་བ་བྱོས།"
+
+#: templates/500.html:35
+msgid "Check the logs for messages with the tags \"ERROR\", \"CRITICAL\" or \"FATAL\"."
+msgstr ""
+"དྲན་ཐོའི་ནང་ལ་&quot;ERROR&quot;, &quot;CRITICAL&quot; ཡང་ན་ "
+"&quot;FATAL&quot; ཞེས་པའི་རྟགས་བཀོད་པའི་འཕྲིན་ཡིག་ལ་ཞིབ་བཤེར་བྱེད་དགོས།"
+
+#: templates/500.html:36
+#, python-format
+msgid "Open a ticket using the <a href=\"%(issue_url)s\">issue tracker</a>."
+msgstr ""
+"<a href=\"%(issue_url)s\">གནད་དོན་རྗེས་འདེད་བྱེད་ཆས་</a> "
+"བཀོལ་ནས་ལག་ཁྱེར་ཁ་ཕྱེ།"
+
+#: templates/appearance/about.html:10
+msgid "About"
+msgstr "ཉེ་སྐོར་དུ"
+
+#: templates/appearance/about.html:39
+msgid "Version"
+msgstr "པར་གཞི"
+
+#: templates/appearance/about.html:41
+#, python-format
+msgid "Build number: %(project_build_number)s"
+msgstr "བཟོ་སྐྲུན་ཨང་གྲངས།: %(project_build_number)s"
+
+#: templates/appearance/about.html:48
+msgid "Released under the license:"
+msgstr "ཆོག་མཆན་འོག་གློད་བཀྲོལ་བཏང་བ་ནི།"
+
+#: templates/appearance/about.html:57
+#, python-format
+msgid ""
+"To get the latest news subscribe to the <a class=\"new_window\" "
+"href=\"%(link_mailing_list_url)s\"> Mailing list</a>."
+msgstr ""
+"གསར་འགྱུར་གསར་ཤོས་ཐོབ་ཆེད་ <a class=\"new_window\" "
+"href=\"%(link_mailing_list_url)s\">ཡིག་ཟམ་ཐོ་གཞུང་</a> ལ་མངགས་ཉོ་བྱོས།"
+
+#: templates/appearance/about.html:66
+#, python-format
+msgid ""
+"For articles, tutorials, troubleshooting, subscribe to the <a "
+"class=\"new_window\" href=\"%(link_knowledge_base_url)s\"> Knowledge "
+"base</a>."
+msgstr ""
+"རྩོམ་ཡིག་དང་། སློབ་ཁྲིད། དཀའ་ངལ་སེལ་ཐབས། <a class=\"new_window\" "
+"href=\"%(link_knowledge_base_url)s\">ཤེས་བྱའི་གཞི་གྲངས་</a> ལ་མངགས་ཉོ་བྱོས།"
+
+#: templates/appearance/about.html:75
+#, python-format
+msgid ""
+"Need professional help? Check out the <a class=\"new_window\" "
+"href=\"%(link_support_url)s\"> Support</a> offerings."
+msgstr ""
+"ཆེད་ལས་རོགས་རམ་དགོས་སམ། <a class=\"new_window\" "
+"href=\"%(link_support_url)s\">རྒྱབ་སྐྱོར་གྱི་</a> མཆོད་འབུལ་ལ་ལྟོས།"
+
+#: templates/appearance/about.html:84
+#, python-format
+msgid ""
+"For discussions visit the <a class=\"new_window\" "
+"href=\"%(link_forum_url)s\">Community forum</a>."
+msgstr ""
+"གྲོས་བསྡུར་ཆེད་དུ་ <a class=\"new_window\" "
+"href=\"%(link_forum_url)s\">སྤྱི་ཚོགས་ཀྱི་གླེང་སྟེགས་</a> ལ་གཟིགས་རོགས།"
+
+#: templates/appearance/about.html:93
+#, python-format
+msgid ""
+"The complete list of changes is available via the <a class=\"new_window\" "
+"href=\"%(link_release_notes_url)s\">Release notes</a>."
+msgstr ""
+"བསྒྱུར་བཅོས་ཀྱི་ཐོ་གཞུང་ཆ་ཚང་འགྲེམ་ <a class=\"new_window\" "
+"href=\"%(link_release_notes_url)s\">སྤེལ་གྱི་དྲན་ཐོ་</a> བརྒྱུད་ནས་ཐོབ་ཐུབ།"
+
+#: templates/appearance/about.html:102
+#, python-format
+msgid ""
+"For questions check the <a class=\"new_window\" "
+"href=\"%(link_documentation_url)s\">Documentation</a>."
+msgstr ""
+"དྲི་བ་ཡོད་ན་ <a class=\"new_window\" "
+"href=\"%(link_documentation_url)s\">ཡིག་ཆ་</a> ལ་ལྟོས།"
+
+#: templates/appearance/about.html:111
+#, python-format
+msgid ""
+"If you found a bug or have a feature idea open a ticket in the <a "
+"class=\"new_window\" href=\"%(link_source_code_url)s\">Source code "
+"repository</a>."
+msgstr ""
+"གལ་ཏེ་ཁྱེད་ལ་ནོར་འཁྲུལ་ཞིག་རྙེད་པའམ་ཡང་ན་ཁྱད་ཆོས་ཀྱི་བསམ་ཚུལ་ཡོད་ན། <a "
+"class=\"new_window\" "
+"href=\"%(link_source_code_url)s\">འབྱུང་ཁུངས་ཨང་རྟགས་མཛོད་ཁང་</a> "
+"ནང་ལ་ལག་ཁྱེར་ཁ་ཕྱེ།"
+
+#: templates/appearance/about.html:117
+#, python-format
+msgid ""
+"%(project_title)s is Free and Open Source software, which is provided as-is "
+"with no warranty."
+msgstr "%(project_title)s ནི་རིན་མེད་དང་ཁ་ཕྱེ་བའི་ཐོན་ཁུངས་མཉེན་ཆས་ཤིག་ཡིན།"
+
+#: templates/appearance/confirm.html:13
+msgid "Are you sure?"
+msgstr "ཁྱོད་རང་ངེས་པ་ཡིན་ནམ།"
+
+#: templates/appearance/confirm.html:37
+msgid "Yes"
+msgstr "ཡིན"
+
+#: templates/appearance/confirm.html:47
+msgid "No"
+msgstr "མིན"
+
+#: templates/appearance/home.html:27
+msgid "Getting started"
+msgstr "འགོ་འཛུགས་བྱེད་བཞིན་པ།"
+
+#: templates/appearance/home.html:30
+msgid "Before you can fully use Mayan EDMS you need the following:"
+msgstr "ཁྱོད་ཀྱིས་ Mayan EDMS ཆ་ཚང་བེད་སྤྱོད་མ་གཏོང་གོང་ལ་གཤམ་གསལ་དགོས།"
+
+#: templates/appearance/menus/topbar.html:11
+msgid "Toggle navigation"
+msgstr "འགྲིམ་འགྲུལ་བསྒྱུར།"
+
+#: templates/appearance/partials/form/field.html:10
+#: templates/appearance/partials/form/field.html:16
+#: templates/appearance/partials/form/multiple.html:37
+#: templates/appearance/partials/form/single.html:50
+msgid "required"
+msgstr "ངེས་སྦྱོང་"
+
+#: templates/appearance/partials/form/multiple.html:62
+#: templates/appearance/partials/form/single.html:85
+#: templates/appearance/partials/form/single.html:95
+#: templates/appearance/partials/form/single.html:109
+msgid "Save"
+msgstr "སྐྱོབ་པ"
+
+#: templates/appearance/partials/form/multiple.html:62
+#: templates/appearance/partials/form/single.html:85
+#: templates/appearance/partials/form/single.html:95
+#: templates/appearance/partials/form/single.html:109
+msgid "Submit"
+msgstr "སྤྲོད་པ"
+
+#: templates/appearance/partials/form/multiple.html:66
+#: templates/appearance/partials/form/single.html:99
+msgid "Cancel"
+msgstr "འདོར་བ"
+
+#: templates/appearance/partials/list/column_object_facet_links.html:8
+#: templates/appearance/partials/list/column_object_facet_links.html:39
+#: templates/appearance/partials/list/table/head/row_cell_links.html:8
+msgid "Views"
+msgstr "ལྟ་ཚུལ།"
+
+#: templates/appearance/partials/list/header.html:12
+#, python-format
+msgid ""
+"Total (%(start)s - %(end)s out of %(total)s) (Page %(page_number)s of "
+"%(total_pages)s)"
+msgstr ""
+"བསྡོམས་པས་ ( %(start)s - %(end)s ནང་ནས་ %(total)s ) (ཤོག་ངོས། "
+"%(page_number)s %(total_pages)s )"
+
+#: templates/appearance/partials/list/header.html:14
+#: templates/appearance/partials/list/header.html:17
+#, python-format
+msgid "Total: %(total)s"
+msgstr "བསྡོམས་འབོར %(total)s"
+
+#: templates/appearance/partials/list/no_results.html:22
+msgid "No results"
+msgstr "གྲུབ་འབྲས་མ་ཐོན་པ།"
+
+#: templates/appearance/partials/list/pagination.html:12
+#: templates/appearance/partials/list/pagination.html:14
+msgid "Previous page"
+msgstr "ཤོག་ངོས་སྔོན་མ།"
+
+#: templates/appearance/partials/list/pagination.html:30
+#: templates/appearance/partials/list/pagination.html:32
+msgid "Next page"
+msgstr "ཤོག་ངོས་རྗེས་མ།"
+
+#: templates/appearance/partials/list/table/head/row_cell_identifier.html:6
+msgid "Identifier"
+msgstr "ངོས་འཛིན།"
+
+#: templates/appearance/partials/list/table/head/row_cell_links.html:14
+msgid "Actions"
+msgstr "བྱ་སྤྱོད།"
+
+#: templates/appearance/partials/list/toolbar.html:14
+msgid "Select/Deselect all"
+msgstr "ཚང་མ་འདེམས/འདེམས།"
+
+#: templates/appearance/partials/list/toolbar.html:26
+msgid ""
+"Select items to activate bulk actions. Use Shift + click to select many."
+msgstr ""
+"བྱ་སྤྱོད་མང་པོ་ཤུགས་སྣོན་གཏོང་བའི་རྣམ་གྲངས་འདེམས། མང་པོ་འདེམས་པར་ Shift + "
+"སྣུན་དགོས།"
+
+#: templates/appearance/partials/list/toolbar.html:30
+msgid "Bulk actions"
+msgstr "བྱ་སྤྱོད་མང་པོ།"
+
+#: templates/appearance/partials/sidebar.html:17
+msgid "Object"
+msgstr "བྱ་བའི་ཡུལ"
+
+#: templates/appearance/partials/title.html:10
+msgid "Open main menu"
+msgstr "དཀར་ཆག་གཙོ་བོ་ཁ་ཕྱེ།"
+
+#: templates/appearance/root.html:53
+msgid "Close"
+msgstr "ཁ་རྒྱབ།"
+
+#: templates/appearance/root.html:61
+msgid "Server communication error"
+msgstr "ཞབས་ཞུའི་འབྲེལ་མཐུད་ནོར་འཁྲུལ།"
+
+#: templates/appearance/root.html:63
+msgid "Check you network connection and try again in a few moments."
+msgstr ""
+"ཁྱེད་རང་གི་དྲ་རྒྱའི་མཐུད་ཁུངས་ལ་ཞིབ་བཤེར་བྱས་ནས་སྐར་མ་འགའ་ཤས་ནང་བསྐྱར་དུ་ཚོད་ལྟ་བྱོས།"
+
+#: templates/navigation/app/list_toolbar.html:10
+msgid "Toggle list display mode"
+msgstr "རེའུ་མིག་གསལ་སྟོན་ཐབས་ལམ་བརྗེ་སྒྱུར།"
+
+#: templates/navigation/app/list_toolbar.html:25
+msgid "Sort by column"
+msgstr "ཐིག་ཕྲེང་ལྟར་དབྱེ་བ།"
+
+#: templates/navigation/app/list_toolbar.html:26
+msgid "--- Clear ---"
+msgstr "--- དྭངས་མ ---"
+
+#: templates/navigation/app/list_toolbar.html:29
+msgid "(ascending)"
+msgstr "(ཡར་འཛེགས་པ།)"
+
+#: templates/navigation/app/list_toolbar.html:31
+msgid "(descending)"
+msgstr "(མར་འབབ་པ།)"

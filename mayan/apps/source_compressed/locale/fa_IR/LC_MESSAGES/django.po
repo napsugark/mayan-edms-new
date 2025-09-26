@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Roberto Rosario, 2024\n"
 "Language-Team: Persian (Iran) (https://app.transifex.com/rosarior/teams/13584/fa_IR/)\n"
 "MIME-Version: 1.0\n"
@@ -43,22 +43,22 @@ msgstr "هرگز"
 msgid "Ask user"
 msgstr "از کاربر بپرس"
 
-#: source_backends/mixins.py:35
+#: source_backends/mixins.py:36
 msgid "Uncompress"
 msgstr "فشرده نشده"
 
-#: source_backends/mixins.py:39
+#: source_backends/mixins.py:40
 msgid "Whether to expand or not compressed archives."
 msgstr "گسترش و یا آرشیوهای غیر فشرده"
 
-#: source_backends/mixins.py:58
+#: source_backends/mixins.py:59
 msgid "Decompression"
 msgstr ""
 
-#: source_backends/mixins.py:91
+#: source_backends/mixins.py:92
 msgid "Expand compressed files"
 msgstr "فایلهای فشرده را گسترش دهید"
 
-#: source_backends/mixins.py:93
+#: source_backends/mixins.py:94
 msgid "Upload a compressed file's contained files as individual documents."
 msgstr ""

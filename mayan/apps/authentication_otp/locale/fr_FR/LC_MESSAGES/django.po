@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Frédéric Sheedy <sheedf@gmail.com>, 2024\n"
 "Language-Team: French (France) (https://app.transifex.com/rosarior/teams/13584/fr_FR/)\n"
 "MIME-Version: 1.0\n"
@@ -34,27 +34,27 @@ msgstr "OTP désactivé"
 msgid "OTP enabled"
 msgstr "OTP activé"
 
-#: forms.py:22
+#: forms.py:21
 msgid "Token is either invalid or expired."
 msgstr "Le jeton n'est pas valide ou a expiré."
 
-#: forms.py:27
+#: forms.py:26
 msgid "TOTP token"
 msgstr "Jeton TOTP"
 
-#: forms.py:88
+#: forms.py:87
 msgid "OTP enabled?"
 msgstr "OTP activé?"
 
-#: forms.py:89
+#: forms.py:88
 msgid "Yes"
 msgstr "Oui"
 
-#: forms.py:89
+#: forms.py:88
 msgid "No"
 msgstr "Non"
 
-#: forms.py:106
+#: forms.py:105
 msgid ""
 "Scan the QR code or enter the secret in your authentication device. Do not "
 "share this secret, treat it like a password."
@@ -63,22 +63,22 @@ msgstr ""
 "d'authentification. Ne partagez pas ce secret, traitez-le comme un mot de "
 "passe."
 
-#: forms.py:108 forms.py:113
+#: forms.py:107 forms.py:112
 msgid "Secret"
 msgstr "Secret"
 
-#: forms.py:119
+#: forms.py:118
 msgid ""
 "Enter the corresponding token to validate that the secret was saved correct."
 msgstr ""
 "Entrez le jeton correspondant pour valider que le secret a été enregistré "
 "correctement."
 
-#: forms.py:122
+#: forms.py:121
 msgid "Token"
 msgstr "Jeton"
 
-#: forms.py:158
+#: forms.py:157
 msgid "Token is incorrect for the specified secret."
 msgstr "Le jeton est incorrect pour le secret spécifié."
 

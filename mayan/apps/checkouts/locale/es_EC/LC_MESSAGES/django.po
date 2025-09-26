@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Roberto Rosario, 2024\n"
 "Language-Team: Spanish (Ecuador) (https://app.transifex.com/rosarior/teams/13584/es_EC/)\n"
 "MIME-Version: 1.0\n"
@@ -52,31 +52,31 @@ msgstr "El documento no ha sido reservado."
 msgid "Document already checked out."
 msgstr "El documento ya está reservado."
 
-#: forms.py:26
+#: forms.py:25
 msgid "Document status"
 msgstr "Estatus del documento"
 
-#: forms.py:37 model_mixins.py:9 models.py:47 serializers.py:22
+#: forms.py:36 model_mixins.py:9 models.py:47 serializers.py:22
 msgid "User"
 msgstr "Usuario"
 
-#: forms.py:41
+#: forms.py:40
 msgid "Check out time"
 msgstr "Hora de reserva"
 
-#: forms.py:46
+#: forms.py:45
 msgid "Check out expiration"
 msgstr "Salida de la reserva"
 
-#: forms.py:51
+#: forms.py:50
 msgid "New files allowed?"
 msgstr "¿Se permiten nuevos archivos?"
 
-#: forms.py:52
+#: forms.py:51
 msgid "Yes"
 msgstr "Si"
 
-#: forms.py:52
+#: forms.py:51
 msgid "No"
 msgstr "No"
 
@@ -275,6 +275,6 @@ msgstr ""
 msgid "No documents have been checked out"
 msgstr "No se han reservado documentos"
 
-#: widgets.py:20
+#: widgets.py:19
 msgid "Amount"
 msgstr "Cantidad"

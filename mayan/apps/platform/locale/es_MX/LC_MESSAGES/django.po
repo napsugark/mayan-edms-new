@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 17:02+0000\n"
+"POT-Creation-Date: 2025-09-26 19:04+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Roberto Rosario, 2024\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/rosarior/teams/13584/es_MX/)\n"
@@ -36,11 +36,11 @@ msgstr "Activar pruebas"
 msgid "Template that generates a GitLab CI config file."
 msgstr "Plantilla que genera un archivo de configuración de GitLab CI."
 
-#: platform_templates.py:302
+#: platform_templates.py:307
 msgid "Template for Supervisord."
 msgstr "Plantilla para Supervisord."
 
-#: platform_templates.py:376
+#: platform_templates.py:381
 msgid "Template showing the queues of a worker."
 msgstr "Plantilla que muestra las colas de un trabajador."
 

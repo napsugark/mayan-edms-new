@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-01 10:33+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2025-09-02 13:13+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -20,15 +20,15 @@ msgstr ""
 "Language: bo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: apps.py:149 permissions.py:6 settings.py:15
+#: apps.py:26 permissions.py:6 settings.py:15
 msgid "Common"
 msgstr "སྤྱི་པའི"
 
-#: dependencies.py:198
+#: dependencies.py:194
 msgid "Command line environment with autocompletion."
 msgstr "རང་འགུལ་མཇུག་སྒྲིལ་ཡོད་པའི་བཀའ་ཚིག་གྲལ་ཐིག་ཁོར་ཡུག"
 
-#: dependencies.py:203
+#: dependencies.py:199
 msgid "Checks proper formatting of the README file."
 msgstr "READMEཡིག་ཆའི་རྩ་སྒྲིག་འོས་འཚམ་ལ་ཞིབ་བཤེར་བྱེད།"
 
@@ -88,43 +88,43 @@ msgstr "རྒྱབ་སྐྱོར"
 msgid "Tools"
 msgstr "ལག་ཆ"
 
-#: literals.py:23
+#: literals.py:21
 msgid ""
 "This feature has been deprecated and will be removed in a future version."
 msgstr ""
 "ཁྱད་ཆོས་འདི་བེད་སྤྱོད་མེད་པར་གྱུར་བ་དང་མ་འོངས་པའི་ཐོན་རིམ་ནང་མེད་པར་བཟོ་རྒྱུ་རེད།"
 
-#: literals.py:32
+#: literals.py:30
 msgid "Days"
 msgstr "ཉིན།"
 
-#: literals.py:33
+#: literals.py:31
 msgid "Hours"
 msgstr "ཆུ་ཚོད"
 
-#: literals.py:34
+#: literals.py:32
 msgid "Minutes"
 msgstr "སྐར་མ"
 
-#: menus.py:8
-msgid "System"
-msgstr "མ་ལག"
-
-#: menus.py:10 menus.py:11
+#: menus.py:7 menus.py:8
 msgid "Facet"
 msgstr "ཕྱོགས་ཕྱོགས།"
 
-#: menus.py:14
+#: menus.py:11
 msgid "Actions"
 msgstr "བྱ་སྤྱོད།"
 
-#: menus.py:15
+#: menus.py:12
 msgid "Related"
 msgstr "འབྲེལ་ཡོད"
 
-#: menus.py:16
+#: menus.py:13
 msgid "Secondary"
 msgstr "འབྲིང་རིམ་སློབ་འབྲིང་།"
+
+#: menus.py:16
+msgid "System"
+msgstr "མ་ལག"
 
 #: menus.py:18
 msgid "Return"

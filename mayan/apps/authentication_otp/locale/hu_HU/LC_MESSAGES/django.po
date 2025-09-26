@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Dezső József <dejo60@gmail.com>, 2024
 # molnars <szabolcs.molnar@gmail.com>, 2024
+# Dezső József <dejo60@gmail.com>, 2024
 # Csaba Tarjányi, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Csaba Tarjányi, 2024\n"
 "Language-Team: Hungarian (Hungary) (https://app.transifex.com/rosarior/teams/13584/hu_HU/)\n"
 "MIME-Version: 1.0\n"
@@ -34,27 +34,27 @@ msgstr "OTP letiltva"
 msgid "OTP enabled"
 msgstr "OTP engedélyezve"
 
-#: forms.py:22
+#: forms.py:21
 msgid "Token is either invalid or expired."
 msgstr "A token érvénytelen vagy lejárt."
 
-#: forms.py:27
+#: forms.py:26
 msgid "TOTP token"
 msgstr "TOTP token"
 
-#: forms.py:88
+#: forms.py:87
 msgid "OTP enabled?"
 msgstr "OTP engedélyezve?"
 
-#: forms.py:89
+#: forms.py:88
 msgid "Yes"
 msgstr "Igen"
 
-#: forms.py:89
+#: forms.py:88
 msgid "No"
 msgstr "Nem"
 
-#: forms.py:106
+#: forms.py:105
 msgid ""
 "Scan the QR code or enter the secret in your authentication device. Do not "
 "share this secret, treat it like a password."
@@ -62,22 +62,22 @@ msgstr ""
 "Olvassa be a QR-kódot, vagy írja be a titkot a hitelesítő eszközbe. Ne ossza"
 " meg ezt a titkot, kezelje jelszóként."
 
-#: forms.py:108 forms.py:113
+#: forms.py:107 forms.py:112
 msgid "Secret"
 msgstr "Titok"
 
-#: forms.py:119
+#: forms.py:118
 msgid ""
 "Enter the corresponding token to validate that the secret was saved correct."
 msgstr ""
 "Írja be a megfelelő tokent annak ellenőrzéséhez, hogy a titok helyesen lett "
 "elmentve."
 
-#: forms.py:122
+#: forms.py:121
 msgid "Token"
 msgstr "Token"
 
-#: forms.py:158
+#: forms.py:157
 msgid "Token is incorrect for the specified secret."
 msgstr "A token helytelen a megadott titokhoz."
 

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "REST API"
 #: fields.py:30
 #, python-format
 msgid "Unable to find serializer class for: %s"
-msgstr "རིམ་སྒྲིག་བྱེད་མཁན་གྱི་འཛིན་གྲྭ་འཚོལ་མི་ %s"
+msgstr "རིམ་སྒྲིག་བྱེད་མཁན་གྱི་རིགས་འཚོལ་མི་ཐུབ། %s"
 
 #: links.py:21
 msgid "API Documentation (Swagger)"

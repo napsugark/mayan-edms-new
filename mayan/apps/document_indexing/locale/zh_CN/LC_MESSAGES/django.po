@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"POT-Creation-Date: 2025-09-26 19:04+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: yan songwei <yansw@vip.163.com>, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/rosarior/teams/13584/zh_CN/)\n"
@@ -93,7 +93,7 @@ msgstr "啟用"
 msgid "Index templates to be queued for rebuilding."
 msgstr "索引範例將被加入重建隊列"
 
-#: forms.py:47 links.py:37 models/index_template_models.py:58
+#: forms.py:47 links.py:37 links.py:101 models/index_template_models.py:58
 #: views/index_template_views.py:95
 msgid "Index templates"
 msgstr "索引模板"

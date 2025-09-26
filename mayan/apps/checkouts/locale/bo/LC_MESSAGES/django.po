@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -52,31 +52,31 @@ msgstr "ཡིག་ཆ་ཞིབ་བཤེར་བྱས་མེད།"
 msgid "Document already checked out."
 msgstr "ཡིག་ཆ་དེ་སྔོན་ནས་ཞིབ་བཤེར་བྱས་ཟིན།"
 
-#: forms.py:26
+#: forms.py:25
 msgid "Document status"
 msgstr "ཡིག་ཆའི་གནས་ཚུལ།"
 
-#: forms.py:37 model_mixins.py:9 models.py:47 serializers.py:22
+#: forms.py:36 model_mixins.py:9 models.py:47 serializers.py:22
 msgid "User"
 msgstr "བེད་སྤྱོད་པ་།"
 
-#: forms.py:41
+#: forms.py:40
 msgid "Check out time"
 msgstr "དུས་ཚོད་ལ་ལྟ་ཞིབ་བྱེད་པ།"
 
-#: forms.py:46
+#: forms.py:45
 msgid "Check out expiration"
 msgstr "དུས་ཡོལ་ལ་བརྟག་པ།"
 
-#: forms.py:51
+#: forms.py:50
 msgid "New files allowed?"
 msgstr "ཡིག་ཆ་གསར་པ་འགོད་ཆོག་གམ།"
 
-#: forms.py:52
+#: forms.py:51
 msgid "Yes"
 msgstr "ཡིན"
 
-#: forms.py:52
+#: forms.py:51
 msgid "No"
 msgstr "མིན"
 
@@ -106,11 +106,11 @@ msgstr "ཞིབ་བཤེར་བྱས།"
 
 #: literals.py:11
 msgid "Checked in/available"
-msgstr "ཞིབ་བཤེར་བྱས་ཟིན།/ཡོད།"
+msgstr "ཐོ་འགོད་བྱས་ཟིན།"
 
 #: model_mixins.py:14
 msgid "Checkout time and date"
-msgstr "ཕྱིར་གཏོང་དུས་ཚོད་དང་ཚེས་གྲངས།"
+msgstr "ཕྱིར་འབུད་ཀྱི་དུས་ཚོད་དང་ཚེས་གྲངས།"
 
 #: model_mixins.py:19
 msgid "Checkout expiration"
@@ -233,7 +233,7 @@ msgstr ""
 #: views.py:102
 #, python-format
 msgid "%(count)d documents checked out successfully."
-msgstr "ཡིག་ཆ་ %(count)d མཐར་ཕྱིན་ངང་ཞིབ་བཤེར་བྱས།"
+msgstr "ཡིག་ཆ་ %(count)d མཐར་ཕྱིན་ངང་བརྟག་དཔྱད་བྱས།"
 
 #: views.py:105
 #, python-format
@@ -276,6 +276,6 @@ msgstr ""
 msgid "No documents have been checked out"
 msgstr "ཡིག་ཆ་གང་ཡང་ཞིབ་བཤེར་བྱས་མེད།"
 
-#: widgets.py:20
+#: widgets.py:19
 msgid "Amount"
 msgstr "ཁྱོན་འབོར"

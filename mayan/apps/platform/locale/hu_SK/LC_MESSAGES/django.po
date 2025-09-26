@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-26 15:20+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2025-09-26 19:04+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Csaba Tarjányi, 2024\n"
 "Language-Team: Hungarian (Slovakia) (https://app.transifex.com/rosarior/teams/13584/hu_SK/)\n"
 "MIME-Version: 1.0\n"
@@ -20,37 +20,9 @@ msgstr ""
 "Language: hu_SK\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps.py:14 permissions.py:6 settings.py:11
+#: apps.py:15 permissions.py:6 settings.py:17
 msgid "Platform"
 msgstr "Platform"
-
-#: classes.py:239
-msgid "Template for entrypoint.sh file inside a Docker image."
-msgstr ""
-
-#: classes.py:254
-msgid "Template that generates the Docker Compose file."
-msgstr ""
-
-#: classes.py:419
-msgid "Template for Supervisord inside a Docker image."
-msgstr "Sablon a Supervisord számára egy Docker-képen belül."
-
-#: classes.py:437
-msgid "Template that generates a Dockerfile file."
-msgstr ""
-
-#: classes.py:452
-msgid "Template that generates a GitLab CI config file."
-msgstr ""
-
-#: classes.py:611
-msgid "Template for Supervisord."
-msgstr "Sablon a Supervisord számára."
-
-#: classes.py:685
-msgid "Template showing the queues of a worker."
-msgstr "Egy worker sorait bemutató sablon."
 
 #: client_backends.py:34
 msgid "Sentry test error"
@@ -60,13 +32,25 @@ msgstr ""
 msgid "Trigger tests"
 msgstr "Eseményindító tesztek"
 
-#: settings.py:17
+#: platform_templates.py:148
+msgid "Template that generates a GitLab CI config file."
+msgstr ""
+
+#: platform_templates.py:307
+msgid "Template for Supervisord."
+msgstr "Sablon a Supervisord számára."
+
+#: platform_templates.py:381
+msgid "Template showing the queues of a worker."
+msgstr "Egy worker sorait bemutató sablon."
+
+#: settings.py:23
 msgid ""
 "List of client backends to launch after startup. Use full dotted path to the"
 " client backend classes."
 msgstr ""
 
-#: settings.py:24
+#: settings.py:30
 msgid ""
 "Arguments for the client backends. Use the client backend dotted path as the"
 " dictionary key for the arguments in dictionary format."
@@ -74,3 +58,31 @@ msgstr ""
 "Argumentumok az ügyfél háttérrendszereihez. Használja az ügyfél "
 "háttérrendszer pontozott elérési útját szótári kulcsként a szótár formátumú "
 "argumentumokhoz."
+
+#: settings.py:40
+msgid "Load an alternate settings file."
+msgstr ""
+
+#: settings.py:49
+msgid "Allows setting Gunicorn's `workers` value."
+msgstr ""
+
+#: settings.py:55
+msgid "Allows setting Gunicorn's `worker_class` value."
+msgstr ""
+
+#: settings.py:62
+msgid "Allows setting Gunicorn's `timeout` value."
+msgstr ""
+
+#: settings.py:68
+msgid "Allows setting Gunicorn's `max_requests_jitter` value."
+msgstr ""
+
+#: settings.py:74
+msgid "Allows setting Gunicorn's `max_requests` value."
+msgstr ""
+
+#: settings.py:80
+msgid "Allows setting Gunicorn's `limit_request_line` value."
+msgstr ""

@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 22:22+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2025-08-25 17:01+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Mehdi Amani <MehdiAmani@toorintan.com>, 2024\n"
 "Language-Team: Persian (Iran) (https://app.transifex.com/rosarior/teams/13584/fa_IR/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Language: fa_IR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: apps.py:95 apps.py:148 events.py:6 forms/workflow_template_forms.py:20
+#: apps.py:95 apps.py:148 events.py:6 forms/workflow_template_forms.py:19
 #: links.py:50 links.py:90 links.py:98 links.py:287 links.py:311
 #: models/workflow_models.py:60 queues.py:11 settings.py:14
 #: views/workflow_proxy_views.py:70 views/workflow_template_views.py:293
@@ -71,61 +71,61 @@ msgstr ""
 msgid "Get last transition"
 msgstr ""
 
-#: apps.py:335 apps.py:360 apps.py:371 apps.py:378
+#: apps.py:335 apps.py:359 apps.py:370 apps.py:377
 msgid "None"
 msgstr "هیچ یک"
 
-#: apps.py:347 apps.py:451
+#: apps.py:346 apps.py:449
 msgid "Documents"
 msgstr "اسناد"
 
-#: apps.py:355 serializers/workflow_instance_serializers.py:153
+#: apps.py:354 serializers/workflow_instance_serializers.py:153
 msgid "Current state"
 msgstr "وضعیت فعلی"
 
-#: apps.py:361 apps.py:391 models/workflow_instance_models.py:105
+#: apps.py:360 apps.py:390 models/workflow_instance_models.py:105
 #: serializers/workflow_instance_serializers.py:77
 msgid "User"
 msgstr "کاربر"
 
-#: apps.py:366
+#: apps.py:365
 msgid "Last transition"
 msgstr "آخرین گذار"
 
-#: apps.py:372 apps.py:387
+#: apps.py:371 apps.py:386
 msgid "Date and time"
 msgstr "تاریخ و زمان"
 
-#: apps.py:379 models/workflow_state_models.py:54
+#: apps.py:378 models/workflow_state_models.py:54
 msgid "Completion"
 msgstr "تکمیل"
 
-#: apps.py:412
+#: apps.py:411
 msgid "Additional details"
 msgstr "جزئیات اضافی"
 
-#: apps.py:467
+#: apps.py:465
 msgid "When?"
 msgstr "چه زمانی؟"
 
-#: apps.py:471
+#: apps.py:469
 msgid "Action type"
 msgstr "نوع اقدام"
 
-#: apps.py:531
+#: apps.py:529
 msgid ""
 "Triggers are system events that will cause the transition to be applied."
 msgstr ""
 
-#: apps.py:533
+#: apps.py:531
 msgid "Triggers"
 msgstr "راه اندازی"
 
-#: apps.py:549 models/workflow_transition_field_models.py:33
+#: apps.py:547 models/workflow_transition_field_models.py:33
 msgid "Type"
 msgstr "نوع"
 
-#: apps.py:565
+#: apps.py:563
 msgid "Widget"
 msgstr ""
 
@@ -158,11 +158,11 @@ msgstr ""
 msgid "Workflow edited"
 msgstr ""
 
-#: forms/workflow_instance_forms.py:17
+#: forms/workflow_instance_forms.py:18
 msgid "Select a transition to execute in the next step."
 msgstr ""
 
-#: forms/workflow_instance_forms.py:18 links.py:293
+#: forms/workflow_instance_forms.py:19 links.py:293
 #: models/workflow_instance_models.py:101
 #: models/workflow_state_escalation_models.py:38
 #: models/workflow_transition_field_models.py:30
@@ -171,7 +171,7 @@ msgstr ""
 msgid "Transition"
 msgstr "گذار"
 
-#: forms/workflow_template_forms.py:27
+#: forms/workflow_template_forms.py:26
 msgid "Workflow template preview image"
 msgstr ""
 
@@ -256,7 +256,7 @@ msgstr ""
 msgid "Preview"
 msgstr "پیش نمایش"
 
-#: links.py:129 models/workflow_state_model_mixins.py:105
+#: links.py:129 models/workflow_state_model_mixins.py:117
 msgid "Actions"
 msgstr "اقدامات"
 
@@ -268,7 +268,7 @@ msgstr "اقدام را ایجاد کنید"
 msgid "Create escalation"
 msgstr ""
 
-#: links.py:167 models/workflow_state_model_mixins.py:145
+#: links.py:167 models/workflow_state_model_mixins.py:157
 msgid "Escalations"
 msgstr ""
 
@@ -300,7 +300,7 @@ msgstr ""
 msgid "Create field"
 msgstr ""
 
-#: links.py:272 models/workflow_transition_model_mixins.py:44
+#: links.py:272 models/workflow_transition_model_mixins.py:61
 msgid "Fields"
 msgstr ""
 
@@ -541,20 +541,20 @@ msgstr "پروکسی زمان اجرا وضعیت "
 msgid "Workflow state runtime proxies"
 msgstr "پروکسی زمان اجرا وضعیت "
 
-#: models/workflow_transition_field_model_mixins.py:71
+#: models/workflow_transition_field_model_mixins.py:72
 #, python-format
 msgid "Lookup value error: %s"
 msgstr "خطای گرین کارت: %s"
 
-#: models/workflow_transition_field_model_mixins.py:110
+#: models/workflow_transition_field_model_mixins.py:111
 msgid "Has a default?"
 msgstr ""
 
-#: models/workflow_transition_field_model_mixins.py:118
+#: models/workflow_transition_field_model_mixins.py:119
 msgid "Has a lookup?"
 msgstr ""
 
-#: models/workflow_transition_field_model_mixins.py:129
+#: models/workflow_transition_field_model_mixins.py:130
 msgid "Value is not one of the provided options."
 msgstr "ارزش یکی از گزینه های ارائه شده نیست."
 
@@ -658,7 +658,7 @@ msgid "Workflow transitions"
 msgstr "گذارهای کاری"
 
 #: models/workflow_transition_trigger_models.py:31
-#: serializers/workflow_template_transition_trigger_serializers.py:19
+#: serializers/workflow_template_transition_trigger_serializers.py:21
 msgid "Event type"
 msgstr "نوع رویداد"
 
@@ -761,7 +761,7 @@ msgstr ""
 #: serializers/workflow_template_state_serializers.py:84
 #: serializers/workflow_template_transition_field_serializers.py:13
 #: serializers/workflow_template_transition_serializers.py:45
-#: serializers/workflow_template_transition_trigger_serializers.py:26
+#: serializers/workflow_template_transition_trigger_serializers.py:28
 #: workflow_actions.py:171
 msgid "URL"
 msgstr "نشانی اینترنتی"
@@ -775,7 +775,7 @@ msgstr ""
 #: serializers/workflow_template_state_serializers.py:62
 #: serializers/workflow_template_transition_field_serializers.py:29
 #: serializers/workflow_template_transition_serializers.py:52
-#: serializers/workflow_template_transition_trigger_serializers.py:42
+#: serializers/workflow_template_transition_trigger_serializers.py:44
 msgid "Workflow template URL"
 msgstr ""
 
@@ -880,12 +880,12 @@ msgid "Escalations URL"
 msgstr ""
 
 #: serializers/workflow_template_transition_field_serializers.py:37
-#: serializers/workflow_template_transition_trigger_serializers.py:50
+#: serializers/workflow_template_transition_trigger_serializers.py:52
 msgid "Workflow transition ID"
 msgstr ""
 
 #: serializers/workflow_template_transition_field_serializers.py:41
-#: serializers/workflow_template_transition_trigger_serializers.py:54
+#: serializers/workflow_template_transition_trigger_serializers.py:56
 msgid "Workflow transition URL"
 msgstr ""
 
@@ -913,11 +913,11 @@ msgstr ""
 msgid "Trigger list URL"
 msgstr ""
 
-#: serializers/workflow_template_transition_trigger_serializers.py:22
+#: serializers/workflow_template_transition_trigger_serializers.py:24
 msgid "Event Type ID"
 msgstr ""
 
-#: serializers/workflow_template_transition_trigger_serializers.py:116
+#: serializers/workflow_template_transition_trigger_serializers.py:118
 #, python-format
 msgid "Unknown or invalid event type ID `%s`"
 msgstr ""
@@ -1046,21 +1046,6 @@ msgstr ""
 msgid "Documents in the workflow \"%s\", state \"%s\""
 msgstr "اسناد در جریان کار \"%s\"، حالت \"%s\""
 
-#: views/workflow_proxy_views.py:126
-#: views/workflow_template_state_views.py:347
-msgid "Create states and link them using transitions."
-msgstr ""
-
-#: views/workflow_proxy_views.py:129
-msgid "This workflow doesn't have any state"
-msgstr ""
-
-#: views/workflow_proxy_views.py:132
-#: views/workflow_template_state_views.py:354
-#, python-format
-msgid "States of workflow: %s"
-msgstr "ایالت گردش کار: %s"
-
 #: views/workflow_template_state_escalation_views.py:43
 #, python-format
 msgid "Create escalation for workflow state: %s"
@@ -1141,9 +1126,18 @@ msgstr ""
 msgid "Edit workflow state: %s"
 msgstr ""
 
+#: views/workflow_template_state_views.py:347
+msgid "Create states and link them using transitions."
+msgstr ""
+
 #: views/workflow_template_state_views.py:350
 msgid "This workflow doesn't have any states"
 msgstr ""
+
+#: views/workflow_template_state_views.py:354
+#, python-format
+msgid "States of workflow: %s"
+msgstr "ایالت گردش کار: %s"
 
 #: views/workflow_template_transition_field_views.py:42
 #, python-format

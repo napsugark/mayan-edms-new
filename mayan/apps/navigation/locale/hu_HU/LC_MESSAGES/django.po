@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Dezső József <dejo60@gmail.com>, 2024
 # molnars <szabolcs.molnar@gmail.com>, 2024
+# Dezső József <dejo60@gmail.com>, 2024
 # Csaba Tarjányi, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Csaba Tarjányi, 2024\n"
 "Language-Team: Hungarian (Hungary) (https://app.transifex.com/rosarior/teams/13584/hu_HU/)\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr ""
 msgid "Navigation"
 msgstr "Navigáció"
 
-#: classes.py:982
+#: source_columns.py:265
 msgid "Unnamed function"
 msgstr "Névtelen függvény"
 
@@ -37,19 +37,3 @@ msgstr "Műveletek"
 #: templates/navigation/actions_dropdown.html:18
 msgid "Toggle Dropdown"
 msgstr "Váltás a legördülő menüre"
-
-#: templates/navigation/app/list_toolbar.html:14
-msgid "Sort by column"
-msgstr ""
-
-#: templates/navigation/app/list_toolbar.html:15
-msgid "--- Clear ---"
-msgstr ""
-
-#: templates/navigation/app/list_toolbar.html:18
-msgid "(ascending)"
-msgstr ""
-
-#: templates/navigation/app/list_toolbar.html:20
-msgid "(descending)"
-msgstr ""

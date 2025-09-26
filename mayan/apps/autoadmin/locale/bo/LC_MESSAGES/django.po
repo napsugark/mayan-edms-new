@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-02 14:05+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -46,7 +46,7 @@ msgstr "གསང་གྲངས་ཧ་ཤི།"
 
 #: models.py:26
 msgid "Autoadmin properties"
-msgstr "རང་འགུལ་དོ་དམ་གྱི་རྒྱུ་དངོས།"
+msgstr "རང་འགུལ་དོ་དམ་རྒྱུ་ཆ།"
 
 #: settings.py:13
 msgid "Sets the email of the automatically created super user account."

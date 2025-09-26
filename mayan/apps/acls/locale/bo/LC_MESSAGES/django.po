@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -52,7 +52,7 @@ msgstr "ACLབསུབས་ཟིན།"
 msgid "ACL edited"
 msgstr "ACL རྩོམ་སྒྲིག་བྱས།"
 
-#: forms.py:13 models.py:58 serializers.py:79 views.py:73
+#: forms.py:12 models.py:58 serializers.py:79 views.py:73
 msgid "Role"
 msgstr "འཁྲབ་ཚན"
 
@@ -112,7 +112,7 @@ msgstr "འཛུལ་ཞུགས་ཐོ་འགོད།"
 #, python-format
 msgid "Role \"%(role)s\" permission's for \"%(object)s\""
 msgstr ""
-"འགན་འཁྲི &quot; %(role)s &quot; ཆོག་མཆན་དེ་ &quot; %(object)s &quot; ཡིན།"
+"འགན་འཁུར་ &quot; %(role)s &quot; ཆོག་མཆན་དེ་ &quot; %(object)s &quot; ཡིན།"
 
 #: permissions.py:10
 msgid "Edit ACLs"
@@ -120,7 +120,7 @@ msgstr "ACLs རྩོམ་སྒྲིག"
 
 #: permissions.py:13
 msgid "View ACLs"
-msgstr "ACLs ལྟ་བ།"
+msgstr "ACLs བལྟ།"
 
 #: serializers.py:19
 msgid "Permissions add URL"
@@ -152,7 +152,7 @@ msgstr "ཆོག་མཆན་ཨང་རྟགས།"
 
 #: serializers.py:125
 msgid "Primary key of the permission to remove from the ACL."
-msgstr "ACL ནས་མེད་པར་བཟོ་བའི་ཆོག་མཆན་གྱི་ལྡེ་མིག་གཙོ་བོ།"
+msgstr "ACLནས་མེད་པར་བཟོ་བའི་ཆོག་མཆན་གྱི་ལྡེ་མིག་གཙོ་བོ།"
 
 #: views.py:44
 #, python-format
@@ -171,7 +171,7 @@ msgstr "འཛུལ་སྤྱོད་ཚོད་འཛིན་ཐོ་ག
 #: views.py:103
 #, python-format
 msgid "Delete ACL: %s"
-msgstr "ACL བསུབས་ཤིག: %s"
+msgstr "བསུབས་ ACL: %s"
 
 #: views.py:147
 msgid "There are no ACLs for this object"
@@ -191,7 +191,7 @@ msgstr ""
 #: views.py:157
 #, python-format
 msgid "Access control lists for: %s"
-msgstr "འཛུལ་སྤྱོད་ཚོད་འཛིན་ཐོ་གཞུང་། %s"
+msgstr "འཛུལ་སྤྱོད་ཚོད་འཛིན་ཐོ་གཞུང་ %s"
 
 #: views.py:166
 msgid "Granted permissions"
@@ -224,7 +224,7 @@ msgstr "དེར་ACLམིན་འདུག།"
 
 #: views.py:278
 msgid "Global access control lists"
-msgstr "གོ་ལ་ཧྲིལ་པོའི་འཛུལ་སྤྱོད་ཚོད་འཛིན་ཐོ་གཞུང་།"
+msgstr "རྒྱལ་སྤྱིའི་འགྲོ་འོང་ཚོད་འཛིན་ཐོ་གཞུང་།"
 
 #: workflow_actions.py:44
 msgid "Object type"
@@ -271,4 +271,4 @@ msgstr "ཡིག་ཆའི་ཐོབ་ཐང་སྤྲོད།"
 
 #: workflow_actions.py:261
 msgid "Revoke document access"
-msgstr "ཡིག་ཆའི་ཐོབ་ཐང་ཕྱིར་འཐེན་བྱེད་པ།"
+msgstr "ཡིག་ཆའི་ཐོབ་ཐང་མེད་པར་བཟོ་བ།"

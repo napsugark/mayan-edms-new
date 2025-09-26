@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-23 04:57+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Csaba Tarjányi, 2024\n"
 "Language-Team: Hungarian (Slovakia) (https://app.transifex.com/rosarior/teams/13584/hu_SK/)\n"
 "MIME-Version: 1.0\n"
@@ -25,19 +25,19 @@ msgstr ""
 msgid "Task manager"
 msgstr "Feladatkezelő"
 
-#: apps.py:114 apps.py:139 apps.py:182
+#: apps.py:116 apps.py:141 apps.py:184
 msgid "Label"
 msgstr "Cimke"
 
-#: apps.py:118 apps.py:142 apps.py:186
+#: apps.py:120 apps.py:144 apps.py:188
 msgid "Name"
 msgstr "Név"
 
-#: apps.py:123
+#: apps.py:125
 msgid "Default queue?"
 msgstr "Alapértelmezett várólista?"
 
-#: apps.py:128
+#: apps.py:130
 msgid ""
 "Transient queues are not persistent. Tasks in a transient queue are lost if "
 "the broker is restarted. Transient queues use less resources and managed non"
@@ -47,43 +47,43 @@ msgstr ""
 " elvesznek, ha a bróker újraindul. A tranziens várólisták kevesebb "
 "erőforrást használnak, és nem kritikus feladatokat kezelnek."
 
-#: apps.py:131
+#: apps.py:133
 msgid "Is transient?"
 msgstr "Átmeneti?"
 
-#: apps.py:145
+#: apps.py:147
 msgid "Dotted path"
 msgstr "Pontozott elérési út"
 
-#: apps.py:149
+#: apps.py:151
 msgid "Schedule"
 msgstr "Ütemezés"
 
-#: apps.py:155
+#: apps.py:157
 msgid "Type"
 msgstr "Típus"
 
-#: apps.py:160
+#: apps.py:162
 msgid "Start time"
 msgstr "Kezdési idő"
 
-#: apps.py:164
+#: apps.py:166
 msgid "Host"
 msgstr "Gazdagép"
 
-#: apps.py:168
+#: apps.py:170
 msgid "Arguments"
 msgstr "Argumentumok"
 
-#: apps.py:172
+#: apps.py:174
 msgid "Keyword arguments"
 msgstr "Kulcsszó paraméterek"
 
-#: apps.py:177
+#: apps.py:179
 msgid "Worker process ID"
 msgstr "Worker folyamatazonosító"
 
-#: apps.py:190
+#: apps.py:192
 msgid ""
 "Maximum amount of resident memory a worker can execute before it's replaced "
 "by a new process."
@@ -91,11 +91,11 @@ msgstr ""
 "A rezidens memória maximális mennyisége, amelyet egy worker végrehajthat, "
 "mielőtt egy új processz váltja fel."
 
-#: apps.py:192
+#: apps.py:194
 msgid "Maximum memory per child"
 msgstr ""
 
-#: apps.py:196
+#: apps.py:198
 msgid ""
 "Maximum number of tasks a worker can execute before it's replaced by a new "
 "process."
@@ -103,11 +103,11 @@ msgstr ""
 "Egy worker által végrehajtható feladatok maximális száma, mielőtt új "
 "folyamatra cserélnék."
 
-#: apps.py:198
+#: apps.py:200
 msgid "Maximum tasks per child"
 msgstr ""
 
-#: apps.py:202
+#: apps.py:204
 msgid ""
 "The number of worker processes/threads to launch. Defaults to the number of "
 "CPUs available on the machine."
@@ -115,11 +115,11 @@ msgstr ""
 "Az indítandó munkafolyamatok/szálak száma. Alapértelmezés szerint a gépen "
 "rendelkezésre álló CPU-k száma."
 
-#: apps.py:204
+#: apps.py:206
 msgid "Concurrency"
 msgstr ""
 
-#: apps.py:208
+#: apps.py:210
 msgid ""
 "The nice value determines the priority of the process. A higher value lowers"
 " the priority. The default value is 0."
@@ -127,7 +127,7 @@ msgstr ""
 "A nice érték határozza meg a folyamat prioritását. A magasabb érték "
 "csökkenti a prioritást. Az alapértelmezett érték 0."
 
-#: apps.py:211
+#: apps.py:213
 msgid "Nice level"
 msgstr "Nice szint"
 

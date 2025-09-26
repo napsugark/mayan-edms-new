@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-01 10:33+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2025-09-02 13:13+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Csaba Tarjányi, 2024\n"
 "Language-Team: Hungarian (Slovakia) (https://app.transifex.com/rosarior/teams/13584/hu_SK/)\n"
 "MIME-Version: 1.0\n"
@@ -22,15 +22,15 @@ msgstr ""
 "Language: hu_SK\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps.py:149 permissions.py:6 settings.py:15
+#: apps.py:26 permissions.py:6 settings.py:15
 msgid "Common"
 msgstr "Általános"
 
-#: dependencies.py:198
+#: dependencies.py:194
 msgid "Command line environment with autocompletion."
 msgstr "Parancssori környezet automatikus kiegészítéssel."
 
-#: dependencies.py:203
+#: dependencies.py:199
 msgid "Checks proper formatting of the README file."
 msgstr "Ellenőrzi a README fájl megfelelő formázását."
 
@@ -90,42 +90,42 @@ msgstr ""
 msgid "Tools"
 msgstr "Eszközök"
 
-#: literals.py:23
+#: literals.py:21
 msgid ""
 "This feature has been deprecated and will be removed in a future version."
 msgstr "Ez a funkció elavult, és egy későbbi verzióban eltávolítjuk."
 
-#: literals.py:32
+#: literals.py:30
 msgid "Days"
 msgstr "Nap"
 
-#: literals.py:33
+#: literals.py:31
 msgid "Hours"
 msgstr "Óra"
 
-#: literals.py:34
+#: literals.py:32
 msgid "Minutes"
 msgstr "Perc"
 
-#: menus.py:8
-msgid "System"
-msgstr "Rendszer"
-
-#: menus.py:10 menus.py:11
+#: menus.py:7 menus.py:8
 msgid "Facet"
 msgstr "Szempont"
 
-#: menus.py:14
+#: menus.py:11
 msgid "Actions"
 msgstr "Műveletek"
 
-#: menus.py:15
+#: menus.py:12
 msgid "Related"
 msgstr "Kapcsolódó"
 
-#: menus.py:16
+#: menus.py:13
 msgid "Secondary"
 msgstr "Másodlagos"
+
+#: menus.py:16
+msgid "System"
+msgstr "Rendszer"
 
 #: menus.py:18
 msgid "Return"

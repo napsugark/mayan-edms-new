@@ -4,19 +4,19 @@
 # 
 # Translators:
 # Translators:
-# Olivier W, 2024
 # Guillaume Trottier <gui.trottier@gmail.com>, 2024
-# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2024
+# Olivier W, 2024
 # Thierry Schott <DarkDare@users.noreply.github.com>, 2024
 # Frédéric Sheedy <sheedf@gmail.com>, 2024
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Frédéric Sheedy <sheedf@gmail.com>, 2024\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"Last-Translator: Christophe CHAUVET <christophe.chauvet@gmail.com>, 2024\n"
 "Language-Team: French (France) (https://app.transifex.com/rosarior/teams/13584/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Language: fr_FR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: apps.py:56 apps.py:91 events.py:6 links.py:54 links.py:80 permissions.py:6
+#: apps.py:56 apps.py:91 events.py:6 links.py:53 links.py:79 permissions.py:6
 #: queues.py:6 search.py:18 settings.py:11 workflow_actions.py:53
 msgid "OCR"
 msgstr "OCR - Reconnaissance de caractères"
@@ -65,36 +65,36 @@ msgstr "Version du document soumise pour l'OCR"
 msgid "Document version OCR finished"
 msgstr "OCR de la version du document terminée"
 
-#: forms.py:13 forms.py:44 forms.py:64
+#: forms.py:12 forms.py:43 forms.py:63
 msgid "Contents"
 msgstr "Contenus"
 
-#: forms.py:99
+#: forms.py:98
 #, python-format
 msgid "Page %(page_number)d"
 msgstr "Page %(page_number)d"
 
 #: links.py:27
-msgid "Setup OCR"
-msgstr "Paramétrage de l'OCR"
+msgid "OCR setup"
+msgstr ""
 
-#: links.py:33
+#: links.py:32
 msgid "OCR documents per type"
 msgstr "OCR des documents par type"
 
-#: links.py:40 links.py:47
+#: links.py:39 links.py:46
 msgid "Delete OCR content"
 msgstr "Supprimer le contenu OCR"
 
-#: links.py:60
+#: links.py:59
 msgid "Download OCR text"
 msgstr "Télécharger le texte de l'OCR"
 
-#: links.py:65 links.py:70
+#: links.py:64 links.py:69
 msgid "Submit for OCR"
 msgstr "Ajouter à la file d'attente OCR"
 
-#: links.py:86
+#: links.py:85
 msgid "Edit OCR"
 msgstr "Modifier le contenu OCR"
 

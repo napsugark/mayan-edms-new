@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgstr "བརྡ་འཕྲིན་གསར་བཟོ་བྱས།"
 msgid "Message edited"
 msgstr "འཕྲིན་ཡིག་བཅོས་སྒྲིག་བྱས།"
 
-#: forms.py:26 models.py:40 workflow_actions.py:79
+#: forms.py:25 models.py:40 workflow_actions.py:79
 msgid "Body"
 msgstr "གཟུགས་པོ"
 
@@ -51,6 +51,10 @@ msgstr "བརྡ་འཕྲིན་གསར་བཟོ།"
 #: links.py:54 links.py:60
 msgid "Delete"
 msgstr "བསུབ་པ།"
+
+#: links.py:66 models.py:57 views.py:118
+msgid "Messages"
+msgstr "བརྡ་འཕྲིན།"
 
 #: links.py:70 links.py:81
 msgid "Mark as read"
@@ -74,7 +78,7 @@ msgstr "གཏོང་མཁན་གྱི་ནང་དོན་རིགས
 
 #: models.py:24
 msgid "Sender object ID"
-msgstr "བསྐུར་མཁན་གྱི་དངོས་པོའི་ཨང་གྲངས།"
+msgstr "བསྐུར་མཁན་དངོས་པོའི་ID།"
 
 #: models.py:31
 msgid "User"
@@ -112,10 +116,6 @@ msgstr "གསར་སྐྲུན་གྱི་ཚེས་གྲངས་ད
 msgid "Message"
 msgstr "འཕྲིན"
 
-#: models.py:57 views.py:128
-msgid "Messages"
-msgstr "བརྡ་འཕྲིན།"
-
 #: permissions.py:10
 msgid "Create messages"
 msgstr "བརྡ་འཕྲིན་གསར་བཟོ།"
@@ -130,7 +130,7 @@ msgstr "ཆ་འཕྲིན་རྩོམ་སྒྲིག།"
 
 #: permissions.py:19
 msgid "View messages"
-msgstr "བརྡ་འཕྲིན་ལ་ལྟ་བ།"
+msgstr "འཕྲིན་ཡིག་ལ་ལྟ་བ།"
 
 #: serializers.py:15
 msgid "Sender app label"
@@ -156,136 +156,136 @@ msgstr "སྤྱོད་མཁན་ཨང་རྟགས།"
 msgid "URL"
 msgstr "URL །"
 
-#: views.py:49
+#: views.py:50
 #, python-format
 msgid "Error deleting message \"%(instance)s\"; %(exception)s"
 msgstr ""
 "བརྡ་འཕྲིན་བསུབས་པའི་ནོར་འཁྲུལ་ &quot; %(instance)s &quot;; %(exception)s"
 
-#: views.py:53
+#: views.py:56
 #, python-format
 msgid "%(count)d messages deleted successfully."
-msgstr "%(count)d བརྡ་འཕྲིན་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+msgstr "%(count)d འཕྲིན་ཡིག་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
 
-#: views.py:54
+#: views.py:59
 #, python-format
 msgid "Message \"%(object)s\" deleted successfully."
 msgstr "བརྡ་འཕྲིན་ &quot; %(object)s &quot; མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
 
-#: views.py:55
+#: views.py:62
 #, python-format
 msgid "%(count)d message deleted successfully."
 msgstr "%(count)d འཕྲིན་ཡིག་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
 
-#: views.py:56
+#: views.py:64
 #, python-format
 msgid "Delete the %(count)d selected messages."
 msgstr "འདེམས་སྒྲུག་བྱས་པའི་འཕྲིན་ཡིག་ %(count)d བསུབས་དགོས།"
 
-#: views.py:57
+#: views.py:65
 #, python-format
 msgid "Delete message: %(object)s."
 msgstr "བརྡ་འཕྲིན་བསུབས་པ་: %(object)s །"
 
-#: views.py:58
+#: views.py:66
 #, python-format
 msgid "Delete the %(count)d selected message."
 msgstr "འདེམས་སྒྲུག་བྱས་པའི་བརྡ་འཕྲིན་ %(count)d བསུབས་དགོས།"
 
-#: views.py:100
+#: views.py:90
 #, python-format
 msgid "Details of message: %s"
 msgstr "འཕྲིན་ཡིག་གི་ཞིབ་ཕྲ།: %s"
 
-#: views.py:124
+#: views.py:114
 msgid "Here you will find text messages from other users or from the system."
 msgstr "འདིར་ཁྱེད་ལ་སྤྱོད་མཁན་གཞན་པའམ་ཡང་ན་མ་ལག་ནས་འཕྲིན་ཐུང་ཐོབ་ཐུབ།"
 
-#: views.py:127
+#: views.py:117
 msgid "There are no messages"
 msgstr "འཕྲིན་ཡིག་མེད་པ།"
 
-#: views.py:137
+#: views.py:127
 #, python-format
 msgid "Error marking message \"%(instance)s\" as read; %(exception)s"
 msgstr ""
 "ནོར་འཁྲུལ་གྱི་རྟགས་བཀོད་བརྡ་འཕྲིན་ &quot; %(instance)s &quot; "
 "ཀློག་ཟིན་པ་ལྟར། %(exception)s"
 
-#: views.py:143
+#: views.py:133
 #, python-format
 msgid "%(count)d messages marked as read successfully."
 msgstr "མཐར་ %(count)d ཀློག་ཟིན་པའི་རྟགས་བཀོད་ཡོད།"
 
-#: views.py:146
+#: views.py:136
 #, python-format
 msgid "Message \"%(object)s\" marked as read successfully."
 msgstr ""
 "བརྡ་འཕྲིན་ &quot; %(object)s &quot; མཐར་ཕྱིན་པར་ཀློག་ཟིན་པའི་རྟགས་བཀོད་ཡོད།"
 
-#: views.py:149
+#: views.py:139
 #, python-format
 msgid "%(count)d message marked as read successfully."
 msgstr "བརྡ་འཕྲིན་དེ་མཐར་ཕྱིན་ %(count)d ཀློག་ཟིན་པའི་རྟགས་བཀོད་ཡོད།"
 
-#: views.py:151
+#: views.py:141
 #, python-format
 msgid "Mark the %(count)d selected messages as read."
 msgstr "འདེམས་སྒྲུག་བྱས་པའི་བརྡ་འཕྲིན་ %(count)d ཀློག་ཟིན་པར་རྟགས་བཀོད།"
 
-#: views.py:152
+#: views.py:142
 #, python-format
 msgid "Mark the message \"%(object)s\" as read."
 msgstr "བརྡ་འཕྲིན་ &quot; %(object)s &quot; དེ་ཀློག་ཟིན་པར་རྟགས་བཀོད།"
 
-#: views.py:153
+#: views.py:143
 #, python-format
 msgid "Mark the %(count)d selected message as read."
-msgstr "འདེམས་སྒྲུག་བྱས་པའི་བརྡ་འཕྲིན་དེ་ཀློག་ཟིན་པར་རྟགས་བཀོད %(count)d"
+msgstr "འདེམས་སྒྲུག་བྱས་པའི་བརྡ་འཕྲིན་དེ་ཀློག་ཟིན་ %(count)d རྟགས་བཀོད།"
 
-#: views.py:181
+#: views.py:171
 msgid "Mark all message as read?"
 msgstr "བརྡ་འཕྲིན་ཚང་མ་བཀླགས་ཟིན་པར་རྟགས་བརྒྱབ་དམ།"
 
-#: views.py:197
+#: views.py:187
 msgid "All messages marked as read."
 msgstr "བརྡ་འཕྲིན་ཚང་མ་བཀླགས་ཟིན་པའི་རྟགས་བཀོད་ཡོད།"
 
-#: views.py:204
+#: views.py:194
 #, python-format
 msgid "Error marking message \"%(instance)s\" as unread; %(exception)s"
 msgstr ""
 "བརྡ་འཕྲིན་ &quot; %(instance)s &quot; མ་བཀླགས་པར་རྟགས་བཀོད་པའི་ནོར་འཁྲུལ། "
 "%(exception)s"
 
-#: views.py:210
+#: views.py:200
 #, python-format
 msgid "%(count)d messages marked as unread successfully."
 msgstr "%(count)d བརྡ་འཕྲིན་དེ་དག་མཐར་ཕྱིན་ངང་མ་བཀླགས་པར་རྟགས་བཀོད་ཡོད།"
 
-#: views.py:213
+#: views.py:203
 #, python-format
 msgid "Message \"%(object)s\" marked as unread successfully."
 msgstr ""
 "བརྡ་འཕྲིན་ &quot; %(object)s &quot; "
 "མཐར་ཕྱིན་པར་ཀློག་མ་ཐུབ་པའི་རྟགས་བཀོད་ཡོད།"
 
-#: views.py:216
+#: views.py:206
 #, python-format
 msgid "%(count)d message marked as unread successfully."
-msgstr "%(count)d མཐར་ཕྱིན་ངང་མ་བཀླགས་པར་རྟགས་བཀོད་ཡོད།"
+msgstr "%(count)d བརྡ་འཕྲིན་དེ་མཐར་ཕྱིན་ངང་མ་བཀླགས་པར་རྟགས་བཀོད་ཡོད།"
 
-#: views.py:218
+#: views.py:208
 #, python-format
 msgid "Mark the %(count)d selected messages as unread."
 msgstr "འདེམས་སྒྲུག་བྱས་པའི་བརྡ་འཕྲིན་དེ་ཚོ་མ་བཀླགས་པར་རྟགས་བཀོད %(count)d"
 
-#: views.py:219
+#: views.py:209
 #, python-format
 msgid "Mark the message \"%(object)s\" as unread."
 msgstr "བརྡ་འཕྲིན་ &quot; %(object)s &quot; དེ་མ་བཀླགས་པར་རྟགས་བཀོད།"
 
-#: views.py:220
+#: views.py:210
 #, python-format
 msgid "Mark the %(count)d selected message as unread."
 msgstr "འདེམས་སྒྲུག་བྱས་པའི་བརྡ་འཕྲིན་དེ་ཀློག་མ་ཐུབ་པར་རྟགས་བཀོད %(count)d"
@@ -300,7 +300,7 @@ msgid ""
 "be a static value or a template."
 msgstr ""
 "བརྡ་འཕྲིན་ཐོབ་མཁན་གྱི་སྤྱོད་མཁན་སྡེ་ཚན་གྱི་མིང་ཚེག་གིས་དབྱེ་བའི་ཐོ་གཞུང་། "
-"གནས་ལུགས་རིན་ཐང་ཡང་ན་དཔེ་སྒྲོམ་ཡིན་ཆོག"
+"གནས་ལུགས་རིན་ཐང་ཡང་ན་དཔེ་སྒྲོམ་ཞིག་ཡིན་ཆོག"
 
 #: workflow_actions.py:34
 msgid "Role name list"
@@ -312,7 +312,7 @@ msgid ""
 "static value or a template."
 msgstr ""
 "བརྡ་འཕྲིན་ཐོབ་པའི་འགན་འཁྲིའི་མཚོན་རྟགས་ཀྱི་ཐོ་གཞུང་ཚེག་གིས་དབྱེ་ཡོད། "
-"གནས་ལུགས་རིན་ཐང་ཡང་ན་དཔེ་སྒྲོམ་ཞིག་ཡིན་ཆོག"
+"གནས་ལུགས་རིན་ཐང་ཡང་ན་དཔེ་སྒྲོམ་ཡིན་ཆོག"
 
 #: workflow_actions.py:48
 msgid "Username list"
@@ -323,7 +323,7 @@ msgid ""
 "Comma separated list of usernames that will receive the message. Can be a "
 "static value or a template."
 msgstr ""
-"བརྡ་འཕྲིན་ཐོབ་མཁན་གྱི་སྤྱོད་མཁན་གྱི་མིང་ཐོ་འགོད་ཚེག་གིས་དབྱེ་ཡོད། "
+"འཕྲིན་ཡིག་འབྱོར་བའི་སྤྱོད་མཁན་གྱི་མིང་ཐོ་འགོད་ཚེག་གིས་དབྱེ་ཡོད། "
 "གནས་ལུགས་རིན་ཐང་ཡང་ན་དཔེ་སྒྲོམ་ཞིག་ཡིན་ཆོག"
 
 #: workflow_actions.py:69
@@ -335,7 +335,8 @@ msgstr ""
 
 #: workflow_actions.py:84
 msgid "The actual text to send. Can be a static value or a template."
-msgstr "གཏོང་དགོས་པའི་ཡི་གེ་དངོས་དེ། གནས་ལུགས་རིན་ཐང་ཡང་ན་དཔེ་སྒྲོམ་ཡིན་ཆོག"
+msgstr ""
+"གཏོང་དགོས་པའི་ཡི་གེ་དངོས་དེ། གནས་ལུགས་རིན་ཐང་ཡང་ན་དཔེ་སྒྲོམ་ཞིག་ཡིན་ཆོག"
 
 #: workflow_actions.py:94
 msgid "Send user message"

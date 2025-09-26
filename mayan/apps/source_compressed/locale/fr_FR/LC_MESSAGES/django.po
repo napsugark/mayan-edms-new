@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Roberto Rosario, 2024\n"
 "Language-Team: French (France) (https://app.transifex.com/rosarior/teams/13584/fr_FR/)\n"
 "MIME-Version: 1.0\n"
@@ -43,23 +43,23 @@ msgstr "Jamais"
 msgid "Ask user"
 msgstr "Demander à l'utilisateur"
 
-#: source_backends/mixins.py:35
+#: source_backends/mixins.py:36
 msgid "Uncompress"
 msgstr "Décompresser"
 
-#: source_backends/mixins.py:39
+#: source_backends/mixins.py:40
 msgid "Whether to expand or not compressed archives."
 msgstr "Indique s'il faut ou non décompresser les fichiers d'archive."
 
-#: source_backends/mixins.py:58
+#: source_backends/mixins.py:59
 msgid "Decompression"
 msgstr "Extraire"
 
-#: source_backends/mixins.py:91
+#: source_backends/mixins.py:92
 msgid "Expand compressed files"
 msgstr "Décompresser les fichiers"
 
-#: source_backends/mixins.py:93
+#: source_backends/mixins.py:94
 msgid "Upload a compressed file's contained files as individual documents."
 msgstr ""
 "Téléversez les fichiers contenus dans un fichier compressé en tant que "

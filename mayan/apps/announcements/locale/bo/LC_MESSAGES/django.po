@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -134,7 +134,7 @@ msgstr "%(count)d གསལ་བསྒྲགས་མཐར་ཕྱིན་�
 #: views.py:60
 #, python-format
 msgid "Delete the %(count)d selected announcements."
-msgstr "འདེམས་སྒྲུག་བྱས་པའི་གསལ་བསྒྲགས་དེ་ཚོ་ %(count)d བསུབས་དགོས།"
+msgstr "འདེམས་སྒྲུག་བྱས་པའི་གསལ་བསྒྲགས་དེ་ %(count)d བསུབས་དགོས།"
 
 #: views.py:61
 #, python-format

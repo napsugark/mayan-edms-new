@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-01 10:33+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2025-09-02 13:13+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Roberto Rosario, 2024\n"
 "Language-Team: Spanish (Ecuador) (https://app.transifex.com/rosarior/teams/13584/es_EC/)\n"
 "MIME-Version: 1.0\n"
@@ -20,15 +20,15 @@ msgstr ""
 "Language: es_EC\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: apps.py:149 permissions.py:6 settings.py:15
+#: apps.py:26 permissions.py:6 settings.py:15
 msgid "Common"
 msgstr "Común"
 
-#: dependencies.py:198
+#: dependencies.py:194
 msgid "Command line environment with autocompletion."
 msgstr "Entorno de línea de comandos con autocompletado."
 
-#: dependencies.py:203
+#: dependencies.py:199
 msgid "Checks proper formatting of the README file."
 msgstr "Comprueba el formato correcto del archivo README."
 
@@ -88,43 +88,43 @@ msgstr "Apoyo técnico"
 msgid "Tools"
 msgstr "Herramientas"
 
-#: literals.py:23
+#: literals.py:21
 msgid ""
 "This feature has been deprecated and will be removed in a future version."
 msgstr ""
 "Esta función ha quedado en desuso y se eliminará en una versión futura."
 
-#: literals.py:32
+#: literals.py:30
 msgid "Days"
 msgstr "Días"
 
-#: literals.py:33
+#: literals.py:31
 msgid "Hours"
 msgstr "Horas"
 
-#: literals.py:34
+#: literals.py:32
 msgid "Minutes"
 msgstr "Minutos"
 
-#: menus.py:8
-msgid "System"
-msgstr "Sistema"
-
-#: menus.py:10 menus.py:11
+#: menus.py:7 menus.py:8
 msgid "Facet"
 msgstr "Faceta"
 
-#: menus.py:14
+#: menus.py:11
 msgid "Actions"
 msgstr "Acciones"
 
-#: menus.py:15
+#: menus.py:12
 msgid "Related"
 msgstr "Relacionado"
 
-#: menus.py:16
+#: menus.py:13
 msgid "Secondary"
 msgstr "Secundario"
+
+#: menus.py:16
+msgid "System"
+msgstr "Sistema"
 
 #: menus.py:18
 msgid "Return"

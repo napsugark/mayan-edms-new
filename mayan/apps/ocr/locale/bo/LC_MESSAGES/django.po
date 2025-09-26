@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Language: bo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: apps.py:56 apps.py:91 events.py:6 links.py:54 links.py:80 permissions.py:6
+#: apps.py:56 apps.py:91 events.py:6 links.py:53 links.py:79 permissions.py:6
 #: queues.py:6 search.py:18 settings.py:11 workflow_actions.py:53
 msgid "OCR"
 msgstr "OCR"
@@ -62,36 +62,36 @@ msgstr "OCR ཆེད་དུ་ཡིག་ཆའི་ཐོན་རིམ�
 msgid "Document version OCR finished"
 msgstr "ཡིག་ཆའི་ཐོན་རིམ་OCRལེགས་གྲུབ་བྱུང་།"
 
-#: forms.py:13 forms.py:44 forms.py:64
+#: forms.py:12 forms.py:43 forms.py:63
 msgid "Contents"
 msgstr "ནང་དོན།"
 
-#: forms.py:99
+#: forms.py:98
 #, python-format
 msgid "Page %(page_number)d"
 msgstr "ཤོག་ངོས། %(page_number)d"
 
 #: links.py:27
-msgid "Setup OCR"
-msgstr "OCRསྒྲིག་འཛུགས།"
+msgid "OCR setup"
+msgstr "OCRསྒྲིག་བཀོད།"
 
-#: links.py:33
+#: links.py:32
 msgid "OCR documents per type"
 msgstr "རིགས་རེ་རེའི་OCRཡིག་ཆ།"
 
-#: links.py:40 links.py:47
+#: links.py:39 links.py:46
 msgid "Delete OCR content"
 msgstr "OCRནང་དོན་བསུབས་པ།"
 
-#: links.py:60
+#: links.py:59
 msgid "Download OCR text"
 msgstr "OCRཡི་གེ་ཕབ་ལེན་བྱེད་པ།"
 
-#: links.py:65 links.py:70
+#: links.py:64 links.py:69
 msgid "Submit for OCR"
-msgstr "OCR ལ་ཕུལ་བ།"
+msgstr "OCR ཆེད་དུ་ཕུལ་བ།"
 
-#: links.py:86
+#: links.py:85
 msgid "Edit OCR"
 msgstr "OCR རྩོམ་སྒྲིག"
 
@@ -101,7 +101,7 @@ msgstr "ཡིག་ཆའི་རིགས།"
 
 #: models.py:28
 msgid "Automatically queue newly created documents for OCR."
-msgstr "རང་འགུལ་གྱིས་གསར་དུ་བཟོས་པའི་ཡིག་ཆ་རྣམས་OCRཆེད་དུ་བང་སྒྲིག་བྱེད།"
+msgstr "རང་འགུལ་གྱིས་གསར་དུ་བཟོས་པའི་ཡིག་ཆ་ OCR ཆེད་དུ་བང་སྒྲིག་བྱེད།"
 
 #: models.py:29
 msgid "Auto OCR"
@@ -141,7 +141,7 @@ msgstr "OCR ལ་ཡིག་ཆ་ཕུལ་བ།"
 
 #: permissions.py:13
 msgid "Edit the transcribed text from document"
-msgstr "ཡིག་ཆ་ནས་ཕབ་བསྒྱུར་བྱས་པའི་ཡི་གེ་རྩོམ་སྒྲིག་བྱེད་པ།"
+msgstr "ཡིག་ཆའི་ནང་ནས་ཕབ་བསྒྱུར་བྱས་པའི་ཡི་གེ་རྩོམ་སྒྲིག་བྱེད་པ།"
 
 #: permissions.py:17
 msgid "View the transcribed text from document"
@@ -238,7 +238,7 @@ msgstr "%(count)d ཡིག་ཆའི་ཐོན་རིམ་དེ་OCR�
 #: views.py:193
 #, python-format
 msgid "%(count)d document versions submitted to the OCR queue."
-msgstr "%(count)d ཡིག་ཆའི་ཐོན་རིམ་དེ་ཚོ་OCR བང་རིམ་ལ་ཕུལ་ཡོད།"
+msgstr "%(count)d ཡིག་ཆའི་ཐོན་རིམ་དེ་ཚོ་OCRབང་རིམ་ལ་ཕུལ་ཡོད།"
 
 #: views.py:202
 msgid "Submit the selected document version to the OCR queue?"

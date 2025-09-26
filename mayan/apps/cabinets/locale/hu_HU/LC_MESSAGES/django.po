@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Csaba Tarjányi, 2024\n"
 "Language-Team: Hungarian (Hungary) (https://app.transifex.com/rosarior/teams/13584/hu_HU/)\n"
 "MIME-Version: 1.0\n"
@@ -22,14 +22,14 @@ msgstr ""
 "Language: hu_HU\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps.py:53 apps.py:173 apps.py:177 apps.py:182 apps.py:187 apps.py:192
-#: events.py:6 forms.py:14 links.py:30 menus.py:14 models.py:54 models.py:160
+#: apps.py:53 apps.py:172 apps.py:176 apps.py:181 apps.py:186 apps.py:191
+#: events.py:6 forms.py:10 links.py:30 menus.py:14 models.py:54 models.py:160
 #: permissions.py:6 search.py:54 views.py:169 workflow_actions.py:39
 #: workflow_actions.py:53
 msgid "Cabinets"
 msgstr "Irattartók"
 
-#: apps.py:164 models.py:43
+#: apps.py:163 models.py:43
 msgid "Documents"
 msgstr "Dokumentumok"
 

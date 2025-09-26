@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-26 15:20+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2025-09-26 19:04+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Roberto Rosario, 2024\n"
 "Language-Team: Spanish (Ecuador) (https://app.transifex.com/rosarior/teams/13584/es_EC/)\n"
 "MIME-Version: 1.0\n"
@@ -20,38 +20,9 @@ msgstr ""
 "Language: es_EC\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: apps.py:14 permissions.py:6 settings.py:11
+#: apps.py:15 permissions.py:6 settings.py:17
 msgid "Platform"
 msgstr "Plataforma"
-
-#: classes.py:239
-msgid "Template for entrypoint.sh file inside a Docker image."
-msgstr ""
-"Plantilla para el archivo entrypoint.sh dentro de una imagen de Docker."
-
-#: classes.py:254
-msgid "Template that generates the Docker Compose file."
-msgstr "Plantilla que genera el archivo Docker Compose."
-
-#: classes.py:419
-msgid "Template for Supervisord inside a Docker image."
-msgstr "Plantilla para Supervisord dentro de una imagen Docker."
-
-#: classes.py:437
-msgid "Template that generates a Dockerfile file."
-msgstr "Plantilla que genera un archivo Dockerfile."
-
-#: classes.py:452
-msgid "Template that generates a GitLab CI config file."
-msgstr "Plantilla que genera un archivo de configuración de GitLab CI."
-
-#: classes.py:611
-msgid "Template for Supervisord."
-msgstr "Plantilla para Supervisord."
-
-#: classes.py:685
-msgid "Template showing the queues of a worker."
-msgstr "Plantilla que muestra las colas de un trabajador."
 
 #: client_backends.py:34
 msgid "Sentry test error"
@@ -61,7 +32,19 @@ msgstr "Error de prueba de Sentry"
 msgid "Trigger tests"
 msgstr "Activar pruebas"
 
-#: settings.py:17
+#: platform_templates.py:148
+msgid "Template that generates a GitLab CI config file."
+msgstr "Plantilla que genera un archivo de configuración de GitLab CI."
+
+#: platform_templates.py:307
+msgid "Template for Supervisord."
+msgstr "Plantilla para Supervisord."
+
+#: platform_templates.py:381
+msgid "Template showing the queues of a worker."
+msgstr "Plantilla que muestra las colas de un trabajador."
+
+#: settings.py:23
 msgid ""
 "List of client backends to launch after startup. Use full dotted path to the"
 " client backend classes."
@@ -69,7 +52,7 @@ msgstr ""
 "Lista de backends de cliente para iniciar después del arranque. Utilice la "
 "ruta de separada por puntos a las clases de backend del cliente."
 
-#: settings.py:24
+#: settings.py:30
 msgid ""
 "Arguments for the client backends. Use the client backend dotted path as the"
 " dictionary key for the arguments in dictionary format."
@@ -77,3 +60,31 @@ msgstr ""
 "Argumentos para los backends del cliente. Utilice la ruta separada por "
 "puntos del backend del cliente como llave para los argumentos en formato de "
 "diccionario."
+
+#: settings.py:40
+msgid "Load an alternate settings file."
+msgstr ""
+
+#: settings.py:49
+msgid "Allows setting Gunicorn's `workers` value."
+msgstr ""
+
+#: settings.py:55
+msgid "Allows setting Gunicorn's `worker_class` value."
+msgstr ""
+
+#: settings.py:62
+msgid "Allows setting Gunicorn's `timeout` value."
+msgstr ""
+
+#: settings.py:68
+msgid "Allows setting Gunicorn's `max_requests_jitter` value."
+msgstr ""
+
+#: settings.py:74
+msgid "Allows setting Gunicorn's `max_requests` value."
+msgstr ""
+
+#: settings.py:80
+msgid "Allows setting Gunicorn's `limit_request_line` value."
+msgstr ""

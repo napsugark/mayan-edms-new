@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -42,7 +42,7 @@ msgstr ""
 
 #: dependencies.py:17
 msgid "determine file type using content tests"
-msgstr "ནང་དོན་ཚོད་ལྟ་སྤྱད་ནས་ཡིག་ཆའི་རིགས་གཏན་འཁེལ་བྱེད་པ།"
+msgstr "ནང་དོན་ཚོད་ལྟ་སྤྱད་དེ་ཡིག་ཆའི་རིགས་གཏན་འཁེལ་བྱེད་པ།"
 
 #: settings.py:16
 msgid "Path to the class to use when to detect file MIME types."

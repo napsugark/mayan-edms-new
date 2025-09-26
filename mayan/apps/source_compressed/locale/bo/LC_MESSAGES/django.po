@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -43,23 +43,23 @@ msgstr "གཏན་ནས"
 msgid "Ask user"
 msgstr "སྤྱོད་མཁན་ལ་དྲིས།"
 
-#: source_backends/mixins.py:35
+#: source_backends/mixins.py:36
 msgid "Uncompress"
-msgstr "གནོན་ཤུགས་མེད་པར་བཟོས།"
+msgstr "བསྡམས་སྒྲིལ།"
 
-#: source_backends/mixins.py:39
+#: source_backends/mixins.py:40
 msgid "Whether to expand or not compressed archives."
 msgstr "བསྡམས་པའི་ཡིག་ཚགས་རྒྱ་བསྐྱེད་གཏོང་དགོས་མིན་དང་།"
 
-#: source_backends/mixins.py:58
+#: source_backends/mixins.py:59
 msgid "Decompression"
 msgstr "གནོན་ཤུགས་ཆུང་དུ་གཏོང་བ།"
 
-#: source_backends/mixins.py:91
+#: source_backends/mixins.py:92
 msgid "Expand compressed files"
 msgstr "བསྡམས་པའི་ཡིག་ཆ་རྒྱ་བསྐྱེད།"
 
-#: source_backends/mixins.py:93
+#: source_backends/mixins.py:94
 msgid "Upload a compressed file's contained files as individual documents."
 msgstr ""
-"བསྡམས་སྒྲིག་བྱས་པའི་ཡིག་ཆའི་ནང་དུ་ཡོད་པའི་ཡིག་ཆ་རྣམས་ཡིག་ཆ་རེ་རེ་བཞིན་ཡར་བསྐུར་དགོས།"
+"བསྡམས་པའི་ཡིག་ཆའི་ནང་དུ་ཡོད་པའི་ཡིག་ཆ་རེ་རེ་བཞིན་ཡིག་ཆ་ལྟར་ཕབ་ལེན་བྱེད།"

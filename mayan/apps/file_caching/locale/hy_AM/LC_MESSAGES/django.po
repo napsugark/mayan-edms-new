@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Language-Team: Armenian (Armenia) (https://app.transifex.com/rosarior/teams/13584/hy_AM/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -96,19 +96,19 @@ msgstr ""
 msgid "Total cached files."
 msgstr ""
 
-#: model_mixins.py:113 model_mixins.py:326
+#: model_mixins.py:111 model_mixins.py:324
 msgid "Current size"
 msgstr ""
 
-#: model_mixins.py:115
+#: model_mixins.py:113
 msgid "Current size of the cache."
 msgstr ""
 
-#: model_mixins.py:123
+#: model_mixins.py:121
 msgid "Label"
 msgstr ""
 
-#: model_mixins.py:328
+#: model_mixins.py:326
 msgid "Current size of the cache partition."
 msgstr ""
 

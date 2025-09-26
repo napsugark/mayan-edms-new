@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-23 04:57+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -22,21 +22,21 @@ msgstr ""
 
 #: apps.py:32 permissions.py:6
 msgid "Task manager"
-msgstr "ལས་འགན་འགན་འཛིན།"
+msgstr "ལས་འགན་དོ་དམ་པ།"
 
-#: apps.py:114 apps.py:139 apps.py:182
+#: apps.py:116 apps.py:141 apps.py:184
 msgid "Label"
 msgstr "ལག་ཁྱེར་།"
 
-#: apps.py:118 apps.py:142 apps.py:186
+#: apps.py:120 apps.py:144 apps.py:188
 msgid "Name"
 msgstr "མིང"
 
-#: apps.py:123
+#: apps.py:125
 msgid "Default queue?"
 msgstr "སྔོན་སྒྲིག་བང་རིམ།"
 
-#: apps.py:128
+#: apps.py:130
 msgid ""
 "Transient queues are not persistent. Tasks in a transient queue are lost if "
 "the broker is restarted. Transient queues use less resources and managed non"
@@ -47,65 +47,65 @@ msgstr ""
 " "
 "དུས་ཐུང་བང་རིམ་གྱིས་ཐོན་ཁུངས་ཉུང་བ་དང་གལ་ཆེའི་ལས་འགན་མིན་པའི་དོ་དམ་བྱེད་ཀྱི་ཡོད།"
 
-#: apps.py:131
+#: apps.py:133
 msgid "Is transient?"
 msgstr "དུས་ཐུང་ཡིན་ནམ།"
 
-#: apps.py:145
+#: apps.py:147
 msgid "Dotted path"
 msgstr "ཚེག་ཅན་གྱི་ལམ།"
 
-#: apps.py:149
+#: apps.py:151
 msgid "Schedule"
 msgstr "ཐོ་གཞུང"
 
-#: apps.py:155
+#: apps.py:157
 msgid "Type"
 msgstr "རིགས"
 
-#: apps.py:160
+#: apps.py:162
 msgid "Start time"
 msgstr "འགོ་ཚུགས་དུས་ཚོད།"
 
-#: apps.py:164
+#: apps.py:166
 msgid "Host"
 msgstr "འགོ་འཛིན་པ"
 
-#: apps.py:168
+#: apps.py:170
 msgid "Arguments"
 msgstr "རྩོད་པ།"
 
-#: apps.py:172
+#: apps.py:174
 msgid "Keyword arguments"
 msgstr "གཙོ་ཚིག་རྩོད་གླེང་།"
 
-#: apps.py:177
+#: apps.py:179
 msgid "Worker process ID"
 msgstr "ལས་བྱེད་པའི་བརྒྱུད་རིམ་ཨང་རྟགས།"
 
-#: apps.py:190
+#: apps.py:192
 msgid ""
 "Maximum amount of resident memory a worker can execute before it's replaced "
 "by a new process."
 msgstr ""
 "ལས་བྱེད་པ་ཞིག་གིས་བྱ་རིམ་གསར་པས་ཚབ་མ་བྱེད་གོང་དུ་ལག་བསྟར་བྱེད་ཐུབ་པའི་དྲན་ཤེས་ཆེ་ཤོས་དེ་ལག་བསྟར་བྱེད་ཐུབ།"
 
-#: apps.py:192
+#: apps.py:194
 msgid "Maximum memory per child"
-msgstr "བྱིས་པ་རེར་ཆེས་མཐོ་བའི་དྲན་ཚད།"
+msgstr "བྱིས་པ་རེར་ཆེས་མཐོའི་དྲན་ཚད།"
 
-#: apps.py:196
+#: apps.py:198
 msgid ""
 "Maximum number of tasks a worker can execute before it's replaced by a new "
 "process."
 msgstr ""
 "ལས་བྱེད་པ་ཞིག་གིས་བྱ་རིམ་གསར་པས་ཚབ་མ་བྱེད་གོང་དུ་ལག་བསྟར་བྱེད་ཐུབ་པའི་ལས་འགན་ཆེ་ཤོས་ཀྱི་གྲངས་འབོར།"
 
-#: apps.py:198
+#: apps.py:200
 msgid "Maximum tasks per child"
-msgstr "བྱིས་པ་རེར་ཆེས་མཐོ་བའི་ལས་འགན།"
+msgstr "བྱིས་པ་རེར་ལས་འགན་ཆེས་མཐོ་བ།"
 
-#: apps.py:202
+#: apps.py:204
 msgid ""
 "The number of worker processes/threads to launch. Defaults to the number of "
 "CPUs available on the machine."
@@ -113,11 +113,11 @@ msgstr ""
 "ལས་བྱེད་པའི་བྱ་རིམ་དང་སྐུད་པ་འགོ་འཛུགས་བྱེད་པའི་གྲངས་འབོར། "
 "འཕྲུལ་ཆས་སྟེང་ཡོད་པའི་CPUགྲངས་ལ་སྔོན་སྒྲིག་བྱེད།"
 
-#: apps.py:204
+#: apps.py:206
 msgid "Concurrency"
 msgstr "དུས་མཉམ་པ།"
 
-#: apps.py:208
+#: apps.py:210
 msgid ""
 "The nice value determines the priority of the process. A higher value lowers"
 " the priority. The default value is 0."
@@ -125,7 +125,7 @@ msgstr ""
 "རིན་ཐང་ཡག་པོ་དེས་བྱ་རིམ་གྱི་གཙོ་གནད་གཏན་འབེབས་བྱེད། "
 "རིན་ཐང་མཐོ་བས་གཙོ་གནད་དམའ་རུ་གཏོང་གི་ཡོད། སྔོན་སྒྲིག་རིན་ཐང་ནི་༠ཡིན།"
 
-#: apps.py:211
+#: apps.py:213
 msgid "Nice level"
 msgstr "གནས་ཚད་ཡག་པོ་འདུག"
 
@@ -161,7 +161,7 @@ msgstr "སེ་ལེ་རི།"
 msgid "Default: \"AMQPLAIN\". Set custom amqp login method."
 msgstr ""
 "སྔོན་སྒྲིག: &quot;AMQPLAIN&quot;. "
-"སྲོལ་རྒྱུན་གྱི་amqpནང་འཇུག་ཐབས་ལམ་སྒྲིག་དགོས།"
+"སྲོལ་རྒྱུན་གྱི་amqpནང་འཇུག་བྱེད་ཐབས་སྒྲིག་དགོས།"
 
 #: settings.py:23
 msgid ""
@@ -215,12 +215,12 @@ msgstr "རྒྱབ་ལྗོངས་ལས་འགན་ལས་བྱེ
 #: views.py:62
 #, python-format
 msgid "Queues for worker: %s"
-msgstr "ལས་བྱེད་པའི་གྲལ་ %s"
+msgstr "ལས་བྱེད་པའི་བང་རིམ %s"
 
 #: views.py:72
 #, python-format
 msgid "Worker: %s, not found"
-msgstr "ལས་བྱེད་པ།: %s , མ་རྙེད།"
+msgstr "ལས་བྱེད་པ་: %s , མ་རྙེད།"
 
 #: workers.py:20
 msgid "Low latency high volume tasks"

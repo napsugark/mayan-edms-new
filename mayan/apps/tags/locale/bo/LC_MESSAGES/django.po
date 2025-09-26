@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -21,12 +21,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: apps.py:44 apps.py:131 apps.py:135 apps.py:139 apps.py:144 apps.py:148
-#: events.py:6 forms.py:27 links.py:27 menus.py:14 models.py:37
-#: permissions.py:6 views.py:183 workflow_actions.py:40 workflow_actions.py:54
+#: events.py:6 forms.py:25 links.py:27 menus.py:14 models.py:37
+#: permissions.py:6 views/tag_views.py:105 workflow_actions.py:40
+#: workflow_actions.py:54
 msgid "Tags"
 msgstr "Tags"
 
-#: apps.py:169 models.py:31
+#: apps.py:168 models.py:31
 msgid "Documents"
 msgstr "ཡིག་ཆ།"
 
@@ -52,7 +53,7 @@ msgstr "མིང་རྟགས་སྦྱར་བ།"
 
 #: links.py:22 workflow_actions.py:76
 msgid "Remove tag"
-msgstr "མིང་རྟགས་མེད་པར་བཟོས།"
+msgstr "མིང་བྱང་མེད་པར་བཟོས།"
 
 #: links.py:32
 msgid "Remove tags"
@@ -80,7 +81,7 @@ msgstr "ཡིག་ཆ་ལ་སྦྱར་བའི་རྟགས་རྣ
 
 #: methods.py:21
 msgid "get_tags()"
-msgstr "ཐོབ་ཐག()"
+msgstr "རྟགས།()"
 
 #: model_mixins.py:63
 msgid "Preview"
@@ -132,7 +133,7 @@ msgstr "མིང་བྱང་ལ་ལྟ་བ།"
 
 #: permissions.py:22
 msgid "Edit tags"
-msgstr "མིང་བྱང་རྩོམ་སྒྲིག།"
+msgstr "མིང་རྟགས་རྩོམ་སྒྲིག།"
 
 #: permissions.py:25
 msgid "Remove tags from documents"
@@ -148,7 +149,7 @@ msgstr "མིང་རྟགས་ཀྱི་གཞི་གྲངས་མཛ
 
 #: search.py:15 serializers.py:34 serializers.py:43
 msgid "Tag ID"
-msgstr "རྟགས་བྱང་།"
+msgstr "མིང་རྟགས་ཨང་རྟགས།"
 
 #: search.py:18
 msgid "Tag label"
@@ -194,149 +195,150 @@ msgstr "ཡིག་ཆ་ལ་ཁ་སྣོན་བྱེད་པའི་
 msgid "Primary key of the tag to remove from the document."
 msgstr "ཡིག་ཆ་ནས་མེད་པར་བཟོ་བའི་རྟགས་མཚན་གྱི་ལྡེ་མིག་གཙོ་བོ།"
 
-#: views.py:42
+#: views/document_views.py:31
 #, python-format
 msgid "Tags attached to %(count)d documents successfully."
 msgstr "ཡིག་ཆ་ %(count)d ལ་མཐར་ཕྱིན་ངང་སྦྲེལ་བའི་མིང་བྱང་།"
 
-#: views.py:45
+#: views/document_views.py:34
 #, python-format
 msgid "Tags attached to document \"%(object)s\" successfully."
 msgstr ""
 "ཡིག་ཆ་ &quot; %(object)s &quot; ལ་མཐར་ཕྱིན་ངང་མཉམ་སྦྲེལ་བྱས་པའི་མིང་བྱང་།"
 
-#: views.py:48
+#: views/document_views.py:37
 #, python-format
 msgid "Tags attached to %(count)d document successfully."
 msgstr "ཡིག་ཆ་ %(count)d ལ་མཐར་ཕྱིན་ངང་སྦྲེལ་བའི་མིང་བྱང་།"
 
-#: views.py:50
+#: views/document_views.py:39
 #, python-format
 msgid "Attach tags to %(count)d documents."
 msgstr "ཡིག་ཆ་ %(count)d ལ་མིང་རྟགས་སྦྲེལ་དགོས།"
 
-#: views.py:51
+#: views/document_views.py:40
 #, python-format
 msgid "Attach tags to document: %(object)s"
-msgstr "ཡིག་ཆ་ལ་མིང་བྱང་མཉམ་སྦྲེལ་བྱེད་ %(object)s"
+msgstr "ཡིག་ཆ་ལ་མཚོན་རྟགས་མཉམ་སྦྲེལ་བྱེད་ %(object)s"
 
-#: views.py:52
+#: views/document_views.py:41
 #, python-format
 msgid "Attach tags to %(count)d document."
 msgstr "ཡིག་ཆ་ %(count)d ལ་མིང་རྟགས་སྦྲེལ་དགོས།"
 
-#: views.py:69 wizard_steps.py:82
+#: views/document_views.py:58 wizard_steps.py:82
 msgid "Tags to be attached."
 msgstr "མཐུད་དགོས་པའི་མིང་བྱང་།"
 
-#: views.py:108
+#: views/document_views.py:114
+msgid "Document has no tags attached"
+msgstr "ཡིག་ཆ་ལ་མིང་རྟགས་སྦྱར་མེད།"
+
+#: views/document_views.py:118
+#, python-format
+msgid "Tags for document: %s"
+msgstr "ཡིག་ཆའི་ཆེད་དུ་མིང་ %s"
+
+#: views/document_views.py:136
+#, python-format
+msgid "Tags removed from %(count)d documents successfully."
+msgstr "%(count)d ཡིག་ཆ་ནས་མིང་རྟགས་རྣམས་མཐར་ཕྱིན་ངང་མེད་པར་བཟོས་ཡོད།"
+
+#: views/document_views.py:139
+#, python-format
+msgid "Tags removed from document \"%(object)s\" successfully."
+msgstr ""
+"ཡིག་ཆ་ &quot; %(object)s &quot; "
+"ནས་མིང་རྟགས་རྣམས་མཐར་ཕྱིན་ངང་མེད་པར་བཟོས་ཡོད།"
+
+#: views/document_views.py:142
+#, python-format
+msgid "Tags removed from %(count)d document successfully."
+msgstr "མིང་བྱང་དེ་ཚོ་ %(count)d ཡིག་ཆ་ནས་མཐར་ཕྱིན་ངང་མེད་པར་བཟོས་ཡོད།"
+
+#: views/document_views.py:144
+#, python-format
+msgid "Remove tags from %(count)d documents."
+msgstr "%(count)d ཡིག་ཆ་ནས་རྟགས་མཚན་མེད་པར་བཟོས།"
+
+#: views/document_views.py:145
+#, python-format
+msgid "Remove tags from document: %(object)s"
+msgstr "ཡིག་ཆའི་ནང་ནས་མིང་རྟགས་མེད་པར་བཟོས།: %(object)s"
+
+#: views/document_views.py:146
+#, python-format
+msgid "Remove tags from %(count)d document."
+msgstr "ཡིག་ཆ་ %(count)d ནས་མིང་རྟགས་མེད་པར་བཟོས།"
+
+#: views/document_views.py:163
+msgid "Tags to be removed."
+msgstr "མེད་པར་བཟོ་དགོས་པའི་མིང་བྱང་།"
+
+#: views/tag_views.py:30
 msgid "Create tag"
 msgstr "རྟགས་གསར་བཟོ།"
 
-#: views.py:121
+#: views/tag_views.py:43
 #, python-format
 msgid "Error deleting tag \"%(instance)s\"; %(exception)s"
 msgstr ""
 "མིང་བྱང་ &quot; %(instance)s &quot; བསུབས་པའི་ནོར་འཁྲུལ། %(exception)s"
 
-#: views.py:127
+#: views/tag_views.py:49
 #, python-format
 msgid "%(count)d tags deleted successfully."
 msgstr "%(count)d རྟགས་མཚན་རྣམས་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
 
-#: views.py:129
+#: views/tag_views.py:51
 #, python-format
 msgid "Tag \"%(object)s\" deleted successfully."
 msgstr "མིང་བྱང་ &quot; %(object)s &quot; མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
 
-#: views.py:132
+#: views/tag_views.py:54
 #, python-format
 msgid "%(count)d tag deleted successfully."
 msgstr "%(count)d རྟགས་མཚན་དེ་ལེགས་འགྲུབ་བྱུང་ནས་བསུབས་ཡོད།"
 
-#: views.py:134
+#: views/tag_views.py:56
 #, python-format
 msgid "Delete the %(count)d selected tags"
 msgstr "བདམས་པའི་ %(count)d རྟགས་མཚན་རྣམས་སུབ་དགོས།"
 
-#: views.py:135
+#: views/tag_views.py:57
 #, python-format
 msgid "Delete tag: %(object)s"
 msgstr "མིང་རྟགས་སུབ་ %(object)s"
 
-#: views.py:136
+#: views/tag_views.py:58
 #, python-format
 msgid "Delete the %(count)d selected tag"
 msgstr "བདམས་པའི་ %(count)d རྟགས་མཚན་དེ་བསུབས་དགོས།"
 
-#: views.py:142
+#: views/tag_views.py:64
 msgid "Will be removed from all documents."
 msgstr "ཡིག་ཆ་ཚང་མའི་ནང་ནས་མེད་པར་བཟོ་རྒྱུ་རེད།"
 
-#: views.py:158
+#: views/tag_views.py:80
 #, python-format
 msgid "Edit tag: %s"
 msgstr "རྩོམ་སྒྲིག་མིང་རྟགས།: %s"
 
-#: views.py:179
+#: views/tag_views.py:101
 msgid ""
 "Tags are color coded properties that can be attached or removed from "
 "documents."
 msgstr ""
 "མིང་བྱང་ནི་ཡིག་ཆའི་ནང་ནས་མཉམ་སྦྲེལ་ཡང་ན་མེད་པར་བཟོ་ཐུབ་པའི་ཚོས་གཞི་ཅན་གྱི་རྒྱུ་དངོས་ཡིན།"
 
-#: views.py:182
+#: views/tag_views.py:104
 msgid "No tags available"
 msgstr "མིང་བྱང་མེད།"
 
-#: views.py:216
+#: views/tag_views.py:138
 #, python-format
 msgid "Documents with the tag: %s"
-msgstr "ཡིག་ཆ། མིང་བྱང་། %s"
-
-#: views.py:245
-msgid "Document has no tags attached"
-msgstr "ཡིག་ཆ་ལ་མིང་རྟགས་སྦྱར་མེད།"
-
-#: views.py:249
-#, python-format
-msgid "Tags for document: %s"
-msgstr "ཡིག་ཆའི་ཆེད་དུ་མིང་ %s"
-
-#: views.py:267
-#, python-format
-msgid "Tags removed from %(count)d documents successfully."
-msgstr "མཐར་ཕྱིན་ངང་ %(count)d ཡིག་ཆ་ནས་མིང་རྟགས་མེད་པར་བཟོས་ཡོད།"
-
-#: views.py:270
-#, python-format
-msgid "Tags removed from document \"%(object)s\" successfully."
-msgstr ""
-"ཡིག་ཆ་ &quot; %(object)s &quot; ནས་མིང་བྱང་རྣམས་མཐར་ཕྱིན་ངང་མེད་པར་བཟོས་ཡོད།"
-
-#: views.py:273
-#, python-format
-msgid "Tags removed from %(count)d document successfully."
-msgstr "མིང་བྱང་དེ་ཚོ་ %(count)d ཡིག་ཆ་ནས་མཐར་ཕྱིན་ངང་མེད་པར་བཟོས་ཡོད།"
-
-#: views.py:275
-#, python-format
-msgid "Remove tags from %(count)d documents."
-msgstr "%(count)d ཡིག་ཆ་ནས་རྟགས་མཚན་མེད་པར་བཟོས།"
-
-#: views.py:276
-#, python-format
-msgid "Remove tags from document: %(object)s"
-msgstr "ཡིག་ཆའི་ནང་ནས་མིང་རྟགས་མེད་པར་བཟོས %(object)s"
-
-#: views.py:277
-#, python-format
-msgid "Remove tags from %(count)d document."
-msgstr "ཡིག་ཆ་ %(count)d ནས་མིང་རྟགས་མེད་པར་བཟོས།"
-
-#: views.py:294
-msgid "Tags to be removed."
-msgstr "མེད་པར་བཟོ་དགོས་པའི་མིང་བྱང་།"
+msgstr "ཡིག་ཆའི་མིང་རྟགས་: %s"
 
 #: wizard_steps.py:21
 msgid "Select tags"

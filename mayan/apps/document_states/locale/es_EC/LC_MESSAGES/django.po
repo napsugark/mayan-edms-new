@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 22:22+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2025-08-25 17:01+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Roberto Rosario, 2024\n"
 "Language-Team: Spanish (Ecuador) (https://app.transifex.com/rosarior/teams/13584/es_EC/)\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Language: es_EC\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: apps.py:95 apps.py:148 events.py:6 forms/workflow_template_forms.py:20
+#: apps.py:95 apps.py:148 events.py:6 forms/workflow_template_forms.py:19
 #: links.py:50 links.py:90 links.py:98 links.py:287 links.py:311
 #: models/workflow_models.py:60 queues.py:11 settings.py:14
 #: views/workflow_proxy_views.py:70 views/workflow_template_views.py:293
@@ -77,63 +77,63 @@ msgstr "Devuelve la transición de la instancia de flujo de trabajo."
 msgid "Get last transition"
 msgstr "Obtener la última transición"
 
-#: apps.py:335 apps.py:360 apps.py:371 apps.py:378
+#: apps.py:335 apps.py:359 apps.py:370 apps.py:377
 msgid "None"
 msgstr "Ninguno"
 
-#: apps.py:347 apps.py:451
+#: apps.py:346 apps.py:449
 msgid "Documents"
 msgstr "Documentos"
 
-#: apps.py:355 serializers/workflow_instance_serializers.py:153
+#: apps.py:354 serializers/workflow_instance_serializers.py:153
 msgid "Current state"
 msgstr "Estado actual"
 
-#: apps.py:361 apps.py:391 models/workflow_instance_models.py:105
+#: apps.py:360 apps.py:390 models/workflow_instance_models.py:105
 #: serializers/workflow_instance_serializers.py:77
 msgid "User"
 msgstr "Usuario"
 
-#: apps.py:366
+#: apps.py:365
 msgid "Last transition"
 msgstr "Última transición"
 
-#: apps.py:372 apps.py:387
+#: apps.py:371 apps.py:386
 msgid "Date and time"
 msgstr "Fecha y hora"
 
-#: apps.py:379 models/workflow_state_models.py:54
+#: apps.py:378 models/workflow_state_models.py:54
 msgid "Completion"
 msgstr "Cantidad de completación"
 
-#: apps.py:412
+#: apps.py:411
 msgid "Additional details"
 msgstr "Detalles adicionales"
 
-#: apps.py:467
+#: apps.py:465
 msgid "When?"
 msgstr "¿Cuando?"
 
-#: apps.py:471
+#: apps.py:469
 msgid "Action type"
 msgstr "Tipo de acción"
 
-#: apps.py:531
+#: apps.py:529
 msgid ""
 "Triggers are system events that will cause the transition to be applied."
 msgstr ""
 "Los desencadenantes son eventos del sistema que harán que se aplique la "
 "transición."
 
-#: apps.py:533
+#: apps.py:531
 msgid "Triggers"
 msgstr "Disparadores"
 
-#: apps.py:549 models/workflow_transition_field_models.py:33
+#: apps.py:547 models/workflow_transition_field_models.py:33
 msgid "Type"
 msgstr "Tipo"
 
-#: apps.py:565
+#: apps.py:563
 msgid "Widget"
 msgstr "Widget"
 
@@ -166,11 +166,11 @@ msgstr "Flujo de trabajo creado"
 msgid "Workflow edited"
 msgstr "Flujo de trabajo editado"
 
-#: forms/workflow_instance_forms.py:17
+#: forms/workflow_instance_forms.py:18
 msgid "Select a transition to execute in the next step."
 msgstr "Seleccione una transición para ejecutar en el siguiente paso."
 
-#: forms/workflow_instance_forms.py:18 links.py:293
+#: forms/workflow_instance_forms.py:19 links.py:293
 #: models/workflow_instance_models.py:101
 #: models/workflow_state_escalation_models.py:38
 #: models/workflow_transition_field_models.py:30
@@ -179,7 +179,7 @@ msgstr "Seleccione una transición para ejecutar en el siguiente paso."
 msgid "Transition"
 msgstr "Transición"
 
-#: forms/workflow_template_forms.py:27
+#: forms/workflow_template_forms.py:26
 msgid "Workflow template preview image"
 msgstr "Imagen de vista previa de la plantilla de flujo de trabajo"
 
@@ -264,7 +264,7 @@ msgstr "Iniciar flujo de trabajo"
 msgid "Preview"
 msgstr "Muestra"
 
-#: links.py:129 models/workflow_state_model_mixins.py:105
+#: links.py:129 models/workflow_state_model_mixins.py:117
 msgid "Actions"
 msgstr "Acciones"
 
@@ -276,7 +276,7 @@ msgstr "Crear acción"
 msgid "Create escalation"
 msgstr "Crear escalamiento"
 
-#: links.py:167 models/workflow_state_model_mixins.py:145
+#: links.py:167 models/workflow_state_model_mixins.py:157
 msgid "Escalations"
 msgstr "Escalamientos"
 
@@ -308,7 +308,7 @@ msgstr "Iniciar flujos de trabajo"
 msgid "Create field"
 msgstr "Crear campo"
 
-#: links.py:272 models/workflow_transition_model_mixins.py:44
+#: links.py:272 models/workflow_transition_model_mixins.py:61
 msgid "Fields"
 msgstr "Campos"
 
@@ -565,20 +565,20 @@ msgstr "Proxy de tiempo de ejecución de estado de flujo de trabajo"
 msgid "Workflow state runtime proxies"
 msgstr "Proxies de tiempo de ejecución de estado de flujo de trabajo"
 
-#: models/workflow_transition_field_model_mixins.py:71
+#: models/workflow_transition_field_model_mixins.py:72
 #, python-format
 msgid "Lookup value error: %s"
 msgstr "Error en valor de búsqueda: %s"
 
-#: models/workflow_transition_field_model_mixins.py:110
+#: models/workflow_transition_field_model_mixins.py:111
 msgid "Has a default?"
 msgstr "¿Tiene un valor predeterminado?"
 
-#: models/workflow_transition_field_model_mixins.py:118
+#: models/workflow_transition_field_model_mixins.py:119
 msgid "Has a lookup?"
 msgstr "¿Tiene una búsqueda?"
 
-#: models/workflow_transition_field_model_mixins.py:129
+#: models/workflow_transition_field_model_mixins.py:130
 msgid "Value is not one of the provided options."
 msgstr "El valor no es una de las opciones provistas."
 
@@ -697,7 +697,7 @@ msgid "Workflow transitions"
 msgstr "Transiciones de flujo de trabajo"
 
 #: models/workflow_transition_trigger_models.py:31
-#: serializers/workflow_template_transition_trigger_serializers.py:19
+#: serializers/workflow_template_transition_trigger_serializers.py:21
 msgid "Event type"
 msgstr "Tipo de evento"
 
@@ -801,7 +801,7 @@ msgstr "ID de transición"
 #: serializers/workflow_template_state_serializers.py:84
 #: serializers/workflow_template_transition_field_serializers.py:13
 #: serializers/workflow_template_transition_serializers.py:45
-#: serializers/workflow_template_transition_trigger_serializers.py:26
+#: serializers/workflow_template_transition_trigger_serializers.py:28
 #: workflow_actions.py:171
 msgid "URL"
 msgstr "URL"
@@ -815,7 +815,7 @@ msgstr "URL de instancia de flujo de trabajo"
 #: serializers/workflow_template_state_serializers.py:62
 #: serializers/workflow_template_transition_field_serializers.py:29
 #: serializers/workflow_template_transition_serializers.py:52
-#: serializers/workflow_template_transition_trigger_serializers.py:42
+#: serializers/workflow_template_transition_trigger_serializers.py:44
 msgid "Workflow template URL"
 msgstr "URL de plantilla de flujo de trabajo"
 
@@ -925,12 +925,12 @@ msgid "Escalations URL"
 msgstr "URL de escalamientos"
 
 #: serializers/workflow_template_transition_field_serializers.py:37
-#: serializers/workflow_template_transition_trigger_serializers.py:50
+#: serializers/workflow_template_transition_trigger_serializers.py:52
 msgid "Workflow transition ID"
 msgstr "ID de transición de flujo de trabajo"
 
 #: serializers/workflow_template_transition_field_serializers.py:41
-#: serializers/workflow_template_transition_trigger_serializers.py:54
+#: serializers/workflow_template_transition_trigger_serializers.py:56
 msgid "Workflow transition URL"
 msgstr "URL de transición de flujo de trabajo"
 
@@ -958,11 +958,11 @@ msgstr "ID del estado de origen"
 msgid "Trigger list URL"
 msgstr "URL de la lista de activadores"
 
-#: serializers/workflow_template_transition_trigger_serializers.py:22
+#: serializers/workflow_template_transition_trigger_serializers.py:24
 msgid "Event Type ID"
 msgstr "ID del tipo de evento"
 
-#: serializers/workflow_template_transition_trigger_serializers.py:116
+#: serializers/workflow_template_transition_trigger_serializers.py:118
 #, python-format
 msgid "Unknown or invalid event type ID `%s`"
 msgstr "ID de tipo de evento `%s` es desconocido o no válido"
@@ -1115,21 +1115,6 @@ msgstr "No hay documentos en este estado de flujo de trabajo."
 msgid "Documents in the workflow \"%s\", state \"%s\""
 msgstr "Documentos en el flujo de trabajo \"%s\", estado \"%s\""
 
-#: views/workflow_proxy_views.py:126
-#: views/workflow_template_state_views.py:347
-msgid "Create states and link them using transitions."
-msgstr "Crea estados y vincúlalos usando transiciones."
-
-#: views/workflow_proxy_views.py:129
-msgid "This workflow doesn't have any state"
-msgstr "Este flujo de trabajo no tiene ningún estado"
-
-#: views/workflow_proxy_views.py:132
-#: views/workflow_template_state_views.py:354
-#, python-format
-msgid "States of workflow: %s"
-msgstr "Estados del flujo de trabajo: %s"
-
 #: views/workflow_template_state_escalation_views.py:43
 #, python-format
 msgid "Create escalation for workflow state: %s"
@@ -1217,9 +1202,18 @@ msgstr "Eliminar el estado del flujo de trabajo: %s?"
 msgid "Edit workflow state: %s"
 msgstr "Editar el estado del flujo de trabajo: %s"
 
+#: views/workflow_template_state_views.py:347
+msgid "Create states and link them using transitions."
+msgstr "Crea estados y vincúlalos usando transiciones."
+
 #: views/workflow_template_state_views.py:350
 msgid "This workflow doesn't have any states"
 msgstr "Este flujo de trabajo no tiene ningún estado"
+
+#: views/workflow_template_state_views.py:354
+#, python-format
+msgid "States of workflow: %s"
+msgstr "Estados del flujo de trabajo: %s"
 
 #: views/workflow_template_transition_field_views.py:42
 #, python-format

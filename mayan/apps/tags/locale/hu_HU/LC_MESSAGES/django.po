@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Csaba Tarjányi, 2024\n"
 "Language-Team: Hungarian (Hungary) (https://app.transifex.com/rosarior/teams/13584/hu_HU/)\n"
 "MIME-Version: 1.0\n"
@@ -22,12 +22,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: apps.py:44 apps.py:131 apps.py:135 apps.py:139 apps.py:144 apps.py:148
-#: events.py:6 forms.py:27 links.py:27 menus.py:14 models.py:37
-#: permissions.py:6 views.py:183 workflow_actions.py:40 workflow_actions.py:54
+#: events.py:6 forms.py:25 links.py:27 menus.py:14 models.py:37
+#: permissions.py:6 views/tag_views.py:105 workflow_actions.py:40
+#: workflow_actions.py:54
 msgid "Tags"
 msgstr "Jelölők"
 
-#: apps.py:169 models.py:31
+#: apps.py:168 models.py:31
 msgid "Documents"
 msgstr "Dokumentumok"
 
@@ -195,89 +196,132 @@ msgstr "A dokumentumhoz hozzáadandó jelölő elsődleges kulcsa."
 msgid "Primary key of the tag to remove from the document."
 msgstr "A dokumentumból eltávolítandó jelölő elsődleges kulcsa."
 
-#: views.py:42
+#: views/document_views.py:31
 #, python-format
 msgid "Tags attached to %(count)d documents successfully."
 msgstr "%(count)d dokumentumhoz sikeresen csatolódtak jelölők."
 
-#: views.py:45
+#: views/document_views.py:34
 #, python-format
 msgid "Tags attached to document \"%(object)s\" successfully."
 msgstr "A \"%(object)s\" dokumentumhoz sikeresen csatolt jelölők."
 
-#: views.py:48
+#: views/document_views.py:37
 #, python-format
 msgid "Tags attached to %(count)d document successfully."
 msgstr "%(count)d dokumentumhoz sikeresen csatolódtak jelölők."
 
-#: views.py:50
+#: views/document_views.py:39
 #, python-format
 msgid "Attach tags to %(count)d documents."
 msgstr "Jelölők csatolása %(count)d dokumentumhoz."
 
-#: views.py:51
+#: views/document_views.py:40
 #, python-format
 msgid "Attach tags to document: %(object)s"
 msgstr "Jelölők csatolása a dokumentumhoz: %(object)s"
 
-#: views.py:52
+#: views/document_views.py:41
 #, python-format
 msgid "Attach tags to %(count)d document."
 msgstr "Jelölők csatolása a %(count)d dokumentumhoz."
 
-#: views.py:69 wizard_steps.py:82
+#: views/document_views.py:58 wizard_steps.py:82
 msgid "Tags to be attached."
 msgstr "Hozzárendelendő jelölők."
 
-#: views.py:108
+#: views/document_views.py:114
+msgid "Document has no tags attached"
+msgstr "A dokumentumhoz nincsenek jelölők csatolva"
+
+#: views/document_views.py:118
+#, python-format
+msgid "Tags for document: %s"
+msgstr "Jelölők a dokumentumon: %s"
+
+#: views/document_views.py:136
+#, python-format
+msgid "Tags removed from %(count)d documents successfully."
+msgstr "A jelölők sikeresen eltávolítva %(count)d dokumentumból."
+
+#: views/document_views.py:139
+#, python-format
+msgid "Tags removed from document \"%(object)s\" successfully."
+msgstr "A jelölők sikeresen eltávolítva a \"%(object)s\" dokumentumból."
+
+#: views/document_views.py:142
+#, python-format
+msgid "Tags removed from %(count)d document successfully."
+msgstr "A jelölők sikeresen eltávolítva %(count)d dokumentumból."
+
+#: views/document_views.py:144
+#, python-format
+msgid "Remove tags from %(count)d documents."
+msgstr "Jelölők eltávolítása %(count)d dokumentumból."
+
+#: views/document_views.py:145
+#, python-format
+msgid "Remove tags from document: %(object)s"
+msgstr "Jelölők eltávolítása a dokumentumból: %(object)s"
+
+#: views/document_views.py:146
+#, python-format
+msgid "Remove tags from %(count)d document."
+msgstr "Jelölők eltávolítása %(count)d dokumentumból."
+
+#: views/document_views.py:163
+msgid "Tags to be removed."
+msgstr "Eltávolítandó jelölők."
+
+#: views/tag_views.py:30
 msgid "Create tag"
 msgstr "Jelölő létrehozása"
 
-#: views.py:121
+#: views/tag_views.py:43
 #, python-format
 msgid "Error deleting tag \"%(instance)s\"; %(exception)s"
 msgstr "Hiba a \"%(instance)s\" címke törlésekor; %(exception)s"
 
-#: views.py:127
+#: views/tag_views.py:49
 #, python-format
 msgid "%(count)d tags deleted successfully."
 msgstr "%(count)d jelölő sikeresen törölve."
 
-#: views.py:129
+#: views/tag_views.py:51
 #, python-format
 msgid "Tag \"%(object)s\" deleted successfully."
 msgstr "A \"%(object)s\" jelölő sikeresen törölve."
 
-#: views.py:132
+#: views/tag_views.py:54
 #, python-format
 msgid "%(count)d tag deleted successfully."
 msgstr "%(count)d jelölő sikeresen törölve."
 
-#: views.py:134
+#: views/tag_views.py:56
 #, python-format
 msgid "Delete the %(count)d selected tags"
 msgstr "A %(count)d kiválasztott jelölő törlése"
 
-#: views.py:135
+#: views/tag_views.py:57
 #, python-format
 msgid "Delete tag: %(object)s"
 msgstr "Jelölő törlése: %(object)s"
 
-#: views.py:136
+#: views/tag_views.py:58
 #, python-format
 msgid "Delete the %(count)d selected tag"
 msgstr "A %(count)d kiválasztott jelölő törlése"
 
-#: views.py:142
+#: views/tag_views.py:64
 msgid "Will be removed from all documents."
 msgstr "Minden dokumentumról el lesz távolítva."
 
-#: views.py:158
+#: views/tag_views.py:80
 #, python-format
 msgid "Edit tag: %s"
 msgstr "Jelölő szerkesztése: %s"
 
-#: views.py:179
+#: views/tag_views.py:101
 msgid ""
 "Tags are color coded properties that can be attached or removed from "
 "documents."
@@ -285,57 +329,14 @@ msgstr ""
 "A jelölők színkódolt tulajdonságok, amelyek csatolhatók vagy eltávolíthatók "
 "a dokumentumokból."
 
-#: views.py:182
+#: views/tag_views.py:104
 msgid "No tags available"
 msgstr "Nincsenek elérhető jelölők"
 
-#: views.py:216
+#: views/tag_views.py:138
 #, python-format
 msgid "Documents with the tag: %s"
 msgstr "Dokumentumok a jelölővel: %s"
-
-#: views.py:245
-msgid "Document has no tags attached"
-msgstr "A dokumentumhoz nincsenek jelölők csatolva"
-
-#: views.py:249
-#, python-format
-msgid "Tags for document: %s"
-msgstr "Jelölők a dokumentumon: %s"
-
-#: views.py:267
-#, python-format
-msgid "Tags removed from %(count)d documents successfully."
-msgstr "A jelölők sikeresen eltávolítva %(count)d dokumentumból."
-
-#: views.py:270
-#, python-format
-msgid "Tags removed from document \"%(object)s\" successfully."
-msgstr "A jelölők sikeresen eltávolítva a \"%(object)s\" dokumentumból."
-
-#: views.py:273
-#, python-format
-msgid "Tags removed from %(count)d document successfully."
-msgstr "A jelölők sikeresen eltávolítva %(count)d dokumentumból."
-
-#: views.py:275
-#, python-format
-msgid "Remove tags from %(count)d documents."
-msgstr "Jelölők eltávolítása %(count)d dokumentumból."
-
-#: views.py:276
-#, python-format
-msgid "Remove tags from document: %(object)s"
-msgstr "Jelölők eltávolítása a dokumentumból: %(object)s"
-
-#: views.py:277
-#, python-format
-msgid "Remove tags from %(count)d document."
-msgstr "Jelölők eltávolítása %(count)d dokumentumból."
-
-#: views.py:294
-msgid "Tags to be removed."
-msgstr "Eltávolítandó jelölők."
 
 #: wizard_steps.py:21
 msgid "Select tags"

@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -45,11 +45,11 @@ msgstr "ཁ་གསབ་བཟོས་ཡོད།"
 msgid "Quota edited"
 msgstr "Quota རྩོམ་སྒྲིག་བྱས།"
 
-#: forms.py:15 model_mixins.py:16
+#: forms.py:14 model_mixins.py:16
 msgid "Backend"
 msgstr "རྒྱབ་ལྗོངས།"
 
-#: forms.py:16
+#: forms.py:15
 msgid "The quota driver for this entry."
 msgstr "ཐོ་འགོད་འདིའི་ཁ་གསབ་ཁ་ལོ་བ།"
 
@@ -87,7 +87,7 @@ msgstr "ཡིག་ཆའི་རིགས་།"
 
 #: mixins.py:33
 msgid "Document types to which the quota will be applied."
-msgstr "ཡིག་ཆའི་རིགས། ཁ་གསབ་དེ་བཀོལ་སྤྱོད་བྱེད་རྒྱུ་ཡིན།"
+msgstr "ཡིག་ཆའི་རིགས། ཁ་གསབ་བཀོལ་སྤྱོད་བྱེད་རྒྱུ་ཡིན།"
 
 #: mixins.py:67
 msgid "all document types"
@@ -104,7 +104,7 @@ msgstr "སྡེ་ཚན།"
 
 #: mixins.py:101
 msgid "Groups to which the quota will be applied."
-msgstr "སྡེ་ཚན་གང་ལ་ཁ་གསབ་སྤྲོད་རྒྱུ་ཡིན།"
+msgstr "སྡེ་ཚན་གང་ཞིག་ལ་ཁ་གསབ་སྤྲོད་རྒྱུ་ཡིན།"
 
 #: mixins.py:105
 msgid "All users"
@@ -198,7 +198,7 @@ msgstr "ཡིག་ཆའི་ཚད་གཞི།"
 
 #: quota_backends.py:79
 msgid "Maximum number of documents."
-msgstr "ཡིག་ཆའི་གྲངས་འབོར་མང་ཤོས།"
+msgstr "ཡིག་ཆའི་གྲངས་ཚད་མང་ཤོས།"
 
 #: quota_backends.py:83
 msgid "Document count limit"

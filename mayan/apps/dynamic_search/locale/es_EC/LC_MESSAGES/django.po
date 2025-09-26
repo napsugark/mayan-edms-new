@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-26 15:20+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Roberto Rosario, 2024\n"
 "Language-Team: Spanish (Ecuador) (https://app.transifex.com/rosarior/teams/13584/es_EC/)\n"
 "MIME-Version: 1.0\n"
@@ -36,38 +36,38 @@ msgstr "Búsqueda"
 msgid "Resultset created"
 msgstr "Conjunto de resultados creado"
 
-#: forms.py:13
+#: forms.py:12
 msgid "Store the search results to speed up paging and for later browsing."
 msgstr ""
 "Almacene los resultados de la búsqueda para acelerar la paginación y para "
 "navegar más tarde."
 
-#: forms.py:16
+#: forms.py:15
 msgid "Save results"
 msgstr "Guardar resultados"
 
-#: forms.py:22
+#: forms.py:21
 msgid "Persistency"
 msgstr "Persistencia"
 
-#: forms.py:38
+#: forms.py:37
 msgid "Match all"
 msgstr "Parear todos"
 
-#: forms.py:39
+#: forms.py:38
 msgid "Return only results that match all fields."
 msgstr "Devuelver solo los resultados que coincidan con todos los campos."
 
-#: forms.py:72
+#: forms.py:71
 msgid "Search logic"
 msgstr "Lógica de búsqueda"
 
-#: forms.py:100 templates/dynamic_search/search_box.html:43
+#: forms.py:99 templates/dynamic_search/search_box.html:43
 #: templates/dynamic_search/search_box_toolbar.html:25
 msgid "Search terms"
 msgstr "Términos de búsqueda"
 
-#: forms.py:111
+#: forms.py:110
 msgid "Criteria"
 msgstr "Criterios"
 
@@ -406,7 +406,7 @@ msgid "Sets the default state of the \"Store results\" checkbox."
 msgstr ""
 "Establece el estado predeterminado de la casilla \"Almacenar resultados\"."
 
-#: templates/dynamic_search/app/list_toolbar.html:18
+#: templates/dynamic_search/app/list_toolbar.html:24
 msgid "Filter terms"
 msgstr "Términos de filtrado"
 

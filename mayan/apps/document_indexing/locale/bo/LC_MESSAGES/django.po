@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2025-09-26 19:04+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgid "None"
 msgstr "གང་ཡང་མེད།"
 
 #: admin.py:26 links.py:88 models/index_template_models.py:50
-#: serializers.py:315
+#: serializers/index_template_serializers.py:196
 msgid "Document types"
 msgstr "ཡིག་ཆའི་རིགས་།"
 
@@ -37,7 +37,8 @@ msgstr "ཡིག་ཆའི་དཀར་ཆག་བཟོ་བ།"
 msgid "Level"
 msgstr "ཆུ་ཚད"
 
-#: apps.py:163 apps.py:194 serializers.py:20 serializers.py:60
+#: apps.py:163 apps.py:194 serializers/index_instance_serializers.py:12
+#: serializers/index_instance_serializers.py:52
 msgid "Depth"
 msgstr "ཞེང་ཚད"
 
@@ -69,35 +70,35 @@ msgstr "ཟུར་ཐོའི་དཔེ་སྒྲོམ་གསར་བ
 msgid "Index template edited"
 msgstr "དཀར་ཆག་དཔེ་སྒྲོམ་རྩོམ་སྒྲིག་བྱས།"
 
-#: forms.py:19 forms.py:24
+#: forms.py:17 forms.py:22
 msgid "Namespace"
 msgstr "མིང་གི་བར་སྟོང་།"
 
-#: forms.py:29 models/index_template_models.py:35
+#: forms.py:27 models/index_template_models.py:35
 msgid "Label"
 msgstr "ལག་ཁྱེར་།"
 
-#: forms.py:34 models/index_template_models.py:46
+#: forms.py:32 models/index_template_models.py:46
 #: models/index_template_models.py:166
 msgid "Enabled"
 msgstr "བེད་སྤྱོད་ཆོག་པ།"
 
-#: forms.py:48
+#: forms.py:46
 msgid "Index templates to be queued for rebuilding."
 msgstr "བསྐྱར་བཟོ་ཆེད་དུ་ཟུར་ཐོའི་དཔེ་སྒྲོམ་བང་སྒྲིག་དགོས།"
 
-#: forms.py:49 links.py:37 links.py:101 models/index_template_models.py:58
+#: forms.py:47 links.py:37 links.py:101 models/index_template_models.py:58
 #: views/index_template_views.py:95
 msgid "Index templates"
 msgstr "ཟུར་ཐོའི་དཔེ་སྒྲོམ།"
 
-#: forms.py:64
+#: forms.py:62
 msgid "Template"
-msgstr "དཔེ་གཞི།"
+msgstr "དཔེ་སྒྲོམ།"
 
 #: handlers.py:18
 msgid "Creation date"
-msgstr "གསར་བཟོ་དུས་ཚོད།"
+msgstr "གསར་སྐྲུན་དུས་ཚོད།"
 
 #: links.py:31 links.py:47 links.py:109 views/index_instance_views.py:42
 msgid "Indexes"
@@ -228,7 +229,7 @@ msgstr ""
 
 #: models/index_template_models.py:40
 msgid "Slug"
-msgstr "སྲུལ།"
+msgstr "སྦུལ།"
 
 #: models/index_template_models.py:44
 msgid ""
@@ -250,7 +251,7 @@ msgstr "དཀར་ཆག་དཔེ་སྒྲོམ་བྱུང་རི
 
 #: models/index_template_models.py:107
 msgid "Index template event triggers"
-msgstr "ཟུར་ཐོའི་དཔེ་སྒྲོམ་གྱི་བྱུང་རིམ་འབྱུང་ཁུངས།"
+msgstr "དཀར་ཆག་དཔེ་སྒྲོམ་གྱི་བྱུང་རིམ་འབྱུང་ཁུངས།"
 
 #: models/index_template_models.py:145
 msgid "Parent index template node of this node."
@@ -273,15 +274,14 @@ msgstr "དཀར་ཆག་མཚོན་ཚུལ།"
 #: models/index_template_models.py:163
 msgid "Causes this node to be visible and updated when document data changes."
 msgstr ""
-"ཡིག་ཆའི་གྲངས་ཐོ་འགྱུར་བ་འགྲོ་སྐབས་མཐུད་མཚམས་འདི་མཐོང་ཐུབ་པ་དང་དུས་མཐུན་བཟོ་བར་བྱེད།"
+"ཡིག་ཆའི་གྲངས་ཐོ་བསྒྱུར་བཅོས་བྱུང་སྐབས་མཐུད་མཚམས་འདི་མཐོང་ཐུབ་པ་དང་དུས་མཐུན་བཟོ་བར་བྱེད།"
 
 #: models/index_template_models.py:171
 msgid ""
 "Check this option to have this node act as a container for documents and not"
 " as a parent for further nodes."
 msgstr ""
-"གདམ་ཁ་འདི་ལ་ཞིབ་བཤེར་བྱས་ནས་མཐུད་ཁ་འདི་ཡིག་ཆའི་ཆེད་དུ་སྣོད་ཆས་ལྟར་ལས་ཀ་བྱེད་པ་དང་།"
-" མཐུད་ཁ་གཞན་པའི་ཕ་མ་ལྟར་མིན།"
+"གདམ་ཁ་འདི་ལ་ཞིབ་བཤེར་བྱས་ནས་མཐུད་ཁ་འདི་ཡིག་ཆའི་ཆེད་དུ་སྣོད་ཆས་ལྟར་ལས་ཀ་བྱེད་པ་ལས་མཐུད་ཁ་གཞན་པའི་ཆེད་དུ་ཕ་མ་ལྟར་མིན།"
 
 #: models/index_template_models.py:174
 msgid "Link documents"
@@ -359,96 +359,107 @@ msgstr "ཡིག་ཆའི་ UUID །"
 msgid "Document checksum"
 msgstr "ཡིག་ཆའི་ཞིབ་བཤེར།"
 
-#: serializers.py:23 serializers.py:69
+#: serializers/index_instance_serializers.py:15
+#: serializers/index_instance_serializers.py:61
 msgid "Node count"
 msgstr "མཐུད་ཁའི་གྲངས།"
 
-#: serializers.py:27 serializers.py:298
+#: serializers/index_instance_serializers.py:19
+#: serializers/index_template_serializers.py:179
 msgid "Nodes URL"
 msgstr "མཐུད་ཁའི་URL"
 
-#: serializers.py:30 serializers.py:76 serializers.py:146 serializers.py:209
-#: serializers.py:309
+#: serializers/index_instance_serializers.py:22
+#: serializers/index_instance_serializers.py:68
+#: serializers/index_template_serializers.py:27
+#: serializers/index_template_serializers.py:90
+#: serializers/index_template_serializers.py:190
 msgid "URL"
 msgstr "URL །"
 
-#: serializers.py:57
+#: serializers/index_instance_serializers.py:49
 msgid "Children URL"
 msgstr "བྱིས་པའི་URL"
 
-#: serializers.py:63
+#: serializers/index_instance_serializers.py:55
 msgid "Documents URL"
 msgstr "ཡིག་ཆའི་ཁ་བྱང་།"
 
-#: serializers.py:66 serializers.py:140 serializers.py:200
+#: serializers/index_instance_serializers.py:58
+#: serializers/index_template_serializers.py:21
+#: serializers/index_template_serializers.py:81
 msgid "Index URL"
 msgstr "དཀར་ཆག་URL"
 
-#: serializers.py:73 serializers.py:143 serializers.py:206
+#: serializers/index_instance_serializers.py:65
+#: serializers/index_template_serializers.py:24
+#: serializers/index_template_serializers.py:87
 msgid "Parent URL"
 msgstr "ཕ་མའི་URL"
 
-#: serializers.py:137 serializers.py:197
+#: serializers/index_template_serializers.py:18
+#: serializers/index_template_serializers.py:78
 msgid "Children"
 msgstr "བྱིས་པ་ཚོ"
 
-#: serializers.py:203
+#: serializers/index_template_serializers.py:84
 msgid "Parent"
 msgstr "ཕ་མ།"
 
-#: serializers.py:271
+#: serializers/index_template_serializers.py:152
 msgid ""
 "URL of the API endpoint showing the list document types associated with this"
 " index template."
 msgstr ""
 "དཀར་ཆག་ཚད་གཞི་འདི་དང་འབྲེལ་བའི་ཐོ་གཞུང་ཡིག་ཆའི་རིགས་སྟོན་པའི་APIམཐའ་མཚམས་ཀྱི་URL།"
 
-#: serializers.py:273
+#: serializers/index_template_serializers.py:154
 msgid "Document types URL"
 msgstr "ཡིག་ཆའི་རིགས་URL།"
 
-#: serializers.py:279
+#: serializers/index_template_serializers.py:160
 msgid "URL of the API endpoint to add document types to this index template."
 msgstr ""
 "དཀར་ཆག་ཊེམ་པེལེཊི་འདི་ལ་ཡིག་ཆའི་རིགས་ཁ་སྣོན་བྱེད་པའི་APIམཐའ་མཚམས་ཀྱི་URL།"
 
-#: serializers.py:281
+#: serializers/index_template_serializers.py:162
 msgid "Document types add URL"
 msgstr "ཡིག་ཆའི་རིགས་URLཁ་སྣོན་བྱེད།"
 
-#: serializers.py:287
+#: serializers/index_template_serializers.py:168
 msgid ""
 "URL of the API endpoint to remove document types from this index template."
 msgstr ""
 "དཀར་ཆག་ཊེམ་པེལེཊི་འདི་ནས་ཡིག་ཆའི་རིགས་མེད་པར་བཟོ་བའི་APIམཐའ་མཚམས་ཀྱི་URL།"
 
-#: serializers.py:289
+#: serializers/index_template_serializers.py:170
 msgid "Document types remove URL"
-msgstr "ཡིག་ཆའི་རིགས་URLམེད་པར་བཟོས།"
+msgstr "ཡིག་ཆའི་རིགས་ཀྱིས་URLམེད་པར་བཟོས།"
 
-#: serializers.py:294
+#: serializers/index_template_serializers.py:175
 msgid "Index template root node ID"
 msgstr "ཟུར་ཐོའི་དཔེ་སྒྲོམ་གྱི་རྩ་བའི་མཐུད་ཁའི་ID"
 
-#: serializers.py:301
+#: serializers/index_template_serializers.py:182
 msgid "Rebuild URL"
 msgstr "URLབསྐྱར་བཟོ།"
 
-#: serializers.py:305
+#: serializers/index_template_serializers.py:186
 msgid "Reset URL"
 msgstr "URLབསྐྱར་སྒྲིག་བྱེད་པ།"
 
-#: serializers.py:353
+#: serializers/index_template_serializers.py:234
 msgid "Primary key of the document type to add to the index template."
 msgstr "དཀར་ཆག་དཔེ་སྒྲོམ་ལ་ཁ་སྣོན་བྱེད་པའི་ཡིག་ཆའི་རིགས་ཀྱི་ལྡེ་མིག་གཙོ་བོ།"
 
-#: serializers.py:355 serializers.py:365
+#: serializers/index_template_serializers.py:236
+#: serializers/index_template_serializers.py:246
 msgid "Document type ID"
 msgstr "ཡིག་ཆའི་རིགས་ཀྱི་ཨང་རྟགས།"
 
-#: serializers.py:363
+#: serializers/index_template_serializers.py:244
 msgid "Primary key of the document type to remove from the index template."
-msgstr "དཀར་ཆག་དཔེ་སྒྲོམ་ནས་མེད་པར་བཟོ་བའི་ཡིག་ཆའི་རིགས་ཀྱི་གཙོ་བོའི་ལྡེ་མིག"
+msgstr "དཀར་ཆག་ཊེམ་པེལེཊི་ནས་མེད་པར་བཟོ་བའི་ཡིག་ཆའི་རིགས་ཀྱི་གཞི་རྩའི་ལྡེ་མིག"
 
 #: views/index_instance_views.py:37
 msgid ""
@@ -528,7 +539,7 @@ msgstr "དཀར་ཆག་དཔེ་སྒྲོམ་མེད།"
 #: views/index_template_views.py:127
 #, python-format
 msgid "Delete the index: %s?"
-msgstr "དཀར་ཆག་དེ་བསུབས་ %s །"
+msgstr "དཀར་ཆག་བསུབས་ %s །"
 
 #: views/index_template_views.py:139
 msgid "Available document types"
@@ -574,7 +585,7 @@ msgid ""
 "be updated."
 msgstr ""
 "འབྱུང་ཁུངས་ནི་ཡིག་ཆའི་བྱུང་རིམ་ཡིན་ཞིང་། "
-"དེས་ཟུར་ཐོའི་ཊེམ་པེལེཊི་འདིའི་གནས་ཚུལ་དུས་མཐུན་བཟོ་བར་བྱེད།"
+"དེས་ཟུར་ཐོའི་ཊེམ་པེལེཊི་འདིའི་གནས་ཚུལ་གསར་བརྗེ་བྱེད།"
 
 #: views/index_template_views.py:243
 #, python-format

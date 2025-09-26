@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -35,14 +35,14 @@ msgid ""
 "create at least a web form source to be able to upload documents from a "
 "browser."
 msgstr ""
-"ཡིག་ཆའི་འབྱུང་ཁུངས་ནི་ཡིག་ཆ་གསར་པ་ Mayan EDMSལ་སྤྲོད་པའི་ཐབས་ལམ་དེ་ཡིན།"
+"ཡིག་ཆའི་འབྱུང་ཁུངས་ནི་ཡིག་ཆ་གསར་པ་ Mayan EDMS ལ་སྤྲོད་པའི་ཐབས་ལམ་དེ་ཡིན།"
 
 #: apps.py:135
 msgid ""
 "Return the value of a specific source metadata for the document's latest "
 "file."
 msgstr ""
-"ཡིག་ཆའི་ཡིག་ཚགས་གསར་ཤོས་ཀྱི་བྱེ་བྲག་གི་འབྱུང་ཁུངས་མེ་ཊ་གཞི་གྲངས་ཀྱི་རིན་ཐང་ཕྱིར་ལོག་བྱེད།"
+"ཡིག་ཚགས་ཀྱི་ཡིག་ཚགས་གསར་ཤོས་ལ་བྱེ་བྲག་གི་འབྱུང་ཁུངས་མེ་ཊ་གཞི་གྲངས་ཀྱི་རིན་ཐང་ཕྱིར་ལོག་བྱེད།"
 
 #: apps.py:137 apps.py:144
 msgid "Source metadata value of"
@@ -64,32 +64,32 @@ msgstr "ཡོང་ཁུངས་གསར་བཟོ།"
 msgid "Source edited"
 msgstr "ཡོང་ཁུངས་སྒྲིག་འཇུག་བྱས་ཚད།"
 
-#: forms.py:25
+#: forms.py:24
 msgid "An optional comment to explain the upload."
-msgstr "ཡར་བསྐུར་འགྲེལ་བཤད་བྱེད་པའི་འདམ་ཀའི་མཆན་འགྲེལ།"
+msgstr "ཡར་བསྐུར་འགྲེལ་བཤད་རྒྱག་པའི་འདམ་ཀའི་མཆན་འགྲེལ།"
 
-#: forms.py:26
+#: forms.py:25
 msgid "Comment"
 msgstr "མཆན་འགྲེལ།"
 
-#: forms.py:32
+#: forms.py:31
 msgid "Action"
 msgstr "བྱ་སྤྱོད"
 
-#: forms.py:33
+#: forms.py:32
 msgid ""
 "The action to take in regards to the pages of the new file being uploaded."
 msgstr "ཡིག་ཆ་གསར་པ་ཡར་བསྐུར་བཞིན་པའི་ཤོག་ངོས་ལ་གཞིགས་ནས་བྱ་སྤྱོད་སྤེལ་དགོས།"
 
-#: forms.py:54
+#: forms.py:53
 msgid "The backend used to create the new source."
 msgstr "ཐོན་ཁུངས་གསར་པ་བཟོ་བར་སྤྱོད་པའི་རྒྱབ་ཕྱོགས་ཡིན།"
 
-#: forms.py:55
+#: forms.py:54
 msgid "Backend"
 msgstr "རྒྱབ་ལྗོངས།"
 
-#: forms.py:71
+#: forms.py:70
 msgid "File"
 msgstr "ཡིག་ཆ་།"
 
@@ -184,7 +184,7 @@ msgstr "ཡིག་ཆའི་འབྱུང་ཁུངས་རྩོམ་
 
 #: permissions.py:29
 msgid "View existing document sources"
-msgstr "ད་ཡོད་ཡིག་ཆའི་འབྱུང་ཁུངས་ལ་ལྟ་བ།"
+msgstr "ད་ཡོད་ཀྱི་ཡིག་ཆའི་འབྱུང་ཁུངས་ལ་ལྟ་བ།"
 
 #: queues.py:12
 msgid "Sources periodic"
@@ -192,7 +192,7 @@ msgstr "འབྱུང་ཁུངས།"
 
 #: queues.py:18
 msgid "Handle source backend action background task"
-msgstr "འབྱུང་ཁུངས་རྒྱབ་ཕྱོགས་ཀྱི་བྱ་སྤྱོད་རྒྱབ་ལྗོངས་ལས་འགན་འཛིན་པ།"
+msgstr "འབྱུང་ཁུངས་རྒྱབ་ཕྱོགས་ཀྱི་བྱ་སྤྱོད་རྒྱབ་ལྗོངས་ལས་འགན་ལག་བསྟར་བྱེད་པ།"
 
 #: queues.py:22
 msgid "Check interval source"
@@ -244,7 +244,7 @@ msgstr "བྱ་བའི་གདམ་ཀའི་སྒྲུབ་བྱེ
 
 #: serializers.py:89
 msgid "Confirmation"
-msgstr "བདེན་དཔང་།"
+msgstr "གཏན་འབེབས།"
 
 #: serializers.py:92
 msgid "Execute URL"
@@ -313,7 +313,7 @@ msgstr ""
 "ཡིག་ཆའི་ཡིག་ཆ་དེ་དུས་མཉམ་མིན་པར་ལས་སྣོན་བྱེད་ཀྱི་ཡོད། "
 "ལྕོགས་མིན་བཟོས་པའི་སྐབས་བྱ་རིམ་ཆ་ཚང་དུས་མཉམ་མིན་པར་འབྱུང་བ་དང་། "
 "ཕྱིར་ལོག་བྱེད་པའི་གནས་ཚུལ་མེད། "
-"འཕྲལ་མར་ཐབས་ལམ་ལྕོགས་ཅན་བཟོས་ན་བསྡམས་པའི་ཡིག་ཆའི་ལས་སྣོན་ལྕོགས་མིན་བཟོས།"
+"འཕྲལ་མར་ཐབས་ལམ་ལྕོགས་ཅན་བཟོས་ནས་བསྡམས་པའི་ཡིག་ཆའི་ལས་སྣོན་ལྕོགས་མིན་བཟོས།"
 
 #: source_backend_actions/mixins/arguments.py:31
 msgid "ID of the document to which a new file will be uploaded to."
@@ -329,7 +329,7 @@ msgstr "བྱ་འགུལ་ཁྲོད་འཁྲབ་སྟོན་པ
 
 #: source_backend_actions/mixins/arguments.py:81
 msgid "ID of the user that will feature as the actor in the events."
-msgstr "བྱ་འགུལ་ཁྲོད་ཀྱི་འཁྲབ་སྟོན་པ་ལྟར་མངོན་པའི་སྤྱོད་མཁན་གྱི་ཨང་རྟགས།"
+msgstr "བྱེད་སྒོའི་ནང་འཁྲབ་སྟོན་པ་ལྟར་མངོན་པའི་སྤྱོད་མཁན་གྱི་ཨང་རྟགས།"
 
 #: source_backends/base.py:101
 msgid "General"
@@ -351,7 +351,7 @@ msgstr "རྒྱུན་ལྡན་བརྗོད་པ་ཚུད་པ།
 #: source_backends/mixins.py:40
 msgid "Regular expression used to exclude which files to upload."
 msgstr ""
-"ཡིག་ཆ་གང་ཞིག་ཡར་བསྐུར་དགོས་མིན་ཕྱིར་འཐེན་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་རྒྱུན་གཏན་གྱི་བརྡ་སྟོན།"
+"ཡིག་ཆ་གང་ཞིག་ཡར་བསྐུར་དགོས་མིན་ཕྱིར་འཐེན་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་དུས་རྒྱུན་གྱི་བརྡ་སྟོན།"
 
 #: source_backends/mixins.py:44
 msgid "Exclude regular expression"
@@ -371,7 +371,7 @@ msgstr ""
 
 #: storages.py:20
 msgid "Sources cache"
-msgstr "ཐོན་ཁུངས་མཛོད་ཁང་།"
+msgstr "འབྱུང་ཁུངས་མཛོད་ཁང་།"
 
 #: tests/arguments.py:8
 msgid "Python file like object."
@@ -387,7 +387,7 @@ msgid ""
 "or enable and existing one."
 msgstr ""
 "བཀོལ་སྤྱོད་འདི་ལ་རྒྱབ་སྐྱོར་བྱེད་པའི་ལྕོགས་ཅན་གྱི་ཐོན་ཁུངས་མེད། "
-"གསར་པ་ཞིག་གསར་འཛུགས་བྱེད་པའམ་ཡང་ན་ལྕོགས་ཅན་དང་ད་ཡོད་ཅིག་བཟོས།"
+"གསར་པ་ཞིག་གསར་འཛུགས་བྱེད་པའམ་ཡང་ན་ལྕོགས་ཅན་དང་སྔར་ཡོད་ཅིག་བཟོས།"
 
 #: views/document_file_views.py:41
 msgid ""
@@ -522,7 +522,7 @@ msgstr ""
 #: views/source_views.py:329
 #, python-format
 msgid "Trigger check for source \"%s\"?"
-msgstr "འབྱུང་ཁུངས་ &quot; %s &quot; ལ་འབྱུང་ཁུངས་ཞིབ་བཤེར་བྱེད་དགོས་སམ།"
+msgstr "ཐོན་ཁུངས་ &quot; %s &quot; ལ་འབྱུང་ཁུངས་ཞིབ་བཤེར་བྱེད་དགོས་སམ།"
 
 #: views/source_views.py:345
 msgid ""
@@ -536,30 +536,30 @@ msgstr ""
 msgid "Select document type"
 msgstr "ཡིག་ཆའི་རིགས་འདེམས།"
 
-#: wizards.py:68
+#: wizards.py:66
 msgid ""
 "No interactive document sources have been defined or none have been enabled,"
 " create one before proceeding."
 msgstr ""
 "འབྲེལ་མཐུད་ཡིག་ཆའི་འབྱུང་ཁུངས་གང་ཡང་ངེས་ཚིག་བཀོད་མེད་པའམ་ཡང་ན་གཅིག་ཀྱང་ལྕོགས་ཅན་བཟོས་མེད་པས་མུ་མཐུད་མ་སྤེལ་གོང་དུ་གཅིག་གསར་འཛུགས་བྱོས།"
 
-#: wizards.py:85
+#: wizards.py:83
 #, python-format
 msgid "Step %(step)d of %(total_steps)d: %(step_label)s"
 msgstr "གོམ་པ་ %(step)d ཡི་ %(total_steps)d : %(step_label)s"
 
-#: wizards.py:91
+#: wizards.py:89
 msgid "Document upload wizard"
 msgstr "ཡིག་ཆ་ཡར་བསྐུར་མཛུབ་སྟོན།"
 
-#: wizards.py:100
+#: wizards.py:98
 msgid "First"
 msgstr "ཐོག་མ"
 
-#: wizards.py:106
+#: wizards.py:104
 msgid "Previous"
 msgstr "སྔོན་ཆད་ཀྱི"
 
-#: wizards.py:113
+#: wizards.py:111
 msgid "Next"
 msgstr "རྗེས་མ"

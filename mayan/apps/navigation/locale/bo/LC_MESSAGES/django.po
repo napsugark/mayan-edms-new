@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Navigation"
 msgstr "འགྲིམ་འགྲུལ།"
 
-#: classes.py:982
+#: source_columns.py:265
 msgid "Unnamed function"
 msgstr "མིང་མེད་པའི་ལས་འགན།"
 
@@ -35,19 +35,3 @@ msgstr "བྱ་སྤྱོད།"
 #: templates/navigation/actions_dropdown.html:18
 msgid "Toggle Dropdown"
 msgstr "གཤེར་འཇོག་བསྒྱུར།"
-
-#: templates/navigation/app/list_toolbar.html:14
-msgid "Sort by column"
-msgstr "ཐིག་ཕྲེང་ལྟར་དབྱེ་བ།"
-
-#: templates/navigation/app/list_toolbar.html:15
-msgid "--- Clear ---"
-msgstr "--- དྭངས་མ ---"
-
-#: templates/navigation/app/list_toolbar.html:18
-msgid "(ascending)"
-msgstr "(ཡར་འཛེགས་པ།)"
-
-#: templates/navigation/app/list_toolbar.html:20
-msgid "(descending)"
-msgstr "(མར་འབབ་པ།)"

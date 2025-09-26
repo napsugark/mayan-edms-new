@@ -4,21 +4,21 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Thierry Schott <DarkDare@users.noreply.github.com>, 2024
-# Olivier W, 2024
-# Roberto Rosario, 2024
-# Luc Didry, 2024
-# Guillaume Trottier <gui.trottier@gmail.com>, 2024
-# Frédéric Sheedy <sheedf@gmail.com>, 2024
 # Christophe CHAUVET <christophe.chauvet@gmail.com>, 2024
+# Guillaume Trottier <gui.trottier@gmail.com>, 2024
+# Olivier W, 2024
+# Thierry Schott <DarkDare@users.noreply.github.com>, 2024
+# Luc Didry, 2024
+# Roberto Rosario, 2024
+# Frédéric Sheedy <sheedf@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Christophe CHAUVET <christophe.chauvet@gmail.com>, 2024\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"Last-Translator: Frédéric Sheedy <sheedf@gmail.com>, 2024\n"
 "Language-Team: French (France) (https://app.transifex.com/rosarior/teams/13584/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -107,19 +107,19 @@ msgstr ""
 msgid "Total cached files."
 msgstr ""
 
-#: model_mixins.py:113 model_mixins.py:326
+#: model_mixins.py:111 model_mixins.py:324
 msgid "Current size"
 msgstr "Taille actuelle"
 
-#: model_mixins.py:115
+#: model_mixins.py:113
 msgid "Current size of the cache."
 msgstr "Taille actuelle du cache."
 
-#: model_mixins.py:123
+#: model_mixins.py:121
 msgid "Label"
 msgstr "Libellé"
 
-#: model_mixins.py:328
+#: model_mixins.py:326
 msgid "Current size of the cache partition."
 msgstr ""
 

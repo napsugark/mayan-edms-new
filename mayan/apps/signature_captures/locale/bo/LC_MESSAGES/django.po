@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -37,11 +37,11 @@ msgstr "མཚན་རྟགས་འཛིན་བཟུང་བསུབས
 msgid "Signature capture edited"
 msgstr "མཚན་རྟགས་པར་ལེན་རྩོམ་སྒྲིག་བྱས།"
 
-#: forms.py:27
+#: forms.py:26
 msgid "Asset preview image"
 msgstr "རྒྱུ་ནོར་སྔོན་ལྟའི་པར་རིས།"
 
-#: forms.py:27
+#: forms.py:26
 msgid "Preview"
 msgstr "སྔོན་ལྟ་།"
 
@@ -75,7 +75,7 @@ msgstr "མིང་རྟགས་འཛིན་པའི་གཞི་གྲ
 
 #: models.py:36
 msgid "Vector representation of the handwritten signature."
-msgstr "ལག་བྲིས་མིང་རྟགས་ཀྱི་བེག་ཊོར་མཚོན་ཚུལ།"
+msgstr "ལག་བྲིས་མཚན་རྟགས་ཀྱི་བེག་ཊོར་མཚོན་ཚུལ།"
 
 #: models.py:37
 msgid "SVG signature capture data"
@@ -83,7 +83,7 @@ msgstr "SVGམིང་རྟགས་འཛིན་པའི་གཞི་ག
 
 #: models.py:40
 msgid "Print version of the captured signature."
-msgstr "པར་ལེན་བྱས་པའི་མིང་རྟགས་ཀྱི་པར་སྐྲུན་ཐོན་རིམ།"
+msgstr "འཛིན་བཟུང་བྱས་པའི་མིང་རྟགས་ཀྱི་པར་སྐྲུན་ཐོན་རིམ།"
 
 #: models.py:41
 msgid "Text"
@@ -204,7 +204,7 @@ msgid ""
 "Arguments to pass to the "
 "SIGNATURE_CAPTURES_SIGNATURE_CAPTURE_CACHE_STORAGE_BACKEND."
 msgstr ""
-"མཚན་རྟགས་_འཛིན་བཟུང་_མཚན་རྟགས་_འཛིན་བཟུང་_མཛོད་_དོས་ཁང་_རྒྱབ་ལྗོངས་ལ་སྤྲོད་པའི་སྒྲུབ་བྱེད།"
+"མཚན་རྟགས་_འཛིན་བཟུང་_མཚན་རྟགས་_འཛིན་བཟུང་_མཛོད་_གསོག་འཇོག་_རྒྱབ་ལྗོངས་ལ་སྤྲོད་པའི་སྒྲུབ་བྱེད།"
 
 #: storages.py:14
 msgid ""

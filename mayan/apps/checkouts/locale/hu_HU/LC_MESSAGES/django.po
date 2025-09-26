@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Csaba Tarjányi, 2024\n"
 "Language-Team: Hungarian (Hungary) (https://app.transifex.com/rosarior/teams/13584/hu_HU/)\n"
 "MIME-Version: 1.0\n"
@@ -54,31 +54,31 @@ msgstr "Dokumentum nincs lefoglalva."
 msgid "Document already checked out."
 msgstr "Dokumentum már lefoglava."
 
-#: forms.py:26
+#: forms.py:25
 msgid "Document status"
 msgstr "Dokumentum állapot"
 
-#: forms.py:37 model_mixins.py:9 models.py:47 serializers.py:22
+#: forms.py:36 model_mixins.py:9 models.py:47 serializers.py:22
 msgid "User"
 msgstr "Felhasználó"
 
-#: forms.py:41
+#: forms.py:40
 msgid "Check out time"
 msgstr "Lefoglalási idő"
 
-#: forms.py:46
+#: forms.py:45
 msgid "Check out expiration"
 msgstr "Lefoglalás lejárati ideje"
 
-#: forms.py:51
+#: forms.py:50
 msgid "New files allowed?"
 msgstr "Új fájlok engedélyezettek?"
 
-#: forms.py:52
+#: forms.py:51
 msgid "Yes"
 msgstr "Igen"
 
-#: forms.py:52
+#: forms.py:51
 msgid "No"
 msgstr "Nem"
 
@@ -277,6 +277,6 @@ msgstr ""
 msgid "No documents have been checked out"
 msgstr "Nincsenek dokumentumok kikölcsönözve"
 
-#: widgets.py:20
+#: widgets.py:19
 msgid "Amount"
 msgstr "Mennyiség"

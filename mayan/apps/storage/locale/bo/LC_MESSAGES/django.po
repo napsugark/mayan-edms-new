@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -140,7 +140,7 @@ msgstr "གསོག་འཇོག་དུས་མཚམས་ཅན།"
 
 #: queues.py:22
 msgid "Delete a shared upload"
-msgstr "མཉམ་སྤྱོད་ཀྱི་ཕབ་ལེན་ཞིག་སུབ་དགོས།"
+msgstr "མཉམ་སྤྱོད་ཀྱི་ཕབ་ལེན་ཞིག་སུབ་པ།"
 
 #: queues.py:27
 msgid "Delete stale uploads"
@@ -160,7 +160,7 @@ msgstr "URL །"
 
 #: settings.py:21
 msgid "Time in seconds, after which download files will be deleted."
-msgstr "དུས་ཚོད་སྐར་ཆའི་ནང་། དེ་རྗེས་ཕབ་ལེན་ཡིག་ཆ་རྣམས་བསུབས་འགྲོ་གི་རེད།"
+msgstr "དུས་ཚོད་སྐར་ཆའི་ནང་། དེ་རྗེས་ཕབ་ལེན་ཡིག་ཆ་རྣམས་སུབ་འགྲོ་གི་རེད།"
 
 #: settings.py:27
 msgid ""
@@ -172,7 +172,7 @@ msgstr ""
 #: settings.py:38
 msgid "A storage backend that all workers can use to share files."
 msgstr ""
-"ལས་བྱེད་ཚང་མས་ཡིག་ཆ་མཉམ་སྤྱོད་བྱེད་པར་བེད་སྤྱོད་གཏོང་ཐུབ་པའི་གསོག་འཇོག་རྒྱབ་ལྗོངས་ཤིག"
+"ལས་བྱེད་ཚང་མས་ཡིག་ཆ་མཉམ་སྤྱོད་བྱེད་པར་བེད་སྤྱོད་གཏོང་ཐུབ་པའི་གསོག་འཇོག་རྒྱབ་ལྗོངས་ཤིག་རེད།"
 
 #: settings.py:48
 msgid ""

@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -24,37 +24,37 @@ msgstr ""
 msgid "Django GPG"
 msgstr "ཇང་གོ་GPG"
 
-#: apps.py:55 apps.py:61 forms.py:16
+#: apps.py:55 apps.py:61 forms.py:15
 msgid "Key ID"
 msgstr "ལྡེ་མིག་ཨང་རྟགས་"
 
-#: apps.py:65 forms.py:42 models.py:49
+#: apps.py:65 forms.py:41 models.py:49
 msgid "Type"
 msgstr "རིགས"
 
-#: apps.py:69 forms.py:23 models.py:28
+#: apps.py:69 forms.py:22 models.py:28
 msgid "Creation date"
-msgstr "གསར་སྐྲུན་དུས་ཚོད།"
+msgstr "གསར་བཟོ་དུས་ཚོད།"
 
 #: apps.py:74
 msgid "No expiration"
-msgstr "དུས་ཡོལ་མེད།"
+msgstr "དུས་ཡོལ་མེད་པ།"
 
-#: apps.py:75 forms.py:28 models.py:32
+#: apps.py:75 forms.py:27 models.py:32
 msgid "Expiration date"
 msgstr "དུས་ཡོལ་དུས་ཚོད།"
 
-#: apps.py:79 forms.py:35 models.py:39
+#: apps.py:79 forms.py:34 models.py:39
 msgid "Length"
 msgstr "རིང"
 
-#: apps.py:84 forms.py:20 models.py:45
+#: apps.py:84 forms.py:19 models.py:45
 msgid "User ID"
 msgstr "སྤྱོད་མཁན་ཨང་རྟགས།"
 
 #: dependencies.py:9
 msgid "GNU privacy guard - a PGP implementation."
-msgstr "ཇི་ཨེན་ཡུ་སྒེར་གྱི་སྲུང་སྐྱོབ་པ་ - པི་ཇི་པི་ལག་བསྟར་ཞིག་རེད།"
+msgstr "ཇི་ཨེན་ཡུ་སྒེར་གྱི་སྲུང་སྐྱོབ་པ་ - པི་ཇི་པི་ལག་བསྟར།"
 
 #: events.py:6 links.py:42 permissions.py:6
 msgid "Key management"
@@ -68,19 +68,19 @@ msgstr "ལྡེ་མིག་གསར་བཟོ།"
 msgid "Key downloaded"
 msgstr "ལྡེ་མིག་ཕབ་ལེན་བྱས།"
 
-#: forms.py:27
+#: forms.py:26
 msgid "None"
 msgstr "གང་ཡང་མེད།"
 
-#: forms.py:32 models.py:36
+#: forms.py:31 models.py:36
 msgid "Fingerprint"
 msgstr "མཛུབ་མོའི་རྟགས།"
 
-#: forms.py:38 models.py:42
+#: forms.py:37 models.py:42
 msgid "Algorithm"
 msgstr "རྩིས་གཞི།"
 
-#: forms.py:56
+#: forms.py:55
 msgid "Term"
 msgstr "དུས་ཡུན"
 
@@ -228,7 +228,7 @@ msgstr ""
 
 #: settings.py:27
 msgid "Keyserver used to query for keys."
-msgstr "ལྡེ་མིག་འདྲི་རྩད་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་ལྡེ་མིག་ཞབས་ཞུ།"
+msgstr "ལྡེ་མིག་སར་བར་ལྡེ་མིག་འདྲི་རྩད་བྱེད་པར་བེད་སྤྱོད་བྱེད།"
 
 #: views.py:42
 #, python-format
@@ -247,7 +247,7 @@ msgstr "ནང་འདྲེན་ལྡེ་མིག་ID: %s ?"
 
 #: views.py:98
 msgid "Import key"
-msgstr "ནང་འདྲེན་ལྡེ་མིག།"
+msgstr "ནང་འདྲེན་ལྡེ་མིག"
 
 #: views.py:109
 #, python-format

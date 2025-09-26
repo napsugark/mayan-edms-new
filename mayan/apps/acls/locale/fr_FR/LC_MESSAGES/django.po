@@ -5,20 +5,20 @@
 # Translators:
 # Translators:
 # Roberto Rosario, 2024
-# 3d8c9ede7eec1ed3d454abc701cf2020_b5d10da <2cc9776490f3745e0e39b80d9b76a349_955453>, 2024
+# Olivier W, 2024
 # Christophe CHAUVET <christophe.chauvet@gmail.com>, 2024
 # Luc Didry, 2024
-# Olivier W, 2024
-# Yves Dubois <ydubois@gmail.com>, 2024
 # Frédéric Sheedy <sheedf@gmail.com>, 2024
+# Yves Dubois <ydubois@gmail.com>, 2024
+# 3d8c9ede7eec1ed3d454abc701cf2020_b5d10da <2cc9776490f3745e0e39b80d9b76a349_955453>, 2024
 # Guillaume Trottier <gui.trottier@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Guillaume Trottier <gui.trottier@gmail.com>, 2024\n"
 "Language-Team: French (France) (https://app.transifex.com/rosarior/teams/13584/fr_FR/)\n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,7 @@ msgstr "Droits supprimé"
 msgid "ACL edited"
 msgstr "Droits modifié"
 
-#: forms.py:13 models.py:58 serializers.py:79 views.py:73
+#: forms.py:12 models.py:58 serializers.py:79 views.py:73
 msgid "Role"
 msgstr "Rôle"
 

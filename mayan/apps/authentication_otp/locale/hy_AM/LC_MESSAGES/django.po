@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Ara Gasparyan, 2024\n"
 "Language-Team: Armenian (Armenia) (https://app.transifex.com/rosarior/teams/13584/hy_AM/)\n"
 "MIME-Version: 1.0\n"
@@ -32,46 +32,46 @@ msgstr ""
 msgid "OTP enabled"
 msgstr ""
 
-#: forms.py:22
+#: forms.py:21
 msgid "Token is either invalid or expired."
 msgstr ""
 
-#: forms.py:27
+#: forms.py:26
 msgid "TOTP token"
 msgstr ""
 
-#: forms.py:88
+#: forms.py:87
 msgid "OTP enabled?"
 msgstr ""
 
-#: forms.py:89
+#: forms.py:88
 msgid "Yes"
 msgstr ""
 
-#: forms.py:89
+#: forms.py:88
 msgid "No"
 msgstr ""
 
-#: forms.py:106
+#: forms.py:105
 msgid ""
 "Scan the QR code or enter the secret in your authentication device. Do not "
 "share this secret, treat it like a password."
 msgstr ""
 
-#: forms.py:108 forms.py:113
+#: forms.py:107 forms.py:112
 msgid "Secret"
 msgstr ""
 
-#: forms.py:119
+#: forms.py:118
 msgid ""
 "Enter the corresponding token to validate that the secret was saved correct."
 msgstr ""
 
-#: forms.py:122
+#: forms.py:121
 msgid "Token"
 msgstr ""
 
-#: forms.py:158
+#: forms.py:157
 msgid "Token is incorrect for the specified secret."
 msgstr ""
 

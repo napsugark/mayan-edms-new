@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-02 14:06+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -126,7 +126,7 @@ msgstr "རྩིས་དཔྱད་མིང་གི་བར་སྟོང
 
 #: views.py:26
 msgid "Statistics namespaces"
-msgstr "རྩིས་དཔྱད་མིང་གི་བར་སྟོང་།"
+msgstr "རྩིས་དཔྱད་མིང་བར་སྟོང་།"
 
 #: views.py:49
 msgid "Statistics are metrics and chart representations of existing data."
@@ -144,7 +144,7 @@ msgstr "མིང་གནས་ཀྱི་ཞིབ་ཕྲ།: %s"
 #: views.py:77
 #, python-format
 msgid "Results for: %s"
-msgstr "གྲུབ་འབྲས། %s"
+msgstr "གྲུབ་འབྲས།: %s"
 
 #: views.py:97
 #, python-format
@@ -154,4 +154,5 @@ msgstr "བང་རིམ་གྱི་རྩིས་དཔྱད་ &quot; %
 #: views.py:105
 #, python-format
 msgid "Statistic \"%s\" queued successfully for update."
-msgstr "རྩིས་དཔྱད་ &quot; %s &quot; གསར་བརྗེ་ཆེད་དུ་མཐར་ཕྱིན་ངང་བང་སྒྲིག་བྱས།"
+msgstr ""
+"རྩིས་དཔྱད་ &quot; %s &quot; གསར་བརྗེ་བྱེད་པར་མཐར་ཕྱིན་ངང་བང་སྒྲིག་བྱས།"

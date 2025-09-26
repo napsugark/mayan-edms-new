@@ -5,21 +5,21 @@
 # Translators:
 # Translators:
 # Thierry Schott <DarkDare@users.noreply.github.com>, 2024
-# Luc Didry, 2024
 # Guillaume Trottier <gui.trottier@gmail.com>, 2024
 # Olivier W, 2024
-# Frédéric Sheedy <sheedf@gmail.com>, 2024
-# Yves Dubois <ydubois@gmail.com>, 2024
-# Roberto Rosario, 2024
 # Christophe CHAUVET <christophe.chauvet@gmail.com>, 2024
+# Luc Didry, 2024
+# Roberto Rosario, 2024
+# Yves Dubois <ydubois@gmail.com>, 2024
+# Frédéric Sheedy <sheedf@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
-"Last-Translator: Christophe CHAUVET <christophe.chauvet@gmail.com>, 2024\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"Last-Translator: Frédéric Sheedy <sheedf@gmail.com>, 2024\n"
 "Language-Team: French (France) (https://app.transifex.com/rosarior/teams/13584/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +31,7 @@ msgstr ""
 msgid "Permissions"
 msgstr "Autorisations"
 
-#: apps.py:107 model_mixins.py:35
+#: apps.py:106 model_mixins.py:35
 msgid "Group count"
 msgstr "Nombre de groupes"
 

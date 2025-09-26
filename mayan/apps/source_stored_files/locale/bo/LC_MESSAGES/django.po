@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -52,13 +52,13 @@ msgstr "ལས་སྣོན་བྱེད་པར་གསོག་འཇོ
 msgid ""
 "Execute source backend specific, built-in post processing clean up code."
 msgstr ""
-"ཐོན་ཁུངས་རྒྱབ་ཕྱོགས་དམིགས་བསལ་གྱི་ནང་འཇུག་བྱས་པའི་རྗེས་ཀྱི་ལས་སྣོན་གཙང་བཟོའི་གསང་ཚིག་ལག་བསྟར་བྱེད།"
+"ཐོན་ཁུངས་རྒྱབ་ཕྱོགས་དམིགས་བསལ་གྱི་ནང་འཇུག་བྱས་པའི་རྗེས་ཀྱི་ལས་སྣོན་གཙང་བཟོའི་གསང་གྲངས་ལག་བསྟར་བྱེད།"
 
 #: source_backend_actions/arguments.py:18
 msgid ""
 "Unique identifier to select which source backend stored file to process."
 msgstr ""
-"ཐོན་ཁུངས་རྒྱབ་ཕྱོགས་གསོག་འཇོག་བྱས་པའི་ཡིག་ཆ་གང་ཞིག་ལ་ལས་སྣོན་བྱེད་དགོས་མིན་འདེམས་པའི་ཆེད་དུ་ངོས་འཛིན་བྱེད་མཁན།"
+"ཐོན་ཁུངས་རྒྱབ་ཕྱོགས་གསོག་འཇོག་བྱས་པའི་ཡིག་ཆ་གང་ཞིག་ལས་སྣོན་བྱེད་དགོས་མིན་འདེམས་པའི་ཆེད་དུ་ངོས་འཛིན་བྱེད་མཁན།"
 
 #: source_backend_actions/mixins.py:74
 msgid "Stored file"

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -176,7 +176,7 @@ msgstr "སྤྱོད་མཁན་གྱི་སྒྲིག་བཀོད
 
 #: permissions.py:10
 msgid "Create new groups"
-msgstr "སྡེ་ཚན་གསར་འཛུགས་བྱེད་པ།"
+msgstr "སྡེ་ཚན་གསར་བ་གསར་འཛུགས་བྱེད་པ།"
 
 #: permissions.py:13
 msgid "Delete existing groups"
@@ -200,7 +200,7 @@ msgstr "ད་ཡོད་སྤྱོད་མཁན་རྣམས་སུབ
 
 #: permissions.py:28
 msgid "Edit existing users"
-msgstr "ད་ཡོད་ཀྱི་སྤྱོད་མཁན་རྩོམ་སྒྲིག་བྱེད་པ།"
+msgstr "ད་ཡོད་སྤྱོད་མཁན་རྩོམ་སྒྲིག་བྱེད་པ།"
 
 #: permissions.py:31
 msgid "View existing users"
@@ -228,7 +228,7 @@ msgstr "URL །"
 
 #: serializers.py:48
 msgid "Primary key of the user to add to the group."
-msgstr "སྡེ་ཚན་ལ་ཁ་སྣོན་བྱེད་པའི་སྤྱོད་མཁན་གྱི་ལྡེ་མིག་གཙོ་བོ།"
+msgstr "སྡེ་ཚན་ནང་ཁ་སྣོན་བྱེད་པའི་སྤྱོད་མཁན་གྱི་ལྡེ་མིག་གཙོ་བོ།"
 
 #: serializers.py:49 serializers.py:58
 msgid "User ID"
@@ -241,7 +241,7 @@ msgstr "སྡེ་ཚན་ནས་ཕྱིར་འཐེན་བྱེད
 #: serializers.py:66
 msgid "URL of the API endpoint showing the list groups this user belongs to."
 msgstr ""
-"བེད་སྤྱོད་པ་འདི་གང་ལ་གཏོགས་པའི་ཐོ་གཞུང་སྡེ་ཚན་སྟོན་པའི་APIམཐའ་མཚམས་ཀྱི་URLཡིན།"
+"བཀོལ་སྤྱོད་པ་འདི་གང་ལ་གཏོགས་པའི་ཐོ་གཞུང་སྡེ་ཚན་སྟོན་པའི་APIམཐའ་མཚམས་ཀྱི་URLཡིན།"
 
 #: serializers.py:68
 msgid "Groups URL"
@@ -279,7 +279,7 @@ msgstr "འདེམས་སྒྲུག་བྱས་པའི་སྡེ་
 #: views/group_views.py:51
 #, python-format
 msgid "Delete group: %(object)s."
-msgstr "སྡེ་ཚན %(object)s"
+msgstr "སྡེ་ཚན། %(object)s །"
 
 #: views/group_views.py:52
 #, python-format

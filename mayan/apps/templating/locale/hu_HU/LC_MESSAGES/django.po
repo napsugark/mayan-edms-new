@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Csaba Tarjányi, 2024\n"
 "Language-Team: Hungarian (Hungary) (https://app.transifex.com/rosarior/teams/13584/hu_HU/)\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Language: hu_HU\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps.py:21 permissions.py:6
+#: apps.py:21 permissions.py:6 settings.py:94
 msgid "Templating"
 msgstr "Sablonozás"
 
@@ -30,34 +30,27 @@ msgid "Current date and time"
 msgstr ""
 
 #: fields.py:28
-#, python-format
-msgid ""
-"Use Django's default templating language "
-"(https://docs.djangoproject.com/en/%(django_version)s/ref/templates/builtins/)."
-" "
+msgid "Use Django's default templating language. "
 msgstr ""
-"A Django alapértelmezett sablonozó nyelvének használata "
-"(https://docs.djangoproject.com/en/%(django_version)s/ref/templates/builtins/)."
-" "
 
-#: fields.py:43
+#: fields.py:42
 #, python-format
 msgid "Available template context variables: %s"
 msgstr ""
 
-#: forms.py:9
+#: forms.py:10
 msgid "Resulting text from the evaluated template."
 msgstr "Eredmény szöveg a kiértékelt sablonból."
 
-#: forms.py:10
+#: forms.py:11
 msgid "Result"
 msgstr "Eredmény"
 
-#: forms.py:20
+#: forms.py:25
 msgid "The template string to be evaluated."
 msgstr ""
 
-#: forms.py:21
+#: forms.py:26
 msgid "Template"
 msgstr "Sablon"
 
@@ -85,28 +78,34 @@ msgstr ""
 msgid "URL"
 msgstr "URL"
 
-#: views.py:45
+#: settings.py:101
+msgid ""
+"Theme name of the CSS stylesheet used to change the visual appearance of the"
+" template preview."
+msgstr ""
+
+#: views.py:44
 #, python-format
 msgid "Template sandbox for: %s"
 msgstr ""
 
-#: views.py:67
+#: views.py:66
 #, python-format
 msgid "Template error; %(exception)s"
 msgstr ""
 
-#: widgets.py:69
+#: widgets.py:42
 msgid "Filters"
 msgstr ""
 
-#: widgets.py:76
+#: widgets.py:49
 msgid "Tags"
 msgstr "Jelölők"
 
-#: widgets.py:83
+#: widgets.py:56
 msgid "<Filters and tags>"
 msgstr "<Filters and tags>"
 
-#: widgets.py:128
+#: widgets.py:129
 msgid "<Model attributes>"
 msgstr "<Model attributes>"

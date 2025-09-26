@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"POT-Creation-Date: 2025-09-26 19:04+0000\n"
 "PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Roberto Rosario, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/rosarior/teams/13584/es/)\n"
@@ -88,7 +88,7 @@ msgstr "Habilitado"
 msgid "Index templates to be queued for rebuilding."
 msgstr "Las plantillas de índice se pondrán en cola para su reconstrucción."
 
-#: forms.py:47 links.py:37 models/index_template_models.py:58
+#: forms.py:47 links.py:37 links.py:101 models/index_template_models.py:58
 #: views/index_template_views.py:95
 msgid "Index templates"
 msgstr "Plantillas de índice"

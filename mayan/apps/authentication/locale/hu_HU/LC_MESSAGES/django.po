@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: Csaba Tarjányi, 2024\n"
 "Language-Team: Hungarian (Hungary) (https://app.transifex.com/rosarior/teams/13584/hu_HU/)\n"
 "MIME-Version: 1.0\n"
@@ -42,19 +42,19 @@ msgstr "Felhasználó bejelentkezve"
 msgid "User logged out"
 msgstr "Felhasználó kijelentkezve"
 
-#: forms.py:34
+#: forms.py:33
 msgid "Remember me"
 msgstr "Emlékezzen rám"
 
-#: forms.py:81
+#: forms.py:80
 msgid "Permanent"
 msgstr "Állandó"
 
-#: forms.py:82
+#: forms.py:81
 msgid "If selected, disables ending impersonation."
 msgstr "Ha kiválasztja, letiltja a megszemélyesítés befejezését."
 
-#: forms.py:93
+#: forms.py:92
 msgid "User"
 msgstr "Felhasználó"
 

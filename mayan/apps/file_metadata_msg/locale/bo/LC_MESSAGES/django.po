@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-11 10:34+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:11
+msgid "File metadata MSG"
+msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་MSG"
+
+#: drivers.py:15
+msgid ""
+"Extracts information from emails saved in Microsoft Outlook's .msg files."
+msgstr ""
+"མའི་ཀོརོ་སོཕཊི་ཨའུཊ་ལུག་གི་ .msg "
+"ཡིག་ཆའི་ནང་གསོག་འཇོག་བྱས་པའི་གློག་འཕྲིན་ནས་གནས་ཚུལ་འདོན་སྤེལ་བྱེད།"
+
+#: drivers.py:22
+msgid "Extract msg"
+msgstr "msg བཏོན་པ།"

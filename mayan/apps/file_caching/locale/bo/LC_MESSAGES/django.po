@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr "ཡིག་ཚགས་གསོག་འཇོག་བྱེད་པ
 
 #: dashboard_widgets.py:16
 msgid "Total cache allocated"
-msgstr "ཁྱོན་བསྡོམས་མཛོད་བགོས་ཡོད།"
+msgstr "ཁྱོན་བསྡོམས་མཛོད་བགོས་བྱས་པ།"
 
 #: dashboard_widgets.py:45
 msgid "Total cache used"
@@ -100,19 +100,19 @@ msgstr "བགོད་ཡིག་གི་གྲངས་འབོར།"
 msgid "Total cached files."
 msgstr "བསྡོམས་པས་ཡིག་ཆ།"
 
-#: model_mixins.py:113 model_mixins.py:326
+#: model_mixins.py:111 model_mixins.py:324
 msgid "Current size"
 msgstr "ད་ལྟའི་ཆེ་ཆུང་།"
 
-#: model_mixins.py:115
+#: model_mixins.py:113
 msgid "Current size of the cache."
 msgstr "ད་ལྟའི་མཛོད་ཀྱི་ཚད་གཞི།"
 
-#: model_mixins.py:123
+#: model_mixins.py:121
 msgid "Label"
 msgstr "ལག་ཁྱེར་།"
 
-#: model_mixins.py:328
+#: model_mixins.py:326
 msgid "Current size of the cache partition."
 msgstr "ད་ལྟའི་འདྲ་མཛོད་བར་ཁམས་ཀྱི་ཚད་གཞི།"
 
@@ -197,7 +197,7 @@ msgid ""
 "Number of times a cache will retry failed attempts to prune files to free up"
 " space for new a file being requested, before giving up."
 msgstr ""
-"ཡིག་ཆ་གསར་པ་རེ་ཞུ་བྱེད་པའི་ཆེད་དུ་ས་ཆ་གསར་པ་བཏོན་པའི་ཆེད་དུ་ཡིག་ཆ་གཅོད་པའི་ཚོད་ལྟ་འཐུས་ཤོར་བྱུང་བ་དེ་ཚོ་ཐེངས་ག་ཚོད་ལ་མཛོད་ཁང་གིས་བསྐྱར་དུ་ཚོད་ལྟ་བྱེད་ཀྱི་ཡོད་དམ།"
+"ཡིག་ཆ་གསར་པའི་རེ་འདུན་ལ་ས་ཆ་གསར་པ་བཏོན་པའི་ཆེད་དུ་ཡིག་ཆ་གཅོད་པའི་ཚོད་ལྟ་འཐུས་ཤོར་བྱུང་བ་དེ་ཚོ་ཐེངས་ག་ཚོད་ལ་མཛོད་ཁང་གིས་བསྐྱར་དུ་ཚོད་ལྟ་བྱེད་ཀྱི་ཡོད་དམ།"
 
 #: settings.py:25
 msgid ""
@@ -223,11 +223,11 @@ msgstr "%s"
 #: views.py:87
 #, python-format
 msgid "Purge cache partitions of \"%s\"?"
-msgstr "&quot; %s &quot; ཡི་མཛོད་བར་ཁམས་གཙང་མ་བཟོ་དགོས་སམ།"
+msgstr "&quot; %s &quot; ཡི་མཛོད་བར་བཅད་གཙང་མ་བཟོ་དགོས་སམ།"
 
 #: views.py:104
 msgid "Object cache partitions submitted for purging."
-msgstr "དངོས་པོའི་འདྲ་མཛོད་ཀྱི་བགོད་སྒྲིག་རྣམས་གཙང་བཟོ་ཆེད་དུ་ཕུལ་ཡོད།"
+msgstr "དངོས་པོའི་འདྲ་མཛོད་ཀྱི་བགོད་སྒྲིག་གཙང་བཟོ་ཆེད་དུ་ཕུལ་ཡོད།"
 
 #: views.py:114
 #, python-format

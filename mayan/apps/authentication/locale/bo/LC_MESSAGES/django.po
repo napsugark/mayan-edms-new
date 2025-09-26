@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -40,19 +40,19 @@ msgstr "སྤྱོད་མཁན་ཐོ་འགོད་བྱས།"
 msgid "User logged out"
 msgstr "སྤྱོད་མཁན་ཕྱིར་བུད་ཟིན།"
 
-#: forms.py:34
+#: forms.py:33
 msgid "Remember me"
 msgstr "ང་དྲན་རོགས།"
 
-#: forms.py:81
+#: forms.py:80
 msgid "Permanent"
 msgstr "གཏན་འཇགས།"
 
-#: forms.py:82
+#: forms.py:81
 msgid "If selected, disables ending impersonation."
 msgstr "གལ་ཏེ་འདེམས་ན་རྫུན་བཟོ་མཇུག་སྒྲིལ་བ་ལྕོགས་མིན་བཟོས།"
 
-#: forms.py:93
+#: forms.py:92
 msgid "User"
 msgstr "བེད་སྤྱོད་པ་།"
 
@@ -145,7 +145,7 @@ msgstr "གསང་གྲངས་བརྗེད་སོང་ངམ།"
 #: templates/authentication/password_reset_form.html:8
 #: templates/authentication/password_reset_form.html:20
 msgid "Password reset"
-msgstr "གསང་གྲངས་སླར་གསོ་བྱེད་པ།"
+msgstr "གསང་གྲངས་བསྐྱར་སྒྲིག་བྱེད་པ།"
 
 #: templates/authentication/password_reset_complete.html:15
 msgid "Password reset complete! Click the link below to login."
@@ -216,7 +216,7 @@ msgstr "སྤྱོད་མཁན་གྱི་གསང་གྲངས་བ
 #: views/authentication_views.py:435
 #, python-format
 msgid "Successful password reset for user: %s."
-msgstr "བཀོལ་སྤྱོད་པའི་ཆེད་དུ་གསང་གྲངས་སླར་གསོ་མཐར་ཕྱིན་བྱས། %s"
+msgstr "བཀོལ་སྤྱོད་པའི་ཆེད་དུ་གསང་གྲངས་སླར་གསོ་མཐར་ཕྱིན་བྱས། %s ."
 
 #: views/authentication_views.py:441
 #, python-format
@@ -227,4 +227,4 @@ msgstr ""
 #: views/impersonation_views.py:87
 #, python-format
 msgid "Impersonate user: %s"
-msgstr "སྤྱོད་མཁན་རྫུས་མ་བཟོས།: %s"
+msgstr "སྤྱོད་མཁན་ %s"
