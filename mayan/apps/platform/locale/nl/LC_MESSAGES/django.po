@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-24 18:50+0000\n"
+"POT-Creation-Date: 2025-09-26 15:20+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: Roberto Rosario, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/rosarior/teams/13584/nl/)\n"
@@ -45,11 +45,11 @@ msgstr ""
 msgid "Template that generates a GitLab CI config file."
 msgstr ""
 
-#: classes.py:606
+#: classes.py:611
 msgid "Template for Supervisord."
 msgstr "Sjabloon voor Supervisord."
 
-#: classes.py:680
+#: classes.py:685
 msgid "Template showing the queues of a worker."
 msgstr "Sjabloon dat de wachtrij van een gebruiker toont."
 

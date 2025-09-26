@@ -1,0 +1,816 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-07 07:28+0000\n"
+"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:37 events.py:6 permissions.py:6 queues.py:7 settings.py:22
+msgid "Converter"
+msgstr "བསྒྱུར་ཆས།"
+
+#: apps.py:88 forms.py:44
+msgid "Transformation"
+msgstr "བསྒྱུར་བཅོས།"
+
+#: backends/python.py:105
+#, python-format
+msgid "Exception determining page count using Pillow; %s"
+msgstr "སྔས་མགོ་བེད་སྤྱད་དེ་ཤོག་ངོས་གྲངས་ཚད་གཏན་འབེབས་བྱེད་པའི་ཁྱད་པར་། %s"
+
+#: backends/python.py:193 backends/python.py:210
+#, python-format
+msgid "Exception determining PDF page count; %s"
+msgstr "དམིགས་བསལ་གྱི་PDFཤོག་གྲངས་གཏན་འབེབས་བྱེད། %s"
+
+#: classes.py:201
+msgid "LibreOffice not installed or not found."
+msgstr "LibreOffice སྒྲིག་འཇུག་བྱས་མེད་པའམ་རྙེད་མེད།"
+
+#: classes.py:307
+msgid "Not an office file format."
+msgstr "ཡིག་ཚང་གི་ཡིག་ཆའི་རྣམ་པ་མ་རེད།"
+
+#: classes.py:443
+msgid ""
+"Transformations allow changing the visual appearance of documents without "
+"making permanent changes to the document file themselves."
+msgstr ""
+"བསྒྱུར་བཅོས་ཀྱིས་ཡིག་ཆའི་ཡིག་ཆ་རང་ཉིད་ལ་གཏན་འཇགས་བསྒྱུར་བཅོས་མ་བྱེད་པར་ཡིག་ཆའི་མངོན་ཚུལ་བསྒྱུར་བཅོས་བྱེད་ཐུབ།"
+
+#: dependencies.py:14
+msgid "Utility from the poppler-utils package used to inspect PDF files."
+msgstr ""
+"PDFཡིག་ཆ་ཞིབ་བཤེར་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་poppler-"
+"utilsཐུམ་སྒྲིལ་ནས་བེད་སྤྱོད།"
+
+#: dependencies.py:19
+msgid ""
+"Utility from the popper-utils package used to extract pages from PDF files "
+"into PPM format images."
+msgstr ""
+"ཤོག་ངོས་དེ་PDFཡིག་ཆ་ནས་PPMརྩ་སྒྲིག་པར་རིས་ནང་དུ་འཐེན་པར་བེད་སྤྱོད་བྱེད་པའི་popper-"
+"utilsཐུམ་སྒྲིལ་ནས་བཀོལ་སྤྱོད།"
+
+#: events.py:10
+msgid "Asset created"
+msgstr "རྒྱུ་ནོར་གསར་སྐྲུན་བྱས།"
+
+#: events.py:13
+msgid "Asset edited"
+msgstr "རྒྱུ་དངོས་རྩོམ་སྒྲིག་བྱས།"
+
+#: forms.py:17
+msgid "Asset preview image"
+msgstr "རྒྱུ་ནོར་སྔོན་ལྟའི་པར་རིས།"
+
+#: forms.py:18
+msgid "Preview"
+msgstr "སྔོན་ལྟ་།"
+
+#: forms.py:43
+msgid "Available transformations for this layer."
+msgstr "བང་རིམ་འདིའི་ཆེད་དུ་བསྒྱུར་བཅོས་ཐོབ་ཐུབ།"
+
+#: forms.py:94
+#, python-format
+msgid "\"%s\" not a valid entry."
+msgstr "&quot; %s &quot; ནུས་ལྡན་གྱི་ཐོ་འགོད་མིན།"
+
+#: layers.py:12
+msgid ""
+"Decorations are visual elements that add contextual information to images."
+msgstr ""
+"མཛེས་རྒྱན་ནི་པར་རིས་ལ་སྐབས་དོན་གྱི་ཆ་འཕྲིན་ཁ་སྣོན་བྱེད་པའི་མངོན་ཚུལ་གྱི་ཆ་ཤས་ཤིག་རེད།"
+
+#: layers.py:14
+msgid "Decorations"
+msgstr "རྒྱན་ཆ་།"
+
+#: layers.py:26
+msgid "Saved transformations"
+msgstr "ཉར་ཚགས་བྱས་པའི་སྒྱུར་བཅོས།"
+
+#: links.py:35 views/asset_views.py:36
+msgid "Create asset"
+msgstr "རྒྱུ་ནོར་གསར་སྐྲུན་བྱེད་པ།"
+
+#: links.py:38 links.py:44 links.py:68
+msgid "Delete"
+msgstr "བསུབ་པ།"
+
+#: links.py:48 links.py:72
+msgid "Edit"
+msgstr "བཅོས་པ།"
+
+#: links.py:52 links.py:60 models.py:54 storages.py:21
+#: views/asset_views.py:144
+msgid "Assets"
+msgstr "སྐམ་ཆས"
+
+#: links.py:77 workflow_actions.py:76
+msgid "Transformations"
+msgstr "བསྒྱུར་བཅོས།"
+
+#: links.py:82
+msgid "Select new transformation"
+msgstr "སྒྱུར་བཅོས་གསར་པ་འདེམས།"
+
+#: model_mixins.py:120
+msgid "Badly formatted arguments YAML"
+msgstr "རྩ་སྒྲིག་ངན་པའི་སྒྲུབ་བྱེད་YAML"
+
+#: model_mixins.py:131 models.py:168
+msgid "Arguments"
+msgstr "རྩོད་པ།"
+
+#: models.py:37
+msgid "Label"
+msgstr "ལག་ཁྱེར་།"
+
+#: models.py:41
+msgid ""
+"This value will be used when referencing this asset. Can only contain "
+"letters, numbers, and underscores."
+msgstr ""
+"རིན་ཐང་འདི་རྒྱུ་ནོར་འདི་ལ་གཞི་གྲངས་བྱེད་སྐབས་བེད་སྤྱོད་གཏོང་རྒྱུ་རེད། "
+"ཡི་གེ་དང་ཨང་གྲངས་དང་འོག་ཐིག་ཁོ་ན་འདུས་ཐུབ།"
+
+#: models.py:44
+msgid "Internal name"
+msgstr "ནང་ཁུལ་གྱི་མིང་།"
+
+#: models.py:48
+msgid "File"
+msgstr "ཡིག་ཆ་།"
+
+#: models.py:53 transformation_mixins.py:313
+msgid "Asset"
+msgstr "མཁར་དབང"
+
+#: models.py:89 models.py:160 serializers.py:10
+msgid "Name"
+msgstr "མིང"
+
+#: models.py:92 models.py:157
+msgid "Order"
+msgstr "གོ་རིམ"
+
+#: models.py:97 models.py:123
+msgid "Stored layer"
+msgstr "གསོག་འཇོག་བྱས་པའི་བང་རིམ།"
+
+#: models.py:98
+msgid "Stored layers"
+msgstr "གསོག་འཇོག་བྱས་པའི་བང་རིམ།"
+
+#: models.py:110
+msgid "Content type"
+msgstr "ནང་དོན་གྱི་རིགས།"
+
+#: models.py:113
+msgid "Object ID"
+msgstr "དངོས་པོའི་ཨང་རྟགས།"
+
+#: models.py:119 models.py:171
+msgid "Enabled"
+msgstr "བེད་སྤྱོད་ཆོག་པ།"
+
+#: models.py:131 models.py:151
+msgid "Object layer"
+msgstr "དངོས་པོའི་བང་རིམ།"
+
+#: models.py:132
+msgid "Object layers"
+msgstr "དངོས་པོའི་བང་རིམ།"
+
+#: models.py:155
+msgid ""
+"Order in which the transformations will be executed. If left unchanged, an "
+"automatic order value will be assigned."
+msgstr ""
+"བསྒྱུར་བཅོས་དེ་དག་ལག་བསྟར་བྱེད་པའི་གོ་རིམ། "
+"གལ་ཏེ་བསྒྱུར་བཅོས་མ་བཏང་ན་རང་འགུལ་གྱི་གོ་རིམ་རིན་ཐང་སྤྲོད་རྒྱུ་རེད།"
+
+#: models.py:164
+msgid ""
+"Enter the arguments for the transformation as a YAML dictionary. ie: "
+"{\"degrees\": 180}"
+msgstr ""
+"སྒྱུར་བཅོས་ཀྱི་སྒྲུབ་བྱེད་དེ་YAMLཚིག་མཛོད་ལྟར་བཙུགས། ie: "
+"{&quot;ཁུག་ཚད་&quot;: 180}"
+
+#: models.py:179
+msgid "Layer transformation"
+msgstr "བང་རིམ་སྒྱུར་བཅོས།"
+
+#: models.py:180
+msgid "Layer transformations"
+msgstr "བང་རིམ་སྒྱུར་བཅོས།"
+
+#: models.py:188
+msgid "Unknown transformation class"
+msgstr "མ་ཤེས་པའི་སྒྱུར་འཛིན་འཛིན་གྲྭ།"
+
+#: permissions.py:10
+msgid "Create new assets"
+msgstr "རྒྱུ་ནོར་གསར་པ་གཏོད་པ།"
+
+#: permissions.py:13
+msgid "Delete assets"
+msgstr "རྒྱུ་ནོར་བསུབ་པ།"
+
+#: permissions.py:16
+msgid "Edit assets"
+msgstr "རྒྱུ་དངོས་རྩོམ་སྒྲིག་བྱེད་པ།"
+
+#: permissions.py:19
+msgid "View existing assets"
+msgstr "ད་ཡོད་ཀྱི་རྒྱུ་ནོར་ལ་ལྟ་བ།"
+
+#: permissions.py:23
+msgid "Create new transformations"
+msgstr "འགྱུར་ལྡོག་གསར་པ་གཏོད་པ།"
+
+#: permissions.py:27
+msgid "Delete transformations"
+msgstr "སྒྱུར་བཅོས་སུབ་པ།"
+
+#: permissions.py:30
+msgid "Edit transformations"
+msgstr "སྒྱུར་བཅོས་རྩོམ་སྒྲིག།"
+
+#: permissions.py:33
+msgid "View existing transformations"
+msgstr "ད་ཡོད་ཀྱི་འགྱུར་ལྡོག་ལ་ལྟ་བ།"
+
+#: queues.py:13
+msgid "Generate a image of an object."
+msgstr "དངོས་པོ་ཞིག་གི་གཟུགས་བརྙན་བཟོས།"
+
+#: serializers.py:13
+msgid "Image path"
+msgstr "པར་རིས་འགྲོ་ལམ།"
+
+#: serializers.py:16 serializers.py:32
+msgid "Image URL"
+msgstr "པར་གྱི་ URL །"
+
+#: serializers.py:21
+msgid "Template name"
+msgstr "དཔེ་སྒྲོམ་གྱི་མིང་།"
+
+#: serializers.py:24 serializers.py:39
+msgid "URL"
+msgstr "URL །"
+
+#: settings.py:31
+msgid ""
+"The threshold at which the CONVERTER_ASSET_CACHE_STORAGE_BACKEND will start "
+"deleting the oldest asset cache files. Specify the size in bytes."
+msgstr ""
+"CONVERTER_ASSET_CACHE_STORAGE_BACKEND "
+"གིས་རྒྱུ་ནོར་གྱི་མཛོད་ཡིག་ཆ་རྙིང་ཤོས་བསུབས་འགོ་ཚུགས་པའི་ཚད་གཞི། "
+"ཚད་དེ་བཱའིཊི་ནང་གསལ་བཀོད་འབད།"
+
+#: settings.py:40
+msgid ""
+"Path to the Storage subclass to use when storing the cached asset files."
+msgstr ""
+"འདྲ་མཛོད་ཀྱི་རྒྱུ་ནོར་ཡིག་ཆ་གསོག་འཇོག་བྱེད་སྐབས་བེད་སྤྱོད་གཏོང་བའི་གསོག་འཇོག་སྡེ་ཚན་ཆུང་བ་ལ་འགྲོ་ལམ།"
+
+#: settings.py:48
+msgid "Arguments to pass to the CONVERTER_ASSET_CACHE_STORAGE_BACKEND."
+msgstr ""
+"བསྒྱུར་ཆས་_རྒྱུ་དངོས་_མཛོད་_དངོས་ཟོག་_རྒྱབ་ལྗོངས་ལ་སྤྲོད་པའི་སྒྲུབ་བྱེད།"
+
+#: settings.py:55
+msgid "Path to the Storage subclass to use when storing assets."
+msgstr ""
+"རྒྱུ་ནོར་གསོག་འཇོག་བྱེད་སྐབས་བེད་སྤྱོད་གཏོང་བའི་གསོག་འཇོག་སྡེ་ཚན་ཆུང་བ་ལ་འགྲོ་ལམ།"
+
+#: settings.py:61
+msgid "Arguments to pass to the CONVERTER_ASSET_STORAGE_BACKEND."
+msgstr "བསྒྱུར་ཆས་རྒྱུ་ནོར་གསོག་འཇོག་རྒྱབ་ལྗོངས་ལ་སྤྲོད་པའི་སྒྲུབ་བྱེད།"
+
+#: settings.py:67
+msgid "Graphics conversion backend to use."
+msgstr "པར་རིས་སྒྱུར་བཅོས་རྒྱབ་ཕྱོགས་བེད་སྤྱོད་གཏོང་དགོས།"
+
+#: settings.py:73
+msgid "Configuration options for the graphics conversion backend."
+msgstr "རི་མོ་སྒྱུར་བཀོད་རྒྱབ་ཕྱོགས་ཀྱི་སྒྲིག་བཀོད་གདམ་ཁ།"
+
+#: settings.py:80
+msgid "Time in seconds that the browser should cache the supplied image."
+msgstr "དྲ་ལྗོངས་ཀྱིས་མཁོ་སྤྲོད་བྱས་པའི་པར་རིས་དེ་སྐར་ཆའི་ནང་དུས་ཚོད།"
+
+#: settings.py:88
+msgid ""
+"Maximum number of retries before giving up. A value of None means the task "
+"will retry forever."
+msgstr ""
+"སེམས་ཤིག་མ་བཏང་གོང་དུ་བསྐྱར་དུ་ཚོད་ལྟ་བྱེད་པའི་ཆེས་མཐོ་བའི་གྲངས་འབོར། "
+"རིན་ཐང་མེད་པའི་དོན་ནི་ལས་འགན་དེ་རྟག་ཏུ་བསྐྱར་དུ་ཚོད་ལྟ་བྱེད་རྒྱུ་ཡིན་པ་སྟོན་གྱི་ཡོད།"
+
+#: settings.py:96
+msgid ""
+"Time in seconds after which the image generation task will stop running and "
+"raise an error."
+msgstr ""
+"སྐར་ཆའི་ནང་དུས་ཚོད། "
+"དེ་རྗེས་པར་རིས་བཟོ་སྐྲུན་ལས་འགན་དེ་བཀོལ་སྤྱོད་བྱེད་མཚམས་འཇོག་པ་དང་ནོར་འཁྲུལ་འབྱུང་བ་རེད།"
+
+#: settings.py:104
+msgid "Whether or not to load truncated image files."
+msgstr "བཅད་ཟིན་པའི་པར་རིས་ཡིག་ཆ་མངོན་དགོས་མིན་དང་།"
+
+#: storages.py:15
+msgid ""
+"Unable to initialize the converter asset storage. Check the settings {} and "
+"{} for formatting errors."
+msgstr ""
+"སྒྱུར་ཆས་རྒྱུ་ནོར་གསོག་འཇོག་འགོ་འཛུགས་མི་ཐུབ། སྒྲིག་སྟངས་ {} དང་ {} "
+"ལ་རྩ་སྒྲིག་ནོར་འཁྲུལ་ཡོད་མེད་ཞིབ་བཤེར་བྱེད།"
+
+#: storages.py:28
+msgid ""
+"Unable to initialize the converter asset cachestorage. Check the settings {}"
+" and {} for formatting errors."
+msgstr ""
+"སྒྱུར་ཆས་རྒྱུ་ནོར་གྱི་མཛོད་འགོ་འཛུགས་མི་ཐུབ། སྒྲིག་སྟངས་ {} དང་ {} "
+"ལ་རྩ་སྒྲིག་ནོར་འཁྲུལ་ཡོད་མེད་ཞིབ་བཤེར་བྱེད།"
+
+#: storages.py:34
+msgid "Assets cache"
+msgstr "རྒྱུ་ནོར་མཛོད་ཁང་།"
+
+#: transformation_mixins.py:20 transformations.py:673
+msgid ""
+"Number of degrees to rotate the image counter clockwise around its center."
+msgstr "པར་རིས་དེ་ཆུ་ཚོད་ཀྱི་གཡས་གཡོན་ལ་འཁོར་བའི་ཁུག་ཚད་ཀྱི་གྲངས།"
+
+#: transformation_mixins.py:22
+msgid "Rotation"
+msgstr "འཁོར་རྒྱུག"
+
+#: transformation_mixins.py:25
+msgid "Opacity level of the image in percent"
+msgstr "པར་རིས་ཀྱི་དྭངས་གསལ་ཚད་བརྒྱ་ཆ།"
+
+#: transformation_mixins.py:26
+msgid "Transparency"
+msgstr "ཕྱི་གསལ་ནང་གསལ།"
+
+#: transformation_mixins.py:29 transformations.py:779
+msgid "Zoom level in percent."
+msgstr "བརྒྱ་ཆའི་ནང་ཆེ་རུ་གཏོང་ཚད།"
+
+#: transformation_mixins.py:30 transformations.py:774
+msgid "Zoom"
+msgstr "ཆེ་རུ་གཏོང་བ།"
+
+#: transformation_mixins.py:114
+msgid "Paste an image"
+msgstr "པར་རིས་སྦྱར་བ།"
+
+#: transformation_mixins.py:120
+msgid "Horizontal position in pixels from the left."
+msgstr "གཡོན་ཕྱོགས་ནས་པིག་སེལ་ནང་ཐད་སྙོམས་གནས་སྟངས།"
+
+#: transformation_mixins.py:121 transformation_mixins.py:166
+#: transformation_mixins.py:231 transformations.py:238 transformations.py:340
+#: transformations.py:438
+msgid "Left"
+msgstr "གཡོན"
+
+#: transformation_mixins.py:124
+msgid "Vertical position in pixels from the top."
+msgstr "མགོ་ནས་པིག་སེལ་ནང་ལངས་པའི་གནས་སྟངས།"
+
+#: transformation_mixins.py:125 transformation_mixins.py:171
+#: transformation_mixins.py:241 transformations.py:242 transformations.py:344
+#: transformations.py:442
+msgid "Top"
+msgstr "རྩེ་མོ"
+
+#: transformation_mixins.py:159
+msgid "Paste an image (percent coordinates)"
+msgstr "པར་རིས་ཤིག་སྦྱར་(བརྒྱ་ཆའི་སྦྲེལ་མཐུད།)"
+
+#: transformation_mixins.py:165
+msgid "Horizontal position in percent from the left."
+msgstr "གཡོན་ནས་བརྒྱ་ཆའི་ནང་ཐད་སྙོམས་གནས་སྟངས།"
+
+#: transformation_mixins.py:170
+msgid "Vertical position in percent from the top."
+msgstr "མགོ་ནས་བརྒྱ་ཆའི་ནང་ལངས་པའི་གནས་སྟངས།"
+
+#: transformation_mixins.py:224 transformations.py:226
+msgid "Paste an asset as watermark"
+msgstr "རྒྱུ་ནོར་ཞིག་ཆུ་རྟགས་ལྟར་སྦྱར།"
+
+#: transformation_mixins.py:230
+msgid "Horizontal start position in pixels from the left."
+msgstr "གཡོན་ཕྱོགས་ནས་པིག་སེལ་ནང་འཕྲེད་ལ་འགོ་འཛུགས་གནས་ཡུལ།"
+
+#: transformation_mixins.py:235
+msgid "Horizontal end position in pixels from the right."
+msgstr "གཡས་ཕྱོགས་ནས་པིག་སེལ་ནང་འཕྲེད་ལ་མཐའ་མའི་གནས་ཚུལ།"
+
+#: transformation_mixins.py:236 transformations.py:247 transformations.py:348
+#: transformations.py:446
+msgid "Right"
+msgstr "ཐོབ་ཐང"
+
+#: transformation_mixins.py:240
+msgid "Vertical start position in pixels from the top."
+msgstr "མགོ་ནས་པིག་སེལ་ནང་ལངས་པའི་འགོ་འཛུགས་གནས་ཚུལ།"
+
+#: transformation_mixins.py:245
+msgid "Vertical end position in pixels from the top."
+msgstr "མགོ་ནས་པིག་སེལ་ནང་ལངས་པའི་མཐའ་མའི་གནས་ཚུལ།"
+
+#: transformation_mixins.py:246 transformations.py:252 transformations.py:352
+#: transformations.py:450
+msgid "Bottom"
+msgstr "ཞབས"
+
+#: transformation_mixins.py:249
+msgid "Horizontal position increments in pixels."
+msgstr "འཕྲེད་ཐིག་གནས་བབ་དེ་པིག་སེལ་ནང་འཕར་ཡོད།"
+
+#: transformation_mixins.py:250
+msgid "Horizontal increment"
+msgstr "ཐད་སྙོམས་འཕར་ཚད།"
+
+#: transformation_mixins.py:253
+msgid "Vertical position increments in pixels."
+msgstr "ལངས་པའི་གནས་བབ་དེ་པིག་སེལ་ནང་འཕར་ཡོད།"
+
+#: transformation_mixins.py:254
+msgid "Vertical increment"
+msgstr "ལངས་པའི་འཕར་ཚད།"
+
+#: transformation_mixins.py:313
+msgid "Asset name"
+msgstr "རྒྱུ་ནོར་གྱི་མིང་།"
+
+#: transformation_mixins.py:356
+msgid "Color used to fill the rectangle."
+msgstr "གྲུ་བཞི་ཁ་གང་མ་བཀང་བའི་ཚོས་གཞི།"
+
+#: transformation_mixins.py:357 transformations.py:680
+msgid "Fill color"
+msgstr "ཁ་དོག་བཀང་བ།"
+
+#: transformation_mixins.py:362
+msgid "Opacity level of the fill color in percent"
+msgstr "བརྒྱ་ཆའི་ནང་བཀང་བའི་ཚོས་མདོག་གི་དྭངས་གསལ་ཚད་གཞི།"
+
+#: transformation_mixins.py:363
+msgid "Fill transparency"
+msgstr "དྭངས་གསལ་བཀང་བ།"
+
+#: transformation_mixins.py:367
+msgid "Color used for the outline of the rectangle."
+msgstr "གྲུ་བཞི་ནར་མོའི་ཕྱི་ཐིག་ལ་སྤྱོད་པའི་ཚོས་གཞི།"
+
+#: transformation_mixins.py:368
+msgid "Outline color"
+msgstr "ཕྱི་ཐིག་གི་ཚོས་གཞི།"
+
+#: transformation_mixins.py:372
+msgid "Width in pixels of the rectangle outline."
+msgstr "གྲུ་བཞི་ནར་མོའི་ཕྱི་ཐིག་གི་ཞེང་ཚད།"
+
+#: transformation_mixins.py:373
+msgid "Outline width"
+msgstr "ཕྱི་ཐིག་རྒྱ་ཚད།"
+
+#: transformations.py:210
+msgid "Paste an asset (absolute coordinates)"
+msgstr "རྒྱུ་ནོར་ཞིག་སྦྱར་(མཐའ་མའི་སྦྲེལ་མཐུད)"
+
+#: transformations.py:218
+msgid "Paste an asset (percent coordinates)"
+msgstr "རྒྱུ་ནོར་ཞིག་སྦྱར་(བརྒྱ་ཆའི་སྦྲེལ་མཐུད)"
+
+#: transformations.py:232
+msgid "Crop"
+msgstr "ལོ་ཏོག"
+
+#: transformations.py:237
+msgid "Number of pixels to remove from the left."
+msgstr "གཡོན་ཕྱོགས་ནས་མེད་པར་བཟོ་བའི་པིག་སེལ་གྱི་གྲངས།"
+
+#: transformations.py:241
+msgid "Number of pixels to remove from the top."
+msgstr "མགོ་ནས་ཕྱིར་འཐེན་བྱེད་པའི་པིག་སེལ་གྱི་གྲངས།"
+
+#: transformations.py:246
+msgid "Number of pixels to remove from the right."
+msgstr "གཡས་ཕྱོགས་ནས་མེད་པར་བཟོ་བའི་པིག་སེལ་གྱི་གྲངས།"
+
+#: transformations.py:251
+msgid "Number of pixels to remove from the bottom."
+msgstr "མཇུག་ནས་མེད་པར་བཟོ་དགོས་པའི་པིག་སེལ་གྱི་གྲངས་འབོར།"
+
+#: transformations.py:334
+msgid "Draw rectangle"
+msgstr "གྲུ་བཞི་ནར་མོ་བྲིས།"
+
+#: transformations.py:339
+msgid "Left side location in pixels."
+msgstr "གཡོན་ཕྱོགས་ཀྱི་གནས་ཡུལ་དེ་པིག་སེལ་ནང་།"
+
+#: transformations.py:343
+msgid "Top side location in pixels."
+msgstr "མཐོ་སྒང་གི་གནས་ཡུལ་དེ་པིག་སེལ་ནང་།"
+
+#: transformations.py:347
+msgid "Right side location in pixels."
+msgstr "གཡས་ཕྱོགས་ཀྱི་གནས་ཡུལ་དེ་པིག་སེལ་ནང་།"
+
+#: transformations.py:351
+msgid "Bottom side location in pixels."
+msgstr "འོག་ཕྱོགས་ཀྱི་གནས་ཡུལ་དེ་པིག་སེལ་ནང་།"
+
+#: transformations.py:432
+msgid "Draw rectangle (percent coordinates)"
+msgstr "གྲུ་བཞི་ནར་མོ་བྲིས།(བརྒྱ་ཆའི་མཐུད་ཚད།)"
+
+#: transformations.py:437
+msgid "Left side location in percent."
+msgstr "གཡོན་ཕྱོགས་ཀྱི་གནས་ཡུལ་བརྒྱ་ཆ།"
+
+#: transformations.py:441
+msgid "Top side location in percent."
+msgstr "བརྒྱ་ཆའི་ནང་མཐོ་ཤོས་ཕྱོགས་ཀྱི་གནས་ཡུལ།"
+
+#: transformations.py:445
+msgid "Right side location in percent."
+msgstr "གཡས་ཕྱོགས་ཀྱི་གནས་ཡུལ་བརྒྱ་ཆའི་ནང་།"
+
+#: transformations.py:449
+msgid "Bottom side location in percent."
+msgstr "འོག་ཕྱོགས་ཀྱི་གནས་ཡུལ་བརྒྱ་ཆའི་ནང་།"
+
+#: transformations.py:532
+msgid "Flip"
+msgstr "མགྱོགས་པོར་སྐོར་བ"
+
+#: transformations.py:543
+msgid "Gaussian blur"
+msgstr "གྷོ་སིའི་རབ་རིབ།"
+
+#: transformations.py:548 transformations.py:749
+msgid "Radius"
+msgstr "དཀྱིལ་ཚད།"
+
+#: transformations.py:560
+msgid "Line art"
+msgstr "ཐིག་རིས་སྒྱུ་རྩལ།"
+
+#: transformations.py:574
+msgid "Mirror"
+msgstr "ཤེལ་སྒོ"
+
+#: transformations.py:587
+msgid "Draw a QRCode (percent coordinates)"
+msgstr "QRCode(བརྒྱ་ཆའི་སྦྲེལ་མཐུད)བྲིས།"
+
+#: transformations.py:597
+msgid "Value to encode in the QRCode."
+msgstr "QRCode ནང་དུ་ཨང་སྒྲིག་བྱེད་པའི་རིན་ཐང་།"
+
+#: transformations.py:598
+msgid "Code value"
+msgstr "ཨང་རྟགས་རིན་ཐང་།"
+
+#: transformations.py:623
+msgid "Resize"
+msgstr "ཆེ་ཆུང་བསྒྱུར།"
+
+#: transformations.py:629
+msgid "New width in pixels."
+msgstr "པིག་སེལ་ནང་རྒྱ་ཁྱོན་གསར་པ།"
+
+#: transformations.py:630
+msgid "Width"
+msgstr "ཞེང"
+
+#: transformations.py:634
+msgid "New height in pixels."
+msgstr "མཐོ་ཚད་གསར་པ། པིག་སེལ་ནང་།"
+
+#: transformations.py:635
+msgid "Height"
+msgstr "ལུས་པོའི་མཐོ་ཚད"
+
+#: transformations.py:667
+msgid "Rotate"
+msgstr "བསྐོར་བ།"
+
+#: transformations.py:675
+msgid "Degrees"
+msgstr "ཤེས་ཚད།"
+
+#: transformations.py:679
+msgid "Color to be used for area outside of the rotated image."
+msgstr "བསྐོར་བའི་པར་རིས་ཀྱི་ཕྱི་རོལ་གྱི་ས་ཁུལ་ལ་སྤྱོད་རྒྱུའི་ཚོས་གཞི།"
+
+#: transformations.py:711
+msgid "Rotate 90 degrees"
+msgstr "ཏུའུ་དགུ་བཅུ་བསྐོར་བ།"
+
+#: transformations.py:722
+msgid "Rotate 180 degrees"
+msgstr "ཏུའུ་180བསྐོར་བ།"
+
+#: transformations.py:733
+msgid "Rotate 270 degrees"
+msgstr "ཏུའུ་270བསྐོར་བ།"
+
+#: transformations.py:743
+msgid "Unsharp masking"
+msgstr "རྣོ་བ་མེད་པའི་ཁ་རས་རྒྱག་པ།"
+
+#: transformations.py:748
+msgid "The blur radius in pixels."
+msgstr "པིག་སེལ་ནང་མུན་ནག་གི་ཕྱེད་ཀ།"
+
+#: transformations.py:752
+msgid "Unsharp strength in percent."
+msgstr "བརྒྱ་ཆའི་ནང་ཤུགས་ཚད་མཐོ་པོ་མེད།"
+
+#: transformations.py:753 transformations.py:780
+msgid "Percent"
+msgstr "བརྒྱ་ཆ།"
+
+#: transformations.py:757
+msgid "Minimum brightness change that will be sharpened."
+msgstr "འོད་མདངས་ཆུང་ཤོས་ཀྱི་འགྱུར་བ་དེ་རྣོ་རུ་གཏོང་རྒྱུ་རེད།"
+
+#: transformations.py:758
+msgid "Tthreshold"
+msgstr "ཐེམ་ཚད།"
+
+#: views/asset_views.py:48
+#, python-format
+msgid "Delete request performed on %(count)d asset"
+msgstr "བསུབས་པའི་རེ་འདུན་དེ་ %(count)d རྒྱུ་ནོར་ཐོག་སྒྲུབ་ཡོད།"
+
+#: views/asset_views.py:50
+#, python-format
+msgid "Delete request performed on %(count)d assets"
+msgstr "བསུབས་པའི་རེ་འདུན་དེ་ %(count)d རྒྱུ་ནོར་ཐོག་སྒྲུབ་ཡོད།"
+
+#: views/asset_views.py:58
+msgid "Delete the selected asset?"
+msgid_plural "Delete the selected assets?"
+msgstr[0] "བདམས་པའི་རྒྱུ་ནོར་བསུབས་དགོས་སམ།"
+
+#: views/asset_views.py:69
+#, python-format
+msgid "Delete asset: %s?"
+msgstr "རྒྱུ་ནོར་བསུབས་ %s །"
+
+#: views/asset_views.py:81
+#, python-format
+msgid "Asset \"%s\" deleted successfully."
+msgstr "རྒྱུ་ནོར་ &quot; %s &quot; མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views/asset_views.py:87
+#, python-format
+msgid "Error deleting asset \"%(asset)s\": %(error)s"
+msgstr "རྒྱུ་ནོར་བསུབས་པའི་ནོར་འཁྲུལ་ &quot; %(asset)s &quot;: %(error)s"
+
+#: views/asset_views.py:104
+#, python-format
+msgid "Details asset: %s"
+msgstr "ཞིབ་ཕྲའི་རྒྱུ་ནོར། %s"
+
+#: views/asset_views.py:119
+#, python-format
+msgid "Edit asset: %s"
+msgstr "རྩོམ་སྒྲིག་རྒྱུ་ནོར།: %s"
+
+#: views/asset_views.py:140
+msgid ""
+"Assets are files that can be used in conjunction with certain "
+"transformations."
+msgstr ""
+"རྒྱུ་ནོར་ནི་བསྒྱུར་བཅོས་འགའ་ཤས་དང་མཉམ་དུ་བེད་སྤྱོད་གཏོང་ཐུབ་པའི་ཡིག་ཆ་ཡིན།"
+
+#: views/asset_views.py:143
+msgid "No assets available"
+msgstr "རྒྱུ་ནོར་མེད་པ།"
+
+#: views/transformation_views.py:57
+#, python-format
+msgid "Error creating transformation: %s."
+msgstr "བསྒྱུར་བཅོས་གསར་འཛུགས་བྱེད་པའི་ནོར་ %s"
+
+#: views/transformation_views.py:79
+#, python-format
+msgid ""
+"Create layer \"%(layer)s\" transformation \"%(transformation)s\" for: "
+"%(object)s"
+msgstr ""
+"བང་རིམ་གསར་བཟོ། &quot; %(layer)s &quot; སྒྱུར་བཅོས་ &quot; "
+"%(transformation)s %(object)s ཆེད་དུ།"
+
+#: views/transformation_views.py:131
+#, python-format
+msgid "Delete transformation \"%(transformation)s\" for: %(content_object)s?"
+msgstr ""
+"བསྒྱུར་བཅོས་ &quot; %(transformation)s %(content_object)s &quot; བསུབས་དགོས།"
+
+#: views/transformation_views.py:193
+#, python-format
+msgid "Edit transformation \"%(transformation)s\" for: %(content_object)s"
+msgstr ""
+"རྩོམ་སྒྲིག་སྒྱུར་བཅོས་ &quot; %(transformation)s &quot; ཆེད་དུ་: "
+"%(content_object)s"
+
+#: views/transformation_views.py:249
+#, python-format
+msgid "There are no entries for layer \"%(layer_name)s\""
+msgstr "བང་རིམ་ &quot; %(layer_name)s &quot; ལ་ཐོ་འགོད་མེད།"
+
+#: views/transformation_views.py:252
+#, python-format
+msgid "Layer \"%(layer)s\" transformations for: %(object)s"
+msgstr "བང་རིམ་ &quot; %(layer)s &quot; བསྒྱུར་བཅོས།: %(object)s"
+
+#: views/transformation_views.py:297
+msgid "Transformation created successfully."
+msgstr "སྒྱུར་བཅོས་ལེགས་འགྲུབ་བྱུང་ཡོད།"
+
+#: views/transformation_views.py:321
+msgid "Select"
+msgstr "འདེམས"
+
+#: views/transformation_views.py:323
+#, python-format
+msgid "Select new layer \"%(layer)s\" transformation for: %(object)s"
+msgstr "བང་རིམ་གསར་བ་འདེམས། &quot; %(layer)s &quot; བསྒྱུར་བཅོས།: %(object)s"
+
+#: workflow_actions.py:29
+msgid "Pages"
+msgstr "ཤོག་ངོས།"
+
+#: workflow_actions.py:32
+msgid ""
+"Pages to which the new transformations will be added. Separate by commas "
+"and/or use a dashes for a ranges. Leave blank to select all pages."
+msgstr ""
+"བསྒྱུར་བཅོས་གསར་པ་ཁ་སྣོན་བྱེད་སའི་ཤོག་ངོས། "
+"ཚེག་གིས་དབྱེ་འབྱེད་དང་/ཡང་ན་ཁྱབ་ཁོངས་ལ་ཚག་བེད་སྤྱོད་བྱེད། "
+"ཤོག་ངོས་ཚང་མ་འདེམས་པར་སྟོང་ཆ་བཞག"
+
+#: workflow_actions.py:39
+msgid "Transformation class"
+msgstr "བསྒྱུར་འཛིན་འཛིན་གྲྭ།"
+
+#: workflow_actions.py:44
+msgid "Type of transformation to add."
+msgstr "ཁ་སྣོན་བྱེད་པའི་སྒྱུར་བའི་རིགས།"
+
+#: workflow_actions.py:49
+msgid "Transformation arguments"
+msgstr "བསྒྱུར་བའི་རྩོད་གླེང་།"
+
+#: workflow_actions.py:53
+msgid ""
+"Enter a template that will generate the arguments for the transformation as "
+"a YAML dictionary. ie: {\"degrees\": 180}. The document version page is "
+"available as {{ document_version_page }}."
+msgstr ""
+"བསྒྱུར་བཅོས་ཀྱི་སྒྲུབ་བྱེད་དེ་YAMLཚིག་མཛོད་ལྟར་བཟོ་བའི་ཊེམ་པེལེཊི་ཅིག་བཙུགས།"
+" དཔེར་ན། {&quot;ཁུག་ཚད་&quot;: ༡༨༠}. ཡིག་ཆའི་ཐོན་རིམ་ཤོག་ངོས་དེ་ {{ "
+"ཡིག་ཆ་_ཐོན་རིམ་_ཤོག་ངོས་ }} ལྟར་ཐོབ་ཐུབ།"
+
+#: workflow_actions.py:63
+msgid "Add transformation"
+msgstr "སྒྱུར་བཅོས་ཁ་སྣོན།"
+
+#: workflow_actions.py:71
+msgid "Objects"
+msgstr "དངོས་པོ།"

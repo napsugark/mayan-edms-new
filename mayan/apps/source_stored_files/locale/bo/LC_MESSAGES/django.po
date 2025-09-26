@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:14
+msgid "Source stored files"
+msgstr "འབྱུང་ཁུངས་ཉར་ཚགས་བྱས་པའི་ཡིག་ཆ།"
+
+#: classes.py:45
+msgid "Size"
+msgstr "ཆེ་ཆུང་།"
+
+#: classes.py:49
+msgid "Thumbnail"
+msgstr "མཐེབ་བརྙན།"
+
+#: forms.py:31
+msgid "File"
+msgstr "ཡིག་ཆ་།"
+
+#: links.py:17
+msgid "Delete"
+msgstr "བསུབ་པ།"
+
+#: links.py:23
+msgid "Select"
+msgstr "འདེམས"
+
+#: source_backend_actions/arguments.py:8
+msgid "URL safe filename of the stored file to process."
+msgstr "ལས་སྣོན་བྱེད་པར་གསོག་འཇོག་བྱས་པའི་ཡིག་ཆའི་URLབདེ་འཇགས་ཡིག་ཆའི་མིང་།"
+
+#: source_backend_actions/arguments.py:12
+msgid ""
+"Execute source backend specific, built-in post processing clean up code."
+msgstr ""
+"ཐོན་ཁུངས་རྒྱབ་ཕྱོགས་དམིགས་བསལ་གྱི་ནང་འཇུག་བྱས་པའི་རྗེས་ཀྱི་ལས་སྣོན་གཙང་བཟོའི་གསང་ཚིག་ལག་བསྟར་བྱེད།"
+
+#: source_backend_actions/arguments.py:18
+msgid ""
+"Unique identifier to select which source backend stored file to process."
+msgstr ""
+"ཐོན་ཁུངས་རྒྱབ་ཕྱོགས་གསོག་འཇོག་བྱས་པའི་ཡིག་ཆ་གང་ཞིག་ལ་ལས་སྣོན་བྱེད་དགོས་མིན་འདེམས་པའི་ཆེད་དུ་ངོས་འཛིན་བྱེད་མཁན།"
+
+#: source_backend_actions/mixins.py:74
+msgid "Stored file"
+msgstr "ཉར་ཚགས་བྱས་པའི་ཡིག་ཆ།"
+
+#: source_backend_actions/mixins.py:76
+#, python-format
+msgid "Delete stored file \"%s\"?"
+msgstr "གསོག་འཇོག་བྱས་པའི་ཡིག་ཆ་ &quot; %s &quot; བསུབས་དགོས་སམ།"
+
+#: source_backends/filesystem_source_mixins.py:25
+msgid "Server side filesystem path."
+msgstr "སར་བར་ཕྱོགས་ཀྱི་ཡིག་ཆའི་མ་ལག་གི་འགྲོ་ལམ།"
+
+#: source_backends/filesystem_source_mixins.py:30
+msgid "Folder path"
+msgstr "སྣོད་ཐོའི་འགྲོ་ལམ།"
+
+#: source_backends/filesystem_source_mixins.py:37
+msgid ""
+"If checked, not only will the folder path be scanned for files but also its "
+"subdirectories."
+msgstr ""
+"གལ་ཏེ་ཞིབ་བཤེར་བྱས་ན་སྣོད་ཐོའི་འགྲོ་ལམ་དེ་ཡིག་ཆའི་ཆེད་དུ་བརྟག་དཔྱད་བྱེད་པ་མ་ཟད་དེའི་ཡན་ལག་སྣོད་ཐོ་ཡང་བརྟག་དཔྱད་བྱེད།"
+
+#: source_backends/filesystem_source_mixins.py:40
+msgid "Include subdirectories?"
+msgstr "ཡན་ལག་སྣོད་ཐོ་ཚུད་ཡོད་དམ།"
+
+#: source_backends/filesystem_source_mixins.py:54
+#: source_backends/storage_backend_source_mixins.py:71
+msgid "Storage"
+msgstr "ཉར་ཚགས།"
+
+#: source_backends/filesystem_source_mixins.py:80
+#: source_backends/storage_backend_source_mixins.py:129
+#, python-format
+msgid "Unable to initialize storage; %s"
+msgstr "གསོག་འཇོག་འགོ་འཛུགས་བྱེད་མི་ཐུབ། %s"
+
+#: source_backends/storage_backend_source_mixins.py:37
+msgid "Python path to the Storage subclass used to access the source files."
+msgstr ""
+"ཐོན་ཁུངས་ཡིག་ཆ་ལ་འཛུལ་ཞུགས་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་གསོག་འཇོག་སྡེ་ཚན་ཆུང་བ་དེའི་པའེ་ཐོན་འགྲོ་ལམ།"
+
+#: source_backends/storage_backend_source_mixins.py:43
+msgid "Storage backend"
+msgstr "གསོག་འཇོག་རྒྱབ་ལྗོངས།"
+
+#: source_backends/storage_backend_source_mixins.py:51
+msgid ""
+"Arguments to pass to the storage backend. Use YAML format. The credential "
+"object is available as {{ credential }}."
+msgstr ""
+"དོས་ཁང་གི་རྒྱབ་ཕྱོགས་ལ་སྤྲོད་པའི་རྩོད་གླེང་། YAMLརྩ་སྒྲིག་བེད་སྤྱོད་བྱེད། "
+"ཡིག་ཆ་དངོས་པོ་དེ་ {{ ཡིག་ཆ་ }} ལྟར་ཐོབ་ཐུབ།"
+
+#: source_backends/storage_backend_source_mixins.py:57
+msgid "Storage backend arguments"
+msgstr "གསོག་འཇོག་རྒྱབ་ཕྱོགས་ཀྱི་རྩོད་གླེང་།"
+
+#: source_backends/storage_backend_source_mixins.py:104
+msgid "Unable to initialize storage. Check the storage backend arguments."
+msgstr ""
+"གསོག་འཇོག་འགོ་འཛུགས་བྱེད་མི་ཐུབ། "
+"གསོག་འཇོག་རྒྱབ་ཕྱོགས་ཀྱི་སྒྲུབ་བྱེད་ལ་ཞིབ་བཤེར་བྱེད།"
+
+#: source_backends/storage_backend_source_mixins.py:116
+msgid "Unable to initialize storage. Check the storage backend dotted path."
+msgstr ""
+"གསོག་འཇོག་འགོ་འཛུགས་བྱེད་མི་ཐུབ། "
+"དོས་ཁང་གི་རྒྱབ་ཕྱོགས་ཀྱི་ཚག་ཅན་གྱི་འགྲོ་ལམ་ཞིབ་བཤེར་བྱས།"
+
+#: source_backends/stored_file_mixins.py:41
+msgid "Delete the file after is has been successfully uploaded."
+msgstr "ཡིག་ཆ་དེ་ལེགས་འགྲུབ་བྱུང་རྗེས་སུབ་དགོས།"
+
+#: source_backends/stored_file_mixins.py:44
+msgid "Delete after upload"
+msgstr "ཡར་བསྐུར་རྗེས་སུབ་དགོས།"
+
+#: source_backends/stored_file_mixins.py:58
+msgid "File content"
+msgstr "ཡིག་ཆའི་ནང་དོན།"
+
+#: source_backends/stored_file_mixins.py:74
+#, python-format
+msgid "Unable get list of files; %s"
+msgstr "ཡིག་ཆའི་ཐོ་གཞུང་ཐོབ་མི་ཐུབ། %s"
+
+#: source_backends/stored_file_mixins.py:92
+msgid ""
+"This could mean that the source file list is empty. It could also mean that "
+"the operating system user account being used for Mayan EDMS doesn't have the"
+" necessary file system permissions to access the source files."
+msgstr ""
+"འདིའི་དོན་ནི་འབྱུང་ཁུངས་ཡིག་ཆའི་ཐོ་གཞུང་སྟོང་པ་རེད་ Mayan EDMS "
+"ལ་བེད་སྤྱོད་བྱེད་བཞིན་པའི་བཀོལ་སྤྱོད་མ་ལག་གི་སྤྱོད་མཁན་གྱི་རྩིས་ཁྲ་དེ་ལ་འབྱུང་ཁུངས་ཡིག་ཆ་ལ་འཛུལ་ཞུགས་བྱེད་པར་དགོས་མཁོའི་ཡིག་ཆའི་མ་ལག་གི་ཆོག་མཆན་མེད་པ་དེ་ཡང་བསྟན་ཐུབ།"
+
+#: source_backends/stored_file_mixins.py:97
+msgid "No source files available"
+msgstr "འབྱུང་ཁུངས་ཡིག་ཆ་མེད་པ།"
+
+#: source_backends/stored_file_mixins.py:191
+msgid "Width value to be passed to the image converter backend."
+msgstr "པར་རིས་སྒྱུར་ཆས་ཀྱི་རྒྱབ་ཕྱོགས་ལ་སྤྲོད་དགོས་པའི་རྒྱ་ཚད་ཀྱི་རིན་ཐང་།"
+
+#: source_backends/stored_file_mixins.py:197
+msgid "Preview width"
+msgstr "སྔོན་ལྟ་རྒྱ་ཚད།"
+
+#: source_backends/stored_file_mixins.py:203
+msgid ""
+"Height value to be passed to the image converter backend. Leave blank to "
+"have the image converter calculate the correct aspect ratio for the "
+"specified preview width."
+msgstr ""
+"མཐོ་ཚད་ཀྱི་རིན་ཐང་དེ་པར་རིས་སྒྱུར་ཆས་ཀྱི་རྒྱབ་ཕྱོགས་ལ་སྤྲོད་དགོས། "
+"པར་རིས་སྒྱུར་ཆས་ཀྱིས་གསལ་བཀོད་བྱས་པའི་སྔོན་ལྟའི་རྒྱ་ཚད་ཀྱི་ཆ་སྙོམས་ཡང་དག་རྩིས་རྒྱག་ཆེད་དུ་སྟོང་ཆ་བཞག"
+
+#: source_backends/stored_file_mixins.py:211
+msgid "Preview height"
+msgstr "སྔོན་ལྟ་མཐོ་ཚད།"
+
+#: source_backends/stored_file_mixins.py:218
+msgid ""
+"Maximum file size in bytes for which previews will be generated. Example: "
+"20000 = 20KB."
+msgstr ""
+"སྔོན་ལྟའི་ཆེས་མཐོའི་ཡིག་ཆའི་ཚད་ནི་བཱའིཊི་ནང་ཡིན། དཔེར་ན། 20000 = 20KB ཡིན།"
+
+#: source_backends/stored_file_mixins.py:221
+msgid "Max size preview"
+msgstr "ཆེས་ཆེ་བའི་ཚད་སྔོན་ལྟ།"
+
+#: source_backends/stored_file_mixins.py:235
+msgid "File images"
+msgstr "ཡིག་ཆའི་པར་རིས།"
+
+#: templates/source_stored_files/errors/staging_file_error.html:5
+msgid "Error generating preview"
+msgstr "སྔོན་ལྟ་བཟོ་བའི་ནོར་འཁྲུལ།"
+
+#: templates/source_stored_files/errors/staging_file_too_large.html:5
+msgid "File too large for preview"
+msgstr "སྔོན་ལྟ་བྱེད་པར་ཡིག་ཆ་ཆེ་དྲགས་པ།"

@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"POT-Creation-Date: 2025-09-26 15:20+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Austria) (https://app.transifex.com/rosarior/teams/13584/de_AT/)\n"
@@ -30,7 +30,7 @@ msgstr ""
 msgid "Dynamic search"
 msgstr "Dynamische Suche"
 
-#: events.py:6 permissions.py:6 queues.py:11 settings.py:19
+#: events.py:6 permissions.py:6 queues.py:11 settings.py:20
 #: templates/dynamic_search/search_box.html:47
 #: templates/dynamic_search/search_box_toolbar.html:30
 #: views/search_views.py:110
@@ -105,11 +105,11 @@ msgstr "Suche wiederholen"
 msgid "Reindex search backend"
 msgstr "Such-Backend neu indizieren"
 
-#: literals.py:26
+#: literals.py:27
 msgid "Yes"
 msgstr "Ja"
 
-#: literals.py:27
+#: literals.py:28
 msgid "No"
 msgstr "Nein"
 
@@ -226,7 +226,7 @@ msgstr ""
 msgid "Delete expired saved resultsets"
 msgstr "Abgelaufene gespeicherte Ergebnissets löschen"
 
-#: scoped_queries.py:345
+#: scoped_queries.py:348
 #, python-format
 msgid ""
 "Query results exceed the current limit of %d. Results will not be reliable "
@@ -238,7 +238,7 @@ msgstr ""
 "verwendet werden. Schränken Sie die Suchkriterien weiter ein oder erhöhen "
 "Sie den Grenzwert für die Ergebnisse  `%s`."
 
-#: scoped_queries.py:364
+#: scoped_queries.py:373
 #, python-format
 msgid ""
 "Search backend error. Verify that the search service is available and that "
@@ -328,11 +328,11 @@ msgstr "Primärschlüssel"
 msgid "Search fields"
 msgstr "Suchfelder"
 
-#: settings.py:24
+#: settings.py:25
 msgid "Full path to the backend to be used to handle the search."
 msgstr "Vollständiger Pfad zum Backend, der für die Suche verantwortlich ist."
 
-#: settings.py:30
+#: settings.py:31
 msgid ""
 "Arguments to pass to the search backend. For example values to change the "
 "behavior, host names, or authentication arguments."
@@ -340,11 +340,11 @@ msgstr ""
 "Argumente für das Suchbackend. Beispielsweise Werte um das Verhalten, "
 "Hostnamen oder Authentifizierungsargumente zu ändern."
 
-#: settings.py:38
+#: settings.py:39
 msgid "The search operator to use when none is specified."
 msgstr "Der Suchoperator, der bei none benutzt werden soll."
 
-#: settings.py:45
+#: settings.py:46
 msgid ""
 "Disables the single term bar search leaving only the advanced search button."
 msgstr ""
@@ -367,30 +367,36 @@ msgstr ""
 "Maximale Anzahl von Suchergebnissen, die pro Suchanfrage geholt und "
 "angezeigt werden sollen."
 
-#: settings.py:71
+#: settings.py:72
+msgid ""
+"Raise an error when the number of search results exceed the value of "
+"`SEARCH_QUERY_RESULTS_LIMIT`."
+msgstr ""
+
+#: settings.py:79
 msgid "Maximum number of search results to fetch and display."
 msgstr ""
 "Maximale Anzahl von Suchergebnissen, die geholt und angezeigt werden sollen."
 
-#: settings.py:77
+#: settings.py:85
 msgid "Maximum number of saved resultsets to keep per user."
 msgstr "Maximale Anzahl der gespeicherten Ergebnissets pro Benutzer."
 
-#: settings.py:83
+#: settings.py:91
 msgid "Maximum number of results to store per resultset."
 msgstr "Maximale Anzahl der gespeicherten Ergebnisse pro Ergebnisset."
 
-#: settings.py:89
+#: settings.py:97
 msgid "Time to keep the resultset in seconds."
 msgstr "Zeit in Sekunden für das Speichern von Ergebnissets."
 
-#: settings.py:95
+#: settings.py:103
 msgid "Amount to increase the time to live on each access of the resultset."
 msgstr ""
 "Betrag für die Verlängerung der Speicherzeit bei Zugriff auf ein "
 "Ergebnisset."
 
-#: settings.py:102
+#: settings.py:110
 msgid "Sets the default state of the \"Store results\" checkbox."
 msgstr "Setzt den Defaultwert für die \"Ergebnisse speichern\" Checkbox."
 

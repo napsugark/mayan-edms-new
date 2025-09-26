@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"POT-Creation-Date: 2025-09-26 15:20+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "Dynamic search"
 msgstr "البحث الديناميكي"
 
-#: events.py:6 permissions.py:6 queues.py:11 settings.py:19
+#: events.py:6 permissions.py:6 queues.py:11 settings.py:20
 #: templates/dynamic_search/search_box.html:47
 #: templates/dynamic_search/search_box_toolbar.html:30
 #: views/search_views.py:110
@@ -101,11 +101,11 @@ msgstr "ابحث ثانيا"
 msgid "Reindex search backend"
 msgstr "طريقة بحث"
 
-#: literals.py:26
+#: literals.py:27
 msgid "Yes"
 msgstr "قبول"
 
-#: literals.py:27
+#: literals.py:28
 msgid "No"
 msgstr "رفض"
 
@@ -218,7 +218,7 @@ msgstr "إعادة تعيين مؤشرات البحث الخلفية وفهرس�
 msgid "Delete expired saved resultsets"
 msgstr "حذف مجموعات النتائج المحفوظة المنتهية الصلاحية"
 
-#: scoped_queries.py:345
+#: scoped_queries.py:348
 #, python-format
 msgid ""
 "Query results exceed the current limit of %d. Results will not be reliable "
@@ -228,7 +228,7 @@ msgstr ""
 "تتجاوز نتائج الاستعلام الحد الحالي البالغ %d. لن تكون النتائج موثوقة إذا تم "
 "استخدام نطاقات متعددة. قلل معايير البحث أو زد قيمة إعداد حد النتائج %s."
 
-#: scoped_queries.py:364
+#: scoped_queries.py:373
 #, python-format
 msgid ""
 "Search backend error. Verify that the search service is available and that "
@@ -318,11 +318,11 @@ msgstr "المفتاح الأساسي"
 msgid "Search fields"
 msgstr "حقول البحث"
 
-#: settings.py:24
+#: settings.py:25
 msgid "Full path to the backend to be used to handle the search."
 msgstr "المسار الكامل للواجهة الخفية لاستخدامه في معالجة البحث."
 
-#: settings.py:30
+#: settings.py:31
 msgid ""
 "Arguments to pass to the search backend. For example values to change the "
 "behavior, host names, or authentication arguments."
@@ -330,11 +330,11 @@ msgstr ""
 "الوسائط المُرسَلة إلى خادم البحث. على سبيل المثال، القيم لتغيير السلوك، أو "
 "أسماء المضيفين، أو وسائط المصادقة."
 
-#: settings.py:38
+#: settings.py:39
 msgid "The search operator to use when none is specified."
 msgstr "عامل البحث الذي يجب استخدامه عندما لا يتم تحديد أي عامل بحث."
 
-#: settings.py:45
+#: settings.py:46
 msgid ""
 "Disables the single term bar search leaving only the advanced search button."
 msgstr "لتعطيل بحث شريط المصطلح الفردي مع ترك زر البحث المتقدم فقط."
@@ -353,27 +353,33 @@ msgid ""
 msgstr ""
 "الحد الأقصى لعدد نتائج البحث التي سيتم جلبها وعرضها لكل وحدة استعلام بحث."
 
-#: settings.py:71
+#: settings.py:72
+msgid ""
+"Raise an error when the number of search results exceed the value of "
+"`SEARCH_QUERY_RESULTS_LIMIT`."
+msgstr ""
+
+#: settings.py:79
 msgid "Maximum number of search results to fetch and display."
 msgstr "الحد الأقصى لعدد نتائج البحث التي سيتم جلبها وعرضها."
 
-#: settings.py:77
+#: settings.py:85
 msgid "Maximum number of saved resultsets to keep per user."
 msgstr "الحد الأقصى لعدد مجموعات النتائج المحفوظة لكل مستخدم."
 
-#: settings.py:83
+#: settings.py:91
 msgid "Maximum number of results to store per resultset."
 msgstr "الحد الأقصى لعدد النتائج لتخزينها في كل مجموعة نتائج."
 
-#: settings.py:89
+#: settings.py:97
 msgid "Time to keep the resultset in seconds."
 msgstr "المدة الزمنية لحفظ مجموعة النتائج بالثواني."
 
-#: settings.py:95
+#: settings.py:103
 msgid "Amount to increase the time to live on each access of the resultset."
 msgstr "مقدار زيادة مدة البقاء في كل مرة يتم فيها الوصول إلى مجموعة النتائج."
 
-#: settings.py:102
+#: settings.py:110
 msgid "Sets the default state of the \"Store results\" checkbox."
 msgstr "تحدد الحالة الافتراضية لخانة الاختيار \"حفظ النتائج\"."
 

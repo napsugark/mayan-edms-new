@@ -1,0 +1,677 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-04 06:21+0000\n"
+"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:71 apps.py:209 apps.py:215 apps.py:219 apps.py:224 apps.py:228
+#: events.py:6 links.py:53 permissions.py:6 queues.py:7
+#: workflow_actions.py:162
+msgid "Metadata"
+msgstr "མེ་ཊ་ཌེ་ཊ།"
+
+#: apps.py:141
+msgid "Return the value of a specific document metadata."
+msgstr "བྱེ་བྲག་གི་ཡིག་ཆའི་མེ་ཊ་གཞི་གྲངས་ཀྱི་རིན་ཐང་ཕྱིར་ལོག་བྱེད།"
+
+#: apps.py:142
+msgid "Metadata value of"
+msgstr "ཡི་མེ་ཊ་ཌེ་ཊ་རིན་ཐང་།"
+
+#: apps.py:147
+msgid "Metadata type name"
+msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་ཀྱི་མིང་།"
+
+#: apps.py:151 search.py:14
+msgid "Metadata value"
+msgstr "མེ་ཊ་ཌེ་ཊ་རིན་ཐང་།"
+
+#: events.py:10
+msgid "Document metadata added"
+msgstr "ཡིག་ཆའི་མེ་ཊ་གཞི་གྲངས་ཁ་སྣོན་བྱས།"
+
+#: events.py:13
+msgid "Document metadata edited"
+msgstr "ཡིག་ཆའི་མེ་ཊ་གཞི་གྲངས་རྩོམ་སྒྲིག་བྱས།"
+
+#: events.py:16
+msgid "Document metadata removed"
+msgstr "ཡིག་ཆའི་མེ་ཊ་གཞི་གྲངས་མེད་པར་བཟོས།"
+
+#: events.py:19
+msgid "Metadata type created"
+msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་གསར་བཟོ་བྱས།"
+
+#: events.py:22
+msgid "Metadata type edited"
+msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་རྩོམ་སྒྲིག་བྱས།"
+
+#: events.py:25
+msgid "Metadata type relationship updated"
+msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་ཀྱི་འབྲེལ་བ་གསར་བཅོས་བྱས།"
+
+#: forms.py:15
+msgid "ID"
+msgstr "ཨང་རྟགས།"
+
+#: forms.py:18 models/metadata_type_models.py:35
+msgid "Name"
+msgstr "མིང"
+
+#: forms.py:26 models/metadata_instance_models.py:43 workflow_actions.py:112
+msgid "Value"
+msgstr "རིན་ཐང"
+
+#: forms.py:31
+msgid "Update"
+msgstr "དེང་རབས་ཅན"
+
+#: forms.py:51 forms.py:232 models/document_type_metadata_type_models.py:31
+msgid "Required"
+msgstr "ངེས་སྦྱོང"
+
+#: forms.py:83
+#, python-format
+msgid "Lookup value error: %s"
+msgstr "འཚོལ་ཞིབ་རིན་ཐང་གི་ནོར་ %s"
+
+#: forms.py:96
+#, python-format
+msgid "Default value error: %s"
+msgstr "སྔོན་སྒྲིག་རིན་ཐང་གི་ནོར་ %s"
+
+#: forms.py:117 models/metadata_type_models.py:120
+#, python-format
+msgid "\"%s\" is required for this document type."
+msgstr "ཡིག་ཆའི་རིགས་འདི་ལ་ &quot; %s &quot; དགོས།"
+
+#: forms.py:136
+msgid "Metadata types to be added to the selected documents."
+msgstr "འདེམས་སྒྲུག་བྱས་པའི་ཡིག་ཆ་ལ་ཁ་སྣོན་བྱེད་པའི་མེ་ཊ་ཌེ་ཊ་རིགས།"
+
+#: forms.py:137 models/document_type_metadata_type_models.py:28
+#: models/metadata_type_models.py:83 search.py:11 serializers.py:52
+#: serializers.py:114 workflow_actions.py:148
+msgid "Metadata type"
+msgstr "མེ་ཊ་གྲངས་ཐོའི་རིགས།"
+
+#: forms.py:162
+msgid "Remove"
+msgstr "སེལ་བ"
+
+#: forms.py:181
+msgid "Basic"
+msgstr "རྨང་གཞི"
+
+#: forms.py:185
+msgid "Values"
+msgstr "རིན་ཐང་།"
+
+#: forms.py:189
+msgid "Validation"
+msgstr "བདེན་དཔང་།"
+
+#: forms.py:193
+msgid "Parsing"
+msgstr "དབྱེ་ཞིབ།"
+
+#: forms.py:230
+msgid "None"
+msgstr "གང་ཡང་མེད།"
+
+#: forms.py:231
+msgid "Optional"
+msgstr "རང་མོས་ཀྱི"
+
+#: links.py:26 links.py:35 workflow_actions.py:31
+msgid "Add metadata"
+msgstr "མེ་ཊ་ཌེ་ཊ་ཁ་སྣོན།"
+
+#: links.py:32 links.py:39 workflow_actions.py:125
+msgid "Edit metadata"
+msgstr "མེ་ཊ་ཌེ་ཊ་རྩོམ་སྒྲིག"
+
+#: links.py:43 links.py:49 workflow_actions.py:204
+msgid "Remove metadata"
+msgstr "མེ་ཊ་ཌེ་ཊ་མེད་པར་བཟོས།"
+
+#: links.py:63 links.py:95 links.py:103 models/metadata_type_models.py:84
+#: permissions.py:24 views/metadata_type_views.py:112 workflow_actions.py:55
+#: workflow_actions.py:69
+msgid "Metadata types"
+msgstr "མེ་ཊ་ཌེ་ཊ་རིགས།"
+
+#: links.py:72
+msgid "Document types"
+msgstr "ཡིག་ཆའི་རིགས་།"
+
+#: links.py:76
+msgid "Create new"
+msgstr "གསར་པ་གསར་སྐྲུན་བྱེད་པ།"
+
+#: links.py:82 links.py:87
+msgid "Delete"
+msgstr "བསུབ་པ།"
+
+#: links.py:92
+msgid "Edit"
+msgstr "བཅོས་པ།"
+
+#: metadata_parsers.py:11
+msgid "Date and time parser"
+msgstr "ཚེས་གྲངས་དང་དུས་ཚོད།"
+
+#: metadata_parsers.py:18
+msgid "Date parser"
+msgstr "ཚེས་གྲངས་དབྱེ་ཞིབ།"
+
+#: metadata_parsers.py:26
+msgid "Regular expression parser"
+msgstr "རྒྱུན་ལྡན་གྱི་གསལ་བརྗོད་དབྱེ་ཞིབ་བྱེད་མཁན།"
+
+#: metadata_parsers.py:36
+msgid "Time parser"
+msgstr "དུས་ཚོད་དབྱེ་ཞིབ།"
+
+#: metadata_validators.py:12
+msgid "Date and time validator"
+msgstr "ཚེས་གྲངས་དང་དུས་ཚོད་བདེན་དཔང་བྱེད་མཁན།"
+
+#: metadata_validators.py:19
+msgid "Date validator"
+msgstr "ཚེས་གྲངས་བདེན་དཔང་བྱེད་མཁན།"
+
+#: metadata_validators.py:27
+msgid "Regular expression validator"
+msgstr "རྒྱུན་ལྡན་གྱི་གསལ་བརྗོད་བདེན་དཔང་བྱེད་མཁན།"
+
+#: metadata_validators.py:35
+msgid "The input string does not match the pattern."
+msgstr "ནང་འཇུག་ཡིག་རྒྱུན་དེ་བཀོད་རིས་དང་མཐུན་མི་ཐུབ།"
+
+#: metadata_validators.py:40
+msgid "Time validator"
+msgstr "དུས་ཚོད་བདེན་དཔང་བྱེད་མཁན།"
+
+#: methods.py:20
+msgid "Return the metadata of the document."
+msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ཕྱིར་ལོག་བྱེད།"
+
+#: mixins.py:23
+msgid "Selected documents must be of the same type."
+msgstr "བདམས་ཐོན་བྱུང་བའི་ཡིག་ཆ་རིགས་གཅིག་མཚུངས་ཡིན་དགོས།"
+
+#: models/document_type_metadata_type_models.py:24 serializers.py:49
+msgid "Document type"
+msgstr "ཡིག་ཆའི་རིགས།"
+
+#: models/document_type_metadata_type_models.py:39
+msgid "Document type metadata type options"
+msgstr "ཡིག་ཆའི་རིགས་ཀྱི་མེ་ཊ་གཞི་གྲངས་རིགས་གདམ་ཁ།"
+
+#: models/document_type_metadata_type_models.py:41
+msgid "Document type metadata types options"
+msgstr "ཡིག་ཆའི་རིགས་ཀྱི་མེ་ཊ་གྲངས་ཐོའི་རིགས་གདམ་ཁ།"
+
+#: models/metadata_instance_models.py:32 serializers.py:111
+msgid "Document"
+msgstr "ཡིག་ཆ།"
+
+#: models/metadata_instance_models.py:36
+msgid "Type"
+msgstr "རིགས"
+
+#: models/metadata_instance_models.py:41
+msgid "The actual value stored in the metadata type field for the document."
+msgstr ""
+"ཡིག་ཆའི་ཆེད་དུ་མེ་ཊ་ཌེ་ཊ་རིགས་ས་ཁོངས་ནང་གསོག་འཇོག་བྱས་པའི་དངོས་ཡོད་རིན་ཐང་།"
+
+#: models/metadata_instance_models.py:49 models/metadata_instance_models.py:50
+msgid "Document metadata"
+msgstr "ཡིག་ཆའི་ཚད་གཞི།"
+
+#: models/metadata_instance_models.py:86
+msgid "Metadata type is required for this document type."
+msgstr "ཡིག་ཆའི་རིགས་འདི་ལ་མེ་ཊ་ཌེ་ཊ་རིགས་དགོས།"
+
+#: models/metadata_instance_models.py:120
+msgid "Metadata type is not valid for this document type."
+msgstr "ཡིག་ཆའི་རིགས་འདི་ལ་མེ་ཊ་ཌེ་ཊ་རིགས་ནུས་ལྡན་མིན།"
+
+#: models/metadata_type_models.py:32
+msgid ""
+"Name used by other apps to reference this metadata type. Do not use python "
+"reserved words, or spaces."
+msgstr ""
+"མཉེན་ཆས་གཞན་གྱིས་མེ་ཊ་ཌེ་ཊ་རིགས་འདི་ལ་གཞི་གྲངས་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་མིང་།"
+" པའེ་ཐོན་གྱིས་བཀག་སྡོམ་བྱས་པའི་ཚིག་དང་ཡང་ན་བར་སྟོང་བེད་སྤྱོད་མ་གཏོང་།"
+
+#: models/metadata_type_models.py:38
+msgid "Short description of this metadata type."
+msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་འདིའི་འགྲེལ་བཤད་ཐུང་ངུ།"
+
+#: models/metadata_type_models.py:39
+msgid "Label"
+msgstr "ལག་ཁྱེར་།"
+
+#: models/metadata_type_models.py:43
+msgid "Enter a template to render."
+msgstr "བརྙན་ཕབ་བྱེད་པའི་ཊེམ་པེལེཊི་ཞིག་བླུགས།"
+
+#: models/metadata_type_models.py:44
+msgid "Default"
+msgstr "སྔོན་གཤིས།"
+
+#: models/metadata_type_models.py:48
+msgid "Enter a template to render. Must result in a comma delimited string."
+msgstr ""
+"བརྙན་ཕབ་བྱེད་པའི་ཊེམ་པེལེཊི་ཞིག་བླུགས། "
+"ངེས་པར་དུ་ཚེག་གིས་དབྱེ་བའི་ཡིག་རྒྱུན་ཐོན་དགོས།"
+
+#: models/metadata_type_models.py:50
+msgid "Lookup"
+msgstr "ལྟ་བ།"
+
+#: models/metadata_type_models.py:54
+msgid ""
+"The validator will reject data entry if the value entered does not conform "
+"to the expected format."
+msgstr ""
+"གལ་ཏེ་བཙུགས་པའི་རིན་ཐང་དེ་རེ་བ་བྱེད་པའི་རྩ་སྒྲིག་དང་མཐུན་མིན་ན་བདེན་དཔང་བྱེད་མཁན་གྱིས་གནས་སྡུད་བཙུགས་པ་ཁས་མི་ལེན།"
+
+#: models/metadata_type_models.py:56
+msgid "Validator"
+msgstr "བདེན་དཔང་བྱེད་མཁན།"
+
+#: models/metadata_type_models.py:60
+msgid "Enter the arguments for the validator in YAML format."
+msgstr "བདེན་དཔང་བྱེད་མཁན་གྱི་སྒྲུབ་བྱེད་དེ་YAMLརྩ་སྒྲིག་ནང་བཙུགས།"
+
+#: models/metadata_type_models.py:62
+msgid "Validator arguments"
+msgstr "བདེན་དཔང་བྱེད་མཁན་གྱི་རྩོད་གླེང་།"
+
+#: models/metadata_type_models.py:67
+msgid ""
+"The parser will reformat the value entered to conform to the expected "
+"format."
+msgstr ""
+"དབྱེ་ཞིབ་པས་བླུགས་པའི་རིན་ཐང་དེ་རེ་བ་བྱེད་པའི་རྩ་སྒྲིག་དང་མཐུན་པར་བསྐྱར་དུ་རྩ་སྒྲིག་བྱེད།"
+
+#: models/metadata_type_models.py:69
+msgid "Parser"
+msgstr "དབྱེ་ཞིབ་བྱེད་མཁན།"
+
+#: models/metadata_type_models.py:73
+msgid "Enter the arguments for the parser in YAML format."
+msgstr "དབྱེ་དཔྱད་བྱེད་མཁན་གྱི་སྒྲུབ་བྱེད་དེ་YAMLརྩ་སྒྲིག་ནང་བཙུགས།"
+
+#: models/metadata_type_models.py:76
+msgid "Parser arguments"
+msgstr "དབྱེ་ཞིབ་བྱེད་མཁན་གྱི་རྩོད་གླེང་།"
+
+#: models/metadata_type_models.py:130
+msgid "Value is not one of the provided options."
+msgstr "རིན་ཐང་ནི་མཁོ་སྤྲོད་བྱས་པའི་གདམ་གའི་གྲས་ཤིག་མ་རེད།"
+
+#: models/metadata_type_models.py:145
+#, python-format
+msgid "Metadata type validation error; %(exception)s"
+msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་བདེན་དཔང་ནོར་འཁྲུལ། %(exception)s"
+
+#: permissions.py:10
+msgid "Add metadata to a document"
+msgstr "ཡིག་ཆར་མེ་ཊ་གཞི་གྲངས་ཁ་སྣོན་བྱེད་པ།"
+
+#: permissions.py:13
+msgid "Edit a document's metadata"
+msgstr "ཡིག་ཆའི་མེ་ཊ་གཞི་གྲངས་རྩོམ་སྒྲིག་བྱེད་པ།"
+
+#: permissions.py:16
+msgid "Remove metadata from a document"
+msgstr "ཡིག་ཆའི་ནང་ནས་མེ་ཊ་ཌེ་ཊ་མེད་པར་བཟོ་བ།"
+
+#: permissions.py:20
+msgid "View metadata from a document"
+msgstr "ཡིག་ཆ་ནས་མེ་ཊ་གཞི་གྲངས་ལྟ་བ།"
+
+#: permissions.py:28
+msgid "Edit metadata types"
+msgstr "མེ་ཊ་གྲངས་ཐོའི་རིགས་རྩོམ་སྒྲིག་བྱེད་པ།"
+
+#: permissions.py:31
+msgid "Create new metadata types"
+msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་གསར་པ་གསར་སྐྲུན་བྱེད།"
+
+#: permissions.py:34
+msgid "Delete metadata types"
+msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་སུབ་པ།"
+
+#: permissions.py:37
+msgid "View metadata types"
+msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་ལ་ལྟ་བ།"
+
+#: queues.py:11
+msgid "Remove metadata type"
+msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་མེད་པར་བཟོས།"
+
+#: queues.py:15
+msgid "Add required metadata type"
+msgstr "དགོས་མཁོའི་གྲངས་ཐོའི་རིགས་ཁ་སྣོན་བྱེད།"
+
+#: serializers.py:32 serializers.py:61 serializers.py:117
+msgid "URL"
+msgstr "URL །"
+
+#: serializers.py:56
+msgid "Primary key of the metadata type to be added."
+msgstr "ཁ་སྣོན་བྱེད་དགོས་པའི་མེ་ཊ་ཌེ་ཊ་རིགས་ཀྱི་ལྡེ་མིག་གཙོ་བོ།"
+
+#: serializers.py:57 serializers.py:107
+msgid "Metadata type ID"
+msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་ID"
+
+#: serializers.py:105
+msgid "Primary key of the metadata type to be added to the document."
+msgstr "ཡིག་ཆ་ལ་ཁ་སྣོན་བྱེད་དགོས་པའི་མེ་ཊ་ཌེ་ཊ་རིགས་ཀྱི་གཙོ་བོའི་ལྡེ་མིག"
+
+#: views/document_views.py:46
+#, python-format
+msgid "Metadata add request performed on %(count)d document"
+msgstr "མེ་ཊ་ཌེ་ཊ་ཁ་སྣོན་གྱི་རེ་འདུན་ %(count)d ཡིག་ཆར་སྒྲུབ་ཡོད།"
+
+#: views/document_views.py:49
+#, python-format
+msgid "Metadata add request performed on %(count)d documents"
+msgstr "མེ་ཊ་ཌེ་ཊ་ཁ་སྣོན་གྱི་རེ་འདུན་དེ་ %(count)d ཡིག་ཆའི་ཐོག་སྒྲུབ་ཡོད།"
+
+#: views/document_views.py:58
+msgid "Add metadata types to document"
+msgid_plural "Add metadata types to documents"
+msgstr[0] "ཡིག་ཆའི་ནང་མེ་ཊ་གཞི་གྲངས་རིགས་ཁ་སྣོན་བྱེད་པ།"
+
+#: views/document_views.py:69
+#, python-format
+msgid "Add metadata types to document: %s"
+msgstr "ཡིག་ཆ་ལ་མེ་ཊ་ཌེ་ཊ་རིགས་ཁ་སྣོན་བྱེད། %s"
+
+#: views/document_views.py:147
+#, python-format
+msgid ""
+"Error adding metadata type \"%(metadata_type)s\" to document: %(document)s; "
+"%(exception)s"
+msgstr ""
+"ཡིག་ཆ་ལ་མེ་ཊ་ཌེ་ཊ་རིགས་ &quot; %(metadata_type)s %(document)s "
+"ཁ་སྣོན་བྱེད་པའི་ནོར་འཁྲུལ། %(exception)s"
+
+#: views/document_views.py:166
+#, python-format
+msgid ""
+"Metadata type: %(metadata_type)s successfully added to document "
+"%(document)s."
+msgstr "མཐོ་ %(document)s གནས་ཚུལ་རིགས %(metadata_type)s"
+
+#: views/document_views.py:176
+#, python-format
+msgid ""
+"Metadata type: %(metadata_type)s already present in document %(document)s."
+msgstr ""
+"མེ་ཊ་ཌེ་ཊ་རིགས། %(metadata_type)s %(document)s ཡིག་ཆའི་ནང་དུ་སྔོན་ནས་ཡོད།"
+
+#: views/document_views.py:193
+#, python-format
+msgid "Metadata edit request performed on %(count)d document"
+msgstr "མེ་ཊ་ཌེ་ཊ་རྩོམ་སྒྲིག་རེ་འདུན་དེ་ %(count)d ཡིག་ཆའི་ཐོག་སྒྲུབ་ཡོད།"
+
+#: views/document_views.py:196
+#, python-format
+msgid "Metadata edit request performed on %(count)d documents"
+msgstr "མེ་ཊ་ཌེ་ཊ་རྩོམ་སྒྲིག་རེ་འདུན་དེ་ %(count)d ཡིག་ཆའི་ཐོག་སྒྲུབ་ཡོད།"
+
+#: views/document_views.py:231
+msgid ""
+"Add metadata types available for this document's type and assign them "
+"corresponding values."
+msgstr ""
+"ཡིག་ཆ་འདིའི་རིགས་ལ་ཡོད་པའི་མེ་ཊ་ཌེ་ཊ་རིགས་ཁ་སྣོན་བྱས་ནས་དེ་དག་ལ་མཐུན་པའི་རིན་ཐང་སྤྲོད་དགོས།"
+
+#: views/document_views.py:234
+msgid "There is no metadata to edit"
+msgstr "རྩོམ་སྒྲིག་བྱེད་པའི་མེ་ཊ་ཌེ་ཊ་མེད།"
+
+#: views/document_views.py:236
+msgid "Edit document metadata"
+msgid_plural "Edit documents metadata"
+msgstr[0] "ཡིག་ཆའི་མེ་ཊ་གཞི་གྲངས་རྩོམ་སྒྲིག་བྱེད་པ།"
+
+#: views/document_views.py:247
+#, python-format
+msgid "Edit metadata for document: %s"
+msgstr "ཡིག་ཆའི་ཆེད་དུ་མེ་ཊ་ཌེ་ཊ་རྩོམ་སྒྲིག: %s"
+
+#: views/document_views.py:334
+#, python-format
+msgid "Error editing metadata for document: %(document)s; %(exception)s."
+msgstr ""
+"ཡིག་ཆའི་ཆེད་དུ་མེ་ཊ་ཌེ་ཊ་རྩོམ་སྒྲིག་བྱེད་པའི་ནོར་འཁྲུལ། %(document)s ; "
+"%(exception)s །"
+
+#: views/document_views.py:347
+#, python-format
+msgid "Metadata for document %s edited successfully."
+msgstr "ཡིག་ཆའི་ཆེད་དུ་མེ་ཊ་ཌེ་ཊ་ %s མཐར་ཕྱིན་ངང་རྩོམ་སྒྲིག་བྱས།"
+
+#: views/document_views.py:372
+msgid ""
+"Add metadata types this document's type to be able to add them to individual"
+" documents. Once added to individual document, you can then edit their "
+"values."
+msgstr ""
+"ཡིག་ཆ་རེ་རེ་ལ་ཁ་སྣོན་བྱེད་ཐུབ་པའི་ཆེད་དུ་ཡིག་ཆ་འདིའི་རིགས་ལ་མེ་ཊ་ཌེ་ཊ་རིགས་ཁ་སྣོན་བྱེད།"
+" ཡིག་ཆ་རེ་རེ་ལ་ཁ་སྣོན་བྱས་རྗེས་ཁྱེད་ཀྱིས་དེ་དག་གི་རིན་ཐང་ཞུན་དག་བྱེད་ཐུབ།"
+
+#: views/document_views.py:377
+msgid "This document doesn't have any metadata"
+msgstr "ཡིག་ཆ་འདི་ལ་མེ་ཊ་ཌེ་ཊ་གང་ཡང་མེད།"
+
+#: views/document_views.py:380
+#, python-format
+msgid "Metadata for document: %s"
+msgstr "ཡིག་ཆའི་ཆེད་དུ་མེ་ཊ་ཌེ་ཊ། %s"
+
+#: views/document_views.py:396
+#, python-format
+msgid "Metadata remove request performed on %(count)d document"
+msgstr "མེ་ཊ་ཌེ་ཊ་མེད་པར་བཟོ་བའི་རེ་འདུན་དེ་ %(count)d ཡིག་ཆའི་ཐོག་སྒྲུབ་ཡོད།"
+
+#: views/document_views.py:399
+#, python-format
+msgid "Metadata remove request performed on %(count)d documents"
+msgstr "མེ་ཊ་ཌེ་ཊ་མེད་པར་བཟོ་བའི་རེ་འདུན་དེ་ %(count)d ཡིག་ཆའི་ཐོག་སྒྲུབ་ཡོད།"
+
+#: views/document_views.py:409
+msgid "Remove metadata types from the document"
+msgid_plural "Remove metadata types from the documents"
+msgstr[0] "ཡིག་ཆའི་ནང་ནས་མེ་ཊ་གཞི་གྲངས་རིགས་མེད་པར་བཟོ་བ།"
+
+#: views/document_views.py:420
+#, python-format
+msgid "Remove metadata types from the document: %s"
+msgstr "ཡིག་ཆ་ནས་མེ་ཊ་ཌེ་ཊ་རིགས་མེད་པར་བཟོས་: %s"
+
+#: views/document_views.py:486
+#, python-format
+msgid ""
+"Successfully remove metadata type \"%(metadata_type)s\" from document: "
+"%(document)s."
+msgstr ""
+"ཡིག་ཆ་ནས་མེ་ཊ་ཌེ་ཊ་རིགས་ &quot; %(metadata_type)s %(document)s "
+"མཐར་ཕྱིན་ངང་མེད་པར་བཟོས།"
+
+#: views/document_views.py:496
+#, python-format
+msgid ""
+"Error removing metadata type \"%(metadata_type)s\" from document: "
+"%(document)s; %(exception)s"
+msgstr ""
+"ཡིག་ཆ་ནས་མེ་ཊ་ཌེ་ཊ་རིགས་ &quot; %(metadata_type)s %(document)s "
+"མེད་པར་བཟོ་བའི་ནོར་འཁྲུལ། %(exception)s"
+
+#: views/metadata_type_views.py:31
+msgid "Create metadata type"
+msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་གསར་འཛུགས་བྱེད།"
+
+#: views/metadata_type_views.py:47
+#, python-format
+msgid "Error deleting metadata type \"%(instance)s\"; %(exception)s"
+msgstr ""
+"མེ་ཊ་ཌེ་ཊ་རིགས་ &quot; %(instance)s &quot; བསུབས་པའི་ནོར་འཁྲུལ། "
+"%(exception)s"
+
+#: views/metadata_type_views.py:56
+#, python-format
+msgid "%(count)d metadata types deleted successfully."
+msgstr "%(count)d མེ་ཊ་ཌེ་ཊ་རིགས་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views/metadata_type_views.py:59
+#, python-format
+msgid "Metadata type \"%(object)s\" deleted successfully."
+msgstr ""
+"མཐོ་རིམ་གནས་སྡུད་རིགས་ &quot; %(object)s &quot; མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views/metadata_type_views.py:62
+#, python-format
+msgid "%(count)d metadata type deleted successfully."
+msgstr "%(count)d མེ་ཊ་ཌེ་ཊ་རིགས་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views/metadata_type_views.py:64
+#, python-format
+msgid "Delete the %(count)d selected metadata types."
+msgstr "འདེམས་སྒྲུག་བྱས་པའི་མེ་ཊ་ཌེ་ཊ་རིགས་ %(count)d བསུབས་དགོས།"
+
+#: views/metadata_type_views.py:65
+#, python-format
+msgid "Delete metadata type: %(object)s."
+msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་སུབ་ %(object)s"
+
+#: views/metadata_type_views.py:66
+#, python-format
+msgid "Delete the %(count)d selected metadata type."
+msgstr "འདེམས་སྒྲུག་བྱས་པའི་མེ་ཊ་ཌེ་ཊ་རིགས་ %(count)d བསུབས་དགོས།"
+
+#: views/metadata_type_views.py:83
+#, python-format
+msgid "Edit metadata type: %s"
+msgstr "རྩོམ་སྒྲིག་མེ་ཊ་ཌེ་ཊ་རིགས་: %s"
+
+#: views/metadata_type_views.py:104
+msgid ""
+"Metadata types are user defined properties that can be assigned values. Once"
+" created they must be associated to document types, either as optional or "
+"required, for each. Setting a metadata type as required for a document type "
+"will block the upload of documents of that type until a metadata value is "
+"provided."
+msgstr ""
+"མེ་ཊ་ཌེ་ཊ་རིགས་ནི་སྤྱོད་མཁན་གྱིས་ངེས་ཚིག་བཀོད་པའི་རྒྱུ་དངོས་ཡིན་ཞིང་། "
+"གསར་བཟོ་བྱས་རྗེས་དེ་དག་ཡིག་ཆའི་རིགས་དང་འབྲེལ་བ་བྱེད་དགོས། "
+"གདམ་ག་ཅན་ཡང་ན་དགོས་མཁོའི་རིགས་རེ་རེར་ཡིག་ཆའི་རིགས་ལ་འབྲེལ་བ་བྱེད་དགོས། "
+"ཡིག་ཆའི་རིགས་ལ་དགོས་མཁོ་ལྟར་མེ་ཊ་ཌེ་ཊ་རིགས་སྒྲིག་འཇུག་བྱས་ན་མེ་ཊ་ཌེ་ཊའི་རིན་ཐང་མ་སྤྲད་བར་དུ་རིགས་དེའི་ཡིག་ཆའི་ཕབ་ལེན་བཀག་འགོག་བྱེད།"
+
+#: views/metadata_type_views.py:111
+msgid "There are no metadata types"
+msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་མེད།"
+
+#: views/metadata_type_views.py:135
+msgid ""
+"Create metadata type relationships to be able to associate them to this "
+"document type."
+msgstr ""
+"ཡིག་ཆའི་རིགས་འདི་ལ་འབྲེལ་བ་བྱེད་ཐུབ་པའི་ཆེད་དུ་མེ་ཊ་ཌེ་ཊ་རིགས་ཀྱི་འབྲེལ་བ་གསར་འཛུགས་བྱེད།"
+
+#: views/metadata_type_views.py:139
+msgid "There are no metadata type relationships available"
+msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་ཀྱི་འབྲེལ་བ་མེད།"
+
+#: views/metadata_type_views.py:143
+#, python-format
+msgid "Metadata type relationships for document type: %s"
+msgstr "ཡིག་ཆའི་རིགས་ཀྱི་མེ་ཊ་ཌེ་ཊ་རིགས་འབྲེལ་བ། %s"
+
+#: views/metadata_type_views.py:186
+#, python-format
+msgid "Document type relationships for metadata type: %s"
+msgstr "ཡིག་ཆའི་རིགས་འབྲེལ་བ། མེ་ཊ་ཌེ་ཊ་རིགས་: %s"
+
+#: wizard_steps.py:21
+msgid "Enter document metadata"
+msgstr "ཡིག་ཆའི་མེ་ཊ་གཞི་གྲངས་ནང་འཇུག་བྱེད་པ།"
+
+#: wizard_steps.py:203
+msgid ""
+"One of more metadata types that are required for this document type are not "
+"available."
+msgstr "ཡིག་ཆའི་རིགས་འདི་ལ་དགོས་པའི་མེ་ཊ་ཌེ་ཊ་རིགས་མང་བ་གཅིག་ཐོབ་མི་ཐུབ།"
+
+#: workflow_actions.py:49
+msgid "Metadata types to add to the document."
+msgstr "ཡིག་ཆ་ལ་ཁ་སྣོན་བྱེད་པའི་མེ་ཊ་ཌེ་ཊ་རིགས།"
+
+#: workflow_actions.py:84
+#, python-format
+msgid ""
+"Unable to add metadata type \"%(metadata_type)s\" from document: "
+"%(document)s. Exception: %(exception)s"
+msgstr ""
+"ཡིག་ཆ་: %(document)s ནས་མེ་ཊ་ཌེ་ཊ་རིགས་ &quot; %(metadata_type)s &quot; "
+"ཁ་སྣོན་བྱེད་མི་ཐུབ། དམིགས་བསལ་: %(exception)s"
+
+#: workflow_actions.py:116
+msgid ""
+"Value to assign to the metadata. Can be a literal value or template code."
+msgstr ""
+"མེ་ཊ་ཌེ་ཊ་ལ་སྤྲོད་པའི་རིན་ཐང་། "
+"ཚིག་དོན་གྱི་རིན་ཐང་ཡང་ན་དཔེ་སྒྲོམ་གྱི་ཨང་རྟགས་ཡིན་སྲིད།"
+
+#: workflow_actions.py:142
+msgid "Metadata types to edit."
+msgstr "རྩོམ་སྒྲིག་བྱེད་པའི་མེ་ཊ་ཌེ་ཊ་རིགས།"
+
+#: workflow_actions.py:181
+#, python-format
+msgid ""
+"Unable to edit metadata type \"%(metadata_type)s\" from document: "
+"%(document)s. Document does not have the metadata type to be edited. "
+"Exception: %(exception)s"
+msgstr ""
+"ཡིག་ཆ་: %(document)s ནས་མེ་ཊ་ཌེ་ཊ་རིགས་ &quot; %(metadata_type)s &quot; "
+"རྩོམ་སྒྲིག་བྱེད་མི་ཐུབ། ཡིག་ཆ་ལ་རྩོམ་སྒྲིག་བྱེད་དགོས་པའི་མེ་ཊ་ཌེ་ཊ་རིགས་མེད།"
+" དམིགས་བསལ་: %(exception)s"
+
+#: workflow_actions.py:212
+msgid "Metadata types to remove from the document."
+msgstr "ཡིག་ཆ་ནས་མེད་པར་བཟོ་བའི་མེ་ཊ་ཌེ་ཊ་རིགས།"
+
+#: workflow_actions.py:228
+#, python-format
+msgid ""
+"Unable to remove metadata type \"%(metadata_type)s\" from document: "
+"%(document)s. Exception: %(exception)s"
+msgstr ""
+"ཡིག་ཆ་: %(document)s ནས་མེ་ཊ་ཌེ་ཊ་རིགས་ &quot; %(metadata_type)s &quot; "
+"རྩ་མེད་གཏོང་མི་ཐུབ། དམིགས་བསལ་: %(exception)s"

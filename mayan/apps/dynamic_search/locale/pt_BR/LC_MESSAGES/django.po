@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"POT-Creation-Date: 2025-09-26 15:20+0000\n"
 "PO-Revision-Date: 2024-05-07 07:30+0000\n"
 "Last-Translator: Fabricio Pacheco, 2025\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rosarior/teams/13584/pt_BR/)\n"
@@ -34,7 +34,7 @@ msgstr ""
 msgid "Dynamic search"
 msgstr "Busca dinâmica"
 
-#: events.py:6 permissions.py:6 queues.py:11 settings.py:19
+#: events.py:6 permissions.py:6 queues.py:11 settings.py:20
 #: templates/dynamic_search/search_box.html:47
 #: templates/dynamic_search/search_box_toolbar.html:30
 #: views/search_views.py:110
@@ -107,11 +107,11 @@ msgstr "Buscar novamente"
 msgid "Reindex search backend"
 msgstr "Reindexar backend de pesquisa"
 
-#: literals.py:26
+#: literals.py:27
 msgid "Yes"
 msgstr "Sim"
 
-#: literals.py:27
+#: literals.py:28
 msgid "No"
 msgstr "Não"
 
@@ -226,7 +226,7 @@ msgstr ""
 msgid "Delete expired saved resultsets"
 msgstr ""
 
-#: scoped_queries.py:345
+#: scoped_queries.py:348
 #, python-format
 msgid ""
 "Query results exceed the current limit of %d. Results will not be reliable "
@@ -234,7 +234,7 @@ msgid ""
 " value of the results limit setting `%s`."
 msgstr ""
 
-#: scoped_queries.py:364
+#: scoped_queries.py:373
 #, python-format
 msgid ""
 "Search backend error. Verify that the search service is available and that "
@@ -322,21 +322,21 @@ msgstr ""
 msgid "Search fields"
 msgstr ""
 
-#: settings.py:24
+#: settings.py:25
 msgid "Full path to the backend to be used to handle the search."
 msgstr "Caminho completo do backend usado para manipular a busca."
 
-#: settings.py:30
+#: settings.py:31
 msgid ""
 "Arguments to pass to the search backend. For example values to change the "
 "behavior, host names, or authentication arguments."
 msgstr ""
 
-#: settings.py:38
+#: settings.py:39
 msgid "The search operator to use when none is specified."
 msgstr ""
 
-#: settings.py:45
+#: settings.py:46
 msgid ""
 "Disables the single term bar search leaving only the advanced search button."
 msgstr "Desabilita a busca por termo único e deixa apenas a busca avançada."
@@ -354,27 +354,33 @@ msgid ""
 "Maximum number of search results to fetch and display per search query unit."
 msgstr ""
 
-#: settings.py:71
+#: settings.py:72
+msgid ""
+"Raise an error when the number of search results exceed the value of "
+"`SEARCH_QUERY_RESULTS_LIMIT`."
+msgstr ""
+
+#: settings.py:79
 msgid "Maximum number of search results to fetch and display."
 msgstr ""
 
-#: settings.py:77
+#: settings.py:85
 msgid "Maximum number of saved resultsets to keep per user."
 msgstr ""
 
-#: settings.py:83
+#: settings.py:91
 msgid "Maximum number of results to store per resultset."
 msgstr ""
 
-#: settings.py:89
+#: settings.py:97
 msgid "Time to keep the resultset in seconds."
 msgstr ""
 
-#: settings.py:95
+#: settings.py:103
 msgid "Amount to increase the time to live on each access of the resultset."
 msgstr ""
 
-#: settings.py:102
+#: settings.py:110
 msgid "Sets the default state of the \"Store results\" checkbox."
 msgstr ""
 

@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:13
+msgid "Emails"
+msgstr "གློག་འཕྲིན།"
+
+#: source_backends/imap_source_backends.py:21
+msgid "IMAP email"
+msgstr "IMAP གློག་འཕྲིན།"
+
+#: source_backends/imap_source_backends.py:50
+msgid "IMAP Mailbox from which to check for messages."
+msgstr "IMAPཡིག་སྒམ། དེ་ནས་འཕྲིན་ཡིག་བརྟག་དཔྱད་བྱེད་ཐུབ།"
+
+#: source_backends/imap_source_backends.py:55
+msgid "Mailbox"
+msgstr "ཡིག་སྒམ།"
+
+#: source_backends/imap_source_backends.py:62
+msgid ""
+"Criteria to use when searching for messages to process. Use the format "
+"specified in https://tools.ietf.org/html/rfc2060.html#section-6.4.4"
+msgstr ""
+"ལས་སྣོན་བྱེད་པའི་བརྡ་འཕྲིན་འཚོལ་སྐབས་བེད་སྤྱོད་གཏོང་བའི་ཚད་གཞི། "
+"2060.html#section-6.4.4 ནང་གསལ་བའི་རྩ་སྒྲིག་བེད་སྤྱོད་བྱེད།"
+
+#: source_backends/imap_source_backends.py:66
+msgid "Search criteria"
+msgstr "འཚོལ་བཤེར་གྱི་ཚད་གཞི།"
+
+#: source_backends/imap_source_backends.py:74
+msgid ""
+"IMAP STORE command to execute on messages after they are processed. One "
+"command per line. Use the commands specified in "
+"https://tools.ietf.org/html/rfc2060.html#section-6.4.6 or the custom "
+"commands for your IMAP server."
+msgstr ""
+"IMAP STORE བརྡ་བཀོད་དེ་བརྡ་འཕྲིན་ལས་སྣོན་བྱས་རྗེས་ལག་བསྟར་བྱེད་དགོས། "
+"གྲལ་ཐིག་རེར་བཀའ་ཚིག་གཅིག ཁྱེད་རང་གི་ IMAP སར་བར་གྱི་སྲོལ་སྒྲིག་བཀའ་ཚིག་ "
+"ནང་གསལ་བཀོད་བྱས་པའི་བརྡ་བཀོད་བེད་སྤྱོད་བྱེད།"
+
+#: source_backends/imap_source_backends.py:80
+msgid "Store commands"
+msgstr "བཀའ་ཚིག་ཉར་ཚགས་བྱེད་པ།"
+
+#: source_backends/imap_source_backends.py:87
+msgid "Execute the IMAP expunge command after processing each email message."
+msgstr ""
+"གློག་འཕྲིན་འཕྲིན་ཡིག་རེ་རེ་ལ་ལས་སྣོན་བྱས་རྗེས་IMAP expunge "
+"བརྡ་བཀོད་ལག་བསྟར་བྱེད།"
+
+#: source_backends/imap_source_backends.py:90
+msgid "Execute expunge"
+msgstr "རྩ་མེད་གཏོང་བ་ལག་བསྟར།"
+
+#: source_backends/imap_source_backends.py:97
+msgid "IMAP Mailbox to which processed messages will be copied."
+msgstr "ལས་སྣོན་བྱས་པའི་འཕྲིན་ཡིག་འདྲ་བཤུས་བྱེད་སའི་IMAPཡིག་སྒམ།"
+
+#: source_backends/imap_source_backends.py:100
+msgid "Destination mailbox"
+msgstr "འགྲོ་ཡུལ་གྱི་ཡིག་སྒམ།"
+
+#: source_backends/imap_source_backends.py:116
+msgid "IMAP protocol"
+msgstr "IMAP གྲོས་མཐུན།"
+
+#: source_backends/mixins.py:33
+msgid "Host"
+msgstr "འགོ་འཛིན་པ"
+
+#: source_backends/mixins.py:42
+msgid "SSL"
+msgstr "SSL"
+
+#: source_backends/mixins.py:48
+msgid ""
+"Typical choices are 110 for POP3, 995 for POP3 over SSL, 143 for IMAP, 993 "
+"for IMAP over SSL."
+msgstr ""
+"སྤྱིར་བཏང་གི་འདེམས་གཞི་ནི། POP3 ལ 110 དང་། SSL ལ POP3 ལ 995 IMAP ལ 143 IMAP "
+"ལ SSL ལ 993 ཡིན།"
+
+#: source_backends/mixins.py:54
+msgid "Port"
+msgstr "མཚོ་ཁ"
+
+#: source_backends/mixins.py:60
+msgid "Store the body of the email as a text document."
+msgstr "གློག་འཕྲིན་གྱི་ནང་དོན་ཡིག་ཆའི་ཡིག་ཆ་ལྟར་ཉར་ཚགས་བྱེད།"
+
+#: source_backends/mixins.py:63
+msgid "Store email body"
+msgstr "གློག་འཕྲིན་གྱི་ནང་གསེས།"
+
+#: source_backends/mixins.py:77
+msgid "Common email options"
+msgstr "སྤྱིར་བཏང་གི་གློག་འཕྲིན་གདམ་ག།"
+
+#: source_backends/pop3_source_backends.py:18
+msgid "POP3 email"
+msgstr "POP3 གློག་འཕྲིན།"
+
+#: source_backends/pop3_source_backends.py:32
+msgid "Timeout"
+msgstr "དུས་ཚོད་ཡོལ་བ།"
+
+#: source_backends/pop3_source_backends.py:45
+msgid "POP3 protocol"
+msgstr "POP3གྲོས་མཐུན།"
+
+#: tests/source_backends.py:58
+msgid "Test IMAP email"
+msgstr "IMAPགློག་འཕྲིན་ཚོད་ལྟ།"
+
+#: tests/source_backends.py:73
+msgid "Test POP3 email"
+msgstr "POP3གློག་འཕྲིན་ཚོད་ལྟ།"

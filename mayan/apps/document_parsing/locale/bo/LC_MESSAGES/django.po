@@ -1,0 +1,248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:53 apps.py:89 events.py:6 permissions.py:6 settings.py:11
+msgid "Document parsing"
+msgstr "ཡིག་ཆ་དབྱེ་ཞིབ།"
+
+#: apps.py:113
+msgid "A generator returning the document file's pages parsed content."
+msgstr ""
+"ཡིག་ཆའི་ཡིག་ཆའི་ཤོག་ངོས་ལ་དབྱེ་ཞིབ་བྱས་པའི་ནང་དོན་སླར་ལོག་བྱེད་པའི་འཕྲུལ་ཆས་ཤིག་རེད།"
+
+#: apps.py:114 links.py:26 links.py:49 models.py:27 search.py:18
+msgid "Content"
+msgstr "ནང་དོན"
+
+#: dependencies.py:9
+msgid ""
+"Utility from the poppler-utils package used to extract content from PDF "
+"files."
+msgstr ""
+"PDFཡིག་ཆ་ནས་ནང་དོན་འདོན་པར་བེད་སྤྱོད་བྱེད་པའི་poppler-utils "
+"ཐུམ་སྒྲིལ་ནས་བེད་སྤྱོད།"
+
+#: events.py:10
+msgid "Document file parsed content deleted"
+msgstr "ཡིག་ཆའི་ཡིག་ཆའི་དབྱེ་ཞིབ་ནང་དོན་སུབ་པ།"
+
+#: events.py:14
+msgid "Document file submitted for parsing"
+msgstr "དཔྱད་གཞིའི་ཡིག་ཆའི་ཡིག་ཆ་ཕུལ་བ།"
+
+#: events.py:17
+msgid "Document file parsing finished"
+msgstr "ཡིག་ཆའི་ཡིག་ཆ་དབྱེ་ཞིབ་ལེགས་འགྲུབ་བྱུང་།"
+
+#: forms.py:41
+#, python-format
+msgid "Page %(page_number)d"
+msgstr "ཤོག་ངོས། %(page_number)d"
+
+#: forms.py:51 forms.py:63
+msgid "Contents"
+msgstr "ནང་དོན།"
+
+#: links.py:32 links.py:37
+msgid "Delete parsed content"
+msgstr "དབྱེ་ཞིབ་བྱས་པའི་ནང་དོན་སུབ་པ།"
+
+#: links.py:43
+msgid "Download content"
+msgstr "ནང་དོན་ཕབ་ལེན།"
+
+#: links.py:54 links.py:61
+msgid "Submit for parsing"
+msgstr "དབྱེ་ཞིབ་ཆེད་ཕུལ་བ།"
+
+#: links.py:71
+msgid "Setup parsing"
+msgstr "དབྱེ་ཞིབ་སྒྲིག་འཛུགས།"
+
+#: links.py:80
+msgid "Parse documents per type"
+msgstr "རིགས་སོ་སོར་ཡིག་ཆའི་དབྱེ་ཞིབ།"
+
+#: models.py:21
+msgid "Document file page"
+msgstr "ཡིག་ཆའི་ཤོག་ངོས་།"
+
+#: models.py:25
+msgid "The actual text content as extracted by the document parsing backend."
+msgstr "ཡིག་ཆའི་ནང་དོན་ངོ་མ། ཡིག་ཆའི་དབྱེ་ཞིབ་རྒྱབ་ཕྱོགས་ཀྱིས་འདོན་སྤེལ་བྱས།"
+
+#: models.py:33 search.py:24
+msgid "Document file page content"
+msgstr "ཡིག་ཆའི་ཤོག་ངོས་ནང་དོན།"
+
+#: models.py:34
+msgid "Document file page contents"
+msgstr "ཡིག་ཆའི་ཤོག་ངོས་ནང་དོན།"
+
+#: models.py:46
+msgid "Document type"
+msgstr "ཡིག་ཆའི་རིགས།"
+
+#: models.py:50
+msgid "Automatically queue newly created documents for parsing."
+msgstr ""
+"རང་འགུལ་གྱིས་གསར་དུ་བཟོས་པའི་ཡིག་ཆ་རྣམས་དབྱེ་ཞིབ་བྱེད་པར་བང་སྒྲིག་བྱེད།"
+
+#: models.py:51
+msgid "Auto parsing"
+msgstr "རང་འགུལ་དབྱེ་ཞིབ།"
+
+#: models.py:61
+msgid "Document type settings"
+msgstr "ཡིག་ཆའི་རིགས་སྒྲིག་སྟངས།"
+
+#: models.py:62
+msgid "Document types settings"
+msgstr "ཡིག་ཆའི་རིགས་སྒྲིག་སྟངས།"
+
+#: parsers.py:106
+#, python-format
+msgid "Exception parsing page; %s"
+msgstr "དམིགས་བསལ་གྱི་དབྱེ་ཞིབ་ཤོག་ངོས། %s"
+
+#: parsers.py:132
+#, python-format
+msgid "Cannot find pdftotext executable at: %s"
+msgstr "ལག་བསྟར་བྱེད་ཐུབ་པའི་pdfttextའཚོལ་མི་ཐུབ། %s"
+
+#: permissions.py:10
+msgid "View the content of a document file"
+msgstr "ཡིག་ཆའི་ཡིག་ཆའི་ནང་དོན་ལྟ་བ།"
+
+#: permissions.py:13
+msgid "Parse the content of a document file"
+msgstr "ཡིག་ཆའི་ཡིག་ཆའི་ནང་དོན་དབྱེ་ཞིབ།"
+
+#: permissions.py:16
+msgid "Change document type parsing settings"
+msgstr "ཡིག་ཆའི་རིགས་དབྱེ་ཞིབ་སྒྲིག་སྟངས་བསྒྱུར་བ།"
+
+#: queues.py:7
+msgid "Parsing"
+msgstr "དབྱེ་ཞིབ།"
+
+#: queues.py:12
+msgid "Document file parsing"
+msgstr "ཡིག་ཆའི་ཡིག་ཆ་དབྱེ་ཞིབ།"
+
+#: search.py:12
+msgid "Document file content"
+msgstr "ཡིག་ཆའི་ནང་དོན།"
+
+#: settings.py:18
+msgid "Set new document types to perform parsing automatically by default."
+msgstr ""
+"སྔོན་སྒྲིག་ལྟར་རང་འགུལ་གྱིས་དབྱེ་ཞིབ་བྱེད་པར་ཡིག་ཆའི་རིགས་གསར་པ་སྒྲིག་དགོས།"
+
+#: settings.py:24
+msgid ""
+"File path to poppler's pdftotext program used to extract text from PDF "
+"files."
+msgstr ""
+"ཡིག་ཆའི་འགྲོ་ལམ་པོཔ་ལར་གྱི་pdftotextལས་རིམ་ལ་སྤྱོད་པ་དེ་PDFཡིག་ཆ་ནས་ཡིག་ཆ་འདོན་པར་བེད་སྤྱོད་བྱེད།"
+
+#: views.py:38
+#, python-format
+msgid "Error deleting document version content \"%(instance)s\"; %(exception)s"
+msgstr ""
+"ཡིག་ཆའི་ཐོན་རིམ་གྱི་ནང་དོན་བསུབས་པའི་ནོར་འཁྲུལ་ &quot; %(instance)s &quot;; "
+"%(exception)s"
+
+#: views.py:45
+#, python-format
+msgid "Content of %(count)d document versions deleted successfully."
+msgstr "%(count)d ཡིག་ཆའི་ཐོན་རིམ་གྱི་ནང་དོན་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views.py:48
+#, python-format
+msgid "Content of \"%(object)s\" deleted successfully."
+msgstr "&quot; %(object)s &quot; ཡི་ནང་དོན་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views.py:51
+#, python-format
+msgid "Content of %(count)d document version deleted successfully."
+msgstr "ཡིག་ཆའི་ཐོན་རིམ་ %(count)d ཡི་ནང་དོན་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views.py:53
+#, python-format
+msgid "Delete the content of: %(object)s."
+msgstr "འདིའི་ནང་དོན་བསུབས་ %(object)s"
+
+#: views.py:55
+#, python-format
+msgid "Delete the content of the %(count)d selected document version."
+msgstr "%(count)d འདེམས་སྒྲུག་བྱས་པའི་ཡིག་ཆའི་ཐོན་རིམ་གྱི་ནང་དོན་བསུབས་དགོས།"
+
+#: views.py:58
+#, python-format
+msgid "Delete the content of the %(count)d selected document versions."
+msgstr "%(count)d འདེམས་སྒྲུག་བྱས་པའི་ཡིག་ཆའི་ཐོན་རིམ་གྱི་ནང་དོན་བསུབས་དགོས།"
+
+#: views.py:99
+#, python-format
+msgid "Content for document file: %s"
+msgstr "ཡིག་ཆའི་ཡིག་ཆའི་ནང་དོན། %s"
+
+#: views.py:121
+#, python-format
+msgid "Content for document file page: %s"
+msgstr "ཡིག་ཆའི་ཡིག་ཆའི་ཤོག་ངོས་ཀྱི་ནང་དོན། %s"
+
+#: views.py:136
+#, python-format
+msgid "%(count)d document file added to the parsing queue"
+msgstr "དབྱེ་ཞིབ་བང་རིམ་ལ་ %(count)d ཡིག་ཆའི་ཡིག་ཆ་ཁ་སྣོན་བྱས།"
+
+#: views.py:139
+#, python-format
+msgid "%(count)d documents files added to the parsing queue"
+msgstr "དབྱེ་ཞིབ་བང་རིམ་ལ་ %(count)d ཡིག་ཆའི་ཡིག་ཆ་ཁ་སྣོན་བྱས།"
+
+#: views.py:148
+#, python-format
+msgid "Submit %(count)d document file to the parsing queue?"
+msgid_plural "Submit %(count)d documents files to the parsing queue?"
+msgstr[0] "ཡིག་ཆའི་ཡིག་ཆ་ %(count)d དབྱེ་ཞིབ་བང་རིམ་ལ་འབུལ་དགོས་སམ།"
+
+#: views.py:161
+#, python-format
+msgid "Submit document file \"%s\" to the parsing queue"
+msgstr "ཡིག་ཆའི་ཡིག་ཆ་ &quot; %s &quot; དབྱེ་ཞིབ་བང་རིམ་ལ་འབུལ།"
+
+#: views.py:191
+#, python-format
+msgid "Edit parsing settings for document type: %s."
+msgstr "ཡིག་ཆའི་རིགས་ལ་དབྱེ་ཞིབ་སྒྲིག་སྟངས་ཞུན་དག་བྱེད། %s ."
+
+#: views.py:201
+msgid "Submit all documents of a type for parsing"
+msgstr "རིགས་གཅིག་གི་ཡིག་ཆ་ཚང་མ་དབྱེ་ཞིབ་ཆེད་འབུལ་དགོས།"
+
+#: views.py:223
+#, python-format
+msgid "%(count)d documents added to the parsing queue."
+msgstr "དབྱེ་ཞིབ་བང་རིམ་ལ་ %(count)d ཡིག་ཆ་ཁ་སྣོན་བྱས།"
