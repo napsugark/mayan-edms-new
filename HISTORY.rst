@@ -1,4 +1,4 @@
-4.8.8 (XXXX-XX-XX)
+4.8.8 (2025-09-26)
 ==================
 - Improvements and changes from version 4.7.6.
 
