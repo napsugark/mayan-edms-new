@@ -1,4 +1,4 @@
-4.7.6 (XXXX-XX-XX)
+4.7.6 (2025-09-26)
 ==================
 - Improvements and changes from version 4.6.10 and 4.6.11.
 - Update `gunicorn` from version 22.0.0 to 23.0.0 due to CVE-2024-6827.
