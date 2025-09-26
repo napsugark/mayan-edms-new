@@ -100,8 +100,7 @@ msgstr ""
 msgid "Creation date"
 msgstr "Datum kreiranja"
 
-#: links.py:31 links.py:47 links.py:101 links.py:109
-#: views/index_instance_views.py:42
+#: links.py:31 links.py:47 links.py:109 views/index_instance_views.py:42
 msgid "Indexes"
 msgstr "Indeksi"
 

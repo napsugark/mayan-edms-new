@@ -38,7 +38,7 @@ PythonDependency(
         ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
         (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
         SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-    ''', module=__name__, name='django', version_string='==4.2.23'
+    ''', module=__name__, name='django', version_string='==4.2.24'
 )
 PythonDependency(
     legal_text='''
@@ -166,7 +166,7 @@ PythonDependency(
 )
 PythonDependency(
     environment=environment_build, module=__name__, name='twine',
-    version_string='==5.1.1'
+    version_string='==6.2.0'
 )
 PythonDependency(
     environments=(environment_build, environment_documentation),
@@ -192,7 +192,7 @@ PythonDependency(
 PythonDependency(
     environment=environment_development, help_text=_(
         'Command line environment with autocompletion.'
-    ), module=__name__, name='ipython', version_string='==8.26.0'
+    ), module=__name__, name='ipython', version_string='==9.5.0'
 )
 PythonDependency(
     environment=environment_development, help_text=_(

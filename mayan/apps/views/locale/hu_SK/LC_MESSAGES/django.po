@@ -1,0 +1,248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Roberto Rosario, 2024
+# molnars <szabolcs.molnar@gmail.com>, 2024
+# Csaba Tarjányi, 2024
+# Tamás Benkovszky, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-04 06:22+0000\n"
+"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"Last-Translator: Tamás Benkovszky, 2024\n"
+"Language-Team: Hungarian (Slovakia) (https://app.transifex.com/rosarior/teams/13584/hu_SK/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu_SK\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:21 settings.py:11
+msgid "Views"
+msgstr "Nézetek"
+
+#: forms.py:35
+msgid "Search"
+msgstr "Keresés"
+
+#: forms.py:53
+msgid "Selection"
+msgstr "Kiválasztás"
+
+#: forms.py:231
+msgid "Label"
+msgstr "Cimke"
+
+#: forms.py:237
+msgid "Relationship"
+msgstr "Kapcsolat"
+
+#: generics.py:167
+msgid ""
+"Select entries to be removed. Hold Control to select multiple entries. Once "
+"the selection is complete, click the button below or double click the list "
+"to activate the action."
+msgstr ""
+"Válassza ki az eltávolítandó bejegyzéseket. Több bejegyzés kiválasztásához "
+"tartsa lenyomva a Control billentyűt. A kijelölés befejezése után kattintson"
+" az alábbi gombra, vagy kattintson duplán a listára a művelet aktiválásához."
+
+#: generics.py:172
+msgid ""
+"Select entries to be added. Hold Control to select multiple entries. Once "
+"the selection is complete, click the button below or double click the list "
+"to activate the action."
+msgstr ""
+"Válassza ki a hozzáadni kívánt bejegyzéseket. Több bejegyzés kiválasztásához"
+" tartsa lenyomva a Control billentyűt. A kijelölés befejezése után "
+"kattintson az alábbi gombra, vagy kattintson duplán a listára a művelet "
+"aktiválásához."
+
+#: generics.py:326
+msgid "Add all"
+msgstr "Az összes hozzáadása"
+
+#: generics.py:333
+msgid "Add"
+msgstr "Hozzáadás"
+
+#: generics.py:344
+msgid "Remove all"
+msgstr "Összes eltávolítása"
+
+#: generics.py:351
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: generics.py:580
+#, python-format
+msgid "Error updating relationship; %s"
+msgstr "Hiba a kapcsolat frissítése során; %s"
+
+#: generics.py:587
+msgid "Relationships updated successfully"
+msgstr "A kapcsolatok frissítése sikeresen megtörtént"
+
+#: generics.py:650
+#, python-format
+msgid "Duplicate data error: %(error)s"
+msgstr "Duplikátum adat hiba: %(error)s"
+
+#: generics.py:669
+#, python-format
+msgid "%(object)s not created, error: %(error)s"
+msgstr "%(object)s nem jött létre, hiba: %(error)s"
+
+#: generics.py:680
+#, python-format
+msgid "%(object)s created successfully."
+msgstr "%(object)s sikeresen létrehozva."
+
+#: generics.py:724
+#, python-format
+msgid "%(object)s not deleted, error: %(error)s."
+msgstr "%(object)s nincs törölve, hiba: %(error)s ."
+
+#: generics.py:734
+#, python-format
+msgid "%(object)s deleted successfully."
+msgstr "%(object)s sikeresen törölve."
+
+#: generics.py:797
+#, python-format
+msgid "Error retrieving %(object)s; %(error)s"
+msgstr "Hiba a %(object)s lekérésekor ; %(error)s"
+
+#: generics.py:858
+#, python-format
+msgid "%(object)s not updated, error: %(error)s."
+msgstr "%(object)s nincs frissítve, hiba: %(error)s ."
+
+#: generics.py:868
+#, python-format
+msgid "%(object)s updated successfully."
+msgstr "%(object)s sikeresen frissítve."
+
+#: generics.py:935
+#, python-format
+msgid "%(count)d objects deleted successfully."
+msgstr "%(count)d objektum sikeresen törölve."
+
+#: generics.py:936
+#, python-format
+msgid "\"%(object)s\" deleted successfully."
+msgstr "\"%(object)s\" sikeresen törölve."
+
+#: generics.py:937
+#, python-format
+msgid "%(count)d object deleted successfully."
+msgstr "%(count)d objektum sikeresen törölve."
+
+#: generics.py:938
+#, python-format
+msgid "Delete %(count)d objects."
+msgstr "%(count)d objektum törlése."
+
+#: generics.py:939
+#, python-format
+msgid "Delete \"%(object)s\"."
+msgstr "\"%(object)s\" törlése."
+
+#: generics.py:940
+#, python-format
+msgid "Delete %(count)d object."
+msgstr "%(count)d objektum törlése."
+
+#: settings.py:17
+msgid "The number objects that will be displayed per page."
+msgstr ""
+
+#: settings.py:23
+msgid "A string specifying the name to use for the paging parameter."
+msgstr ""
+
+#: settings.py:29
+msgid ""
+"Display a submit button and wait for the submit button to be pressed before "
+"processing up the upload."
+msgstr ""
+"Megjeleníti meg a küldés gombot, és megvárja, amíg megnyomja a küldés "
+"gombot, mielőtt feldolgozná a feltöltést."
+
+#: templatetags/views_tags.py:30
+msgid "Confirm delete"
+msgstr "Törlés jóváhagyása"
+
+#: templatetags/views_tags.py:35
+#, python-format
+msgid "Edit %s"
+msgstr "%s szerkesztése"
+
+#: templatetags/views_tags.py:38
+msgid "Confirm"
+msgstr "Jóváhagyás"
+
+#: templatetags/views_tags.py:42
+#, python-format
+msgid "Details for: %s"
+msgstr "Részletek: %s"
+
+#: templatetags/views_tags.py:46
+#, python-format
+msgid "Edit: %s"
+msgstr "Szerkesztés: %s"
+
+#: templatetags/views_tags.py:50
+msgid "Create"
+msgstr "Létrehozás"
+
+#: view_mixins.py:366
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr "Nem található a lekérdezésnek megfelelő %(verbose_name)s"
+
+#: view_mixins.py:392
+#, python-format
+msgid "Unable to perform operation on object %(instance)s; %(exception)s."
+msgstr ""
+"A művelet nem hajtható végre a %(instance)s objektumon; %(exception)s ."
+
+#: view_mixins.py:396
+#, python-format
+msgid "Operation performed on %(count)d objects."
+msgstr "Művelet végrehajtva %(count)d objektumon."
+
+#: view_mixins.py:398
+#, python-format
+msgid "Operation performed on %(object)s."
+msgstr "Művelet végrehajtva %(object)s objektumon."
+
+#: view_mixins.py:400
+#, python-format
+msgid "Operation performed on %(count)d object."
+msgstr "Művelet végrehajtva  %(count)d objektumon."
+
+#: view_mixins.py:402
+#, python-format
+msgid "Perform operation on %(count)d objects."
+msgstr "Művelet végrehajtása %(count)d objektumon."
+
+#: view_mixins.py:403
+#, python-format
+msgid "Perform operation on %(object)s."
+msgstr "Művelet végrehajtása a%(object)s objektumon."
+
+#: view_mixins.py:404
+#, python-format
+msgid "Perform operation on %(count)d object."
+msgstr "Művelet végrehajtása %(count)d objektumon."
+
+#: view_mixins.py:489
+msgid "Object"
+msgstr "Objektum"

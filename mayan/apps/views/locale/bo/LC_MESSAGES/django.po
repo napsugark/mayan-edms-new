@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-04 06:22+0000\n"
+"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:21 settings.py:11
+msgid "Views"
+msgstr "ལྟ་ཚུལ།"
+
+#: forms.py:35
+msgid "Search"
+msgstr "བཤེར་འཚོལ"
+
+#: forms.py:53
+msgid "Selection"
+msgstr "འདེམས་སྒྲུག།"
+
+#: forms.py:231
+msgid "Label"
+msgstr "ལག་ཁྱེར་།"
+
+#: forms.py:237
+msgid "Relationship"
+msgstr "འབྲེལ་བ"
+
+#: generics.py:167
+msgid ""
+"Select entries to be removed. Hold Control to select multiple entries. Once "
+"the selection is complete, click the button below or double click the list "
+"to activate the action."
+msgstr ""
+"མེད་པར་བཟོ་རྒྱུའི་ཐོ་འགོད་འདེམས། "
+"ཐོ་འགོད་སྣ་ཚོགས་འདེམས་པའི་ཆེད་དུ་ཚོད་འཛིན་འཛིན་དགོས། "
+"འདེམས་སྒྲུག་མཇུག་སྒྲིལ་རྗེས་གཤམ་གྱི་མཐེབ་གཞོང་ལ་སྣུན། "
+"ཡང་ན་ཐོ་གཞུང་ལ་སྣུན་ཐེངས་གཉིས་བྱས་ནས་བྱ་སྤྱོད་དེ་ཤུགས་སྣོན་རྒྱོབ།"
+
+#: generics.py:172
+msgid ""
+"Select entries to be added. Hold Control to select multiple entries. Once "
+"the selection is complete, click the button below or double click the list "
+"to activate the action."
+msgstr ""
+"ཁ་སྣོན་བྱེད་པའི་ཐོ་འགོད་འདེམས། "
+"ཐོ་འགོད་སྣ་ཚོགས་འདེམས་པའི་ཆེད་དུ་ཚོད་འཛིན་འཛིན་དགོས། "
+"འདེམས་སྒྲུག་མཇུག་སྒྲིལ་རྗེས་གཤམ་གྱི་མཐེབ་གཞོང་ལ་སྣུན། "
+"ཡང་ན་ཐོ་གཞུང་ལ་སྣུན་ཐེངས་གཉིས་བྱས་ནས་བྱ་སྤྱོད་དེ་ཤུགས་སྣོན་རྒྱོབ།"
+
+#: generics.py:326
+msgid "Add all"
+msgstr "ཚང་མ་ཁ་སྣོན་བྱེད་པ།"
+
+#: generics.py:333
+msgid "Add"
+msgstr "སྣོན་པ"
+
+#: generics.py:344
+msgid "Remove all"
+msgstr "ཚང་མ་མེད་པར་བཟོས།"
+
+#: generics.py:351
+msgid "Remove"
+msgstr "སེལ་བ"
+
+#: generics.py:580
+#, python-format
+msgid "Error updating relationship; %s"
+msgstr "འབྲེལ་ལམ་གསར་བརྗེ་བྱེད་པའི་ནོར་འཁྲུལ། %s"
+
+#: generics.py:587
+msgid "Relationships updated successfully"
+msgstr "འབྲེལ་ལམ་གསར་བརྗེ་ལེགས་གྲུབ་བྱུང་བ།"
+
+#: generics.py:650
+#, python-format
+msgid "Duplicate data error: %(error)s"
+msgstr "གྲངས་ཐོའི་ནོར་འཁྲུལ། %(error)s"
+
+#: generics.py:669
+#, python-format
+msgid "%(object)s not created, error: %(error)s"
+msgstr "%(object)s གསར་བཟོ་བྱས་མེད། ནོར་འཁྲུལ།: %(error)s"
+
+#: generics.py:680
+#, python-format
+msgid "%(object)s created successfully."
+msgstr "%(object)s མཐར་ཕྱིན་ངང་གསར་བཟོ་བྱས།"
+
+#: generics.py:724
+#, python-format
+msgid "%(object)s not deleted, error: %(error)s."
+msgstr "%(object)s %(error)s བསུབས་མེད། ནོར་འཁྲུལ།"
+
+#: generics.py:734
+#, python-format
+msgid "%(object)s deleted successfully."
+msgstr "%(object)s མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: generics.py:797
+#, python-format
+msgid "Error retrieving %(object)s; %(error)s"
+msgstr "%(object)s འཚོལ་སྡུད་བྱེད་པའི་ནོར་འཁྲུལ། %(error)s"
+
+#: generics.py:858
+#, python-format
+msgid "%(object)s not updated, error: %(error)s."
+msgstr "%(object)s གསར་བརྗེ་མ་བྱས། ནོར་འཁྲུལ། %(error)s །"
+
+#: generics.py:868
+#, python-format
+msgid "%(object)s updated successfully."
+msgstr "%(object)s གསར་བརྗེ་ལེགས་འགྲུབ་བྱུང་ཡོད།"
+
+#: generics.py:935
+#, python-format
+msgid "%(count)d objects deleted successfully."
+msgstr "%(count)d དངོས་པོ་རྣམས་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: generics.py:936
+#, python-format
+msgid "\"%(object)s\" deleted successfully."
+msgstr "&quot; %(object)s &quot; མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: generics.py:937
+#, python-format
+msgid "%(count)d object deleted successfully."
+msgstr "%(count)d དངོས་པོ་དེ་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: generics.py:938
+#, python-format
+msgid "Delete %(count)d objects."
+msgstr "%(count)d དངོས་པོ་བསུབས་དགོས།"
+
+#: generics.py:939
+#, python-format
+msgid "Delete \"%(object)s\"."
+msgstr "&quot; %(object)s &quot; བསུབས་དགོས།"
+
+#: generics.py:940
+#, python-format
+msgid "Delete %(count)d object."
+msgstr "%(count)d དངོས་པོ་བསུབ།"
+
+#: settings.py:17
+msgid "The number objects that will be displayed per page."
+msgstr "ཤོག་ངོས་རེར་མངོན་པའི་དངོས་པོའི་ཨང་གྲངས།"
+
+#: settings.py:23
+msgid "A string specifying the name to use for the paging parameter."
+msgstr ""
+"ཤོག་ངོས་ཚད་གཞིའི་ཆེད་དུ་བེད་སྤྱོད་གཏོང་བའི་མིང་གསལ་བཀོད་བྱེད་པའི་ཡིག་རྒྱུན།"
+
+#: settings.py:29
+msgid ""
+"Display a submit button and wait for the submit button to be pressed before "
+"processing up the upload."
+msgstr ""
+"ཡར་བསྐུར་བྱེད་པའི་མཐེབ་གཞོང་ཞིག་བསྟན་ནས་སྐྱེལ་འདྲེན་བྱེད་པའི་མཐེབ་གཞོང་དེ་མནན་པར་སྒུག་དགོས།"
+
+#: templatetags/views_tags.py:30
+msgid "Confirm delete"
+msgstr "བསུབ་པ་གཏན་འཁེལ་བྱེད་པ།"
+
+#: templatetags/views_tags.py:35
+#, python-format
+msgid "Edit %s"
+msgstr "རྩོམ་སྒྲིག་ %s"
+
+#: templatetags/views_tags.py:38
+msgid "Confirm"
+msgstr "བདེན་དཔང"
+
+#: templatetags/views_tags.py:42
+#, python-format
+msgid "Details for: %s"
+msgstr "%s"
+
+#: templatetags/views_tags.py:46
+#, python-format
+msgid "Edit: %s"
+msgstr "རྩོམ་སྒྲིག: %s"
+
+#: templatetags/views_tags.py:50
+msgid "Create"
+msgstr "གསར་བསྐྲུན"
+
+#: view_mixins.py:366
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr "འདྲི་རྩད་དང་མཐུན་པའི་ %(verbose_name)s རྙེད་མེད།"
+
+#: view_mixins.py:392
+#, python-format
+msgid "Unable to perform operation on object %(instance)s; %(exception)s."
+msgstr "དངོས་པོ་ %(instance)s ཐོག་བཀོལ་སྤྱོད་བྱེད་མི་ཐུབ། %(exception)s །"
+
+#: view_mixins.py:396
+#, python-format
+msgid "Operation performed on %(count)d objects."
+msgstr "བཀོལ་སྤྱོད་དེ་ %(count)d དངོས་པོའི་ཐོག་ལ་སྤེལ་ཡོད།"
+
+#: view_mixins.py:398
+#, python-format
+msgid "Operation performed on %(object)s."
+msgstr "བཀོལ་སྤྱོད་དེ་ %(object)s ཐོག་ལ་སྤེལ་ཡོད།"
+
+#: view_mixins.py:400
+#, python-format
+msgid "Operation performed on %(count)d object."
+msgstr "བཀོལ་སྤྱོད་དེ་ %(count)d དངོས་པོའི་སྟེང་དུ་སྤེལ་ཡོད།"
+
+#: view_mixins.py:402
+#, python-format
+msgid "Perform operation on %(count)d objects."
+msgstr "%(count)d དངོས་པོའི་ཐོག་བཀོལ་སྤྱོད་བྱེད།"
+
+#: view_mixins.py:403
+#, python-format
+msgid "Perform operation on %(object)s."
+msgstr "%(object)s ཐོག་བཀོལ་སྤྱོད་བྱེད།"
+
+#: view_mixins.py:404
+#, python-format
+msgid "Perform operation on %(count)d object."
+msgstr "%(count)d དངོས་པོའི་ཐོག་བཀོལ་སྤྱོད་བྱེད།"
+
+#: view_mixins.py:489
+msgid "Object"
+msgstr "བྱ་བའི་ཡུལ"

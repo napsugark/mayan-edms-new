@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:24 events.py:6 permissions.py:6 settings.py:12
+msgid "Logging"
+msgstr "ཤིང་འཛུགས་པ།"
+
+#: apps.py:40
+msgid "System"
+msgstr "མ་ལག"
+
+#: apps.py:64
+msgid "Domain"
+msgstr "མངའ་ཁོངས"
+
+#: events.py:10
+msgid "Error log deleted"
+msgstr "ནོར་འཁྲུལ་གྱི་ཟིན་ཐོ་བསུབ་ཟིན།"
+
+#: links.py:15 views.py:36
+msgid "Global error log"
+msgstr "གོ་ལ་ཧྲིལ་པོའི་ནོར་འཁྲུལ་དྲན་ཐོ།"
+
+#: links.py:26
+msgid "Delete"
+msgstr "བསུབ་པ།"
+
+#: links.py:31
+msgid "Errors"
+msgstr "ནོར་འཁྲུལ།"
+
+#: links.py:37
+msgid "Clear errors"
+msgstr "ནོར་འཁྲུལ་སེལ་བ།"
+
+#: model_mixins.py:11
+#, python-format
+msgid "Unknown domain name: %s"
+msgstr "མ་ཤེས་པའི་དྲ་ཚིགས་ཀྱི་མིང་ %s"
+
+#: model_mixins.py:18
+msgid "Object"
+msgstr "བྱ་བའི་ཡུལ"
+
+#: model_mixins.py:26
+msgid "App label"
+msgstr "མཉེན་ཆས་མིང་བྱང་།"
+
+#: models.py:21 models.py:41
+msgid "Internal name"
+msgstr "ནང་ཁུལ་གྱི་མིང་།"
+
+#: models.py:26 models.py:38
+msgid "Error log"
+msgstr "ནོར་འཁྲུལ་དྲན་ཐོ།"
+
+#: models.py:27
+msgid "Error logs"
+msgstr "ནོར་འཁྲུལ་གྱི་དྲན་ཐོ།"
+
+#: models.py:55 models.py:69
+msgid "Error log partition"
+msgstr "དྲན་ཐོའི་བགོད་སྒྲིག་ནོར་འཁྲུལ།"
+
+#: models.py:56
+msgid "Error log partitions"
+msgstr "དྲན་ཐོའི་བར་གཅོད་ནོར་འཁྲུལ།"
+
+#: models.py:73
+msgid "Date and time"
+msgstr "ཚེས་གྲངས་དང་དུས་ཚོད།"
+
+#: models.py:78
+msgid "Domain name"
+msgstr "ཁྱབ་ཁོངས་ཀྱི་མིང་།"
+
+#: models.py:81
+msgid "Text"
+msgstr "ཡིག་གཞི"
+
+#: models.py:89
+msgid "Error log partition entry"
+msgstr "དྲན་ཐོའི་བར་གཅོད་ཐོ་འགོད་ནོར་འཁྲུལ།"
+
+#: models.py:90
+msgid "Error log partition entries"
+msgstr "དྲན་ཐོའི་བར་གཅོད་ཐོ་འགོད་ནོར་འཁྲུལ།"
+
+#: permissions.py:10
+msgid "Delete error log"
+msgstr "ནོར་འཁྲུལ་གྱི་དྲན་ཐོ་སུབ་པ།"
+
+#: permissions.py:13
+msgid "View error log"
+msgstr "ནོར་འཁྲུལ་གྱི་ཟིན་ཐོ་ལྟ་བ།"
+
+#: serializers.py:12
+msgid "Content type"
+msgstr "ནང་དོན་གྱི་རིགས།"
+
+#: serializers.py:16
+msgid "Object ID"
+msgstr "དངོས་པོའི་ཨང་རྟགས།"
+
+#: serializers.py:19
+msgid "URL"
+msgstr "URL །"
+
+#: settings.py:18
+msgid "Disable logging message ANSI color codes."
+msgstr "དྲན་ཐོའི་བརྡ་འཕྲིན་ANSIཚོས་གཞིའི་ཨང་རྟགས་ལྕོགས་མིན་བཟོས།"
+
+#: settings.py:24
+msgid "Automatically enable logging to all apps."
+msgstr "རང་འགུལ་གྱིས་མཉེན་ཆས་ཚང་མར་ཐོ་འགོད་བྱེད་ཐུབ།"
+
+#: settings.py:30
+msgid "List of handlers to which logging messages will be sent."
+msgstr "དྲན་ཐོའི་བརྡ་འཕྲིན་གཏོང་མཁན་གྱི་འཛིན་སྐྱོང་མཁན་གྱི་ཐོ་གཞུང་།"
+
+#: settings.py:35
+msgid "Level for the logging system."
+msgstr "ཤིང་སྡོང་མ་ལག་གི་ཆེད་དུ་གནས་ཚད།"
+
+#: settings.py:41
+msgid "Path to the logfile that will track errors during production."
+msgstr ""
+"ཐོན་སྐྱེད་བྱེད་སྐབས་ནོར་འཁྲུལ་རྗེས་འདེད་བྱེད་པའི་དྲན་ཐོ་ཡིག་ཆའི་འགྲོ་ལམ།"
+
+#: views.py:30
+msgid ""
+"This view displays the error log of different objects. An empty list is a "
+"good thing."
+msgstr ""
+"མཐོང་སྣང་འདིས་དངོས་པོ་མི་འདྲ་བའི་ནོར་འཁྲུལ་གྱི་དྲན་ཐོ་བཀྲམ་སྟོན་བྱེད། "
+"ཐོ་གཞུང་སྟོང་པ་དེ་ཡག་པོ་རེད།"
+
+#: views.py:34 views.py:99
+msgid "There are no error log entries"
+msgstr "ནོར་འཁྲུལ་གྱི་དྲན་ཐོའི་ཐོ་འགོད་མེད།"
+
+#: views.py:50
+#, python-format
+msgid "Clear error log entries for: %s"
+msgstr "ནོར་འཁྲུལ་དྲན་ཐོའི་ཐོ་འགོད་བསུབ་ %s"
+
+#: views.py:57
+msgid "Object error log cleared successfully"
+msgstr "དངོས་པོའི་ནོར་འཁྲུལ་དྲན་ཐོ་ལེགས་འགྲུབ་ངང་གཙང་སེལ་བྱས།"
+
+#: views.py:74
+#, python-format
+msgid "Delete error log entry: %s"
+msgstr "ནོར་འཁྲུལ་གྱི་དྲན་ཐོའི་ཐོ་འགོད་སུབ་དགོས། %s"
+
+#: views.py:95
+msgid ""
+"This view displays the error log of an object. An empty list is a good "
+"thing."
+msgstr ""
+"མཐོང་སྣང་འདིས་དངོས་པོ་ཞིག་གི་ནོར་འཁྲུལ་གྱི་དྲན་ཐོ་བཀྲམ་སྟོན་བྱེད། "
+"ཐོ་གཞུང་སྟོང་པ་དེ་ཡག་པོ་རེད།"
+
+#: views.py:103
+#, python-format
+msgid "Error log entries for: %s"
+msgstr "ནོར་འཁྲུལ་གྱི་དྲན་ཐོའི་ཐོ་འགོད།: %s"

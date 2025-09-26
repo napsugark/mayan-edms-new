@@ -65,7 +65,7 @@ def find_packages(directory):
 
 
 install_requires = """
-django==4.2.23
+django==4.2.24
 CairoSVG==2.7.1
 Markdown==3.7
 Pillow==10.4.0
@@ -111,14 +111,14 @@ ollama==0.2.1
 pycountry==24.6.1
 pycryptodome==3.21.0
 pyotp==2.9.0
-pypdf==4.2.0
+pypdf==6.0.0
 python-dateutil==2.9.0.post0
 python-magic==0.4.27
 python_gnupg==0.5.4
-pytz==2024.2
+pytz==2025.2
 qrcode==7.4.2
 requests==2.32.4
-sentry-sdk==2.35.0
+sentry-sdk==2.38.0
 sh==2.0.7
 swagger-spec-validator==3.0.4
 whitenoise==6.7.0
@@ -126,9 +126,6 @@ whitenoise==6.7.0
 
 with open(file='README.rst') as file_object:
     readme = file_object.read()
-
-with open(file='HISTORY.rst') as file_object:
-    history = file_object.read()
 
 setup(
     author='Roberto Rosario',
@@ -153,13 +150,14 @@ setup(
     description=mayan.__description__,
     include_package_data=True,
     install_requires=install_requires,
-    license='GPL 2.0',
-    long_description=readme + '\n\n' + history,
+    license='"GPL-2.0-only',
+    long_description=readme,
     name=PACKAGE_NAME,
     packages=find_packages(PACKAGE_DIR),
     platforms=['any'],
     project_urls={
         'Documentation': 'https://docs.mayan-edms.com/',
+        'Forum': 'https://forum.mayan-edms.com/',
         'Changelog': 'https://gitlab.com/mayan-edms/mayan-edms/-/blob/master/HISTORY.rst',
         'Bug Tracker': 'https://gitlab.com/mayan-edms/mayan-edms/-/issues',
         'Source Code': 'https://gitlab.com/mayan-edms/mayan-edms',

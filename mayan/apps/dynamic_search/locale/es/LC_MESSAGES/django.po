@@ -25,7 +25,7 @@ msgstr ""
 msgid "Dynamic search"
 msgstr "Búsqueda dinámica "
 
-#: events.py:6 permissions.py:6 queues.py:11 settings.py:19
+#: events.py:6 permissions.py:6 queues.py:11 settings.py:20
 #: templates/dynamic_search/search_box.html:47
 #: templates/dynamic_search/search_box_toolbar.html:30
 #: views/search_views.py:110
@@ -100,11 +100,11 @@ msgstr "Volver a buscar"
 msgid "Reindex search backend"
 msgstr "Volver a indexar el backend de búsqueda"
 
-#: literals.py:26
+#: literals.py:27
 msgid "Yes"
 msgstr "Si"
 
-#: literals.py:27
+#: literals.py:28
 msgid "No"
 msgstr "No"
 
@@ -224,7 +224,7 @@ msgstr ""
 msgid "Delete expired saved resultsets"
 msgstr "Eliminar conjuntos de resultados guardados caducados"
 
-#: scoped_queries.py:345
+#: scoped_queries.py:348
 #, python-format
 msgid ""
 "Query results exceed the current limit of %d. Results will not be reliable "
@@ -236,7 +236,7 @@ msgstr ""
 "criterios de búsqueda o aumente el valor de la configuración del límite de "
 "resultados `%s`."
 
-#: scoped_queries.py:364
+#: scoped_queries.py:373
 #, python-format
 msgid ""
 "Search backend error. Verify that the search service is available and that "
@@ -327,12 +327,12 @@ msgstr "Llave primaria"
 msgid "Search fields"
 msgstr "Campos de búsqueda"
 
-#: settings.py:24
+#: settings.py:25
 msgid "Full path to the backend to be used to handle the search."
 msgstr ""
 "Ruta completa al controlador que se utilizará para manejar la búsqueda."
 
-#: settings.py:30
+#: settings.py:31
 msgid ""
 "Arguments to pass to the search backend. For example values to change the "
 "behavior, host names, or authentication arguments."
@@ -341,61 +341,67 @@ msgstr ""
 "cambiar el comportamiento, nombres de servidor o argumentos de "
 "autenticación."
 
-#: settings.py:38
+#: settings.py:39
 msgid "The search operator to use when none is specified."
 msgstr "El operador de búsqueda a usar cuando no se especifica ninguno."
 
-#: settings.py:45
+#: settings.py:46
 msgid ""
 "Disables the single term bar search leaving only the advanced search button."
 msgstr ""
 "Inhabilita la búsqueda de barra de término único dejando solo el botón de "
 "búsqueda avanzada."
 
-#: settings.py:52
+#: settings.py:53
 msgid "Amount of objects to process when performing bulk indexing."
 msgstr "Cantidad de objetos a procesar al realizar la indexación masiva."
 
-#: settings.py:58
+#: settings.py:59
 msgid "Sets the default state of the \"Match all\" checkbox."
 msgstr ""
 "Establece el estado predeterminado de la casilla de verificación \"Coincidir"
 " con todos\"."
 
-#: settings.py:64
+#: settings.py:65
 msgid ""
 "Maximum number of search results to fetch and display per search query unit."
 msgstr ""
 "Número máximo de resultados de búsqueda para obtener y mostrar por unidad de"
 " consulta de búsqueda."
 
-#: settings.py:71
+#: settings.py:72
+msgid ""
+"Raise an error when the number of search results exceed the value of "
+"`SEARCH_QUERY_RESULTS_LIMIT`."
+msgstr ""
+
+#: settings.py:79
 msgid "Maximum number of search results to fetch and display."
 msgstr "Número máximo de resultados de búsqueda para obtener y mostrar."
 
-#: settings.py:77
+#: settings.py:85
 msgid "Maximum number of saved resultsets to keep per user."
 msgstr ""
 "Número máximo de conjuntos de resultados guardados para conservar por "
 "usuario."
 
-#: settings.py:83
+#: settings.py:91
 msgid "Maximum number of results to store per resultset."
 msgstr ""
 "Número máximo de resultados para almacenar por conjunto de resultados."
 
-#: settings.py:89
+#: settings.py:97
 msgid "Time to keep the resultset in seconds."
 msgstr ""
 "Tiempo en segundo durante el cual de conservará el conjunto de resultados."
 
-#: settings.py:95
+#: settings.py:103
 msgid "Amount to increase the time to live on each access of the resultset."
 msgstr ""
 "Cantidad para aumentar el tiempo de vida en cada acceso al conjunto de "
 "resultados."
 
-#: settings.py:102
+#: settings.py:110
 msgid "Sets the default state of the \"Store results\" checkbox."
 msgstr ""
 "Establece el estado predeterminado de la casilla \"Almacenar resultados\"."

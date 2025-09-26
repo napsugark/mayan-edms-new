@@ -107,8 +107,7 @@ msgstr "Template"
 msgid "Creation date"
 msgstr "Data de criação"
 
-#: links.py:31 links.py:47 links.py:101 links.py:109
-#: views/index_instance_views.py:42
+#: links.py:31 links.py:47 links.py:109 views/index_instance_views.py:42
 msgid "Indexes"
 msgstr "Índices"
 

@@ -1,0 +1,372 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:32 events.py:11 links.py:52 links.py:93 permissions.py:6
+#: settings.py:8 views/event_views.py:29
+msgid "Events"
+msgstr "བྱེད་སྒོ།"
+
+#: apps.py:86 apps.py:121
+msgid "Date and time"
+msgstr "ཚེས་གྲངས་དང་དུས་ཚོད།"
+
+#: apps.py:90 apps.py:124 serializers.py:72
+msgid "Actor"
+msgstr "ཟློས་གར་བ"
+
+#: apps.py:94 apps.py:129
+msgid "Event"
+msgstr "དོན་དག"
+
+#: apps.py:98 apps.py:134 serializers.py:78
+msgid "Target"
+msgstr "འབེན"
+
+#: apps.py:102 apps.py:138
+msgid "Action object"
+msgstr "བྱ་བའི་དངོས་པོ།"
+
+#: apps.py:109 forms.py:10 forms.py:71
+msgid "Namespace"
+msgstr "མིང་གི་བར་སྟོང་།"
+
+#: apps.py:114 forms.py:16 forms.py:77 serializers.py:21 serializers.py:46
+msgid "Label"
+msgstr "ལག་ཁྱེར་།"
+
+#: apps.py:143
+msgid "Seen"
+msgstr "མཐོང"
+
+#: apps.py:150
+msgid "Object"
+msgstr "བྱ་བའི་ཡུལ"
+
+#: apps.py:155 models.py:48 models.py:109
+msgid "Event type"
+msgstr "བྱུང་རིམ་རིགས།"
+
+#: classes.py:90
+msgid "Event list export to CSV"
+msgstr "བྱུང་རིམ་རེའུ་མིག་CSVལ་ཕྱིར་འདྲེན་བྱེད།"
+
+#: classes.py:119
+msgid "Events exported."
+msgstr "བྱ་འགུལ་ཕྱིར་གཏོང་བྱས།"
+
+#: classes.py:121
+#, python-format
+msgid ""
+"The event list has been exported and is available for download using the "
+"link: %(download_url)s or from the downloads area (%(download_list_url)s)."
+msgstr ""
+"བྱུང་རིམ་ཐོ་གཞུང་ཕྱིར་གཏོང་བྱས་པ་དང་འབྲེལ་མཐུད་འདི་བརྒྱུད་ནས་ཕབ་ལེན་བྱེད་ "
+"%(download_url)s %(download_list_url)s"
+
+#: events.py:15
+msgid "Events cleared"
+msgstr "བྱུང་རིམ་གཙང་བཤེར་བྱས།"
+
+#: events.py:18
+msgid "Events exported"
+msgstr "བྱེད་སྒོ་ཕྱིར་གཏོང་བྱས་པ།"
+
+#: forms.py:22 forms.py:83
+msgid "Subscription"
+msgstr "མངགས་ཉོ།"
+
+#: forms.py:24 forms.py:85
+msgid "No"
+msgstr "མིན"
+
+#: forms.py:25 forms.py:86
+msgid "Subscribed"
+msgstr "མངགས་ཉོ་བྱས།"
+
+#: html_widgets.py:23
+msgid "System"
+msgstr "མ་ལག"
+
+#: links.py:55 links.py:100 views/clear_views.py:65
+msgid "Clear events"
+msgstr "བྱུང་རིམ་གསལ་བ།"
+
+#: links.py:59 links.py:107 views/export_views.py:64
+msgid "Export events"
+msgstr "ཕྱིར་གཏོང་བྱེད་སྒོ།"
+
+#: links.py:65 models.py:55 views/subscription_views.py:54
+msgid "Event subscriptions"
+msgstr "བྱེད་སྒོའི་མངགས་ཉོ།"
+
+#: links.py:71 models.py:117 views/subscription_views.py:169
+msgid "Object event subscriptions"
+msgstr "དངོས་པོའི་བྱུང་རིམ་གྱི་མངགས་ཉོ།"
+
+#: links.py:83
+msgid "Mark as seen"
+msgstr "མཐོང་བ་ལྟར་རྟགས།"
+
+#: links.py:87
+msgid "Mark all as seen"
+msgstr "ཚང་མ་མཐོང་བ་ལྟར་རྟགས་བཀོད།"
+
+#: links.py:114
+msgid "Subscriptions"
+msgstr "མངགས་ཉོ།"
+
+#: literals.py:14
+#, python-format
+msgid "Unknown or obsolete event type: %s"
+msgstr "མི་ཤེས་པའམ་ཡང་ན་སྲོལ་རྙིང་གི་བྱུང་རིམ་རིགས་: %s"
+
+#: models.py:25 serializers.py:24 serializers.py:49
+msgid "Name"
+msgstr "མིང"
+
+#: models.py:29
+msgid "Stored event type"
+msgstr "གསོག་འཇོག་བྱས་པའི་བྱུང་རིམ་རིགས།"
+
+#: models.py:30
+msgid "Stored event types"
+msgstr "གསོག་འཇོག་བྱས་པའི་བྱུང་རིམ་རིགས།"
+
+#: models.py:44 models.py:72 models.py:105 serializers.py:103
+msgid "User"
+msgstr "བེད་སྤྱོད་པ་།"
+
+#: models.py:54
+msgid "Event subscription"
+msgstr "བྱེད་སྒོའི་མངགས་ཉོ།"
+
+#: models.py:76 serializers.py:100
+msgid "Action"
+msgstr "བྱ་སྤྱོད"
+
+#: models.py:79
+msgid "Read"
+msgstr "ཀློག་པ"
+
+#: models.py:86
+msgid "Notification"
+msgstr "བརྡ་ཐོ།"
+
+#: models.py:87 views/notification_views.py:33
+msgid "Notifications"
+msgstr "བརྡ་ཐོ།"
+
+#: models.py:116
+msgid "Object event subscription"
+msgstr "དངོས་པོའི་བྱུང་རིམ་མངགས་ཉོ།"
+
+#: permissions.py:10
+msgid "Clear the events of an object"
+msgstr "དངོས་པོ་ཞིག་གི་བྱུང་རིམ་གསལ་བ།"
+
+#: permissions.py:13
+msgid "Export the events of an object"
+msgstr "དངོས་པོ་ཞིག་གི་བྱུང་རིམ་ཕྱིར་འདྲེན་བྱེད་པ།"
+
+#: permissions.py:16
+msgid "View the events of an object"
+msgstr "དངོས་པོ་ཞིག་གི་བྱུང་རིམ་ལ་ལྟ་བ།"
+
+#: queues.py:7
+msgid "Events fast"
+msgstr "བྱ་འགུལ་མགྱོགས་པ།"
+
+#: queues.py:10
+msgid "Events slow"
+msgstr "བྱུང་རིམ་དལ་བ།"
+
+#: queues.py:16
+msgid "Commit an event"
+msgstr "བྱ་འགུལ་ཁས་ལེན།"
+
+#: queues.py:21
+msgid "Clear event querysets"
+msgstr "བྱུང་རིམ་གྱི་འདྲི་རྩད་ཆ་ཚན་གསལ་པོ་བཟོས།"
+
+#: queues.py:26
+msgid "Export event querysets"
+msgstr "བྱུང་རིམ་འདྲི་རྩད་ཆ་ཚན་ཕྱིར་འདྲེན་བྱེད་པ།"
+
+#: serializers.py:27 serializers.py:109
+msgid "URL"
+msgstr "URL །"
+
+#: serializers.py:40
+msgid "Event type namespace URL"
+msgstr "བྱུང་རིམ་རིགས་ཀྱི་མིང་གནས་URL"
+
+#: serializers.py:43
+msgid "ID"
+msgstr "ཨང་རྟགས།"
+
+#: serializers.py:75
+msgid "Actor content type"
+msgstr "འཁྲབ་སྟོན་པའི་ནང་དོན་རིགས།"
+
+#: serializers.py:81
+msgid "Target content type"
+msgstr "དམིགས་འབེན་གྱི་ནང་དོན་རིགས།"
+
+#: serializers.py:84
+msgid "Verb"
+msgstr "བྱ་ཚིག།"
+
+#: settings.py:15
+msgid ""
+"Disables asynchronous events mode. All events will be committed in the same "
+"process that triggers them. This was the behavior prior to version 4.5."
+msgstr ""
+"དུས་མཉམ་མིན་པའི་བྱུང་རིམ་ཐབས་ལམ་ལྕོགས་མིན་བཟོས། "
+"བྱུང་རིམ་ཚང་མ་དེ་དག་ལ་སྐུལ་འདེད་གཏོང་བའི་བྱ་རིམ་གཅིག་གི་ནང་དུ་སྒྲུབ་རྒྱུ་རེད།"
+" འདི་ནི་ཐོན་རིམ་༤.༥སྔོན་གྱི་སྤྱོད་ཚུལ་ཡིན།"
+
+#: views/clear_views.py:27
+msgid ""
+"This action is not reversible. The process will be performed in the "
+"background. "
+msgstr "བྱ་བ་འདི་ཕྱིར་ལོག་མི་ཐུབ། བྱ་རིམ་དེ་རྒྱབ་ལྗོངས་སུ་སྒྲུབ་རྒྱུ་རེད། "
+
+#: views/clear_views.py:53
+msgid "Event list clear task queued successfully."
+msgstr "བྱུང་རིམ་ཐོ་གཞུང་གསལ་པོའི་ལས་འགན་བང་སྒྲིག་ལེགས་འགྲུབ་བྱུང་།"
+
+#: views/clear_views.py:85
+#, python-format
+msgid "Clear events of: %s"
+msgstr "བྱུང་རིམ་གསལ་པོ་: %s"
+
+#: views/clear_views.py:109
+#, python-format
+msgid "Clear events of type: %s"
+msgstr "དབྱེ་བའི་བྱུང་རིམ་གསལ་པོ་བཟོས།: %s"
+
+#: views/event_views.py:25
+msgid "Events track actions that have been performed on, to, or with objects."
+msgstr ""
+"བྱུང་རིམ་གྱིས་དངོས་པོ་སྟེང་དུ་ཡང་ན་དངོས་པོ་དང་མཉམ་དུ་སྒྲུབ་པའི་བྱ་སྤྱོད་རྗེས་འདེད་བྱེད།"
+
+#: views/event_views.py:28
+msgid "There are no events"
+msgstr "བྱུང་རིམ་གང་ཡང་མེད།"
+
+#: views/event_views.py:49
+msgid "There are no events for this object"
+msgstr "དངོས་པོ་འདི་ལ་བྱུང་རིམ་མེད།"
+
+#: views/event_views.py:51
+#, python-format
+msgid "Events for: %s"
+msgstr "བྱུང་རིམ།: %s"
+
+#: views/event_views.py:67
+msgid "There are no events of this type"
+msgstr "བྱུང་རིམ་འདི་འདྲ་བྱུང་མེད།"
+
+#: views/event_views.py:69
+#, python-format
+msgid "Events of type: %s"
+msgstr "བྱུང་རིམ་གྱི་རིགས་: %s"
+
+#: views/export_views.py:28
+msgid ""
+"The process will be performed in the background. The exported events will be"
+" available in the downloads area."
+msgstr ""
+"བྱ་རིམ་དེ་རྒྱབ་ལྗོངས་སུ་སྒྲུབ་རྒྱུ་རེད། "
+"ཕྱིར་གཏོང་བྱས་པའི་བྱ་འགུལ་དེ་དག་ཕབ་ལེན་ས་ཁུལ་དུ་ཐོབ་ཐུབ།"
+
+#: views/export_views.py:51
+msgid "Event list export task queued successfully."
+msgstr "བྱུང་རིམ་ཐོ་གཞུང་ཕྱིར་གཏོང་ལས་འགན་ལམ་ལྷོངས་བྱུང་།"
+
+#: views/export_views.py:84
+#, python-format
+msgid "Export events of: %s"
+msgstr "ཕྱིར་གཏོང་བྱུང་རིམ།: %s"
+
+#: views/export_views.py:102
+#, python-format
+msgid "Export events of type: %s"
+msgstr "ཕྱིར་གཏོང་བྱུང་རིམ་རིགས་: %s"
+
+#: views/notification_views.py:29
+msgid "Subscribe to global or object events to receive notifications."
+msgstr "གོ་ལ་ཧྲིལ་པོའམ་དངོས་པོའི་བྱུང་རིམ་ལ་བརྡ་ཐོ་འབྱོར་བར་མངགས་ཉོ་བྱོས།"
+
+#: views/notification_views.py:32
+msgid "There are no notifications"
+msgstr "བརྡ་ཐོ་བཏང་མེད།"
+
+#: views/notification_views.py:45
+msgid "Mark the selected notification as read?"
+msgstr "བདམས་པའི་བརྡ་ཁྱབ་དེ་ཀློག་ཟིན་པར་རྟགས་བརྒྱབ་དམ།"
+
+#: views/notification_views.py:60
+msgid "Notification marked as read."
+msgstr "བརྡ་ཐོ་དེ་ཀློག་ཟིན་པའི་རྟགས་བཀོད་ཡོད།"
+
+#: views/notification_views.py:72
+msgid "Mark all notification as read?"
+msgstr "བརྡ་ཐོ་ཚང་མ་བཀླགས་ཚར་བ་རེད་དམ།"
+
+#: views/notification_views.py:79
+msgid "All notifications marked as read."
+msgstr "བརྡ་ཐོ་ཚང་མ་བཀླགས་ཟིན་པའི་རྟགས་བཀོད་ཡོད།"
+
+#: views/subscription_views.py:38
+#, python-format
+msgid "Error updating event subscription; %s"
+msgstr "བྱ་འགུལ་གྱི་མངགས་ཉོ་དུས་བསྟུན་ནོར་འཁྲུལ་བྱུང་བ། %s"
+
+#: views/subscription_views.py:43
+msgid "Event subscriptions updated successfully"
+msgstr "བྱེད་སྒོའི་མངགས་ཉོའི་དུས་བསྟུན་ལེགས་འགྲུབ་བྱུང་།"
+
+#: views/subscription_views.py:117
+#, python-format
+msgid "Error updating object event subscription; %s"
+msgstr "དངོས་པོའི་བྱུང་རིམ་གྱི་མངགས་ཉོ་དུས་མཐུན་བཟོ་བའི་ནོར་འཁྲུལ། %s"
+
+#: views/subscription_views.py:123
+msgid "Object event subscriptions updated successfully"
+msgstr "དངོས་པོའི་བྱུང་རིམ་གྱི་མངགས་ཉོ་ལེགས་འགྲུབ་བྱུང་བའི་དུས་བསྟུན་བྱས།"
+
+#: views/subscription_views.py:134
+#, python-format
+msgid "Event subscriptions for: %s"
+msgstr "བྱ་འགུལ་གྱི་མངགས་ཉོ།: %s"
+
+#: views/subscription_views.py:164
+msgid ""
+"Subscribe to the events of an object to receive notifications when those "
+"events occur."
+msgstr ""
+"དངོས་པོ་ཞིག་གི་བྱུང་རིམ་ལ་མངགས་ཉོ་བྱས་ནས་བྱུང་རིམ་དེ་དག་བྱུང་སྐབས་བརྡ་ཐོ་ཐོབ་ཐུབ།"
+
+#: views/subscription_views.py:167
+msgid "There are no object event subscriptions"
+msgstr "དངོས་པོའི་བྱུང་རིམ་གྱི་མངགས་ཉོ་མེད།"

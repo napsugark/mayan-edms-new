@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:32 events.py:6
+msgid "Document comments"
+msgstr "ཡིག་ཆའི་བསམ་འཆར།"
+
+#: events.py:10
+msgid "Document comment created"
+msgstr "ཡིག་ཆའི་མཆན་བཀོད་པ།"
+
+#: events.py:13
+msgid "Document comment deleted"
+msgstr "ཡིག་ཆའི་མཆན་སུབ་པ།"
+
+#: events.py:16
+msgid "Document comment edited"
+msgstr "ཡིག་ཆའི་མཆན་འགྲེལ་རྩོམ་སྒྲིག་བྱས།"
+
+#: links.py:16
+msgid "Add comment"
+msgstr "མཆན་འགོད་པ།"
+
+#: links.py:22
+msgid "Delete"
+msgstr "བསུབ་པ།"
+
+#: links.py:27
+msgid "Edit"
+msgstr "བཅོས་པ།"
+
+#: links.py:31 models.py:48 permissions.py:6 search.py:8
+msgid "Comments"
+msgstr "བསམ་ཚུལ།"
+
+#: model_mixins.py:10 models.py:34
+msgid "User"
+msgstr "བེད་སྤྱོད་པ་།"
+
+#: models.py:30
+msgid "Document"
+msgstr "ཡིག་ཆ།"
+
+#: models.py:37
+msgid "Text"
+msgstr "ཡིག་གཞི"
+
+#: models.py:41
+msgid "Date time submitted"
+msgstr "ཚེས་གྲངས་དུས་ཚོད།"
+
+#: models.py:47
+msgid "Comment"
+msgstr "མཆན་འགྲེལ།"
+
+#: permissions.py:10
+msgid "Create new comments"
+msgstr "མཆན་བུ་གསར་པ་བཟོས།"
+
+#: permissions.py:13
+msgid "Delete comments"
+msgstr "མཆན་བུ་སུབ་པ།"
+
+#: permissions.py:16
+msgid "Edit comments"
+msgstr "མཆན་འགྲེལ་རྩོམ་སྒྲིག་བྱེད་པ།"
+
+#: permissions.py:19
+msgid "View comments"
+msgstr "མཆན་ལ་གཟིགས།"
+
+#: serializers.py:12
+msgid "URL"
+msgstr "URL །"
+
+#: views.py:38
+#, python-format
+msgid "Add comment to document: %s"
+msgstr "ཡིག་ཆ་ལ་མཆན་ཁ་སྣོན་པ། %s"
+
+#: views.py:69
+#, python-format
+msgid "Delete comment: %s?"
+msgstr "མཆན་འགྲེལ %s"
+
+#: views.py:98
+#, python-format
+msgid "Details for comment: %s?"
+msgstr "མཆན་འགྲེལ་གྱི་ཞིབ་ %s །"
+
+#: views.py:118
+#, python-format
+msgid "Edit comment: %s?"
+msgstr "རྩོམ་སྒྲིག་ %s །"
+
+#: views.py:154
+msgid ""
+"Document comments are timestamped text entries from users. They are great "
+"for collaboration."
+msgstr ""
+"ཡིག་ཆའི་མཆན་འགྲེལ་ནི་སྤྱོད་མཁན་གྱིས་དུས་ཚོད་མཚོན་རྟགས་བཀོད་པའི་ཡིག་ཆའི་ཐོ་འགོད་ཡིན།"
+" ཁོང་ཚོ་མཉམ་ལས་བྱེད་པར་ཧ་ཅང་བཟང་།"
+
+#: views.py:157
+msgid "There are no comments"
+msgstr "བསམ་ཚུལ་གང་ཡང་མེད།"
+
+#: views.py:160
+#, python-format
+msgid "Comments for document: %s"
+msgstr "ཡིག་ཆའི་མཆན་འགྲེལ། %s"

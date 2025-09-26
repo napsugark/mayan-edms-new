@@ -221,7 +221,7 @@ setting the number of objects to prepare when performing bulk search
 indexing.
 
 In addition to the Whoosh search backend, support was also added for
-ElasticSearch.
+Elasticsearch.
 
 A new queue was added called ``search_slow`` for the long running tasks of
 search indexing.

@@ -1,0 +1,285 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:56 apps.py:91 events.py:6 links.py:54 links.py:80 permissions.py:6
+#: queues.py:6 search.py:18 settings.py:11 workflow_actions.py:53
+msgid "OCR"
+msgstr "OCR"
+
+#: apps.py:121
+msgid "The OCR content."
+msgstr "OCRནང་དོན།"
+
+#: apps.py:126
+msgid "A generator returning the document's version pages OCR content."
+msgstr ""
+"ཡིག་ཆའི་ཐོན་རིམ་ཤོག་ངོས་ཀྱི་OCRནང་དོན་སླར་ལོག་བྱེད་པའི་འཕྲུལ་ཆས་ཤིག་རེད།"
+
+#: apps.py:128
+msgid "OCR content"
+msgstr "OCRནང་དོན།"
+
+#: backends/tesseract.py:82
+msgid "Tesseract OCR not found."
+msgstr "ཊེས་སེ་རེག་ཊི་OCRམ་རྙེད།"
+
+#: dependencies.py:24
+msgid "Free Open Source OCR Engine"
+msgstr "རིན་མེད་ཁ་ཕྱེ་བའི་ཐོན་ཁུངས་OCRའཕྲུལ་འཁོར།"
+
+#: events.py:10
+msgid "Document version OCR content deleted"
+msgstr "ཡིག་ཆའི་ཐོན་རིམ་OCRནང་དོན་བསུབ་ཟིན།"
+
+#: events.py:14
+msgid "Document version page OCR content edited"
+msgstr "ཡིག་ཆའི་ཐོན་རིམ་ཤོག་ངོསOCRནང་དོན་རྩོམ་སྒྲིག་བྱས།"
+
+#: events.py:18
+msgid "Document version submitted for OCR"
+msgstr "OCR ཆེད་དུ་ཡིག་ཆའི་ཐོན་རིམ་ཕུལ་ཡོད།"
+
+#: events.py:22
+msgid "Document version OCR finished"
+msgstr "ཡིག་ཆའི་ཐོན་རིམ་OCRལེགས་གྲུབ་བྱུང་།"
+
+#: forms.py:13 forms.py:44 forms.py:64
+msgid "Contents"
+msgstr "ནང་དོན།"
+
+#: forms.py:99
+#, python-format
+msgid "Page %(page_number)d"
+msgstr "ཤོག་ངོས། %(page_number)d"
+
+#: links.py:27
+msgid "Setup OCR"
+msgstr "OCRསྒྲིག་འཛུགས།"
+
+#: links.py:33
+msgid "OCR documents per type"
+msgstr "རིགས་རེ་རེའི་OCRཡིག་ཆ།"
+
+#: links.py:40 links.py:47
+msgid "Delete OCR content"
+msgstr "OCRནང་དོན་བསུབས་པ།"
+
+#: links.py:60
+msgid "Download OCR text"
+msgstr "OCRཡི་གེ་ཕབ་ལེན་བྱེད་པ།"
+
+#: links.py:65 links.py:70
+msgid "Submit for OCR"
+msgstr "OCR ལ་ཕུལ་བ།"
+
+#: links.py:86
+msgid "Edit OCR"
+msgstr "OCR རྩོམ་སྒྲིག"
+
+#: models.py:24
+msgid "Document type"
+msgstr "ཡིག་ཆའི་རིགས།"
+
+#: models.py:28
+msgid "Automatically queue newly created documents for OCR."
+msgstr "རང་འགུལ་གྱིས་གསར་དུ་བཟོས་པའི་ཡིག་ཆ་རྣམས་OCRཆེད་དུ་བང་སྒྲིག་བྱེད།"
+
+#: models.py:29
+msgid "Auto OCR"
+msgstr "རང་འགུལ་OCR"
+
+#: models.py:35
+msgid "Document type settings"
+msgstr "ཡིག་ཆའི་རིགས་སྒྲིག་སྟངས།"
+
+#: models.py:36
+msgid "Document types settings"
+msgstr "ཡིག་ཆའི་རིགས་སྒྲིག་སྟངས།"
+
+#: models.py:50
+msgid "Document version page"
+msgstr "ཡིག་ཆའི་པར་གཞིའི་ཤོག་ངོས་།"
+
+#: models.py:55
+msgid "The actual text content extracted by the OCR backend."
+msgstr "OCRརྒྱབ་ཕྱོགས་ཀྱིས་བཏོན་པའི་ཡིག་ཆའི་ནང་དོན་ངོ་མ།"
+
+#: models.py:56
+msgid "Content"
+msgstr "ནང་དོན"
+
+#: models.py:62
+msgid "Document version page OCR content"
+msgstr "ཡིག་ཆའི་ཐོན་རིམ་ཤོག་ངོས་OCRནང་དོན།"
+
+#: models.py:63
+msgid "Document version pages OCR contents"
+msgstr "ཡིག་ཆའི་ཐོན་རིམ་ཤོག་ངོས་OCRནང་དོན།"
+
+#: permissions.py:10
+msgid "Submit documents for OCR"
+msgstr "OCR ལ་ཡིག་ཆ་ཕུལ་བ།"
+
+#: permissions.py:13
+msgid "Edit the transcribed text from document"
+msgstr "ཡིག་ཆ་ནས་ཕབ་བསྒྱུར་བྱས་པའི་ཡི་གེ་རྩོམ་སྒྲིག་བྱེད་པ།"
+
+#: permissions.py:17
+msgid "View the transcribed text from document"
+msgstr "ཡིག་ཆ་ནས་ཕབ་བསྒྱུར་བྱས་པའི་ཡི་གེ་ལ་གཟིགས།"
+
+#: permissions.py:21
+msgid "Change document type OCR settings"
+msgstr "ཡིག་ཆའི་རིགས་OCRསྒྲིག་སྟངས་བསྒྱུར་བ།"
+
+#: queues.py:10
+msgid "Finish document version OCR"
+msgstr "ཡིག་ཆའི་ཐོན་རིམ་OCRམཇུག་སྒྲིལ།"
+
+#: queues.py:14
+msgid "Document version page OCR"
+msgstr "ཡིག་ཆའི་ཐོན་རིམ་ཤོག་ངོས་OCR"
+
+#: queues.py:18 search.py:12 search.py:24
+msgid "Document version OCR"
+msgstr "ཡིག་ཆའི་ཐོན་རིམ་OCR"
+
+#: settings.py:18
+msgid "Set new document types to perform OCR automatically by default."
+msgstr ""
+"སྔོན་སྒྲིག་ལྟར་རང་འགུལ་གྱིས་OCRསྒྲུབ་པར་ཡིག་ཆའི་རིགས་གསར་པ་སྒྲིག་དགོས།"
+
+#: settings.py:23
+msgid "Full path to the backend to be used to do OCR."
+msgstr "OCRབྱེད་པར་བེད་སྤྱོད་གཏོང་བའི་རྒྱབ་ཕྱོགས་ལ་འགྲོ་ལམ་ཆ་ཚང་།"
+
+#: views.py:64
+#, python-format
+msgid "Edit OCR settings for document type: %s."
+msgstr "ཡིག་ཆའི་རིགས་ལ་OCRསྒྲིག་སྟངས་ཞུན་དག་བྱེད། %s ."
+
+#: views.py:74
+msgid "Submit all documents of a type for OCR"
+msgstr "OCR ཆེད་དུ་རིགས་གཅིག་གི་ཡིག་ཆ་ཚང་མ་འབུལ་དགོས།"
+
+#: views.py:95
+#, python-format
+msgid "%(count)d documents added to the OCR queue."
+msgstr "%(count)d ཡིག་ཆ་དེ་ཚོ་OCRབང་རིམ་ལ་ཁ་སྣོན་བྱས།"
+
+#: views.py:118
+#, python-format
+msgid "Error deleting document version OCR \"%(instance)s\"; %(exception)s"
+msgstr ""
+"ཡིག་ཆའི་ཐོན་རིམ་OCR &quot; %(instance)s &quot; བསུབས་པའི་ནོར་འཁྲུལ། "
+"%(exception)s"
+
+#: views.py:124
+#, python-format
+msgid "OCR content of %(count)d document versions deleted successfully."
+msgstr "%(count)d ཡིག་ཆའི་ཐོན་རིམ་གྱི་OCRནང་དོན་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views.py:127
+#, python-format
+msgid "OCR content of \"%(object)s\" deleted successfully."
+msgstr "&quot; %(object)s &quot; ཡི་OCR ནང་དོན་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views.py:130
+#, python-format
+msgid "OCR content of %(count)d document version deleted successfully."
+msgstr "ཡིག་ཆའི་ཐོན་རིམ་ %(count)d ཡི་OCRནང་དོན་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views.py:133
+#, python-format
+msgid "Delete the OCR content of the %(count)d selected document versions."
+msgstr ""
+"%(count)d འདེམས་སྒྲུག་བྱས་པའི་ཡིག་ཆའི་ཐོན་རིམ་གྱི་OCRནང་དོན་བསུབས་དགོས།"
+
+#: views.py:135
+#, python-format
+msgid "Delete the OCR content of: %(object)s."
+msgstr "འདིའི་OCRནང་དོན་བསུབས་ %(object)s"
+
+#: views.py:137
+#, python-format
+msgid "Delete the OCR content of the %(count)d selected document version."
+msgstr ""
+"%(count)d འདེམས་སྒྲུག་བྱས་པའི་ཡིག་ཆའི་ཐོན་རིམ་གྱི་OCRནང་དོན་བསུབས་དགོས།"
+
+#: views.py:168
+#, python-format
+msgid "OCR result for document: %s"
+msgstr "ཡིག་ཆའི་OCRགྲུབ་འབྲས། %s"
+
+#: views.py:190
+#, python-format
+msgid "%(count)d document version submitted to the OCR queue."
+msgstr "%(count)d ཡིག་ཆའི་ཐོན་རིམ་དེ་OCRབང་རིམ་ལ་ཕུལ་ཡོད།"
+
+#: views.py:193
+#, python-format
+msgid "%(count)d document versions submitted to the OCR queue."
+msgstr "%(count)d ཡིག་ཆའི་ཐོན་རིམ་དེ་ཚོ་OCR བང་རིམ་ལ་ཕུལ་ཡོད།"
+
+#: views.py:202
+msgid "Submit the selected document version to the OCR queue?"
+msgid_plural "Submit the selected document versions to the OCR queue?"
+msgstr[0] "བདམས་པའི་ཡིག་ཆའི་ཐོན་རིམ་དེ་OCRབང་རིམ་ལ་འབུལ་དགོས་སམ།"
+
+#: views.py:238
+#, python-format
+msgid "OCR result for document version page: %s"
+msgstr "ཡིག་ཆའི་ཐོན་རིམ་ཤོག་ངོས་ཀྱི་OCRགྲུབ་འབྲས། %s"
+
+#: views.py:266
+#, python-format
+msgid "Edit OCR for document version page: %s"
+msgstr "ཡིག་ཆའི་ཐོན་རིམ་ཤོག་ངོས་ཆེད་དུ་OCRཞུན་དག་བྱེད། %s"
+
+#: workflow_actions.py:18
+msgid "Page condition"
+msgstr "ཤོག་ངོས་གནས་སྟངས།"
+
+#: workflow_actions.py:22
+msgid ""
+"The condition that will determine if a document page's OCR content will be "
+"modified or not. The condition is evaluated against the iterated document "
+"page. Conditions that do not return any value, that return the Python "
+"logical None, or an empty string ('') are considered to be logical false, "
+"any other value is considered to be the logical true."
+msgstr ""
+"ཡིག་ཆའི་ཤོག་ངོས་ཀྱི་OCRནང་དོན་བསྒྱུར་བཅོས་བྱེད་མིན་གཏན་འབེབས་བྱེད་པའི་ཆ་རྐྱེན།"
+" གནས་སྟངས་དེ་བསྐྱར་ལོག་ཡིག་ཆའི་ཤོག་ངོས་ལ་གཞི་བཅོལ་ནས་བརྟག་དཔྱད་བྱས། "
+"གནས་གོང་གང་རུང་སླར་ལོག་མི་བྱེད་པའི་གནས་སྟངས་དང་པའེ་ཐོན་གཏན་ཚིག་ཅན་གྱི་གང་ཡང་སླར་ལོག་མི་ཡང་ན་ཡིག་རྒྱུན་སྟོང་པ་(&#39;&#39;)དེ་གཏན་ཚིག་གི་རྫུན་མ་ཡིན་པར་བརྩི།"
+" གནས་གོང་གཞན་གང་རུང་ཞིག་གཏན་ཚིག་གི་བདེན་པ་ལ་བརྩི།"
+
+#: workflow_actions.py:34
+msgid "Page content"
+msgstr "ཤོག་ངོས་ནང་དོན།"
+
+#: workflow_actions.py:38
+msgid "A template that will generate the OCR content to be saved."
+msgstr "གསོག་འཇོག་བྱེད་དགོས་པའི་OCRནང་དོན་བཟོ་བའི་དཔེ་སྒྲོམ་ཞིག"
+
+#: workflow_actions.py:45
+msgid "Update document page OCR content"
+msgstr "ཡིག་ཆའི་ཤོག་བུའི་OCRནང་དོན་གསར་བཅོས་བྱེད་པ།"

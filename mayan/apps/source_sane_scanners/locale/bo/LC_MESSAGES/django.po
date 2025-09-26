@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:11
+msgid "SANE scanners"
+msgstr "SANE པར་ཆས།"
+
+#: dependencies.py:10
+msgid ""
+"Utility provided by the SANE package. Used to control the scanner and "
+"obtained the scanned document image."
+msgstr ""
+"SANEཐུམ་སྒྲིལ་གྱིས་མཁོ་སྤྲོད་བྱས་པའི་བེད་སྤྱོད། "
+"པར་ལེན་འཕྲུལ་ཆས་ལ་ཚོད་འཛིན་བྱེད་པར་བེད་སྤྱོད་བྱས་ནས་པར་ལེན་བྱས་པའི་ཡིག་ཆའི་པར་རིས་ཐོབ་ཡོད།"
+
+#: source_backends.py:31
+msgid "SANE Scanner"
+msgstr "SANE པར་བཤེར་འཕྲུལ་ཆས།"
+
+#: source_backends.py:50
+msgid "Device name as returned by the SANE backend."
+msgstr "SANE རྒྱབ་ཕྱོགས་ཀྱིས་སླར་ལོག་བྱས་པའི་ཐབས་འཕྲུལ་གྱི་མིང་།"
+
+#: source_backends.py:53
+msgid "Device name"
+msgstr "ཡོ་བྱད་ཀྱི་མིང་།"
+
+#: source_backends.py:59
+msgid ""
+"YAML formatted arguments to pass to the `scanimage` command. The arguments "
+"will change depending on the device. Execute `scanimage --help --device-"
+"name=DEVICE` for the list of supported arguments."
+msgstr ""
+"`scanimage` བརྡ་བཀོད་ལ་སྤྲོད་པའི་སྒྲུབ་བྱེད་YAML རྩ་སྒྲིག་བྱས། "
+"ཐབས་འཕྲུལ་ལ་གཞིགས་ནས་རྩོད་གླེང་འགྱུར་བ་འགྲོ་གི་རེད། "
+"རྒྱབ་སྐྱོར་བྱེད་པའི་སྒྲུབ་བྱེད་ཀྱི་ཐོ་གཞུང་ཆེད་དུ་`scanimage --help "
+"--device-name=DEVICE` ལག་བསྟར་བྱེད།"
+
+#: source_backends.py:65
+msgid "Arguments"
+msgstr "རྩོད་པ།"
+
+#: source_backends.py:79
+msgid "SANE client"
+msgstr "SANE མཁོ་སྤྲོད་པ།"
+
+#: source_backends.py:137
+msgid "Document properties"
+msgstr "ཡིག་ཆའི་རྒྱུ་ཆ།"
+
+#: source_backends.py:138
+msgid "Scan"
+msgstr "པར་བཤུད།"

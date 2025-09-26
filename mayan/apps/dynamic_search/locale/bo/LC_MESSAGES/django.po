@@ -1,0 +1,550 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-26 15:20+0000\n"
+"PO-Revision-Date: 2024-05-07 07:30+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:36
+msgid "Dynamic search"
+msgstr "སྒུལ་ཤུགས་ལྡན་པའི་འཚོལ་ཞིབ།"
+
+#: events.py:6 permissions.py:6 queues.py:11 settings.py:20
+#: templates/dynamic_search/search_box.html:47
+#: templates/dynamic_search/search_box_toolbar.html:30
+#: views/search_views.py:110
+msgid "Search"
+msgstr "བཤེར་འཚོལ"
+
+#: events.py:10
+msgid "Resultset created"
+msgstr "གྲུབ་འབྲས་ཆ་ཚང་བཟོས་ཡོད།"
+
+#: forms.py:13
+msgid "Store the search results to speed up paging and for later browsing."
+msgstr ""
+"འཚོལ་ཞིབ་གྲུབ་འབྲས་དེ་དག་ཤོག་ངོས་བཟོ་མགྱོགས་སུ་གཏོང་བ་དང་རྗེས་སུ་ལྟ་ཀློག་བྱེད་པར་གསོག་འཇོག་བྱོས།"
+
+#: forms.py:16
+msgid "Save results"
+msgstr "གྲུབ་འབྲས་ཉར་ཚགས་བྱེད་པ།"
+
+#: forms.py:22
+msgid "Persistency"
+msgstr "རྒྱུན་སྲིང་།"
+
+#: forms.py:38
+msgid "Match all"
+msgstr "ཚང་མ་མཐུན།"
+
+#: forms.py:39
+msgid "Return only results that match all fields."
+msgstr "ཡིག་དུམ་ཚང་མ་མཐུན་པའི་གྲུབ་འབྲས་ཁོ་ན་ཕྱིར་ལོག་བྱེད།"
+
+#: forms.py:72
+msgid "Search logic"
+msgstr "འཚོལ་བཤེར་གཏན་ཚིགས།"
+
+#: forms.py:100 templates/dynamic_search/search_box.html:43
+#: templates/dynamic_search/search_box_toolbar.html:25
+msgid "Search terms"
+msgstr "འཚོལ་བཤེར་ཐ་སྙད།"
+
+#: forms.py:111
+msgid "Criteria"
+msgstr "ཚད་གཞི"
+
+#: links.py:20 models.py:61 views/saved_resultset_views.py:72
+msgid "Saved resultsets"
+msgstr "ཉར་ཚགས་བྱས་པའི་གྲུབ་འབྲས་ཆ་ཚན།"
+
+#: links.py:25
+msgid "Delete"
+msgstr "བསུབ་པ།"
+
+#: links.py:30
+msgid "Results"
+msgstr "མཇུག་འབྲས"
+
+#: links.py:35
+msgid "Basic search"
+msgstr "གཞི་རྩའི་འཚོལ་ཞིབ།"
+
+#: links.py:39 templates/dynamic_search/search_box.html:49
+#: templates/dynamic_search/search_box_toolbar.html:33
+msgid "Advanced search"
+msgstr "སྔོན་ཐོན་འཚོལ་ཞིབ།"
+
+#: links.py:43
+msgid "Search again"
+msgstr "ཡང་བསྐྱར་བཙལ།"
+
+#: links.py:48 views/search_views.py:65
+msgid "Reindex search backend"
+msgstr "བསྐྱར་ཟུར་ཐོ་འཚོལ་ཞིབ་རྒྱབ་ལྗོངས།"
+
+#: literals.py:27
+msgid "Yes"
+msgstr "ཡིན"
+
+#: literals.py:28
+msgid "No"
+msgstr "མིན"
+
+#: models.py:23
+msgid ""
+"Time to keep the resultset in seconds. This value is increased every time "
+"the resultset is accessed."
+msgstr ""
+"གྲུབ་འབྲས་ཆ་ཚང་སྐར་ཆ་ཁ་ཤས་ནང་བཞག་པའི་དུས་ཚོད། "
+"གྲུབ་འབྲས་ཆ་ཚང་ལ་འཛུལ་སྤྱོད་བྱེད་སྐབས་རིན་ཐང་འདི་འཕར་ཡོད།"
+
+#: models.py:26
+msgid "Time to live"
+msgstr "འཚོ་བའི་དུས་ཚོད།"
+
+#: models.py:30
+msgid "The server date and time when the resultset was created."
+msgstr "གྲུབ་འབྲས་ཆ་ཚན་གསར་འཛུགས་བྱས་པའི་སར་བར་གྱི་ཚེས་གྲངས་དང་དུས་ཚོད།"
+
+#: models.py:31
+msgid "Timestamp"
+msgstr "དུས་ཚོད་བརྟན་རྟགས།"
+
+#: models.py:34
+msgid "Epoch"
+msgstr "དུས་རབས།"
+
+#: models.py:37 serializers.py:70
+msgid "App label"
+msgstr "མཉེན་ཆས་མིང་བྱང་།"
+
+#: models.py:40 serializers.py:73
+msgid "Model name"
+msgstr "དཔེ་གཟུགས་ཀྱི་མིང་།"
+
+#: models.py:43
+msgid "Search query"
+msgstr "འཚོལ་ཞིབ་འདྲི་རྩད།"
+
+#: models.py:46
+msgid "Search explainer text"
+msgstr "འགྲེལ་བརྗོད་ཡི་གེ་འཚོལ་ཞིབ།"
+
+#: models.py:49
+msgid "Number of results stored in the resultset."
+msgstr "གྲུབ་འབྲས་ཆ་ཚང་ནང་གསོག་འཇོག་བྱས་པའི་གྲུབ་འབྲས་ཀྱི་གྲངས་འབོར།"
+
+#: models.py:50
+msgid "Result count"
+msgstr "གྲུབ་འབྲས་གྲངས།"
+
+#: models.py:53
+msgid "User for which the resultset was created."
+msgstr "གྲུབ་འབྲས་ཆ་ཚང་གསར་བཟོ་བྱས་པའི་སྤྱོད་མཁན།"
+
+#: models.py:55 serializers.py:24
+msgid "User"
+msgstr "བེད་སྤྱོད་པ་།"
+
+#: models.py:60 models.py:95
+msgid "Saved resultset"
+msgstr "ཉར་ཚགས་བྱས་པའི་གྲུབ་འབྲས་ཆ་ཚན།"
+
+#: models.py:101
+msgid "Saved resultset entry"
+msgstr "གྲུབ་འབྲས་ཆ་ཚང་ཐོ་འགོད་ཉར་ཚགས་བྱས།"
+
+#: models.py:102
+msgid "Saved resultset entries"
+msgstr "གྲུབ་འབྲས་ཆ་ཚང་ཐོ་འགོད་ཉར་ཚགས་བྱས།"
+
+#: permissions.py:10
+msgid "Delete resultsets"
+msgstr "གྲུབ་འབྲས་ཆ་ཚན་སུབ་པ།"
+
+#: permissions.py:13
+msgid "View resultsets"
+msgstr "གྲུབ་འབྲས་ཆ་ཚང་ལ་ལྟ་བ།"
+
+#: permissions.py:17
+msgid "Execute search tools"
+msgstr "འཚོལ་བཤེར་ལག་ཆ་ལག་བསྟར་བྱེད་པ།"
+
+#: queues.py:14
+msgid "Search slow"
+msgstr "འཚོལ་ཞིབ་དལ་བ།"
+
+#: queues.py:19
+msgid "Remove a model instance from the search engine."
+msgstr "འཚོལ་ཞིབ་འཕྲུལ་ཆས་ནས་དཔེ་མཚོན་གྱི་དཔེ་མཚོན་ཞིག་མེད་པར་བཟོས།"
+
+#: queues.py:24
+msgid "Index a model instance to the search engine."
+msgstr "འཚོལ་ཞིབ་འཕྲུལ་ཆས་ལ་དཔེ་ཚད་ཀྱི་དཔེ་མཚོན་ཞིག་དཀར་ཆག་བཟོས།"
+
+#: queues.py:30
+msgid "Index all instances of a search model to the search engine."
+msgstr "འཚོལ་ཞིབ་འཕྲུལ་ཆས་ལ་འཚོལ་ཞིབ་དཔེ་གཞིའི་གནས་ཚུལ་ཚང་མ་ཟུར་ཐོ་བཟོས།"
+
+#: queues.py:36
+msgid ""
+"Index all related instances of a search model after a many to many event."
+msgstr ""
+"བྱུང་རིམ་མང་པོ་ནས་མང་པོ་བྱུང་རྗེས་འཚོལ་ཞིབ་དཔེ་གཞིའི་འབྲེལ་ཡོད་གནས་ཚུལ་ཚང་མ་ཟུར་ཐོ་བཟོས།"
+
+#: queues.py:44
+msgid "Reset the search backend indices and index all instances again."
+msgstr ""
+"འཚོལ་ཞིབ་རྒྱབ་ཕྱོགས་ཀྱི་ཟུར་ཐོ་སླར་གསོ་བྱས་ནས་གནས་ཚུལ་ཚང་མ་ཡང་བསྐྱར་ཟུར་ཐོ་བཟོས།"
+
+#: queues.py:51
+msgid "Delete expired saved resultsets"
+msgstr "དུས་ཡུན་ཡོལ་ཟིན་པའི་ཉར་ཚགས་བྱས་པའི་གྲུབ་འབྲས་ཆ་ཚང་སུབ་དགོས།"
+
+#: scoped_queries.py:348
+#, python-format
+msgid ""
+"Query results exceed the current limit of %d. Results will not be reliable "
+"if multiple scopes are used. Narrow down the search criteria or increase the"
+" value of the results limit setting `%s`."
+msgstr ""
+"འདྲི་རྩད་ཀྱི་གྲུབ་འབྲས་དེ་ད་ལྟའི་ %d ཡི་ཚད་གཞི་ལས་བརྒལ་ཡོད། "
+"གལ་ཏེ་ཁྱབ་ཁོངས་སྣ་ཚོགས་བེད་སྤྱོད་བཏང་ན་གྲུབ་འབྲས་བརྟན་པོ་མིན། "
+"འཚོལ་ཞིབ་ཚད་གཞི་ཆུང་དུ་གཏོང་བའམ་ཡང་ན་གྲུབ་འབྲས་ཚད་གཞིའི་སྒྲིག་སྟངས་` %s ` "
+"ཡི་རིན་ཐང་ཆེ་རུ་གཏོང་།"
+
+#: scoped_queries.py:373
+#, python-format
+msgid ""
+"Search backend error. Verify that the search service is available and that "
+"the search syntax is valid for the active search backend; %s"
+msgstr ""
+"རྒྱབ་ཕྱོགས་ཀྱི་ནོར་འཁྲུལ་འཚོལ་ཞིབ་བྱས། "
+"འཚོལ་ཞིབ་ཞབས་ཞུ་ཡོད་མེད་དང་འཚོལ་ཞིབ་ཚིག་སྦྱོར་དེ་ཤུགས་ལྡན་འཚོལ་ཞིབ་རྒྱབ་ཕྱོགས་ལ་ནུས་ལྡན་ཡིན་མིན་བདེན་དཔང་བྱེད།"
+" %s"
+
+#: search_fields.py:312
+msgid "Any"
+msgstr "གང་རུང"
+
+#: search_models.py:44
+#, python-format
+msgid "Unknown search model `%s`."
+msgstr "མ་ཤེས་པའི་འཚོལ་ཞིབ་དཔེ་གཞི་` %s ."
+
+#: search_models.py:114
+msgid "All content"
+msgstr "ནང་དོན་ཚང་མ།"
+
+#: search_query_types.py:171
+msgid "Exact"
+msgstr "ཏག་ཏག"
+
+#: search_query_types.py:177
+msgid "Fuzzy"
+msgstr "མ་གསལ་བ།"
+
+#: search_query_types.py:183
+msgid "Greater than"
+msgstr "༡ ལས་ཆེ་བ།"
+
+#: search_query_types.py:189
+msgid "Greater than or equal"
+msgstr "དེ་ལས་ཆེ་བའམ་མཉམ་པ།"
+
+#: search_query_types.py:195
+msgid "Less than"
+msgstr "༡ ལས་ཉུང་བ།"
+
+#: search_query_types.py:201
+msgid "Less than or equal"
+msgstr "ཉུང་བའམ་མཉམ་པ།"
+
+#: search_query_types.py:207
+msgid "Partial"
+msgstr "ཆ་ཤས།"
+
+#: search_query_types.py:213
+msgid "Range"
+msgstr "ཁྱབ་ཁོངས"
+
+#: search_query_types.py:248
+msgid "Range exclusive"
+msgstr "ཁྱབ་ཁོངས་དམིགས་བསལ་ཅན།"
+
+#: search_query_types.py:254
+msgid "Regular expression"
+msgstr "རྒྱུན་ལྡན་བརྗོད་པ།"
+
+#: serializers.py:20
+msgid "Results URL"
+msgstr "མཇུག་འབྲས་URL"
+
+#: serializers.py:30 serializers.py:82
+msgid "URL"
+msgstr "URL །"
+
+#: serializers.py:53
+msgid "User must be authenticated."
+msgstr "སྤྱོད་མཁན་གྱིས་བདེན་དཔང་བྱེད་དགོས།"
+
+#: serializers.py:61
+msgid "Field name"
+msgstr "ཡིག་དུམ་གྱི་མིང་།"
+
+#: serializers.py:64
+msgid "Label"
+msgstr "ལག་ཁྱེར་།"
+
+#: serializers.py:76
+msgid "Primary key"
+msgstr "གཙོ་བོའི་ལྡེ་མིག"
+
+#: serializers.py:79
+msgid "Search fields"
+msgstr "འཚོལ་བཤེར་ས་ཁོངས།"
+
+#: settings.py:25
+msgid "Full path to the backend to be used to handle the search."
+msgstr ""
+"འཚོལ་ཞིབ་ལ་འགན་ལེན་བྱེད་པར་བེད་སྤྱོད་གཏོང་བའི་རྒྱབ་ཕྱོགས་ལ་འགྲོ་ལམ་ཆ་ཚང་།"
+
+#: settings.py:31
+msgid ""
+"Arguments to pass to the search backend. For example values to change the "
+"behavior, host names, or authentication arguments."
+msgstr ""
+"འཚོལ་ཞིབ་རྒྱབ་ཕྱོགས་ལ་སྤྲོད་པའི་རྩོད་གླེང་། དཔེར་ན་ "
+"སྤྱོད་ལམ་བསྒྱུར་བཅོས་བྱེད་པའི་གནས་གོང་དང་། གཙོ་བོའི་མིང་། "
+"ཡང་ན་བདེན་དཔང་སྒྲུབ་བྱེད།"
+
+#: settings.py:39
+msgid "The search operator to use when none is specified."
+msgstr ""
+"གང་ཡང་གསལ་བཀོད་བྱས་མེད་པའི་སྐབས་བེད་སྤྱོད་གཏོང་བའི་འཚོལ་ཞིབ་བཀོལ་སྤྱོད་པ།"
+
+#: settings.py:46
+msgid ""
+"Disables the single term bar search leaving only the advanced search button."
+msgstr ""
+"ཡར་ཐོན་ཅན་གྱི་འཚོལ་ཞིབ་མཐེབ་ཁོ་ན་བཞག་སྟེ་མིང་ཚིག་རྐྱང་པའི་ཕྲ་རིང་འཚོལ་ཞིབ་ལྕོགས་མིན་བཟོས།"
+
+#: settings.py:53
+msgid "Amount of objects to process when performing bulk indexing."
+msgstr "དཀར་ཆག་མང་པོ་སྒྲུབ་སྐབས་ལས་སྣོན་བྱེད་དགོས་པའི་དངོས་པོའི་ཚད་གཞི།"
+
+#: settings.py:59
+msgid "Sets the default state of the \"Match all\" checkbox."
+msgstr ""
+"&quot;ཚང་མ་མཐུན་སྒྲིག་&quot; "
+"ཞིབ་བཤེར་སྒྲོམ་གྱི་སྔོན་སྒྲིག་གནས་སྟངས་སྒྲིག་བཀོད་བྱེད།"
+
+#: settings.py:65
+msgid ""
+"Maximum number of search results to fetch and display per search query unit."
+msgstr ""
+"འཚོལ་ཞིབ་འདྲི་རྩད་ཀྱི་ཆ་ཤས་རེ་ལ་འཚོལ་ཞིབ་གྲུབ་འབྲས་ཆེས་མཐོ་བའི་གྲངས་འབོར།"
+
+#: settings.py:72
+msgid ""
+"Raise an error when the number of search results exceed the value of "
+"`SEARCH_QUERY_RESULTS_LIMIT`."
+msgstr ""
+
+#: settings.py:79
+msgid "Maximum number of search results to fetch and display."
+msgstr "འཚོལ་བཤེར་གྲུབ་འབྲས་ཆེས་མཐོ་བའི་གྲངས་འབོར།"
+
+#: settings.py:85
+msgid "Maximum number of saved resultsets to keep per user."
+msgstr "སྤྱོད་མཁན་རེ་ལ་གསོག་འཇོག་བྱས་པའི་གྲུབ་འབྲས་ཆ་ཚང་མང་ཤོས།"
+
+#: settings.py:91
+msgid "Maximum number of results to store per resultset."
+msgstr ""
+"གྲུབ་འབྲས་ཆ་ཚང་རེ་ལ་གསོག་འཇོག་བྱེད་པའི་གྲུབ་འབྲས་ཆེས་མཐོ་བའི་གྲངས་འབོར།"
+
+#: settings.py:97
+msgid "Time to keep the resultset in seconds."
+msgstr "གྲུབ་འབྲས་ཆ་ཚང་སྐར་ཆ་ཁ་ཤས་ནང་བཞག་པའི་དུས་ཚོད།"
+
+#: settings.py:103
+msgid "Amount to increase the time to live on each access of the resultset."
+msgstr "གྲུབ་འབྲས་ཆ་ཚང་ལ་འཛུལ་ཞུགས་རེ་རེར་འཚོ་བའི་དུས་ཚོད་འཕར་བའི་དངུལ་འབོར།"
+
+#: settings.py:110
+msgid "Sets the default state of the \"Store results\" checkbox."
+msgstr ""
+"&quot;གྲུབ་འབྲས་གསོག་འཇོག་&quot; "
+"ཞིབ་བཤེར་སྒྲོམ་གྱི་སྔོན་སྒྲིག་གནས་སྟངས་སྒྲིག་བཀོད་བྱེད།"
+
+#: templates/dynamic_search/app/list_toolbar.html:18
+msgid "Filter terms"
+msgstr "ཐ་སྙད་ཚགས་བཤེར་བྱེད་པ།"
+
+#: templates/dynamic_search/search_box.html:49
+#: templates/dynamic_search/search_box_toolbar.html:33
+msgid "Advanced"
+msgstr "ཡན་ཐོན་ཅན"
+
+#: value_transformations.py:38
+msgid "Replace accents"
+msgstr "སྐད་གདངས་བརྗེ་དགོས།"
+
+#: value_transformations.py:50
+msgid "@ sign replace"
+msgstr "@ རྟགས་བརྗེ་བ།"
+
+#: value_transformations.py:60
+msgid "Case fold"
+msgstr "གྱོད་གཞི་ལྡེབ།"
+
+#: value_transformations.py:70 value_transformations.py:80
+msgid "Hyphen replace"
+msgstr "སྦྲེལ་རྟགས་བརྗེ་སྒྱུར།"
+
+#: value_transformations.py:90
+msgid "To boolean"
+msgstr "བུ་ལིན་ལ།"
+
+#: value_transformations.py:105
+msgid "To date time"
+msgstr "ད་ལྟའི་དུས་ཚོད།"
+
+#: value_transformations.py:132
+msgid "Date time ISO format"
+msgstr "ཚེས་གྲངས་དུས་ཚོད།ISOརྩ་སྒྲིག།"
+
+#: value_transformations.py:146
+msgid "Date time simple format"
+msgstr "ཚེས་གྲངས་དུས་ཚོད་ཀྱི་རྣམ་གཞག་སྟབས་བདེ།"
+
+#: value_transformations.py:158
+msgid "Date time timestamp format"
+msgstr "ཚེས་གྲངས་དུས་ཚོད་དུས་ཚོད་མཚོན་རྟགས་རྣམ་སྒྲིག།"
+
+#: value_transformations.py:174
+msgid "To integer"
+msgstr "ཧྲིལ་གྲངས་ལ།"
+
+#: value_transformations.py:184
+msgid "To string"
+msgstr "སྐུད་པ་ལ།"
+
+#: views/saved_resultset_views.py:30
+#, python-format
+msgid "Error deleting saved resultset \"%(instance)s\"; %(exception)s"
+msgstr ""
+"གསོག་འཇོག་བྱས་པའི་གྲུབ་འབྲས་ཆ་ཚན་ &quot; %(instance)s &quot; "
+"བསུབས་པའི་ནོར་འཁྲུལ། %(exception)s"
+
+#: views/saved_resultset_views.py:39
+#, python-format
+msgid "%(count)d saved resultsets deleted successfully."
+msgstr "%(count)d གིས་ཉར་ཚགས་བྱས་པའི་གྲུབ་འབྲས་ཆ་ཚང་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views/saved_resultset_views.py:42
+#, python-format
+msgid "Saved resultset \"%(object)s\" deleted successfully."
+msgstr ""
+"གསོག་འཇོག་བྱས་པའི་གྲུབ་འབྲས་ཆ་ཚན་ &quot; %(object)s &quot; "
+"མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views/saved_resultset_views.py:45
+#, python-format
+msgid "%(count)d saved resultset deleted successfully."
+msgstr "%(count)d ཉར་ཚགས་བྱས་པའི་གྲུབ་འབྲས་ཆ་ཚང་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views/saved_resultset_views.py:48
+#, python-format
+msgid "Delete the %(count)d selected saved resultsets."
+msgstr ""
+"འདེམས་སྒྲུག་བྱས་པའི་ཉར་ཚགས་བྱས་པའི་གྲུབ་འབྲས་ཆ་ཚང་ %(count)d བསུབས་དགོས།"
+
+#: views/saved_resultset_views.py:50
+#, python-format
+msgid "Delete saved resultset: %(object)s."
+msgstr "གསོག་འཇོག་བྱས་པའི་གྲུབ་འབྲས་ཆ་ %(object)s"
+
+#: views/saved_resultset_views.py:51
+#, python-format
+msgid "Delete the %(count)d saved resultset."
+msgstr "%(count)d གསོག་འཇོག་བྱས་པའི་གྲུབ་འབྲས་ཆ་ཚན་དེ་བསུབས་དགོས།"
+
+#: views/saved_resultset_views.py:68
+msgid ""
+"Saved resultsets are objects that store the results of a previous search for"
+" a determined amount of time."
+msgstr ""
+"གསོག་འཇོག་བྱས་པའི་གྲུབ་འབྲས་ཆ་ཚན་ནི་དུས་ཚོད་གཏན་འཁེལ་བྱས་པའི་སྔོན་གྱི་འཚོལ་ཞིབ་ཀྱི་གྲུབ་འབྲས་གསོག་འཇོག་བྱེད་པའི་དངོས་པོ་ཡིན།"
+
+#: views/saved_resultset_views.py:71
+msgid "No saved resultsets available"
+msgstr "ཉར་ཚགས་བྱས་པའི་གྲུབ་འབྲས་ཆ་ཚང་མེད།"
+
+#: views/search_views.py:62
+msgid "This tool erases and populates the search backend's internal index."
+msgstr "ལག་ཆ་འདིས་འཚོལ་ཞིབ་རྒྱབ་ཕྱོགས་ཀྱི་ནང་ཁུལ་གྱི་དཀར་ཆག་བསུབས་ནས་བཀང་ཐུབ།"
+
+#: views/search_views.py:72
+msgid ""
+"This tool is required only for some search backends. Search results will be "
+"affected while the backend is being reindexed."
+msgstr ""
+"ལག་ཆ་འདི་འཚོལ་ཞིབ་རྒྱབ་ཕྱོགས་ཁ་ཤས་ལ་རྐྱངམ་གཅིག་དགོས། "
+"རྒྱབ་ཕྱོགས་དེ་བསྐྱར་དུ་དཀར་ཆག་བཟོ་བའི་སྐབས་འཚོལ་ཞིབ་གྲུབ་འབྲས་ལ་ཤུགས་རྐྱེན་ཐེབས་རྒྱུ་རེད།"
+
+#: views/search_views.py:78
+msgid ""
+"The currently selected search backend does not support or requires "
+"reindexing."
+msgstr ""
+"ད་ལྟ་འདེམས་པའི་འཚོལ་ཞིབ་རྒྱབ་ཕྱོགས་ཀྱིས་རྒྱབ་སྐྱོར་བྱེད་ཀྱི་མེད་པའམ་ཡང་ན་བསྐྱར་དུ་དཀར་ཆག་བཟོ་དགོས།"
+
+#: views/search_views.py:91
+msgid "Search backend reindexing queued."
+msgstr "འཚོལ་ཞིབ་རྒྱབ་ཕྱོགས་བསྐྱར་དུ་དཀར་ཆག་བསྒྲིགས་ཡོད།"
+
+#: views/search_views.py:112
+#, python-format
+msgid "Search for: %s"
+msgstr "འཚོལ་ཞིབ།: %s"
+
+#: views/search_views.py:139
+#, python-format
+msgid "Advanced search for: %s"
+msgstr "ཡར་ཐོན་ཅན་གྱི་འཚོལ་ཞིབ།: %s"
+
+#: views/search_views.py:195
+msgid "Try again using different terms. "
+msgstr "ཐ་སྙད་མི་འདྲ་བ་བཀོལ་ནས་ཡང་བསྐྱར་ཚོད་ལྟ་བྱོས། "
+
+#: views/search_views.py:197
+msgid "No search results"
+msgstr "འཚོལ་ཞིབ་གྲུབ་འབྲས་མེད།"
+
+#: views/search_views.py:200
+#, python-format
+msgid "Search query: %s"
+msgstr "འཚོལ་ཞིབ་འདྲི་རྩད།: %s"
+
+#: views/search_views.py:203
+#, python-format
+msgid "Search results for: %s"
+msgstr "འཚོལ་ཞིབ་གྲུབ་འབྲས།: %s"
