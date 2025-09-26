@@ -154,6 +154,7 @@ setup(
     platforms=['any'],
     project_urls={
         'Documentation': 'https://docs.mayan-edms.com/',
+        'Forum': 'https://forum.mayan-edms.com/',
         'Changelog': 'https://gitlab.com/mayan-edms/mayan-edms/-/blob/master/HISTORY.rst',
         'Bug Tracker': 'https://gitlab.com/mayan-edms/mayan-edms/-/issues',
         'Source Code': 'https://gitlab.com/mayan-edms/mayan-edms',

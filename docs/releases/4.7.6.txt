@@ -31,4 +31,6 @@ Timezone & Localization
 Core Updates
 ^^^^^^^^^^^^
 
-Merged fixes and improvements from versions 4.6.10 and 4.6.11, ensuring consistency across series branches.
+- Merged fixes and improvements from versions 4.6.10 and 4.6.11, ensuring consistency across series branches.
+
+- Add forum link to Python setup.
