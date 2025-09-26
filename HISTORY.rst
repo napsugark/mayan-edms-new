@@ -286,7 +286,19 @@
 - Expose the document index instance depth and node count values via the API.
 - Add a document type API view to return all documents of that type.
 
-4.6.10 (2025-09-23)
+4.6.11 (XXXX-XX-XX)
+===================
+- Add new languages, and language variants.
+
+  - Tibetan
+  - Spanish (Ecuador)
+  - Persian (Iran)
+  - French (France)
+  - Hungarian (Slovakia)
+  - Hungarian (Hungary)
+  - Armenian (Armenia)
+
+4.6.10 (2025-09-24)
 ===================
 - Fix base search class `_search` interface.
 - Add `SEARCH_QUERY_RESULTS_LIMIT_ERROR`. Controls whether or not to raise
@@ -301,9 +313,15 @@
   hard coding the branch name.
 - Update dependency version:
 
+  - devpi-server from 6.5.0 to 6.17.0
   - django from 4.2.23 to 4.2.24
+  - ipython from 8.21.0 to 9.5.0
+  - packaging from 21.3 to 25.0
+  - pip from 24.3 to 25.2
   - sentry-sdk from 2.35.0 to 2.38.0
-  - pip from 24.3 to 24.3.1
+  - setuptools from 69.5.1 to 80.9.0
+  - twine from 5.1.1 to 6.2.0
+  - wheel from 0.42.0 to 0.45.1
 
 - Update Docker image tags:
 
@@ -311,6 +329,10 @@
   - Elasticsearch from 7.17.28 to 7.17.29
   - PostgreSQL from 13.21-alpine to 13.22-alpine
   - Forge Ubuntu from 24.04 to noble-20250910
+
+- Invoke `twine upload` by passing `TWINE_PASSWORD` instead of `PYPIRC`.
+- Resolve a myriad of bugs and dependency conflict bugs between
+  `devpi-server`, `packaging`, `setuptools`, `twine`, `wheel`.
 
 4.6.9 (2025-08-31)
 ==================
