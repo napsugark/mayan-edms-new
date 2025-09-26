@@ -7,7 +7,7 @@ PythonDependency(
     module=__name__, name='greenlet', version_string='==3.0.3'
 )
 PythonDependency(
-    module=__name__, name='gunicorn', version_string='==22.0.0'
+    module=__name__, name='gunicorn', version_string='==23.0.0'
 )
 PythonDependency(
     module=__name__, name='sentry-sdk', version_string='==2.38.0'

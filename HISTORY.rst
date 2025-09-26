@@ -1,6 +1,8 @@
 4.7.6 (XXXX-XX-XX)
 ==================
-- Improvements and changes from version 4.6.10.
+- Improvements and changes from version 4.6.10 and 4.6.11.
+- Update `gunicorn` from version 22.0.0 to 23.0.0 due to CVE-2024-6827.
+- Update `pypdf` from version 4.2.0 to 6.0.0 due to CVE-2025-55197.
 
 4.7.5 (2025-09-01)
 ==================
@@ -314,7 +316,7 @@
 - Update dependency version:
 
   - devpi-server from 6.5.0 to 6.17.0
-  - django from 4.2.23 to 4.2.24
+  - django from 4.2.23 to 4.2.24 (CVE-2025-57833)
   - ipython from 8.21.0 to 9.5.0
   - packaging from 21.3 to 25.0
   - pip from 24.3 to 25.2

@@ -100,7 +100,7 @@ gevent==24.2.1
 google-cloud-storage==2.16.0
 graphviz==0.20.3
 greenlet==3.0.3
-gunicorn==22.0.0
+gunicorn==23.0.0
 importlib-metadata==7.1.0
 jsonschema==4.21.1
 mozilla-django-oidc==4.0.1
@@ -108,7 +108,7 @@ node-semver==0.9.0
 pycountry==24.6.1
 pycryptodome==3.21.0
 pyotp==2.9.0
-pypdf==4.2.0
+pypdf==6.0.0
 python-dateutil==2.9.0.post0
 python-magic==0.4.27
 python_gnupg==0.5.2
