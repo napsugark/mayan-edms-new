@@ -3,6 +3,8 @@
 - Improvements and changes from version 4.6.10 and 4.6.11.
 - Update `gunicorn` from version 22.0.0 to 23.0.0 due to CVE-2024-6827.
 - Update `pypdf` from version 4.2.0 to 6.0.0 due to CVE-2025-55197.
+- Backport timezone updates from version 4.9 and 4.10. Update `pytz` from
+  version 2024.1 to 2025.2. Backport timezone migrations.
 
 4.7.5 (2025-09-01)
 ==================
