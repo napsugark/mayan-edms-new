@@ -1,0 +1,254 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-11 12:51+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:35 events.py:6 links.py:37 models.py:31 permissions.py:6
+#: views.py:145
+msgid "Quotas"
+msgstr "ཁ་གསབ།"
+
+#: classes.py:63
+msgid "none"
+msgstr "མེད་པ"
+
+#: classes.py:161
+msgid "Does not apply"
+msgstr "འཇུག་མི་ཐུབ།"
+
+#: classes.py:165 classes.py:169
+msgid "Null backend"
+msgstr "རྒྱབ་ཕྱོགས་སྟོང་པ།"
+
+#: events.py:10
+msgid "Quota created"
+msgstr "ཁ་གསབ་བཟོས་ཡོད།"
+
+#: events.py:13
+msgid "Quota edited"
+msgstr "Quota རྩོམ་སྒྲིག་བྱས།"
+
+#: forms.py:14 model_mixins.py:16
+msgid "Backend"
+msgstr "རྒྱབ་ལྗོངས།"
+
+#: forms.py:15
+msgid "The quota driver for this entry."
+msgstr "ཐོ་འགོད་འདིའི་ཁ་གསབ་ཁ་ལོ་བ།"
+
+#: links.py:17
+msgid "Create quota"
+msgstr "ཁ་གསབ་བཟོས།"
+
+#: links.py:22
+msgid "Delete"
+msgstr "བསུབ་པ།"
+
+#: links.py:26
+msgid "Edit"
+msgstr "བཅོས་པ།"
+
+#: links.py:30
+msgid "Quotas list"
+msgstr "ཁ་གསབ་ཐོ་གཞུང་།"
+
+#: mixins.py:17
+msgid "All document types"
+msgstr "ཡིག་ཆའི་རིགས་ཚང་མ།"
+
+#: mixins.py:20
+msgid ""
+"Apply to all document types. Enabling this, the quota will ignore the "
+"individual document type selection."
+msgstr ""
+"ཡིག་ཆའི་རིགས་ཚང་མར་འཇུག་དགོས། འདི་ལྕོགས་ཅན་བཟོས་ན་ "
+"ཚད་གཞི་དེས་ཡིག་ཆའི་རིགས་རེ་རེ་འདེམས་སྒྲུག་ལ་སྣང་མེད་བྱེད།"
+
+#: mixins.py:26
+msgid "Document types"
+msgstr "ཡིག་ཆའི་རིགས་།"
+
+#: mixins.py:33
+msgid "Document types to which the quota will be applied."
+msgstr "ཡིག་ཆའི་རིགས། ཁ་གསབ་བཀོལ་སྤྱོད་བྱེད་རྒྱུ་ཡིན།"
+
+#: mixins.py:67
+msgid "all document types"
+msgstr "ཡིག་ཆའི་རིགས་ཚང་མ།"
+
+#: mixins.py:70
+#, python-format
+msgid "document types: %(document_types)s"
+msgstr "ཡིག་ཆའི་རིགས་: %(document_types)s"
+
+#: mixins.py:94
+msgid "Groups"
+msgstr "སྡེ་ཚན།"
+
+#: mixins.py:101
+msgid "Groups to which the quota will be applied."
+msgstr "སྡེ་ཚན་གང་ཞིག་ལ་ཁ་གསབ་སྤྲོད་རྒྱུ་ཡིན།"
+
+#: mixins.py:105
+msgid "All users"
+msgstr "སྤྱོད་མཁན་ཚང་མ།"
+
+#: mixins.py:108
+msgid ""
+"Apply the quota to all users in the system, excluding admins and staff. "
+"Enabling this option, the quota will ignore the individual user and group "
+"selection."
+msgstr ""
+"དོ་དམ་པ་དང་ལས་བྱེད་པ་མ་གཏོགས་མ་ལག་ནང་གི་སྤྱོད་མཁན་ཚང་མར་ཁ་གསབ་སྤྱོད་དགོས། "
+"གདམ་ཁ་འདི་ལྕོགས་ཅན་བཟོས་ན་ཁ་གསབ་དེས་སྤྱོད་མཁན་རེ་རེ་དང་སྡེ་ཚན་འདེམས་སྒྲུག་ལ་སྣང་མེད་བྱེད།"
+
+#: mixins.py:115
+msgid "Users"
+msgstr "སྤྱོད་མཁན།"
+
+#: mixins.py:122
+msgid "Users to which the quota will be applied."
+msgstr "ཁ་གསབ་སྤྱོད་མཁན་གྱི་སྤྱོད་མཁན།"
+
+#: mixins.py:160
+msgid "all users"
+msgstr "སྤྱོད་མཁན་ཚང་མ།"
+
+#: mixins.py:162
+#, python-format
+msgid "groups: %(groups)s, users: %(users)s"
+msgstr "སྡེ་ཚན།: %(groups)s %(users)s , སྤྱོད་མཁན།"
+
+#: model_mixins.py:15
+msgid "Driver used for this quota entry."
+msgstr "ཁ་གསབ་ཐོ་འགོད་འདིའི་ཆེད་དུ་བཀོལ་སྤྱོད་བྱས་པའི་སྒུལ་གཏོང་།"
+
+#: model_mixins.py:20
+msgid "Arguments"
+msgstr "རྩོད་པ།"
+
+#: model_mixins.py:24
+msgid "Usage"
+msgstr "བེད་སྤྱོད།"
+
+#: models.py:16
+msgid "The dotted Python path to the backend class."
+msgstr "རྒྱབ་ཕྱོགས་ཀྱི་འཛིན་གྲྭའི་བར་གྱི་པའེ་ཐོན་ལམ་ཐིག་ཚག་ཅན།"
+
+#: models.py:17
+msgid "Backend path"
+msgstr "རྒྱབ་ཕྱོགས་ཀྱི་ལམ།"
+
+#: models.py:20
+msgid "Backend data"
+msgstr "རྒྱབ་ཕྱོགས་ཀྱི་གྲངས་ཐོ།"
+
+#: models.py:24
+msgid "Allow quick disable or enable of the quota."
+msgstr "ཁ་གསབ་དེ་མྱུར་དུ་ལྕོགས་མིན་བཟོ་བའམ་ཡང་ན་ལྕོགས་མིན་བཟོ་ཆོག"
+
+#: models.py:25
+msgid "Enabled"
+msgstr "བེད་སྤྱོད་ཆོག་པ།"
+
+#: models.py:30
+msgid "Quota"
+msgstr "ཁ་གསབ།"
+
+#: permissions.py:10
+msgid "Create a quota"
+msgstr "བགོ་བཤའ་བསྐྲུན།"
+
+#: permissions.py:13
+msgid "Delete a quota"
+msgstr "ཁ་གསབ་བསུབས་པ།"
+
+#: permissions.py:16
+msgid "Edit a quota"
+msgstr "ཁ་གསབ་རྩོམ་སྒྲིག་བྱེད་པ།"
+
+#: permissions.py:19
+msgid "View a quota"
+msgstr "ཁ་གསབ་ལ་ལྟ་བ།"
+
+#: quota_backends.py:72 quota_backends.py:172
+msgid "Document count quota exceeded."
+msgstr "ཡིག་ཆའི་གྲངས་ཚད་ལས་བརྒལ་ཡོད།"
+
+#: quota_backends.py:76
+msgid "Documents limit"
+msgstr "ཡིག་ཆའི་ཚད་གཞི།"
+
+#: quota_backends.py:79
+msgid "Maximum number of documents."
+msgstr "ཡིག་ཆའི་གྲངས་ཚད་མང་ཤོས།"
+
+#: quota_backends.py:83
+msgid "Document count limit"
+msgstr "ཡིག་ཆའི་གྲངས་ཚད་ཚད་གཞི།"
+
+#: quota_backends.py:108
+#, python-format
+msgid "document count: %(document_count)s"
+msgstr "ཡིག་ཆའི་གྲངས་ %(document_count)s"
+
+#: quota_backends.py:183
+msgid "Maximum document size in megabytes (MB)."
+msgstr "ཡིག་ཆའི་ཆེ་ཆུང་ཆེ་ཤོས་ནི་མེ་གྷ་བཱའིཊ་(MB)ཡིན།"
+
+#: quota_backends.py:184 quota_backends.py:187
+msgid "Document size limit"
+msgstr "ཡིག་ཆའི་ཚད་གཞི།"
+
+#: quota_backends.py:212
+#, python-format
+msgid "document size: %(formatted_file_size)s"
+msgstr "ཡིག་ཆའི་ཚད་ %(formatted_file_size)s"
+
+#: quota_backends.py:234
+msgid "Document size quota exceeded."
+msgstr "ཡིག་ཆའི་ཚད་གཞི་ལས་བརྒལ་ཡོད།"
+
+#: views.py:27
+msgid "New quota backend selection"
+msgstr "ཁ་གསབ་རྒྱབ་ཕྱོགས་འདེམས་སྒྲུག་གསར་པ།"
+
+#: views.py:64
+#, python-format
+msgid "Create a \"%s\" quota"
+msgstr "&quot; %s &quot; ཁ་གསབ་བཟོས།"
+
+#: views.py:95
+#, python-format
+msgid "Delete quota: %s"
+msgstr "བགོ་བཤའ་བསུབས་ %s"
+
+#: views.py:111
+#, python-format
+msgid "Edit quota: %s"
+msgstr "རྩོམ་སྒྲིག་ཁ་གསབ།: %s"
+
+#: views.py:142
+msgid "Quotas restrict usage of system resources. "
+msgstr "ཁ་གསབ་དེས་མ་ལག་གི་ཐོན་ཁུངས་བེད་སྤྱོད་ལ་ཚད་བཀག་བཟོ་གི་ཡོད། "
+
+#: views.py:144
+msgid "No quotas available"
+msgstr "ཁ་གསབ་ཐོབ་མེད།"

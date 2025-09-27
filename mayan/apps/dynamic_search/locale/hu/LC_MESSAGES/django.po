@@ -267,7 +267,7 @@ msgstr ""
 msgid "Delete expired saved resultsets"
 msgstr "A lejárt mentett eredményhalmazok törlése"
 
-#: scoped_queries.py:345
+#: scoped_queries.py:348
 #, python-format
 msgid ""
 "Query results exceed the current limit of %d. Results will not be reliable "
@@ -278,7 +278,7 @@ msgstr ""
 " nem lesznek megbízhatóak, ha több hatókört használnak. Szűkítse le a "
 "keresési feltételeket, vagy növelje a találati korlát értékét ` %s `."
 
-#: scoped_queries.py:364
+#: scoped_queries.py:373
 #, python-format
 msgid ""
 "Search backend error. Verify that the search service is available and that "

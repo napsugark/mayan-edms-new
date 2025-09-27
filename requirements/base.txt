@@ -43,13 +43,13 @@ ollama==0.4.5
 pycountry==24.6.1
 pycryptodome==3.21.0
 pyotp==2.9.0
-pypdf==5.1.0
+pypdf==6.0.0
 python-dateutil==2.9.0.post0
 python_gnupg==0.5.4
-pytz==2024.2
+pytz==2025.2
 qrcode==8.0
 requests==2.32.4
-sentry-sdk==2.35.0
+sentry-sdk==2.38.0
 sh==2.1.0
 swagger-spec-validator==3.0.4
 whitenoise==6.8.2

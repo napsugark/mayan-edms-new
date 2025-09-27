@@ -7,6 +7,11 @@ from ..finders import MayanAppDirectoriesFinder
 
 class MayanAppDirectoriesFinderTestCase(BaseTestCase):
     def test_app_detection(self):
+        # A `AssertionError: False is not true : "mayan.apps.{} " is missing`
+        # means that an app `has_static_media` set to False still has a
+        # `static` folder. This could be an error or a `static` folder left
+        # over from an in-place upgrade or branch checkout.
+
         app_list = []
 
         for app_config in apps.get_app_configs():

@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+# Thierry Schott <DarkDare@users.noreply.github.com>, 2024
+# Luc Didry, 2024
+# Frédéric Sheedy <sheedf@gmail.com>, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"Last-Translator: Frédéric Sheedy <sheedf@gmail.com>, 2024\n"
+"Language-Team: French (France) (https://app.transifex.com/rosarior/teams/13584/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: apps.py:58 events.py:6 permissions.py:6 settings.py:12
+msgid "Appearance"
+msgstr "Apparence"
+
+#: dependencies.py:8
+msgid "Fancybox"
+msgstr "Fancybox"
+
+#: dependencies.py:12
+msgid "FontAwesome"
+msgstr "FontAwesome"
+
+#: dependencies.py:16
+msgid "jQuery"
+msgstr "jQuery"
+
+#: dependencies.py:20
+msgid "JQuery Form"
+msgstr "JQuery Form"
+
+#: dependencies.py:24
+msgid "JQuery Match Height"
+msgstr "JQuery Match Height"
+
+#: dependencies.py:28
+msgid "Select 2"
+msgstr "Select 2"
+
+#: dependencies.py:32
+msgid "Toastr"
+msgstr "Toastr"
+
+#: events.py:10
+msgid "Theme created"
+msgstr "Thème créé"
+
+#: events.py:13
+msgid "Theme edited"
+msgstr "Thème modifié"
+
+#: events.py:16
+msgid "User theme edited"
+msgstr "Thème utilisateur modifié"
+
+#: links.py:21
+msgid "Reload the current content"
+msgstr ""
+
+#: links.py:27
+msgid "Theme settings"
+msgstr "Paramètres du thème"
+
+#: links.py:34
+msgid "Edit theme settings"
+msgstr "Modifier les paramètres du thème"
+
+#: links.py:40 views.py:34
+msgid "Create new theme"
+msgstr "Créer un nouveau thème"
+
+#: links.py:45
+msgid "Delete"
+msgstr "Supprimer"
+
+#: links.py:49
+msgid "Edit"
+msgstr "Modifier"
+
+#: links.py:53 links.py:61 models.py:33 views.py:103
+msgid "Themes"
+msgstr "Thèmes"
+
+#: models.py:20
+msgid "A short text describing the theme."
+msgstr "Un court texte décrivant le thème."
+
+#: models.py:21
+msgid "Label"
+msgstr "Libellé"
+
+#: models.py:25
+msgid ""
+"The CSS stylesheet to change the appearance of the different user interface "
+"elements."
+msgstr ""
+"La feuille de style CSS pour changer l'apparence des différents éléments de "
+"l'interface utilisateur."
+
+#: models.py:27
+msgid "Stylesheet"
+msgstr "Feuille de style"
+
+#: models.py:32 models.py:69
+msgid "Theme"
+msgstr "Thème"
+
+#: models.py:65
+msgid "User"
+msgstr "Utilisateur"
+
+#: models.py:73
+msgid "User theme setting"
+msgstr "Paramètre du thème utilisateur"
+
+#: models.py:74
+msgid "User theme settings"
+msgstr "Paramètres du thème utilisateur"
+
+#: permissions.py:10
+msgid "Create new themes"
+msgstr "Créer de nouveaux thèmes"
+
+#: permissions.py:13
+msgid "Delete themes"
+msgstr "Supprimer les thèmes"
+
+#: permissions.py:16
+msgid "Edit themes"
+msgstr "Modifier les thèmes"
+
+#: permissions.py:19
+msgid "View existing themes"
+msgstr "Afficher les thèmes existants"
+
+#: settings.py:18
+msgid "Custom HTTP response code for AJAX redirections."
+msgstr "Code de réponse HTTP personnalisé pour les redirections AJAX."
+
+#: settings.py:24
+msgid "Maximum number of characters that will be displayed as the view title."
+msgstr "Nombre maximal de caractères affichés comme titre."
+
+#: settings.py:34
+msgid "Position where the system messages will be displayed."
+msgstr "Position où seront affichés les messages système ."
+
+#: settings.py:40
+msgid ""
+"Delay in milliseconds after which the menus will be checked for updates."
+msgstr ""
+"Délai en millisecondes après lequel les menus seront vérifiés pour les mises"
+" à jour."
+
+#: settings.py:47
+msgid ""
+"Maximum number of requests that can be made before throttling is enabled."
+msgstr ""
+"Nombre maximum de requêtes pouvant être effectuées avant que la limitation "
+"ne soit activée."
+
+#: settings.py:54
+msgid ""
+"Time in milliseconds after which a throttled request will clear allowing an "
+"additional request to be performed."
+msgstr ""
+"Temps en millisecondes après lequel une requête limitée s'effacera, "
+"permettant ainsi l'exécution d'une requête supplémentaire."
+
+#: templatetags/appearance_tags.py:77
+msgid "None"
+msgstr "Aucun"
+
+#: views.py:59
+#, python-format
+msgid "Delete theme: %s"
+msgstr "Supprimer le thème: %s"
+
+#: views.py:76
+#, python-format
+msgid "Edit theme: %s"
+msgstr "Modifier le thème: %s"
+
+#: views.py:97
+msgid ""
+"Themes allow changing the visual appearance without requiring code changes."
+msgstr ""
+"Les thèmes permettent de changer l'apparence visuelle sans nécessiter de "
+"changements de code."
+
+#: views.py:101
+msgid "There are no themes"
+msgstr "Il n'y a pas de thèmes"
+
+#: views.py:127
+#, python-format
+msgid "Theme settings for user: %s"
+msgstr "Paramètres du thème pour l'utilisateur: %s"
+
+#: views.py:150
+#, python-format
+msgid "Edit theme settings for user: %s"
+msgstr "Modifier les paramètres de thème pour l'utilisateur: %s"

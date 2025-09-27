@@ -1,0 +1,392 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-14 23:59+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: admin.py:13 apps.py:169 serializers/file_metadata_serializers.py:16
+msgid "Label"
+msgstr "ལག་ཁྱེར་།"
+
+#: apps.py:54 events.py:6 links.py:23 permissions.py:6 queues.py:7
+#: settings.py:12
+msgid "File metadata"
+msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ།"
+
+#: apps.py:108
+msgid "File metadata internal name"
+msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ནང་ཁུལ་གྱི་མིང་།"
+
+#: apps.py:112 search.py:15 search.py:26
+msgid "File metadata value"
+msgstr "ཡིག་ཆའི་གྲངས་ཐོའི་རིན་ཐང་།"
+
+#: apps.py:138 apps.py:144
+msgid "Return the value of a specific file metadata."
+msgstr "བྱེ་བྲག་གི་ཡིག་ཆའི་མེ་ཊ་གཞི་གྲངས་ཀྱི་རིན་ཐང་ཕྱིར་ལོག་བྱེད།"
+
+#: apps.py:139 apps.py:145
+msgid "File metadata value of"
+msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་རིན་ཐང་།"
+
+#: apps.py:174 serializers/file_metadata_serializers.py:19
+msgid "MIME types"
+msgstr "MIMEརིགས།"
+
+#: apps.py:178 models.py:97 models.py:152
+msgid "Internal name"
+msgstr "ནང་ཁུལ་གྱི་མིང་།"
+
+#: apps.py:182 serializers/file_metadata_serializers.py:13
+msgid "Description"
+msgstr "བཀོད་པ།"
+
+#: apps.py:186 model_mixins.py:48 models.py:54
+#: serializers/file_metadata_serializers.py:10
+msgid "Arguments"
+msgstr "རྩོད་པ།"
+
+#: apps.py:192
+msgid ""
+"Whether or not this driver will be enabled by default for new document "
+"types."
+msgstr ""
+"ཡིག་ཆའི་རིགས་གསར་པའི་ཆེད་དུ་སྒུལ་གཏོང་འདི་སྔོན་སྒྲིག་ལྟར་ལྕོགས་ཅན་བཟོ་རྒྱུ་ཡིན་ནམ་མིན།"
+
+#: apps.py:195
+msgid "Enabled by default?"
+msgstr "སྔོན་སྒྲིག་ལྟར་ལྕོགས་ཅན་བཟོས་ཡོད་དམ།"
+
+#: classes.py:207 model_mixins.py:36
+#, python-format
+msgid "Badly formatted arguments YAML; %s"
+msgstr "རྩ་སྒྲིག་ངན་པའི་སྒྲུབ་བྱེད་YAML; %s"
+
+#: events.py:10
+msgid "Document file submitted for file metadata processing"
+msgstr "ཡིག་ཆའི་མེ་ཊ་གཞི་གྲངས་ལས་སྣོན་ཆེད་ཡིག་ཆའི་ཡིག་ཆ་ཕུལ་བ།"
+
+#: events.py:14
+msgid "Document file file metadata processing finished"
+msgstr "ཡིག་ཆའི་ཡིག་ཆའི་ཡིག་ཆའི་མེ་ཊ་གཞི་གྲངས་ལས་སྣོན་ལེགས་འགྲུབ་བྱུང་།"
+
+#: links.py:29
+msgid "Attributes"
+msgstr "ཁྱད་ཆོས།"
+
+#: links.py:36 links.py:41
+msgid "Submit for file metadata"
+msgstr "ཡིག་ཆའི་མེ་ཊ་གྲངས་ཐོའི་ཆེད་དུ་ཕུལ་བ།"
+
+#: links.py:53
+msgid "Edit"
+msgstr "བཅོས་པ།"
+
+#: links.py:60
+msgid "File metadata driver setup"
+msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་སྒུལ་གཏོང་སྒྲིག་བཀོད།"
+
+#: links.py:66
+msgid "File metadata processing per type"
+msgstr "རིགས་རེ་རེའི་ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ལས་སྣོན།"
+
+#: links.py:75 views/tool_views.py:28
+msgid "File metadata drivers"
+msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་སྒུལ་གཏོང་འཕྲུལ་ཆས།"
+
+#: methods.py:56
+msgid "Return the specified document file file metadata entry."
+msgstr ""
+"གཏན་འཁེལ་བྱས་པའི་ཡིག་ཆའི་ཡིག་ཆའི་ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ཐོ་འགོད་ཕྱིར་ལོག་བྱེད།"
+
+#: model_mixins.py:11
+msgid "Attribute count"
+msgstr "ཁྱད་ཆོས་གྲངས།"
+
+#: model_mixins.py:58
+msgid "Full path"
+msgstr "ལམ་ཕྱོགས་ཆ་ཚང་།"
+
+#: model_mixins.py:60
+msgid "Path used to access the value of the file metadata entry."
+msgstr ""
+"ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ཐོ་འགོད་ཀྱི་རིན་ཐང་ལ་འཛུལ་སྤྱོད་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་འགྲོ་ལམ།"
+
+#: models.py:26 models.py:64 models.py:165
+msgid "Driver"
+msgstr "ཁ་ལོ་བ།"
+
+#: models.py:30 serializers/document_file_serializers.py:18
+msgid "Document file"
+msgstr "ཡིག་ཆའི་ཡིག་ཆ།"
+
+#: models.py:36 models.py:92
+msgid "Document file driver entry"
+msgstr "ཡིག་ཆའི་ཡིག་ཆའི་སྒུལ་གཏོང་ནང་འཛུལ།"
+
+#: models.py:37
+msgid "Document file driver entries"
+msgstr "ཡིག་ཆའི་ཡིག་ཆའི་སྒུལ་གཏོང་ཐོ་འགོད།"
+
+#: models.py:50
+msgid ""
+"Enter the arguments for the drive for the specific document type as a YAML "
+"dictionary. ie: {\"degrees\": 180}"
+msgstr ""
+"དམིགས་བསལ་ཡིག་ཆའི་རིགས་ཀྱི་སྒུལ་གཏོང་ཆེད་དུ་སྒྲུབ་བྱེད་དེ་YAMLཚིག་མཛོད་ལྟར་བཙུགས།"
+" ie: {&quot;ཁུག་ཚད་&quot;: 180}"
+
+#: models.py:59 serializers/document_type_serializers.py:16
+msgid "Document type"
+msgstr "ཡིག་ཆའི་རིགས།"
+
+#: models.py:68
+msgid ""
+"Enable this driver to process document files of the selected document type."
+msgstr ""
+"སྒུལ་གཏོང་འདི་འདེམས་པའི་ཡིག་ཆའི་རིགས་ཀྱི་ཡིག་ཆའི་ཡིག་ཆ་ལས་སྣོན་བྱེད་པར་ལྕོགས་ཅན་བཟོས།"
+
+#: models.py:70
+msgid "Enabled"
+msgstr "བེད་སྤྱོད་ཆོག་པ།"
+
+#: models.py:82 models.py:83
+msgid "Document type driver settings"
+msgstr "ཡིག་ཆའི་རིགས་ཀྱི་སྒུལ་གཏོང་སྒྲིག་བཀོད།"
+
+#: models.py:96
+msgid "Normalized name of the file metadata entry."
+msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ཐོ་འགོད་ཀྱི་སྤྱིར་བཏང་མིང་།"
+
+#: models.py:101
+msgid "Name of the file metadata entry as provided by the driver."
+msgstr "སྒུལ་གཏོང་གིས་མཁོ་སྤྲོད་བྱས་པའི་ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ཐོ་འགོད་ཀྱི་མིང་།"
+
+#: models.py:103
+msgid "Key"
+msgstr "ལྡེ་མིག"
+
+#: models.py:106
+msgid "Value of the file metadata entry."
+msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ཐོ་འགོད་ཀྱི་རིན་ཐང་།"
+
+#: models.py:107
+msgid "Value"
+msgstr "རིན་ཐང"
+
+#: models.py:113
+msgid "File metadata entry"
+msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ནང་འཛུལ།"
+
+#: models.py:114
+msgid "File metadata entries"
+msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ཐོ་འགོད།"
+
+#: models.py:148
+msgid "Driver path"
+msgstr "ཁ་ལོ་བའི་ལམ།"
+
+#: models.py:156
+msgid "The class defined by this instance is valid and active."
+msgstr "དཔེ་མཚོན་འདིས་ངེས་ཚིག་བཀོད་པའི་འཛིན་གྲྭ་དེ་ནུས་ལྡན་དང་ཤུགས་ལྡན་ཡིན།"
+
+#: models.py:157
+msgid "Valid"
+msgstr "ཁྲིམས་མཐུན"
+
+#: models.py:166
+msgid "Drivers"
+msgstr "ཁ་ལོ་བ།"
+
+#: permissions.py:10
+msgid "Change document type file metadata settings"
+msgstr "ཡིག་ཆའི་རིགས་ཡིག་ཆའི་མེ་ཊ་གཞི་གྲངས་སྒྲིག་སྟངས་བསྒྱུར་བ།"
+
+#: permissions.py:15
+msgid "Submit document for file metadata processing"
+msgstr "ཡིག་ཆའི་མེ་ཊ་གཞི་གྲངས་ལས་སྣོན་གྱི་ཡིག་ཆ་འབུལ་དགོས།"
+
+#: permissions.py:19
+msgid "View file metadata"
+msgstr "ཡིག་ཆའི་མེ་ཊ་གཞི་གྲངས་ལ་ལྟ་བ།"
+
+#: queues.py:12
+msgid "Process document file"
+msgstr "ཡིག་ཆའི་ཡིག་ཚགས་ལས་སྣོན།"
+
+#: queues.py:16
+msgid "Finish document file metadata processing"
+msgstr "ཡིག་ཆའི་ཡིག་ཆའི་མེ་ཊ་གཞི་གྲངས་ལས་སྣོན་མཇུག་སྒྲིལ་བ།"
+
+#: queues.py:20
+msgid "Process file metadata driver"
+msgstr "ལས་སྣོན་ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་སྒུལ་གཏོང་འཕྲུལ་ཆས།"
+
+#: search.py:11 search.py:22
+msgid "File metadata key"
+msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ལྡེ་མིག"
+
+#: serializers/document_file_serializers.py:21
+#: serializers/document_file_serializers.py:40
+#: serializers/document_file_serializers.py:70
+#: serializers/document_type_serializers.py:22
+msgid "URL"
+msgstr "URL །"
+
+#: serializers/document_file_serializers.py:37
+#: serializers/document_type_serializers.py:19
+msgid "Stored driver"
+msgstr "གསོག་ཉར་བྱས་པའི་སྒུལ་གཏོང་སྒུལ་གཏོང་།"
+
+#: serializers/file_metadata_serializers.py:22
+msgid "Enabled default"
+msgstr "སྔོན་སྒྲིག་ལྕོགས་ཅན་བཟོས།"
+
+#: settings.py:19
+msgid ""
+"Set new document types to perform file metadata processing automatically by "
+"default."
+msgstr ""
+"སྔོན་སྒྲིག་ལྟར་རང་འགུལ་གྱིས་ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ལས་སྣོན་བྱེད་པར་ཡིག་ཆའི་རིགས་གསར་པ་སྒྲིག་དགོས།"
+
+#: settings.py:26
+msgid "Arguments to pass to the drivers."
+msgstr "ཁ་ལོ་བ་ཚོར་སྤྲོད་པའི་རྩོད་གླེང་།"
+
+#: views/document_file_views.py:42
+msgid ""
+"File metadata are the attributes of the document's file. They can range from"
+" camera information used to take a photo to the author that created a file. "
+"File metadata are set when the document's file was first created. File "
+"metadata attributes reside in the file itself. They are not the same as the "
+"document metadata, which are user defined and reside in the database."
+msgstr ""
+"ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ནི་ཡིག་ཆའི་ཡིག་ཆའི་ཁྱད་ཆོས་ཡིན། "
+"དེ་དག་པར་བླངས་པར་བེད་སྤྱོད་བྱེད་པའི་པར་ཆས་ཀྱི་གནས་ཚུལ་ནས་ཡིག་ཆ་བཟོ་མཁན་གྱི་རྩོམ་པ་པོ་བར་ཁྱབ་ཐུབ།"
+" "
+"ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་དེ་ཡིག་ཆའི་ཡིག་ཆ་ཐོག་མར་གསར་འཛུགས་བྱེད་སྐབས་སྒྲིག་བཀོད་བྱེད།"
+" ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ཁྱད་ཆོས་ཡིག་ཆ་དེ་རང་ནང་དུ་གནས་ཡོད། "
+"དེ་དག་ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་དང་གཅིག་པ་མིན། "
+"དེ་དག་ནི་སྤྱོད་མཁན་གྱིས་ངེས་ཚིག་བཀོད་པ་དང་གནས་སྡུད་གཞི་གྲངས་ནང་གནས་ཡོད།"
+
+#: views/document_file_views.py:50
+msgid "No file metadata available."
+msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་མེད།"
+
+#: views/document_file_views.py:53
+#, python-format
+msgid "File metadata drivers for: %s"
+msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་སྒུལ་གཏོང་འཕྲུལ་ཆས། %s"
+
+#: views/document_file_views.py:80
+msgid ""
+"This could mean that the file metadata detection has not completed or that "
+"the driver does not support any metadata field for the file type of this "
+"document."
+msgstr ""
+"འདིས་ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་བརྟག་དཔྱད་མཇུག་སྒྲིལ་མེད་པའམ་ཡང་ན་ཡིག་ཆ་འདིའི་ཡིག་ཆའི་རིགས་ལ་སྒུལ་གཏོང་གིས་མེ་ཊ་ཌེ་ཊ་ས་ཁོངས་གང་རུང་ལ་རྒྱབ་སྐྱོར་བྱེད་ཀྱི་མེད་པ་སྟོན་གྱི་ཡོད།"
+
+#: views/document_file_views.py:85
+msgid "No file metadata available for this driver."
+msgstr "སྒུལ་གཏོང་འདི་ལ་ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་མེད།"
+
+#: views/document_file_views.py:89
+#, python-format
+msgid ""
+"File metadata attributes for: %(document_file)s with driver: %(driver)s"
+msgstr ""
+"ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ཁྱད་ཆོས།: %(document_file)s དང་སྒུལ་གཏོང་: %(driver)s"
+
+#: views/document_file_views.py:111
+#, python-format
+msgid "%(count)d documents files submitted to the file metadata queue."
+msgstr "%(count)d ཡིག་ཆའི་ཡིག་ཆ་ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་བང་རིམ་ལ་ཕུལ་ཡོད།"
+
+#: views/document_file_views.py:114
+#, python-format
+msgid "%(count)d document file submitted to the file metadata queue."
+msgstr "%(count)d ཡིག་ཆའི་ཡིག་ཆ་ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་བང་རིམ་ལ་ཕུལ་ཡོད།"
+
+#: views/document_file_views.py:123
+msgid "Submit the selected document file to the file metadata queue?"
+msgid_plural "Submit the selected documents files to the file metadata queue?"
+msgstr[0] "བདམས་པའི་ཡིག་ཆའི་ཡིག་ཆ་ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་བང་རིམ་ལ་འབུལ་དགོས་སམ།"
+
+#: views/document_type_views.py:48
+#, python-format
+msgid ""
+"Edit file metadata driver \"%(file_metadata_driver)s\" settings for document"
+" type: %(document_type)s"
+msgstr ""
+"ཡིག་ཆའི་རིགས་ལ་ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་སྒུལ་གཏོང་ &quot; %(file_metadata_driver)s "
+"%(document_type)s སྒྲིག་སྟངས་རྩོམ་སྒྲིག་བྱེད།"
+
+#: views/document_type_views.py:84
+msgid ""
+"File metadata drivers extract embedded information from document files."
+msgstr ""
+"ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་སྒུལ་གཏོང་འཕྲུལ་ཆས་ཀྱིས་ཡིག་ཆའི་ཡིག་ཆ་ནས་བཙུགས་པའི་གནས་ཚུལ་འདོན་ཐུབ།"
+
+#: views/document_type_views.py:88
+msgid "No file metadata drivers available for this document type."
+msgstr "ཡིག་ཆའི་རིགས་འདི་ལ་ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་སྒུལ་གཏོང་མེད།"
+
+#: views/document_type_views.py:92
+#, python-format
+msgid "File metadata driver configuration for document type \"%s\"."
+msgstr ""
+"ཡིག་ཆའི་རིགས་ &quot; %s &quot; "
+"ཡི་ཡིག་ཆའི་མཐོ་རིམ་གནས་སྡུད་སྒུལ་གཏོང་སྒྲིག་བཀོད།"
+
+#: views/document_type_views.py:106
+msgid "Submit all documents of a type for file metadata processing."
+msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ལས་སྣོན་ཆེད་དུ་རིགས་གཅིག་གི་ཡིག་ཆ་ཚང་མ་འབུལ་དགོས།"
+
+#: views/document_type_views.py:134
+#, python-format
+msgid "%(count)d documents added to the file metadata processing queue."
+msgstr "%(count)d ཡིག་ཆ་ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ལས་སྣོན་བང་རིམ་ལ་ཁ་སྣོན་བྱས།"
+
+#: views/tool_views.py:19
+msgid ""
+"File metadata drivers extract embedded information from document files. File"
+" metadata drivers are configure in code only."
+msgstr ""
+"ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་སྒུལ་གཏོང་འཕྲུལ་ཆས་ཀྱིས་ཡིག་ཆའི་ཡིག་ཆ་ནས་བཙུགས་པའི་གནས་ཚུལ་འདོན་ཐུབ།"
+" "
+"ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་སྒུལ་གཏོང་འཕྲུལ་ཆས་དེ་ཚོ་གསང་ཚིག་ནང་ལ་སྒྲིག་བཀོད་བྱེད་ཀྱི་ཡོད།"
+
+#: views/tool_views.py:24
+msgid "No file metadata drivers available."
+msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་སྒུལ་གཏོང་མཁན་མེད།"
+
+#: views/tool_views.py:26
+msgid "File metadata drivers enabled and detected."
+msgstr ""
+"ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་སྒུལ་གཏོང་འཕྲུལ་ཆས་ལྕོགས་ཅན་བཟོས་པ་དང་ཤེས་རྟོགས་བྱུང་ཡོད།"
+
+#: views/view_mixins.py:34
+#, python-format
+msgid ""
+"The template string to be evaluated. Leave empty to use the driver's value "
+"passed via settings. Default value: %s."
+msgstr ""
+"དཔྱད་ཞིབ་བྱེད་དགོས་པའི་དཔེ་སྒྲོམ་ཡིག་རྒྱུན། "
+"སྒྲིག་སྟངས་བརྒྱུད་ནས་སྤྲད་པའི་ཁ་ལོ་བའི་རིན་ཐང་བེད་སྤྱོད་བྱེད་པར་སྟོང་པར་བཞག "
+"སྔོན་སྒྲིག་རིན་ཐང་། %s །"

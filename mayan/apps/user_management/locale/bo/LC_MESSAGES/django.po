@@ -1,0 +1,414 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:60 events.py:6 permissions.py:6
+msgid "User management"
+msgstr "སྤྱོད་མཁན་དོ་དམ།"
+
+#: apps.py:75 search.py:10
+msgid "Group"
+msgstr "ཚོགས་པ"
+
+#: apps.py:76 apps.py:115 links.py:55 links.py:69 links.py:98 search.py:34
+#: views/group_views.py:111
+msgid "Groups"
+msgstr "སྡེ་ཚན།"
+
+#: apps.py:78 search.py:16
+msgid "Name"
+msgstr "མིང"
+
+#: apps.py:104 models.py:20 search.py:22
+msgid "User"
+msgstr "བེད་སྤྱོད་པ་།"
+
+#: apps.py:105 apps.py:238 links.py:60 links.py:101 links.py:113
+#: views/user_views.py:178
+msgid "Users"
+msgstr "སྤྱོད་མཁན།"
+
+#: apps.py:109 search.py:31
+msgid "Email"
+msgstr "གློག་འཕྲིན།"
+
+#: apps.py:113 search.py:28
+msgid "First name"
+msgstr "མིང"
+
+#: apps.py:119
+msgid "Is active?"
+msgstr "ཤུགས་ལྡན་ཡིན་ནམ།"
+
+#: apps.py:122
+msgid "Is super user?"
+msgstr "བེད་སྤྱོད་པ་ཆེན་པོ་རེད་དམ།"
+
+#: apps.py:125 search.py:37
+msgid "Last name"
+msgstr "རུས་མིང"
+
+#: apps.py:128 serializers.py:72
+msgid "Password"
+msgstr "གསང་གྲངས"
+
+#: apps.py:131 search.py:40
+msgid "Username"
+msgstr "སྤྱོད་མཁན་གྱི་མིང་།"
+
+#: apps.py:134
+msgid "Last login"
+msgstr "ནང་འཇུག་མཐའ་མ།"
+
+#: apps.py:166
+msgid "Has usable password?"
+msgstr "བེད་སྤྱོད་གཏོང་ཆོག་པའི་གསང་གྲངས་ཡོད་དམ།"
+
+#: apps.py:173
+msgid "All the groups"
+msgstr "སྡེ་ཚན་ཚང་མ།"
+
+#: apps.py:177
+msgid "All the users"
+msgstr "སྤྱོད་མཁན་ཚང་མ།"
+
+#: dashboard_widgets.py:14
+msgid "Total users"
+msgstr "སྤྱོད་མཁན་བསྡོམས་འབོར།"
+
+#: dashboard_widgets.py:29
+msgid "Total groups"
+msgstr "སྡེ་ཚན།"
+
+#: dashboards.py:6
+msgid "User dashboard"
+msgstr "སྤྱོད་མཁན་གྱི་མཛུབ་སྟོན་སྒྲོམ་གཞི།"
+
+#: events.py:10
+msgid "Group created"
+msgstr "སྡེ་ཚན་གསར་འཛུགས་བྱས།"
+
+#: events.py:13
+msgid "Group edited"
+msgstr "སྡེ་ཚན་རྩོམ་སྒྲིག།"
+
+#: events.py:17
+msgid "User created"
+msgstr "སྤྱོད་མཁན་གསར་བཟོ།"
+
+#: events.py:20
+msgid "User edited"
+msgstr "བཀོལ་སྤྱོད་པས་རྩོམ་སྒྲིག་བྱས།"
+
+#: events.py:25
+msgid "User logged in"
+msgstr "སྤྱོད་མཁན་ཐོ་འགོད་བྱས།"
+
+#: events.py:28
+msgid "User logged out"
+msgstr "སྤྱོད་མཁན་ཕྱིར་བུད་ཟིན།"
+
+#: links.py:30
+msgid "User details"
+msgstr "སྤྱོད་མཁན་གྱི་ཞིབ་ཕྲ།"
+
+#: links.py:38 views/group_views.py:25
+msgid "Create new group"
+msgstr "སྡེ་ཚན་གསར་བ་གསར་འཛུགས།"
+
+#: links.py:43 links.py:46 links.py:83 links.py:87
+msgid "Delete"
+msgstr "བསུབ་པ།"
+
+#: links.py:51 links.py:92
+msgid "Edit"
+msgstr "བཅོས་པ།"
+
+#: links.py:77 views/user_views.py:32
+msgid "Create new user"
+msgstr "སྤྱོད་མཁན་གསར་པ་གསར་སྐྲུན་བྱེད་པ།"
+
+#: links.py:106
+msgid "User options"
+msgstr "སྤྱོད་མཁན་གྱི་གདམ་ག།"
+
+#: literals.py:8
+msgid "Account"
+msgstr "ཐོ་བདག"
+
+#: literals.py:12 literals.py:23
+msgid "Personal"
+msgstr "མི་སྒེར་གྱི"
+
+#: literals.py:16
+msgid "Attributes"
+msgstr "ཁྱད་ཆོས།"
+
+#: models.py:24
+msgid "Forbid this user from changing their password."
+msgstr "སྤྱོད་མཁན་འདིས་ཁོ་ཚོའི་གསང་གྲངས་བརྗེ་མི་ཆོག་པ་བཟོས།"
+
+#: models.py:31
+msgid "User settings"
+msgstr "སྤྱོད་མཁན་གྱི་སྒྲིག་བཀོད།"
+
+#: models.py:32
+msgid "Users settings"
+msgstr "སྤྱོད་མཁན་གྱི་སྒྲིག་བཀོད།"
+
+#: permissions.py:10
+msgid "Create new groups"
+msgstr "སྡེ་ཚན་གསར་བ་གསར་འཛུགས་བྱེད་པ།"
+
+#: permissions.py:13
+msgid "Delete existing groups"
+msgstr "ད་ཡོད་ཀྱི་སྡེ་ཚན་སུབ་པ།"
+
+#: permissions.py:16
+msgid "Edit existing groups"
+msgstr "ད་ཡོད་ཀྱི་སྡེ་ཚན་རྩོམ་སྒྲིག་བྱེད་པ།"
+
+#: permissions.py:19
+msgid "View existing groups"
+msgstr "ད་ཡོད་ཀྱི་སྡེ་ཚན་ལ་ལྟ་བ།"
+
+#: permissions.py:22
+msgid "Create new users"
+msgstr "སྤྱོད་མཁན་གསར་པ་བསྐྲུན་པ།"
+
+#: permissions.py:25
+msgid "Delete existing users"
+msgstr "ད་ཡོད་སྤྱོད་མཁན་རྣམས་སུབ་པ།"
+
+#: permissions.py:28
+msgid "Edit existing users"
+msgstr "ད་ཡོད་སྤྱོད་མཁན་རྩོམ་སྒྲིག་བྱེད་པ།"
+
+#: permissions.py:31
+msgid "View existing users"
+msgstr "ད་ཡོད་སྤྱོད་མཁན་ལ་ལྟ་བ།"
+
+#: serializers.py:16
+msgid "URL of the API endpoint showing the list users of this group."
+msgstr "སྡེ་ཚན་འདིའི་ཐོ་གཞུང་སྤྱོད་མཁན་སྟོན་པའི་APIམཐའ་མཚམས་ཀྱི་URL།"
+
+#: serializers.py:18
+msgid "Users URL"
+msgstr "སྤྱོད་མཁན་གྱི་ཁ་བྱང་།"
+
+#: serializers.py:22
+msgid "Users add URL"
+msgstr "སྤྱོད་མཁན་གྱིས་URLཁ་སྣོན་བྱེད།"
+
+#: serializers.py:26
+msgid "Users remove URL"
+msgstr "སྤྱོད་མཁན་གྱིས་URLམེད་པར་བཟོས།"
+
+#: serializers.py:33 serializers.py:80
+msgid "URL"
+msgstr "URL །"
+
+#: serializers.py:48
+msgid "Primary key of the user to add to the group."
+msgstr "སྡེ་ཚན་ནང་ཁ་སྣོན་བྱེད་པའི་སྤྱོད་མཁན་གྱི་ལྡེ་མིག་གཙོ་བོ།"
+
+#: serializers.py:49 serializers.py:58
+msgid "User ID"
+msgstr "སྤྱོད་མཁན་ཨང་རྟགས།"
+
+#: serializers.py:57
+msgid "Primary key of the user to remove from the group."
+msgstr "སྡེ་ཚན་ནས་ཕྱིར་འཐེན་བྱེད་པའི་སྤྱོད་མཁན་གྱི་ལྡེ་མིག་གཙོ་བོ།"
+
+#: serializers.py:66
+msgid "URL of the API endpoint showing the list groups this user belongs to."
+msgstr ""
+"བཀོལ་སྤྱོད་པ་འདི་གང་ལ་གཏོགས་པའི་ཐོ་གཞུང་སྡེ་ཚན་སྟོན་པའི་APIམཐའ་མཚམས་ཀྱི་URLཡིན།"
+
+#: serializers.py:68
+msgid "Groups URL"
+msgstr "སྡེ་ཚན་གྱི་ཁ་བྱང་།"
+
+#: utils.py:26
+msgid "Anonymous"
+msgstr "མིང་མེད་པའི"
+
+#: views/group_views.py:40
+#, python-format
+msgid "Error deleting group \"%(instance)s\"; %(exception)s"
+msgstr "སྡེ་ཚན་ &quot; %(instance)s &quot; བསུབས་པའི་ནོར་འཁྲུལ། %(exception)s"
+
+#: views/group_views.py:47
+#, python-format
+msgid "%(count)d groups deleted successfully."
+msgstr "%(count)d སྡེ་ཚན་རྣམས་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views/group_views.py:48
+#, python-format
+msgid "Group \"%(object)s\" deleted successfully."
+msgstr "སྡེ་ཚན་ &quot; %(object)s &quot; མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views/group_views.py:49
+#, python-format
+msgid "%(count)d group deleted successfully."
+msgstr "%(count)d སྡེ་ཚན་དེ་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views/group_views.py:50
+#, python-format
+msgid "Delete the %(count)d selected groups."
+msgstr "འདེམས་སྒྲུག་བྱས་པའི་སྡེ་ཚན་དེ་ཚོ་ %(count)d བསུབས་དགོས།"
+
+#: views/group_views.py:51
+#, python-format
+msgid "Delete group: %(object)s."
+msgstr "སྡེ་ཚན། %(object)s །"
+
+#: views/group_views.py:52
+#, python-format
+msgid "Delete the %(count)d selected group."
+msgstr "འདེམས་སྒྲུག་བྱས་པའི་སྡེ་ཚན་ %(count)d བསུབས་དགོས།"
+
+#: views/group_views.py:66
+#, python-format
+msgid "Details of group: %s"
+msgstr "སྡེ་ཚན་གྱི་ཞིབ་ཕྲ།: %s"
+
+#: views/group_views.py:83
+#, python-format
+msgid "Edit group: %s"
+msgstr "རྩོམ་སྒྲིག་སྡེ་ཚན།: %s"
+
+#: views/group_views.py:104
+msgid ""
+"User groups are organizational units. They should mirror the organizational "
+"units of your organization. Groups can't be used for access control. Use "
+"roles for permissions and access control, add groups to them."
+msgstr ""
+"སྤྱོད་མཁན་གྱི་སྡེ་ཚན་ནི་སྒྲིག་འཛུགས་ཀྱི་སྡེ་ཚན་ཡིན། "
+"ཁོང་ཚོས་ཁྱེད་རང་གི་ཚོགས་པའི་སྒྲིག་འཛུགས་ཀྱི་སྡེ་ཚན་ལ་མེ་ལོང་བསྟན་དགོས། "
+"སྡེ་ཚན་ཁག་གིས་འཛུལ་སྤྱོད་ཚོད་འཛིན་བྱེད་པར་བེད་སྤྱོད་གཏོང་མི་ཐུབ། "
+"ཆོག་མཆན་དང་འཛུལ་སྤྱོད་ཚོད་འཛིན་ཆེད་དུ་འགན་འཁྲི་བེད་སྤྱོད་བྱེད་པ་དང་། "
+"དེ་དག་ལ་སྡེ་ཚན་ཁ་སྣོན་བྱེད།"
+
+#: views/group_views.py:110
+msgid "There are no user groups"
+msgstr "སྤྱོད་མཁན་གྱི་སྡེ་ཚན་མེད་པ།"
+
+#: views/group_views.py:116
+msgid "Available users"
+msgstr "སྤྱོད་མཁན་ཡོད་མཁན།"
+
+#: views/group_views.py:117
+msgid "Group users"
+msgstr "སྡེ་ཚན་སྤྱོད་མཁན།"
+
+#: views/group_views.py:132
+#, python-format
+msgid "Users of group: %s"
+msgstr "སྡེ་ཚན་གྱི་སྤྱོད་མཁན།: %s"
+
+#: views/user_views.py:56
+#, python-format
+msgid "Error deleting user \"%(instance)s\"; %(exception)s"
+msgstr ""
+"བཀོལ་སྤྱོད་པ་ &quot; %(instance)s &quot; བསུབས་པའི་ནོར་འཁྲུལ། %(exception)s"
+
+#: views/user_views.py:64
+#, python-format
+msgid "%(count)d users deleted successfully."
+msgstr "%(count)d བེད་སྤྱོད་པ་རྣམས་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views/user_views.py:67
+#, python-format
+msgid "User \"%(object)s\" deleted successfully."
+msgstr "བཀོལ་སྤྱོད་པ་ &quot; %(object)s &quot; མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views/user_views.py:70
+#, python-format
+msgid "%(count)d user deleted successfully."
+msgstr "%(count)d བེད་སྤྱོད་པ་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views/user_views.py:72
+#, python-format
+msgid "Delete the %(count)d selected users."
+msgstr "འདེམས་སྒྲུག་བྱས་པའི་བེད་སྤྱོད་པ་ %(count)d བསུབས་དགོས།"
+
+#: views/user_views.py:73
+#, python-format
+msgid "Delete user: %(object)s."
+msgstr "བེད་སྤྱོད་པ་བསུབས་ %(object)s"
+
+#: views/user_views.py:74
+#, python-format
+msgid "Delete the %(count)d selected user."
+msgstr "འདེམས་སྒྲུག་བྱས་པའི་བེད་སྤྱོད་པ་ %(count)d བསུབས་དགོས།"
+
+#: views/user_views.py:81
+msgid ""
+"Warning! You are about to delete your own user account. You will lose access"
+" to the system. This process is not reversible."
+msgstr ""
+"ཉེན་བརྡ! ཁྱེད་རང་གི་སྤྱོད་མཁན་གྱི་ཁ་བྱང་དེ་སུབ་གྲབས་ཡོད། "
+"ཁྱེད་རང་མ་ལག་ལ་འཛུལ་ཞུགས་ཤོར་འགྲོ་གི་རེད། "
+"བྱ་རིམ་འདི་ཕྱིར་ལོག་ཐུབ་པ་ཞིག་མ་རེད།"
+
+#: views/user_views.py:101
+#, python-format
+msgid "Details of user: %s"
+msgstr "བཀོལ་སྤྱོད་པའི་ཞིབ་ཕྲ།: %s"
+
+#: views/user_views.py:120
+#, python-format
+msgid "Edit user: %s"
+msgstr "རྩོམ་སྒྲིག་བྱེད་མཁན།: %s"
+
+#: views/user_views.py:131
+msgid "Available groups"
+msgstr "ཐོབ་པའི་སྡེ་ཚན།"
+
+#. Translators: "User groups" here refer to the list of groups of a
+#. specific user. The user's group membership.
+#: views/user_views.py:134
+msgid "User groups"
+msgstr "སྤྱོད་མཁན་སྡེ་ཚན།"
+
+#: views/user_views.py:149
+#, python-format
+msgid "Groups of user: %s"
+msgstr "སྤྱོད་མཁན་གྱི་སྡེ་ཚན %s"
+
+#: views/user_views.py:174
+msgid ""
+"User accounts can be create from this view. After creating a user account "
+"you will prompted to set a password for it. "
+msgstr ""
+"མཐོང་སྣང་འདི་ནས་སྤྱོད་མཁན་གྱི་རྩིས་ཁྲ་གསར་འཛུགས་བྱེད་ཐུབ། "
+"བཀོལ་སྤྱོད་པའི་རྩིས་ཁྲ་གསར་འཛུགས་བྱས་རྗེས་ཁྱེད་ལ་གསང་ཚིག་སྒྲིག་དགོས་པའི་བརྡ་སྟོན་བྱེད།"
+" "
+
+#: views/user_views.py:177
+msgid "There are no user accounts"
+msgstr "སྤྱོད་མཁན་གྱི་རྩིས་ཁྲ་མེད་པ།"
+
+#: views/user_views.py:197
+#, python-format
+msgid "Edit options for user: %s"
+msgstr "སྤྱོད་མཁན་གྱི་རྩོམ་སྒྲིག་འདེམས་གཞི། %s"

@@ -7,5 +7,5 @@ PythonDependency(
 )
 PythonDependency(
     environment=environment_build, module=__name__, name='packaging',
-    version_string='==24.2'
+    version_string='==25.0'
 )

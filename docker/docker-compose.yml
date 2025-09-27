@@ -121,7 +121,7 @@ services:
       timeout: 5s
       retries: 15
       start_period: 30s
-    image: ${MAYAN_DOCKER_ELASTICSEARCH_IMAGE:-elasticsearch}:${MAYAN_DOCKER_ELASTICSEARCH_TAG:-7.17.28}
+    image: ${MAYAN_DOCKER_ELASTICSEARCH_IMAGE:-elasticsearch}:${MAYAN_DOCKER_ELASTICSEARCH_TAG:-7.17.29}
     networks:
       - mayan
     # Enable to allow external access to the database.

@@ -262,7 +262,7 @@ msgstr "إعادة تعيين مؤشرات البحث الخلفية وفهرس�
 msgid "Delete expired saved resultsets"
 msgstr "حذف مجموعات النتائج المحفوظة المنتهية الصلاحية"
 
-#: scoped_queries.py:345
+#: scoped_queries.py:348
 #, python-format
 msgid ""
 "Query results exceed the current limit of %d. Results will not be reliable "
@@ -272,7 +272,7 @@ msgstr ""
 "تتجاوز نتائج الاستعلام الحد الحالي البالغ %d. لن تكون النتائج موثوقة إذا تم "
 "استخدام نطاقات متعددة. قلل معايير البحث أو زد قيمة إعداد حد النتائج %s."
 
-#: scoped_queries.py:364
+#: scoped_queries.py:373
 #, python-format
 msgid ""
 "Search backend error. Verify that the search service is available and that "

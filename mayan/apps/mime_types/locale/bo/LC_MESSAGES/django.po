@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-07 07:29+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:9 settings.py:10
+msgid "MIME types"
+msgstr "MIMEརིགས།"
+
+#: backends/file_command.py:26
+msgid "file command not installed or not found."
+msgstr "ཡིག་ཆའི་བཀའ་ཚིག་སྒྲིག་འཇུག་བྱས་མེད་པའམ་ཡང་ན་རྙེད་མེད།"
+
+#: backends/perl_file_mimeinfo.py:26
+msgid "mimetype not installed or not found."
+msgstr "mimetype བཙུགས་མེད་པའམ་ཡང་ན་རྙེད་མེད།"
+
+#: dependencies.py:9
+msgid ""
+"This module can be used to determine the MIME type of a file. It tries to "
+"implement the freedesktop specification for a shared MIME database."
+msgstr ""
+"ཚད་གཞི་འདི་ཡིག་ཆའི་MIMEརིགས་གཏན་འབེབས་བྱེད་པར་བེད་སྤྱོད་གཏོང་ཐུབ། "
+"མཉམ་སྤྱོད་ཀྱི་MIMEགནས་སྡུད་གཞི་གྲངས་ཆེད་དུ་རང་དབང་གི་ཡིག་ཆའི་ཆེད་བསྒྲིགས་ལག་བསྟར་བྱེད་པར་འབད་བརྩོན་བྱེད་ཀྱི་ཡོད།"
+
+#: dependencies.py:17
+msgid "determine file type using content tests"
+msgstr "ནང་དོན་ཚོད་ལྟ་སྤྱད་དེ་ཡིག་ཆའི་རིགས་གཏན་འཁེལ་བྱེད་པ།"
+
+#: settings.py:16
+msgid "Path to the class to use when to detect file MIME types."
+msgstr ""
+"ཡིག་ཆའི་MIMEརིགས་ཤེས་རྟོགས་བྱེད་སྐབས་བེད་སྤྱོད་གཏོང་བའི་འཛིན་གྲྭའི་འགྲོ་ལམ།"
+
+#: settings.py:22
+msgid "Arguments to pass to the MIME_TYPE_BACKEND."
+msgstr "MIME_TYPE_BACKEND ལ་སྤྲོད་པའི་སྒྲུབ་བྱེད།"

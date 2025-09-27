@@ -254,7 +254,7 @@ msgstr ""
 msgid "Delete expired saved resultsets"
 msgstr ""
 
-#: scoped_queries.py:345
+#: scoped_queries.py:348
 #, python-format
 msgid ""
 "Query results exceed the current limit of %d. Results will not be reliable "
@@ -262,7 +262,7 @@ msgid ""
 " value of the results limit setting `%s`."
 msgstr ""
 
-#: scoped_queries.py:364
+#: scoped_queries.py:373
 #, python-format
 msgid ""
 "Search backend error. Verify that the search service is available and that "

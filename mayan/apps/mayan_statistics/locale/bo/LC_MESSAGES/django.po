@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-02 14:06+0000\n"
+"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:29 links.py:34 permissions.py:6 queues.py:7
+msgid "Statistics"
+msgstr "བསྡོམས་རྩིས་དཔྱད་གཞི།"
+
+#: apps.py:38
+msgid "Type"
+msgstr "རིགས"
+
+#. Translators: Schedule here is a noun, the 'schedule' at
+#. which the statistic will be updated
+#: apps.py:45
+msgid "Schedule"
+msgstr "ཐོ་གཞུང"
+
+#: apps.py:51
+msgid "Last update"
+msgstr "མཐའ་མའི་གསར་བརྗེ།"
+
+#: classes.py:47
+msgid "Statistics namespace"
+msgstr "རྩིས་དཔྱད་མིང་གི་བར་སྟོང་།"
+
+#: classes.py:166
+msgid "Never"
+msgstr "གཏན་ནས"
+
+#: classes.py:211
+msgid "Doughnut chart"
+msgstr "ཌོ་ནཊ་རེའུ་མིག"
+
+#: classes.py:216
+msgid "Line chart"
+msgstr "ཐིག་ཁྲམ།"
+
+#: classes.py:221
+msgid "Pie chart"
+msgstr "པའེ་ཅཱརཊ།"
+
+#: links.py:14
+msgid "Namespace details"
+msgstr "མིང་གནས་ཞིབ་ཕྲ།"
+
+#: links.py:19
+msgid "Namespace list"
+msgstr "མིང་གནས་ཐོ་གཞུང་།"
+
+#: links.py:24
+msgid "Queue"
+msgstr "ལྕང་ལོ"
+
+#: links.py:29
+msgid "View"
+msgstr "ལྟ་ཚུལ"
+
+#: models.py:11
+msgid "Slug"
+msgstr "སྲུལ།"
+
+#: models.py:14
+msgid "Date time"
+msgstr "ཚེས་གྲངས་དུས་ཚོད།"
+
+#: models.py:17
+msgid "Data"
+msgstr "གཞི་གྲངས"
+
+#: models.py:21
+msgid "Statistics result"
+msgstr "བསྡོམས་རྩིས་གྲུབ་འབྲས།"
+
+#: models.py:22
+msgid "Statistics results"
+msgstr "བསྡོམས་རྩིས་གྲུབ་འབྲས།"
+
+#: permissions.py:10
+msgid "View statistics"
+msgstr "གྲངས་གཞི་ལྟ་བ།"
+
+#: queues.py:12
+msgid "Execute statistic"
+msgstr "གྲངས་གཞི་ལག་བསྟར་བྱེད་པ།"
+
+#: templates/statistics/renderers/chartjs/base.html:12
+msgid "No data available."
+msgstr "གཞི་གྲངས་མེད།"
+
+#: templates/statistics/renderers/chartjs/base.html:14
+#, python-format
+msgid "Last update: %(datetime)s"
+msgstr "མཐའ་མའི་ཁ་སྐོང་། %(datetime)s"
+
+#: view_mixins.py:19
+#, python-format
+msgid "Statistic \"%s\" not found."
+msgstr "རྩིས་དཔྱད་ &quot; %s &quot; མ་རྙེད།"
+
+#: views.py:23
+msgid "Statistics namespaces group statistics into logical units. "
+msgstr "རྩིས་དཔྱད་མིང་གནས་ཀྱིས་རྩིས་དཔྱད་དེ་གཏན་ཚིག་གི་ཚད་གཞི་ལ་སྡེ་ཚན་བཟོས། "
+
+#: views.py:25
+msgid "No statistic namespaces available"
+msgstr "རྩིས་དཔྱད་མིང་གི་བར་སྟོང་མེད།"
+
+#: views.py:26
+msgid "Statistics namespaces"
+msgstr "རྩིས་དཔྱད་མིང་བར་སྟོང་།"
+
+#: views.py:49
+msgid "Statistics are metrics and chart representations of existing data."
+msgstr "རྩིས་དཔྱད་ནི་ད་ཡོད་ཀྱི་གཞི་གྲངས་ཀྱི་ཚད་གཞི་དང་རེའུ་མིག་མཚོན་ཚུལ་ཡིན།"
+
+#: views.py:52
+msgid "No statistic available"
+msgstr "གྲངས་གཞི་མེད་པ།"
+
+#: views.py:54
+#, python-format
+msgid "Namespace details for: %s"
+msgstr "མིང་གནས་ཀྱི་ཞིབ་ཕྲ།: %s"
+
+#: views.py:77
+#, python-format
+msgid "Results for: %s"
+msgstr "གྲུབ་འབྲས།: %s"
+
+#: views.py:97
+#, python-format
+msgid "Queue statistic \"%s\" to be updated?"
+msgstr "བང་རིམ་གྱི་རྩིས་དཔྱད་ &quot; %s &quot; གསར་བརྗེ་བྱེད་དགོས་སམ།"
+
+#: views.py:105
+#, python-format
+msgid "Statistic \"%s\" queued successfully for update."
+msgstr ""
+"རྩིས་དཔྱད་ &quot; %s &quot; གསར་བརྗེ་བྱེད་པར་མཐར་ཕྱིན་ངང་བང་སྒྲིག་བྱས།"
