@@ -28,6 +28,9 @@ class CheckoutIndexingTestCase(
     def test_indexing_document_check_in(self):
         self._check_out_test_document()
 
+        self._silence_logger(
+            name='mayan.apps.document_indexing.models.index_instance_model_mixins'
+        )
         self._check_in_test_document()
 
         self.assertFalse(

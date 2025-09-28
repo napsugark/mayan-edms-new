@@ -1,6 +1,7 @@
 4.9.5 (XXXX-XX-XX)
 ==================
 - Improvements and changes from version 4.8.8.
+- Silence document indexing error during checkout test to avoid confusion.
 
 4.9.4 (2025-09-03)
 ==================
