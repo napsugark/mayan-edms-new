@@ -1,7 +1,8 @@
-4.9.5 (XXXX-XX-XX)
+4.9.5 (2025-09-28)
 ==================
 - Improvements and changes from version 4.8.8.
 - Silence document indexing error during checkout test to avoid confusion.
+- Add `graphviz` to the GitLab CI documentation step.
 
 4.9.4 (2025-09-03)
 ==================
