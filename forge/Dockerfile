@@ -22,7 +22,7 @@ set -x \
 && apt-get install --no-install-recommends --yes \
     ca-certificates clamav file fuse ghostscript git gnupg1 graphviz libarchive-zip-perl libfile-mimeinfo-perl libimage-exiftool-perl libmariadb3 libpq5 libreoffice-calc-nogui libreoffice-draw-nogui libreoffice-impress-nogui libreoffice-math-nogui libreoffice-writer-nogui poppler-utils sane-utils sudo supervisor tesseract-ocr \
     g++ gcc libffi-dev libjpeg-dev libldap2-dev libpng-dev libsasl2-dev libssl-dev libtiff-dev make zlib1g-dev \
-    enchant-2 libcairo2 \
+    enchant-2 graphviz libcairo2 \
     bash-completion curl gettext less software-properties-common squid-deb-proxy-client vim virtualenvwrapper \
     default-libmysqlclient-dev \
     libpq-dev \
@@ -64,8 +64,8 @@ RUN set -a \
 && export WORKON_HOME=/home/ubuntu/.virtualenvs \
 && source /usr/share/virtualenvwrapper/virtualenvwrapper.sh \
 && mkdir /workspace \
-&& mkvirtualenv "mayan-edms-4.9.4" -a /workspace -p /usr/bin/python3.11 \
-&& workon "mayan-edms-4.9.4" \
+&& mkvirtualenv "mayan-edms-4.9.5" -a /workspace -p /usr/bin/python3.11 \
+&& workon "mayan-edms-4.9.5" \
 && /venv_dependencies.py \
 && deactivate \
 && rmdir /workspace \
