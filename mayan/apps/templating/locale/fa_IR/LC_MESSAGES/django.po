@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Roberto Rosario, 2024
-# Mehdi Amani <MehdiAmani@toorintan.com>, 2024
+# Mehdi Amani <MehdiAmani@toorintan.com>, 2025
+# Roberto Rosario, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 12:51+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Mehdi Amani <MehdiAmani@toorintan.com>, 2024\n"
+"POT-Creation-Date: 2025-01-20 12:33+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Persian (Iran) (https://app.transifex.com/rosarior/teams/13584/fa_IR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,12 +21,17 @@ msgstr ""
 "Language: fa_IR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: apps.py:21 permissions.py:6 settings.py:94
+#: apps.py:16 permissions.py:6 settings.py:94
 msgid "Templating"
 msgstr ""
 
-#: apps.py:39
+#: apps.py:23
 msgid "Current date and time"
+msgstr ""
+
+#: classes.py:83
+#, python-format
+msgid "Model `%s` is not available for template sandbox."
 msgstr ""
 
 #: fields.py:28
@@ -42,7 +47,7 @@ msgstr ""
 msgid "Resulting text from the evaluated template."
 msgstr ""
 
-#: forms.py:11
+#: forms.py:11 serializers.py:24
 msgid "Result"
 msgstr "جواب"
 
@@ -50,11 +55,11 @@ msgstr "جواب"
 msgid "The template string to be evaluated."
 msgstr ""
 
-#: forms.py:26
+#: forms.py:26 serializers.py:27
 msgid "Template"
 msgstr ""
 
-#: links.py:10
+#: links.py:12
 msgid "Sandbox"
 msgstr ""
 
@@ -84,12 +89,12 @@ msgid ""
 " template preview."
 msgstr ""
 
-#: views.py:44
+#: views.py:59
 #, python-format
 msgid "Template sandbox for: %s"
 msgstr ""
 
-#: views.py:66
+#: views.py:86
 #, python-format
 msgid "Template error; %(exception)s"
 msgstr ""

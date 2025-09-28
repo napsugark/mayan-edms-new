@@ -4,15 +4,15 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Roberto Rosario, 2024
+# Roberto Rosario, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-04 04:34+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Roberto Rosario, 2024\n"
+"POT-Creation-Date: 2025-01-20 12:33+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Spanish (Ecuador) (https://app.transifex.com/rosarior/teams/13584/es_EC/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,20 +38,20 @@ msgid "Allows setting the worker's Celery `max-tasks-per-child` value."
 msgstr ""
 "Permite establecer el valor de `max-tasks-per-child` del trabajador Celery."
 
-#: platform_templates.py:26
+#: platform_templates.py:31
 msgid "Template for entrypoint.sh file inside a Docker image."
 msgstr ""
 "Plantilla para el archivo entrypoint.sh dentro de una imagen de Docker."
 
-#: platform_templates.py:41
+#: platform_templates.py:47
 msgid "Template that generates the Docker Compose file."
 msgstr "Plantilla que genera el archivo Docker Compose."
 
-#: platform_templates.py:206
+#: platform_templates.py:217
 msgid "Template for Supervisord inside a Docker image."
 msgstr "Plantilla para Supervisord dentro de una imagen Docker."
 
-#: platform_templates.py:224
+#: platform_templates.py:232
 msgid "Template that generates a Dockerfile file."
 msgstr "Plantilla que genera un archivo Dockerfile."
 

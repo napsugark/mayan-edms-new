@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -65,7 +65,7 @@ msgstr "SANE མཁོ་སྤྲོད་པ།"
 
 #: source_backends.py:137
 msgid "Document properties"
-msgstr "ཡིག་ཆའི་རྒྱུ་ཆ།"
+msgstr "ཡིག་ཆའི་རྒྱུ་དངོས།"
 
 #: source_backends.py:138
 msgid "Scan"

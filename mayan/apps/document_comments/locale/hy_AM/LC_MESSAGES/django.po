@@ -4,15 +4,15 @@
 # 
 # Translators:
 # Translators:
-# Ara Gasparyan, 2024
+# Ara Gasparyan, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Ara Gasparyan, 2024\n"
+"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: Ara Gasparyan, 2025\n"
 "Language-Team: Armenian (Armenia) (https://app.transifex.com/rosarior/teams/13584/hy_AM/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Language: hy_AM\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps.py:32 events.py:6
+#: apps.py:33 events.py:6
 msgid "Document comments"
 msgstr "Փաստաթղթի մեկնաբանություններ "
 
@@ -48,11 +48,11 @@ msgstr "Ջնջել"
 msgid "Edit"
 msgstr "Խմբագրել"
 
-#: links.py:31 models.py:48 permissions.py:6 search.py:8
+#: links.py:31 models.py:51 permissions.py:6 search.py:8
 msgid "Comments"
 msgstr "Մեկնաբանություններ"
 
-#: model_mixins.py:10 models.py:34
+#: model_mixins.py:10 models.py:36
 msgid "User"
 msgstr "Օգտատեր"
 
@@ -60,15 +60,23 @@ msgstr "Օգտատեր"
 msgid "Document"
 msgstr "Փաստաթուղթ"
 
-#: models.py:37
+#: models.py:34
+msgid "The user account that made the comment."
+msgstr ""
+
+#: models.py:39
+msgid "Actual text content of the comment."
+msgstr ""
+
+#: models.py:40
 msgid "Text"
 msgstr "Տեքստ"
 
-#: models.py:41
+#: models.py:44
 msgid "Date time submitted"
 msgstr ""
 
-#: models.py:47
+#: models.py:50
 msgid "Comment"
 msgstr "Մեկնաբանություն"
 

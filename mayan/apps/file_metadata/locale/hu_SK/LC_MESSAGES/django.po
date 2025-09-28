@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Dezső József <dejo60@gmail.com>, 2024
-# molnars <szabolcs.molnar@gmail.com>, 2024
-# Csaba Tarjányi, 2024
+# Dezső József <dejo60@gmail.com>, 2025
+# molnars <szabolcs.molnar@gmail.com>, 2025
+# Csaba Tarjányi, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 23:59+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Csaba Tarjányi, 2024\n"
+"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: Csaba Tarjányi, 2025\n"
 "Language-Team: Hungarian (Slovakia) (https://app.transifex.com/rosarior/teams/13584/hu_SK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,59 +22,51 @@ msgstr ""
 "Language: hu_SK\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: admin.py:13 apps.py:169 serializers/file_metadata_serializers.py:16
+#: admin.py:13 apps.py:175 serializers/file_metadata_serializers.py:16
 msgid "Label"
 msgstr "Cimke"
 
-#: apps.py:54 events.py:6 links.py:23 permissions.py:6 queues.py:7
+#: apps.py:56 apps.py:100 events.py:6 links.py:23 permissions.py:6 queues.py:7
 #: settings.py:12
 msgid "File metadata"
 msgstr "Fájl metaadat"
 
-#: apps.py:108
-msgid "File metadata internal name"
-msgstr "A fájl metaadatának belső neve"
-
-#: apps.py:112 search.py:15 search.py:26
-msgid "File metadata value"
-msgstr "Fájl metaadat érték"
-
-#: apps.py:138 apps.py:144
+#: apps.py:144 apps.py:150
 msgid "Return the value of a specific file metadata."
 msgstr "Egy adott fájl metaadat értékének visszaadása."
 
-#: apps.py:139 apps.py:145
+#: apps.py:145 apps.py:151
 msgid "File metadata value of"
 msgstr "Fájl metaadat értéke"
 
-#: apps.py:174 serializers/file_metadata_serializers.py:19
+#: apps.py:180 serializers/file_metadata_serializers.py:19
 msgid "MIME types"
 msgstr "MIME típusok"
 
-#: apps.py:178 models.py:97 models.py:152
+#: apps.py:184 models.py:97 models.py:152
 msgid "Internal name"
 msgstr "Belső név"
 
-#: apps.py:182 serializers/file_metadata_serializers.py:13
+#: apps.py:188 serializers/file_metadata_serializers.py:13
 msgid "Description"
 msgstr "Leírás"
 
-#: apps.py:186 model_mixins.py:48 models.py:54
+#: apps.py:192 model_mixins.py:48 models.py:54
 #: serializers/file_metadata_serializers.py:10
 msgid "Arguments"
 msgstr "Argumentumok"
 
-#: apps.py:192
+#: apps.py:198
 msgid ""
 "Whether or not this driver will be enabled by default for new document "
 "types."
 msgstr ""
 
-#: apps.py:195
+#: apps.py:201
 msgid "Enabled by default?"
 msgstr ""
 
-#: classes.py:207 model_mixins.py:36
+#: classes.py:209 model_mixins.py:36
 #, python-format
 msgid "Badly formatted arguments YAML; %s"
 msgstr ""
@@ -91,7 +83,7 @@ msgstr "A dokumentumfájl metaadat-feldolgozása befejeződött"
 msgid "Attributes"
 msgstr "Attribútumok"
 
-#: links.py:36 links.py:41
+#: links.py:34 links.py:41
 msgid "Submit for file metadata"
 msgstr "Fájl metaadatainak beküldése"
 
@@ -237,6 +229,10 @@ msgstr "Metaadat-illesztőprogram feldolgozás"
 #: search.py:11 search.py:22
 msgid "File metadata key"
 msgstr "Fájl metaadat kulcs"
+
+#: search.py:15 search.py:26
+msgid "File metadata value"
+msgstr "Fájl metaadat érték"
 
 #: serializers/document_file_serializers.py:21
 #: serializers/document_file_serializers.py:40

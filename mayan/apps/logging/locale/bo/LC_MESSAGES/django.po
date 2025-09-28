@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -91,7 +91,7 @@ msgstr "ཚེས་གྲངས་དང་དུས་ཚོད།"
 
 #: models.py:78
 msgid "Domain name"
-msgstr "ཁྱབ་ཁོངས་ཀྱི་མིང་།"
+msgstr "དྲ་རྒྱའི་མིང་།"
 
 #: models.py:81
 msgid "Text"
@@ -135,7 +135,7 @@ msgstr "རང་འགུལ་གྱིས་མཉེན་ཆས་ཚང་
 
 #: settings.py:30
 msgid "List of handlers to which logging messages will be sent."
-msgstr "དྲན་ཐོའི་བརྡ་འཕྲིན་གཏོང་མཁན་གྱི་འཛིན་སྐྱོང་མཁན་གྱི་ཐོ་གཞུང་།"
+msgstr "དྲན་ཐོའི་འཕྲིན་ཡིག་གཏོང་རྒྱུའི་འཛིན་སྐྱོང་བྱེད་མཁན་གྱི་ཐོ་གཞུང་།"
 
 #: settings.py:35
 msgid "Level for the logging system."

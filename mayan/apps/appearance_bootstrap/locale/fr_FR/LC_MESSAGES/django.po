@@ -4,22 +4,23 @@
 # 
 # Translators:
 # Translators:
-# Yves Dubois <ydubois@gmail.com>, 2024
-# Olivier W, 2024
-# Guillaume Trottier <gui.trottier@gmail.com>, 2024
-# Luc Didry, 2024
-# Thierry Schott <DarkDare@users.noreply.github.com>, 2024
-# Frédéric Sheedy <sheedf@gmail.com>, 2024
-# 3d8c9ede7eec1ed3d454abc701cf2020_b5d10da <2cc9776490f3745e0e39b80d9b76a349_955453>, 2024
-# SadE54 <yannsuisini@gmail.com>, 2024
+# Olivier W, 2025
+# SadE54 <yannsuisini@gmail.com>, 2025
+# 0041b687dd284925c1885ba94464aacd_fde037b <fc746b00d74cefecce9698255909a24f_28512>, 2025
+# Guillaume Trottier <gui.trottier@gmail.com>, 2025
+# 3d8c9ede7eec1ed3d454abc701cf2020_b5d10da <2cc9776490f3745e0e39b80d9b76a349_955453>, 2025
+# Luc Didry, 2025
+# Yves Dubois <ydubois@gmail.com>, 2025
+# Thierry Schott <DarkDare@users.noreply.github.com>, 2025
+# Frédéric Sheedy <sheedf@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-27 19:21+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: SadE54 <yannsuisini@gmail.com>, 2024\n"
+"POT-Creation-Date: 2025-08-27 11:22+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: Frédéric Sheedy <sheedf@gmail.com>, 2025\n"
 "Language-Team: French (France) (https://app.transifex.com/rosarior/teams/13584/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -208,6 +209,10 @@ msgstr "Oui"
 msgid "No"
 msgstr "Non"
 
+#: templates/appearance/confirm.html:52
+msgid "Do not ask me again."
+msgstr ""
+
 #: templates/appearance/home.html:27
 msgid "Getting started"
 msgstr "Démarrage"
@@ -218,7 +223,7 @@ msgstr ""
 "Avant de pouvoir utiliser pleinement Mayan EDMS, les éléments suivants sont "
 "nécessaires :"
 
-#: templates/appearance/menus/topbar.html:11
+#: templates/appearance/menus/topbar.html:12
 msgid "Toggle navigation"
 msgstr "Activer la navigation"
 
@@ -273,15 +278,23 @@ msgstr "Total : %(total)s"
 msgid "No results"
 msgstr "Aucun résultat"
 
-#: templates/appearance/partials/list/pagination.html:12
-#: templates/appearance/partials/list/pagination.html:14
+#: templates/appearance/partials/list/pagination.html:21
+#: templates/appearance/partials/list/pagination.html:23
 msgid "Previous page"
 msgstr "Page précédente"
 
-#: templates/appearance/partials/list/pagination.html:30
-#: templates/appearance/partials/list/pagination.html:32
+#: templates/appearance/partials/list/pagination.html:39
+#: templates/appearance/partials/list/pagination.html:41
 msgid "Next page"
 msgstr "Page suivante"
+
+#: templates/appearance/partials/list/pagination.html:46
+msgid "Page"
+msgstr "Page"
+
+#: templates/appearance/partials/list/pagination.html:46
+msgid "Jump to page"
+msgstr ""
 
 #: templates/appearance/partials/list/table/head/row_cell_identifier.html:6
 msgid "Identifier"

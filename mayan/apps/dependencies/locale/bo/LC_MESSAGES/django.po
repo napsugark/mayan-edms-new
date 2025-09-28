@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -96,7 +96,7 @@ msgstr "ཆ་ཚང།"
 
 #: classes.py:439
 msgid "Installed and correct version"
-msgstr "སྒྲིག་འཇུག་དང་ཐོན་རིམ་ལེགས་བཅོས་བྱས།"
+msgstr "ཐོན་རིམ་སྒྲིག་འཇུག་དང་ནོར་བཅོས་བྱས།"
 
 #: classes.py:441
 msgid "Missing or incorrect version"
@@ -131,7 +131,7 @@ msgstr ""
 
 #: classes.py:540
 msgid "JavaScript"
-msgstr "ཇ་བ་སི་ཁི་རིཔཊ།"
+msgstr "ཇ་ཝ་སི་ཁི་རིཔཊ།"
 
 #: classes.py:572 classes.py:869
 msgid "Downloading... "
@@ -143,7 +143,7 @@ msgstr "བདེན་དཔང་བྱེད་བཞིན་པ། "
 
 #: classes.py:582 classes.py:874
 msgid "Extracting... "
-msgstr "འདོན་སྤེལ་བྱེད་པ། "
+msgstr "འཐེན་འདོན་བྱེད་བཞིན་པ། "
 
 #: classes.py:795
 msgid "Python packages downloaded from PyPI."
@@ -167,7 +167,7 @@ msgstr "མཉེན་ཆས་ནང་ཁྱབ་བསྒྲགས་བྱ
 
 #: classes.py:948
 msgid "Show dependencies by the app that declared them."
-msgstr "དེ་དག་ཁྱབ་བསྒྲགས་བྱེད་མཁན་གྱི་མཉེན་ཆས་ཀྱིས་བརྟེན་ས་སྟོན་དགོས།"
+msgstr "དེ་དག་ཁྱབ་བསྒྲགས་བྱེད་མཁན་གྱི་མཉེན་ཆས་ཀྱིས་རྟེན་གཞི་སྟོན།"
 
 #: classes.py:952
 msgid "Class"
@@ -201,7 +201,7 @@ msgid ""
 "Dependencies required for an environment might not be required for another. "
 "Example environments: Production, Development."
 msgstr ""
-"ཁོར་ཡུག་ཅིག་ལ་དགོས་མཁོའི་རྟེན་གཞི་དེ་གཞན་ཞིག་ལ་དགོས་མཁོ་མེད་པ་འདྲ། "
+"ཁོར་ཡུག་ཅིག་ལ་དགོས་མཁོའི་རྟེན་གཞི་གཞན་ཞིག་ལ་དགོས་མཁོ་མེད་པ་འདྲ། "
 "དཔེ་མཚོན་གྱི་ཁོར་ཡུག ཐོན་སྐྱེད་དང་འཕེལ་རྒྱས།"
 
 #: environments.py:17
@@ -262,7 +262,7 @@ msgid ""
 "environment will result in issues and errors during normal use."
 msgstr ""
 "མཐའ་མའི་སྤྱོད་མཁན་གྱི་རྒྱུན་ལྡན་གྱི་ཁོར་ཡུག "
-"མཐའ་འཁོར་འདིའི་འོག་ལ་རག་ལུས་མེད་པ་དེས་སྤྱིར་བཏང་བེད་སྤྱོད་བྱེད་སྐབས་གནད་དོན་དང་ནོར་འཁྲུལ་བཟོ་སྲིད།"
+"མཐའ་འཁོར་འདིའི་འོག་ལ་རག་ལུས་མེད་ན་སྤྱིར་བཏང་བེད་སྤྱོད་བྱེད་སྐབས་གནད་དོན་དང་ནོར་འཁྲུལ་འབྱུང་སྲིད།"
 
 #: environments.py:47
 msgid "Production"
@@ -341,7 +341,7 @@ msgstr "འབྲེལ་ཡོད་རྣམས་ཚེག་གིས་ད
 msgid ""
 "Comma separated names of dependencies to exclude from the list generated."
 msgstr ""
-"ཐོ་གཞུང་བཟོས་པ་ལས་ཕྱིར་འཐེན་བྱེད་པའི་འབྲེལ་ཡོད་ཀྱི་མིང་ཚེག་གིས་དབྱེ་འབྱེད་བྱས།"
+"ཐོ་འགོད་བྱས་པའི་ཐོ་གཞུང་ལས་ཕྱིར་འཐེན་བྱེད་པའི་འབྲེལ་ཡོད་ཀྱི་མིང་ཚེག་གིས་དབྱེ་འབྱེད་བྱས།"
 
 #: management/commands/dependencies_generate_requirements.py:20
 msgid ""

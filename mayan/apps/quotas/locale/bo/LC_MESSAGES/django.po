@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 12:51+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -104,7 +104,7 @@ msgstr "སྡེ་ཚན།"
 
 #: mixins.py:101
 msgid "Groups to which the quota will be applied."
-msgstr "སྡེ་ཚན་གང་ཞིག་ལ་ཁ་གསབ་སྤྲོད་རྒྱུ་ཡིན།"
+msgstr "སྡེ་ཚན་གང་ལ་ཁ་གསབ་སྤྲོད་རྒྱུ་ཡིན།"
 
 #: mixins.py:105
 msgid "All users"
@@ -117,7 +117,7 @@ msgid ""
 "selection."
 msgstr ""
 "དོ་དམ་པ་དང་ལས་བྱེད་པ་མ་གཏོགས་མ་ལག་ནང་གི་སྤྱོད་མཁན་ཚང་མར་ཁ་གསབ་སྤྱོད་དགོས། "
-"གདམ་ཁ་འདི་ལྕོགས་ཅན་བཟོས་ན་ཁ་གསབ་དེས་སྤྱོད་མཁན་རེ་རེ་དང་སྡེ་ཚན་འདེམས་སྒྲུག་ལ་སྣང་མེད་བྱེད།"
+"གདམ་ཁ་འདི་ལྕོགས་ཅན་བཟོས་ན་ཁ་གསབ་དེས་སྤྱོད་མཁན་རེ་རེ་དང་སྡེ་ཚན་གྱི་འདེམས་སྒྲུག་ལ་སྣང་མེད་བྱེད།"
 
 #: mixins.py:115
 msgid "Users"
@@ -134,7 +134,7 @@ msgstr "སྤྱོད་མཁན་ཚང་མ།"
 #: mixins.py:162
 #, python-format
 msgid "groups: %(groups)s, users: %(users)s"
-msgstr "སྡེ་ཚན།: %(groups)s %(users)s , སྤྱོད་མཁན།"
+msgstr "སྡེ་ཚན།: %(groups)s , སྤྱོད་མཁན།: %(users)s"
 
 #: model_mixins.py:15
 msgid "Driver used for this quota entry."
@@ -198,7 +198,7 @@ msgstr "ཡིག་ཆའི་ཚད་གཞི།"
 
 #: quota_backends.py:79
 msgid "Maximum number of documents."
-msgstr "ཡིག་ཆའི་གྲངས་ཚད་མང་ཤོས།"
+msgstr "ཡིག་ཆའི་གྲངས་འབོར་མང་ཤོས།"
 
 #: quota_backends.py:83
 msgid "Document count limit"
@@ -238,7 +238,7 @@ msgstr "&quot; %s &quot; ཁ་གསབ་བཟོས།"
 #: views.py:95
 #, python-format
 msgid "Delete quota: %s"
-msgstr "བགོ་བཤའ་བསུབས་ %s"
+msgstr "བགོ་བཤའ་བསུབས་: %s"
 
 #: views.py:111
 #, python-format

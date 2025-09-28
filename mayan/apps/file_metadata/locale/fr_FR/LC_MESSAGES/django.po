@@ -4,21 +4,21 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Baptiste GAILLET <baptiste.gaillet@cstb.fr>, 2024
-# Thierry Schott <DarkDare@users.noreply.github.com>, 2024
-# Yves Dubois <ydubois@gmail.com>, 2024
-# Luc Didry, 2024
-# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2024
-# Roberto Rosario, 2024
-# Frédéric Sheedy <sheedf@gmail.com>, 2024
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2025
+# Baptiste GAILLET <baptiste.gaillet@cstb.fr>, 2025
+# Luc Didry, 2025
+# Thierry Schott <DarkDare@users.noreply.github.com>, 2025
+# Roberto Rosario, 2025
+# Yves Dubois <ydubois@gmail.com>, 2025
+# Frédéric Sheedy <sheedf@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 23:59+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Frédéric Sheedy <sheedf@gmail.com>, 2024\n"
+"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: Frédéric Sheedy <sheedf@gmail.com>, 2025\n"
 "Language-Team: French (France) (https://app.transifex.com/rosarior/teams/13584/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,59 +26,51 @@ msgstr ""
 "Language: fr_FR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: admin.py:13 apps.py:169 serializers/file_metadata_serializers.py:16
+#: admin.py:13 apps.py:175 serializers/file_metadata_serializers.py:16
 msgid "Label"
 msgstr "Libellé"
 
-#: apps.py:54 events.py:6 links.py:23 permissions.py:6 queues.py:7
+#: apps.py:56 apps.py:100 events.py:6 links.py:23 permissions.py:6 queues.py:7
 #: settings.py:12
 msgid "File metadata"
 msgstr "Métadonnées du fichier"
 
-#: apps.py:108
-msgid "File metadata internal name"
-msgstr ""
-
-#: apps.py:112 search.py:15 search.py:26
-msgid "File metadata value"
-msgstr "Valeur des métadonnées du fichier"
-
-#: apps.py:138 apps.py:144
+#: apps.py:144 apps.py:150
 msgid "Return the value of a specific file metadata."
 msgstr "Renvoie la valeur des métadonnées  pour un fichier spécifique."
 
-#: apps.py:139 apps.py:145
+#: apps.py:145 apps.py:151
 msgid "File metadata value of"
 msgstr "Valeur de métadonnée de fichier de"
 
-#: apps.py:174 serializers/file_metadata_serializers.py:19
+#: apps.py:180 serializers/file_metadata_serializers.py:19
 msgid "MIME types"
 msgstr "Types MIME"
 
-#: apps.py:178 models.py:97 models.py:152
+#: apps.py:184 models.py:97 models.py:152
 msgid "Internal name"
 msgstr "Nom interne"
 
-#: apps.py:182 serializers/file_metadata_serializers.py:13
+#: apps.py:188 serializers/file_metadata_serializers.py:13
 msgid "Description"
 msgstr "Description"
 
-#: apps.py:186 model_mixins.py:48 models.py:54
+#: apps.py:192 model_mixins.py:48 models.py:54
 #: serializers/file_metadata_serializers.py:10
 msgid "Arguments"
 msgstr "Arguments"
 
-#: apps.py:192
+#: apps.py:198
 msgid ""
 "Whether or not this driver will be enabled by default for new document "
 "types."
 msgstr ""
 
-#: apps.py:195
+#: apps.py:201
 msgid "Enabled by default?"
 msgstr ""
 
-#: classes.py:207 model_mixins.py:36
+#: classes.py:209 model_mixins.py:36
 #, python-format
 msgid "Badly formatted arguments YAML; %s"
 msgstr ""
@@ -95,7 +87,7 @@ msgstr ""
 msgid "Attributes"
 msgstr "Attributs"
 
-#: links.py:36 links.py:41
+#: links.py:34 links.py:41
 msgid "Submit for file metadata"
 msgstr "Soumettre pour les métadonnées de fichier"
 
@@ -241,6 +233,10 @@ msgstr ""
 #: search.py:11 search.py:22
 msgid "File metadata key"
 msgstr "Clé de métadonnées de fichier"
+
+#: search.py:15 search.py:26
+msgid "File metadata value"
+msgstr "Valeur des métadonnées du fichier"
 
 #: serializers/document_file_serializers.py:21
 #: serializers/document_file_serializers.py:40

@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Csaba Tarjányi, 2024
-# Roberto Rosario, 2024
-# molnars <szabolcs.molnar@gmail.com>, 2024
+# Roberto Rosario, 2025
+# Csaba Tarjányi, 2025
+# molnars <szabolcs.molnar@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 04:33+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: molnars <szabolcs.molnar@gmail.com>, 2024\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: molnars <szabolcs.molnar@gmail.com>, 2025\n"
 "Language-Team: Hungarian (Hungary) (https://app.transifex.com/rosarior/teams/13584/hu_HU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

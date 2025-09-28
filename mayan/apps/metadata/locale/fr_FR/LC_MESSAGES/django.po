@@ -4,23 +4,23 @@
 # 
 # Translators:
 # Translators:
-# 0041b687dd284925c1885ba94464aacd_fde037b <fc746b00d74cefecce9698255909a24f_28512>, 2024
-# Luc Didry, 2024
-# Thierry Schott <DarkDare@users.noreply.github.com>, 2024
-# Olivier W, 2024
-# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2024
-# Frédéric Sheedy <sheedf@gmail.com>, 2024
-# Roberto Rosario, 2024
-# Guillaume Trottier <gui.trottier@gmail.com>, 2024
-# Yves Dubois <ydubois@gmail.com>, 2024
+# Olivier W, 2025
+# 0041b687dd284925c1885ba94464aacd_fde037b <fc746b00d74cefecce9698255909a24f_28512>, 2025
+# Thierry Schott <DarkDare@users.noreply.github.com>, 2025
+# Guillaume Trottier <gui.trottier@gmail.com>, 2025
+# Luc Didry, 2025
+# Roberto Rosario, 2025
+# Frédéric Sheedy <sheedf@gmail.com>, 2025
+# Yves Dubois <ydubois@gmail.com>, 2025
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 17:02+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Yves Dubois <ydubois@gmail.com>, 2024\n"
+"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: Christophe CHAUVET <christophe.chauvet@gmail.com>, 2025\n"
 "Language-Team: French (France) (https://app.transifex.com/rosarior/teams/13584/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Language: fr_FR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: apps.py:74 apps.py:215 apps.py:221 apps.py:225 apps.py:230 apps.py:234
+#: apps.py:74 apps.py:211 apps.py:217 apps.py:221 apps.py:226 apps.py:230
 #: events.py:6 links.py:53 permissions.py:6 queues.py:7
 #: workflow_actions.py:162
 msgid "Metadata"
@@ -42,19 +42,11 @@ msgstr "Renvoie la valeur d'une métadonnée de document spécifique."
 msgid "Metadata value of"
 msgstr "Valeur de la métadonnée de"
 
-#: apps.py:151
-msgid "Metadata type name"
-msgstr "Nom du type de métadonnée"
-
-#: apps.py:155 search.py:15
-msgid "Metadata value"
-msgstr "Valeur de la métadonnée"
-
-#: apps.py:253
+#: apps.py:249
 msgid "Document link"
 msgstr ""
 
-#: apps.py:259
+#: apps.py:255
 msgid "Document thumbnail"
 msgstr ""
 
@@ -181,7 +173,7 @@ msgstr "Types de document"
 msgid "Create new"
 msgstr "Créer une nouvelle"
 
-#: links.py:82 links.py:87
+#: links.py:81 links.py:86
 msgid "Delete"
 msgstr "Supprimer"
 
@@ -394,6 +386,10 @@ msgstr "Retirer le type de métadonnées"
 #: queues.py:15
 msgid "Add required metadata type"
 msgstr "Ajouter le type de métadonnées obligatoire"
+
+#: search.py:15
+msgid "Metadata value"
+msgstr "Valeur de la métadonnée"
 
 #: search.py:33
 msgid "Document type ID"

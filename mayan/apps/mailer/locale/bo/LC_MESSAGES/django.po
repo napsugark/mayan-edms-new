@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -101,15 +101,15 @@ msgstr "གློག་འཕྲིན་གཏོང་སྐབས་བེད
 msgid "Backend"
 msgstr "རྒྱབ་ལྗོངས།"
 
-#: links.py:33 links.py:38
+#: links.py:32 links.py:38
 msgid "Email document link"
 msgstr "གློག་འཕྲིན་ཡིག་ཆའི་སྦྲེལ་མཐུད།"
 
-#: links.py:48 links.py:53
+#: links.py:46 links.py:53
 msgid "Email document file"
 msgstr "གློག་འཕྲིན་ཡིག་ཆའི་ཡིག་ཆ།"
 
-#: links.py:59 links.py:64
+#: links.py:58 links.py:64
 msgid "Email document file link"
 msgstr "གློག་འཕྲིན་ཡིག་ཆའི་ཡིག་ཆའི་སྦྲེལ་མཐུད།"
 
@@ -137,12 +137,11 @@ msgstr "བསུབ་པ།"
 msgid "Edit"
 msgstr "བཅོས་པ།"
 
-#: links.py:113 links.py:121 links.py:127 models.py:50
-#: views/mailing_profile_views.py:134
+#: links.py:113 links.py:121 models.py:50 views/mailing_profile_views.py:134
 msgid "Mailing profiles"
 msgstr "ངོ་སྤྲོད་ཡིག་ཟམ་བསྐུར་བ།"
 
-#: links.py:131 views/mailing_profile_views.py:162
+#: links.py:126 views/mailing_profile_views.py:162
 msgid "Test"
 msgstr "ཚོད་ལྟ"
 
@@ -211,7 +210,7 @@ msgid ""
 msgstr ""
 "SMTP ཞབས་ཞུ་འཕྲུལ་ཆས་ལ་སྐད་ཆ་བཤད་སྐབས་TLS (བདེ་འཇགས་) "
 "མཐུད་ཁ་བེད་སྤྱོད་གཏོང་དགོས་མིན། "
-"འདི་ནི་གསལ་པོའི་TLSམཐུད་ཁའི་ཆེད་དུ་བེད་སྤྱོད་བྱེད་ཀྱི་ཡོད། "
+"འདི་ནི་TLSམཐུད་ཁ་གསལ་པོའི་ཆེད་དུ་བེད་སྤྱོད་བྱེད་ཀྱི་ཡོད། "
 "སྤྱིར་བཏང་དུ་འདྲེན་ལམ་587སྟེང་།"
 
 #: mailers.py:46
@@ -258,7 +257,7 @@ msgstr "ཚོད་ལྟ་གློག་འཕྲིན་ནས་ %s"
 
 #: models.py:32
 msgid "A short text describing the mailing profile."
-msgstr "སྦྲག་ཡིག་གི་གསལ་སྡུད་འགྲེལ་བརྗོད་བྱེད་པའི་ཡི་གེ་ཐུང་ཐུང་ཞིག"
+msgstr "སྦྲག་ཡིག་གི་གསལ་སྡུད་འགྲེལ་བརྗོད་བྱེད་པའི་ཡི་གེ་ཐུང་ངུ་ཞིག"
 
 #: models.py:33
 msgid "Label"
@@ -282,7 +281,7 @@ msgstr "བེད་སྤྱོད་ཆོག་པ།"
 
 #: permissions.py:12
 msgid "Create a mailing profile"
-msgstr "སྦྲག་སྲིད་ངོ་སྤྲོད་གསར་བཟོ།"
+msgstr "ཡིག་ཟམ་ངོ་སྤྲོད་གསར་བཟོ།"
 
 #: permissions.py:16
 msgid "Delete a mailing profile"
@@ -294,11 +293,11 @@ msgstr "ཡིག་ཟམ་ངོ་སྤྲོད་རྩོམ་སྒྲ
 
 #: permissions.py:23
 msgid "Use a mailing profile"
-msgstr "ཡིག་ཟམ་ངོ་སྤྲོད་བེད་སྤྱོད་བྱེད་པ།"
+msgstr "ཡིག་སྐུར་ངོ་སྤྲོད་བེད་སྤྱོད་བྱེད་པ།"
 
 #: permissions.py:26
 msgid "View a mailing profile"
-msgstr "ཡིག་ཟམ་ངོ་སྤྲོད་ལ་ལྟ་བ།"
+msgstr "ཡིག་ཟམ་གྱི་གསལ་སྡུད་ལ་ལྟ་བ།"
 
 #: permissions.py:32
 msgid "Send document link via email"
@@ -310,7 +309,7 @@ msgstr "གློག་འཕྲིན་བརྒྱུད་ཡིག་ཆའ
 
 #: permissions.py:42
 msgid "Send document file link via email"
-msgstr "གློག་འཕྲིན་བརྒྱུད་ཡིག་ཆའི་ཡིག་ཆའི་སྦྲེལ་མཐུད་བསྐུར་བ།"
+msgstr "གློག་འཕྲིན་བརྒྱུད་ཡིག་ཆའི་ཡིག་ཆའི་སྦྲེལ་ཐག་བསྐུར།"
 
 #: permissions.py:49
 msgid "Send document version via email"
@@ -376,7 +375,7 @@ msgstr "གློག་འཕྲིན་སྐྱེལ་འདྲེན་ཆ
 #: views/document_file_views.py:20
 #, python-format
 msgid "%(count)d document files queued for email delivery"
-msgstr "གློག་འཕྲིན་གཏོང་སྤྲོད་ཆེད་དུ་ %(count)d ཡིག་ཆའི་ཡིག་ཆ་བང་སྒྲིག་ཡོད།"
+msgstr "གློག་འཕྲིན་སྐྱེལ་འདྲེན་ཆེད་དུ་ %(count)d ཡིག་ཆའི་ཡིག་ཆ་བང་སྒྲིག་ཡོད།"
 
 #: views/document_file_views.py:32
 #, python-format
@@ -395,7 +394,8 @@ msgstr ""
 #: views/document_version_views.py:19
 #, python-format
 msgid "%(count)d document version queued for email delivery"
-msgstr "གློག་འཕྲིན་གཏོང་སྤྲོད་ཆེད་དུ་ %(count)d ཡིག་ཆའི་ཐོན་རིམ་བང་སྒྲིག་ཡོད།"
+msgstr ""
+"གློག་འཕྲིན་སྐྱེལ་འདྲེན་ཆེད་དུ་ %(count)d ཡིག་ཆའི་ཐོན་རིམ་བང་སྒྲིག་ཡོད།"
 
 #: views/document_version_views.py:22
 #, python-format
@@ -413,7 +413,7 @@ msgstr ""
 #, python-format
 msgid "%(count)d document version links queued for email delivery"
 msgstr ""
-"གློག་འཕྲིན་གཏོང་སྤྲོད་ཆེད་དུ་ %(count)d "
+"གློག་འཕྲིན་གཏོང་བའི་ཆེད་དུ་ %(count)d "
 "ཡིག་ཆའི་ཐོན་རིམ་འབྲེལ་མཐུད་བང་སྒྲིག་ཡོད།"
 
 #: views/document_views.py:14
@@ -475,7 +475,7 @@ msgid ""
 "document."
 msgstr ""
 "བསྐུར་མཁན་གྱི་གློག་འཕྲིན་ཁ་བྱང་། "
-"ཁ་བྱང་སྣ་ཚོགས་ཚེག་ཡང་ན་ཚེག་ཕྱེད་ཀས་དབྱེ་ཐུབ། "
+"ཁ་བྱང་སྣ་ཚོགས་ཚེག་ཡང་ན་ཚེག་ཕྱེད་ཀྱིས་དབྱེ་ཐུབ། "
 "ཡིག་ཆའི་རྒྱུ་ཆ་ལ་གཞི་བསྟུན་བྱེད་པར་ཊེམ་པེལེཊི་བེད་སྤྱོད་གཏོང་ཐུབ།"
 
 #: workflow_action_mixins.py:27
@@ -489,7 +489,7 @@ msgid ""
 "reference properties of the document."
 msgstr ""
 "གློག་འཕྲིན་གཏོང་སྐབས་&quot;Bcc&quot;མགོ་ཡིག་ནང་བེད་སྤྱོད་བྱེད་པའི་ཁ་བྱང་། "
-"ཁ་བྱང་སྣ་ཚོགས་ཚེག་ཡང་ན་ཚེག་ཕྱེད་ཀྱིས་དབྱེ་ཐུབ། "
+"ཁ་བྱང་སྣ་ཚོགས་ཚེག་ཡང་ན་ཚེག་ཕྱེད་ཀས་དབྱེ་ཐུབ། "
 "ཡིག་ཆའི་རྒྱུ་ཆ་ལ་གཞི་བསྟུན་བྱེད་པར་ཊེམ་པེལེཊི་བེད་སྤྱོད་གཏོང་ཐུབ།"
 
 #: workflow_action_mixins.py:39
@@ -532,7 +532,7 @@ msgstr "གློག་འཕྲིན་བརྒྱུད་དངོས་པ
 
 #: workflow_action_mixins.py:103
 msgid "Mailing profile to use when sending the email."
-msgstr "གློག་འཕྲིན་གཏོང་སྐབས་བེད་སྤྱོད་གཏོང་བའི་ཡིག་ཟམ་གྱི་གསལ་སྡུད།"
+msgstr "གློག་འཕྲིན་གཏོང་སྐབས་བེད་སྤྱོད་གཏོང་བའི་ཡིག་ཟམ་གསལ་སྡུད།"
 
 #: workflow_action_mixins.py:129
 msgid "Parties"

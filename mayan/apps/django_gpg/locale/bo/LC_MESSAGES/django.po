@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr "ཇང་གོ་GPG"
 
 #: apps.py:55 apps.py:61 forms.py:15
 msgid "Key ID"
-msgstr "ལྡེ་མིག་ཨང་རྟགས་"
+msgstr "ལྡེ་མིག་ID"
 
 #: apps.py:65 forms.py:41 models.py:49
 msgid "Type"
@@ -54,7 +54,7 @@ msgstr "སྤྱོད་མཁན་ཨང་རྟགས།"
 
 #: dependencies.py:9
 msgid "GNU privacy guard - a PGP implementation."
-msgstr "ཇི་ཨེན་ཡུ་སྒེར་གྱི་སྲུང་སྐྱོབ་པ་ - པི་ཇི་པི་ལག་བསྟར།"
+msgstr "ཇི་ཨེན་ཡུ་སྒེར་གྱི་སྲུང་སྐྱོབ་པ་ - པི་ཇི་པི་ལག་བསྟར་ཞིག་རེད།"
 
 #: events.py:6 links.py:42 permissions.py:6
 msgid "Key management"
@@ -87,7 +87,8 @@ msgstr "དུས་ཡུན"
 #: forms.py:57
 msgid "Name, e-mail, key ID or key fingerprint to look for."
 msgstr ""
-"མིང་དང་། གློག་འཕྲིན། ལྡེ་མིག་ID ཡང་ན་ལྡེ་མིག་མཛུབ་མོའི་རྗེས་ཤུལ་འཚོལ་དགོས།"
+"མིང་དང་། གློག་འཕྲིན། "
+"ལྡེ་མིག་ཨང་རྟགས་ཡང་ན་ལྡེ་མིག་མཛུབ་མོའི་རྗེས་ཤུལ་འཚོལ་དགོས།"
 
 #: links.py:17
 msgid "Delete"

@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 10:33+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"POT-Creation-Date: 2025-09-28 14:15+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -20,14 +20,50 @@ msgstr ""
 "Language: bo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: apps.py:36
+#: apps.py:38
 msgid "Dynamic search"
 msgstr "སྒུལ་ཤུགས་ལྡན་པའི་འཚོལ་ཞིབ།"
+
+#: apps.py:87
+msgid "The underlying database model whose content is indexed for search."
+msgstr "འཚོལ་ཞིབ་ཆེད་དུ་ནང་དོན་དཀར་ཆག་བཟོས་པའི་གཞི་གྲངས་མཛོད་ཀྱི་དཔེ་གཞི།"
+
+#: apps.py:89
+msgid "Model"
+msgstr "མ་དཔེ"
+
+#: apps.py:94
+msgid "The unique name used to reference the search model."
+msgstr "འཚོལ་ཞིབ་དཔེ་གཞི་ལ་གཞི་བཅོལ་བའི་མིང་ཐུན་མོང་མ་ཡིན་པ།"
+
+#: apps.py:102
+msgid "The underlying database field whose content is indexed for search."
+msgstr "འཚོལ་ཞིབ་ཀྱི་ཆེད་དུ་ནང་དོན་དཀར་ཆག་བཟོས་པའི་གཞི་གྲངས་མཛོད་ཀྱི་ས་ཁོངས།"
+
+#: apps.py:105
+msgid "Field"
+msgstr "ཞིང་ཁ"
+
+#: apps.py:116
+msgid ""
+"The underlying database field type. This determines the kind of data that is"
+" stored in the database."
+msgstr ""
+"གཞི་གྲངས་མཛོད་ཀྱི་ས་ཁོངས་རིགས། "
+"འདིས་གཞི་གྲངས་མཛོད་ནང་དུ་གསོག་འཇོག་བྱས་པའི་གཞི་གྲངས་རིགས་གཏན་འབེབས་བྱེད།"
+
+#: apps.py:119 serializers.py:61
+msgid "Field class"
+msgstr "ས་ཁོངས་འཛིན་གྲྭ།"
+
+#: apps.py:123 serializers.py:67
+msgid "Description"
+msgstr "བཀོད་པ།"
 
 #: events.py:6 permissions.py:6 queues.py:11 settings.py:20
 #: templates/dynamic_search/search_box.html:47
 #: templates/dynamic_search/search_box_toolbar.html:30
-#: views/search_views.py:110
+#: views/search_views.py:106
 msgid "Search"
 msgstr "བཤེར་འཚོལ"
 
@@ -35,74 +71,82 @@ msgstr "བཤེར་འཚོལ"
 msgid "Resultset created"
 msgstr "གྲུབ་འབྲས་ཆ་ཚང་བཟོས་ཡོད།"
 
-#: forms.py:12
+#: forms.py:13
 msgid "Store the search results to speed up paging and for later browsing."
 msgstr ""
 "འཚོལ་ཞིབ་གྲུབ་འབྲས་དེ་དག་ཤོག་ངོས་བཟོ་མགྱོགས་སུ་གཏོང་བ་དང་རྗེས་སུ་ལྟ་ཀློག་བྱེད་པར་གསོག་འཇོག་བྱོས།"
 
-#: forms.py:15
+#: forms.py:16
 msgid "Save results"
 msgstr "གྲུབ་འབྲས་ཉར་ཚགས་བྱེད་པ།"
 
-#: forms.py:21
+#: forms.py:22
 msgid "Persistency"
 msgstr "རྒྱུན་སྲིང་།"
 
-#: forms.py:37
-msgid "Match all"
-msgstr "ཚང་མ་མཐུན་པ།"
-
 #: forms.py:38
+msgid "Match all"
+msgstr "ཚང་མ་མཐུན།"
+
+#: forms.py:39
 msgid "Return only results that match all fields."
 msgstr "ཡིག་དུམ་ཚང་མ་མཐུན་པའི་གྲུབ་འབྲས་ཁོ་ན་ཕྱིར་ལོག་བྱེད།"
 
-#: forms.py:71
+#: forms.py:76
 msgid "Search logic"
 msgstr "འཚོལ་བཤེར་གཏན་ཚིགས།"
 
-#: forms.py:99 templates/dynamic_search/search_box.html:43
+#: forms.py:104 templates/dynamic_search/search_box.html:43
 #: templates/dynamic_search/search_box_toolbar.html:25
 msgid "Search terms"
 msgstr "འཚོལ་བཤེར་ཐ་སྙད།"
 
-#: forms.py:110
+#: forms.py:115
 msgid "Criteria"
 msgstr "ཚད་གཞི"
 
-#: links.py:20 models.py:61 views/saved_resultset_views.py:72
+#: links.py:21 models.py:61 views/saved_resultset_views.py:72
 msgid "Saved resultsets"
 msgstr "ཉར་ཚགས་བྱས་པའི་གྲུབ་འབྲས་ཆ་ཚན།"
 
-#: links.py:25
+#: links.py:26
 msgid "Delete"
 msgstr "བསུབ་པ།"
 
-#: links.py:30
+#: links.py:31
 msgid "Results"
 msgstr "མཇུག་འབྲས"
 
-#: links.py:35
+#: links.py:36
 msgid "Basic search"
 msgstr "གཞི་རྩའི་འཚོལ་ཞིབ།"
 
-#: links.py:39 templates/dynamic_search/search_box.html:49
+#: links.py:40 templates/dynamic_search/search_box.html:49
 #: templates/dynamic_search/search_box_toolbar.html:33
 msgid "Advanced search"
 msgstr "སྔོན་ཐོན་འཚོལ་ཞིབ།"
 
-#: links.py:43
+#: links.py:44
 msgid "Search again"
 msgstr "ཡང་བསྐྱར་བཙལ།"
 
-#: links.py:48 views/search_views.py:65
+#: links.py:49 views/search_views.py:61
 msgid "Reindex search backend"
-msgstr "བསྐྱར་ཟུར་ཐོ་འཚོལ་ཞིབ་རྒྱབ་ལྗོངས།"
+msgstr "བསྐྱར་དུ་དཀར་ཆག་འཚོལ་ཞིབ་རྒྱབ་ལྗོངས།"
 
-#: literals.py:27
+#: links.py:57
+msgid "Fields"
+msgstr "ས་ཁོངས།"
+
+#: links.py:60 views/tool_views.py:15
+msgid "Search models"
+msgstr "དཔེ་གཞི་འཚོལ་ཞིབ།"
+
+#: literals.py:28
 msgid "Yes"
 msgstr "ཡིན"
 
-#: literals.py:28
+#: literals.py:29
 msgid "No"
 msgstr "མིན"
 
@@ -130,11 +174,11 @@ msgstr "དུས་ཚོད་བརྟན་རྟགས།"
 msgid "Epoch"
 msgstr "དུས་རབས།"
 
-#: models.py:37 serializers.py:70
+#: models.py:37 serializers.py:79
 msgid "App label"
 msgstr "མཉེན་ཆས་མིང་བྱང་།"
 
-#: models.py:40 serializers.py:73
+#: models.py:40 serializers.py:82
 msgid "Model name"
 msgstr "དཔེ་གཟུགས་ཀྱི་མིང་།"
 
@@ -215,7 +259,7 @@ msgstr ""
 
 #: queues.py:51
 msgid "Delete expired saved resultsets"
-msgstr "དུས་ཡུན་ཡོལ་ཟིན་པའི་ཉར་ཚགས་བྱས་པའི་གྲུབ་འབྲས་ཆ་ཚང་སུབ་དགོས།"
+msgstr "དུས་ཡུན་ཡོལ་ཟིན་པའི་ཉར་ཚགས་བྱས་པའི་གྲུབ་འབྲས་ཆ་ཚན་སུབ་པ།"
 
 #: scoped_queries.py:348
 #, python-format
@@ -239,18 +283,58 @@ msgstr ""
 "འཚོལ་ཞིབ་ཞབས་ཞུ་ཡོད་མེད་དང་འཚོལ་ཞིབ་ཚིག་སྦྱོར་དེ་ཤུགས་ལྡན་འཚོལ་ཞིབ་རྒྱབ་ཕྱོགས་ལ་ནུས་ལྡན་ཡིན་མིན་བདེན་དཔང་བྱེད།"
 " %s"
 
-#: search_fields.py:312
+#: search_fields.py:100
+msgid "Uniquely identifies the search field."
+msgstr "འཚོལ་ཞིབ་ས་ཁོངས་ལ་ཐུན་མོང་མ་ཡིན་པའི་ངོས་འཛིན།"
+
+#: search_fields.py:101 serializers.py:64
+msgid "Field name"
+msgstr "ཡིག་དུམ་གྱི་མིང་།"
+
+#: search_fields.py:179
+msgid ""
+"The type of search field. This determines how the information will be "
+"handled for search indexing."
+msgstr ""
+"འཚོལ་བཤེར་ས་ཁོངས་ཀྱི་རིགས། "
+"འདིས་འཚོལ་ཞིབ་དཀར་ཆག་བཟོ་བའི་ཆེད་དུ་གནས་ཚུལ་དེ་གང་འདྲ་བྱས་ནས་བཀོལ་སྤྱོད་བྱེད་དགོས་མིན་གཏན་འབེབས་བྱེད།"
+
+#: search_fields.py:183 serializers.py:70
+msgid "Search field class"
+msgstr "འཚོལ་ཞིབ་ས་ཁོངས་འཛིན་གྲྭ།"
+
+#: search_fields.py:223
+msgid "Concrete"
+msgstr "ཨར་འདམ"
+
+#: search_fields.py:245
+msgid "Direct"
+msgstr "ཁར་ཐུག"
+
+#: search_fields.py:267
+msgid "Related"
+msgstr "འབྲེལ་ཡོད"
+
+#: search_fields.py:325
+msgid "Virtual"
+msgstr "དངོས་འབྲེལ་གྱི"
+
+#: search_fields.py:340
 msgid "Any"
 msgstr "གང་རུང"
 
-#: search_models.py:44
+#: search_models.py:49
 #, python-format
 msgid "Unknown search model `%s`."
 msgstr "མ་ཤེས་པའི་འཚོལ་ཞིབ་དཔེ་གཞི་` %s ."
 
-#: search_models.py:114
+#: search_models.py:145
 msgid "All content"
 msgstr "ནང་དོན་ཚང་མ།"
+
+#: search_models.py:199
+msgid "Full name"
+msgstr "མིང་ཆ་ཚང་།"
 
 #: search_query_types.py:171
 msgid "Exact"
@@ -296,7 +380,7 @@ msgstr "རྒྱུན་ལྡན་བརྗོད་པ།"
 msgid "Results URL"
 msgstr "མཇུག་འབྲས་URL"
 
-#: serializers.py:30 serializers.py:82
+#: serializers.py:30 serializers.py:91
 msgid "URL"
 msgstr "URL །"
 
@@ -304,19 +388,15 @@ msgstr "URL །"
 msgid "User must be authenticated."
 msgstr "སྤྱོད་མཁན་གྱིས་བདེན་དཔང་བྱེད་དགོས།"
 
-#: serializers.py:61
-msgid "Field name"
-msgstr "ཡིག་དུམ་གྱི་མིང་།"
-
-#: serializers.py:64
+#: serializers.py:73
 msgid "Label"
 msgstr "ལག་ཁྱེར་།"
 
-#: serializers.py:76
+#: serializers.py:85
 msgid "Primary key"
 msgstr "གཙོ་བོའི་ལྡེ་མིག"
 
-#: serializers.py:79
+#: serializers.py:88
 msgid "Search fields"
 msgstr "འཚོལ་བཤེར་ས་ཁོངས།"
 
@@ -373,7 +453,7 @@ msgstr "འཚོལ་བཤེར་གྲུབ་འབྲས་ཆེས་
 
 #: settings.py:85
 msgid "Maximum number of saved resultsets to keep per user."
-msgstr "སྤྱོད་མཁན་རེ་ལ་གསོག་འཇོག་བྱས་པའི་གྲུབ་འབྲས་ཆ་ཚང་མང་ཤོས།"
+msgstr "སྤྱོད་མཁན་རེ་ལ་ཉར་ཚགས་བྱས་པའི་གྲུབ་འབྲས་ཆ་ཚང་མང་ཤོས།"
 
 #: settings.py:91
 msgid "Maximum number of results to store per resultset."
@@ -389,6 +469,19 @@ msgid "Amount to increase the time to live on each access of the resultset."
 msgstr "གྲུབ་འབྲས་ཆ་ཚང་ལ་འཛུལ་ཞུགས་རེ་རེར་འཚོ་བའི་དུས་ཚོད་འཕར་བའི་དངུལ་འབོར།"
 
 #: settings.py:110
+msgid ""
+"Specifies the fields from which search model are to be disabled. The format "
+"is a dictionary of lists. The search model name is the dictionary key and "
+"the value is a list of the full search field name. Disabled fields will "
+"neither be available for search nor be indexed by the search backend."
+msgstr ""
+"འཚོལ་ཞིབ་དཔེ་གཞི་གང་ནས་ལྕོགས་མིན་བཟོ་དགོས་པའི་ས་ཁོངས་གཏན་འཁེལ་བྱེད། "
+"རྩ་སྒྲིག་ནི་རེའུ་མིག་གི་ཚིག་མཛོད་ཅིག་ཡིན། "
+"འཚོལ་བཤེར་དཔེ་གཞིའི་མིང་ནི་ཚིག་མཛོད་ལྡེ་མིག་ཡིན་པ་དང་རིན་ཐང་ནི་བཤེར་འཚོལ་ཡིག་དུམ་གྱི་མིང་ཆ་ཚང་གི་ཐོ་གཞུང་ཡིན།"
+" "
+"ལྕོགས་མིན་བཟོས་པའི་ས་ཁོངས་འཚོལ་ཞིབ་བྱེད་པར་ཐོབ་མི་ཐུབ་པ་དང་འཚོལ་ཞིབ་རྒྱབ་ཕྱོགས་ཀྱིས་དཀར་ཆག་བཟོ་མི་ཐུབ།"
+
+#: settings.py:120
 msgid "Sets the default state of the \"Store results\" checkbox."
 msgstr ""
 "&quot;གྲུབ་འབྲས་གསོག་འཇོག་&quot; "
@@ -405,7 +498,7 @@ msgstr "ཡན་ཐོན་ཅན"
 
 #: value_transformations.py:38
 msgid "Replace accents"
-msgstr "སྐད་གདངས་བརྗེ་དགོས།"
+msgstr "སྐད་གདངས་བརྗེ་བ།"
 
 #: value_transformations.py:50
 msgid "@ sign replace"
@@ -498,11 +591,11 @@ msgstr ""
 msgid "No saved resultsets available"
 msgstr "ཉར་ཚགས་བྱས་པའི་གྲུབ་འབྲས་ཆ་ཚང་མེད།"
 
-#: views/search_views.py:62
+#: views/search_views.py:58
 msgid "This tool erases and populates the search backend's internal index."
 msgstr "ལག་ཆ་འདིས་འཚོལ་ཞིབ་རྒྱབ་ཕྱོགས་ཀྱི་ནང་ཁུལ་གྱི་དཀར་ཆག་བསུབས་ནས་བཀང་ཡོད།"
 
-#: views/search_views.py:72
+#: views/search_views.py:68
 msgid ""
 "This tool is required only for some search backends. Search results will be "
 "affected while the backend is being reindexed."
@@ -510,41 +603,51 @@ msgstr ""
 "ལག་ཆ་འདི་འཚོལ་ཞིབ་རྒྱབ་ཕྱོགས་ཁ་ཤས་ལ་རྐྱངམ་གཅིག་དགོས། "
 "རྒྱབ་ཕྱོགས་དེ་བསྐྱར་དུ་དཀར་ཆག་བཟོ་བའི་སྐབས་འཚོལ་ཞིབ་གྲུབ་འབྲས་ལ་ཤུགས་རྐྱེན་ཐེབས་རྒྱུ་རེད།"
 
-#: views/search_views.py:78
+#: views/search_views.py:74
 msgid ""
 "The currently selected search backend does not support or requires "
 "reindexing."
 msgstr ""
 "ད་ལྟ་འདེམས་པའི་འཚོལ་ཞིབ་རྒྱབ་ཕྱོགས་ཀྱིས་རྒྱབ་སྐྱོར་བྱེད་ཀྱི་མེད་པའམ་ཡང་ན་བསྐྱར་དུ་དཀར་ཆག་བཟོ་དགོས།"
 
-#: views/search_views.py:91
+#: views/search_views.py:87
 msgid "Search backend reindexing queued."
 msgstr "འཚོལ་ཞིབ་རྒྱབ་ཕྱོགས་བསྐྱར་དུ་དཀར་ཆག་བསྒྲིགས་ཡོད།"
 
-#: views/search_views.py:112
+#: views/search_views.py:108
 #, python-format
 msgid "Search for: %s"
 msgstr "འཚོལ་ཞིབ།: %s"
 
-#: views/search_views.py:139
+#: views/search_views.py:135
 #, python-format
 msgid "Advanced search for: %s"
 msgstr "ཡར་ཐོན་ཅན་གྱི་འཚོལ་ཞིབ།: %s"
 
-#: views/search_views.py:195
+#: views/search_views.py:191
 msgid "Try again using different terms. "
 msgstr "ཐ་སྙད་མི་འདྲ་བ་བཀོལ་ནས་ཡང་བསྐྱར་ཚོད་ལྟ་བྱོས། "
 
-#: views/search_views.py:197
+#: views/search_views.py:193
 msgid "No search results"
 msgstr "འཚོལ་ཞིབ་གྲུབ་འབྲས་མེད།"
 
-#: views/search_views.py:200
+#: views/search_views.py:196
 #, python-format
 msgid "Search query: %s"
 msgstr "འཚོལ་ཞིབ་འདྲི་རྩད།: %s"
 
-#: views/search_views.py:203
+#: views/search_views.py:199
 #, python-format
 msgid "Search results for: %s"
 msgstr "འཚོལ་ཞིབ་གྲུབ་འབྲས།: %s"
+
+#: views/tool_views.py:34
+#, python-format
+msgid "Fields for search model: %s"
+msgstr "འཚོལ་ཞིབ་དཔེ་གཟུགས་ཀྱི་ས་ཁོངས %s"
+
+#: views/tool_views.py:45
+#, python-format
+msgid "Search model: %s, not found"
+msgstr "འཚོལ་ཞིབ་དཔེ་གཞི། %s , མ་རྙེད།"

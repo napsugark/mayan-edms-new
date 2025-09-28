@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -106,7 +106,7 @@ msgstr "ཞིབ་བཤེར་བྱས།"
 
 #: literals.py:11
 msgid "Checked in/available"
-msgstr "ཐོ་འགོད་བྱས་ཟིན།"
+msgstr "ཞིབ་བཤེར་བྱས་ཟིན།/ཡོད།"
 
 #: model_mixins.py:14
 msgid "Checkout time and date"
@@ -130,7 +130,7 @@ msgstr "ཡིག་ཆ་ཞིབ་བཤེར་བྱས་པའི་ད
 
 #: models.py:43
 msgid "Check out expiration date and time"
-msgstr "དུས་ཚོད་རྫོགས་པའི་ཚེས་གྲངས་དང་དུས་ཚོད།"
+msgstr "དུས་ཚོད་རྫོགས་པའི་ཚེས་གྲངས་དང་དུས་ཚོད་ལ་ལྟ་ཞིབ་བྱོས།"
 
 #: models.py:51
 msgid "Do not allow new file of this document to be uploaded."
@@ -248,7 +248,7 @@ msgstr "ཡིག་ཆ་ %(count)d ལེགས་འགྲུབ་བྱུ�
 #: views.py:110
 #, python-format
 msgid "Checkout %(count)d documents."
-msgstr "ཡིག་ཆ་ %(count)d ལ་ལྟ་ཞིབ་བྱོས།"
+msgstr "ཡིག་ཆ་ %(count)d ཡིག་ཆ་ལ་ལྟ་ཞིབ་བྱོས།"
 
 #: views.py:111
 #, python-format

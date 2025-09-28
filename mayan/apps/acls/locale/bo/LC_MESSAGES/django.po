@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -112,7 +112,7 @@ msgstr "འཛུལ་ཞུགས་ཐོ་འགོད།"
 #, python-format
 msgid "Role \"%(role)s\" permission's for \"%(object)s\""
 msgstr ""
-"འགན་འཁུར་ &quot; %(role)s &quot; ཆོག་མཆན་དེ་ &quot; %(object)s &quot; ཡིན།"
+"འགན་འཁྲི &quot; %(role)s &quot; ཆོག་མཆན་དེ་ &quot; %(object)s &quot; ཡིན།"
 
 #: permissions.py:10
 msgid "Edit ACLs"
@@ -136,7 +136,7 @@ msgstr "ཆོག་མཆན་URL"
 
 #: serializers.py:82
 msgid "Role ID"
-msgstr "འགན་འཁྲིའི་ཨང་རྟགས།"
+msgstr "འགན་འཁྲི་ངོ་རྟགས།"
 
 #: serializers.py:85
 msgid "URL"
@@ -152,7 +152,7 @@ msgstr "ཆོག་མཆན་ཨང་རྟགས།"
 
 #: serializers.py:125
 msgid "Primary key of the permission to remove from the ACL."
-msgstr "ACLནས་མེད་པར་བཟོ་བའི་ཆོག་མཆན་གྱི་ལྡེ་མིག་གཙོ་བོ།"
+msgstr "ACL ནས་མེད་པར་བཟོ་བའི་ཆོག་མཆན་གྱི་ལྡེ་མིག་གཙོ་བོ།"
 
 #: views.py:44
 #, python-format
@@ -166,12 +166,12 @@ msgstr ""
 #: views.py:59
 #, python-format
 msgid "New access control lists for: %s"
-msgstr "འཛུལ་སྤྱོད་ཚོད་འཛིན་ཐོ་གཞུང་གསར་ %s"
+msgstr "འགྲོ་འོང་ཚོད་འཛིན་ཐོ་གཞུང་གསར་པ།: %s"
 
 #: views.py:103
 #, python-format
 msgid "Delete ACL: %s"
-msgstr "བསུབས་ ACL: %s"
+msgstr "བསུབས་པའི་ACL: %s"
 
 #: views.py:147
 msgid "There are no ACLs for this object"
@@ -224,7 +224,7 @@ msgstr "དེར་ACLམིན་འདུག།"
 
 #: views.py:278
 msgid "Global access control lists"
-msgstr "རྒྱལ་སྤྱིའི་འགྲོ་འོང་ཚོད་འཛིན་ཐོ་གཞུང་།"
+msgstr "གོ་ལ་ཧྲིལ་པོའི་འཛུལ་སྤྱོད་ཚོད་འཛིན་ཐོ་གཞུང་།"
 
 #: workflow_actions.py:44
 msgid "Object type"
@@ -237,8 +237,7 @@ msgstr "འཛུལ་སྤྱོད་བསྒྱུར་བཅོས་བ
 #: workflow_actions.py:57
 msgid ""
 "Numeric identifier of the object for which the access will be modified."
-msgstr ""
-"འཛུལ་སྤྱོད་བསྒྱུར་བཅོས་བྱེད་པའི་དངོས་པོ་དེའི་ཨང་གྲངས་ངོས་འཛིན་བྱེད་མཁན།"
+msgstr "འཛུལ་སྤྱོད་བསྒྱུར་བཅོས་བྱེད་པའི་དངོས་པོའི་ཨང་གྲངས་ངོས་འཛིན་བྱེད་མཁན།"
 
 #: workflow_actions.py:62 workflow_actions.py:198
 msgid "Roles"

@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 10:33+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -64,11 +64,11 @@ msgstr "སྒྲིག་བཀོད།"
 msgid "Objects"
 msgstr "དངོས་པོ།"
 
-#: links.py:27 links.py:50
+#: links.py:28 links.py:51
 msgid "File caches"
 msgstr "ཡིག་ཆའི་མཛོད་ཁང་།"
 
-#: links.py:33 links.py:39 links.py:43
+#: links.py:34 links.py:38 links.py:44
 msgid "Purge cache"
 msgstr "མཛོད་གཙང་བཟོ།"
 
@@ -126,7 +126,7 @@ msgstr "གཏན་འཁེལ་བྱས་པའི་གསོག་འཇ
 
 #: models.py:28
 msgid "Maximum size of the cache in bytes."
-msgstr "ཆེས་མཐོའི་འདྲ་མཛོད་ཀྱི་ཆེ་ཆུང་ནི་བཱའིཊི་ནང་ཡིན།"
+msgstr "ཆེས་མཐོའི་འདྲ་མཛོད་ཀྱི་ཚད་དེ་བཱའིཊི་ནང་ཡོད།"
 
 #: models.py:36 models.py:75
 msgid "Cache"
@@ -186,7 +186,7 @@ msgstr "ཡིག་ཆའི་མཛོད་ལ་ལྟ་བ།"
 
 #: queues.py:10
 msgid "File caching slow"
-msgstr "ཡིག་ཆའི་མཛོད་དལ་བ།"
+msgstr "ཡིག་ཚགས་མཛོད་དལ་བ།"
 
 #: queues.py:15
 msgid "Purge a file cache partition"
@@ -197,19 +197,19 @@ msgid ""
 "Number of times a cache will retry failed attempts to prune files to free up"
 " space for new a file being requested, before giving up."
 msgstr ""
-"ཡིག་ཆ་གསར་པའི་རེ་འདུན་ལ་ས་ཆ་གསར་པ་བཏོན་པའི་ཆེད་དུ་ཡིག་ཆ་གཅོད་པའི་ཚོད་ལྟ་འཐུས་ཤོར་བྱུང་བ་དེ་ཚོ་ཐེངས་ག་ཚོད་ལ་མཛོད་ཁང་གིས་བསྐྱར་དུ་ཚོད་ལྟ་བྱེད་ཀྱི་ཡོད་དམ།"
+"ཡིག་ཆ་གསར་པ་རེ་ཞུ་བྱེད་པའི་ཆེད་དུ་ས་ཆ་གསར་པ་བཏོན་པའི་ཆེད་དུ་ཡིག་ཆ་གཅོད་པའི་ཚོད་ལྟ་འཐུས་ཤོར་བྱུང་བ་དེ་ཚོ་ཐེངས་ག་ཚོད་ལ་མཛོད་ཁང་གིས་བསྐྱར་དུ་ཚོད་ལྟ་བྱེད་ཀྱི་ཡོད་དམ།"
 
 #: settings.py:25
 msgid ""
 "Number of times a cache will attempt to prune files to free up space for new"
 " a file being requested, before giving up."
 msgstr ""
-"ཡིག་ཆ་གསར་པ་རེ་ཞུ་བྱེད་པའི་ཆེད་དུ་ས་ཆ་གསར་པ་བཏོན་ཆེད་དུ་མཛོད་ཁང་གིས་ཡིག་ཆ་གཅོད་པར་ཐེངས་ག་ཚོད་བྱེད་ཀྱི་ཡོད་དམ།"
+"ཡིག་ཆ་གསར་པ་རེ་ཞུ་བྱེད་པའི་ཆེད་དུ་ས་ཆ་གསར་པ་བཏོན་པའི་ཆེད་དུ་མཛོད་ཁང་གིས་ཡིག་ཆ་གཅོད་པར་ཐེངས་ག་ཚོད་འབད་བརྩོན་བྱེད་ཀྱི་ཡོད་དམ།"
 
 #: views.py:36
 #, python-format
 msgid "Details of cache: %s"
-msgstr "འདྲ་མཛོད་ཀྱི་ཞིབ་ཕྲ།: %s"
+msgstr "འདྲ་མཛོད་ཀྱི་ཞིབ་ཕྲ། %s"
 
 #: views.py:48
 msgid "File caches list"

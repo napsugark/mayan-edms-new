@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 12:51+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"POT-Creation-Date: 2025-01-20 12:33+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -20,13 +20,18 @@ msgstr ""
 "Language: bo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: apps.py:21 permissions.py:6 settings.py:94
+#: apps.py:16 permissions.py:6 settings.py:94
 msgid "Templating"
 msgstr "དཔེ་སྒྲོམ་བཟོ་བ།"
 
-#: apps.py:39
+#: apps.py:23
 msgid "Current date and time"
 msgstr "ད་ལྟའི་ཚེས་གྲངས་དང་དུས་ཚོད།"
+
+#: classes.py:83
+#, python-format
+msgid "Model `%s` is not available for template sandbox."
+msgstr "དཔེ་གཟུགས་` %s ` ནི་ཊེམ་པེལེཊ་བྱེ་སྒམ་གྱི་ཆེད་དུ་མེད་པ་རེད།"
 
 #: fields.py:28
 msgid "Use Django's default templating language. "
@@ -41,7 +46,7 @@ msgstr "ཐོབ་ཐང་ཡོད་པའི་དཔེ་སྒྲོམ
 msgid "Resulting text from the evaluated template."
 msgstr "དཔྱད་ཞིབ་བྱས་པའི་དཔེ་སྒྲོམ་ནས་ཐོན་པའི་ཡིག་ཆ།"
 
-#: forms.py:11
+#: forms.py:11 serializers.py:24
 msgid "Result"
 msgstr "མཐའ་འབྲས"
 
@@ -49,17 +54,17 @@ msgstr "མཐའ་འབྲས"
 msgid "The template string to be evaluated."
 msgstr "དཔྱད་ཞིབ་བྱེད་དགོས་པའི་དཔེ་སྒྲོམ་ཡིག་རྒྱུན།"
 
-#: forms.py:26
+#: forms.py:26 serializers.py:27
 msgid "Template"
-msgstr "དཔེ་གཞི།"
+msgstr "དཔེ་སྒྲོམ།"
 
-#: links.py:10
+#: links.py:12
 msgid "Sandbox"
 msgstr "བྱེ་སྒམ།"
 
 #: permissions.py:10
 msgid "Use the template sandbox"
-msgstr "དཔེ་སྒྲོམ་གྱི་བྱེ་སྒམ་སྤྱོད།"
+msgstr "དཔེ་སྒྲོམ་བྱེ་སྒམ་བེད་སྤྱོད་བྱེད།"
 
 #: serializers.py:8
 msgid "Hex hash"
@@ -82,14 +87,15 @@ msgid ""
 "Theme name of the CSS stylesheet used to change the visual appearance of the"
 " template preview."
 msgstr ""
-"ཊེམ་པེལེཊི་སྔོན་ལྟའི་མངོན་ཚུལ་བསྒྱུར་བཅོས་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་CSSབཟོ་རྣམ་ཤོག་ལྷེའི་བརྗོད་གཞིའི་མིང་།"
+"ཊེམ་པེལེཊི་སྔོན་ལྟའི་མཐོང་སྣང་བསྒྱུར་བཅོས་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་ CSS "
+"བཟོ་རྣམ་ཤོག་བུའི་བརྗོད་གཞིའི་མིང་།"
 
-#: views.py:44
+#: views.py:59
 #, python-format
 msgid "Template sandbox for: %s"
 msgstr "དཔེ་སྒྲོམ་གྱི་བྱེ་སྒམ %s"
 
-#: views.py:66
+#: views.py:86
 #, python-format
 msgid "Template error; %(exception)s"
 msgstr "དཔེ་སྒྲོམ་གྱི་ནོར་འཁྲུལ།; %(exception)s"

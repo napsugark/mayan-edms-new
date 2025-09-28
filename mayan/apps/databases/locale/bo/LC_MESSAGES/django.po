@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"POT-Creation-Date: 2025-08-27 11:22+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Language: bo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: apps.py:16
+#: apps.py:22
 msgid "Databases"
 msgstr "གཞི་གྲངས་མཛོད་ཁང་།"
 
@@ -32,23 +32,67 @@ msgstr "དངོས་པོ་དེ་གནས་སྟངས་ཕྱིར
 msgid "Has a condition?"
 msgstr "ཆ་རྐྱེན་ཞིག་ཡོད་དམ།"
 
-#: classes.py:82
+#: classes.py:87
+msgid "Description"
+msgstr "བཀོད་པ།"
+
+#: classes.py:92 classes.py:277
+msgid "Label"
+msgstr "ལག་ཁྱེར་།"
+
+#: classes.py:97
+msgid "Example usage of the property."
+msgstr "དཔེ་མཚོན་རྒྱུ་ནོར་གྱི་བེད་སྤྱོད།"
+
+#: classes.py:98 classes.py:282
+msgid "Name"
+msgstr "མིང"
+
+#: classes.py:102
 msgid "Model fields"
 msgstr "དཔེ་སྟོན་ས་ཁོངས།"
 
-#: classes.py:130
+#: classes.py:149
 msgid "Model related fields"
 msgstr "དཔེ་སྟོན་དང་འབྲེལ་བའི་ཁྱབ་ཁོངས།"
 
-#: classes.py:135
+#: classes.py:154
 msgid "Model properties"
 msgstr "དཔེ་གཟུགས་ཀྱི་ཁྱད་ཆོས།"
 
-#: classes.py:140
+#: classes.py:159
 msgid "Model reverse fields"
 msgstr "དཔེ་གཞི་ལྡོག་ཕྱོགས་ཀྱི་ས་ཁོངས།"
 
-#: literals.py:12
+#: classes.py:264
+msgid "Name of the app where the model is defined."
+msgstr "དཔེ་གཟུགས་ངེས་ཚིག་བཀོད་པའི་མཉེན་ཆས་ཀྱི་མིང་།"
+
+#: classes.py:265
+msgid "App"
+msgstr "མཉེན་ཆས།"
+
+#: classes.py:270
+msgid "Complete unique name of the model."
+msgstr "དཔེ་གཟུགས་ཀྱི་ཐུན་མོང་མ་ཡིན་པའི་མིང་ཆ་ཚང་།"
+
+#: classes.py:271
+msgid "Full name"
+msgstr "མིང་ཆ་ཚང་།"
+
+#: classes.py:276
+msgid "Human readable name of the model."
+msgstr "དཔེ་གཟུགས་ཀྱི་མིས་ཀློག་ཐུབ་པའི་མིང་།"
+
+#: links.py:12
+msgid "Properties"
+msgstr "ཁྱད་ཆོས།"
+
+#: links.py:15
+msgid "Property models"
+msgstr "རྒྱུ་ནོར་དཔེ་སྟོན།"
+
+#: literals.py:16
 msgid ""
 "Your database backend is set to use SQLite. SQLite should only be used for "
 "development and testing, not for production."
@@ -75,3 +119,16 @@ msgstr "ཆ་རྐྱེན"
 #: templates/databases/app/viewport.html:11
 msgid "Warning"
 msgstr "ཉེན་བརྡ"
+
+#: views.py:27
+msgid "No properties available"
+msgstr "རྒྱུ་ནོར་གང་ཡང་མེད།"
+
+#: views.py:29
+#, python-format
+msgid "Properties for model: %s"
+msgstr "དཔེ་གཟུགས་ཀྱི་ཁྱད་ཆོས %s"
+
+#: views.py:49
+msgid "Models with registered properties"
+msgstr "ཐོ་འགོད་བྱས་པའི་རྒྱུ་ནོར་ཡོད་པའི་དཔེ་གཞི།"

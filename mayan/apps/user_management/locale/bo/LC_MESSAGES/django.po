@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"POT-Creation-Date: 2025-01-20 12:33+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -24,69 +24,77 @@ msgstr ""
 msgid "User management"
 msgstr "སྤྱོད་མཁན་དོ་དམ།"
 
-#: apps.py:75 search.py:10
-msgid "Group"
-msgstr "ཚོགས་པ"
+#: apps.py:75 search.py:16
+msgid "Name"
+msgstr "མིང"
 
-#: apps.py:76 apps.py:115 links.py:55 links.py:69 links.py:98 search.py:34
+#: apps.py:78 search.py:10
+msgid "Group"
+msgstr "སྡེ་ཚན།"
+
+#: apps.py:79 apps.py:117 links.py:55 links.py:64 links.py:98 search.py:34
 #: views/group_views.py:111
 msgid "Groups"
 msgstr "སྡེ་ཚན།"
-
-#: apps.py:78 search.py:16
-msgid "Name"
-msgstr "མིང"
 
 #: apps.py:104 models.py:20 search.py:22
 msgid "User"
 msgstr "བེད་སྤྱོད་པ་།"
 
-#: apps.py:105 apps.py:238 links.py:60 links.py:101 links.py:113
+#: apps.py:105 apps.py:243 links.py:69 links.py:101 links.py:113
 #: views/user_views.py:178
 msgid "Users"
 msgstr "སྤྱོད་མཁན།"
 
-#: apps.py:109 search.py:31
+#: apps.py:108 search.py:31
 msgid "Email"
 msgstr "གློག་འཕྲིན།"
 
-#: apps.py:113 search.py:28
+#: apps.py:112 search.py:28
 msgid "First name"
 msgstr "མིང"
 
-#: apps.py:119
-msgid "Is active?"
-msgstr "ཤུགས་ལྡན་ཡིན་ནམ།"
+#: apps.py:115
+msgid "The given name of the user."
+msgstr "སྤྱོད་མཁན་གྱི་སྤྲད་པའི་མིང་།"
 
-#: apps.py:122
-msgid "Is super user?"
-msgstr "བེད་སྤྱོད་པ་ཆེན་པོ་རེད་དམ།"
-
-#: apps.py:125 search.py:37
-msgid "Last name"
-msgstr "རུས་མིང"
-
-#: apps.py:128 serializers.py:72
-msgid "Password"
-msgstr "གསང་གྲངས"
-
-#: apps.py:131 search.py:40
-msgid "Username"
-msgstr "སྤྱོད་མཁན་གྱི་མིང་།"
-
-#: apps.py:134
+#: apps.py:121
 msgid "Last login"
 msgstr "ནང་འཇུག་མཐའ་མ།"
 
-#: apps.py:166
+#: apps.py:124
+msgid "The family name of the user."
+msgstr "སྤྱོད་མཁན་གྱི་ཁྱིམ་མིང་།"
+
+#: apps.py:127 search.py:37
+msgid "Last name"
+msgstr "རུས་མིང"
+
+#: apps.py:130
+msgid "Is active?"
+msgstr "ཤུགས་ལྡན་ཡིན་ནམ།"
+
+#: apps.py:133
+msgid "Is super user?"
+msgstr "བེད་སྤྱོད་པ་ཆེན་པོ་རེད་དམ།"
+
+#: apps.py:136 serializers.py:72
+msgid "Password"
+msgstr "གསང་གྲངས"
+
+#: apps.py:139 search.py:40
+msgid "Username"
+msgstr "སྤྱོད་མཁན་གྱི་མིང་།"
+
+#: apps.py:171
 msgid "Has usable password?"
 msgstr "བེད་སྤྱོད་གཏོང་ཆོག་པའི་གསང་གྲངས་ཡོད་དམ།"
 
-#: apps.py:173
+#: apps.py:178
 msgid "All the groups"
 msgstr "སྡེ་ཚན་ཚང་མ།"
 
-#: apps.py:177
+#: apps.py:182
 msgid "All the users"
 msgstr "སྤྱོད་མཁན་ཚང་མ།"
 
@@ -134,7 +142,7 @@ msgstr "སྤྱོད་མཁན་གྱི་ཞིབ་ཕྲ།"
 msgid "Create new group"
 msgstr "སྡེ་ཚན་གསར་བ་གསར་འཛུགས།"
 
-#: links.py:43 links.py:46 links.py:83 links.py:87
+#: links.py:41 links.py:47 links.py:81 links.py:87
 msgid "Delete"
 msgstr "བསུབ་པ།"
 
@@ -176,7 +184,7 @@ msgstr "སྤྱོད་མཁན་གྱི་སྒྲིག་བཀོད
 
 #: permissions.py:10
 msgid "Create new groups"
-msgstr "སྡེ་ཚན་གསར་བ་གསར་འཛུགས་བྱེད་པ།"
+msgstr "སྡེ་ཚན་གསར་འཛུགས་བྱེད་པ།"
 
 #: permissions.py:13
 msgid "Delete existing groups"
@@ -228,7 +236,7 @@ msgstr "URL །"
 
 #: serializers.py:48
 msgid "Primary key of the user to add to the group."
-msgstr "སྡེ་ཚན་ནང་ཁ་སྣོན་བྱེད་པའི་སྤྱོད་མཁན་གྱི་ལྡེ་མིག་གཙོ་བོ།"
+msgstr "སྡེ་ཚན་ལ་ཁ་སྣོན་བྱེད་པའི་སྤྱོད་མཁན་གྱི་ལྡེ་མིག་གཙོ་བོ།"
 
 #: serializers.py:49 serializers.py:58
 msgid "User ID"
@@ -241,7 +249,7 @@ msgstr "སྡེ་ཚན་ནས་ཕྱིར་འཐེན་བྱེད
 #: serializers.py:66
 msgid "URL of the API endpoint showing the list groups this user belongs to."
 msgstr ""
-"བཀོལ་སྤྱོད་པ་འདི་གང་ལ་གཏོགས་པའི་ཐོ་གཞུང་སྡེ་ཚན་སྟོན་པའི་APIམཐའ་མཚམས་ཀྱི་URLཡིན།"
+"བེད་སྤྱོད་པ་འདི་གང་ལ་གཏོགས་པའི་ཐོ་གཞུང་སྡེ་ཚན་སྟོན་པའི་APIམཐའ་མཚམས་ཀྱི་URLཡིན།"
 
 #: serializers.py:68
 msgid "Groups URL"
@@ -279,7 +287,7 @@ msgstr "འདེམས་སྒྲུག་བྱས་པའི་སྡེ་
 #: views/group_views.py:51
 #, python-format
 msgid "Delete group: %(object)s."
-msgstr "སྡེ་ཚན། %(object)s །"
+msgstr "སྡེ་ཚན %(object)s"
 
 #: views/group_views.py:52
 #, python-format
@@ -303,9 +311,9 @@ msgid ""
 "roles for permissions and access control, add groups to them."
 msgstr ""
 "སྤྱོད་མཁན་གྱི་སྡེ་ཚན་ནི་སྒྲིག་འཛུགས་ཀྱི་སྡེ་ཚན་ཡིན། "
-"ཁོང་ཚོས་ཁྱེད་རང་གི་ཚོགས་པའི་སྒྲིག་འཛུགས་ཀྱི་སྡེ་ཚན་ལ་མེ་ལོང་བསྟན་དགོས། "
+"ཁོང་ཚོས་ཁྱེད་རང་གི་ཚོགས་པའི་སྒྲིག་འཛུགས་ཀྱི་སྡེ་ཚན་ལ་མེ་ལོང་ལྟ་དགོས། "
 "སྡེ་ཚན་ཁག་གིས་འཛུལ་སྤྱོད་ཚོད་འཛིན་བྱེད་པར་བེད་སྤྱོད་གཏོང་མི་ཐུབ། "
-"ཆོག་མཆན་དང་འཛུལ་སྤྱོད་ཚོད་འཛིན་ཆེད་དུ་འགན་འཁྲི་བེད་སྤྱོད་བྱེད་པ་དང་། "
+"ཆོག་མཆན་དང་འཛུལ་སྤྱོད་ཚོད་འཛིན་གྱི་ལས་འགན་བེད་སྤྱོད་བྱེད་པ་དང་། "
 "དེ་དག་ལ་སྡེ་ཚན་ཁ་སྣོན་བྱེད།"
 
 #: views/group_views.py:110
@@ -401,7 +409,7 @@ msgid ""
 "you will prompted to set a password for it. "
 msgstr ""
 "མཐོང་སྣང་འདི་ནས་སྤྱོད་མཁན་གྱི་རྩིས་ཁྲ་གསར་འཛུགས་བྱེད་ཐུབ། "
-"བཀོལ་སྤྱོད་པའི་རྩིས་ཁྲ་གསར་འཛུགས་བྱས་རྗེས་ཁྱེད་ལ་གསང་ཚིག་སྒྲིག་དགོས་པའི་བརྡ་སྟོན་བྱེད།"
+"བཀོལ་སྤྱོད་པའི་རྩིས་ཁྲ་གསར་འཛུགས་བྱས་རྗེས་ཁྱེད་ལ་གསང་གྲངས་སྒྲིག་དགོས་པའི་བརྡ་སྟོན་བྱེད།"
 " "
 
 #: views/user_views.py:177

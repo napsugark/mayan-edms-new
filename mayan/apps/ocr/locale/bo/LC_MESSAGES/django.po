@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 12:51+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -25,22 +25,22 @@ msgstr ""
 msgid "OCR"
 msgstr "OCR"
 
-#: apps.py:121
+#: apps.py:122
 msgid "The OCR content."
 msgstr "OCRནང་དོན།"
 
-#: apps.py:126
+#: apps.py:127 apps.py:134
 msgid "A generator returning the document's version pages OCR content."
 msgstr ""
 "ཡིག་ཆའི་ཐོན་རིམ་ཤོག་ངོས་ཀྱི་OCRནང་དོན་སླར་ལོག་བྱེད་པའི་འཕྲུལ་ཆས་ཤིག་རེད།"
 
-#: apps.py:128
+#: apps.py:129 apps.py:136
 msgid "OCR content"
 msgstr "OCRནང་དོན།"
 
-#: backends/tesseract.py:82
+#: backends/tesseract.py:89
 msgid "Tesseract OCR not found."
-msgstr "ཊེས་སེ་རེག་ཊི་OCRམ་རྙེད།"
+msgstr "ཊེ་སེ་རེག་ཊི་OCRརྙེད་མ་སོང་།"
 
 #: dependencies.py:24
 msgid "Free Open Source OCR Engine"
@@ -89,7 +89,7 @@ msgstr "OCRཡི་གེ་ཕབ་ལེན་བྱེད་པ།"
 
 #: links.py:64 links.py:69
 msgid "Submit for OCR"
-msgstr "OCR ཆེད་དུ་ཕུལ་བ།"
+msgstr "OCR ལ་ཕུལ་བ།"
 
 #: links.py:85
 msgid "Edit OCR"
@@ -269,8 +269,8 @@ msgid ""
 msgstr ""
 "ཡིག་ཆའི་ཤོག་ངོས་ཀྱི་OCRནང་དོན་བསྒྱུར་བཅོས་བྱེད་མིན་གཏན་འབེབས་བྱེད་པའི་ཆ་རྐྱེན།"
 " གནས་སྟངས་དེ་བསྐྱར་ལོག་ཡིག་ཆའི་ཤོག་ངོས་ལ་གཞི་བཅོལ་ནས་བརྟག་དཔྱད་བྱས། "
-"གནས་གོང་གང་རུང་སླར་ལོག་མི་བྱེད་པའི་གནས་སྟངས་དང་པའེ་ཐོན་གཏན་ཚིག་ཅན་གྱི་གང་ཡང་སླར་ལོག་མི་ཡང་ན་ཡིག་རྒྱུན་སྟོང་པ་(&#39;&#39;)དེ་གཏན་ཚིག་གི་རྫུན་མ་ཡིན་པར་བརྩི།"
-" གནས་གོང་གཞན་གང་རུང་ཞིག་གཏན་ཚིག་གི་བདེན་པ་ལ་བརྩི།"
+"གནས་གོང་གང་རུང་སླར་ལོག་མི་བྱེད་པའི་གནས་སྟངས་དང་པའེ་ཐོན་གཏན་ཚིག་ཅན་གྱི་གང་ཡང་སླར་ལོག་མི་ཡང་ན་ཡིག་རྒྱུན་སྟོང་པ་(&#39;&#39;)དེ་གཏན་ཚིགས་རྫུན་མ་ཡིན་པར་བརྩི།"
+" གནས་གོང་གཞན་གང་རུང་ཞིག་གཏན་ཚིག་བདེན་པ་ཡིན་པར་བརྩི།"
 
 #: workflow_actions.py:34
 msgid "Page content"

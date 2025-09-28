@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -52,7 +52,7 @@ msgstr "ལས་སྣོན་བྱེད་པར་གསོག་འཇོ
 msgid ""
 "Execute source backend specific, built-in post processing clean up code."
 msgstr ""
-"ཐོན་ཁུངས་རྒྱབ་ཕྱོགས་དམིགས་བསལ་གྱི་ནང་འཇུག་བྱས་པའི་རྗེས་ཀྱི་ལས་སྣོན་གཙང་བཟོའི་གསང་གྲངས་ལག་བསྟར་བྱེད།"
+"ཐོན་ཁུངས་རྒྱབ་ཕྱོགས་དམིགས་བསལ་དང་ནང་འཇུག་རྗེས་ཀྱི་ལས་སྣོན་གཙང་བཟོའི་གསང་གྲངས་ལག་བསྟར་བྱེད།"
 
 #: source_backend_actions/arguments.py:18
 msgid ""
@@ -124,7 +124,7 @@ msgstr "གསོག་འཇོག་རྒྱབ་ཕྱོགས་ཀྱི
 msgid "Unable to initialize storage. Check the storage backend arguments."
 msgstr ""
 "གསོག་འཇོག་འགོ་འཛུགས་བྱེད་མི་ཐུབ། "
-"གསོག་འཇོག་རྒྱབ་ཕྱོགས་ཀྱི་སྒྲུབ་བྱེད་ལ་ཞིབ་བཤེར་བྱེད།"
+"གསོག་འཇོག་རྒྱབ་ཕྱོགས་ཀྱི་སྒྲུབ་བྱེད་ལ་ཞིབ་བཤེར་བྱས།"
 
 #: source_backends/storage_backend_source_mixins.py:116
 msgid "Unable to initialize storage. Check the storage backend dotted path."
@@ -177,7 +177,7 @@ msgid ""
 "specified preview width."
 msgstr ""
 "མཐོ་ཚད་ཀྱི་རིན་ཐང་དེ་པར་རིས་སྒྱུར་ཆས་ཀྱི་རྒྱབ་ཕྱོགས་ལ་སྤྲོད་དགོས། "
-"པར་རིས་སྒྱུར་ཆས་ཀྱིས་གསལ་བཀོད་བྱས་པའི་སྔོན་ལྟའི་རྒྱ་ཚད་ཀྱི་ཆ་སྙོམས་ཡང་དག་རྩིས་རྒྱག་ཆེད་དུ་སྟོང་ཆ་བཞག"
+"པར་རིས་སྒྱུར་ཆས་ཀྱིས་གསལ་བཀོད་བྱས་པའི་སྔོན་ལྟའི་རྒྱ་ཚད་ཀྱི་ཆ་ཚད་ཡང་དག་རྩིས་རྒྱག་ཆེད་དུ་སྟོང་ཆ་བཞག"
 
 #: source_backends/stored_file_mixins.py:211
 msgid "Preview height"
@@ -188,7 +188,7 @@ msgid ""
 "Maximum file size in bytes for which previews will be generated. Example: "
 "20000 = 20KB."
 msgstr ""
-"སྔོན་ལྟའི་ཆེས་མཐོའི་ཡིག་ཆའི་ཚད་ནི་བཱའིཊི་ནང་ཡིན། དཔེར་ན། 20000 = 20KB ཡིན།"
+"སྔོན་ལྟའི་ཆེས་མཐོའི་ཡིག་ཆའི་ཚད་དེ་བའིཊི་ནང་ཡིན། དཔེར་ན། 20000 = 20KB ཡིན།"
 
 #: source_backends/stored_file_mixins.py:221
 msgid "Max size preview"

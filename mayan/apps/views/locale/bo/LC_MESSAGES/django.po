@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 12:51+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"POT-Creation-Date: 2025-01-20 12:33+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -20,11 +20,11 @@ msgstr ""
 "Language: bo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: apps.py:16 settings.py:10
+#: apps.py:22 settings.py:10
 msgid "Views"
 msgstr "ལྟ་ཚུལ།"
 
-#: generics.py:167
+#: generics.py:168
 msgid ""
 "Select entries to be removed. Hold Control to select multiple entries. Once "
 "the selection is complete, click the button below or double click the list "
@@ -35,7 +35,7 @@ msgstr ""
 "འདེམས་སྒྲུག་མཇུག་སྒྲིལ་རྗེས་གཤམ་གྱི་མཐེབ་གཞོང་ལ་སྣུན། "
 "ཡང་ན་ཐོ་གཞུང་ལ་སྣུན་ཐེངས་གཉིས་བྱས་ནས་བྱ་སྤྱོད་དེ་ཤུགས་སྣོན་རྒྱོབ།"
 
-#: generics.py:172
+#: generics.py:173
 msgid ""
 "Select entries to be added. Hold Control to select multiple entries. Once "
 "the selection is complete, click the button below or double click the list "
@@ -46,104 +46,102 @@ msgstr ""
 "འདེམས་སྒྲུག་མཇུག་སྒྲིལ་རྗེས་གཤམ་གྱི་མཐེབ་གཞོང་ལ་སྣུན། "
 "ཡང་ན་ཐོ་གཞུང་ལ་སྣུན་ཐེངས་གཉིས་བྱས་ནས་བྱ་སྤྱོད་དེ་ཤུགས་སྣོན་རྒྱོབ།"
 
-#: generics.py:326
+#: generics.py:327
 msgid "Add all"
 msgstr "ཚང་མ་ཁ་སྣོན་བྱེད་པ།"
 
-#: generics.py:333
+#: generics.py:334
 msgid "Add"
 msgstr "སྣོན་པ"
 
-#: generics.py:344
+#: generics.py:345
 msgid "Remove all"
 msgstr "ཚང་མ་མེད་པར་བཟོས།"
 
-#: generics.py:351
+#: generics.py:352
 msgid "Remove"
 msgstr "སེལ་བ"
 
-#: generics.py:580
+#: generics.py:570
 #, python-format
 msgid "Error updating relationship; %s"
 msgstr "འབྲེལ་ལམ་གསར་བརྗེ་བྱེད་པའི་ནོར་འཁྲུལ། %s"
 
-#: generics.py:587
+#: generics.py:577
 msgid "Relationships updated successfully"
 msgstr "འབྲེལ་ལམ་གསར་བརྗེ་ལེགས་གྲུབ་བྱུང་བ།"
 
-#: generics.py:650
+#: generics.py:640
 #, python-format
 msgid "Duplicate data error: %(error)s"
 msgstr "གཞི་གྲངས་འདྲ་མཚུངས་ནོར་འཁྲུལ། %(error)s"
 
-#: generics.py:669
+#: generics.py:659
 #, python-format
 msgid "%(object)s not created, error: %(error)s"
 msgstr "%(object)s གསར་བཟོ་བྱས་མེད། ནོར་འཁྲུལ།: %(error)s"
 
-#: generics.py:680
+#: generics.py:670
 #, python-format
 msgid "%(object)s created successfully."
 msgstr "%(object)s མཐར་ཕྱིན་ངང་གསར་བཟོ་བྱས།"
 
-#: generics.py:724
-#, python-format
-msgid "%(object)s not deleted, error: %(error)s."
-msgstr "%(object)s %(error)s བསུབས་མེད། ནོར་འཁྲུལ།"
-
-#: generics.py:734
-#, python-format
-msgid "%(object)s deleted successfully."
-msgstr "%(object)s མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
-
-#: generics.py:797
+#: generics.py:761
 #, python-format
 msgid "Error retrieving %(object)s; %(error)s"
 msgstr "%(object)s འཚོལ་སྡུད་བྱེད་པའི་ནོར་འཁྲུལ། %(error)s"
 
-#: generics.py:858
+#: generics.py:822
 #, python-format
 msgid "%(object)s not updated, error: %(error)s."
 msgstr "%(object)s གསར་བརྗེ་མ་བྱས། ནོར་འཁྲུལ། %(error)s །"
 
-#: generics.py:868
+#: generics.py:832
 #, python-format
 msgid "%(object)s updated successfully."
 msgstr "%(object)s གསར་བརྗེ་ལེགས་འགྲུབ་བྱུང་ཡོད།"
 
-#: generics.py:935
+#: generics.py:899
 #, python-format
 msgid "%(count)d objects deleted successfully."
 msgstr "%(count)d དངོས་པོ་རྣམས་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
 
-#: generics.py:936
+#: generics.py:900
 #, python-format
 msgid "\"%(object)s\" deleted successfully."
 msgstr "&quot; %(object)s &quot; མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
 
-#: generics.py:937
+#: generics.py:901
 #, python-format
 msgid "%(count)d object deleted successfully."
-msgstr "དངོས་པོ་དེ་མཐར་ཕྱིན་ %(count)d །"
+msgstr "%(count)d དངོས་པོ་དེ་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
 
-#: generics.py:938
+#: generics.py:902
 #, python-format
 msgid "Delete %(count)d objects."
 msgstr "%(count)d དངོས་པོ་བསུབས་དགོས།"
 
-#: generics.py:939
+#: generics.py:903
 #, python-format
 msgid "Delete \"%(object)s\"."
 msgstr "&quot; %(object)s &quot; བསུབས་དགོས།"
 
-#: generics.py:940
+#: generics.py:904
 #, python-format
 msgid "Delete %(count)d object."
 msgstr "%(count)d དངོས་པོ་སུབ།"
 
-#: links.py:13
+#: links.py:15 links.py:21
+msgid "Delete"
+msgstr "བསུབ་པ།"
+
+#: links.py:27
+msgid "Confirm views"
+msgstr "ལྟ་ཚུལ་གཏན་འཁེལ་བྱེད་པ།"
+
+#: links.py:33
 msgid "View modes"
-msgstr "ཐབས་ལམ་ལྟ་བ།"
+msgstr "རྣམ་པ་ལྟ་བ།"
 
 #: literals.py:10
 msgid "Items"
@@ -153,53 +151,65 @@ msgstr "རྣམ་གྲངས"
 msgid "List"
 msgstr "རེའུ་མིག"
 
-#: model_mixins.py:14 model_mixins.py:22
+#: model_mixins.py:14 model_mixins.py:23
 msgid "The app to which the view belongs."
 msgstr "མཐོང་སྣང་དེ་གང་ལ་གཏོགས་པའི་མཉེན་ཆས་དེ།"
 
-#: model_mixins.py:15 model_mixins.py:23
+#: model_mixins.py:15 model_mixins.py:25
 msgid "App"
 msgstr "མཉེན་ཆས།"
 
-#: model_mixins.py:31
+#: model_mixins.py:41
 #, python-format
 msgid "Unknown mode: %s"
 msgstr "མ་ཤེས་པའི་ཐབས་ %s"
 
-#: model_mixins.py:33
+#: model_mixins.py:43
 msgid "The current mode of the view."
 msgstr "ད་ལྟའི་མཐོང་སྣང་གི་ཐབས་ལམ།"
 
-#: model_mixins.py:34 models.py:24
+#: model_mixins.py:44 models.py:56
 msgid "Value"
 msgstr "རིན་ཐང"
 
-#: models.py:10
+#: models.py:13 models.py:42
 msgid "Namespace"
 msgstr "མིང་གི་བར་སྟོང་།"
 
-#: models.py:14
+#: models.py:17 models.py:46
 msgid "Full name of the view including the namespace."
 msgstr "མིང་གནས་ཚུད་པའི་མཐོང་སྣང་གི་མིང་ཆ་ཚང་།"
 
-#: models.py:15
+#: models.py:18 models.py:47
 msgid "Name"
 msgstr "མིང"
 
-#: models.py:19
+#: models.py:22 models.py:51
 msgid "User"
 msgstr "བེད་སྤྱོད་པ་།"
 
-#: models.py:23
+#: models.py:26
+msgid "Remember the last confirmation of the view."
+msgstr "ལྟ་བ་མཐའ་མའི་གཏན་འཁེལ་དྲན་པར་བྱའོ།"
+
+#: models.py:27
+msgid "Remember"
+msgstr "ཡིད་ལ་ཤར་བ"
+
+#: models.py:36 models.py:37
+msgid "User confirm view"
+msgstr "སྤྱོད་མཁན་གྱིས་གཏན་འཁེལ་ལྟ་བ།"
+
+#: models.py:55
 msgid "Stored value used to identify the display mode of the view."
 msgstr ""
 "མཐོང་སྣང་གི་བཀྲམ་སྟོན་ཐབས་ལམ་ངོས་འཛིན་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་གསོག་འཇོག་བྱས་པའི་རིན་ཐང་།"
 
-#: models.py:30
+#: models.py:62
 msgid "User view mode"
 msgstr "སྤྱོད་མཁན་གྱི་མཐོང་ཚུལ་ཐབས་ལམ།"
 
-#: models.py:31
+#: models.py:63
 msgid "User view modes"
 msgstr "སྤྱོད་མཁན་གྱི་མཐོང་སྣང་ཐབས་ལམ།"
 
@@ -239,60 +249,121 @@ msgstr "རྩོམ་སྒྲིག: %s"
 msgid "Create"
 msgstr "གསར་བསྐྲུན"
 
-#: view_mixins.py:389
+#: view_mixins.py:390
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
 msgstr "འདྲི་རྩད་དང་མཐུན་པའི་ %(verbose_name)s རྙེད་མེད།"
 
-#: view_mixins.py:415
+#: view_mixins.py:416
 #, python-format
 msgid "Unable to perform operation on object %(instance)s; %(exception)s."
 msgstr "དངོས་པོ་ %(instance)s ཐོག་བཀོལ་སྤྱོད་བྱེད་མི་ཐུབ། %(exception)s །"
 
-#: view_mixins.py:419
+#: view_mixins.py:420
 #, python-format
 msgid "Operation performed on %(count)d objects."
 msgstr "བཀོལ་སྤྱོད་དེ་ %(count)d དངོས་པོའི་ཐོག་ལ་སྤེལ་ཡོད།"
 
-#: view_mixins.py:421
+#: view_mixins.py:422
 #, python-format
 msgid "Operation performed on %(object)s."
 msgstr "བཀོལ་སྤྱོད་དེ་ %(object)s ཐོག་ལ་སྤེལ་ཡོད།"
 
-#: view_mixins.py:423
+#: view_mixins.py:424
 #, python-format
 msgid "Operation performed on %(count)d object."
 msgstr "བཀོལ་སྤྱོད་དེ་ %(count)d དངོས་པོའི་སྟེང་དུ་སྤེལ་ཡོད།"
 
-#: view_mixins.py:425
+#: view_mixins.py:426
 #, python-format
 msgid "Perform operation on %(count)d objects."
 msgstr "%(count)d དངོས་པོའི་ཐོག་བཀོལ་སྤྱོད་བྱེད།"
 
-#: view_mixins.py:426
+#: view_mixins.py:427
 #, python-format
 msgid "Perform operation on %(object)s."
 msgstr "%(object)s ཐོག་བཀོལ་སྤྱོད་བྱེད།"
 
-#: view_mixins.py:427
+#: view_mixins.py:428
 #, python-format
 msgid "Perform operation on %(count)d object."
 msgstr "%(count)d དངོས་པོའི་ཐོག་བཀོལ་སྤྱོད་བྱེད།"
 
-#: view_mixins.py:512
+#: view_mixins.py:513
 msgid "Object"
 msgstr "བྱ་བའི་ཡུལ"
 
-#: views.py:31
+#: view_mixins.py:734
+#, python-format
+msgid "%(object)s not deleted, error: %(error)s."
+msgstr "%(object)s %(error)s བསུབས་མེད། ནོར་འཁྲུལ།"
+
+#: view_mixins.py:744
+#, python-format
+msgid "%(object)s deleted successfully."
+msgstr "%(object)s མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views.py:21
+#, python-format
+msgid "Error deleting confirm view \"%(instance)s\"; %(exception)s"
+msgstr ""
+"བདེན་དཔང་མཐོང་སྣང་བསུབས་པའི་ནོར་འཁྲུལ་ &quot; %(instance)s &quot;; "
+"%(exception)s"
+
+#: views.py:26
+#, python-format
+msgid "%(count)d confirm view properties deleted successfully."
+msgstr "མཐོང་སྣང་རྒྱུ་ཆ་ལེགས་འགྲུབ་བྱུང་བ་ %(count)d"
+
+#: views.py:29
+#, python-format
+msgid "Confirm view property \"%(object)s\" deleted successfully."
+msgstr ""
+"མཐོང་སྣང་རྒྱུ་དངོས་ &quot; %(object)s &quot; "
+"མཐར་ཕྱིན་ངང་བསུབས་ཡོད་པར་གཏན་འཁེལ་བྱེད།"
+
+#: views.py:32
+#, python-format
+msgid "%(count)d confirm view property deleted successfully."
+msgstr "མཐོང་སྣང་རྒྱུ་ནོར་དེ་མཐར་ཕྱིན་ %(count)d བསུབས་ཡོད་པར་གཏན་འཁེལ་བྱེད།"
+
+#: views.py:35 views.py:39
+#, python-format
+msgid "Delete the %(count)d selected confirm view property"
+msgstr ""
+"འདེམས་སྒྲུག་བྱས་པའི་གཏན་འཁེལ་མཐོང་སྣང་རྒྱུ་དངོས་ %(count)d བསུབས་དགོས།"
+
+#: views.py:37
+#, python-format
+msgid "Delete confirm view property: %(object)s"
+msgstr "བདེན་དཔང་མཐོང་སྣང་རྒྱུ་དངོས་སུབ་དགོས། %(object)s"
+
+#: views.py:67
+msgid ""
+"Persistent confirmation properties modes remember the user preferences for a"
+" given confirmation view."
+msgstr ""
+"རྟག་ཏུ་གཏན་འཁེལ་རྒྱུ་དངོས་ཐབས་ལམ་གྱིས་གཏན་འཁེལ་མཐོང་སྣང་སྤྲད་པའི་སྤྱོད་མཁན་གྱི་དགའ་མོས་དྲན་ཐུབ།"
+
+#: views.py:71
+msgid "No confirmation view properties available"
+msgstr "གཏན་འཁེལ་མཐོང་སྣང་གི་རྒྱུ་ཆ་མེད།"
+
+#: views.py:75
+#, python-format
+msgid "Confirmation view properties for user: %s"
+msgstr "བཀོལ་སྤྱོད་པའི་ཆེད་དུ་གཏན་འཁེལ་མཐོང་སྣང་རྒྱུ་ཆ། %s"
+
+#: views.py:100
 msgid "View modes control the format used to display a collection of objects."
 msgstr ""
 "མཐོང་སྣང་ཐབས་ལམ་གྱིས་དངོས་པོའི་བསྡུ་སྒྲིག་བཀྲམ་སྟོན་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་རྩ་སྒྲིག་ཚོད་འཛིན་བྱེད།"
 
-#: views.py:34
+#: views.py:103
 msgid "No view modes available"
 msgstr "ལྟ་བའི་ཐབས་ལམ་མེད།"
 
-#: views.py:37
+#: views.py:106
 #, python-format
 msgid "Persistent view modes for user: %s"
 msgstr "སྤྱོད་མཁན་གྱི་རྒྱུན་མཐུད་མཐོང་སྣང་ཐབས་ལམ། %s"

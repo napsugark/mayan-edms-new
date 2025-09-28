@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 23:59+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -20,60 +20,52 @@ msgstr ""
 "Language: bo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: admin.py:13 apps.py:169 serializers/file_metadata_serializers.py:16
+#: admin.py:13 apps.py:175 serializers/file_metadata_serializers.py:16
 msgid "Label"
 msgstr "ལག་ཁྱེར་།"
 
-#: apps.py:54 events.py:6 links.py:23 permissions.py:6 queues.py:7
+#: apps.py:56 apps.py:100 events.py:6 links.py:23 permissions.py:6 queues.py:7
 #: settings.py:12
 msgid "File metadata"
 msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ།"
 
-#: apps.py:108
-msgid "File metadata internal name"
-msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ནང་ཁུལ་གྱི་མིང་།"
-
-#: apps.py:112 search.py:15 search.py:26
-msgid "File metadata value"
-msgstr "ཡིག་ཆའི་གྲངས་ཐོའི་རིན་ཐང་།"
-
-#: apps.py:138 apps.py:144
+#: apps.py:144 apps.py:150
 msgid "Return the value of a specific file metadata."
 msgstr "བྱེ་བྲག་གི་ཡིག་ཆའི་མེ་ཊ་གཞི་གྲངས་ཀྱི་རིན་ཐང་ཕྱིར་ལོག་བྱེད།"
 
-#: apps.py:139 apps.py:145
+#: apps.py:145 apps.py:151
 msgid "File metadata value of"
 msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་རིན་ཐང་།"
 
-#: apps.py:174 serializers/file_metadata_serializers.py:19
+#: apps.py:180 serializers/file_metadata_serializers.py:19
 msgid "MIME types"
 msgstr "MIMEརིགས།"
 
-#: apps.py:178 models.py:97 models.py:152
+#: apps.py:184 models.py:97 models.py:152
 msgid "Internal name"
 msgstr "ནང་ཁུལ་གྱི་མིང་།"
 
-#: apps.py:182 serializers/file_metadata_serializers.py:13
+#: apps.py:188 serializers/file_metadata_serializers.py:13
 msgid "Description"
 msgstr "བཀོད་པ།"
 
-#: apps.py:186 model_mixins.py:48 models.py:54
+#: apps.py:192 model_mixins.py:48 models.py:54
 #: serializers/file_metadata_serializers.py:10
 msgid "Arguments"
 msgstr "རྩོད་པ།"
 
-#: apps.py:192
+#: apps.py:198
 msgid ""
 "Whether or not this driver will be enabled by default for new document "
 "types."
 msgstr ""
 "ཡིག་ཆའི་རིགས་གསར་པའི་ཆེད་དུ་སྒུལ་གཏོང་འདི་སྔོན་སྒྲིག་ལྟར་ལྕོགས་ཅན་བཟོ་རྒྱུ་ཡིན་ནམ་མིན།"
 
-#: apps.py:195
+#: apps.py:201
 msgid "Enabled by default?"
 msgstr "སྔོན་སྒྲིག་ལྟར་ལྕོགས་ཅན་བཟོས་ཡོད་དམ།"
 
-#: classes.py:207 model_mixins.py:36
+#: classes.py:209 model_mixins.py:36
 #, python-format
 msgid "Badly formatted arguments YAML; %s"
 msgstr "རྩ་སྒྲིག་ངན་པའི་སྒྲུབ་བྱེད་YAML; %s"
@@ -90,7 +82,7 @@ msgstr "ཡིག་ཆའི་ཡིག་ཆའི་ཡིག་ཆའི་
 msgid "Attributes"
 msgstr "ཁྱད་ཆོས།"
 
-#: links.py:36 links.py:41
+#: links.py:34 links.py:41
 msgid "Submit for file metadata"
 msgstr "ཡིག་ཆའི་མེ་ཊ་གྲངས་ཐོའི་ཆེད་དུ་ཕུལ་བ།"
 
@@ -236,11 +228,15 @@ msgstr "ཡིག་ཆའི་ཡིག་ཆའི་མེ་ཊ་གཞི
 
 #: queues.py:20
 msgid "Process file metadata driver"
-msgstr "ལས་སྣོན་ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་སྒུལ་གཏོང་འཕྲུལ་ཆས།"
+msgstr "ལས་སྦྱོར་ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་སྒུལ་གཏོང་སྒུལ་གཏོང་།"
 
 #: search.py:11 search.py:22
 msgid "File metadata key"
 msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་ལྡེ་མིག"
+
+#: search.py:15 search.py:26
+msgid "File metadata value"
+msgstr "ཡིག་ཆའི་གྲངས་ཐོའི་རིན་ཐང་།"
 
 #: serializers/document_file_serializers.py:21
 #: serializers/document_file_serializers.py:40
@@ -345,7 +341,7 @@ msgstr ""
 
 #: views/document_type_views.py:88
 msgid "No file metadata drivers available for this document type."
-msgstr "ཡིག་ཆའི་རིགས་འདི་ལ་ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་སྒུལ་གཏོང་མེད།"
+msgstr "ཡིག་ཆའི་རིགས་འདི་ལ་ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་སྒུལ་གཏོང་མཁན་མེད།"
 
 #: views/document_type_views.py:92
 #, python-format
@@ -374,7 +370,7 @@ msgstr ""
 
 #: views/tool_views.py:24
 msgid "No file metadata drivers available."
-msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་སྒུལ་གཏོང་མཁན་མེད།"
+msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་སྒུལ་གཏོང་མི་འདུག"
 
 #: views/tool_views.py:26
 msgid "File metadata drivers enabled and detected."

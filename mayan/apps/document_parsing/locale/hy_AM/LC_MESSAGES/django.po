@@ -4,15 +4,15 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ara Gasparyan, 2024
+# Ara Gasparyan, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-04 04:33+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Ara Gasparyan, 2024\n"
+"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: Ara Gasparyan, 2025\n"
 "Language-Team: Armenian (Armenia) (https://app.transifex.com/rosarior/teams/13584/hy_AM/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "A generator returning the document file's pages parsed content."
 msgstr ""
 
-#: apps.py:114 links.py:26 links.py:49 models.py:27 search.py:18
+#: apps.py:114 links.py:26 links.py:65 models.py:27 search.py:18
 msgid "Content"
 msgstr ""
 
@@ -59,7 +59,7 @@ msgstr ""
 msgid "Contents"
 msgstr ""
 
-#: links.py:32 links.py:37
+#: links.py:31 links.py:37
 msgid "Delete parsed content"
 msgstr ""
 
@@ -67,15 +67,15 @@ msgstr ""
 msgid "Download content"
 msgstr ""
 
-#: links.py:54 links.py:61
+#: links.py:48 links.py:55
 msgid "Submit for parsing"
 msgstr ""
 
-#: links.py:71
+#: links.py:75
 msgid "Setup parsing"
 msgstr ""
 
-#: links.py:80
+#: links.py:84
 msgid "Parse documents per type"
 msgstr ""
 

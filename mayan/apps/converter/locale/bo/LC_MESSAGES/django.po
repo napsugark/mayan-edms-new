@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -73,7 +73,7 @@ msgstr "རྒྱུ་ནོར་གསར་སྐྲུན་བྱས།"
 
 #: events.py:13
 msgid "Asset edited"
-msgstr "རྒྱུ་དངོས་རྩོམ་སྒྲིག་བྱས།"
+msgstr "རྒྱུ་ནོར་རྩོམ་སྒྲིག་བྱས།"
 
 #: forms.py:16
 msgid "Asset preview image"
@@ -129,7 +129,7 @@ msgstr "བསྒྱུར་བཅོས།"
 
 #: links.py:82
 msgid "Select new transformation"
-msgstr "སྒྱུར་བཅོས་གསར་པ་འདེམས།"
+msgstr "སྒྱུར་བཅོས་གསར་བ་འདེམས།"
 
 #: model_mixins.py:120
 msgid "Badly formatted arguments YAML"
@@ -285,14 +285,14 @@ msgid ""
 "deleting the oldest asset cache files. Specify the size in bytes."
 msgstr ""
 "CONVERTER_ASSET_CACHE_STORAGE_BACKEND "
-"གིས་རྒྱུ་ནོར་གྱི་མཛོད་ཡིག་ཆ་རྙིང་ཤོས་དེ་བསུབས་འགོ་ཚུགས་པའི་ཚད་གཞི། "
+"གིས་རྒྱུ་ནོར་གྱི་མཛོད་ཡིག་ཆ་རྙིང་ཤོས་བསུབས་འགོ་ཚུགས་པའི་ཚད་གཞི། "
 "ཚད་དེ་བཱའིཊི་ནང་གསལ་བཀོད་འབད།"
 
 #: settings.py:40
 msgid ""
 "Path to the Storage subclass to use when storing the cached asset files."
 msgstr ""
-"འདྲ་མཛོད་ཀྱི་རྒྱུ་ནོར་ཡིག་ཆ་གསོག་འཇོག་བྱེད་སྐབས་བེད་སྤྱོད་གཏོང་བའི་གསོག་འཇོག་སྡེ་ཚན་ཆུང་བ་ལ་འགྲོ་ལམ།"
+"མཛོད་སྒྲིག་བྱས་པའི་རྒྱུ་ནོར་ཡིག་ཆ་གསོག་འཇོག་བྱེད་སྐབས་བེད་སྤྱོད་གཏོང་བའི་གསོག་འཇོག་སྡེ་ཚན་ཆུང་བ་ལ་འགྲོ་ལམ།"
 
 #: settings.py:48
 msgid "Arguments to pass to the CONVERTER_ASSET_CACHE_STORAGE_BACKEND."
@@ -314,7 +314,7 @@ msgstr "པར་རིས་སྒྱུར་བཅོས་རྒྱབ་ཕ
 
 #: settings.py:73
 msgid "Configuration options for the graphics conversion backend."
-msgstr "རི་མོ་སྒྱུར་བཀོད་རྒྱབ་ཕྱོགས་ཀྱི་སྒྲིག་བཀོད་གདམ་ཁ།"
+msgstr "རི་མོ་སྒྱུར་བཅོས་རྒྱབ་ཕྱོགས་ཀྱི་སྒྲིག་བཀོད་གདམ་ཁ།"
 
 #: settings.py:80
 msgid "Time in seconds that the browser should cache the supplied image."
@@ -367,7 +367,7 @@ msgstr "པར་རིས་དེ་ཆུ་ཚོད་ཀྱི་གཡས
 
 #: transformation_mixins.py:20
 msgid "Rotation"
-msgstr "འཁོར་རྒྱུག"
+msgstr "འཁོར་རྒྱུག།"
 
 #: transformation_mixins.py:23
 msgid "Opacity level of the image in percent"
@@ -423,7 +423,7 @@ msgstr "མགོ་ནས་བརྒྱ་ཆའི་ནང་ལངས་པ
 
 #: transformation_mixins.py:222 transformations.py:224
 msgid "Paste an asset as watermark"
-msgstr "རྒྱུ་དངོས་ཤིག་ཆུ་རྟགས་ལྟར་སྦྱར།"
+msgstr "རྒྱུ་ནོར་ཞིག་ཆུ་རྟགས་ལྟར་སྦྱར།"
 
 #: transformation_mixins.py:228
 msgid "Horizontal start position in pixels from the left."
@@ -453,7 +453,7 @@ msgstr "ཞབས"
 
 #: transformation_mixins.py:247
 msgid "Horizontal position increments in pixels."
-msgstr "འཕྲེད་ལ་གནས་བབ་དེ་པིག་སེལ་ནང་འཕར་ཡོད།"
+msgstr "འཕྲེད་ཐིག་གནས་བབ་དེ་པིག་སེལ་ནང་འཕར་ཡོད།"
 
 #: transformation_mixins.py:248
 msgid "Horizontal increment"
@@ -505,7 +505,7 @@ msgstr "ཕྱི་ཐིག་རྒྱ་ཚད།"
 
 #: transformations.py:208
 msgid "Paste an asset (absolute coordinates)"
-msgstr "རྒྱུ་ནོར་ཞིག་སྦྱར་(ཆ་ཚང་སྦྲེལ་མཐུད)"
+msgstr "རྒྱུ་ནོར་ཞིག་སྦྱར་(མཐའ་མའི་སྦྲེལ་མཐུད)"
 
 #: transformations.py:216
 msgid "Paste an asset (percent coordinates)"
@@ -517,7 +517,7 @@ msgstr "ལོ་ཏོག"
 
 #: transformations.py:235
 msgid "Number of pixels to remove from the left."
-msgstr "གཡོན་ཕྱོགས་ནས་མེད་པར་བཟོ་བའི་པིག་སེལ་གྱི་གྲངས།"
+msgstr "གཡོན་ཕྱོགས་ནས་མེད་པར་བཟོ་དགོས་པའི་པིག་སེལ་གྱི་གྲངས།"
 
 #: transformations.py:239
 msgid "Number of pixels to remove from the top."
@@ -529,7 +529,7 @@ msgstr "གཡས་ཕྱོགས་ནས་མེད་པར་བཟོ་
 
 #: transformations.py:249
 msgid "Number of pixels to remove from the bottom."
-msgstr "གཤམ་ནས་ཕྱིར་འཐེན་བྱེད་པའི་པིག་སེལ་གྱི་གྲངས་འབོར།"
+msgstr "མཇུག་ནས་མེད་པར་བཟོ་དགོས་པའི་པིག་སེལ་གྱི་གྲངས་འབོར།"
 
 #: transformations.py:332
 msgid "Draw rectangle"
@@ -593,7 +593,7 @@ msgstr "ཤེལ་སྒོ"
 
 #: transformations.py:585
 msgid "Draw a QRCode (percent coordinates)"
-msgstr "QRCode (བརྒྱ་ཆའི་སྦྲེལ་མཐུད) བྲིས།"
+msgstr "QRCode(བརྒྱ་ཆའི་སྦྲེལ་མཐུད)བྲིས།"
 
 #: transformations.py:595
 msgid "Value to encode in the QRCode."
@@ -689,7 +689,7 @@ msgstr[0] "བདམས་པའི་རྒྱུ་ནོར་བསུབས
 #: views/asset_views.py:69
 #, python-format
 msgid "Delete asset: %s?"
-msgstr "རྒྱུ་ནོར་སུབ་ %s །"
+msgstr "རྒྱུ་ནོར་བསུབས་ %s །"
 
 #: views/asset_views.py:81
 #, python-format
@@ -784,7 +784,7 @@ msgid ""
 msgstr ""
 "བསྒྱུར་བཅོས་གསར་པ་ཁ་སྣོན་བྱེད་སའི་ཤོག་ངོས། "
 "ཚེག་གིས་དབྱེ་འབྱེད་དང་/ཡང་ན་ཁྱབ་ཁོངས་ལ་ཚག་བེད་སྤྱོད་བྱེད། "
-"ཤོག་ངོས་ཚང་མ་འདེམས་པར་སྟོང་ཆ་བཞག"
+"ཤོག་ངོས་ཚང་མ་འདེམས་པར་སྟོང་ཆ་བཞག་དགོས།"
 
 #: workflow_actions.py:39
 msgid "Transformation class"

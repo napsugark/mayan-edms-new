@@ -4,15 +4,15 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ara Gasparyan, 2024
+# Ara Gasparyan, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 12:51+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Ara Gasparyan, 2024\n"
+"POT-Creation-Date: 2025-01-20 12:33+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: Ara Gasparyan, 2025\n"
 "Language-Team: Armenian (Armenia) (https://app.transifex.com/rosarior/teams/13584/hy_AM/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,122 +20,154 @@ msgstr ""
 "Language: hy_AM\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps.py:32 permissions.py:6
+#: apps.py:35 permissions.py:6
 msgid "Task manager"
 msgstr ""
 
-#: apps.py:116 apps.py:141 apps.py:184
+#: apps.py:123 apps.py:200 classes.py:64
 msgid "Label"
 msgstr ""
 
-#: apps.py:120 apps.py:144 apps.py:188
+#: apps.py:127 apps.py:204 classes.py:71
 msgid "Name"
 msgstr ""
 
-#: apps.py:125
+#: apps.py:132
 msgid "Default queue?"
 msgstr ""
 
-#: apps.py:130
+#: apps.py:137
 msgid ""
 "Transient queues are not persistent. Tasks in a transient queue are lost if "
 "the broker is restarted. Transient queues use less resources and managed non"
 " critical tasks."
 msgstr ""
 
-#: apps.py:133
+#: apps.py:140
 msgid "Is transient?"
 msgstr ""
 
-#: apps.py:147
-msgid "Dotted path"
-msgstr ""
-
-#: apps.py:151
-msgid "Schedule"
-msgstr ""
-
-#: apps.py:157
+#: apps.py:171
 msgid "Type"
 msgstr "Տեսակ"
 
-#: apps.py:162
+#: apps.py:176
 msgid "Start time"
 msgstr ""
 
-#: apps.py:166
+#: apps.py:180
 msgid "Host"
 msgstr ""
 
-#: apps.py:170
+#: apps.py:184
 msgid "Arguments"
 msgstr ""
 
-#: apps.py:174
+#: apps.py:188
 msgid "Keyword arguments"
 msgstr ""
 
-#: apps.py:179
+#: apps.py:193
 msgid "Worker process ID"
 msgstr ""
 
-#: apps.py:192
-msgid ""
-"Maximum amount of resident memory a worker can execute before it's replaced "
-"by a new process."
-msgstr ""
-
-#: apps.py:194
-msgid "Maximum memory per child"
-msgstr ""
-
-#: apps.py:198
+#: apps.py:213
 msgid ""
 "Maximum number of tasks a worker can execute before it's replaced by a new "
 "process."
 msgstr ""
 
-#: apps.py:200
+#: apps.py:215
 msgid "Maximum tasks per child"
 msgstr ""
 
-#: apps.py:204
+#: apps.py:220
 msgid ""
 "The number of worker processes/threads to launch. Defaults to the number of "
 "CPUs available on the machine."
 msgstr ""
 
-#: apps.py:206
+#: apps.py:222
 msgid "Concurrency"
 msgstr ""
 
-#: apps.py:210
+#: apps.py:227
 msgid ""
 "The nice value determines the priority of the process. A higher value lowers"
 " the priority. The default value is 0."
 msgstr ""
 
-#: apps.py:213
+#: apps.py:230
 msgid "Nice level"
 msgstr ""
 
-#: classes.py:184
+#: classes.py:55
+msgid "The Python path to the task code."
+msgstr ""
+
+#: classes.py:56
+msgid "Dotted path"
+msgstr ""
+
+#: classes.py:62
+msgid "Human readable description of the task type."
+msgstr ""
+
+#: classes.py:70
+msgid "Unique internal name of the task type."
+msgstr ""
+
+#: classes.py:77 classes.py:251
+msgid "Queue"
+msgstr ""
+
+#: classes.py:83
+msgid "Trigger interval if the task type is set for periodic execution."
+msgstr ""
+
+#: classes.py:86
+msgid "Schedule"
+msgstr ""
+
+#: classes.py:91 classes.py:329
+msgid "Worker"
+msgstr ""
+
+#: classes.py:217
+msgid "Number of task types managed by the queue."
+msgstr ""
+
+#: classes.py:219 classes.py:317
 msgid "Task type count"
 msgstr ""
 
-#: classes.py:226
+#: classes.py:295
+msgid ""
+"Maximum amount of resident memory a worker can execute before it's replaced "
+"by a new process."
+msgstr ""
+
+#: classes.py:299
+msgid "Maximum memory per child"
+msgstr ""
+
+#: classes.py:305
 msgid "Queue count"
 msgstr ""
 
-#: links.py:13
+#: classes.py:315
+msgid "Number of task types managed by the worker."
+msgstr ""
+
+#: links.py:13 links.py:18
 msgid "Task type list"
 msgstr ""
 
-#: links.py:18
+#: links.py:22
 msgid "Worker list"
 msgstr ""
 
-#: links.py:23
+#: links.py:27
 msgid "Queue list"
 msgstr ""
 
@@ -177,26 +209,30 @@ msgstr ""
 msgid "Test queue"
 msgstr ""
 
-#: views.py:25
+#: views.py:20
+msgid "Task types"
+msgstr ""
+
+#: views.py:43
 #, python-format
 msgid "Task types for queue: %s"
 msgstr ""
 
-#: views.py:35
+#: views.py:56
 #, python-format
 msgid "Queue: %s, not found"
 msgstr ""
 
-#: views.py:45
+#: views.py:68
 msgid "Background task workers"
 msgstr ""
 
-#: views.py:62
+#: views.py:85
 #, python-format
 msgid "Queues for worker: %s"
 msgstr ""
 
-#: views.py:72
+#: views.py:95
 #, python-format
 msgid "Worker: %s, not found"
 msgstr ""

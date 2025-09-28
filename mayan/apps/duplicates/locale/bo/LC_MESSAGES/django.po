@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-02 14:05+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -74,7 +74,7 @@ msgstr "འདྲ་བཤུས་དལ་བ།"
 
 #: queues.py:15
 msgid "Clean empty duplicate lists"
-msgstr "འདྲ་བཤུས་ཀྱི་ཐོ་གཞུང་སྟོང་པ་གཙང་བཟོ།"
+msgstr "འདྲ་བཤུས་ཐོ་གཞུང་སྟོང་པ་གཙང་བཟོ།"
 
 #: queues.py:19
 msgid "Scan document duplicates"
@@ -91,7 +91,7 @@ msgstr "ཡིག་ཆ་འདི་ལ་འདྲ་བཤུས་མེད
 #: views.py:44
 #, python-format
 msgid "Duplicates for document: %s"
-msgstr "ཡིག་ཆའི་འདྲ་བཤུས། %s"
+msgstr "ཡིག་ཆའི་འདྲ་བཤུས་: %s"
 
 #: views.py:70
 msgid ""
@@ -100,7 +100,7 @@ msgid ""
 " were saved using a different file format will not appear as duplicates."
 msgstr ""
 "འདྲ་བཤུས་ནི་ཡིག་ཆ་གཅིག་པ་ལས་གྲུབ་པའི་ཡིག་ཆ་ཡིན། "
-"ཡིག་ཆ་དེ་དག་ལ་ཚིག་ཡིག་གཅིག་པའམ་ཡང་ན་OCRཡོད་ཀྱང་འདྲ་མཚུངས་མིན་པའམ་ཡང་ན་ཡིག་ཆའི་རྩ་སྒྲིག་མི་འདྲ་བ་སྤྱད་དེ་ཉར་ཚགས་བྱས་པ་དེ་དག་འདྲ་བཤུས་ལྟར་མངོན་མི་ཐུབ།"
+"ཡིག་ཆ་དེ་དག་ལ་ཚིག་ཡིག་གཅིག་པའམ་ཡང་ན་OCRཡོད་ཀྱང་འདྲ་མཚུངས་མིན་པའམ་ཡང་ན་ཡིག་ཆའི་རྩ་སྒྲིག་མི་འདྲ་བ་བཀོལ་སྤྱོད་བྱས་ནས་ཉར་ཚགས་བྱས་པ་དེ་དག་འདྲ་བཤུས་ལྟར་མངོན་མི་ཐུབ།"
 
 #: views.py:77
 msgid "There are no duplicated documents"

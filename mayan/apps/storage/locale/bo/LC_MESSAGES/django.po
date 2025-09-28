@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -66,7 +66,7 @@ msgid ""
 "Path of the database (.dbm) file that will be created/read to keep track of "
 "items processed."
 msgstr ""
-"གཞི་གྲངས་མཛོད་ཀྱི་(.dbm)ཡིག་ཆའི་འགྲོ་ལམ་དེ་བཟོ་བཅོས་བྱས་པའི་རྣམ་གྲངས་ལ་ལྟ་རྟོག་བྱེད་པར་གསར་འཛུགས་བྱེད་པའམ་ཀློག་རྒྱུ་ཡིན།"
+"ལས་སྣོན་བྱས་པའི་རྣམ་གྲངས་ལ་ལྟ་རྟོག་བྱེད་པར་གསར་འཛུགས་བྱེད་པའམ་ཀློག་པའི་གནས་སྡུད་གཞི་གྲངས་(.dbm)ཡིག་ཆའི་འགྲོ་ལམ།"
 
 #: management/commands/storage_process.py:26
 msgid "Process a specific model."
@@ -116,7 +116,7 @@ msgstr "ཡིག་ཆ་ཕབ་ལེན།"
 
 #: models.py:102
 msgid "Shared uploaded file"
-msgstr "མཉམ་སྤྱོད་བྱས་པའི་ཡིག་ཆ།"
+msgstr "མཉམ་སྤྱོད་ཡར་བསྐུར་བྱས་པའི་ཡིག་ཆ།"
 
 #: models.py:103 storages.py:36
 msgid "Shared uploaded files"
@@ -148,7 +148,7 @@ msgstr "ཡར་བསྐུར་རྙིང་པ་སུབ་པ།"
 
 #: queues.py:34
 msgid "Delete stale download files"
-msgstr "ཕབ་ལེན་ཡིག་ཆ་རྙིང་པ་སུབ་པ།"
+msgstr "རྙིང་པའི་ཕབ་ལེན་ཡིག་ཆ་སུབ་པ།"
 
 #: serializers.py:11
 msgid "Download URL"
@@ -172,7 +172,7 @@ msgstr ""
 #: settings.py:38
 msgid "A storage backend that all workers can use to share files."
 msgstr ""
-"ལས་བྱེད་ཚང་མས་ཡིག་ཆ་མཉམ་སྤྱོད་བྱེད་པར་བེད་སྤྱོད་གཏོང་ཐུབ་པའི་གསོག་འཇོག་རྒྱབ་ལྗོངས་ཤིག་རེད།"
+"ལས་བྱེད་ཚང་མས་ཡིག་ཆ་མཉམ་སྤྱོད་བྱེད་པར་བེད་སྤྱོད་གཏོང་ཐུབ་པའི་གསོག་འཇོག་རྒྱབ་ལྗོངས་ཤིག"
 
 #: settings.py:48
 msgid ""

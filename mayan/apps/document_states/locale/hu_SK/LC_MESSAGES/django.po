@@ -4,17 +4,17 @@
 # 
 # Translators:
 # Translators:
-# Dezső József <dejo60@gmail.com>, 2024
-# molnars <szabolcs.molnar@gmail.com>, 2024
-# Csaba Tarjányi, 2024
+# molnars <szabolcs.molnar@gmail.com>, 2025
+# Dezső József <dejo60@gmail.com>, 2025
+# Csaba Tarjányi, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 17:01+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Csaba Tarjányi, 2024\n"
+"POT-Creation-Date: 2025-08-27 11:43+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: Csaba Tarjányi, 2025\n"
 "Language-Team: Hungarian (Slovakia) (https://app.transifex.com/rosarior/teams/13584/hu_SK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,29 +23,45 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: apps.py:95 apps.py:148 events.py:6 forms/workflow_template_forms.py:19
-#: links.py:50 links.py:90 links.py:98 links.py:287 links.py:311
-#: models/workflow_models.py:60 queues.py:11 settings.py:14
-#: views/workflow_proxy_views.py:70 views/workflow_template_views.py:293
+#: links.py:52 links.py:92 links.py:100 links.py:289 links.py:313
+#: models/workflow_models.py:67 queues.py:11 settings.py:14
+#: views/workflow_proxy_views.py:70 views/workflow_template_views.py:298
 #: workflow_actions.py:129 workflow_actions.py:143
 msgid "Workflows"
 msgstr "Munkafolyamatok"
 
-#: apps.py:234 apps.py:241
+#: apps.py:235 apps.py:253
 msgid "Current state of a workflow"
 msgstr "Munkafolyamat jelenlegi állapota"
 
-#: apps.py:235
+#: apps.py:236
+msgid ""
+"Deprecated: Use `state_active` instead. Return the current state of the "
+"selected workflow."
+msgstr ""
+
+#: apps.py:243 apps.py:260
+msgid "Current completion of a workflow"
+msgstr ""
+
+#: apps.py:245
+msgid ""
+"Deprecated: Use `state_active.completion` instead. Return the completion "
+"value of the current state of the selected workflow."
+msgstr ""
+
+#: apps.py:254
 msgid "Return the current state of the selected workflow."
 msgstr "Visszaadja a kiválasztott munkafolyamat aktuális állapotát."
 
-#: apps.py:242
+#: apps.py:262
 msgid ""
 "Return the completion value of the current state of the selected workflow."
 msgstr ""
 "Visszaadja a kiválasztott munkafolyamat jelenlegi állapotának befejezettségi"
 " értékét."
 
-#: apps.py:301
+#: apps.py:321
 msgid ""
 "Return the last workflow instance log entry. The log entry itself has the "
 "following fields: datetime, transition, user, and comment."
@@ -54,11 +70,11 @@ msgstr ""
 "naplóbejegyzés a következő mezőket tartalmazza: dátum és idő, áttérés, "
 "felhasználó és megjegyzés."
 
-#: apps.py:304
+#: apps.py:324
 msgid "Get last log entry"
 msgstr "Az utolsó naplóbejegyzés lekérése"
 
-#: apps.py:309
+#: apps.py:329
 msgid ""
 "Return the current context dictionary which includes runtime data from the "
 "workflow transition fields."
@@ -66,75 +82,75 @@ msgstr ""
 "Visszaadja az aktuális kontextusszótárt, amely futásidejű adatokat tartalmaz"
 " a munkafolyamat átmeneti mezőiből."
 
-#: apps.py:311
+#: apps.py:331
 msgid "Get the context"
 msgstr "Kontextus lekérése"
 
-#: apps.py:316
+#: apps.py:336
 msgid "Return the transition of the workflow instance."
 msgstr "A munkafolyamat-példány átmenetének visszaadása."
 
-#: apps.py:317
+#: apps.py:337
 msgid "Get last transition"
 msgstr "Az utolsó átvezetés lekérése"
 
-#: apps.py:335 apps.py:359 apps.py:370 apps.py:377
+#: apps.py:343
+msgid "A record of all state changes made to the workflow instance over time."
+msgstr ""
+
+#: apps.py:371 apps.py:375 apps.py:408 apps.py:419
 msgid "None"
 msgstr "Nincs"
 
-#: apps.py:346 apps.py:449
+#: apps.py:395 apps.py:500
 msgid "Documents"
 msgstr "Dokumentumok"
 
-#: apps.py:354 serializers/workflow_instance_serializers.py:153
-msgid "Current state"
-msgstr "Jelen állapot"
-
-#: apps.py:360 apps.py:390 models/workflow_instance_models.py:105
+#: apps.py:409 apps.py:437 models/workflow_instance_models.py:119
 #: serializers/workflow_instance_serializers.py:77
 msgid "User"
 msgstr "Felhasználó"
 
-#: apps.py:365
+#: apps.py:414
 msgid "Last transition"
 msgstr "Utolsó átvezetés"
 
-#: apps.py:371 apps.py:386
+#: apps.py:420 apps.py:433
 msgid "Date and time"
 msgstr "Dátum és idő"
 
-#: apps.py:378 models/workflow_state_models.py:54
+#: apps.py:425 models/workflow_state_models.py:62
 msgid "Completion"
 msgstr "Befejezés"
 
-#: apps.py:411
+#: apps.py:458
 msgid "Additional details"
 msgstr "További részletek"
 
-#: apps.py:465
+#: apps.py:516
 msgid "When?"
 msgstr "Mikor?"
 
-#: apps.py:469
+#: apps.py:520
 msgid "Action type"
 msgstr "Művelet típusa"
 
-#: apps.py:529
+#: apps.py:580
 msgid ""
 "Triggers are system events that will cause the transition to be applied."
 msgstr ""
 "Az eseménynaplók olyan rendszeresemények, amelyek az átvezetés alkalmazását "
 "eredményezik."
 
-#: apps.py:531
+#: apps.py:582
 msgid "Triggers"
 msgstr "Eseményindítók"
 
-#: apps.py:547 models/workflow_transition_field_models.py:33
+#: apps.py:598 models/workflow_transition_field_models.py:33
 msgid "Type"
 msgstr "Típus"
 
-#: apps.py:563
+#: apps.py:614
 msgid "Widget"
 msgstr "Widget"
 
@@ -167,15 +183,15 @@ msgstr "Munkafolyamat létrehozva"
 msgid "Workflow edited"
 msgstr "Munkafolyamat szerkesztve"
 
-#: forms/workflow_instance_forms.py:18
+#: forms/workflow_instance_forms.py:17
 msgid "Select a transition to execute in the next step."
 msgstr "A következő lépésben végrehajtandó átvezetés kiválasztása."
 
-#: forms/workflow_instance_forms.py:19 links.py:293
-#: models/workflow_instance_models.py:101
+#: forms/workflow_instance_forms.py:18 links.py:295
+#: models/workflow_instance_models.py:115
 #: models/workflow_state_escalation_models.py:38
 #: models/workflow_transition_field_models.py:30
-#: models/workflow_transition_trigger_models.py:27
+#: models/workflow_transition_trigger_models.py:28
 #: serializers/workflow_instance_serializers.py:51
 msgid "Transition"
 msgstr "Átvezetés"
@@ -213,8 +229,8 @@ msgid "Namespace"
 msgstr "Névtér"
 
 #: forms/workflow_template_transition_trigger_forms.py:14
-#: models/workflow_models.py:47 models/workflow_state_action_models.py:46
-#: models/workflow_state_models.py:41
+#: models/workflow_models.py:48 models/workflow_state_action_models.py:48
+#: models/workflow_state_models.py:42
 #: models/workflow_transition_field_models.py:44
 #: models/workflow_transition_models.py:43
 msgid "Label"
@@ -229,191 +245,213 @@ msgid "Yes"
 msgstr "Igen"
 
 #: forms/workflow_template_transition_trigger_forms.py:23
-#: models/workflow_state_action_models.py:49
+#: models/workflow_state_action_models.py:51
 #: models/workflow_state_escalation_models.py:52
 msgid "Enabled"
 msgstr "Engedélyezve"
 
-#: handlers.py:83
+#: links.py:58 views/workflow_template_views.py:152
+msgid "Create workflow"
+msgstr "Munkafolyamat létrehozása"
+
+#: links.py:63 models/workflow_models.py:52
+msgid "Document types"
+msgstr "Dokumentumtípusok"
+
+#: links.py:68 links.py:75 links.py:117 links.py:155 links.py:185 links.py:214
+#: links.py:260
+msgid "Delete"
+msgstr "Törlés"
+
+#: links.py:82 links.py:124 links.py:162 links.py:192 links.py:221
+#: links.py:267
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: links.py:88
+msgid "Launch workflow"
+msgstr "Munkafolyamat indítása"
+
+#: links.py:108
+msgid "Preview"
+msgstr "Előnézet"
+
+#: links.py:131 models/workflow_state_model_mixins.py:126
+msgid "Actions"
+msgstr "Műveletek"
+
+#: links.py:138
+msgid "Create action"
+msgstr "Művelet létrehozása"
+
+#: links.py:148
+msgid "Create escalation"
+msgstr "Eszkaláció létrehozása"
+
+#: links.py:169 models/workflow_state_model_mixins.py:136
+msgid "Escalations"
+msgstr "Eszkalációk"
+
+#: links.py:178
+msgid "Create state"
+msgstr "Állapot létrehozása"
+
+#: links.py:197 links.py:325
+msgid "States"
+msgstr "Állapotok"
+
+#: links.py:207
+msgid "Create transition"
+msgstr "Átvezetés létrehozása"
+
+#: links.py:227
+msgid "Transition triggers"
+msgstr "Átvezetési eseményindítók"
+
+#: links.py:233
+msgid "Transitions"
+msgstr "Átvezetések"
+
+#: links.py:241 links.py:247 workflow_actions.py:106
+msgid "Launch workflows"
+msgstr "Munkafolyamatok indítása"
+
+#: links.py:253
+msgid "Create field"
+msgstr "Mező létrehozása"
+
+#: links.py:274 models/workflow_transition_model_mixins.py:66
+msgid "Fields"
+msgstr "Mezők"
+
+#: links.py:284
+msgid "Detail"
+msgstr "Részlet"
+
+#: links.py:305
+msgid "Workflow documents"
+msgstr "Munkafolyamat dokumentumok"
+
+#: links.py:319
+msgid "State documents"
+msgstr "Állapot dokumentumok"
+
+#: links.py:334
+msgid "Launch all workflows"
+msgstr "Az összes munkafolyamat elindítása"
+
+#: literals.py:21
+msgid "Character"
+msgstr "Karakter"
+
+#: literals.py:22
+msgid "Number (Integer)"
+msgstr "Szám (egész)"
+
+#: literals.py:48
+msgid "Text area"
+msgstr "Szöveg terület"
+
+#: literals.py:57
+msgid "On entry"
+msgstr "Belépéskor"
+
+#: literals.py:58
+msgid "On exit"
+msgstr "Kilépéskor"
+
+#: managers.py:58
 #, python-format
 msgid "Event trigger: %s"
 msgstr "Eseményindító: %s"
 
-#: links.py:56 views/workflow_template_views.py:147
-msgid "Create workflow"
-msgstr "Munkafolyamat létrehozása"
+#: models/workflow_instance_models.py:34
+msgid "The workflow template."
+msgstr ""
 
-#: links.py:61 models/workflow_models.py:51
-msgid "Document types"
-msgstr "Dokumentumtípusok"
-
-#: links.py:66 links.py:73 links.py:115 links.py:153 links.py:183 links.py:212
-#: links.py:258
-msgid "Delete"
-msgstr "Törlés"
-
-#: links.py:80 links.py:122 links.py:160 links.py:190 links.py:219
-#: links.py:265
-msgid "Edit"
-msgstr "Szerkesztés"
-
-#: links.py:86
-msgid "Launch workflow"
-msgstr "Munkafolyamat indítása"
-
-#: links.py:106
-msgid "Preview"
-msgstr "Előnézet"
-
-#: links.py:129 models/workflow_state_model_mixins.py:117
-msgid "Actions"
-msgstr "Műveletek"
-
-#: links.py:136
-msgid "Create action"
-msgstr "Művelet létrehozása"
-
-#: links.py:146
-msgid "Create escalation"
-msgstr "Eszkaláció létrehozása"
-
-#: links.py:167 models/workflow_state_model_mixins.py:157
-msgid "Escalations"
-msgstr "Eszkalációk"
-
-#: links.py:176
-msgid "Create state"
-msgstr "Állapot létrehozása"
-
-#: links.py:195 links.py:323
-msgid "States"
-msgstr "Állapotok"
-
-#: links.py:205
-msgid "Create transition"
-msgstr "Átvezetés létrehozása"
-
-#: links.py:225
-msgid "Transition triggers"
-msgstr "Átvezetési eseményindítók"
-
-#: links.py:231
-msgid "Transitions"
-msgstr "Átvezetések"
-
-#: links.py:239 links.py:245 workflow_actions.py:106
-msgid "Launch workflows"
-msgstr "Munkafolyamatok indítása"
-
-#: links.py:251
-msgid "Create field"
-msgstr "Mező létrehozása"
-
-#: links.py:272 models/workflow_transition_model_mixins.py:61
-msgid "Fields"
-msgstr "Mezők"
-
-#: links.py:282
-msgid "Detail"
-msgstr "Részlet"
-
-#: links.py:303
-msgid "Workflow documents"
-msgstr "Munkafolyamat dokumentumok"
-
-#: links.py:317
-msgid "State documents"
-msgstr "Állapot dokumentumok"
-
-#: links.py:332
-msgid "Launch all workflows"
-msgstr "Az összes munkafolyamat elindítása"
-
-#: literals.py:19
-msgid "Character"
-msgstr "Karakter"
-
-#: literals.py:20
-msgid "Number (Integer)"
-msgstr "Szám (egész)"
-
-#: literals.py:46
-msgid "Text area"
-msgstr "Szöveg terület"
-
-#: literals.py:55
-msgid "On entry"
-msgstr "Belépéskor"
-
-#: literals.py:56
-msgid "On exit"
-msgstr "Kilépéskor"
-
-#: models/workflow_instance_models.py:34 models/workflow_models.py:59
-#: models/workflow_state_models.py:37 models/workflow_transition_models.py:39
+#: models/workflow_instance_models.py:36 models/workflow_models.py:66
+#: models/workflow_state_models.py:38 models/workflow_transition_models.py:39
 msgid "Workflow"
 msgstr "Munkafolyamat"
 
-#: models/workflow_instance_models.py:38
+#: models/workflow_instance_models.py:40
 msgid "Workflow instance creation date time."
 msgstr "Munkafolyamat-példány létrehozásának dátuma és ideje."
 
-#: models/workflow_instance_models.py:39 models/workflow_instance_models.py:97
+#: models/workflow_instance_models.py:41
+#: models/workflow_instance_models.py:111
 msgid "Datetime"
 msgstr "Dátum és idő"
 
-#: models/workflow_instance_models.py:43
+#: models/workflow_instance_models.py:45
+msgid "The document to which the workflow instance is attached."
+msgstr ""
+
+#: models/workflow_instance_models.py:47
 msgid "Document"
 msgstr "Dokumentum"
 
-#: models/workflow_instance_models.py:46
+#: models/workflow_instance_models.py:50
 #: serializers/workflow_instance_serializers.py:150
 msgid "Context"
 msgstr "Kontextus"
 
-#: models/workflow_instance_models.py:55 models/workflow_instance_models.py:94
+#: models/workflow_instance_models.py:53
+msgid "The currently active state of the workflow instance."
+msgstr ""
+
+#: models/workflow_instance_models.py:55
+msgid "Active state"
+msgstr ""
+
+#: models/workflow_instance_models.py:64
+#: models/workflow_instance_models.py:108
 msgid "Workflow instance"
 msgstr "Munkafolyamat-példány"
 
-#: models/workflow_instance_models.py:56
+#: models/workflow_instance_models.py:65
 msgid "Workflow instances"
 msgstr "Munkafolyamat-példányok"
 
-#: models/workflow_instance_models.py:108
+#: models/workflow_instance_models.py:122
 #: models/workflow_state_escalation_models.py:69
 #: views/workflow_instance_views.py:162
 msgid "Comment"
 msgstr "Hozzászólás"
 
-#: models/workflow_instance_models.py:111
+#: models/workflow_instance_models.py:125
 msgid "Extra data"
 msgstr "Extra adatok"
 
-#: models/workflow_instance_models.py:116
+#: models/workflow_instance_models.py:130
 msgid "Workflow instance log entry"
 msgstr "Munkafolyamat-példány naplóbejegyzés"
 
-#: models/workflow_instance_models.py:117
+#: models/workflow_instance_models.py:131
 msgid "Workflow instance log entries"
 msgstr "Munkafolyamat-példány naplóbejegyzések"
 
-#: models/workflow_instance_models.py:128
+#: models/workflow_instance_models.py:142
 msgid "Not a valid transition choice."
 msgstr "Nem érvényes átvezetés választás."
 
-#: models/workflow_model_mixins.py:143
+#: models/workflow_model_mixins.py:146
+msgid "Final state"
+msgstr ""
+
+#: models/workflow_model_mixins.py:153
 msgid "Initial state"
 msgstr "Kezdeti állapot"
 
-#: models/workflow_models.py:35
+#: models/workflow_models.py:36
 msgid "Launch workflow when document is created."
 msgstr "Indítsa el a munkafolyamatot a dokumentum létrehozásakor."
 
-#: models/workflow_models.py:36
+#: models/workflow_models.py:37
 msgid "Auto launch"
 msgstr "Automatikus indítás"
 
-#: models/workflow_models.py:40
+#: models/workflow_models.py:41
 msgid ""
 "This value will be used by other apps to reference this workflow. Can only "
 "contain letters, numbers, and underscores."
@@ -421,19 +459,27 @@ msgstr ""
 "Más alkalmazások ezt az értéket fogják használni a munkafolyamat "
 "hivatkozására. Csak betűket, számokat és aláhúzásjeleket tartalmazhat."
 
-#: models/workflow_models.py:43 models/workflow_transition_field_models.py:39
+#: models/workflow_models.py:44 models/workflow_transition_field_models.py:39
 msgid "Internal name"
 msgstr "Belső név"
 
-#: models/workflow_models.py:46
+#: models/workflow_models.py:47
 msgid "A short text to describe the workflow."
 msgstr "Egy rövid szöveg a munkafolyamat leírásához."
 
-#: models/workflow_models.py:90
+#: models/workflow_models.py:57
+msgid "Ignore workflow instances if they are in their final state."
+msgstr ""
+
+#: models/workflow_models.py:59
+msgid "Ignore completed"
+msgstr ""
+
+#: models/workflow_models.py:97
 msgid "Workflow runtime proxy"
 msgstr "Munkafolyamat futásidejű proxy"
 
-#: models/workflow_models.py:91
+#: models/workflow_models.py:98
 msgid "Workflow runtime proxies"
 msgstr "Munkafolyamat futásidejű proxyk"
 
@@ -453,27 +499,29 @@ msgstr ""
 
 #: models/workflow_state_action_models.py:42
 #: models/workflow_state_escalation_models.py:34
-#: models/workflow_state_models.py:60
+#: models/workflow_state_models.py:68
 msgid "Workflow state"
 msgstr "Munkafolyamat állapot"
 
-#: models/workflow_state_action_models.py:45
-msgid "A short text describing the action."
-msgstr "Az műveletet leíró rövid szöveg."
+#: models/workflow_state_action_models.py:46
+msgid ""
+"A short text describing the action. Actions are execute by alphabetical "
+"order."
+msgstr ""
 
-#: models/workflow_state_action_models.py:54
+#: models/workflow_state_action_models.py:56
 msgid "At which moment of the state this action will execute."
 msgstr "Az állapot melyik pillanatában hajtódik végre ez a művelet."
 
-#: models/workflow_state_action_models.py:55
+#: models/workflow_state_action_models.py:57
 msgid "When"
 msgstr "Mikor"
 
-#: models/workflow_state_action_models.py:61
+#: models/workflow_state_action_models.py:63
 msgid "Workflow state action"
 msgstr "Munkafolyamat állapot művelet"
 
-#: models/workflow_state_action_models.py:62
+#: models/workflow_state_action_models.py:64
 msgid "Workflow state actions"
 msgstr "Munkafolyamat állapot műveletek"
 
@@ -530,11 +578,11 @@ msgstr "Munkafolyamat állapotának eszkalációja"
 msgid "Workflow state escalations"
 msgstr "Munkafolyamat állapotának eszkalációi"
 
-#: models/workflow_state_models.py:40
+#: models/workflow_state_models.py:41
 msgid "A short text to describe the workflow state."
 msgstr "Egy rövid szöveg a munkafolyamat állapotának leírására."
 
-#: models/workflow_state_models.py:46
+#: models/workflow_state_models.py:47
 msgid ""
 "The state at which the workflow will start in. Only one state can be the "
 "initial state."
@@ -542,11 +590,21 @@ msgstr ""
 "Az az állapot, amelyben a munkafolyamat elindul. Csak egy állapot lehet a "
 "kezdeti állapot."
 
-#: models/workflow_state_models.py:48
+#: models/workflow_state_models.py:49
 msgid "Initial"
 msgstr "Kezdeti"
 
-#: models/workflow_state_models.py:52
+#: models/workflow_state_models.py:54
+msgid ""
+"The state at which the workflow will stop. Only one state can be the final "
+"state."
+msgstr ""
+
+#: models/workflow_state_models.py:56
+msgid "Final"
+msgstr ""
+
+#: models/workflow_state_models.py:60
 msgid ""
 "The percent of completion that this state represents in relation to the "
 "workflow. Use numbers without the percent sign."
@@ -554,15 +612,15 @@ msgstr ""
 "A befejezettség százalékos aránya, amelyet ez az állapot képvisel a "
 "munkafolyamathoz viszonyítva. Használjon számokat százalékjel nélkül."
 
-#: models/workflow_state_models.py:61
+#: models/workflow_state_models.py:69
 msgid "Workflow states"
 msgstr "Munkafolyamat állapotok"
 
-#: models/workflow_state_models.py:107
+#: models/workflow_state_models.py:121
 msgid "Workflow state runtime proxy"
 msgstr "Munkafolyamat állapot futásidejű proxy"
 
-#: models/workflow_state_models.py:108
+#: models/workflow_state_models.py:122
 msgid "Workflow state runtime proxies"
 msgstr "Munkafolyamat állapot futásidejű proxyk"
 
@@ -696,16 +754,16 @@ msgstr "Munkafolyamat átvezetés"
 msgid "Workflow transitions"
 msgstr "Munkafolyamat átvezetések"
 
-#: models/workflow_transition_trigger_models.py:31
+#: models/workflow_transition_trigger_models.py:32
 #: serializers/workflow_template_transition_trigger_serializers.py:21
 msgid "Event type"
 msgstr "Esemény típus"
 
-#: models/workflow_transition_trigger_models.py:37
+#: models/workflow_transition_trigger_models.py:40
 msgid "Workflow transition trigger event"
 msgstr "Munkafolyamat átvezetési eseményindító esemény"
 
-#: models/workflow_transition_trigger_models.py:39
+#: models/workflow_transition_trigger_models.py:42
 msgid "Workflow transitions trigger events"
 msgstr "A munkafolyamat átvezetések eseményeket indítanak el"
 
@@ -823,6 +881,10 @@ msgstr "Munkafolyamat-sablon URL-je"
 #: serializers/workflow_instance_serializers.py:146
 msgid "Workflow template"
 msgstr "Munkafolyamat sablon"
+
+#: serializers/workflow_instance_serializers.py:153
+msgid "Current state"
+msgstr "Jelen állapot"
 
 #: serializers/workflow_instance_serializers.py:160
 msgid "Last log entry"
@@ -1108,8 +1170,8 @@ msgstr "Ebben a munkafolyamat-állapotban nincsenek dokumentumok"
 
 #: views/workflow_proxy_views.py:95
 #, python-format
-msgid "Documents in the workflow \"%s\", state \"%s\""
-msgstr "A \"%s\" munkafolyamatban lévő dokumentumok, állapot: \"%s\""
+msgid "Documents in the workflow \"%(workflow)s\", state \"%(state)s\""
+msgstr ""
 
 #: views/workflow_template_state_escalation_views.py:43
 #, python-format
@@ -1246,25 +1308,25 @@ msgstr "Nincsenek mezők ehhez a munkafolyamat átvezetéshez"
 msgid "Fields for workflow transition: %s"
 msgstr "A munkafolyamat átvezetési mezői: %s"
 
-#: views/workflow_template_transition_trigger_views.py:38
+#: views/workflow_template_transition_trigger_views.py:34
 #, python-format
 msgid "Error updating workflow transition trigger events; %s"
 msgstr ""
 "Hiba a munkafolyamat átvezetési eseményindító események frissítése során; %s"
 
-#: views/workflow_template_transition_trigger_views.py:46
+#: views/workflow_template_transition_trigger_views.py:42
 msgid "Workflow transition trigger events updated successfully"
 msgstr ""
 "A munkafolyamat átvezetési eseményindító eseményei sikeresen frissítve"
 
-#: views/workflow_template_transition_trigger_views.py:59
+#: views/workflow_template_transition_trigger_views.py:55
 msgid ""
 "Triggers are events that cause this transition to execute automatically."
 msgstr ""
 "Az eseményindítók olyan események, amelyek hatására ez az átállás "
 "automatikusan végrehajtódik."
 
-#: views/workflow_template_transition_trigger_views.py:63
+#: views/workflow_template_transition_trigger_views.py:59
 #, python-format
 msgid "Workflow transition trigger events for: %s"
 msgstr "Munkafolyamat átvezetési eseményindító események a következőhöz: %s"
@@ -1330,35 +1392,35 @@ msgstr ""
 
 #: views/workflow_template_views.py:80
 #, python-format
-msgid "Workflows launched successfully for %(count)d documents."
-msgstr "A munkafolyamatok sikeresen elindultak a %(count)d dokumentumokhoz."
+msgid "Workflows queued for launch successfully for %(count)d documents."
+msgstr ""
 
-#: views/workflow_template_views.py:83
+#: views/workflow_template_views.py:84
 #, python-format
-msgid "Workflows launched successfully for document \"%(object)s\"."
-msgstr "A munkafolyamatok sikeresen elindítva a \"%(object)s\" dokumentumhoz."
+msgid "Workflows queued for launch successfully for document \"%(object)s\"."
+msgstr ""
 
-#: views/workflow_template_views.py:86
+#: views/workflow_template_views.py:88
 #, python-format
-msgid "Workflows launched successfully for %(count)d document."
-msgstr "A munkafolyamatok sikeresen elindultak a %(count)d dokumentumhoz."
+msgid "Workflows queued for launch successfully for %(count)d document."
+msgstr ""
 
-#: views/workflow_template_views.py:89
+#: views/workflow_template_views.py:92
 #, python-format
-msgid "Launch workflows for the selected %(count)d documents."
-msgstr "A kiválasztott %(count)d dokumentumok munkafolyamatainak elindítása."
+msgid "Queue launching workflows for the selected %(count)d documents."
+msgstr ""
 
-#: views/workflow_template_views.py:91
+#: views/workflow_template_views.py:95
 #, python-format
 msgid "Launch workflow: %(object)s."
 msgstr "Munkafolyamat indítása: %(object)s ."
 
-#: views/workflow_template_views.py:93
+#: views/workflow_template_views.py:97
 #, python-format
-msgid "Launch workflows for the selected %(count)d document."
-msgstr "A kiválasztott %(count)d dokumentum munkafolyamatainak elindítása."
+msgid "Queue launching workflows for the selected %(count)d document."
+msgstr ""
 
-#: views/workflow_template_views.py:100
+#: views/workflow_template_views.py:105
 msgid ""
 "Workflows already launched or workflows not applicable to some documents "
 "when multiple documents are selected, will be silently ignored."
@@ -1367,63 +1429,63 @@ msgstr ""
 "egyes dokumentumokra nem alkalmazható munkafolyamatok észrevétlenül "
 "figyelmen kívül maradnak."
 
-#: views/workflow_template_views.py:121
+#: views/workflow_template_views.py:126
 msgid "Workflows to be launched."
 msgstr "Indítandó munkafolyamatok."
 
-#: views/workflow_template_views.py:163
+#: views/workflow_template_views.py:168
 #, python-format
 msgid "Error deleting workflow \"%(instance)s\"; %(exception)s"
 msgstr "Hiba a \"%(instance)s\" munkafolyamat törlésekor; %(exception)s"
 
-#: views/workflow_template_views.py:172
+#: views/workflow_template_views.py:177
 #, python-format
 msgid "%(count)d workflows deleted successfully."
 msgstr "%(count)d munkafolyamat sikeresen törölve."
 
-#: views/workflow_template_views.py:175
+#: views/workflow_template_views.py:180
 #, python-format
 msgid "Workflow \"%(object)s\" deleted successfully."
 msgstr "A \"%(object)s\" munkafolyamat sikeresen törölve."
 
-#: views/workflow_template_views.py:178
+#: views/workflow_template_views.py:183
 #, python-format
 msgid "%(count)d workflow deleted successfully."
 msgstr "%(count)d munkafolyamat sikeresen törölve."
 
-#: views/workflow_template_views.py:180
+#: views/workflow_template_views.py:185
 #, python-format
 msgid "Delete the %(count)d selected workflows."
 msgstr "%(count)d kiválasztott munkafolyamat törlése."
 
-#: views/workflow_template_views.py:181
+#: views/workflow_template_views.py:186
 #, python-format
 msgid "Delete workflow: %(object)s."
 msgstr "Munkafolyamat törlése: %(object)s ."
 
-#: views/workflow_template_views.py:182
+#: views/workflow_template_views.py:187
 #, python-format
 msgid "Delete the %(count)d selected workflow."
 msgstr "%(count)d kiválasztott munkafolyamat törlése."
 
-#: views/workflow_template_views.py:188
+#: views/workflow_template_views.py:193
 msgid "All workflow instances will also be deleted."
 msgstr "Az összes munkafolyamat-példány is törlődik."
 
-#: views/workflow_template_views.py:208
+#: views/workflow_template_views.py:213
 #, python-format
 msgid "Edit workflow: %s"
 msgstr "Munkafolyamat szerkesztése: %s"
 
-#: views/workflow_template_views.py:216
+#: views/workflow_template_views.py:221
 msgid "Document types assigned this workflow"
 msgstr "A munkafolyamathoz hozzárendelt dokumentumtípusok"
 
-#: views/workflow_template_views.py:217
+#: views/workflow_template_views.py:222
 msgid "Available document types"
 msgstr "Elérhető dokumentumtípusok"
 
-#: views/workflow_template_views.py:235
+#: views/workflow_template_views.py:240
 msgid ""
 "Removing a document type from a workflow will also remove all running "
 "instances of that workflow for documents of the document type just removed."
@@ -1432,25 +1494,25 @@ msgstr ""
 "összes futó példánya is eltávolítja az éppen eltávolított dokumentumtípushoz"
 " tartozó dokumentumokat."
 
-#: views/workflow_template_views.py:240
+#: views/workflow_template_views.py:245
 #, python-format
 msgid "Document types assigned the workflow: %s"
 msgstr "A munkafolyamathoz rendelt dokumentumtípusok: %s"
 
-#: views/workflow_template_views.py:254
+#: views/workflow_template_views.py:259
 msgid ""
 "This will launch the workflow for documents that have already been uploaded."
 msgstr "Ezzel elindítja a már feltöltött dokumentumok munkafolyamatát."
 
-#: views/workflow_template_views.py:257
+#: views/workflow_template_views.py:262
 msgid "Launch workflow?"
 msgstr "Munkafolyamat indítása?"
 
-#: views/workflow_template_views.py:268 views/workflow_template_views.py:328
+#: views/workflow_template_views.py:273 views/workflow_template_views.py:333
 msgid "Workflow launch queued successfully."
 msgstr "A munkafolyamat indítása sikeresen beállt a sorba."
 
-#: views/workflow_template_views.py:286
+#: views/workflow_template_views.py:291
 msgid ""
 "Workflows store a series of states and keep track of the current state of a "
 "document. Transitions are used to change the current state to a new one."
@@ -1459,16 +1521,16 @@ msgstr ""
 "dokumentum aktuális állapotát. Az átvezetések arra szolgálnak, hogy az "
 "aktuális állapotot egy újra módosítsák."
 
-#: views/workflow_template_views.py:291
+#: views/workflow_template_views.py:296
 msgid "No workflows have been defined"
 msgstr "Nincs munkafolyamat meghatározva"
 
-#: views/workflow_template_views.py:308
+#: views/workflow_template_views.py:313
 #, python-format
 msgid "Preview of: %s"
 msgstr "Előnézet: %s"
 
-#: views/workflow_template_views.py:315
+#: views/workflow_template_views.py:320
 msgid ""
 "This will launch all workflows created after documents have already been "
 "uploaded."
@@ -1476,7 +1538,7 @@ msgstr ""
 "Ezzel elindítja a dokumentumok feltöltése után létrehozott összes "
 "munkafolyamatot."
 
-#: views/workflow_template_views.py:318
+#: views/workflow_template_views.py:323
 msgid "Launch all workflows?"
 msgstr "Az összes munkafolyamat elindítása?"
 

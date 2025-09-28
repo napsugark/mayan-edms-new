@@ -4,15 +4,15 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Roberto Rosario, 2024
+# Roberto Rosario, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 12:51+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Roberto Rosario, 2024\n"
+"POT-Creation-Date: 2025-01-20 12:33+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Spanish (Ecuador) (https://app.transifex.com/rosarior/teams/13584/es_EC/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,23 +20,23 @@ msgstr ""
 "Language: es_EC\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: apps.py:32 permissions.py:6
+#: apps.py:35 permissions.py:6
 msgid "Task manager"
 msgstr "Administrador de tareas"
 
-#: apps.py:116 apps.py:141 apps.py:184
+#: apps.py:123 apps.py:200 classes.py:64
 msgid "Label"
 msgstr "Etiqueta"
 
-#: apps.py:120 apps.py:144 apps.py:188
+#: apps.py:127 apps.py:204 classes.py:71
 msgid "Name"
 msgstr "Nombre"
 
-#: apps.py:125
+#: apps.py:132
 msgid "Default queue?"
 msgstr "¿Cola principal?"
 
-#: apps.py:130
+#: apps.py:137
 msgid ""
 "Transient queues are not persistent. Tasks in a transient queue are lost if "
 "the broker is restarted. Transient queues use less resources and managed non"
@@ -46,55 +46,35 @@ msgstr ""
 "transitoria se pierden si se reinicia el intermediario. Las colas "
 "transitorias utilizan menos recursos y gestionan tareas no críticas."
 
-#: apps.py:133
+#: apps.py:140
 msgid "Is transient?"
 msgstr "¿Es transitoria?"
 
-#: apps.py:147
-msgid "Dotted path"
-msgstr "Ruta separada por puntos"
-
-#: apps.py:151
-msgid "Schedule"
-msgstr "Horario"
-
-#: apps.py:157
+#: apps.py:171
 msgid "Type"
 msgstr "Tipo"
 
-#: apps.py:162
+#: apps.py:176
 msgid "Start time"
 msgstr "Tiempo de inicio"
 
-#: apps.py:166
+#: apps.py:180
 msgid "Host"
 msgstr "Servidor"
 
-#: apps.py:170
+#: apps.py:184
 msgid "Arguments"
 msgstr "Argumentos"
 
-#: apps.py:174
+#: apps.py:188
 msgid "Keyword arguments"
 msgstr "Argumentos explícitos"
 
-#: apps.py:179
+#: apps.py:193
 msgid "Worker process ID"
 msgstr "ID del proceso trabajador"
 
-#: apps.py:192
-msgid ""
-"Maximum amount of resident memory a worker can execute before it's replaced "
-"by a new process."
-msgstr ""
-"Cantidad máxima de memoria residente que un trabajador puede ejecutar antes "
-"de ser reemplazada por un nuevo proceso."
-
-#: apps.py:194
-msgid "Maximum memory per child"
-msgstr "Memoria máxima por subprocesso"
-
-#: apps.py:198
+#: apps.py:213
 msgid ""
 "Maximum number of tasks a worker can execute before it's replaced by a new "
 "process."
@@ -102,11 +82,11 @@ msgstr ""
 "Número máximo de tareas que un trabajador puede ejecutar antes de ser "
 "reemplazado por un nuevo proceso."
 
-#: apps.py:200
+#: apps.py:215
 msgid "Maximum tasks per child"
 msgstr "Tareas máximas por subproceso"
 
-#: apps.py:204
+#: apps.py:220
 msgid ""
 "The number of worker processes/threads to launch. Defaults to the number of "
 "CPUs available on the machine."
@@ -114,11 +94,11 @@ msgstr ""
 "El número de procesos/hilos de trabajo que se lanzarán. El valor "
 "predeterminado es la cantidad de CPUs disponibles en la máquina."
 
-#: apps.py:206
+#: apps.py:222
 msgid "Concurrency"
 msgstr "Concurrencia"
 
-#: apps.py:210
+#: apps.py:227
 msgid ""
 "The nice value determines the priority of the process. A higher value lowers"
 " the priority. The default value is 0."
@@ -126,27 +106,79 @@ msgstr ""
 "El valor de amistad determina la prioridad del proceso. Un valor más alto "
 "reduce la prioridad. El valor predeterminado es 0."
 
-#: apps.py:213
+#: apps.py:230
 msgid "Nice level"
 msgstr "Nivel de amistad"
 
-#: classes.py:184
+#: classes.py:55
+msgid "The Python path to the task code."
+msgstr ""
+
+#: classes.py:56
+msgid "Dotted path"
+msgstr "Ruta separada por puntos"
+
+#: classes.py:62
+msgid "Human readable description of the task type."
+msgstr ""
+
+#: classes.py:70
+msgid "Unique internal name of the task type."
+msgstr ""
+
+#: classes.py:77 classes.py:251
+msgid "Queue"
+msgstr "Someter"
+
+#: classes.py:83
+msgid "Trigger interval if the task type is set for periodic execution."
+msgstr ""
+
+#: classes.py:86
+msgid "Schedule"
+msgstr "Horario"
+
+#: classes.py:91 classes.py:329
+msgid "Worker"
+msgstr ""
+
+#: classes.py:217
+msgid "Number of task types managed by the queue."
+msgstr ""
+
+#: classes.py:219 classes.py:317
 msgid "Task type count"
 msgstr "Cantidad de tipos de tareas"
 
-#: classes.py:226
+#: classes.py:295
+msgid ""
+"Maximum amount of resident memory a worker can execute before it's replaced "
+"by a new process."
+msgstr ""
+"Cantidad máxima de memoria residente que un trabajador puede ejecutar antes "
+"de ser reemplazada por un nuevo proceso."
+
+#: classes.py:299
+msgid "Maximum memory per child"
+msgstr "Memoria máxima por subprocesso"
+
+#: classes.py:305
 msgid "Queue count"
 msgstr "Cantidad de colas de tareas"
 
-#: links.py:13
+#: classes.py:315
+msgid "Number of task types managed by the worker."
+msgstr ""
+
+#: links.py:13 links.py:18
 msgid "Task type list"
 msgstr "Lista de tipos de tareas"
 
-#: links.py:18
+#: links.py:22
 msgid "Worker list"
 msgstr "Lista de trabajadores"
 
-#: links.py:23
+#: links.py:27
 msgid "Queue list"
 msgstr "Lista de colas de trabajo"
 
@@ -202,26 +234,30 @@ msgstr ""
 msgid "Test queue"
 msgstr "Lista de prueba"
 
-#: views.py:25
+#: views.py:20
+msgid "Task types"
+msgstr ""
+
+#: views.py:43
 #, python-format
 msgid "Task types for queue: %s"
 msgstr "Tipos de tareas para cola de tareas: %s"
 
-#: views.py:35
+#: views.py:56
 #, python-format
 msgid "Queue: %s, not found"
 msgstr "Cola de tareas: %s , no encontrada"
 
-#: views.py:45
+#: views.py:68
 msgid "Background task workers"
 msgstr "Trabajadores de tareas de fondo"
 
-#: views.py:62
+#: views.py:85
 #, python-format
 msgid "Queues for worker: %s"
 msgstr "Colas de tareas para trabajador: %s"
 
-#: views.py:72
+#: views.py:95
 #, python-format
 msgid "Worker: %s, not found"
 msgstr "Trabajador: %s , no encontrado"

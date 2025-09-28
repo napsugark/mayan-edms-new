@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 13:44+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -46,7 +46,7 @@ msgstr "ཚིག་རྒྱན་ཅན་གྱི་མིང་།"
 
 #: apps.py:198
 msgid "App manager"
-msgstr "མཉེན་ཆས་འཛིན་སྐྱོང་པ།"
+msgstr "མཉེན་ཆས་དོ་དམ་པ།"
 
 #: links.py:8
 msgid "Apps"

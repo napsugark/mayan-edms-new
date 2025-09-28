@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-26 19:04+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgstr "དཀར་ཆག་དཔེ་སྒྲོམ་རྩོམ་སྒ
 
 #: forms.py:17 forms.py:22
 msgid "Namespace"
-msgstr "མིང་གི་བར་སྟོང་།"
+msgstr "མིང་བར་སྟོང་།"
 
 #: forms.py:27 models/index_template_models.py:35
 msgid "Label"
@@ -90,11 +90,11 @@ msgstr "བསྐྱར་བཟོ་ཆེད་དུ་ཟུར་ཐོའ
 #: forms.py:47 links.py:37 links.py:101 models/index_template_models.py:58
 #: views/index_template_views.py:95
 msgid "Index templates"
-msgstr "ཟུར་ཐོའི་དཔེ་སྒྲོམ།"
+msgstr "ཟུར་ཐོའི་དཔེ་སྒྲོམ་ཚུ།"
 
 #: forms.py:62
 msgid "Template"
-msgstr "དཔེ་སྒྲོམ།"
+msgstr "དཔེ་གཞི།"
 
 #: handlers.py:18
 msgid "Creation date"
@@ -116,7 +116,7 @@ msgstr "ཡིག་ཆའི་དཀར་ཆག་ཚང་མ་བསུབ
 msgid "Rebuild indexes"
 msgstr "དཀར་ཆག་བསྐྱར་བཟོ།"
 
-#: links.py:69 views/index_template_views.py:452
+#: links.py:69 views/index_template_views.py:448
 msgid "Reset indexes"
 msgstr "དཀར་ཆག་སླར་སྒྲིག་བྱེད་པ།"
 
@@ -229,7 +229,7 @@ msgstr ""
 
 #: models/index_template_models.py:40
 msgid "Slug"
-msgstr "སྦུལ།"
+msgstr "སྲུལ།"
 
 #: models/index_template_models.py:44
 msgid ""
@@ -281,7 +281,8 @@ msgid ""
 "Check this option to have this node act as a container for documents and not"
 " as a parent for further nodes."
 msgstr ""
-"གདམ་ཁ་འདི་ལ་ཞིབ་བཤེར་བྱས་ནས་མཐུད་ཁ་འདི་ཡིག་ཆའི་ཆེད་དུ་སྣོད་ཆས་ལྟར་ལས་ཀ་བྱེད་པ་ལས་མཐུད་ཁ་གཞན་པའི་ཆེད་དུ་ཕ་མ་ལྟར་མིན།"
+"གདམ་ཁ་འདི་ལ་ཞིབ་བཤེར་བྱས་ནས་མཐུད་ཁ་འདི་ཡིག་ཆའི་ཆེད་དུ་སྣོད་ཆས་ལྟར་ལས་ཀ་བྱེད་པ་དང་།"
+" མཐུད་ཁ་གཞན་པའི་ཕ་མ་ལྟར་མིན།"
 
 #: models/index_template_models.py:174
 msgid "Link documents"
@@ -319,7 +320,7 @@ msgstr "དཀར་ཆག་དཔེ་སྒྲོམ་སུབ་པ།"
 msgid "View index templates"
 msgstr "ཟུར་ཐོའི་དཔེ་སྒྲོམ་ལ་ལྟ་བ།"
 
-#: permissions.py:25 views/index_template_views.py:416
+#: permissions.py:25 views/index_template_views.py:412
 msgid "Rebuild index templates"
 msgstr "ཟུར་ཐོའི་དཔེ་སྒྲོམ་བསྐྱར་བཟོ།"
 
@@ -419,8 +420,7 @@ msgstr "ཡིག་ཆའི་རིགས་URL།"
 
 #: serializers/index_template_serializers.py:160
 msgid "URL of the API endpoint to add document types to this index template."
-msgstr ""
-"དཀར་ཆག་ཊེམ་པེལེཊི་འདི་ལ་ཡིག་ཆའི་རིགས་ཁ་སྣོན་བྱེད་པའི་APIམཐའ་མཚམས་ཀྱི་URL།"
+msgstr "དཀར་ཆག་ཚད་གཞི་འདི་ལ་ཡིག་ཆའི་རིགས་ཁ་སྣོན་བྱེད་པའི་APIམཐའ་མཚམས་ཀྱི་URL།"
 
 #: serializers/index_template_serializers.py:162
 msgid "Document types add URL"
@@ -434,7 +434,7 @@ msgstr ""
 
 #: serializers/index_template_serializers.py:170
 msgid "Document types remove URL"
-msgstr "ཡིག་ཆའི་རིགས་ཀྱིས་URLམེད་པར་བཟོས།"
+msgstr "ཡིག་ཆའི་རིགས་URLམེད་པར་བཟོས།"
 
 #: serializers/index_template_serializers.py:175
 msgid "Index template root node ID"
@@ -442,7 +442,7 @@ msgstr "ཟུར་ཐོའི་དཔེ་སྒྲོམ་གྱི་ར
 
 #: serializers/index_template_serializers.py:182
 msgid "Rebuild URL"
-msgstr "URLབསྐྱར་བཟོ།"
+msgstr "URL བསྐྱར་བཟོ།"
 
 #: serializers/index_template_serializers.py:186
 msgid "Reset URL"
@@ -487,7 +487,7 @@ msgid ""
 "Assign the document type of this document to an index to have it appear in "
 "instances of those indexes organization units. "
 msgstr ""
-"ཡིག་ཆ་འདིའི་ཡིག་ཆའི་རིགས་དེ་དཀར་ཆག་ལ་འགན་སྤྲོད་བྱས་ནས་དཀར་ཆག་སྒྲིག་འཛུགས་ཀྱི་ཆ་ཤས་དེ་དག་གི་གནས་ཚུལ་ནང་མཐོང་ཐུབ།"
+"ཡིག་ཆ་འདིའི་ཡིག་ཆའི་རིགས་དེ་དཀར་ཆག་སྒྲིག་འཛུགས་ཀྱི་ཆ་ཤས་དེ་དག་གི་གནས་ཚུལ་ནང་མངོན་པར་བྱས་ནས་དཀར་ཆག་ལ་འགན་སྤྲོད་བྱེད།"
 " "
 
 #: views/index_instance_views.py:147
@@ -569,17 +569,17 @@ msgstr "ཡིག་ཆའི་རིགས %s དཀར་ཆག་ལ་འ�
 msgid "Edit index: %s"
 msgstr "རྩོམ་སྒྲིག་ཟུར་ཐོ།: %s"
 
-#: views/index_template_views.py:219
+#: views/index_template_views.py:215
 #, python-format
 msgid "Error updating index template event trigger; %s"
 msgstr "ཟུར་ཐོའི་ཊེམ་པེལེཊ་བྱུང་རིམ་འབྱུང་ཁུངས་དུས་མཐུན་བཟོ་བའི་ནོར་འཁྲུལ། %s"
 
-#: views/index_template_views.py:228
+#: views/index_template_views.py:224
 msgid "Index template event triggers updated successfully."
 msgstr ""
 "ཟུར་ཐོའི་དཔེ་སྒྲོམ་གྱི་བྱུང་རིམ་དེ་ལེགས་འགྲུབ་བྱུང་བའི་སྒོ་ནས་དུས་བསྟུན་བྱས།"
 
-#: views/index_template_views.py:238
+#: views/index_template_views.py:234
 msgid ""
 "Triggers are document events that cause instances of this index template to "
 "be updated."
@@ -587,52 +587,52 @@ msgstr ""
 "འབྱུང་ཁུངས་ནི་ཡིག་ཆའི་བྱུང་རིམ་ཡིན་ཞིང་། "
 "དེས་ཟུར་ཐོའི་ཊེམ་པེལེཊི་འདིའི་གནས་ཚུལ་གསར་བརྗེ་བྱེད།"
 
-#: views/index_template_views.py:243
+#: views/index_template_views.py:239
 #, python-format
 msgid "Index template event triggers for: %s"
 msgstr "དཀར་ཆག་དཔེ་སྒྲོམ་གྱི་བྱུང་རིམ་འབྱུང་ཁུངས།: %s"
 
-#: views/index_template_views.py:288
+#: views/index_template_views.py:284
 #, python-format
 msgid "Tree template nodes for index: %s"
 msgstr "དཀར་ཆག་ཆེད་དུ་ཤིང་སྡོང་ཚད་གཞིའི་མཛུབ་མོ། %s"
 
-#: views/index_template_views.py:315
+#: views/index_template_views.py:311
 #, python-format
 msgid "Create child node of: %s"
 msgstr "ཕྲུ་གུའི་མཐུད་ཁ་གསར་འཛུགས་བྱས %s"
 
-#: views/index_template_views.py:341
+#: views/index_template_views.py:337
 #, python-format
 msgid "Delete the index template node: %s?"
 msgstr "དཀར་ཆག་ཚད་གཞིའི་མཐུད་ཁ་བསུབས་དགོས། %s ?"
 
-#: views/index_template_views.py:365
+#: views/index_template_views.py:361
 #, python-format
 msgid "Edit the index template node: %s"
 msgstr "དཀར་ཆག་དཔེ་སྒྲོམ་གྱི་མཐུད་ཁ་རྩོམ་སྒྲིག་བྱོས། %s"
 
-#: views/index_template_views.py:386
+#: views/index_template_views.py:382
 #, python-format
 msgid "Rebuild index template: %s"
 msgstr "ཟུར་ཐོའི་དཔེ་སྒྲོམ་བསྐྱར་བཟོ %s"
 
-#: views/index_template_views.py:409
+#: views/index_template_views.py:405
 msgid "Index template queued for rebuild."
 msgstr "བསྐྱར་བཟོ་ཆེད་དུ་ཟུར་ཐོའི་དཔེ་སྒྲོམ་བང་སྒྲིག་ཡོད།"
 
-#: views/index_template_views.py:433
+#: views/index_template_views.py:429
 #, python-format
 msgid "%(count)d index template queued for rebuild."
 msgid_plural "%(count)d index templates queued for rebuild."
 msgstr[0] "བསྐྱར་བཟོ་ཆེད་དུ་ %(count)d དཀར་ཆག་ཊེམ་པེལེཊ་བང་སྒྲིག་ཡོད།"
 
-#: views/index_template_views.py:465
+#: views/index_template_views.py:461
 #, python-format
 msgid "%(count)d index reset."
 msgid_plural "%(count)d indexes reset."
 msgstr[0] "%(count)d ཨེན་ཌི་ཟུར་ཐོ་སླར་སྒྲིག་བྱེད།"
 
-#: views/index_template_views.py:478
+#: views/index_template_views.py:474
 msgid "Index templates for which their instances will be deleted."
 msgstr "དེ་དག་གི་གནས་ཚུལ་བསུབས་པའི་ཟུར་ཐོའི་དཔེ་རིས།"

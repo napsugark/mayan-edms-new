@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 10:34+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: apps.py:47
 msgid "Linking"
-msgstr "འབྲེལ་མཐུད་བྱེད་པ།"
+msgstr "སྦྲེལ་མཐུད།"
 
 #: apps.py:122 models.py:33 serializers.py:133
 msgid "Label"
@@ -35,13 +35,25 @@ msgstr "རིག་ནུས་སྦྲེལ་མཐུད།"
 
 #: events.py:10
 msgid "Smart link created"
-msgstr "རིག་ནུས་སྦྲེལ་མཐུད་གསར་བཟོ་བྱས།"
+msgstr "རིག་ལྡན་སྦྲེལ་མཐུད་གསར་སྐྲུན་བྱས།"
 
 #: events.py:13
 msgid "Smart link edited"
 msgstr "Smart link རྩོམ་སྒྲིག་བྱས།"
 
-#: forms.py:46
+#: forms.py:28
+msgid "General"
+msgstr "སྤྱིར་བཏང་གི"
+
+#: forms.py:33
+msgid "Foreign document"
+msgstr "ཕྱི་རྒྱལ་ཡིག་ཆ།"
+
+#: forms.py:38
+msgid "Local document"
+msgstr "ས་གནས་ཡིག་ཆ།"
+
+#: forms.py:64
 msgid "Foreign document field"
 msgstr "ཕྱི་རྒྱལ་ཡིག་ཆའི་ཁྱབ་ཁོངས།"
 
@@ -123,7 +135,7 @@ msgstr "ནས་འགོ་བརྩམས།"
 
 #: literals.py:22
 msgid "starts with (case insensitive)"
-msgstr "འགོ་བཙུགས་ཏེ་(ཡི་གེ་ཆེ་ཆུང་ལ་མ་ལྟོས་པ)"
+msgstr "འགོ་འཛུགས་(ཡི་གེ་ཆེ་ཆུང་ལ་མ་ལྟོས་པ)"
 
 #: literals.py:23
 msgid "ends with"
@@ -148,7 +160,7 @@ msgstr "འགུལ་ཤུགས་ལྡན་པའི་མཚོན་ར
 
 #: model_mixins.py:60
 msgid "This smart link is not allowed for the selected document's type."
-msgstr "བདམས་པའི་ཡིག་ཆའི་རིགས་ལ་རིག་ནུས་འབྲེལ་མཐུད་འདི་མི་ཆོག"
+msgstr "བདམས་པའི་ཡིག་ཆའི་རིགས་ལ་རིག་ནུས་འབྲེལ་མཐུད་འདི་ཆོག་པ་མ་རེད།"
 
 #: model_mixins.py:112
 msgid "not"
@@ -214,7 +226,7 @@ msgstr "དགག་པ།"
 
 #: models.py:125
 msgid "Link condition"
-msgstr "འབྲེལ་མཐུད་ཀྱི་གནས་སྟངས།"
+msgstr "འབྲེལ་མཐུད་གནས་སྟངས།"
 
 #: models.py:126
 msgid "Link conditions"
@@ -234,7 +246,7 @@ msgstr "རིག་ནུས་འབྲེལ་མཐུད་སུབ་པ
 
 #: permissions.py:19
 msgid "Edit smart links"
-msgstr "རིག་ནུས་འབྲེལ་ཐག་རྩོམ་སྒྲིག་བྱེད་པ།"
+msgstr "རིག་ལྡན་སྦྲེལ་མཐུད་རྩོམ་སྒྲིག་བྱེད་པ།"
 
 #: permissions.py:22
 msgid "View existing smart links"
@@ -242,7 +254,7 @@ msgstr "ད་ཡོད་ཀྱི་རིག་ལྡན་སྦྲེལ་
 
 #: serializers.py:20 serializers.py:136
 msgid "Smart link URL"
-msgstr "དྲ་སྦྲེལ་དྲ་རྒྱ།"
+msgstr "འབྲེལ་མཐུད་དྲ་རྒྱ།"
 
 #: serializers.py:24 serializers.py:90 serializers.py:139
 msgid "URL"
@@ -276,7 +288,7 @@ msgstr "ཡིག་ཆའི་རིགས་URLཁ་སྣོན་བྱེ
 
 #: serializers.py:82
 msgid "Document types remove URL"
-msgstr "ཡིག་ཆའི་རིགས་URLམེད་པར་བཟོས།"
+msgstr "ཡིག་ཆའི་རིགས་ཀྱིས་URLམེད་པར་བཟོས།"
 
 #: serializers.py:109
 msgid "Resolved smart link URL"
@@ -304,7 +316,7 @@ msgstr "རིག་ནུས་འབྲེལ་མཐུད་ཀྱི་ཆ
 #: views/smart_link_condition_views.py:75
 #, python-format
 msgid "Add new conditions to smart link: \"%s\""
-msgstr "རིག་ནུས་འབྲེལ་མཐུད་ལ་ཆ་རྐྱེན་གསར་བ་ཁ་སྣོན་བྱེད། &quot; %s"
+msgstr "རིག་ནུས་འབྲེལ་མཐུད་ལ་ཆ་རྐྱེན་གསར་བ་ཁ་སྣོན་བྱེད། &quot; %s &quot;"
 
 #: views/smart_link_condition_views.py:109
 #, python-format
@@ -313,7 +325,7 @@ msgstr "བསུབས་པའི་རིག་ནུས་འབྲེལ་
 
 #: views/smart_link_condition_views.py:136
 msgid "Edit smart link condition"
-msgstr "རིག་ལྡན་སྦྲེལ་མཐུད་ཀྱི་གནས་སྟངས་རྩོམ་སྒྲིག་བྱེད།"
+msgstr "རིག་ལྡན་སྦྲེལ་མཐུད་ཀྱི་གནས་སྟངས་རྩོམ་སྒྲིག་བྱེད་པ།"
 
 #: views/smart_link_views.py:74
 #, python-format
@@ -324,7 +336,7 @@ msgstr "འབྲེལ་མཐུད་འདྲི་རྩད་ཀྱི་
 #, python-format
 msgid "Resolved smart link dynamic label error: %s"
 msgstr ""
-"ཐག་གཅོད་བྱས་པའི་རིག་ནུས་འབྲེལ་མཐུད་སྒུལ་ཤུགས་ཅན་གྱི་མཚོན་རྟགས་ཀྱི་ནོར་འཁྲུལ།"
+"རིག་ནུས་འབྲེལ་མཐུད་ཀྱི་སྒུལ་ཤུགས་ཅན་གྱི་མཚོན་རྟགས་ཀྱི་ནོར་འཁྲུལ་ཐག་གཅོད་བྱས།"
 " %s"
 
 #: views/smart_link_views.py:106
@@ -342,7 +354,7 @@ msgid ""
 "equal or similar types. Smart links allow defining relationships between "
 "documents even if they are in different indexes and are of different types."
 msgstr ""
-"ཡིག་ཆ་སྡེ་ཚན་གྱི་ཟུར་ཐོའི་ཚད་གཞི་དེ་སྤྱིར་བཏང་རྒྱུ་དངོས་འདྲ་མཚུངས་དང་རིགས་འདྲ་མཉམ་ཡང་ན་འདྲ་མཚུངས་ཡིན།"
+"ཡིག་ཆ་སྡེ་ཚན་གྱི་ཟུར་ཐོའི་ཚད་གཞི་དེ་སྤྱིར་བཏང་རྒྱུ་ཆ་འདྲ་མཚུངས་དང་རིགས་འདྲ་མཉམ་ཡང་ན་འདྲ་མཚུངས་ཡིན།"
 " ཡིག་ཆའི་བར་གྱི་འབྲེལ་བ་དེ་དཀར་ཆག་མི་འདྲ་བ་དང་རིགས་མི་འདྲ་བ་ཡིན་ནའང་།"
 
 #: views/smart_link_views.py:155
@@ -362,7 +374,7 @@ msgstr "ཡིག་ཆ་འདི་ལ་ཐག་གཅོད་བྱེད
 #: views/smart_link_views.py:186
 #, python-format
 msgid "Resolved smart links for document: %s"
-msgstr "ཡིག་ཆའི་ཆེད་དུ་འབྲེལ་མཐུད་རིག་པ་ཅན་ཐག་གཅོད་བྱས། %s"
+msgstr "ཡིག་ཆའི་ཆེད་དུ་འབྲེལ་མཐུད་ཡག་པོ་ཐག་གཅོད་བྱས། %s"
 
 #: views/smart_link_views.py:204
 msgid "Available smart links"

@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 17:02+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Language: bo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: apps.py:74 apps.py:215 apps.py:221 apps.py:225 apps.py:230 apps.py:234
+#: apps.py:74 apps.py:211 apps.py:217 apps.py:221 apps.py:226 apps.py:230
 #: events.py:6 links.py:53 permissions.py:6 queues.py:7
 #: workflow_actions.py:162
 msgid "Metadata"
@@ -34,19 +34,11 @@ msgstr "བྱེ་བྲག་གི་ཡིག་ཆའི་མེ་ཊ་
 msgid "Metadata value of"
 msgstr "ཡི་མེ་ཊ་ཌེ་ཊ་རིན་ཐང་།"
 
-#: apps.py:151
-msgid "Metadata type name"
-msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་ཀྱི་མིང་།"
-
-#: apps.py:155 search.py:15
-msgid "Metadata value"
-msgstr "མེ་ཊ་ཌེ་ཊ་རིན་ཐང་།"
-
-#: apps.py:253
+#: apps.py:249
 msgid "Document link"
 msgstr "ཡིག་ཆའི་སྦྲེལ་མཐུད།"
 
-#: apps.py:259
+#: apps.py:255
 msgid "Document thumbnail"
 msgstr "ཡིག་ཆའི་པར་རིས།"
 
@@ -153,7 +145,7 @@ msgstr "མེ་ཊ་ཌེ་ཊ་ཁ་སྣོན།"
 
 #: links.py:32 links.py:39 workflow_actions.py:125
 msgid "Edit metadata"
-msgstr "མེ་ཊ་ཌེ་ཊ་རྩོམ་སྒྲིག་བྱེད།"
+msgstr "མེ་ཊ་ཌེ་ཊ་རྩོམ་སྒྲིག"
 
 #: links.py:43 links.py:49 workflow_actions.py:204
 msgid "Remove metadata"
@@ -173,7 +165,7 @@ msgstr "ཡིག་ཆའི་རིགས་།"
 msgid "Create new"
 msgstr "གསར་པ་གསར་སྐྲུན་བྱེད་པ།"
 
-#: links.py:82 links.py:87
+#: links.py:81 links.py:86
 msgid "Delete"
 msgstr "བསུབ་པ།"
 
@@ -235,7 +227,7 @@ msgstr "ཡིག་ཆའི་རིགས་ཀྱི་མེ་ཊ་གཞ
 
 #: models/document_type_metadata_type_models.py:41
 msgid "Document type metadata types options"
-msgstr "ཡིག་ཆའི་རིགས་ཀྱི་མེ་ཊ་གཞི་གྲངས་རིགས་གདམ་ཁ།"
+msgstr "ཡིག་ཆའི་རིགས་ཀྱི་མེ་ཊ་གྲངས་ཐོའི་རིགས་གདམ་ཁ།"
 
 #: models/metadata_instance_models.py:32 serializers.py:111
 msgid "Document"
@@ -346,7 +338,7 @@ msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་བདེན་དཔང་
 
 #: permissions.py:10
 msgid "Add metadata to a document"
-msgstr "ཡིག་ཆར་མེ་ཊ་གཞི་གྲངས་ཁ་སྣོན་བྱེད་པ།"
+msgstr "ཡིག་ཆ་ལ་མེ་ཊ་གཞི་གྲངས་ཁ་སྣོན་བྱེད་པ།"
 
 #: permissions.py:13
 msgid "Edit a document's metadata"
@@ -366,7 +358,7 @@ msgstr "མེ་ཊ་གྲངས་ཐོའི་རིགས་རྩོམ
 
 #: permissions.py:31
 msgid "Create new metadata types"
-msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་གསར་པ་གསར་སྐྲུན་བྱེད།"
+msgstr "མེ་ཊ་གྲངས་ཐོའི་རིགས་གསར་བ་གསར་སྐྲུན་བྱེད།"
 
 #: permissions.py:34
 msgid "Delete metadata types"
@@ -383,6 +375,10 @@ msgstr "མེ་ཊ་ཌེ་ཊ་རིགས་མེད་པར་བཟ
 #: queues.py:15
 msgid "Add required metadata type"
 msgstr "དགོས་མཁོའི་གྲངས་ཐོའི་རིགས་ཁ་སྣོན་བྱེད།"
+
+#: search.py:15
+msgid "Metadata value"
+msgstr "མེ་ཊ་ཌེ་ཊ་རིན་ཐང་།"
 
 #: search.py:33
 msgid "Document type ID"
@@ -411,7 +407,7 @@ msgstr "ཡིག་ཆ་ལ་ཁ་སྣོན་བྱེད་དགོས
 #: views/document_views.py:46
 #, python-format
 msgid "Metadata add request performed on %(count)d document"
-msgstr "མེ་ཊ་ཌེ་ཊ་ཁ་སྣོན་གྱི་རེ་འདུན་དེ་ %(count)d ཡིག་ཆའི་ཐོག་སྒྲུབ་ཡོད།"
+msgstr "མེ་ཊ་ཌེ་ཊ་ཁ་སྣོན་གྱི་རེ་འདུན་ %(count)d ཡིག་ཆར་སྒྲུབ་ཡོད།"
 
 #: views/document_views.py:49
 #, python-format
@@ -619,7 +615,7 @@ msgid ""
 "Create metadata type relationships to be able to associate them to this "
 "document type."
 msgstr ""
-"ཡིག་ཆའི་རིགས་འདི་ལ་འབྲེལ་མཐུད་བྱེད་ཐུབ་པའི་ཆེད་དུ་མེ་ཊ་ཌེ་ཊ་རིགས་ཀྱི་འབྲེལ་བ་གསར་འཛུགས་བྱེད།"
+"ཡིག་ཆའི་རིགས་འདི་ལ་འབྲེལ་བ་བྱེད་ཐུབ་པའི་ཆེད་དུ་མེ་ཊ་ཌེ་ཊ་རིགས་ཀྱི་འབྲེལ་བ་གསར་འཛུགས་བྱེད།"
 
 #: views/metadata_type_views.py:139
 msgid "There are no metadata type relationships available"

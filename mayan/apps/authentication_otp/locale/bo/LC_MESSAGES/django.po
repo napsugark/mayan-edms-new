@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgstr ""
 
 #: forms.py:121
 msgid "Token"
-msgstr "བརྡ་རྟགས།"
+msgstr "རྟགས་མཚན།"
 
 #: forms.py:157
 msgid "Token is incorrect for the specified secret."
@@ -114,7 +114,7 @@ msgstr "སྤྱོད་མཁན་གྱི་ཆེད་དུ་དུས
 #: views.py:45
 #, python-format
 msgid "Disable one time pad for user: %s"
-msgstr "སྤྱོད་མཁན་གྱི་ཆེད་དུ་དུས་ཚོད་གཅིག་གི་སྟེགས་བུ་ལྕོགས་མིན་བཟོས། %s"
+msgstr "སྤྱོད་མཁན་གྱི་ཆེད་དུ་དུས་ཚོད་གཅིག་གི་སྟེགས་བུ་ལྕོགས་མིན་བཟོས %s"
 
 #: views.py:56
 msgid "OTP disable successfully."
@@ -126,7 +126,7 @@ msgstr "OTP དེ་སྔོན་ནས་ལག་བསྟར་བྱས�
 
 #: views.py:97
 msgid "OTP enabled successfully."
-msgstr "OTP ལེགས་འགྲུབ་བྱུང་ཡོད།"
+msgstr "OTP ལེགས་འགྲུབ་ངང་ལག་བསྟར་བྱས།"
 
 #: views.py:107
 #, python-format

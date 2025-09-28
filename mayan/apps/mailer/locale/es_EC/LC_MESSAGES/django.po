@@ -4,15 +4,15 @@
 # 
 # Translators:
 # Translators:
-# Roberto Rosario, 2024
+# Roberto Rosario, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Roberto Rosario, 2024\n"
+"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Spanish (Ecuador) (https://app.transifex.com/rosarior/teams/13584/es_EC/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -103,15 +103,15 @@ msgstr "El controlador a utilizar al enviar correos electrónicos."
 msgid "Backend"
 msgstr "Controlador"
 
-#: links.py:33 links.py:38
+#: links.py:32 links.py:38
 msgid "Email document link"
 msgstr "Enviar documento"
 
-#: links.py:48 links.py:53
+#: links.py:46 links.py:53
 msgid "Email document file"
 msgstr "Enviar documento"
 
-#: links.py:59 links.py:64
+#: links.py:58 links.py:64
 msgid "Email document file link"
 msgstr "Enviar documento"
 
@@ -139,12 +139,11 @@ msgstr "Eliminar"
 msgid "Edit"
 msgstr "Editar"
 
-#: links.py:113 links.py:121 links.py:127 models.py:50
-#: views/mailing_profile_views.py:134
+#: links.py:113 links.py:121 models.py:50 views/mailing_profile_views.py:134
 msgid "Mailing profiles"
 msgstr "Perfiles de correo"
 
-#: links.py:131 views/mailing_profile_views.py:162
+#: links.py:126 views/mailing_profile_views.py:162
 msgid "Test"
 msgstr "Probar"
 

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"POT-Creation-Date: 2025-09-28 14:15+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: Harald Ersch, 2025\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/rosarior/teams/13584/ro_RO/)\n"
@@ -150,11 +150,11 @@ msgstr "Câmpuri"
 msgid "Search models"
 msgstr "Modele de căutare"
 
-#: literals.py:27
+#: literals.py:28
 msgid "Yes"
 msgstr "Da"
 
-#: literals.py:28
+#: literals.py:29
 msgid "No"
 msgstr "Nu"
 
@@ -454,29 +454,35 @@ msgstr ""
 "interogare de căutare."
 
 #: settings.py:72
+msgid ""
+"Raise an error when the number of search results exceed the value of "
+"`SEARCH_QUERY_RESULTS_LIMIT`."
+msgstr ""
+
+#: settings.py:79
 msgid "Maximum number of search results to fetch and display."
 msgstr "Numărul maxim de rezultate ale căutării de preluat și afișat."
 
-#: settings.py:78
+#: settings.py:85
 msgid "Maximum number of saved resultsets to keep per user."
 msgstr ""
 "Numărul maxim de seturi de rezultate salvate de păstrat per utilizator."
 
-#: settings.py:84
+#: settings.py:91
 msgid "Maximum number of results to store per resultset."
 msgstr "Numărul maxim de rezultate de stocat per set de rezultate."
 
-#: settings.py:90
+#: settings.py:97
 msgid "Time to keep the resultset in seconds."
 msgstr "Timpul de păstrațre pentru setul de rezultate, în secunde."
 
-#: settings.py:96
+#: settings.py:103
 msgid "Amount to increase the time to live on each access of the resultset."
 msgstr ""
 "Valoare de creștere pentru timpul de expirare pentru fiecare acces al "
 "setului de rezultate."
 
-#: settings.py:103
+#: settings.py:110
 msgid ""
 "Specifies the fields from which search model are to be disabled. The format "
 "is a dictionary of lists. The search model name is the dictionary key and "
@@ -489,7 +495,7 @@ msgstr ""
 "căutare. Câmpurile dezactivate nu vor fi disponibile pentru căutare și nici "
 "indexate de backend-ul de căutare."
 
-#: settings.py:113
+#: settings.py:120
 msgid "Sets the default state of the \"Store results\" checkbox."
 msgstr "Setează starea implicită a casetei de selectare „Store results”."
 

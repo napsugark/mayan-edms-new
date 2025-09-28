@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"POT-Creation-Date: 2025-08-27 11:22+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Language: bo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: apps.py:39 events.py:6 links.py:37 links.py:46 models.py:48
+#: apps.py:39 events.py:6 links.py:38 links.py:47 models.py:48
 #: permissions.py:6 templates/announcements/announcements.html:8 views.py:121
 msgid "Announcements"
 msgstr "གསལ་བསྒྲགས།"
@@ -37,15 +37,15 @@ msgstr "གསལ་བསྒྲགས་གསར་བཟོ་བྱས།"
 msgid "Announcement edited"
 msgstr "གསལ་བསྒྲགས་རྩོམ་སྒྲིག་བྱས།"
 
-#: links.py:17 views.py:34
+#: links.py:18 views.py:34
 msgid "Create announcement"
-msgstr "གསལ་བསྒྲགས་གསར་བཟོ།"
+msgstr "གསལ་བསྒྲགས་བཟོས།"
 
-#: links.py:22 links.py:28
+#: links.py:23 links.py:29
 msgid "Delete"
 msgstr "བསུབ་པ།"
 
-#: links.py:33
+#: links.py:34
 msgid "Edit"
 msgstr "བཅོས་པ།"
 
@@ -134,7 +134,7 @@ msgstr "%(count)d གསལ་བསྒྲགས་མཐར་ཕྱིན་�
 #: views.py:60
 #, python-format
 msgid "Delete the %(count)d selected announcements."
-msgstr "འདེམས་སྒྲུག་བྱས་པའི་གསལ་བསྒྲགས་དེ་ %(count)d བསུབས་དགོས།"
+msgstr "འདེམས་སྒྲུག་བྱས་པའི་གསལ་བསྒྲགས་དེ་ཚོ་ %(count)d བསུབས་དགོས།"
 
 #: views.py:61
 #, python-format

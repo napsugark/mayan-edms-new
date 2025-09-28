@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr "མེ་ལོང་།"
 
 #: settings.py:17
 msgid "Time in seconds to cache the path lookup to a document."
-msgstr "ཡིག་ཆར་འགྲོ་ལམ་འཚོལ་ཞིབ་བྱེད་པའི་སྐར་ཆའི་ནང་དུས་ཚོད།"
+msgstr "ཡིག་ཆ་ལ་འགྲོ་ལམ་འཚོལ་ཞིབ་བྱེད་པའི་དུས་ཚོད་སྐར་ཆའི་ནང་།"
 
 #: settings.py:22
 msgid "Time in seconds to cache the path lookup to an index node."

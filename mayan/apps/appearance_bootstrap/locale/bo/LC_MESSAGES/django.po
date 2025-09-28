@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-27 19:21+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"POT-Creation-Date: 2025-08-27 11:22+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -62,7 +62,7 @@ msgstr "རྣམ་གྲངས་ཀྱི་གནས་ཡུལ་མི་
 
 #: templates/404.html:33
 msgid "The location is correct, but the item no longer exists."
-msgstr "གནས་ཡུལ་དེ་བདེན་པ་ཡིན་ནའང་། ཅ་ལག་དེ་ད་ལྟ་མེད་པ་རེད།"
+msgstr "གནས་ཡུལ་དེ་བདེན་པ་རེད། འོན་ཀྱང་རྣམ་གྲངས་དེ་ད་ལྟ་མེད་པ་རེད།"
 
 #: templates/404.html:34
 msgid ""
@@ -70,7 +70,7 @@ msgid ""
 "permission to access it."
 msgstr ""
 "གནས་ཡུལ་དེ་བདེན་པ་རེད། "
-"འོན་ཀྱང་ཁྱེད་ཀྱི་ཁ་བྱང་ལ་དེ་ལ་འཛུལ་ཞུགས་བྱེད་པར་དགོས་མཁོའི་ཆོག་མཆན་མེད།"
+"འོན་ཀྱང་ཁྱེད་ཀྱི་ཁ་བྱང་ལ་དེ་ལ་འཛུལ་སྤྱོད་བྱེད་པའི་ཆོག་མཆན་མེད།"
 
 #: templates/500.html:5 templates/500.html:18
 #: templates/appearance/root.html:48
@@ -101,7 +101,7 @@ msgstr "ཁྱེད་རང་གི་མ་ལག་དོ་དམ་པ་
 msgid "Check the logs for messages with the tags \"ERROR\", \"CRITICAL\" or \"FATAL\"."
 msgstr ""
 "དྲན་ཐོའི་ནང་ལ་&quot;ERROR&quot;, &quot;CRITICAL&quot; ཡང་ན་ "
-"&quot;FATAL&quot; ཞེས་པའི་རྟགས་བཀོད་པའི་འཕྲིན་ཡིག་ལ་ཞིབ་བཤེར་བྱེད་དགོས།"
+"&quot;FATAL&quot; ཞེས་པའི་བརྡ་འཕྲིན་ཡོད་པའི་བརྡ་འཕྲིན་ལ་ཞིབ་བཤེར་བྱེད་དགོས།"
 
 #: templates/500.html:36
 #, python-format
@@ -125,7 +125,7 @@ msgstr "བཟོ་སྐྲུན་ཨང་གྲངས།: %(project_build_
 
 #: templates/appearance/about.html:48
 msgid "Released under the license:"
-msgstr "ཆོག་མཆན་འོག་གློད་བཀྲོལ་བཏང་བ་ནི།"
+msgstr "ཆོག་མཆན་འོག་གློད་གྲོལ་བཏང་བ་ནི།"
 
 #: templates/appearance/about.html:57
 #, python-format
@@ -191,7 +191,7 @@ msgid ""
 msgstr ""
 "གལ་ཏེ་ཁྱེད་ལ་ནོར་འཁྲུལ་ཞིག་རྙེད་པའམ་ཡང་ན་ཁྱད་ཆོས་ཀྱི་བསམ་ཚུལ་ཡོད་ན། <a "
 "class=\"new_window\" "
-"href=\"%(link_source_code_url)s\">འབྱུང་ཁུངས་ཨང་རྟགས་མཛོད་ཁང་</a> "
+"href=\"%(link_source_code_url)s\">འབྱུང་ཁུངས་ཨང་གྲངས་མཛོད་ཁང་</a> "
 "ནང་ལ་ལག་ཁྱེར་ཁ་ཕྱེ།"
 
 #: templates/appearance/about.html:117
@@ -213,6 +213,10 @@ msgstr "ཡིན"
 msgid "No"
 msgstr "མིན"
 
+#: templates/appearance/confirm.html:52
+msgid "Do not ask me again."
+msgstr "ཡང་བསྐྱར་ང་ལ་མ་འདྲི་རོགས།"
+
 #: templates/appearance/home.html:27
 msgid "Getting started"
 msgstr "འགོ་འཛུགས་བྱེད་བཞིན་པ།"
@@ -221,7 +225,7 @@ msgstr "འགོ་འཛུགས་བྱེད་བཞིན་པ།"
 msgid "Before you can fully use Mayan EDMS you need the following:"
 msgstr "ཁྱོད་ཀྱིས་ Mayan EDMS ཆ་ཚང་བེད་སྤྱོད་མ་གཏོང་གོང་ལ་གཤམ་གསལ་དགོས།"
 
-#: templates/appearance/menus/topbar.html:11
+#: templates/appearance/menus/topbar.html:12
 msgid "Toggle navigation"
 msgstr "འགྲིམ་འགྲུལ་བསྒྱུར།"
 
@@ -263,7 +267,7 @@ msgid ""
 "Total (%(start)s - %(end)s out of %(total)s) (Page %(page_number)s of "
 "%(total_pages)s)"
 msgstr ""
-"བསྡོམས་པས་ ( %(start)s - %(end)s ནང་ནས་ %(total)s ) (ཤོག་ངོས། "
+"བསྡོམས་འབོར། ( %(start)s - %(end)s ནང་ནས་ %(total)s ) (ཤོག་ངོས་ "
 "%(page_number)s %(total_pages)s )"
 
 #: templates/appearance/partials/list/header.html:14
@@ -276,15 +280,23 @@ msgstr "བསྡོམས་འབོར %(total)s"
 msgid "No results"
 msgstr "གྲུབ་འབྲས་མ་ཐོན་པ།"
 
-#: templates/appearance/partials/list/pagination.html:12
-#: templates/appearance/partials/list/pagination.html:14
+#: templates/appearance/partials/list/pagination.html:21
+#: templates/appearance/partials/list/pagination.html:23
 msgid "Previous page"
 msgstr "ཤོག་ངོས་སྔོན་མ།"
 
-#: templates/appearance/partials/list/pagination.html:30
-#: templates/appearance/partials/list/pagination.html:32
+#: templates/appearance/partials/list/pagination.html:39
+#: templates/appearance/partials/list/pagination.html:41
 msgid "Next page"
 msgstr "ཤོག་ངོས་རྗེས་མ།"
+
+#: templates/appearance/partials/list/pagination.html:46
+msgid "Page"
+msgstr "ཤོག་ངོས།"
+
+#: templates/appearance/partials/list/pagination.html:46
+msgid "Jump to page"
+msgstr "ཤོག་ངོས16ལ་མཆོངས།"
 
 #: templates/appearance/partials/list/table/head/row_cell_identifier.html:6
 msgid "Identifier"

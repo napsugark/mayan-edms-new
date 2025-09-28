@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-13 14:31+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,8 @@ msgstr "ཡིག་ཆའི་མེ་ཊ་ཌེ་ཊ་EML"
 
 #: drivers.py:15
 msgid "Extracts information from emails saved in .eml files."
-msgstr ".eml ཡིག་ཆའི་ནང་དུ་གསོག་འཇོག་བྱས་པའི་གློག་འཕྲིན་ནས་གནས་ཚུལ་འདོན་ཐུབ།"
+msgstr ""
+".eml ཡིག་ཆའི་ནང་དུ་གསོག་འཇོག་བྱས་པའི་གློག་འཕྲིན་ནས་གནས་ཚུལ་འདོན་སྤེལ་བྱེད།"
 
 #: drivers.py:18
 msgid "EML Python driver"

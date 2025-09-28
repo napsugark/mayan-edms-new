@@ -4,15 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Csaba Tarjányi, 2024
+# molnars <szabolcs.molnar@gmail.com>, 2025
+# Dezső József <dejo60@gmail.com>, 2025
+# Csaba Tarjányi, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Csaba Tarjányi, 2024\n"
+"POT-Creation-Date: 2025-08-27 11:22+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: Csaba Tarjányi, 2025\n"
 "Language-Team: Hungarian (Slovakia) (https://app.transifex.com/rosarior/teams/13584/hu_SK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +22,7 @@ msgstr ""
 "Language: hu_SK\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps.py:16
+#: apps.py:22
 msgid "Databases"
 msgstr "Adatbázisok"
 
@@ -33,23 +35,67 @@ msgstr ""
 msgid "Has a condition?"
 msgstr "Van feltétele?"
 
-#: classes.py:82
+#: classes.py:87
+msgid "Description"
+msgstr "Leírás"
+
+#: classes.py:92 classes.py:277
+msgid "Label"
+msgstr "Cimke"
+
+#: classes.py:97
+msgid "Example usage of the property."
+msgstr ""
+
+#: classes.py:98 classes.py:282
+msgid "Name"
+msgstr "Név"
+
+#: classes.py:102
 msgid "Model fields"
 msgstr "Modellmezők"
 
-#: classes.py:130
+#: classes.py:149
 msgid "Model related fields"
 msgstr "Modellhez kapcsolódó mezők"
 
-#: classes.py:135
+#: classes.py:154
 msgid "Model properties"
 msgstr "Modell tulajdonságai"
 
-#: classes.py:140
+#: classes.py:159
 msgid "Model reverse fields"
 msgstr "Modell fordított mezők"
 
-#: literals.py:12
+#: classes.py:264
+msgid "Name of the app where the model is defined."
+msgstr ""
+
+#: classes.py:265
+msgid "App"
+msgstr "Alkalmazás"
+
+#: classes.py:270
+msgid "Complete unique name of the model."
+msgstr ""
+
+#: classes.py:271
+msgid "Full name"
+msgstr ""
+
+#: classes.py:276
+msgid "Human readable name of the model."
+msgstr ""
+
+#: links.py:12
+msgid "Properties"
+msgstr "Tulajdonságok"
+
+#: links.py:15
+msgid "Property models"
+msgstr ""
+
+#: literals.py:16
 msgid ""
 "Your database backend is set to use SQLite. SQLite should only be used for "
 "development and testing, not for production."
@@ -76,3 +122,16 @@ msgstr "Feltétel"
 #: templates/databases/app/viewport.html:11
 msgid "Warning"
 msgstr "Figyelmeztetés"
+
+#: views.py:27
+msgid "No properties available"
+msgstr ""
+
+#: views.py:29
+#, python-format
+msgid "Properties for model: %s"
+msgstr ""
+
+#: views.py:49
+msgid "Models with registered properties"
+msgstr ""

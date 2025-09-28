@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"POT-Creation-Date: 2025-09-28 14:15+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: Leo Lado, 2025\n"
 "Language-Team: Ukrainian (https://app.transifex.com/rosarior/teams/13584/uk/)\n"
@@ -141,11 +141,11 @@ msgstr "Поля"
 msgid "Search models"
 msgstr ""
 
-#: literals.py:27
+#: literals.py:28
 msgid "Yes"
 msgstr "Так"
 
-#: literals.py:28
+#: literals.py:29
 msgid "No"
 msgstr "Ні"
 
@@ -432,27 +432,33 @@ msgstr ""
 "одиницю пошукового запиту."
 
 #: settings.py:72
+msgid ""
+"Raise an error when the number of search results exceed the value of "
+"`SEARCH_QUERY_RESULTS_LIMIT`."
+msgstr ""
+
+#: settings.py:79
 msgid "Maximum number of search results to fetch and display."
 msgstr ""
 "Максимальна кількість результатів пошуку для отримання та відображення."
 
-#: settings.py:78
+#: settings.py:85
 msgid "Maximum number of saved resultsets to keep per user."
 msgstr ""
 
-#: settings.py:84
+#: settings.py:91
 msgid "Maximum number of results to store per resultset."
 msgstr ""
 
-#: settings.py:90
+#: settings.py:97
 msgid "Time to keep the resultset in seconds."
 msgstr ""
 
-#: settings.py:96
+#: settings.py:103
 msgid "Amount to increase the time to live on each access of the resultset."
 msgstr ""
 
-#: settings.py:103
+#: settings.py:110
 msgid ""
 "Specifies the fields from which search model are to be disabled. The format "
 "is a dictionary of lists. The search model name is the dictionary key and "
@@ -460,7 +466,7 @@ msgid ""
 "neither be available for search nor be indexed by the search backend."
 msgstr ""
 
-#: settings.py:113
+#: settings.py:120
 msgid "Sets the default state of the \"Store results\" checkbox."
 msgstr ""
 

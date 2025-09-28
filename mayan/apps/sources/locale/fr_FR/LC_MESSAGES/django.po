@@ -4,24 +4,24 @@
 # 
 # Translators:
 # Translators:
-# Baptiste GAILLET <baptiste.gaillet@cstb.fr>, 2024
-# SadE54 <yannsuisini@gmail.com>, 2024
-# Thierry Schott <DarkDare@users.noreply.github.com>, 2024
-# Roberto Rosario, 2024
-# Guillaume Trottier <gui.trottier@gmail.com>, 2024
-# Frédéric Sheedy <sheedf@gmail.com>, 2024
-# Yves Dubois <ydubois@gmail.com>, 2024
-# Olivier W, 2024
-# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2024
-# Luc Didry, 2024
+# Guillaume Trottier <gui.trottier@gmail.com>, 2025
+# Olivier W, 2025
+# Roberto Rosario, 2025
+# Luc Didry, 2025
+# Baptiste GAILLET <baptiste.gaillet@cstb.fr>, 2025
+# Thierry Schott <DarkDare@users.noreply.github.com>, 2025
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2025
+# Yves Dubois <ydubois@gmail.com>, 2025
+# Frédéric Sheedy <sheedf@gmail.com>, 2025
+# SadE54 <yannsuisini@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 12:51+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Luc Didry, 2024\n"
+"POT-Creation-Date: 2025-01-20 12:33+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: SadE54 <yannsuisini@gmail.com>, 2025\n"
 "Language-Team: French (France) (https://app.transifex.com/rosarior/teams/13584/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,21 +48,21 @@ msgstr ""
 "documents seront intégrés dans Mayan EDMS ; créez au moins un formulaire web"
 " pour pouvoir télécharger des documents depuis le navigateur."
 
-#: apps.py:135
+#: apps.py:140
 msgid ""
 "Return the value of a specific source metadata for the document's latest "
 "file."
 msgstr ""
 
-#: apps.py:137 apps.py:144
+#: apps.py:142 apps.py:149
 msgid "Source metadata value of"
 msgstr ""
 
-#: apps.py:143
+#: apps.py:148
 msgid "Return the value of a specific source metadata."
 msgstr ""
 
-#: apps.py:167
+#: apps.py:172
 msgid "Type"
 msgstr "Type"
 

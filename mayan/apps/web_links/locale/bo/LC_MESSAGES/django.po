@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:30+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -67,7 +67,7 @@ msgstr "འགྲུལ་བཞུད་བྱེད་པ།"
 
 #: models.py:26
 msgid "A short text describing the web link."
-msgstr "དྲ་རྒྱའི་སྦྲེལ་མཐུད་བརྗོད་པའི་ཡི་གེ་ཐུང་ཐུང་ཞིག"
+msgstr "དྲ་རྒྱའི་སྦྲེལ་མཐུད་བརྗོད་པའི་ཡི་གེ་ཐུང་ངུ་ཞིག"
 
 #: models.py:27
 msgid "Label"
@@ -79,7 +79,7 @@ msgstr "དྲ་རྒྱའི་འབྲེལ་མཐུད་ཀྱི་
 
 #: models.py:33
 msgid "Template"
-msgstr "དཔེ་གཞི།"
+msgstr "དཔེ་སྒྲོམ།"
 
 #: models.py:36
 msgid "Enabled"
@@ -87,7 +87,7 @@ msgstr "བེད་སྤྱོད་ཆོག་པ།"
 
 #: models.py:45
 msgid "Web link"
-msgstr "དྲ་རྒྱའི་སྦྲེལ་མཐུད།"
+msgstr "དྲ་རྒྱའི་འབྲེལ་མཐུད།"
 
 #: permissions.py:10
 msgid "Create new web links"
@@ -103,7 +103,7 @@ msgstr "དྲ་རྒྱའི་སྦྲེལ་མཐུད་རྩོམ
 
 #: permissions.py:19
 msgid "View existing web links"
-msgstr "ད་ཡོད་དྲ་རྒྱའི་སྦྲེལ་མཐུད་ལ་ལྟ་བ།"
+msgstr "ད་ཡོད་ཀྱི་དྲ་རྒྱའི་སྦྲེལ་མཐུད་ལ་ལྟ་བ།"
 
 #: permissions.py:22
 msgid "View web link instances"
@@ -129,7 +129,7 @@ msgstr "ཡིག་ཆའི་རིགས་URLཁ་སྣོན་བྱེ
 
 #: serializers.py:39
 msgid "Document types remove URL"
-msgstr "ཡིག་ཆའི་རིགས་URLམེད་པར་བཟོས།"
+msgstr "ཡིག་ཆའི་རིགས་ཀྱིས་URLམེད་པར་བཟོས།"
 
 #: serializers.py:44
 msgid "Document types URL"
@@ -159,11 +159,11 @@ msgstr "ཡིག་ཆའི་རིགས་ལ་ལྕོགས་ཅན་
 #: views.py:106
 #, python-format
 msgid "Delete web link: %s"
-msgstr "དྲ་རྒྱའི་སྦྲེལ་ %s"
+msgstr "དྲ་རྒྱའི་སྦྲེལ་མཐུད་བསུབས་ %s"
 
 #: views.py:111
 msgid "Document types enabled"
-msgstr "ཡིག་ཆའི་རིགས་ནུས་ལྡན་བཟོས།"
+msgstr "ཡིག་ཆའི་རིགས་ལྕོགས་ཅན་བཟོས་པ།"
 
 #: views.py:112
 msgid "Available document types"

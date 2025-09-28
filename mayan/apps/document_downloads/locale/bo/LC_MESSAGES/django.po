@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -93,7 +93,7 @@ msgstr ""
 #: settings.py:29
 msgid ""
 "Arguments to pass to the DOCUMENT_DOWNLOADS_DOCUMENT_FILE_DOWNLOAD_BACKEND."
-msgstr "ཡིག་ཆ་_ཕབ་ལེན_ཡིག་ཆ་_ཕབ་ལེན་_རྒྱབ་ལྗོངས་ལ་སྤྲོད་པའི་རྩོད་གླེང་།"
+msgstr "ཡིག་ཆ་_ཕབ་ལེན་_ཡིག་ཆ་_ཕབ་ལེན་_རྒྱབ་ལྗོངས་ལ་སྤྲོད་པའི་རྩོད་གླེང་།"
 
 #: settings.py:36
 msgid ""
@@ -122,7 +122,7 @@ msgstr ""
 #: views.py:41
 #, python-format
 msgid "%(count)d document files queued for download."
-msgstr "ཕབ་ལེན་ཆེད་དུ་ཡིག་ཆའི་ཡིག་ཆ་ %(count)d བང་སྒྲིག་ཡོད།"
+msgstr "ཡིག་ %(count)d ཡིག་ཆ་ཕབ་ལེན་བྱེད་པར་བང་སྒྲིག་ཡོད།"
 
 #: views.py:44
 #, python-format

@@ -4,16 +4,16 @@
 # 
 # Translators:
 # Translators:
-# José Manuel Caínzos <josem.cainzos@gmail.com>, 2024
-# Roberto Rosario, 2024
+# José Manuel Caínzos <josem.cainzos@gmail.com>, 2025
+# Roberto Rosario, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 10:34+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Roberto Rosario, 2024\n"
+"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Spanish (Ecuador) (https://app.transifex.com/rosarior/teams/13584/es_EC/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,7 +42,19 @@ msgstr "Enlace inteligente creado"
 msgid "Smart link edited"
 msgstr "Enlace inteligente editado"
 
-#: forms.py:46
+#: forms.py:28
+msgid "General"
+msgstr "General"
+
+#: forms.py:33
+msgid "Foreign document"
+msgstr ""
+
+#: forms.py:38
+msgid "Local document"
+msgstr ""
+
+#: forms.py:64
 msgid "Foreign document field"
 msgstr "Campo de documento extranjero"
 

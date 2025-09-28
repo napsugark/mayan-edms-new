@@ -4,18 +4,18 @@
 # 
 # Translators:
 # Translators:
-# Dezső József <dejo60@gmail.com>, 2024
-# Roberto Rosario, 2024
-# molnars <szabolcs.molnar@gmail.com>, 2024
-# Csaba Tarjányi, 2024
+# Roberto Rosario, 2025
+# Dezső József <dejo60@gmail.com>, 2025
+# molnars <szabolcs.molnar@gmail.com>, 2025
+# Csaba Tarjányi, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 10:33+0000\n"
-"PO-Revision-Date: 2024-07-11 12:52+0000\n"
-"Last-Translator: Csaba Tarjányi, 2024\n"
+"POT-Creation-Date: 2025-09-28 14:15+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: Csaba Tarjányi, 2025\n"
 "Language-Team: Hungarian (Hungary) (https://app.transifex.com/rosarior/teams/13584/hu_HU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,14 +23,48 @@ msgstr ""
 "Language: hu_HU\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps.py:36
+#: apps.py:38
 msgid "Dynamic search"
 msgstr "Dinamikus keresés"
+
+#: apps.py:87
+msgid "The underlying database model whose content is indexed for search."
+msgstr ""
+
+#: apps.py:89
+msgid "Model"
+msgstr ""
+
+#: apps.py:94
+msgid "The unique name used to reference the search model."
+msgstr ""
+
+#: apps.py:102
+msgid "The underlying database field whose content is indexed for search."
+msgstr ""
+
+#: apps.py:105
+msgid "Field"
+msgstr "Mező"
+
+#: apps.py:116
+msgid ""
+"The underlying database field type. This determines the kind of data that is"
+" stored in the database."
+msgstr ""
+
+#: apps.py:119 serializers.py:61
+msgid "Field class"
+msgstr ""
+
+#: apps.py:123 serializers.py:67
+msgid "Description"
+msgstr "Leírás"
 
 #: events.py:6 permissions.py:6 queues.py:11 settings.py:20
 #: templates/dynamic_search/search_box.html:47
 #: templates/dynamic_search/search_box_toolbar.html:30
-#: views/search_views.py:110
+#: views/search_views.py:106
 msgid "Search"
 msgstr "Keresés"
 
@@ -38,77 +72,85 @@ msgstr "Keresés"
 msgid "Resultset created"
 msgstr "Eredménykészlet létrehozva"
 
-#: forms.py:12
+#: forms.py:13
 msgid "Store the search results to speed up paging and for later browsing."
 msgstr ""
 "Tárolja a keresési eredményeket a lapozás felgyorsítása és a későbbi "
 "böngészés érdekében."
 
-#: forms.py:15
+#: forms.py:16
 msgid "Save results"
 msgstr "Eredmények mentése"
 
-#: forms.py:21
+#: forms.py:22
 msgid "Persistency"
 msgstr "Megtartás"
 
-#: forms.py:37
+#: forms.py:38
 msgid "Match all"
 msgstr "Mind összeegyeztetése"
 
-#: forms.py:38
+#: forms.py:39
 msgid "Return only results that match all fields."
 msgstr ""
 "Csak azokat az eredményeket adja vissza, amelyek megfelelnek az összes "
 "mezőnek."
 
-#: forms.py:71
+#: forms.py:76
 msgid "Search logic"
 msgstr "Keresési logika"
 
-#: forms.py:99 templates/dynamic_search/search_box.html:43
+#: forms.py:104 templates/dynamic_search/search_box.html:43
 #: templates/dynamic_search/search_box_toolbar.html:25
 msgid "Search terms"
 msgstr "Keresési feltételek"
 
-#: forms.py:110
+#: forms.py:115
 msgid "Criteria"
 msgstr "Kritériumok"
 
-#: links.py:20 models.py:61 views/saved_resultset_views.py:72
+#: links.py:21 models.py:61 views/saved_resultset_views.py:72
 msgid "Saved resultsets"
 msgstr "Mentett eredménykészletek"
 
-#: links.py:25
+#: links.py:26
 msgid "Delete"
 msgstr "Törlés"
 
-#: links.py:30
+#: links.py:31
 msgid "Results"
 msgstr "Eredmények"
 
-#: links.py:35
+#: links.py:36
 msgid "Basic search"
 msgstr "Egyszerű keresés"
 
-#: links.py:39 templates/dynamic_search/search_box.html:49
+#: links.py:40 templates/dynamic_search/search_box.html:49
 #: templates/dynamic_search/search_box_toolbar.html:33
 msgid "Advanced search"
 msgstr "Kiterjesztett keresés"
 
-#: links.py:43
+#: links.py:44
 msgid "Search again"
 msgstr "Újra keresés"
 
-#: links.py:48 views/search_views.py:65
+#: links.py:49 views/search_views.py:61
 msgid "Reindex search backend"
 msgstr "Reindex keresési háttérrendszer"
 
-#: literals.py:27
+#: links.py:57
+msgid "Fields"
+msgstr "Mezők"
+
+#: links.py:60 views/tool_views.py:15
+msgid "Search models"
+msgstr ""
+
+#: literals.py:28
 msgid "Yes"
 msgstr "Igen"
 
-#: literals.py:28
+#: literals.py:29
 msgid "No"
 msgstr "Nem"
 
@@ -137,11 +179,11 @@ msgstr "Időbélyeg"
 msgid "Epoch"
 msgstr "Időszak"
 
-#: models.py:37 serializers.py:70
+#: models.py:37 serializers.py:79
 msgid "App label"
 msgstr "Alkalmazáscímke"
 
-#: models.py:40 serializers.py:73
+#: models.py:40 serializers.py:82
 msgid "Model name"
 msgstr "Modell név"
 
@@ -247,18 +289,56 @@ msgstr ""
 "elérhető-e, és hogy a keresési szintaxis megfelelő-e az aktív keresési "
 "háttérprogramhoz; %s"
 
-#: search_fields.py:312
+#: search_fields.py:100
+msgid "Uniquely identifies the search field."
+msgstr ""
+
+#: search_fields.py:101 serializers.py:64
+msgid "Field name"
+msgstr "Mezőnév"
+
+#: search_fields.py:179
+msgid ""
+"The type of search field. This determines how the information will be "
+"handled for search indexing."
+msgstr ""
+
+#: search_fields.py:183 serializers.py:70
+msgid "Search field class"
+msgstr ""
+
+#: search_fields.py:223
+msgid "Concrete"
+msgstr ""
+
+#: search_fields.py:245
+msgid "Direct"
+msgstr ""
+
+#: search_fields.py:267
+msgid "Related"
+msgstr "Kapcsolódó"
+
+#: search_fields.py:325
+msgid "Virtual"
+msgstr ""
+
+#: search_fields.py:340
 msgid "Any"
 msgstr "Bármely"
 
-#: search_models.py:44
+#: search_models.py:49
 #, python-format
 msgid "Unknown search model `%s`."
 msgstr "Ismeretlen keresési modell ` %s `."
 
-#: search_models.py:114
+#: search_models.py:145
 msgid "All content"
 msgstr "Minden tartalom"
+
+#: search_models.py:199
+msgid "Full name"
+msgstr ""
 
 #: search_query_types.py:171
 msgid "Exact"
@@ -304,7 +384,7 @@ msgstr "Reguláris kifejezés"
 msgid "Results URL"
 msgstr "Eredmények URL-je"
 
-#: serializers.py:30 serializers.py:82
+#: serializers.py:30 serializers.py:91
 msgid "URL"
 msgstr "URL"
 
@@ -312,19 +392,15 @@ msgstr "URL"
 msgid "User must be authenticated."
 msgstr "A felhasználót hitelesíteni kell."
 
-#: serializers.py:61
-msgid "Field name"
-msgstr "Mezőnév"
-
-#: serializers.py:64
+#: serializers.py:73
 msgid "Label"
 msgstr "Cimke"
 
-#: serializers.py:76
+#: serializers.py:85
 msgid "Primary key"
 msgstr "Elsődleges kulcs"
 
-#: serializers.py:79
+#: serializers.py:88
 msgid "Search fields"
 msgstr "Keresőmezők"
 
@@ -395,6 +471,14 @@ msgstr ""
 "Az eredményhalmaz élettartamát minden egyes hozzáférés után növelő összeg."
 
 #: settings.py:110
+msgid ""
+"Specifies the fields from which search model are to be disabled. The format "
+"is a dictionary of lists. The search model name is the dictionary key and "
+"the value is a list of the full search field name. Disabled fields will "
+"neither be available for search nor be indexed by the search backend."
+msgstr ""
+
+#: settings.py:120
 msgid "Sets the default state of the \"Store results\" checkbox."
 msgstr ""
 "Beállítja az „Eredmények tárolása” jelölőnégyzet alapértelmezett állapotát."
@@ -500,12 +584,12 @@ msgstr ""
 msgid "No saved resultsets available"
 msgstr "Nincsenek mentett eredményhalmazok"
 
-#: views/search_views.py:62
+#: views/search_views.py:58
 msgid "This tool erases and populates the search backend's internal index."
 msgstr ""
 "Ez az eszköz törli és feltölti a keresési háttérrendszer belső indexét."
 
-#: views/search_views.py:72
+#: views/search_views.py:68
 msgid ""
 "This tool is required only for some search backends. Search results will be "
 "affected while the backend is being reindexed."
@@ -513,7 +597,7 @@ msgstr ""
 "Ez az eszköz csak bizonyos keresési háttérrendszerekhez szükséges. A "
 "háttérrendszer újraindexelése hatással lesz a keresési eredményekre."
 
-#: views/search_views.py:78
+#: views/search_views.py:74
 msgid ""
 "The currently selected search backend does not support or requires "
 "reindexing."
@@ -521,34 +605,44 @@ msgstr ""
 "A jelenleg kiválasztott keresési háttérrendszer nem támogatott, vagy "
 "újraindexelést igényel."
 
-#: views/search_views.py:91
+#: views/search_views.py:87
 msgid "Search backend reindexing queued."
 msgstr "A keresési háttérrendszer újraindexelése sorban áll."
 
-#: views/search_views.py:112
+#: views/search_views.py:108
 #, python-format
 msgid "Search for: %s"
 msgstr "Keresés: %s"
 
-#: views/search_views.py:139
+#: views/search_views.py:135
 #, python-format
 msgid "Advanced search for: %s"
 msgstr "Részletes keresés a következőre: %s"
 
-#: views/search_views.py:195
+#: views/search_views.py:191
 msgid "Try again using different terms. "
 msgstr "Próbálkozzon újra más kifejezésekkel. "
 
-#: views/search_views.py:197
+#: views/search_views.py:193
 msgid "No search results"
 msgstr "Nincs találat"
 
-#: views/search_views.py:200
+#: views/search_views.py:196
 #, python-format
 msgid "Search query: %s"
 msgstr "Keresési lekérdezés: %s"
 
-#: views/search_views.py:203
+#: views/search_views.py:199
 #, python-format
 msgid "Search results for: %s"
 msgstr "Keresési eredmények a következőre: %s"
+
+#: views/tool_views.py:34
+#, python-format
+msgid "Fields for search model: %s"
+msgstr ""
+
+#: views/tool_views.py:45
+#, python-format
+msgid "Search model: %s, not found"
+msgstr ""
