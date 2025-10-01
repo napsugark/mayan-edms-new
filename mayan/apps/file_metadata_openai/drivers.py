@@ -161,10 +161,8 @@ class FileMetadataDriverOpenAIResponseAPI(FileMetadataDriver):
 
         backend_instance = stored_credential.get_backend_instance()
 
-        stored_driver_instance = self.get_stored_driver_instance()
-
         credential = backend_instance.get_credential(
-            action_object=stored_driver_instance
+            action_object=self.model_instance
         )
 
         try:
