@@ -1,16 +1,12 @@
 from openai import OpenAI
 
-from django.apps import apps
 from django.utils.translation import gettext_lazy as _
 
 from mayan.apps.common.serialization import yaml_load
 from mayan.apps.common.utils import flatten_object
-from mayan.apps.credentials.models import StoredCredential
-from mayan.apps.credentials.permissions import permission_credential_use
 from mayan.apps.file_metadata.classes import FileMetadataDriver
-from mayan.apps.file_metadata.exceptions import FileMetadataDriverError
 from mayan.apps.file_metadata.literals import RESULT_SEPARATOR
-from mayan.apps.forms import form_fields, forms
+from mayan.apps.forms import forms
 from mayan.apps.templating.fields import TemplateField
 from mayan.apps.templating.template_backends import Template
 
@@ -19,8 +15,8 @@ from .literals import DEFAULT_TIMEOUT
 
 class FileMetadataDriverOpenAIResponseAPI(FileMetadataDriver):
     argument_name_list = (
-        'base_url', 'input', 'model', 'organization', 'project',
-        'stored_credential_id', 'timeout'
+        'api_key', 'base_url', 'input', 'model', 'organization', 'project',
+        'timeout'
     )
     description = _(message='Analyze content using OpenAI\'s Response API.')
     enabled = False
@@ -38,7 +34,7 @@ class FileMetadataDriverOpenAIResponseAPI(FileMetadataDriver):
                 ),
                 (
                     _(message='Authentication'), {
-                        'fields': ('stored_credential_id',)
+                        'fields': ('api_key',)
                     }
                 ),
                 (
@@ -61,17 +57,15 @@ class FileMetadataDriverOpenAIResponseAPI(FileMetadataDriver):
         base_url = TemplateField(
             initial_help_text=_(
                 message='API endpoint base URL. Change this only when using '
-                'a compatible non-default endpoint or proxy.'
+                'a compatible non-default endpoint or proxy. The document '
+                'file object is available as {{ document_file }}.'
             ), label=_(message='Base URL'), required=False
         )
-        stored_credential_id = form_fields.FormFieldFilteredModelChoice(
-            help_text=_(
-                message='The credential entry to use for authentication. '
-                'Only use credential backend that provide a `token` value.'
-            ),
-            source_model=StoredCredential,
-            permission=permission_credential_use,
-            label=_(message='Credential'), required=True
+        api_key = TemplateField(
+            initial_help_text=_(
+                message='The API key used for authentication. The document '
+                'file object is available as {{ document_file }}.'
+            ), label=_(message='API Key'), required=True
         )
         input = TemplateField(
             initial_help_text=_(
@@ -89,17 +83,23 @@ class FileMetadataDriverOpenAIResponseAPI(FileMetadataDriver):
         )
         organization = TemplateField(
             initial_help_text=_(
-                message='Optional OpenAI organization ID. Used when the API key is linked to multiple organizations. The document file object is available as {{ document_file }}.'
+                message='Optional OpenAI organization ID. Used when the '
+                'API key is linked to multiple organizations. The document '
+                'file object is available as {{ document_file }}.'
             ), label=_(message='Organization'), required=False
         )
         project = TemplateField(
             initial_help_text=_(
-                message='Optional OpenAI project ID. Allows scoping requests to a specific project.  The document file object is available as {{ document_file }}.'
+                message='Optional OpenAI project ID. Allows scoping '
+                'requests to a specific project.  The document file object '
+                'is available as {{ document_file }}.'
             ), label=_(message='Project'), required=False
         )
         timeout = TemplateField(
             initial_help_text=_(
-                message='Maximum time (in seconds) to wait for a response from the API before failing.  The document file object is available as {{ document_file }}.'
+                message='Maximum time (in seconds) to wait for a response '
+                'from the API before failing.  The document file object is '
+                'available as {{ document_file }}.'
             ), label=_(message='Timeout'), required=False
         )
 
@@ -135,42 +135,18 @@ class FileMetadataDriverOpenAIResponseAPI(FileMetadataDriver):
         return result
 
     def __init__(
-        self, input, model, stored_credential_id, base_url=None,
-        organization=None, project=None, timeout=None, **kwargs
+        self, api_key, input, model, base_url=None, organization=None,
+        project=None, timeout=None, **kwargs
     ):
         super().__init__(**kwargs)
 
+        self.api_key = api_key
         self.base_url = base_url
         self.input = yaml_load(stream=input)
         self.model = model
         self.organization = organization
         self.project = project
-        self.stored_credential_id = stored_credential_id
         self.timeout = int(timeout)
-
-        self.api_key = self.get_api_key()
-
-    def get_api_key(self):
-        StoredCredential = apps.get_model(
-            app_label='credentials', model_name='StoredCredential'
-        )
-
-        stored_credential = StoredCredential.objects.get(
-            pk=self.stored_credential_id
-        )
-
-        backend_instance = stored_credential.get_backend_instance()
-
-        credential = backend_instance.get_credential(
-            action_object=self.model_instance
-        )
-
-        try:
-            return credential['token']
-        except KeyError:
-            raise FileMetadataDriverError(
-                _(message='The credential provided does not provide a token.')
-            )
 
     def _process(self, document_file):
         result = {}
