@@ -199,7 +199,3 @@ PythonDependency(
         'Checks proper formatting of the README file.'
     ), module=__name__, name='readme', version_string='==0.7.1'
 )
-PythonDependency(
-    environment=environment_development,
-    module=__name__, name='safety', version_string='==3.3.1'
-)

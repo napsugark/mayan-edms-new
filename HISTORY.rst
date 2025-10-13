@@ -152,6 +152,7 @@
 - Add support for deleting multiple transformations.
 - Split the tag app view tests into separate tag and document tests modules.
 - Optimize document object managers and reduce probability of N+1 queries.
+- Remove the `safety` Python package and its related makefile targets.
 
 4.9.5 (XXXX-XX-XX)
 ==================

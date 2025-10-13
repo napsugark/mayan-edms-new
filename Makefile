@@ -267,11 +267,6 @@ runserver-plus: ## Run the Django extension's development server.
 shell-plus: ## Run the shell_plus command.
 	./manage.py shell_plus --settings=mayan.settings.development
 
-# Security
-
-safety-check: ## Run a package safety check.
-	safety check
-
 # Other
 
 find-gitignores: ## Find stray .gitignore files.
