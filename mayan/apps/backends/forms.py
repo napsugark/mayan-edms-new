@@ -43,12 +43,7 @@ class FormDynamicModelBackend(
                     field_name, None
                 )
 
-        # TODO: REMOVE this and move it to the specific app form subclass.
-        # Updated filtered fields.
-        for field in self.fields:
-            if hasattr(self.fields[field], 'reload'):
-                self.fields[field].user = self.user
-                self.fields[field].reload()
+        self.do_fields_reload()
 
     def clean(self):
         data = super().clean()
@@ -77,3 +72,6 @@ class FormDynamicModelBackend(
     def get_backend_fields(self):
         backend_class = self.instance.get_backend_class()
         return backend_class.get_form_fields()
+
+    def get_field_reload_attributes(self):
+        return {'user': self.user}
