@@ -11,7 +11,7 @@ class DocumentFileDriverEntryBusinessLogicMixin:
     get_attribute_count.short_description = _(message='Attribute count')
 
 
-class DocumentTypeDriverConfiguration:
+class DocumentTypeDriverConfigurationBusinessLogicMixin:
     def get_arguments(self):
         driver_class = self.stored_driver.driver_class
 

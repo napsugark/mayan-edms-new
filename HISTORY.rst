@@ -1,3 +1,7 @@
+4.9.6 (XXXX-XX-XX)
+==================
+- Rename file metadata model mixin class for clarity.
+
 4.9.5 (2025-09-28)
 ==================
 - Improvements and changes from version 4.8.8.
