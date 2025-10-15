@@ -155,6 +155,7 @@
 - Remove the `safety` Python package and its related makefile targets.
 - Remove the `removals.txt` file.
 - Remove unused `ModelFormFieldFilteredModelChoice`.
+- Make `FormMixinFieldsets` a subclass of `FormMixinFormMeta`.
 
 4.9.5 (XXXX-XX-XX)
 ==================

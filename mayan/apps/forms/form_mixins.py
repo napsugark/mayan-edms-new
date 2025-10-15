@@ -74,9 +74,8 @@ class FormMixinDynamicFields:
 
 class FormMixinFormMeta:
     def __init__(self, *args, **kwargs):
-        self._form_meta = self._get_form_meta()
-
         super().__init__(*args, **kwargs)
+        self._form_meta = self._get_form_meta()
 
     def _get_form_meta(self, options_class_name='FormMeta'):
         merged = {}
@@ -95,14 +94,9 @@ class FormMixinFormMeta:
         return types.SimpleNamespace(**merged)
 
 
-class FormMixinFieldsets:
+class FormMixinFieldsets(FormMixinFormMeta):
     fieldset_exclude_list = None
     fieldsets = None
-
-    def __init__(self, *args, **kwargs):
-        self._form_meta = self._get_form_meta()
-
-        super().__init__(*args, **kwargs)
 
     def get_fieldset_exclude_list(self):
         return self.fieldset_exclude_list or ()
@@ -144,21 +138,3 @@ class FormMixinFieldsets:
                     }
                 ),
             )
-
-
-class FormMixinFormMeta:
-    def _get_form_meta(self, options_class_name='FormMeta'):
-        merged = {}
-
-        lineage = reversed(
-            type(self).mro()
-        )
-
-        for base in lineage:
-            options = getattr(base, options_class_name, None)
-            if options:
-                for name in dir(options):
-                    if not name.startswith('_'):
-                        merged[name] = getattr(options, name)
-
-        return types.SimpleNamespace(**merged)
