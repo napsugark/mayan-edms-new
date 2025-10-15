@@ -13,7 +13,8 @@ from .managers import (
 )
 from .model_mixins import (
     DocumentFileDriverEntryBusinessLogicMixin,
-    DocumentTypeDriverConfiguration, FileMetadataEntryBusinessLogicMixin,
+    DocumentTypeDriverConfigurationBusinessLogicMixin,
+    FileMetadataEntryBusinessLogicMixin,
     StoredDriverBusinessLogicMixin
 )
 
@@ -41,7 +42,7 @@ class DocumentFileDriverEntry(
 
 
 class DocumentTypeDriverConfiguration(
-    DocumentTypeDriverConfiguration, models.Model
+    DocumentTypeDriverConfigurationBusinessLogicMixin, models.Model
 ):
     _ordering_fields = ('enabled',)
 
