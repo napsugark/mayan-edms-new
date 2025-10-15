@@ -1,8 +1,12 @@
 from django.urls import re_path
 
-from .api_views import (
-    APIDocumentMetadataListView, APIDocumentMetadataView,
-    APIDocumentTypeMetadataTypeListView, APIDocumentTypeMetadataTypeView,
+from .api_views.document_api_views import (
+    APIDocumentMetadataListView, APIDocumentMetadataView
+)
+from .api_views.document_type_api_views import (
+    APIDocumentTypeMetadataTypeListView, APIDocumentTypeMetadataTypeView
+)
+from .api_views.metadata_type_api_views import (
     APIMetadataTypeListView, APIMetadataTypeView
 )
 from .views.document_views import (

@@ -156,6 +156,7 @@
 - Remove the `removals.txt` file.
 - Remove unused `ModelFormFieldFilteredModelChoice`.
 - Make `FormMixinFieldsets` a subclass of `FormMixinFormMeta`.
+- Split metadata API view modules into separate modules.
 
 4.9.6 (XXXX-XX-XX)
 ==================
