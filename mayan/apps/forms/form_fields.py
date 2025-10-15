@@ -1,7 +1,6 @@
 from django.forms.fields import *  # NOQA
-from django.forms.fields import __all__ as django_forms_fields_all
 from django.forms.fields import ChoiceField, MultipleChoiceField
-from django.forms.models import ModelChoiceField, ModelMultipleChoiceField
+from django.forms.models import ModelMultipleChoiceField
 
 from .field_mixins import (
     FormFieldMixinFilteredQueryset, ModelFieldMixinFilteredQuerySet

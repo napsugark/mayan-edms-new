@@ -1,9 +1,7 @@
 import os
 import time
 
-from django.conf import settings
 from django.db.models import Q
-from django.urls import reverse
 
 
 class ContentTypeCheckTestCaseMixin:
