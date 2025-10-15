@@ -7,12 +7,6 @@ from .field_mixins import (
     FormFieldMixinFilteredQueryset, ModelFieldMixinFilteredQuerySet
 )
 
-__all__ = django_forms_fields_all + (
-    'FormFieldFilteredModelChoice', 'FormFieldFilteredModelChoiceMultiple',
-    'ModelFormFieldFilteredModelChoice',
-    'ModelFormFieldFilteredModelMultipleChoice'
-)
-
 
 class FormFieldFilteredModelChoice(
     FormFieldMixinFilteredQueryset, ChoiceField
@@ -24,12 +18,6 @@ class FormFieldFilteredModelChoiceMultiple(
     FormFieldMixinFilteredQueryset, MultipleChoiceField
 ):
     """Multiple selection filtered model choice field."""
-
-
-class ModelFormFieldFilteredModelChoice(
-    ModelFieldMixinFilteredQuerySet, ModelChoiceField
-):
-    """Single selection filtered model choice field."""
 
 
 class ModelFormFieldFilteredModelMultipleChoice(

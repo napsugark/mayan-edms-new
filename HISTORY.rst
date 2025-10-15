@@ -154,6 +154,7 @@
 - Optimize document object managers and reduce probability of N+1 queries.
 - Remove the `safety` Python package and its related makefile targets.
 - Remove the `removals.txt` file.
+- Remove unused `ModelFormFieldFilteredModelChoice`.
 
 4.9.5 (XXXX-XX-XX)
 ==================
