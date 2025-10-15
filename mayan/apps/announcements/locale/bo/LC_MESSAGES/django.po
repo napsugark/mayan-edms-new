@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-27 11:22+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:39 events.py:6 links.py:38 links.py:47 models.py:48
+#: permissions.py:6 templates/announcements/announcements.html:8 views.py:121
+msgid "Announcements"
+msgstr "གསལ་བསྒྲགས།"
+
+#: apps.py:81 apps.py:85
+msgid "None"
+msgstr "གང་ཡང་མེད།"
+
+#: events.py:10
+msgid "Announcement created"
+msgstr "གསལ་བསྒྲགས་གསར་བཟོ་བྱས།"
+
+#: events.py:13
+msgid "Announcement edited"
+msgstr "གསལ་བསྒྲགས་རྩོམ་སྒྲིག་བྱས།"
+
+#: links.py:18 views.py:34
+msgid "Create announcement"
+msgstr "གསལ་བསྒྲགས་བཟོས།"
+
+#: links.py:23 links.py:29
+msgid "Delete"
+msgstr "བསུབ་པ།"
+
+#: links.py:34
+msgid "Edit"
+msgstr "བཅོས་པ།"
+
+#: models.py:22
+msgid "Short description of this announcement."
+msgstr "གསལ་བསྒྲགས་འདིའི་ངོ་སྤྲོད་མདོར་བསྡུས།"
+
+#: models.py:23
+msgid "Label"
+msgstr "ལག་ཁྱེར་།"
+
+#: models.py:26
+msgid "The actual text to be displayed."
+msgstr "མངོན་པར་བྱ་བའི་ཡི་གེ་དངོས་དེ།"
+
+#: models.py:27
+msgid "Text"
+msgstr "ཡིག་གཞི"
+
+#: models.py:30
+msgid "Enabled"
+msgstr "བེད་སྤྱོད་ཆོག་པ།"
+
+#: models.py:34
+msgid "Date and time after which this announcement will be displayed."
+msgstr "གསལ་བསྒྲགས་འདི་མངོན་པའི་ཚེས་གྲངས་དང་དུས་ཚོད།"
+
+#: models.py:35
+msgid "Start date time"
+msgstr "འགོ་འཛུགས་ཚེས་གྲངས་དུས་ཚོད།"
+
+#: models.py:39
+msgid "Date and time until when this announcement is to be displayed."
+msgstr ""
+"གསལ་བསྒྲགས་འདི་ག་དུས་འགྲེམས་སྟོན་བྱེད་དགོས་མིན་གྱི་ཚེས་གྲངས་དང་དུས་ཚོད།"
+
+#: models.py:40
+msgid "End date time"
+msgstr "མཇུག་བསྡུའི་ཚེས་གྲངས་དུས་ཚོད།"
+
+#: models.py:47
+msgid "Announcement"
+msgstr "གསལ་བསྒྲགས"
+
+#: permissions.py:10
+msgid "Create announcements"
+msgstr "གསལ་བསྒྲགས་བཟོ་རྒྱུ།"
+
+#: permissions.py:13
+msgid "Delete announcements"
+msgstr "གསལ་བསྒྲགས་བསུབ་པ།"
+
+#: permissions.py:16
+msgid "Edit announcements"
+msgstr "གསལ་བསྒྲགས་རྩོམ་སྒྲིག།"
+
+#: permissions.py:19
+msgid "View announcements"
+msgstr "གསལ་བསྒྲགས་ལ་གཟིགས།"
+
+#: serializers.py:12
+msgid "URL"
+msgstr "URL །"
+
+#: views.py:43
+#, python-format
+msgid "Error deleting announcement \"%(instance)s\"; %(exception)s"
+msgstr ""
+"གསལ་བསྒྲགས་སུབ་པའི་ནོར་འཁྲུལ་ &quot; %(instance)s &quot;; %(exception)s"
+
+#: views.py:52
+#, python-format
+msgid "%(count)d announcements deleted successfully."
+msgstr "%(count)d གསལ་བསྒྲགས་རྣམས་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views.py:55
+#, python-format
+msgid "Announcement \"%(object)s\" deleted successfully."
+msgstr "གསལ་བསྒྲགས་ &quot; %(object)s &quot; མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views.py:58
+#, python-format
+msgid "%(count)d announcement deleted successfully."
+msgstr "%(count)d གསལ་བསྒྲགས་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+
+#: views.py:60
+#, python-format
+msgid "Delete the %(count)d selected announcements."
+msgstr "འདེམས་སྒྲུག་བྱས་པའི་གསལ་བསྒྲགས་དེ་ཚོ་ %(count)d བསུབས་དགོས།"
+
+#: views.py:61
+#, python-format
+msgid "Delete announcement: %(object)s."
+msgstr "གསལ་བསྒྲགས་སུབ %(object)s །"
+
+#: views.py:62
+#, python-format
+msgid "Delete the %(count)d selected announcement."
+msgstr "འདེམས་སྒྲུག་བྱས་པའི་གསལ་བསྒྲགས་ %(count)d བསུབས་དགོས།"
+
+#: views.py:94
+#, python-format
+msgid "Edit announcement: %s"
+msgstr "རྩོམ་སྒྲིག་གསལ་བསྒྲགས།: %s"
+
+#: views.py:115
+msgid ""
+"Announcements are displayed in the login view. You can use announcements to "
+"convey information about your organization, announcements or usage "
+"guidelines for your users."
+msgstr ""
+"གསལ་བསྒྲགས་རྣམས་ནང་འཇུག་མཐོང་སྣང་ནང་མངོན་ཡོད། "
+"ཁྱེད་ཀྱིས་གསལ་བསྒྲགས་བེད་སྤྱད་ནས་ཁྱེད་རང་གི་ཚོགས་པའི་སྐོར་གྱི་གནས་ཚུལ་དང་། "
+"གསལ་བསྒྲགས། ཡང་ན་ཁྱེད་རང་གི་སྤྱོད་མཁན་ཚོར་བེད་སྤྱོད་ཀྱི་ལམ་སྟོན་སྤྲོད་ཐུབ།"
+
+#: views.py:120
+msgid "No announcements available"
+msgstr "གསལ་བསྒྲགས་གང་ཡང་མེད།"

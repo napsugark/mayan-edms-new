@@ -162,7 +162,7 @@ job_documentation_build:
     - printf "dir::state::lists    ${APT_STATE_LISTS};\ndir::cache::archives    ${APT_CACHE_ARCHIVES};\n" > /etc/apt/apt.conf.d/99gitlab-ci-cache
     - if [ "${APT_PROXY}" ]; then echo "Acquire::http { Proxy \"http://${APT_PROXY}\"; };" > /etc/apt/apt.conf.d/01proxy; fi
     - apt-get update
-    - apt-get install --yes --no-install-recommends enchant-2 libcairo2 g++ gcc libffi-dev libjpeg-dev libldap2-dev libpng-dev libsasl2-dev libssl-dev libtiff-dev make pkg-config zlib1g-dev make python3-dev python3-venv
+    - apt-get install --yes --no-install-recommends enchant-2 graphviz libcairo2 g++ gcc libffi-dev libjpeg-dev libldap2-dev libpng-dev libsasl2-dev libssl-dev libtiff-dev make pkg-config zlib1g-dev make python3-dev python3-venv
     - python3 -m venv venv
     - . venv/bin/activate
     - pip install pip==${PYTHON_PIP_VERSION}
@@ -304,8 +304,7 @@ job_python_push_pypi:
     - ci/releases/testing
   script:
     - pip install --requirement requirements/build.txt
-    - echo "${PYPIRC}" > ~/.pypirc
-    - twine upload --verbose dist/* -r pypi
+    - twine upload --verbose dist/*
   stage: stage_push
   variables:
     APT_CACHE_DIR: ${CI_PROJECT_DIR}/.cache/apt

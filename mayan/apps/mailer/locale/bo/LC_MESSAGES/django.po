@@ -1,0 +1,552 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:59 apps.py:80
+msgid "Mailer"
+msgstr "ཡིག་ཟམ་གཏོང་མཁན།"
+
+#: classes.py:23
+msgid "General"
+msgstr "སྤྱིར་བཏང་གི"
+
+#: classes.py:41
+msgid "From"
+msgstr "ནས"
+
+#: classes.py:44
+msgid ""
+"The sender's address. Some system will refuse to send messages if this value"
+" is not set."
+msgstr ""
+"གཏོང་མཁན་གྱི་ཁ་བྱང་། "
+"གལ་ཏེ་རིན་ཐང་འདི་སྒྲིག་མེད་ན་མ་ལག་ཁ་ཤས་ཀྱིས་འཕྲིན་ཡིག་གཏོང་རྒྱུ་ཁས་མི་ལེན།"
+
+#: classes.py:59
+msgid "Compatibility"
+msgstr "མཐུན་སྒྲིལ།"
+
+#: classes.py:78 classes.py:96
+msgid "Null backend"
+msgstr "རྒྱབ་ཕྱོགས་སྟོང་པ།"
+
+#: events.py:6 permissions.py:6 queues.py:7 settings.py:11
+msgid "Mailing"
+msgstr "སྦྲག་བསྐུར།"
+
+#: events.py:10
+msgid "Email sent"
+msgstr "གློག་འཕྲིན་བཏང་།"
+
+#: events.py:13
+msgid "Mailing profile created"
+msgstr "ཡིག་ཟམ་ངོ་སྤྲོད་གསར་བཟོ་བྱས།"
+
+#: events.py:16
+msgid "Mailing profile edited"
+msgstr "སྦྲག་སྲིད་ངོ་སྤྲོད་རྩོམ་སྒྲིག་བྱས་ཟིན།"
+
+#: forms.py:60 forms.py:102
+msgid ""
+"Email address of the recipient. Can be multiple addresses separated by comma"
+" or semicolon."
+msgstr ""
+"བསྐུར་མཁན་གྱི་གློག་འཕྲིན་ཁ་བྱང་། "
+"ཁ་བྱང་སྣ་ཚོགས་ཚེག་ཡང་ན་ཚེག་ཕྱེད་ཀྱིས་དབྱེ་ཐུབ།"
+
+#: forms.py:62 forms.py:104
+msgid "Email address"
+msgstr "གློག་འཕྲིན་ཁ་བྱང་།"
+
+#: forms.py:67 serializers.py:41 workflow_action_mixins.py:63
+msgid "Subject"
+msgstr "བསླབ་་བྱ"
+
+#: forms.py:70 serializers.py:28 workflow_action_mixins.py:73
+msgid "Body"
+msgstr "གཟུགས་པོ"
+
+#: forms.py:75
+msgid "The email profile that will be used to send this email."
+msgstr "གློག་འཕྲིན་འདི་བསྐུར་བར་སྤྱོད་རྒྱུའི་གློག་འཕྲིན་གསལ་སྡུད།"
+
+#: forms.py:76 models.py:49 workflow_action_mixins.py:111
+#: workflow_action_mixins.py:125
+msgid "Mailing profile"
+msgstr "ཡིག་ཟམ་ངོ་སྤྲོད།"
+
+#: forms.py:84
+msgid "The driver to use when sending emails."
+msgstr "གློག་འཕྲིན་གཏོང་སྐབས་བེད་སྤྱོད་གཏོང་བའི་སྒུལ་གཏོང་འཕྲུལ་ཆས།"
+
+#: forms.py:85
+msgid "Backend"
+msgstr "རྒྱབ་ལྗོངས།"
+
+#: links.py:32 links.py:38
+msgid "Email document link"
+msgstr "གློག་འཕྲིན་ཡིག་ཆའི་སྦྲེལ་མཐུད།"
+
+#: links.py:46 links.py:53
+msgid "Email document file"
+msgstr "གློག་འཕྲིན་ཡིག་ཆའི་ཡིག་ཆ།"
+
+#: links.py:58 links.py:64
+msgid "Email document file link"
+msgstr "གློག་འཕྲིན་ཡིག་ཆའི་ཡིག་ཆའི་སྦྲེལ་མཐུད།"
+
+#: links.py:74 links.py:79
+msgid "Email document version"
+msgstr "གློག་འཕྲིན་ཡིག་ཆའི་ཐོན་རིམ།"
+
+#: links.py:85
+msgid "Email document version link"
+msgstr "གློག་འཕྲིན་ཡིག་ཆའི་ཐོན་རིམ་སྦྲེལ་མཐུད།"
+
+#: links.py:90
+msgid "Email link version"
+msgstr "གློག་འཕྲིན་སྦྲེལ་ཐག་ཐོན་རིམ།"
+
+#: links.py:99
+msgid "Create mailing profile"
+msgstr "ཡིག་ཟམ་ངོ་སྤྲོད་གསར་བཟོ།"
+
+#: links.py:105
+msgid "Delete"
+msgstr "བསུབ་པ།"
+
+#: links.py:109
+msgid "Edit"
+msgstr "བཅོས་པ།"
+
+#: links.py:113 links.py:121 models.py:50 views/mailing_profile_views.py:134
+msgid "Mailing profiles"
+msgstr "ངོ་སྤྲོད་ཡིག་ཟམ་བསྐུར་བ།"
+
+#: links.py:126 views/mailing_profile_views.py:162
+msgid "Test"
+msgstr "ཚོད་ལྟ"
+
+#: literals.py:4
+#, python-format
+msgid ""
+"Attached to this email is the {{ object_name }}: {{ object }}\n"
+"\n"
+" --------\n"
+" This email has been sent from %(project_title)s (%(project_website)s)"
+msgstr ""
+"གློག་འཕྲིན་འདི་ལ་སྦྲེལ་ཡོད། {{ དངོས་པོའི་མིང་ }}: {{ དངོས་པོ་ }} ཡིན།\n"
+"\n"
+" །\n"
+" གློག་འཕྲིན་འདི་ %(project_title)s ( %(project_website)s )ནས་བཏང་བ་རེད།"
+
+#: literals.py:9
+msgid "{{ object_name }}: {{ object }}"
+msgstr "{{ དངོས་པོ་_མིང་ }}: {{ དངོས་པོ་ }}"
+
+#: literals.py:12
+#, python-format
+msgid ""
+"To access this {{ object_name }} click on the following link: {{ link }}\n"
+"\n"
+"--------\n"
+" This email has been sent from %(project_title)s (%(project_website)s)"
+msgstr ""
+"འདི་ལ་འཛུལ་ཞུགས་བྱེད་པར་{{ object_name }} གཤམ་གྱི་སྦྲེལ་མཐུད་ལ་སྣུན་རོགས། {{ སྦྲེལ་མཐུད་ }}\n"
+"\n"
+" །\n"
+" གློག་འཕྲིན་འདི་ %(project_title)s ( %(project_website)s )ནས་བཏང་བ་རེད།"
+
+#: literals.py:17
+msgid "Link for {{ object_name }}: {{ object }}"
+msgstr "{{ དངོས་པོའི་མིང་ }} ཡི་འབྲེལ་མཐུད།: {{ དངོས་པོ་ }}"
+
+#: mailers.py:11
+msgid "Django SMTP backend"
+msgstr "ཇང་གོ་SMTPརྒྱབ་ལྗོངས།"
+
+#: mailers.py:20
+msgid "Host"
+msgstr "འགོ་འཛིན་པ"
+
+#: mailers.py:24
+msgid "The host to use for sending email."
+msgstr "གློག་འཕྲིན་གཏོང་བར་སྤྱོད་པའི་གཙོ་བདག་།"
+
+#: mailers.py:30
+msgid "Port"
+msgstr "མཚོ་ཁ"
+
+#: mailers.py:33
+msgid "Port to use for the SMTP server."
+msgstr "SMTP ཞབས་ཞུའི་ཆེད་དུ་བེད་སྤྱོད་གཏོང་བའི་མཐུད་ཁ།"
+
+#: mailers.py:37
+msgid "Use TLS"
+msgstr "TLS བེད་སྤྱོད།"
+
+#: mailers.py:40
+msgid ""
+"Whether to use a TLS (secure) connection when talking to the SMTP server. "
+"This is used for explicit TLS connections, generally on port 587."
+msgstr ""
+"SMTP ཞབས་ཞུ་འཕྲུལ་ཆས་ལ་སྐད་ཆ་བཤད་སྐབས་TLS (བདེ་འཇགས་) "
+"མཐུད་ཁ་བེད་སྤྱོད་གཏོང་དགོས་མིན། "
+"འདི་ནི་TLSམཐུད་ཁ་གསལ་པོའི་ཆེད་དུ་བེད་སྤྱོད་བྱེད་ཀྱི་ཡོད། "
+"སྤྱིར་བཏང་དུ་འདྲེན་ལམ་587སྟེང་།"
+
+#: mailers.py:46
+msgid "Use SSL"
+msgstr "SSL བེད་སྤྱོད།"
+
+#: mailers.py:49
+msgid ""
+"Whether to use an implicit TLS (secure) connection when talking to the SMTP "
+"server. In most email documentation this type of TLS connection is referred "
+"to as SSL. It is generally used on port 465. If you are experiencing "
+"problems, see the explicit TLS setting \"Use TLS\". Note that \"Use TLS\" "
+"and \"Use SSL\" are mutually exclusive, so only set one of those settings to"
+" True."
+msgstr ""
+"SMTP ཞབས་ཞུ་འཕྲུལ་ཆས་ལ་སྐད་ཆ་བཤད་སྐབས་མངོན་གསལ་གྱི་TLS (བདེ་འཇགས་) "
+"མཐུད་ཁ་བེད་སྤྱོད་གཏོང་དགོས་སམ། "
+"གློག་འཕྲིན་ཡིག་ཆ་མང་ཆེ་བའི་ནང་TLSམཐུད་ཁ་འདི་ལ་SSLཞེས་འབོད་ཀྱི་ཡོད། "
+"གལ་ཏེ་ཁྱེད་ལ་དཀའ་ངལ་འཕྲད་ན། TLS སྒྲིག་སྟངས་གསལ་པོ་ &quot;TLS "
+"བེད་སྤྱོད་བྱེད་&quot; ལ་གཟིགས། &quot;TLS བེད་སྤྱོད་&quot; དང་ &quot;SSL "
+"བེད་སྤྱོད་&quot; "
+"གཉིས་ཕན་ཚུན་ཁ་བྲལ་བ་ཡིན་པས་སྒྲིག་སྟངས་དེ་དག་ལས་གཅིག་བདེན་པ་ལ་སྒྲིག་དགོས།"
+
+#: mailers.py:71
+msgid "Server"
+msgstr "ཞབས་ཞུ།"
+
+#: mailers.py:99
+msgid "Django file based backend"
+msgstr "Django ཡིག་ཆར་བརྟེན་པའི་རྒྱབ་ལྗོངས།"
+
+#: mailers.py:107
+msgid "File path"
+msgstr "ཡིག་ཆའི་འགྲོ་ལམ།"
+
+#: mailers.py:123
+msgid "Storage"
+msgstr "ཉར་ཚགས།"
+
+#: model_mixins.py:178
+#, python-format
+msgid "Test email from %s"
+msgstr "ཚོད་ལྟ་གློག་འཕྲིན་ནས་ %s"
+
+#: models.py:32
+msgid "A short text describing the mailing profile."
+msgstr "སྦྲག་ཡིག་གི་གསལ་སྡུད་འགྲེལ་བརྗོད་བྱེད་པའི་ཡི་གེ་ཐུང་ངུ་ཞིག"
+
+#: models.py:33
+msgid "Label"
+msgstr "ལག་ཁྱེར་།"
+
+#: models.py:37
+msgid ""
+"If default, this mailing profile will be pre-selected on the document "
+"mailing form."
+msgstr ""
+"གལ་ཏེ་སྔོན་སྒྲིག་ཡིན་ན། "
+"ཡིག་ཆའི་སྦྲག་ཡིག་འབྲི་ཤོག་སྟེང་སྦྲག་ཡིག་གསལ་སྡུད་འདི་སྔོན་ནས་འདེམས་སྒྲུག་བྱེད།"
+
+#: models.py:39
+msgid "Default"
+msgstr "སྔོན་གཤིས།"
+
+#: models.py:42
+msgid "Enabled"
+msgstr "བེད་སྤྱོད་ཆོག་པ།"
+
+#: permissions.py:12
+msgid "Create a mailing profile"
+msgstr "ཡིག་ཟམ་ངོ་སྤྲོད་གསར་བཟོ།"
+
+#: permissions.py:16
+msgid "Delete a mailing profile"
+msgstr "ཡིག་ཟམ་གསལ་སྡུད་སུབ་པ།"
+
+#: permissions.py:20
+msgid "Edit a mailing profile"
+msgstr "ཡིག་ཟམ་ངོ་སྤྲོད་རྩོམ་སྒྲིག་བྱེད་པ།"
+
+#: permissions.py:23
+msgid "Use a mailing profile"
+msgstr "ཡིག་སྐུར་ངོ་སྤྲོད་བེད་སྤྱོད་བྱེད་པ།"
+
+#: permissions.py:26
+msgid "View a mailing profile"
+msgstr "ཡིག་ཟམ་གྱི་གསལ་སྡུད་ལ་ལྟ་བ།"
+
+#: permissions.py:32
+msgid "Send document link via email"
+msgstr "གློག་འཕྲིན་བརྒྱུད་ཡིག་ཆའི་སྦྲེལ་མཐུད་བསྐུར་བ།"
+
+#: permissions.py:38
+msgid "Send document file via email"
+msgstr "གློག་འཕྲིན་བརྒྱུད་ཡིག་ཆའི་ཡིག་ཆ་བསྐུར།"
+
+#: permissions.py:42
+msgid "Send document file link via email"
+msgstr "གློག་འཕྲིན་བརྒྱུད་ཡིག་ཆའི་ཡིག་ཆའི་སྦྲེལ་ཐག་བསྐུར།"
+
+#: permissions.py:49
+msgid "Send document version via email"
+msgstr "གློག་འཕྲིན་བརྒྱུད་ཡིག་ཆའི་ཐོན་རིམ་བསྐུར་བ།"
+
+#: permissions.py:53
+msgid "Send document version link via email"
+msgstr "གློག་འཕྲིན་བརྒྱུད་ཡིག་ཆའི་ཐོན་རིམ་སྦྲེལ་ཐག་བསྐུར།"
+
+#: queues.py:12
+msgid "Send object"
+msgstr "དངོས་པོ་བསྐུར།"
+
+#: serializers.py:14
+msgid "URL"
+msgstr "URL །"
+
+#: serializers.py:32
+msgid "Primary key of the mailing profile to use."
+msgstr "བེད་སྤྱོད་གཏོང་བའི་སྦྲག་ཡིག་གསལ་སྡུད་ཀྱི་ལྡེ་མིག་གཙོ་བོ།"
+
+#: serializers.py:33
+msgid "Mailing profile ID"
+msgstr "ཡིག་ཟམ་ངོ་སྤྲོད་ཨང་རྟགས།"
+
+#: serializers.py:38 workflow_action_mixins.py:15
+msgid "Recipient"
+msgstr "ལེན་མཁན།"
+
+#: settings.py:17
+msgid "Template for the document email form subject line."
+msgstr "ཡིག་ཆའི་གློག་འཕྲིན་འབྲི་ཤོག་གི་བརྗོད་གཞིའི་གྲལ་རིམ་གྱི་དཔེ་གཞི།"
+
+#: settings.py:23
+msgid "Template for the document email form body text. Can include HTML."
+msgstr "ཡིག་ཆའི་གློག་འཕྲིན་འབྲི་ཤོག་གི་ཡིག་གཟུགས་ཀྱི་དཔེ་གཞི། HTML ཚུད་ཐུབ།"
+
+#: settings.py:30
+msgid "Template for the document link email form subject line."
+msgstr ""
+"ཡིག་ཆའི་སྦྲེལ་མཐུད་གློག་འཕྲིན་འབྲི་ཤོག་གི་བརྗོད་གཞིའི་གྲལ་རིམ་གྱི་དཔེ་གཞི།"
+
+#: settings.py:36
+msgid "Template for the document link email form body text. Can include HTML."
+msgstr ""
+"ཡིག་ཆའི་སྦྲེལ་མཐུད་གློག་འཕྲིན་འབྲི་ཤོག་གི་ཡིག་གཟུགས་ཀྱི་དཔེ་གཞི། HTML "
+"ཚུད་ཐུབ།"
+
+#: validators.py:14
+#, python-format
+msgid "%(email)s is not a valid email address."
+msgstr "%(email)s ནི་ནུས་ལྡན་གྱི་གློག་འཕྲིན་ཁ་བྱང་ཞིག་མིན།"
+
+#: views/base.py:104
+msgid "Object"
+msgstr "བྱ་བའི་ཡུལ"
+
+#: views/document_file_views.py:17
+#, python-format
+msgid "%(count)d document file queued for email delivery"
+msgstr "གློག་འཕྲིན་སྐྱེལ་འདྲེན་ཆེད་དུ་ %(count)d ཡིག་ཆའི་ཡིག་ཆ་བང་སྒྲིག་ཡོད།"
+
+#: views/document_file_views.py:20
+#, python-format
+msgid "%(count)d document files queued for email delivery"
+msgstr "གློག་འཕྲིན་སྐྱེལ་འདྲེན་ཆེད་དུ་ %(count)d ཡིག་ཆའི་ཡིག་ཆ་བང་སྒྲིག་ཡོད།"
+
+#: views/document_file_views.py:32
+#, python-format
+msgid "%(count)d document file link queued for email delivery"
+msgstr ""
+"གློག་འཕྲིན་སྐྱེལ་འདྲེན་ཆེད་དུ་ %(count)d "
+"ཡིག་ཆའི་ཡིག་ཆའི་སྦྲེལ་མཐུད་བང་སྒྲིག་ཡོད།"
+
+#: views/document_file_views.py:35
+#, python-format
+msgid "%(count)d document file links queued for email delivery"
+msgstr ""
+"གློག་འཕྲིན་སྐྱེལ་འདྲེན་ཆེད་དུ་ %(count)d "
+"ཡིག་ཆའི་ཡིག་ཆའི་སྦྲེལ་མཐུད་བང་སྒྲིག་ཡོད།"
+
+#: views/document_version_views.py:19
+#, python-format
+msgid "%(count)d document version queued for email delivery"
+msgstr ""
+"གློག་འཕྲིན་སྐྱེལ་འདྲེན་ཆེད་དུ་ %(count)d ཡིག་ཆའི་ཐོན་རིམ་བང་སྒྲིག་ཡོད།"
+
+#: views/document_version_views.py:22
+#, python-format
+msgid "%(count)d document versions queued for email delivery"
+msgstr "གློག་འཕྲིན་གཏོང་བའི་ཆེད་དུ་ %(count)d ཡིག་ཆའི་ཐོན་རིམ་བང་སྒྲིག་ཡོད།"
+
+#: views/document_version_views.py:34
+#, python-format
+msgid "%(count)d document version link queued for email delivery"
+msgstr ""
+"གློག་འཕྲིན་གཏོང་སྤྲོད་ཆེད་དུ་ %(count)d "
+"ཡིག་ཆའི་ཐོན་རིམ་འབྲེལ་མཐུད་བང་སྒྲིག་ཡོད།"
+
+#: views/document_version_views.py:37
+#, python-format
+msgid "%(count)d document version links queued for email delivery"
+msgstr ""
+"གློག་འཕྲིན་གཏོང་བའི་ཆེད་དུ་ %(count)d "
+"ཡིག་ཆའི་ཐོན་རིམ་འབྲེལ་མཐུད་བང་སྒྲིག་ཡོད།"
+
+#: views/document_views.py:14
+#, python-format
+msgid "%(count)d document link queued for email delivery"
+msgstr ""
+"གློག་འཕྲིན་སྐྱེལ་འདྲེན་ཆེད་དུ་ %(count)d ཡིག་ཆའི་སྦྲེལ་མཐུད་བང་སྒྲིག་ཡོད།"
+
+#: views/document_views.py:17
+#, python-format
+msgid "%(count)d document links queued for email delivery"
+msgstr ""
+"གློག་འཕྲིན་སྐྱེལ་འདྲེན་ཆེད་དུ་ %(count)d ཡིག་ཆའི་སྦྲེལ་མཐུད་བང་སྒྲིག་ཡོད།"
+
+#: views/mailing_profile_views.py:37
+msgid "New mailing profile backend selection"
+msgstr "སྦྲག་ཡིག་གསལ་སྡུད་གསར་པའི་རྒྱབ་ཕྱོགས་འདེམས་སྒྲུག"
+
+#: views/mailing_profile_views.py:68
+#, python-format
+msgid "Create a \"%s\" mailing profile"
+msgstr "&quot; %s &quot; ཡིག་འཕྲིན་གསལ་སྡུད་ཅིག་གསར་འཛུགས་བྱས།"
+
+#: views/mailing_profile_views.py:93
+#, python-format
+msgid "Delete mailing profile: %s"
+msgstr "སྦྲག་ཡིག་གསལ་སྡུད་བསུབས་ %s"
+
+#: views/mailing_profile_views.py:106
+#, python-format
+msgid "Edit mailing profile: %s"
+msgstr "སྦྲག་ཡིག་གི་གསལ་སྡུད་རྩོམ་སྒྲིག: %s"
+
+#: views/mailing_profile_views.py:129
+msgid ""
+"Mailing profiles are email configurations. Mailing profiles allow sending "
+"documents as attachments or as links via email."
+msgstr ""
+"སྦྲག་ཡིག་གི་གསལ་སྡུད་ནི་གློག་འཕྲིན་གྱི་སྒྲིག་བཀོད་ཡིན། "
+"ཡིག་འཕྲིན་གྱི་གསལ་སྡུད་ཀྱིས་ཡིག་ཆ་མཉམ་སྦྲེལ་ལྟར་ཡང་ན་གློག་འཕྲིན་བརྒྱུད་ནས་འབྲེལ་མཐུད་ལྟར་གཏོང་ཆོག"
+
+#: views/mailing_profile_views.py:133
+msgid "No mailing profiles available"
+msgstr "ཡིག་སྐུར་ངོ་སྤྲོད་མེད།"
+
+#: views/mailing_profile_views.py:154
+msgid "Test email sent."
+msgstr "ཚོད་ལྟའི་གློག་འཕྲིན་བཏང་ཡོད།"
+
+#: views/mailing_profile_views.py:164
+#, python-format
+msgid "Test mailing profile: %s"
+msgstr "ཚོད་ལྟའི་སྦྲག་ཡིག་གསལ་ %s"
+
+#: workflow_action_mixins.py:18
+msgid ""
+"Email address of the recipient. Can be multiple addresses separated by comma"
+" or semicolon. A template can be used to reference properties of the "
+"document."
+msgstr ""
+"བསྐུར་མཁན་གྱི་གློག་འཕྲིན་ཁ་བྱང་། "
+"ཁ་བྱང་སྣ་ཚོགས་ཚེག་ཡང་ན་ཚེག་ཕྱེད་ཀྱིས་དབྱེ་ཐུབ། "
+"ཡིག་ཆའི་རྒྱུ་ཆ་ལ་གཞི་བསྟུན་བྱེད་པར་ཊེམ་པེལེཊི་བེད་སྤྱོད་གཏོང་ཐུབ།"
+
+#: workflow_action_mixins.py:27
+msgid "CC"
+msgstr "CC"
+
+#: workflow_action_mixins.py:30 workflow_action_mixins.py:42
+msgid ""
+"Address used in the \"Bcc\" header when sending the email. Can be multiple "
+"addresses separated by comma or semicolon. A template can be used to "
+"reference properties of the document."
+msgstr ""
+"གློག་འཕྲིན་གཏོང་སྐབས་&quot;Bcc&quot;མགོ་ཡིག་ནང་བེད་སྤྱོད་བྱེད་པའི་ཁ་བྱང་། "
+"ཁ་བྱང་སྣ་ཚོགས་ཚེག་ཡང་ན་ཚེག་ཕྱེད་ཀས་དབྱེ་ཐུབ། "
+"ཡིག་ཆའི་རྒྱུ་ཆ་ལ་གཞི་བསྟུན་བྱེད་པར་ཊེམ་པེལེཊི་བེད་སྤྱོད་གཏོང་ཐུབ།"
+
+#: workflow_action_mixins.py:39
+msgid "BCC"
+msgstr "བི་སི་སི།"
+
+#: workflow_action_mixins.py:51
+msgid "Reply to"
+msgstr "ལན་འདེབས།"
+
+#: workflow_action_mixins.py:54
+msgid ""
+"Address used in the \"Reply-To\" header when sending the email. Can be "
+"multiple addresses separated by comma or semicolon. A template can be used "
+"to reference properties of the document."
+msgstr ""
+"གློག་འཕྲིན་གཏོང་སྐབས་&quot;ལན་འདེབས་&quot;ཞེས་པའི་མགོ་ཡིག་ནང་བེད་སྤྱོད་བཏང་བའི་ཁ་བྱང་།"
+" ཁ་བྱང་སྣ་ཚོགས་ཚེག་ཡང་ན་ཚེག་ཕྱེད་ཀྱིས་དབྱེ་ཐུབ། "
+"ཡིག་ཆའི་རྒྱུ་ཆ་ལ་གཞི་བསྟུན་བྱེད་པར་ཊེམ་པེལེཊི་བེད་སྤྱོད་གཏོང་ཐུབ།"
+
+#: workflow_action_mixins.py:66
+msgid "Subject of the email. Can be a string or a template."
+msgstr "གློག་འཕྲིན་གྱི་བརྗོད་གཞི། ཡིག་རྒྱུན་ཡང་ན་དཔེ་སྒྲོམ་ཡིན་ཆོག"
+
+#: workflow_action_mixins.py:76
+msgid "Body of the email to send. Can be a string or a template."
+msgstr "གཏོང་དགོས་པའི་གློག་འཕྲིན་གྱི་ནང་དོན། ཡིག་རྒྱུན་ཡང་ན་དཔེ་སྒྲོམ་ཡིན་ཆོག"
+
+#: workflow_action_mixins.py:83 workflow_actions.py:21
+msgid "Attachment"
+msgstr "ཆགས་ཞེན"
+
+#: workflow_action_mixins.py:86
+msgid "Attach an object to the email."
+msgstr "གློག་འཕྲིན་ལ་དངོས་པོ་ཞིག་སྦྱར་དགོས།"
+
+#: workflow_action_mixins.py:91
+msgid "Send object via email"
+msgstr "གློག་འཕྲིན་བརྒྱུད་དངོས་པོ་བསྐུར།"
+
+#: workflow_action_mixins.py:103
+msgid "Mailing profile to use when sending the email."
+msgstr "གློག་འཕྲིན་གཏོང་སྐབས་བེད་སྤྱོད་གཏོང་བའི་ཡིག་ཟམ་གསལ་སྡུད།"
+
+#: workflow_action_mixins.py:129
+msgid "Parties"
+msgstr "ཚོགས་པ་ཁག་གིས།"
+
+#: workflow_action_mixins.py:133
+msgid "Content"
+msgstr "ནང་དོན"
+
+#: workflow_actions.py:9
+msgid "Send document via email"
+msgstr "གློག་འཕྲིན་བརྒྱུད་ནས་ཡིག་ཆ་བསྐུར།"
+
+#: workflow_actions.py:24
+msgid "Attach the exported document version to the email."
+msgstr ""
+"ཕྱིར་འདྲེན་བྱས་པའི་ཡིག་ཆའི་ཐོན་རིམ་དེ་གློག་འཕྲིན་ལ་མཉམ་སྦྲེལ་བྱེད་དགོས།"

@@ -157,9 +157,11 @@
 - Remove unused `ModelFormFieldFilteredModelChoice`.
 - Make `FormMixinFieldsets` a subclass of `FormMixinFormMeta`.
 
-4.9.5 (XXXX-XX-XX)
+4.9.5 (2025-09-28)
 ==================
 - Improvements and changes from version 4.8.8.
+- Silence document indexing error during checkout test to avoid confusion.
+- Add `graphviz` to the GitLab CI documentation step.
 
 4.9.4 (2025-09-03)
 ==================
@@ -559,7 +561,7 @@
 - Improve how the select all toolbar checkbox is disabled when there are no
   results.
 
-4.8.8 (XXXX-XX-XX)
+4.8.8 (2025-09-26)
 ==================
 - Improvements and changes from version 4.7.6.
 
@@ -816,9 +818,14 @@
   The workflow state action context is now composed of the keys:
   `workflow_instance`, `workflow_instance_context`, `action`, and `log_entry`.
 
-4.7.6 (XXXX-XX-XX)
+4.7.6 (2025-09-26)
 ==================
-- Improvements and changes from version 4.6.10.
+- Improvements and changes from version 4.6.10 and 4.6.11.
+- Update `gunicorn` from version 22.0.0 to 23.0.0 due to CVE-2024-6827.
+- Update `pypdf` from version 4.2.0 to 6.0.0 due to CVE-2025-55197.
+- Backport timezone updates from version 4.9 and 4.10. Update `pytz` from
+  version 2024.1 to 2025.2. Backport timezone migrations.
+- Add forum link to Python setup.
 
 4.7.5 (2025-09-01)
 ==================
@@ -1104,12 +1111,53 @@
 - Expose the document index instance depth and node count values via the API.
 - Add a document type API view to return all documents of that type.
 
-4.6.10 (XXXX-XX-XX)
+4.6.11 (XXXX-XX-XX)
+===================
+- Add new languages, and language variants.
+
+  - Tibetan
+  - Spanish (Ecuador)
+  - Persian (Iran)
+  - French (France)
+  - Hungarian (Slovakia)
+  - Hungarian (Hungary)
+  - Armenian (Armenia)
+
+4.6.10 (2025-09-24)
 ===================
 - Fix base search class `_search` interface.
-- Add `SEARCH_QUERY_RESULTS_LIMIT_ERROR`. Control whether or not to raise
+- Add `SEARCH_QUERY_RESULTS_LIMIT_ERROR`. Controls whether or not to raise
   an error when the number of search results exceed the value of
   `SEARCH_QUERY_RESULTS_LIMIT`. Default to `True` for backwards compatibility.
+- Don't append the changelog to the PyPI description.
+- Add SPDX license expression to comply with PEP 639.
+- Fix label of the index template return link.
+- Improve form fieldset mismatch exception error message.
+- Change the statistic view icon to a facet link.
+- Pass `GITLAB_CI_BRANCH_TRY_STAGING` to the GitLab CI template instead of
+  hard coding the branch name.
+- Update dependency version:
+
+  - devpi-server from 6.5.0 to 6.17.0
+  - django from 4.2.23 to 4.2.24 (CVE-2025-57833)
+  - ipython from 8.21.0 to 9.5.0
+  - packaging from 21.3 to 25.0
+  - pip from 24.3 to 25.2
+  - sentry-sdk from 2.35.0 to 2.38.0
+  - setuptools from 69.5.1 to 80.9.0
+  - twine from 5.1.1 to 6.2.0
+  - wheel from 0.42.0 to 0.45.1
+
+- Update Docker image tags:
+
+  - Debian from 12.11-slim to 12.12-slim
+  - Elasticsearch from 7.17.28 to 7.17.29
+  - PostgreSQL from 13.21-alpine to 13.22-alpine
+  - Forge Ubuntu from 24.04 to noble-20250910
+
+- Invoke `twine upload` by passing `TWINE_PASSWORD` instead of `PYPIRC`.
+- Resolve a myriad of bugs and dependency conflict bugs between
+  `devpi-server`, `packaging`, `setuptools`, `twine`, `wheel`.
 
 4.6.9 (2025-08-31)
 ==================

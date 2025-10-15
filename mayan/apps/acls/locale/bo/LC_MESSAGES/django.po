@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:26 classes.py:209 links.py:26
+msgid "ACLs"
+msgstr "ACLs"
+
+#: apps.py:62
+msgid ""
+"Object for which the access is granted. When sorting objects, only the type "
+"is used and not the actual label of the object."
+msgstr ""
+"ཐོབ་ཐང་སྤྲད་པའི་དངོས་པོ། "
+"དངོས་པོ་དབྱེ་འབྱེད་བྱེད་སྐབས་རིགས་ཁོ་ན་བེད་སྤྱོད་བྱེད་པ་དང་དངོས་པོའི་མཚོན་རྟགས་ངོ་མ་བེད་སྤྱོད་མི་བྱེད།"
+
+#: apps.py:65 workflow_actions.py:129
+msgid "Object"
+msgstr "བྱ་བའི་ཡུལ"
+
+#: events.py:6 permissions.py:6
+msgid "Access control lists"
+msgstr "འགྲོ་འོང་ཚོད་འཛིན་ཐོ་གཞུང་།"
+
+#: events.py:10
+msgid "ACL created"
+msgstr "ACLབཟོས་ཡོད།"
+
+#: events.py:13
+msgid "ACL deleted"
+msgstr "ACLབསུབས་ཟིན།"
+
+#: events.py:16
+msgid "ACL edited"
+msgstr "ACL རྩོམ་སྒྲིག་བྱས།"
+
+#: forms.py:12 models.py:58 serializers.py:79 views.py:73
+msgid "Role"
+msgstr "འཁྲབ་ཚན"
+
+#: links.py:15
+msgid "New ACL"
+msgstr "ACLགསར་པ།"
+
+#: links.py:20
+msgid "Delete"
+msgstr "བསུབ་པ།"
+
+#: links.py:31 models.py:52 workflow_actions.py:68 workflow_actions.py:204
+msgid "Permissions"
+msgstr "ཆོག་མཆན།"
+
+#: links.py:34
+msgid "Global ACLs"
+msgstr "རྒྱལ་སྤྱིའི་ACLs"
+
+#: managers.py:276
+#, python-format
+msgid "Object \"%s\" is not a model and cannot be checked for access."
+msgstr ""
+"དངོས་པོ་ &quot; %s &quot; "
+"ནི་དཔེ་གཞི་མིན་པས་འཛུལ་སྤྱོད་ལ་ཞིབ་བཤེར་བྱེད་མི་ཐུབ།"
+
+#: managers.py:293
+#, python-format
+msgid "Insufficient access for: %s"
+msgstr "འགྲོ་འོང་མི་འདང་བ།: %s"
+
+#: model_mixins.py:23
+msgid "Permission count"
+msgstr "ཆོག་མཆན་གྱི་གྲངས།"
+
+#: models.py:42 serializers.py:16
+msgid "Content type"
+msgstr "ནང་དོན་གྱི་རིགས།"
+
+#: models.py:45 workflow_actions.py:54
+msgid "Object ID"
+msgstr "དངོས་པོའི་ཨང་རྟགས།"
+
+#: models.py:56
+msgid "Role to which the access is granted for the specified object."
+msgstr "གསལ་བཀོད་བྱས་པའི་དངོས་པོའི་ཆེད་དུ་འཛུལ་སྤྱོད་སྤྲོད་པའི་འགན་འཁྲི།"
+
+#: models.py:66
+msgid "Access entry"
+msgstr "འཛུལ་ཞུགས་འཛུལ་སྒོ།"
+
+#: models.py:67
+msgid "Access entries"
+msgstr "འཛུལ་ཞུགས་ཐོ་འགོད།"
+
+#: models.py:71
+#, python-format
+msgid "Role \"%(role)s\" permission's for \"%(object)s\""
+msgstr ""
+"འགན་འཁྲི &quot; %(role)s &quot; ཆོག་མཆན་དེ་ &quot; %(object)s &quot; ཡིན།"
+
+#: permissions.py:10
+msgid "Edit ACLs"
+msgstr "ACLs རྩོམ་སྒྲིག"
+
+#: permissions.py:13
+msgid "View ACLs"
+msgstr "ACLs བལྟ།"
+
+#: serializers.py:19
+msgid "Permissions add URL"
+msgstr "ཆོག་མཆན་URLཁ་སྣོན།"
+
+#: serializers.py:39
+msgid "Permissions remove URL"
+msgstr "ཆོག་མཆན་གྱིས་URLམེད་པར་བཟོས།"
+
+#: serializers.py:59
+msgid "Permissions URL"
+msgstr "ཆོག་མཆན་URL"
+
+#: serializers.py:82
+msgid "Role ID"
+msgstr "འགན་འཁྲི་ངོ་རྟགས།"
+
+#: serializers.py:85
+msgid "URL"
+msgstr "URL །"
+
+#: serializers.py:118
+msgid "Primary key of the permission to add to the ACL."
+msgstr "ACL ལ་ཁ་སྣོན་བྱེད་པའི་ཆོག་མཆན་གྱི་ལྡེ་མིག་གཙོ་བོ།"
+
+#: serializers.py:119 serializers.py:126
+msgid "Permission ID"
+msgstr "ཆོག་མཆན་ཨང་རྟགས།"
+
+#: serializers.py:125
+msgid "Primary key of the permission to remove from the ACL."
+msgstr "ACL ནས་མེད་པར་བཟོ་བའི་ཆོག་མཆན་གྱི་ལྡེ་མིག་གཙོ་བོ།"
+
+#: views.py:44
+#, python-format
+msgid ""
+"An ACL for \"%(object)s\" using role \"%(role)s\" already exists. Edit that "
+"ACL entry instead."
+msgstr ""
+"ལས་འགན་ &quot; %(object)s &quot; བེད་སྤྱོད་བྱེད་པའི་ &quot; %(role)s &quot; "
+"ཡི་ཆེད་དུ་ACL དེ་སྔོན་ནས་ཡོད། དེའི་ཚབ་ཏུ་ACLཐོ་འགོད་དེ་རྩོམ་སྒྲིག་བྱོས།"
+
+#: views.py:59
+#, python-format
+msgid "New access control lists for: %s"
+msgstr "འགྲོ་འོང་ཚོད་འཛིན་ཐོ་གཞུང་གསར་པ།: %s"
+
+#: views.py:103
+#, python-format
+msgid "Delete ACL: %s"
+msgstr "བསུབས་པའི་ACL: %s"
+
+#: views.py:147
+msgid "There are no ACLs for this object"
+msgstr "དངོས་པོ་འདི་ལ་ACLམེད།"
+
+#: views.py:150 views.py:273
+msgid ""
+"ACL stands for Access Control List and is a precise method to control user "
+"access to objects in the system. ACLs allow granting a permission to a role "
+"but only for a specific object or set of objects."
+msgstr ""
+"ACL ནི་འཛུལ་སྤྱོད་ཚོད་འཛིན་ཐོ་གཞུང་ལ་གོ་བ་ལེན་ཞིང་། "
+"དེ་ནི་མ་ལག་ནང་དུ་ཡོད་པའི་དངོས་པོ་ལ་སྤྱོད་མཁན་གྱིས་འཛུལ་སྤྱོད་ཚོད་འཛིན་བྱེད་པའི་ཐབས་ལམ་གཏན་འཁེལ་ཞིག་ཡིན།"
+" ACLs ཡིས་ལས་འགན་ལ་ཆོག་མཆན་སྤྲོད་ཆོག "
+"འོན་ཀྱང་དངོས་པོའམ་དངོས་པོ་ཆ་ཚང་ལ་རྐྱངམ་གཅིག་སྤྲོད་ཆོག"
+
+#: views.py:157
+#, python-format
+msgid "Access control lists for: %s"
+msgstr "འཛུལ་སྤྱོད་ཚོད་འཛིན་ཐོ་གཞུང་ %s"
+
+#: views.py:166
+msgid "Granted permissions"
+msgstr "ཆོག་མཆན་སྤྲད་པ།"
+
+#: views.py:167
+msgid "Available permissions"
+msgstr "ཆོག་མཆན་ཡོད་པ།"
+
+#: views.py:221
+#, python-format
+msgid "Role \"%(role)s\" permission's for \"%(object)s\"."
+msgstr ""
+"འགན་འཁུར་ &quot; %(role)s &quot; ཆོག་མཆན་ &quot; %(object)s &quot; ཡིན།"
+
+#: views.py:231
+msgid ""
+"Disabled permissions are inherited from a parent object or directly granted "
+"to the role and can't be removed from this view. Inherited permissions need "
+"to be removed from the parent object's ACL or from them role via the Setup "
+"menu."
+msgstr ""
+"ལྕོགས་མིན་བཟོས་པའི་ཆོག་མཆན་དེ་ཕ་མའི་དངོས་པོ་ནས་ཤུལ་འཛིན་བྱས་པའམ་ཡང་ན་ལས་འགན་ལ་ཐད་ཀར་སྤྲད་པ་ཡིན་པས་མཐོང་སྣང་འདི་ནས་མེད་པར་བཟོ་མི་ཐུབ།"
+" "
+"ཤུལ་བཞག་ཆོག་མཆན་དེ་དངོས་པོའི་ཕ་མའི་ACLནས་ཡང་ན་སྒྲིག་འཛུགས་དཀར་ཆག་བརྒྱུད་ནས་ཁོང་ཚོའི་ལས་འགན་ནས་མེད་པར་བཟོ་དགོས།"
+
+#: views.py:271
+msgid "There are no ACLs"
+msgstr "དེར་ACLམིན་འདུག།"
+
+#: views.py:278
+msgid "Global access control lists"
+msgstr "གོ་ལ་ཧྲིལ་པོའི་འཛུལ་སྤྱོད་ཚོད་འཛིན་ཐོ་གཞུང་།"
+
+#: workflow_actions.py:44
+msgid "Object type"
+msgstr "དངོས་པོའི་རིགས།"
+
+#: workflow_actions.py:47
+msgid "Type of the object for which the access will be modified."
+msgstr "འཛུལ་སྤྱོད་བསྒྱུར་བཅོས་བྱེད་པའི་དངོས་པོའི་རིགས།"
+
+#: workflow_actions.py:57
+msgid ""
+"Numeric identifier of the object for which the access will be modified."
+msgstr "འཛུལ་སྤྱོད་བསྒྱུར་བཅོས་བྱེད་པའི་དངོས་པོའི་ཨང་གྲངས་ངོས་འཛིན་བྱེད་མཁན།"
+
+#: workflow_actions.py:62 workflow_actions.py:198
+msgid "Roles"
+msgstr "འགན་འཁྲི།"
+
+#: workflow_actions.py:64 workflow_actions.py:200
+msgid "Roles whose access will be modified."
+msgstr "འཛུལ་སྤྱོད་ལ་སྒྱུར་བཅོས་གཏོང་བའི་འགན་འཁྲི།"
+
+#: workflow_actions.py:71 workflow_actions.py:207
+msgid ""
+"Permissions to grant/revoke to/from the role for the object selected above."
+msgstr "གོང་དུ་འདེམས་པའི་དངོས་པོའི་ལས་འགན་ལ་/ཕྱིར་འཐེན་བྱེད་པའི་ཆོག་མཆན།"
+
+#: workflow_actions.py:78
+msgid "Grant object access"
+msgstr "དངོས་པོའི་ཐོབ་ཐང་སྤྲོད་པ།"
+
+#: workflow_actions.py:133 workflow_actions.py:232
+msgid "Access"
+msgstr "འགྲོ་ལམ"
+
+#: workflow_actions.py:171
+msgid "Revoke object access"
+msgstr "དངོས་པོའི་འཛུལ་སྤྱོད་ཕྱིར་འཐེན་བྱེད་པ།"
+
+#: workflow_actions.py:214
+msgid "Grant document access"
+msgstr "ཡིག་ཆའི་ཐོབ་ཐང་སྤྲོད།"
+
+#: workflow_actions.py:261
+msgid "Revoke document access"
+msgstr "ཡིག་ཆའི་ཐོབ་ཐང་མེད་པར་བཟོ་བ།"

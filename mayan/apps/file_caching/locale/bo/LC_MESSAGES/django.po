@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:33 events.py:6 permissions.py:6 queues.py:7 settings.py:11
+msgid "File caching"
+msgstr "ཡིག་ཚགས་གསོག་འཇོག་བྱེད་པ།"
+
+#: dashboard_widgets.py:16
+msgid "Total cache allocated"
+msgstr "ཁྱོན་བསྡོམས་མཛོད་བགོས་བྱས་པ།"
+
+#: dashboard_widgets.py:45
+msgid "Total cache used"
+msgstr "བེད་སྤྱད་བྱས་པའི་མཛོད་བསྡོམས་འབོར།"
+
+#: events.py:10
+msgid "Cache created"
+msgstr "མཛོད་གསར་བཟོ་བྱས།"
+
+#: events.py:13
+msgid "Cache edited"
+msgstr "མཛོད་རྩོམ་སྒྲིག་བྱས།"
+
+#: events.py:16
+msgid "Cache purged"
+msgstr "མཛོད་གཙང་སེལ་བྱས།"
+
+#: events.py:19
+msgid "Cache partition purged"
+msgstr "མཛོད་ཀྱི་བར་གཅོད་གཙང་བཟོ་བྱས།"
+
+#: forms.py:11
+msgid "Identification"
+msgstr "ངོས་འཛིན།"
+
+#: forms.py:15
+msgid "Storage"
+msgstr "ཉར་ཚགས།"
+
+#: forms.py:19
+msgid "Configuration"
+msgstr "སྒྲིག་བཀོད།"
+
+#: forms.py:25
+msgid "Objects"
+msgstr "དངོས་པོ།"
+
+#: links.py:28 links.py:51
+msgid "File caches"
+msgstr "ཡིག་ཆའི་མཛོད་ཁང་།"
+
+#: links.py:34 links.py:38 links.py:44
+msgid "Purge cache"
+msgstr "མཛོད་གཙང་བཟོ།"
+
+#: model_mixins.py:39
+msgid "Unknown"
+msgstr "མི་ཤེས"
+
+#: model_mixins.py:57
+msgid "Size at which the cache will start deleting old entries."
+msgstr "མཛོད་ཁང་གིས་ཐོ་འགོད་རྙིང་པ་བསུབས་འགོ་ཚུགས་པའི་ཚད།"
+
+#: model_mixins.py:59 models.py:31
+msgid "Maximum size"
+msgstr "ཆེ་ཆུང་ཆེ་ཤོས།"
+
+#: model_mixins.py:70
+msgid "Partition count"
+msgstr "བགོད་གྲངས།"
+
+#: model_mixins.py:71
+msgid "Total cached objects."
+msgstr "བསྡོམས་པས་འདྲ་མཛོད་བྱས་པའི་དངོས་པོ།"
+
+#: model_mixins.py:78
+msgid "Partition file count"
+msgstr "བགོད་ཡིག་གི་གྲངས་འབོར།"
+
+#: model_mixins.py:80
+msgid "Total cached files."
+msgstr "བསྡོམས་པས་ཡིག་ཆ།"
+
+#: model_mixins.py:111 model_mixins.py:324
+msgid "Current size"
+msgstr "ད་ལྟའི་ཆེ་ཆུང་།"
+
+#: model_mixins.py:113
+msgid "Current size of the cache."
+msgstr "ད་ལྟའི་མཛོད་ཀྱི་ཚད་གཞི།"
+
+#: model_mixins.py:121
+msgid "Label"
+msgstr "ལག་ཁྱེར་།"
+
+#: model_mixins.py:326
+msgid "Current size of the cache partition."
+msgstr "ད་ལྟའི་འདྲ་མཛོད་བར་ཁམས་ཀྱི་ཚད་གཞི།"
+
+#: models.py:21
+msgid "Internal name of the defined storage for this cache."
+msgstr "མཛོད་འདིའི་ཆེད་དུ་ངེས་ཚིག་བཀོད་པའི་གསོག་འཇོག་གི་ནང་ཁུལ་གྱི་མིང་།"
+
+#: models.py:23
+msgid "Defined storage name"
+msgstr "གཏན་འཁེལ་བྱས་པའི་གསོག་འཇོག་མིང་།"
+
+#: models.py:28
+msgid "Maximum size of the cache in bytes."
+msgstr "ཆེས་མཐོའི་འདྲ་མཛོད་ཀྱི་ཚད་དེ་བཱའིཊི་ནང་ཡོད།"
+
+#: models.py:36 models.py:75
+msgid "Cache"
+msgstr "མཛོད་ཁང་།"
+
+#: models.py:37
+msgid "Caches"
+msgstr "མཛོད་ཁང་།"
+
+#: models.py:78
+msgid "Name"
+msgstr "མིང"
+
+#: models.py:83 models.py:105
+msgid "Cache partition"
+msgstr "འདྲ་མཛོད་ཀྱི་བར་གཅོད།"
+
+#: models.py:84
+msgid "Cache partitions"
+msgstr "འདྲ་མཛོད་བར་གཅོད།"
+
+#: models.py:108
+msgid "Date time"
+msgstr "ཚེས་གྲངས་དུས་ཚོད།"
+
+#: models.py:111
+msgid "Filename"
+msgstr "ཡིག་ཆའི་མིང་།"
+
+#: models.py:114
+msgid "File size"
+msgstr "ཡིག་ཆའི་ཆེ་ཆུང་།"
+
+#: models.py:118
+msgid "Times this cache partition file has been accessed."
+msgstr "འདྲ་མཛོད་བགོད་སྒྲིག་ཡིག་ཆ་འདི་ལ་འཛུལ་སྤྱོད་བྱས་པའི་དུས་ཚོད།"
+
+#: models.py:125
+msgid "Cache partition file"
+msgstr "འདྲ་མཛོད་བར་གཅོད་ཡིག་ཆ།"
+
+#: models.py:126
+msgid "Cache partition files"
+msgstr "འདྲ་མཛོད་བར་གཅོད་ཡིག་ཆ།"
+
+#: permissions.py:10
+msgid "Purge an object cache"
+msgstr "དངོས་པོའི་འདྲ་མཛོད་གཙང་མ་བཟོས།"
+
+#: permissions.py:14 queues.py:20
+msgid "Purge a file cache"
+msgstr "ཡིག་ཆའི་མཛོད་གཙང་བཟོ།"
+
+#: permissions.py:17
+msgid "View a file cache"
+msgstr "ཡིག་ཆའི་མཛོད་ལ་ལྟ་བ།"
+
+#: queues.py:10
+msgid "File caching slow"
+msgstr "ཡིག་ཚགས་མཛོད་དལ་བ།"
+
+#: queues.py:15
+msgid "Purge a file cache partition"
+msgstr "ཡིག་ཆའི་འདྲ་མཛོད་བར་གཅོད་གཙང་མ་བཟོས།"
+
+#: settings.py:17
+msgid ""
+"Number of times a cache will retry failed attempts to prune files to free up"
+" space for new a file being requested, before giving up."
+msgstr ""
+"ཡིག་ཆ་གསར་པ་རེ་ཞུ་བྱེད་པའི་ཆེད་དུ་ས་ཆ་གསར་པ་བཏོན་པའི་ཆེད་དུ་ཡིག་ཆ་གཅོད་པའི་ཚོད་ལྟ་འཐུས་ཤོར་བྱུང་བ་དེ་ཚོ་ཐེངས་ག་ཚོད་ལ་མཛོད་ཁང་གིས་བསྐྱར་དུ་ཚོད་ལྟ་བྱེད་ཀྱི་ཡོད་དམ།"
+
+#: settings.py:25
+msgid ""
+"Number of times a cache will attempt to prune files to free up space for new"
+" a file being requested, before giving up."
+msgstr ""
+"ཡིག་ཆ་གསར་པ་རེ་ཞུ་བྱེད་པའི་ཆེད་དུ་ས་ཆ་གསར་པ་བཏོན་པའི་ཆེད་དུ་མཛོད་ཁང་གིས་ཡིག་ཆ་གཅོད་པར་ཐེངས་ག་ཚོད་འབད་བརྩོན་བྱེད་ཀྱི་ཡོད་དམ།"
+
+#: views.py:36
+#, python-format
+msgid "Details of cache: %s"
+msgstr "འདྲ་མཛོད་ཀྱི་ཞིབ་ཕྲ། %s"
+
+#: views.py:48
+msgid "File caches list"
+msgstr "ཡིག་ཆའི་མཛོད་ཐོ་གཞུང་།"
+
+#: views.py:69
+#, python-format
+msgid "Details of cache partition: %s"
+msgstr "%s"
+
+#: views.py:87
+#, python-format
+msgid "Purge cache partitions of \"%s\"?"
+msgstr "&quot; %s &quot; ཡི་མཛོད་བར་བཅད་གཙང་མ་བཟོ་དགོས་སམ།"
+
+#: views.py:104
+msgid "Object cache partitions submitted for purging."
+msgstr "དངོས་པོའི་འདྲ་མཛོད་ཀྱི་བགོད་སྒྲིག་གཙང་བཟོ་ཆེད་དུ་ཕུལ་ཡོད།"
+
+#: views.py:114
+#, python-format
+msgid "%(count)d caches submitted for purging."
+msgstr "གཙང་བཟོའི་ཆེད་དུ་ %(count)d མཛོད་ཁང་ཕུལ་ཡོད།"
+
+#: views.py:117
+#, python-format
+msgid "%(count)d cache submitted for purging."
+msgstr "%(count)d མཛོད་ཁང་དེ་གཙང་མ་བཟོ་ཆེད་དུ་ཕུལ་ཡོད།"
+
+#: views.py:126
+msgid "Submit the selected cache for purging?"
+msgid_plural "Submit the selected caches for purging?"
+msgstr[0] "གཙང་བཟོའི་ཆེད་དུ་འདེམས་སྒྲུག་བྱས་པའི་མཛོད་ཁང་འབུལ་དགོས་སམ།"

@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-27 11:22+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:13 settings.py:8
+msgid "Auto administrator"
+msgstr "རང་འགུལ་དོ་དམ་པ།"
+
+#: auth/allauth.py:51
+msgid ""
+"Welcome Admin! You have been given super user privileges. Use them with "
+"caution."
+msgstr ""
+"དོ་དམ་པ་ཕེབས་པར་དགའ་བསུ་ཞུ། ཁྱེད་ལ་སྤྱོད་མཁན་གྱི་ཐོབ་ཐང་ཆེན་པོ་སྤྲད་ཡོད། "
+"དེ་དག་དོགས་ཟོན་ཆེན་པོས་བེད་སྤྱོད་བྱེད་དགོས།"
+
+#: models.py:13
+msgid "Account"
+msgstr "ཐོ་བདག"
+
+#: models.py:16
+msgid "Password"
+msgstr "གསང་གྲངས"
+
+#: models.py:20
+msgid "Password hash"
+msgstr "གསང་གྲངས་ཧ་ཤི།"
+
+#: models.py:26
+msgid "Autoadmin properties"
+msgstr "རང་འགུལ་དོ་དམ་རྒྱུ་ཆ།"
+
+#: settings.py:13
+msgid "Sets the email of the automatically created super user account."
+msgstr ""
+"རང་འགུལ་གྱིས་གསར་བཟོ་བྱས་པའི་ཆེས་མཐོའི་སྤྱོད་མཁན་རྩིས་ཁྲའི་གློག་འཕྲིན་སྒྲིག་བཀོད་བྱེད།"
+
+#: settings.py:18
+msgid ""
+"The password of the automatically created super user account. If it is equal"
+" to None, the password is randomly generated."
+msgstr ""
+"རང་འགུལ་གྱིས་བཟོས་པའི་ཆེས་མཐོའི་སྤྱོད་མཁན་གྱི་རྩིས་ཁྲའི་གསང་གྲངས། གལ་ཏེ་ "
+"None དང་འདྲ་མཉམ་ཡིན་ན་གསང་གྲངས་དེ་གང་བྱུང་དུ་བཟོས་པ་རེད།"
+
+#: settings.py:24
+msgid "The username of the automatically created super user account."
+msgstr ""
+"རང་འགུལ་གྱིས་བཟོས་པའི་ཆེས་མཐོའི་སྤྱོད་མཁན་རྩིས་ཁྲའི་སྤྱོད་མཁན་གྱི་མིང་།"
+
+#: templates/autoadmin/credentials.html:13
+msgid "Automatic credentials"
+msgstr "རང་འགུལ་གྱི་བདེན་དཔང་།"
+
+#: templates/autoadmin/credentials.html:17
+#, python-format
+msgid ""
+"You have just finished installing <strong>%(project_title)s</strong>, "
+"congratulations!"
+msgstr ""
+"ཁྱེད་ཀྱིས་ <strong>%(project_title)s</strong> བཙུགས་ཚར་བ་རེད། འཚམས་འདྲི་ཞུ།"
+
+#: templates/autoadmin/credentials.html:18
+msgid "Login using the following credentials:"
+msgstr "གཤམ་གྱི་ཆོག་མཆན་སྤྱད་དེ་ནང་འཇུག་བྱོས།"
+
+#: templates/autoadmin/credentials.html:20
+#, python-format
+msgid "Username: <strong>%(account)s</strong>"
+msgstr "བཀོལ་སྤྱོད་མིང་།: <strong>%(account)s</strong>"
+
+#: templates/autoadmin/credentials.html:21
+#, python-format
+msgid "Email: <strong>%(email)s</strong>"
+msgstr "གློག་འཕྲིན། <strong>%(email)s</strong>"
+
+#: templates/autoadmin/credentials.html:22
+#, python-format
+msgid "Password: <strong>%(password)s</strong>"
+msgstr "གསང་གྲངས།: <strong>%(password)s</strong>"
+
+#: templates/autoadmin/credentials.html:24
+msgid ""
+"Be sure to change the password to increase security and to disable this "
+"message."
+msgstr ""
+"བདེ་འཇགས་ཆེ་རུ་གཏོང་བ་དང་བརྡ་འཕྲིན་འདི་མེད་པར་བཟོ་ཆེད་གསང་གྲངས་བསྒྱུར་དགོས།"

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"POT-Creation-Date: 2025-09-28 14:15+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/rosarior/teams/13584/zh_TW/)\n"
@@ -142,11 +142,11 @@ msgstr ""
 msgid "Search models"
 msgstr ""
 
-#: literals.py:27
+#: literals.py:28
 msgid "Yes"
 msgstr "是"
 
-#: literals.py:28
+#: literals.py:29
 msgid "No"
 msgstr "否"
 
@@ -257,7 +257,7 @@ msgstr ""
 msgid "Delete expired saved resultsets"
 msgstr ""
 
-#: scoped_queries.py:345
+#: scoped_queries.py:348
 #, python-format
 msgid ""
 "Query results exceed the current limit of %d. Results will not be reliable "
@@ -265,7 +265,7 @@ msgid ""
 " value of the results limit setting `%s`."
 msgstr ""
 
-#: scoped_queries.py:364
+#: scoped_queries.py:373
 #, python-format
 msgid ""
 "Search backend error. Verify that the search service is available and that "
@@ -420,26 +420,32 @@ msgid ""
 msgstr ""
 
 #: settings.py:72
+msgid ""
+"Raise an error when the number of search results exceed the value of "
+"`SEARCH_QUERY_RESULTS_LIMIT`."
+msgstr ""
+
+#: settings.py:79
 msgid "Maximum number of search results to fetch and display."
 msgstr ""
 
-#: settings.py:78
+#: settings.py:85
 msgid "Maximum number of saved resultsets to keep per user."
 msgstr ""
 
-#: settings.py:84
+#: settings.py:91
 msgid "Maximum number of results to store per resultset."
 msgstr ""
 
-#: settings.py:90
+#: settings.py:97
 msgid "Time to keep the resultset in seconds."
 msgstr ""
 
-#: settings.py:96
+#: settings.py:103
 msgid "Amount to increase the time to live on each access of the resultset."
 msgstr ""
 
-#: settings.py:103
+#: settings.py:110
 msgid ""
 "Specifies the fields from which search model are to be disabled. The format "
 "is a dictionary of lists. The search model name is the dictionary key and "
@@ -447,7 +453,7 @@ msgid ""
 "neither be available for search nor be indexed by the search backend."
 msgstr ""
 
-#: settings.py:113
+#: settings.py:120
 msgid "Sets the default state of the \"Store results\" checkbox."
 msgstr ""
 

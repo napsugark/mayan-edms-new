@@ -1,0 +1,313 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:33
+msgid "Django GPG"
+msgstr "ཇང་གོ་GPG"
+
+#: apps.py:55 apps.py:61 forms.py:15
+msgid "Key ID"
+msgstr "ལྡེ་མིག་ID"
+
+#: apps.py:65 forms.py:41 models.py:49
+msgid "Type"
+msgstr "རིགས"
+
+#: apps.py:69 forms.py:22 models.py:28
+msgid "Creation date"
+msgstr "གསར་བཟོ་དུས་ཚོད།"
+
+#: apps.py:74
+msgid "No expiration"
+msgstr "དུས་ཡོལ་མེད་པ།"
+
+#: apps.py:75 forms.py:27 models.py:32
+msgid "Expiration date"
+msgstr "དུས་ཡོལ་དུས་ཚོད།"
+
+#: apps.py:79 forms.py:34 models.py:39
+msgid "Length"
+msgstr "རིང"
+
+#: apps.py:84 forms.py:19 models.py:45
+msgid "User ID"
+msgstr "སྤྱོད་མཁན་ཨང་རྟགས།"
+
+#: dependencies.py:9
+msgid "GNU privacy guard - a PGP implementation."
+msgstr "ཇི་ཨེན་ཡུ་སྒེར་གྱི་སྲུང་སྐྱོབ་པ་ - པི་ཇི་པི་ལག་བསྟར་ཞིག་རེད།"
+
+#: events.py:6 links.py:42 permissions.py:6
+msgid "Key management"
+msgstr "གཙོ་གནད་དོ་དམ།"
+
+#: events.py:10
+msgid "Key created"
+msgstr "ལྡེ་མིག་གསར་བཟོ།"
+
+#: events.py:14
+msgid "Key downloaded"
+msgstr "ལྡེ་མིག་ཕབ་ལེན་བྱས།"
+
+#: forms.py:26
+msgid "None"
+msgstr "གང་ཡང་མེད།"
+
+#: forms.py:31 models.py:36
+msgid "Fingerprint"
+msgstr "མཛུབ་མོའི་རྟགས།"
+
+#: forms.py:37 models.py:42
+msgid "Algorithm"
+msgstr "རྩིས་གཞི།"
+
+#: forms.py:55
+msgid "Term"
+msgstr "དུས་ཡུན"
+
+#: forms.py:57
+msgid "Name, e-mail, key ID or key fingerprint to look for."
+msgstr ""
+"མིང་དང་། གློག་འཕྲིན། "
+"ལྡེ་མིག་ཨང་རྟགས་ཡང་ན་ལྡེ་མིག་མཛུབ་མོའི་རྗེས་ཤུལ་འཚོལ་དགོས།"
+
+#: links.py:17
+msgid "Delete"
+msgstr "བསུབ་པ།"
+
+#: links.py:22
+msgid "Details"
+msgstr "ཞིབ་ཆ"
+
+#: links.py:27
+msgid "Download"
+msgstr "ཕབ་ལེན"
+
+#: links.py:32 permissions.py:28
+msgid "Query keyservers"
+msgstr "འདྲི་རྩད་ལྡེ་མིག་ཞབས་ཞུ།"
+
+#: links.py:37
+msgid "Import"
+msgstr "ནང་འདྲེན་དངོས་ཟོག"
+
+#: links.py:46
+msgid "Upload key"
+msgstr "ཡར་བསྐུར་ལྡེ་མིག"
+
+#: links.py:50 views.py:213
+msgid "Private keys"
+msgstr "སྒེར་གྱི་ལྡེ་མིག།"
+
+#: links.py:54 views.py:238
+msgid "Public keys"
+msgstr "སྤྱི་སྤྱོད་ལྡེ་མིག"
+
+#: literals.py:23 literals.py:31
+msgid "Public"
+msgstr "སྤྱི་དམངས་ཀྱི"
+
+#: literals.py:24 literals.py:32
+msgid "Secret"
+msgstr "གསང་བ"
+
+#: literals.py:41 literals.py:50
+msgid "RSA"
+msgstr "RSA"
+
+#: literals.py:44
+msgid "DSA"
+msgstr "DSA"
+
+#: literals.py:53
+msgid "Elgamal"
+msgstr "ཨེལ་གྷ་མལ།"
+
+#: literals.py:70
+msgid "Bad signature."
+msgstr "མིང་རྟགས་ངན་པ།"
+
+#: literals.py:73
+msgid "Document not signed or invalid signature."
+msgstr "ཡིག་ཆར་མིང་རྟགས་བཀོད་མེད་པའམ་མིང་རྟགས་ནུས་མེད་པ།"
+
+#: literals.py:76
+msgid "Signature error."
+msgstr "མིང་རྟགས་ནོར་འཁྲུལ།"
+
+#: literals.py:80
+msgid "Document is signed but no public key is available for verification."
+msgstr "ཡིག་ཆ་ལ་མིང་རྟགས་བཀོད་ཡོད་ཀྱང་ཞིབ་བཤེར་བྱེད་པར་སྤྱི་པའི་ལྡེ་མིག་མེད།"
+
+#: literals.py:85
+msgid "Document is signed, and signature is good."
+msgstr "ཡིག་ཆ་ལ་མིང་རྟགས་བཀོད་ཡོད་པ་དང་། མིང་རྟགས་ཡག་པོ་ཡོད།"
+
+#: literals.py:88
+msgid "Document is signed with a valid signature."
+msgstr "ཡིག་ཆ་ལ་ནུས་ལྡན་གྱི་མིང་རྟགས་བཀོད་ཡོད།"
+
+#: models.py:24
+msgid "ASCII armored version of the key."
+msgstr "ལྡེ་མིག་གི་ASCIIདམག་ཆས་ཐོན་རིམ།"
+
+#: models.py:25
+msgid "Key data"
+msgstr "གལ་ཆེའི་གྲངས་ཐོ།"
+
+#: models.py:55
+msgid "Key"
+msgstr "ལྡེ་མིག"
+
+#: models.py:56
+msgid "Keys"
+msgstr "ལྡེ་མིག"
+
+#: models.py:71
+msgid "Invalid key data"
+msgstr "ནུས་མེད་ལྡེ་མིག་གྲངས་ཐོ།"
+
+#: models.py:80
+msgid "Key already exists."
+msgstr "ལྡེ་མིག་སྔོན་ནས་ཡོད།"
+
+#: permissions.py:10
+msgid "Delete keys"
+msgstr "ལྡེ་མིག་སུབ་པ།"
+
+#: permissions.py:13
+msgid "Download keys"
+msgstr "ཕབ་ལེན་ལྡེ་མིག།"
+
+#: permissions.py:16
+msgid "Import keys from keyservers"
+msgstr "ལྡེ་མིག་སར་བར་ནས་ལྡེ་མིག་ནང་འདྲེན་བྱེད།"
+
+#: permissions.py:19
+msgid "Use keys to sign content"
+msgstr "ནང་དོན་ལ་མིང་རྟགས་འགོད་པར་ལྡེ་མིག་སྤྱད་དེ།"
+
+#: permissions.py:22
+msgid "Upload keys"
+msgstr "ཡར་འཇུག་ལྡེ་མིག"
+
+#: permissions.py:25
+msgid "View keys"
+msgstr "ལྡེ་མིག་ལྟ་བ།"
+
+#: serializers.py:12
+msgid "URL"
+msgstr "URL །"
+
+#: settings.py:11
+msgid "Signatures"
+msgstr "མཚན་རྟགས།"
+
+#: settings.py:18
+msgid "Full path to the backend to be used to handle keys and signatures."
+msgstr ""
+"ལྡེ་མིག་དང་མིང་རྟགས་བཀོལ་སྤྱོད་བྱེད་པར་བེད་སྤྱོད་གཏོང་བའི་རྒྱབ་ཕྱོགས་ལ་འགྲོ་ལམ་ཆ་ཚང་།"
+
+#: settings.py:27
+msgid "Keyserver used to query for keys."
+msgstr "ལྡེ་མིག་སར་བར་ལྡེ་མིག་འདྲི་རྩད་བྱེད་པར་བེད་སྤྱོད་བྱེད།"
+
+#: views.py:42
+#, python-format
+msgid "Delete key: %s"
+msgstr "བསུབས་པའི་ལྡེ་མིག: %s"
+
+#: views.py:61
+#, python-format
+msgid "Details for key: %s"
+msgstr "ལྡེ་མིག་གི་ཞིབ་ཕྲ།: %s"
+
+#: views.py:97
+#, python-format
+msgid "Import key ID: %s?"
+msgstr "ནང་འདྲེན་ལྡེ་མིག་ID: %s ?"
+
+#: views.py:98
+msgid "Import key"
+msgstr "ནང་འདྲེན་ལྡེ་མིག"
+
+#: views.py:109
+#, python-format
+msgid "Unable to import key: %(key_id)s; %(error)s"
+msgstr "ལྡེ་མིག་ནང་འདྲེན་བྱེད་མི་ཐུབ།: %(key_id)s ; %(error)s"
+
+#: views.py:117
+#, python-format
+msgid "Successfully received key: %(key_id)s"
+msgstr "ལྡེ་མིག་ལེགས་འགྲུབ་བྱུང་། %(key_id)s"
+
+#: views.py:135
+msgid ""
+"Use names, last names, key ids or emails to search public keys to import "
+"from the keyserver."
+msgstr ""
+"ལྡེ་མིག་སར་བར་ནས་ནང་འདྲེན་བྱེད་པའི་སྤྱི་དམངས་ལྡེ་མིག་འཚོལ་ཞིབ་བྱེད་པར་མིང་དང་།"
+" མིང་མཐའ་མ། ལྡེ་མིག་ID ཡང་ན་གློག་འཕྲིན་བེད་སྤྱོད་བྱེད།"
+
+#: views.py:139
+msgid "No results returned"
+msgstr "གྲུབ་འབྲས་ཐོན་མེད།"
+
+#: views.py:141
+msgid "Key query results"
+msgstr "གལ་ཆེའི་འདྲི་རྩད་གྲུབ་འབྲས།"
+
+#: views.py:162
+msgid "Query key server"
+msgstr "འདྲི་རྩད་ལྡེ་མིག་ཞབས་ཞུ།"
+
+#: views.py:186
+msgid "Upload new key"
+msgstr "ལྡེ་མིག་གསར་པ་ཡར་བསྐུར།"
+
+#: views.py:206
+msgid ""
+"Private keys are used to signed documents. Private keys can only be uploaded"
+" by the user. The view to upload private and public keys is the same."
+msgstr ""
+"མིང་རྟགས་བཀོད་པའི་ཡིག་ཆ་ལ་སྒེར་གྱི་ལྡེ་མིག་བེད་སྤྱོད་བྱེད་ཀྱི་ཡོད། "
+"སྒེར་གྱི་ལྡེ་མིག་རྣམས་སྤྱོད་མཁན་གྱིས་མ་གཏོགས་ཡར་བསྐུར་མི་ཐུབ། "
+"སྒེར་གྱི་ལྡེ་མིག་དང་སྤྱི་པའི་ལྡེ་མིག་ཡར་བསྐུར་བའི་མཐོང་སྣང་གཅིག་པ་རེད།"
+
+#: views.py:211
+msgid "There no private keys"
+msgstr "སྒེར་གྱི་ལྡེ་མིག་མེད།"
+
+#: views.py:230
+msgid ""
+"Public keys are used to verify signed documents. Public keys can be uploaded"
+" by the user or downloaded from keyservers. The view to upload private and "
+"public keys is the same."
+msgstr ""
+"མིང་རྟགས་བཀོད་པའི་ཡིག་ཆ་བདེན་དཔང་བྱེད་པར་སྤྱི་སྤྱོད་ལྡེ་མིག་བེད་སྤྱོད་བྱེད་ཀྱི་ཡོད།"
+" "
+"སྤྱི་སྤྱོད་ལྡེ་མིག་དེ་སྤྱོད་མཁན་གྱིས་ཕབ་ལེན་བྱེད་ཐུབ་པའམ་ཡང་ན་ལྡེ་མིག་ཞབས་ཞུ་འཕྲུལ་ཆས་ནས་ཕབ་ལེན་བྱེད་ཐུབ།"
+" སྒེར་གྱི་ལྡེ་མིག་དང་སྤྱི་པའི་ལྡེ་མིག་ཡར་བསྐུར་བའི་མཐོང་སྣང་གཅིག་པ་རེད།"
+
+#: views.py:236
+msgid "There no public keys"
+msgstr "སྤྱི་སྤྱོད་ལྡེ་མིག་མེད།"

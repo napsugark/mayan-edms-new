@@ -1,0 +1,281 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:41 events.py:6 links.py:32
+msgid "Checkouts"
+msgstr "དངུལ་བཏོན་པ།"
+
+#: dashboard_widgets.py:14 views.py:185
+msgid "Checked out documents"
+msgstr "ཡིག་ཆ་ཞིབ་བཤེར་བྱས།"
+
+#: events.py:10
+msgid "Document automatically checked in"
+msgstr "ཡིག་ཆ་རང་འགུལ་གྱིས་ཞིབ་བཤེར་བྱས།"
+
+#: events.py:14
+msgid "Document checked in"
+msgstr "ཡིག་ཆ་ཞིབ་བཤེར་བྱས་ཟིན།"
+
+#: events.py:17
+msgid "Document checked out"
+msgstr "ཡིག་ཆ་ཞིབ་བཤེར་བྱས་ཟིན།"
+
+#: events.py:20
+msgid "Document forcefully checked in"
+msgstr "ཡིག་ཆ་བཙན་ཤེད་ཀྱིས་ཞིབ་བཤེར་བྱས་པ།"
+
+#: exceptions.py:15
+msgid "Document not checked out."
+msgstr "ཡིག་ཆ་ཞིབ་བཤེར་བྱས་མེད།"
+
+#: exceptions.py:23
+msgid "Document already checked out."
+msgstr "ཡིག་ཆ་དེ་སྔོན་ནས་ཞིབ་བཤེར་བྱས་ཟིན།"
+
+#: forms.py:25
+msgid "Document status"
+msgstr "ཡིག་ཆའི་གནས་ཚུལ།"
+
+#: forms.py:36 model_mixins.py:9 models.py:47 serializers.py:22
+msgid "User"
+msgstr "བེད་སྤྱོད་པ་།"
+
+#: forms.py:40
+msgid "Check out time"
+msgstr "དུས་ཚོད་ལ་ལྟ་ཞིབ་བྱེད་པ།"
+
+#: forms.py:45
+msgid "Check out expiration"
+msgstr "དུས་ཡོལ་ལ་བརྟག་པ།"
+
+#: forms.py:50
+msgid "New files allowed?"
+msgstr "ཡིག་ཆ་གསར་པ་འགོད་ཆོག་གམ།"
+
+#: forms.py:51
+msgid "Yes"
+msgstr "ཡིན"
+
+#: forms.py:51
+msgid "No"
+msgstr "མིན"
+
+#: links.py:39
+msgid "Check out document"
+msgstr "ཡིག་ཆ་ལ་ལྟ་ཞིབ་བྱས།"
+
+#: links.py:43
+msgid "Check out"
+msgstr "ལྟ་ཞིབ་བྱོས།"
+
+#: links.py:48
+msgid "Check in document"
+msgstr "ཡིག་ཆར་ཞིབ་བཤེར།"
+
+#: links.py:53
+msgid "Check in"
+msgstr "ནང་དུ་བརྟག་དཔྱད།"
+
+#: links.py:59
+msgid "Check in/out"
+msgstr "ནང་དུ་འཛུལ་བ།"
+
+#: literals.py:10
+msgid "Checked out"
+msgstr "ཞིབ་བཤེར་བྱས།"
+
+#: literals.py:11
+msgid "Checked in/available"
+msgstr "ཞིབ་བཤེར་བྱས་ཟིན།/ཡོད།"
+
+#: model_mixins.py:14
+msgid "Checkout time and date"
+msgstr "ཕྱིར་འབུད་ཀྱི་དུས་ཚོད་དང་ཚེས་གྲངས།"
+
+#: model_mixins.py:19
+msgid "Checkout expiration"
+msgstr "དངུལ་བཤེར་གྱི་དུས་ཚོད་ཡོལ་བ།"
+
+#: models.py:34 serializers.py:19
+msgid "Document"
+msgstr "ཡིག་ཆ།"
+
+#: models.py:37
+msgid "Check out date and time"
+msgstr "ཚེས་གྲངས་དང་དུས་ཚོད།"
+
+#: models.py:41
+msgid "Amount of time to hold the document checked out in minutes."
+msgstr "ཡིག་ཆ་ཞིབ་བཤེར་བྱས་པའི་དུས་ཡུན་སྐར་མ་ཁ་ཤས་ནང་འཛིན་དགོས།"
+
+#: models.py:43
+msgid "Check out expiration date and time"
+msgstr "དུས་ཚོད་རྫོགས་པའི་ཚེས་གྲངས་དང་དུས་ཚོད་ལ་ལྟ་ཞིབ་བྱོས།"
+
+#: models.py:51
+msgid "Do not allow new file of this document to be uploaded."
+msgstr "ཡིག་ཆ་འདིའི་ཡིག་ཆ་གསར་པ་ཡར་བསྐུར་བྱེད་དུ་མ་འཇུག་རོགས།"
+
+#: models.py:52
+msgid "Block new file upload"
+msgstr "ཡིག་ཆ་གསར་པ་སྐྱེལ་འདྲེན་བཀག་འགོག་བྱེད་པ།"
+
+#: models.py:60 permissions.py:6
+msgid "Document checkout"
+msgstr "ཡིག་ཆ་ཞིབ་བཤེར་བྱེད་པ།"
+
+#: models.py:61
+msgid "Document checkouts"
+msgstr "ཡིག་ཆ་ཞིབ་བཤེར་བྱེད་པ།"
+
+#: models.py:70
+msgid "Check out expiration date and time must be in the future."
+msgstr "དུས་ཚོད་རྫོགས་པའི་ཚེས་གྲངས་དང་དུས་ཚོད་མ་འོངས་པར་ཡོད་དགོས།"
+
+#: permissions.py:10
+msgid "Check in documents"
+msgstr "ཡིག་ཆར་ཞིབ་བཤེར།"
+
+#: permissions.py:13
+msgid "Forcefully check in documents"
+msgstr "བཙན་ཤེད་ཀྱིས་ཡིག་ཆ་ཞིབ་བཤེར་བྱེད་པ།"
+
+#: permissions.py:16
+msgid "Check out documents"
+msgstr "ཡིག་ཆར་ཞིབ་བཤེར།"
+
+#: permissions.py:19
+msgid "Check out details view"
+msgstr "ཞིབ་ཕྲའི་ལྟ་ཚུལ་ལ་ལྟ་ཞིབ་བྱས།"
+
+#: queues.py:11
+msgid "Checkouts periodic"
+msgstr "དུས་མཚམས་སུ་དངུལ་བཤེར་བྱེད་པ།"
+
+#: queues.py:16
+msgid "Check expired checkouts"
+msgstr "དུས་ཡོལ་ཟིན་པའི་དངུལ་བཤེར་ལ་ཞིབ་བཤེར་བྱེད་པ།"
+
+#: serializers.py:28
+msgid "URL"
+msgstr "URL །"
+
+#: serializers.py:46
+msgid "Primary key of the document to be checked out."
+msgstr "ཞིབ་བཤེར་བྱེད་དགོས་པའི་ཡིག་ཆའི་ལྡེ་མིག་གཙོ་བོ།"
+
+#: serializers.py:47
+msgid "Document ID"
+msgstr "ཡིག་ཆའི་ཨང་རྟགས།"
+
+#: views.py:28
+#, python-format
+msgid "Unable to check in document \"%(instance)s\"; %(exception)s"
+msgstr ""
+"ཡིག་ཆ་ &quot; %(instance)s &quot; ནང་བརྟག་དཔྱད་བྱེད་མི་ཐུབ། %(exception)s"
+
+#: views.py:32
+#, python-format
+msgid "%(count)d documents checked in successfully."
+msgstr "ཡིག་ཆ་ %(count)d མཐར་ཕྱིན་ངང་ཞིབ་བཤེར་བྱས།"
+
+#: views.py:35
+#, python-format
+msgid "Document \"%(object)s\" checked in successfully."
+msgstr "ཡིག་ཆ་ &quot; %(object)s &quot; མཐར་ཕྱིན་ངང་ཞིབ་བཤེར་བྱས།"
+
+#: views.py:38
+#, python-format
+msgid "%(count)d document checked in successfully."
+msgstr "ཡིག་ཆ་ %(count)d མཐར་ཕྱིན་ངང་ཞིབ་བཤེར་བྱས།"
+
+#: views.py:40
+#, python-format
+msgid "Check in %(count)d documents."
+msgstr "ཡིག་ཆ་ %(count)d ནང་ལ་ཞིབ་བཤེར་བྱོས།"
+
+#: views.py:41
+#, python-format
+msgid "Check in document \"%(object)s\"."
+msgstr "ཡིག་ཆ་ &quot; %(object)s &quot; ནང་ལ་ཞིབ་བཤེར་བྱོས།"
+
+#: views.py:42
+#, python-format
+msgid "Check in %(count)d document."
+msgstr "ཡིག་ཆ་ %(count)d ནང་ལ་ཞིབ་བཤེར་བྱོས།"
+
+#: views.py:95
+#, python-format
+msgid "Unable to checkout document \"%(instance)s\"; %(exception)s"
+msgstr ""
+"ཡིག་ཆ་ &quot; %(instance)s &quot; ལ་ཞིབ་བཤེར་བྱེད་མི་ཐུབ། %(exception)s"
+
+#: views.py:102
+#, python-format
+msgid "%(count)d documents checked out successfully."
+msgstr "ཡིག་ཆ་ %(count)d མཐར་ཕྱིན་ངང་བརྟག་དཔྱད་བྱས།"
+
+#: views.py:105
+#, python-format
+msgid "Document \"%(object)s\" checked out successfully."
+msgstr "ཡིག་ཆ་ &quot; %(object)s &quot; མཐར་ཕྱིན་ངང་ཞིབ་བཤེར་བྱས།"
+
+#: views.py:108
+#, python-format
+msgid "%(count)d document checked out successfully."
+msgstr "ཡིག་ཆ་ %(count)d ལེགས་འགྲུབ་བྱུང་ཡོད།"
+
+#: views.py:110
+#, python-format
+msgid "Checkout %(count)d documents."
+msgstr "ཡིག་ཆ་ %(count)d ཡིག་ཆ་ལ་ལྟ་ཞིབ་བྱོས།"
+
+#: views.py:111
+#, python-format
+msgid "Checkout document \"%(object)s\"."
+msgstr "ཡིག་ཆ་ &quot; %(object)s &quot; ལ་ཞིབ་བཤེར་བྱས།"
+
+#: views.py:112
+#, python-format
+msgid "Checkout %(count)d document."
+msgstr "ཡིག་ཆ་ %(count)d ལ་ལྟ་ཞིབ་བྱོས།"
+
+#: views.py:160
+#, python-format
+msgid "Check out details for document: %s"
+msgstr "ཡིག་ཆའི་ཞིབ་ཕྲ་ལ་ལྟ་ཞིབ་བྱོས། %s"
+
+#: views.py:181
+msgid ""
+"Checking out a document, blocks certain operations for a predetermined "
+"amount of time."
+msgstr ""
+"ཡིག་ཆ་ཞིག་ལ་ཞིབ་བཤེར་བྱེད་སྐབས་སྔོན་ནས་གཏན་འཁེལ་བྱས་པའི་དུས་ཡུན་རིང་བཀོལ་སྤྱོད་འགའ་ཤས་བཀག་འགོག་བྱེད།"
+
+#: views.py:184
+msgid "No documents have been checked out"
+msgstr "ཡིག་ཆ་གང་ཡང་ཞིབ་བཤེར་བྱས་མེད།"
+
+#: widgets.py:19
+msgid "Amount"
+msgstr "ཁྱོན་འབོར"

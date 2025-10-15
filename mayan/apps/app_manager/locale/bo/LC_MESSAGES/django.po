@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-11 13:44+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:147
+msgid "App class full path"
+msgstr "མཉེན་ཆས་འཛིན་གྲྭའི་འགྲོ་ལམ་ཆ་ཚང་།"
+
+#: apps.py:153
+msgid "App URL"
+msgstr "མཉེན་ཆས་URL"
+
+#: apps.py:164
+msgid "Has REST API"
+msgstr "REST API ཡོད།"
+
+#: apps.py:169
+msgid "Has tests"
+msgstr "བརྟག་དཔྱད་བྱས།"
+
+#: apps.py:174
+msgid "Name"
+msgstr "མིང"
+
+#: apps.py:179
+msgid "Verbose name"
+msgstr "ཚིག་རྒྱན་ཅན་གྱི་མིང་།"
+
+#: apps.py:198
+msgid "App manager"
+msgstr "མཉེན་ཆས་དོ་དམ་པ།"
+
+#: links.py:8
+msgid "Apps"
+msgstr "མཉེན་ཆས།"
+
+#: views.py:16
+msgid "Detected and active Mayan EDMS apps."
+msgstr "Mayan EDMS མཉེན་ཆས་ཤེས་རྟོགས་དང་ཤུགས་ལྡན་བྱུང་ཡོད།"
+
+#: views.py:17
+msgid "System apps"
+msgstr "མ་ལག་མཉེན་ཆས།"

@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"POT-Creation-Date: 2025-09-28 14:15+0000\n"
 "PO-Revision-Date: 2025-01-20 12:34+0000\n"
 "Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
@@ -145,11 +145,11 @@ msgstr "مجالات"
 msgid "Search models"
 msgstr "نماذج البحث"
 
-#: literals.py:27
+#: literals.py:28
 msgid "Yes"
 msgstr "قبول"
 
-#: literals.py:28
+#: literals.py:29
 msgid "No"
 msgstr "رفض"
 
@@ -262,7 +262,7 @@ msgstr "إعادة تعيين مؤشرات البحث الخلفية وفهرس�
 msgid "Delete expired saved resultsets"
 msgstr "حذف مجموعات النتائج المحفوظة المنتهية الصلاحية"
 
-#: scoped_queries.py:345
+#: scoped_queries.py:348
 #, python-format
 msgid ""
 "Query results exceed the current limit of %d. Results will not be reliable "
@@ -272,7 +272,7 @@ msgstr ""
 "تتجاوز نتائج الاستعلام الحد الحالي البالغ %d. لن تكون النتائج موثوقة إذا تم "
 "استخدام نطاقات متعددة. قلل معايير البحث أو زد قيمة إعداد حد النتائج %s."
 
-#: scoped_queries.py:364
+#: scoped_queries.py:373
 #, python-format
 msgid ""
 "Search backend error. Verify that the search service is available and that "
@@ -432,26 +432,32 @@ msgstr ""
 "الحد الأقصى لعدد نتائج البحث التي سيتم جلبها وعرضها لكل وحدة استعلام بحث."
 
 #: settings.py:72
+msgid ""
+"Raise an error when the number of search results exceed the value of "
+"`SEARCH_QUERY_RESULTS_LIMIT`."
+msgstr ""
+
+#: settings.py:79
 msgid "Maximum number of search results to fetch and display."
 msgstr "الحد الأقصى لعدد نتائج البحث التي سيتم جلبها وعرضها."
 
-#: settings.py:78
+#: settings.py:85
 msgid "Maximum number of saved resultsets to keep per user."
 msgstr "الحد الأقصى لعدد مجموعات النتائج المحفوظة لكل مستخدم."
 
-#: settings.py:84
+#: settings.py:91
 msgid "Maximum number of results to store per resultset."
 msgstr "الحد الأقصى لعدد النتائج لتخزينها في كل مجموعة نتائج."
 
-#: settings.py:90
+#: settings.py:97
 msgid "Time to keep the resultset in seconds."
 msgstr "المدة الزمنية لحفظ مجموعة النتائج بالثواني."
 
-#: settings.py:96
+#: settings.py:103
 msgid "Amount to increase the time to live on each access of the resultset."
 msgstr "مقدار زيادة مدة البقاء في كل مرة يتم فيها الوصول إلى مجموعة النتائج."
 
-#: settings.py:103
+#: settings.py:110
 msgid ""
 "Specifies the fields from which search model are to be disabled. The format "
 "is a dictionary of lists. The search model name is the dictionary key and "
@@ -462,7 +468,7 @@ msgstr ""
 "اسم نموذج البحث هو مفتاح القاموس والقيمة هي قائمة باسم حقل البحث الكامل. لن "
 "تكون الحقول المعطلة متاحة للبحث ولن تتم فهرستها بواسطة نظام البحث الخلفي."
 
-#: settings.py:113
+#: settings.py:120
 msgid "Sets the default state of the \"Store results\" checkbox."
 msgstr "تحدد الحالة الافتراضية لخانة الاختيار \"حفظ النتائج\"."
 

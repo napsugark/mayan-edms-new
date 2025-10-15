@@ -246,8 +246,7 @@ job_python_push_pypi:
     - {{ GITLAB_CI_BRANCH_RELEASES_TESTING }}
   script:
     - pip install --requirement requirements/build.txt
-    - echo "${PYPIRC}" > ~/.pypirc
-    - twine upload --verbose dist/* -r pypi
+    - twine upload --verbose dist/*
   stage: stage_push
   variables:
 {% platforms_gitlab_ci_cache_variables apt=True indent=4 pip=True %}

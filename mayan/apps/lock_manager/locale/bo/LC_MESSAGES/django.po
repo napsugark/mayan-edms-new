@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Mayan EDMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-02 18:58+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:19 settings.py:11
+msgid "Lock manager"
+msgstr "ལྡེ་མིག་འགན་འཛིན།"
+
+#: models.py:15
+msgid "Creation datetime"
+msgstr "གསར་སྐྲུན་ཚེས་གྲངས་དུས་ཚོད།"
+
+#: models.py:19
+msgid "Timeout"
+msgstr "དུས་ཚོད་ཡོལ་བ།"
+
+#: models.py:22
+msgid "Name"
+msgstr "མིང"
+
+#: models.py:28
+msgid "Lock"
+msgstr "ཟྭ"
+
+#: models.py:29
+msgid "Locks"
+msgstr "ལྕགས་སྒྲོམ།"
+
+#: settings.py:17
+msgid "Path to the class to use when to request and release resource locks."
+msgstr ""
+"ཐོན་ཁུངས་ལྡེ་མིག་རེ་ཞུ་དང་གློད་པའི་སྐབས་བེད་སྤྱོད་གཏོང་བའི་འཛིན་གྲྭའི་འགྲོ་ལམ།"
+
+#: settings.py:24
+msgid "Arguments to pass to the LOCK_MANAGER_BACKEND."
+msgstr "LOCK_MANAGER_BACKEND ལ་སྤྲོད་པའི་སྒྲུབ་བྱེད།"
+
+#: settings.py:30
+msgid ""
+"Default amount of time in seconds after which a resource lock will be "
+"automatically released."
+msgstr ""
+"སྔོན་སྒྲིག་དུས་ཚོད་སྐར་ཆའི་ནང་ཐོན་ཁུངས་ལྡེ་མིག་རང་འགུལ་གྱིས་གློད་བཀྲོལ་གཏོང་བ་རེད།"

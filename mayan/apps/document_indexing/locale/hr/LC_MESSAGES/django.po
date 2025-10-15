@@ -88,7 +88,7 @@ msgstr "Omogućen"
 msgid "Index templates to be queued for rebuilding."
 msgstr ""
 
-#: forms.py:47 links.py:37 models/index_template_models.py:58
+#: forms.py:47 links.py:37 links.py:101 models/index_template_models.py:58
 #: views/index_template_views.py:95
 msgid "Index templates"
 msgstr ""
@@ -101,8 +101,7 @@ msgstr "Predložak"
 msgid "Creation date"
 msgstr "Datum kreiranja"
 
-#: links.py:31 links.py:47 links.py:101 links.py:109
-#: views/index_instance_views.py:42
+#: links.py:31 links.py:47 links.py:109 views/index_instance_views.py:42
 msgid "Indexes"
 msgstr "Indeksi"
 

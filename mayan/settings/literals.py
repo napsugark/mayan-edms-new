@@ -43,7 +43,7 @@ DOCKER_TRAEFIK_IMAGE_TAG = 'v2.11.29'
 DOCKER_USER_UID = 1000
 DOCKER_USER_GID = 1000
 FORGE_DOCKER_BASE_IMAGE_NAME = 'ubuntu'
-FORGE_DOCKER_BASE_IMAGE_TAG = 'noble-20250805'
+FORGE_DOCKER_BASE_IMAGE_TAG = 'noble-20250910'
 FORGE_DOCKER_COMPOSE_PROJECT_NAME = 'mayanforge'
 FORGE_DOCKER_IMAGE_NAME = 'mayanedms/mayanforge'
 FORGE_PYTHON_PACKAGES = 'setuptools==80.9.0 fancycompleter==0.11.1'
@@ -79,7 +79,7 @@ GUNICORN_WORKER_CLASS = 'gevent'
 GUNICORN_WORKERS = 3
 LINUX_PACKAGES_DEBIAN_BASE = 'ca-certificates clamav file fuse ghostscript git gnupg1 graphviz libarchive-zip-perl libfile-mimeinfo-perl libimage-exiftool-perl libmariadb3 libpq5 libreoffice-calc-nogui libreoffice-draw-nogui libreoffice-impress-nogui libreoffice-math-nogui libreoffice-writer-nogui poppler-utils sane-utils sudo supervisor tesseract-ocr'
 LINUX_PACKAGES_DEBIAN_BUILD = 'g++ gcc libffi-dev libjpeg-dev libldap2-dev libpng-dev libsasl2-dev libssl-dev libtiff-dev make pkg-config zlib1g-dev'
-LINUX_PACKAGES_DEBIAN_DOCUMENTATION = 'enchant-2 libcairo2'
+LINUX_PACKAGES_DEBIAN_DOCUMENTATION = 'enchant-2 graphviz libcairo2'
 LINUX_PACKAGES_DEBIAN_FORGE = 'bash-completion curl gettext less software-properties-common squid-deb-proxy-client vim virtualenvwrapper'
 LINUX_PACKAGES_DEBIAN_MYSQL = 'default-libmysqlclient-dev'
 LINUX_PACKAGES_DEBIAN_POSTGRESQL = 'libpq-dev'

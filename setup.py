@@ -105,6 +105,7 @@ mozilla-django-oidc==4.0.1
 nh3==0.3.0
 node-semver==0.9.0
 ollama==0.5.3
+openai==1.107.2
 pycountry==24.6.1
 pycryptodome==3.23.0
 pyotp==2.9.0
@@ -153,6 +154,7 @@ setup(
     platforms=['any'],
     project_urls={
         'Documentation': 'https://docs.mayan-edms.com/',
+        'Forum': 'https://forum.mayan-edms.com/',
         'Changelog': 'https://gitlab.com/mayan-edms/mayan-edms/-/blob/master/HISTORY.rst',
         'Bug Tracker': 'https://gitlab.com/mayan-edms/mayan-edms/-/issues',
         'Source Code': 'https://gitlab.com/mayan-edms/mayan-edms',

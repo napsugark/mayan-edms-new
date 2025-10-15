@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# KarmaBuildsApps, 2025
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-11 10:33+0000\n"
+"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"Last-Translator: KarmaBuildsApps, 2025\n"
+"Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps.py:23 events.py:6
+msgid "Authentication OTP"
+msgstr "བདེན་དཔང་OTP།"
+
+#: events.py:10
+msgid "OTP disabled"
+msgstr "OTP ལྕོགས་མེད་བཟོས་པ།"
+
+#: events.py:13
+msgid "OTP enabled"
+msgstr "OTP ལྕོགས་ཅན་བཟོས།"
+
+#: forms.py:21
+msgid "Token is either invalid or expired."
+msgstr "རྟགས་མཚན་དེ་ནུས་མེད་ཡིན་པའམ་ཡང་ན་དུས་ཚོད་ཡོལ་ཟིན།"
+
+#: forms.py:26
+msgid "TOTP token"
+msgstr "TOTP རྟགས་མཚན།"
+
+#: forms.py:87
+msgid "OTP enabled?"
+msgstr "OTP ལྕོགས་ཅན་བཟོས་སོང་ངམ།"
+
+#: forms.py:88
+msgid "Yes"
+msgstr "ཡིན"
+
+#: forms.py:88
+msgid "No"
+msgstr "མིན"
+
+#: forms.py:105
+msgid ""
+"Scan the QR code or enter the secret in your authentication device. Do not "
+"share this secret, treat it like a password."
+msgstr ""
+"ཁྱེད་རང་གི་བདེན་དཔང་འཕྲུལ་ཆས་ནང་QRཨང་རྟགས་པར་བཤུས་བྱེད་པའམ་ཡང་ན་གསང་བ་དེ་བླུགས།"
+" གསང་བ་འདི་མཉམ་སྤྱོད་མ་བྱེད། གསང་གྲངས་ལྟར་འཛིན་དགོས།"
+
+#: forms.py:107 forms.py:112
+msgid "Secret"
+msgstr "གསང་བ"
+
+#: forms.py:118
+msgid ""
+"Enter the corresponding token to validate that the secret was saved correct."
+msgstr ""
+"གསང་བ་དེ་བདེན་པ་ཡིན་མིན་བདེན་དཔང་བྱེད་པར་འབྲེལ་ཡོད་ཀྱི་རྟགས་མཚན་བླུགས།"
+
+#: forms.py:121
+msgid "Token"
+msgstr "རྟགས་མཚན།"
+
+#: forms.py:157
+msgid "Token is incorrect for the specified secret."
+msgstr "གསལ་བཀོད་བྱས་པའི་གསང་བའི་ཆེད་དུ་ཊོ་ཀེན་ནོར་འཁྲུལ་ཅན་རེད།"
+
+#: links.py:29
+msgid "OTP details"
+msgstr "OTPཞིབ་ཕྲ།"
+
+#: links.py:33
+msgid "Disable OTP"
+msgstr "OTP ལྕོགས་མེད་བཟོས།"
+
+#: links.py:37
+msgid "Enable OTP"
+msgstr "OTP ལྕོགས་ཅན་བཟོས།"
+
+#: models.py:17
+msgid "User"
+msgstr "བེད་སྤྱོད་པ་།"
+
+#: models.py:21
+msgid "16 character, base32 encoded random string."
+msgstr "ཡིག་འབྲུ་ ༡༦ གཞི་གྲངས་ ༣༢ གང་བྱུང་ཡིག་རྒྱུན།"
+
+#: models.py:26
+msgid "User OTP data"
+msgstr "སྤྱོད་མཁན་གྱི་OTPགཞི་གྲངས།"
+
+#: models.py:27
+msgid "Users OTP data"
+msgstr "སྤྱོད་མཁན་གྱི་OTPགཞི་གྲངས།"
+
+#: views.py:28
+#, python-format
+msgid "One time pad details for user: %s"
+msgstr "སྤྱོད་མཁན་གྱི་ཆེད་དུ་དུས་ཚོད་གཅིག་གི་ཤོག་བུའི་ཞིབ་ཕྲ། %s"
+
+#: views.py:45
+#, python-format
+msgid "Disable one time pad for user: %s"
+msgstr "སྤྱོད་མཁན་གྱི་ཆེད་དུ་དུས་ཚོད་གཅིག་གི་སྟེགས་བུ་ལྕོགས་མིན་བཟོས %s"
+
+#: views.py:56
+msgid "OTP disable successfully."
+msgstr "OTP ལེགས་འགྲུབ་བྱུང་ནས་ལྕོགས་མིན་བཟོས།"
+
+#: views.py:80
+msgid "OTP is already enabled."
+msgstr "OTP དེ་སྔོན་ནས་ལག་བསྟར་བྱས་ཟིན།"
+
+#: views.py:97
+msgid "OTP enabled successfully."
+msgstr "OTP ལེགས་འགྲུབ་ངང་ལག་བསྟར་བྱས།"
+
+#: views.py:107
+#, python-format
+msgid "Enable one time pad for user: %s"
+msgstr "སྤྱོད་མཁན་གྱི་ཆེད་དུ་དུས་ཚོད་གཅིག་གི་སྟེགས་བུ་ལྕོགས་ཅན་བཟོས། %s"
+
+#: views.py:119
+msgid "OTP secret validation error."
+msgstr "OTPགསང་བའི་བདེན་དཔང་ནོར་འཁྲུལ།"
