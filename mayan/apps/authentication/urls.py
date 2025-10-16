@@ -1,6 +1,5 @@
 from django.urls import path, re_path
 
-from .settings import setting_disable_password_reset
 from .views.authentication_views import (
     MayanLoginView, MayanLogoutView, MayanPasswordChangeDoneView,
     MayanPasswordChangeView, MultiFactorAuthenticationView,

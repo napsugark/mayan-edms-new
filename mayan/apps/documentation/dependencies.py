@@ -1,7 +1,5 @@
 from mayan.apps.dependencies.classes import PythonDependency
-from mayan.apps.dependencies.environments import (
-    environment_documentation, environment_documentation_override
-)
+from mayan.apps.dependencies.environments import environment_documentation
 
 PythonDependency(
     environment=environment_documentation, module=__name__,

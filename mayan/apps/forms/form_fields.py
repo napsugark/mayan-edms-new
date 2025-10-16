@@ -1,3 +1,4 @@
+from django.forms import ModelChoiceField  # NOQA
 from django.forms.fields import *  # NOQA
 from django.forms.fields import ChoiceField, MultipleChoiceField
 from django.forms.models import ModelMultipleChoiceField

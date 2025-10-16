@@ -3,7 +3,6 @@ from django.conf import settings
 from django.template import Library
 from django.template.exceptions import TemplateDoesNotExist
 from django.template.loader import get_template
-from django.utils.module_loading import import_string
 from django.utils.safestring import mark_safe
 from django.utils.translation import gettext_lazy as _
 

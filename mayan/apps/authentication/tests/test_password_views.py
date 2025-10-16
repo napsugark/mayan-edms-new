@@ -217,7 +217,7 @@ class PasswordResetViewTestCase(
         self.assertEqual(events.count(), 0)
 
     @override_settings(AUTHENTICATION_DISABLE_PASSWORD_RESET=True)
-    def test_password_reset_get_view_with_disable_true(self):
+    def test_password_reset_get_view_with_disable_true_no_email(self):
         self.logout()
 
         self._clear_events()
