@@ -157,6 +157,8 @@
 - Remove unused `ModelFormFieldFilteredModelChoice`.
 - Make `FormMixinFieldsets` a subclass of `FormMixinFormMeta`.
 - Split metadata API view modules into separate modules.
+- Automate copyright year updates.
+- Refactor `generate_setup.py`.
 
 4.9.6 (XXXX-XX-XX)
 ==================
