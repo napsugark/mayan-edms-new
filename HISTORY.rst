@@ -161,6 +161,7 @@
 - Refactor `generate_setup.py`.
 - Update Docker Compose volume names in documentation.
 - Split the Docker Compose installation chapter into multiple files.
+- Remove `importlib-metadata`.
 
 4.9.6 (XXXX-XX-XX)
 ==================
