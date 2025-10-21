@@ -41,7 +41,7 @@ To stop the stack use:
 The stack will also create four volumes to store the data of each container.
 These are:
 
-- ``mayan_app`` - The Mayan EDMS data container, normally called `mayan_data` when not using Docker compose.
-- ``mayan_broker`` - The broker volume, in this case RabbitMQ.
-- ``mayan_db`` - The database volume, in this case Postgres.
-- ``mayan_results`` - The celery result backend volume, in this case Redis.
+- ``mayan_app`` - The Mayan EDMS data folder, normally called `mayan_data` when not using Docker compose.
+- ``mayan_postgres`` - The database volume, in this case Postgres.
+- ``mayan_rabbitmq`` - The broker volume, in this case RabbitMQ.
+- ``mayan_redis`` - The celery result backend volume, in this case Redis.
