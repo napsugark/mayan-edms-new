@@ -1,9 +1,9 @@
 .. _docker_compose_install:
 
 
-===========================
-Docker Compose installation
-===========================
+============
+Installation
+============
 
 #. Install Docker:
 
@@ -37,31 +37,6 @@ Docker Compose installation
        containers in the Docker Compose file are set to start automatically.
 
 
-Customization
--------------
-
-#. Update the Mayan EDMS Docker Compose file:
-
-   Update the ``docker-compose.yml`` file directly or the ``.env`` in the
-   same folder where the file ``docker-compose.yml`` resides.
-   Add an entry for each of the environment variables to change.
-
-   .. note::
-
-       If the ``.env`` file does not reside in the same folder where the
-       ``docker-compose.yml`` is or you choose another filename for it,
-       the option ``--env-file <you env file path>`` needs to be added
-       to every ``docker compose`` invocation.
-
-
-#. Verify the configuration changes:
-
-   .. code-block:: console
-
-       docker compose --file docker-compose.yml --project-name mayan config
-
-   This command will output the Docker Compose file, using the values of your
-   ``.env`` file.
 
 
 Additional commands
@@ -93,7 +68,7 @@ Additional commands
 
   .. code-block:: console
 
-      docker compose ps --all
+      docker compose ps
 
 
 - To terminate the containers:

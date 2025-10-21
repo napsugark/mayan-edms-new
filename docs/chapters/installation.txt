@@ -21,6 +21,7 @@ Installation methods
 
 Docker Compose
 --------------
+
 Docker Compose is a Docker plugin for defining and orchestrating Docker
 applications spanning multiple containers.
 
@@ -37,15 +38,6 @@ applications spanning multiple containers.
     :hidden:
 
     ../chapters/docker/install_docker_compose
-
-
-Docker
-------
-
-Docker is a computer program that performs operating-system-level
-virtualization also known as containerization. It allows independent
-"containers" to run within a single Linux instance, avoiding the overhead
-of starting and maintaining virtual machines (VMs).
 
 
 Kubernetes

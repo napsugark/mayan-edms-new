@@ -22,6 +22,7 @@ For larger installations use a multi container deployment.
 - Installation: :doc:`docker_compose`
 - Setup: :doc:`environment_variables` | :doc:`user_scripts`
 - Administration: :doc:`upgrading`
+- Customization: :doc:`docker_compose_customize`
 
 .. toctree::
     :hidden:
@@ -31,4 +32,5 @@ For larger installations use a multi container deployment.
     user_scripts
     upgrading
     docker_compose
+    docker_compose_customize
 
