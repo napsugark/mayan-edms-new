@@ -46,6 +46,17 @@ except KeyError:
     except FileNotFoundError:
         SECRET_KEY = DEFAULT_SECRET_KEY
 
+# Caching
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+    },
+    'rest_api_throttling': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache'
+    }
+}
+
 # Application definition
 
 INSTALLED_APPS = (
@@ -338,6 +349,14 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication'
     ),
     'DEFAULT_PAGINATION_CLASS': 'mayan.apps.rest_api.pagination.MayanPageNumberPagination',
+    'DEFAULT_THROTTLE_CLASSES': (
+        'mayan.apps.rest_api.throttling.MayanAnonRateThrottle',
+        'mayan.apps.rest_api.throttling.MayanUserRateThrottle'
+    ),
+    'DEFAULT_THROTTLE_RATES': {
+        'anon': '5/second',
+        'user': '10/second'
+    },
     'EXCEPTION_HANDLER': 'mayan.apps.rest_api.exception_handlers.mayan_exception_handler'
 }
 

@@ -163,6 +163,10 @@
 - Split the Docker Compose installation chapter into multiple files.
 - Remove `importlib-metadata`.
 - Expose Django's `CACHES` setting as `MAYAN_CACHES`.
+- Add support for API throttling. The default throttling values are:
+
+  - anonymous: 5 requests per second
+  - logged users: 10 requests per second
 
 4.9.6 (XXXX-XX-XX)
 ==================
