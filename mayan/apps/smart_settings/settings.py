@@ -3,7 +3,7 @@ from django.utils.translation import gettext_lazy as _
 from .literals import (
     DEFAULT_ALLOWED_HOSTS, DEFAULT_APPEND_SLASH,
     DEFAULT_AUTH_PASSWORD_VALIDATORS, DEFAULT_AUTHENTICATION_BACKENDS,
-    DEFAULT_CSRF_COOKIE_SECURE, DEFAULT_CSRF_TRUSTED_ORIGINS,
+    DEFAULT_CACHES, DEFAULT_CSRF_COOKIE_SECURE, DEFAULT_CSRF_TRUSTED_ORIGINS,
     DEFAULT_CSRF_USE_SESSIONS, DEFAULT_DATA_UPLOAD_MAX_MEMORY_SIZE,
     DEFAULT_DATABASES, DEFAULT_DEFAULT_FROM_EMAIL,
     DEFAULT_DISALLOWED_USER_AGENTS, DEFAULT_EMAIL_BACKEND, DEFAULT_EMAIL_HOST,
@@ -67,6 +67,15 @@ setting_django_authentication_backends = setting_namespace.do_setting_add(
     global_name='AUTHENTICATION_BACKENDS', help_text=_(
         message='A list of authentication backend classes (as strings) to use when '
         'attempting to authenticate a user.'
+    )
+)
+setting_django_caches = setting_namespace.do_setting_add(
+    default=DEFAULT_CACHES,
+    global_name='CACHES', help_text=_(
+        message='A dictionary containing the settings for all caches to be '
+        'used with Django. It is a nested dictionary whose contents maps '
+        'cache aliases to a dictionary containing the options for an '
+        'individual cache.'
     )
 )
 setting_django_csrf_cookie_secure = setting_namespace.do_setting_add(

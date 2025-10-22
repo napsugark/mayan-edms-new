@@ -357,6 +357,11 @@ SettingNamespaceSingleton.register_setting(
     klass=BaseSetting, name='AUTHENTICATION_BACKENDS'
 )
 SettingNamespaceSingleton.register_setting(
+    klass=BaseSetting, kwargs={
+        'has_default': True, 'default_value': None
+    }, name='CACHES'
+)
+SettingNamespaceSingleton.register_setting(
     klass=BaseSetting,
     kwargs={
         'has_default': True,
