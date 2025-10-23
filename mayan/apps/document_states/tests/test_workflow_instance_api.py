@@ -8,6 +8,7 @@ from ..events import (
     event_workflow_instance_created, event_workflow_instance_transitioned
 )
 from ..permissions import (
+    permission_workflow_instance_delete,
     permission_workflow_instance_transition,
     permission_workflow_template_view, permission_workflow_tools
 )
@@ -29,6 +30,101 @@ class WorkflowInstanceAPIViewTestCase(
         self._create_test_workflow_template_state()
         self._create_test_workflow_template_transition()
         self._create_test_document_stub()
+
+    def test_document_workflow_instance_delete_api_view_no_permission(self):
+        self._clear_events()
+
+        response = self._request_test_workflow_instance_delete_api_view()
+        self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
+
+        self.assertEqual(
+            self._test_document.workflows.count(), 1
+        )
+
+        events = self._get_test_events()
+        self.assertEqual(events.count(), 0)
+
+    def test_document_workflow_instance_delete_api_view_with_document_type_access(self):
+        self.grant_access(
+            obj=self._test_document_type,
+            permission=permission_workflow_instance_delete
+        )
+
+        self._clear_events()
+
+        response = self._request_test_workflow_instance_delete_api_view()
+        self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
+
+        self.assertEqual(
+            self._test_document.workflows.count(), 1
+        )
+
+        events = self._get_test_events()
+        self.assertEqual(events.count(), 0)
+
+    def test_document_workflow_instance_delete_api_view_with_workflow_template_access(self):
+        self.grant_access(
+            obj=self._test_workflow_template,
+            permission=permission_workflow_instance_delete
+        )
+
+        self._clear_events()
+
+        response = self._request_test_workflow_instance_delete_api_view()
+        self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
+
+        self.assertEqual(
+            self._test_document.workflows.count(), 1
+        )
+
+        events = self._get_test_events()
+        self.assertEqual(events.count(), 0)
+
+    def test_document_workflow_instance_delete_api_view_with_full_access(self):
+        self.grant_access(
+            obj=self._test_document_type,
+            permission=permission_workflow_instance_delete
+        )
+        self.grant_access(
+            obj=self._test_workflow_template,
+            permission=permission_workflow_instance_delete
+        )
+
+        self._clear_events()
+
+        response = self._request_test_workflow_instance_delete_api_view()
+        self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
+
+        self.assertEqual(
+            self._test_document.workflows.count(), 0
+        )
+
+        events = self._get_test_events()
+        self.assertEqual(events.count(), 0)
+
+    def test_trashed_document_workflow_instance_delete_api_view_with_full_access(self):
+        self.grant_access(
+            obj=self._test_document_type,
+            permission=permission_workflow_instance_delete
+        )
+        self.grant_access(
+            obj=self._test_workflow_template,
+            permission=permission_workflow_instance_delete
+        )
+
+        self._test_document.delete()
+
+        self._clear_events()
+
+        response = self._request_test_workflow_instance_delete_api_view()
+        self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
+
+        self.assertEqual(
+            self._test_document.workflows.count(), 1
+        )
+
+        events = self._get_test_events()
+        self.assertEqual(events.count(), 0)
 
     def test_workflow_instance_detail_api_view_no_permission(self):
         self._clear_events()

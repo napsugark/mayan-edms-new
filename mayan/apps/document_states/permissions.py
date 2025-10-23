@@ -20,7 +20,11 @@ permission_workflow_template_view = namespace.add_permission(
 )
 # Translators: This text refers to the permission to grant user the ability to
 # 'transition workflows' from one state to another, to move the workflow
-# forwards
+# forwards.
+permission_workflow_instance_delete = namespace.add_permission(
+    name='workflow_instance_delete',
+    label=_(message='Delete workflow instances')
+)
 permission_workflow_instance_transition = namespace.add_permission(
     name='workflow_transition', label=_(message='Transition workflow instances')
 )

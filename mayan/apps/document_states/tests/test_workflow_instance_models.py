@@ -69,6 +69,28 @@ class WorkflowInstanceModelTestCase(
         self.assertEqual(events[1].target, self._test_document)
         self.assertEqual(events[1].verb, event_document_type_changed.id)
 
+    def test_workflow_instance_method_delete(self):
+        self._clear_events()
+
+        self._create_test_document_stub()
+
+        self.assertEqual(
+            self._test_workflow_instance.get_queryset_valid_transitions().count(),
+            1
+        )
+
+        self._test_workflow_instance.delete()
+
+        events = self._get_test_events()
+        self.assertEqual(events.count(), 1)
+
+        self.assertEqual(
+            events[0].action_object, self._test_document.document_type
+        )
+        self.assertEqual(events[0].actor, self._test_document)
+        self.assertEqual(events[0].target, self._test_document)
+        self.assertEqual(events[0].verb, event_document_created.id)
+
     def test_workflow_instance_method_get_absolute_url(self):
         self._create_test_document_stub()
 

@@ -5,6 +5,7 @@ from ..events import (
 )
 from ..literals import WIDGET_CLASS_TEXTAREA
 from ..permissions import (
+    permission_workflow_instance_delete,
     permission_workflow_instance_transition,
     permission_workflow_template_view, permission_workflow_tools
 )
@@ -107,6 +108,101 @@ class WorkflowInstanceTransitionViewTestCase(
 
         response = self._request_test_document_workflow_instance_list_view()
         self.assertEqual(response.status_code, 404)
+
+        events = self._get_test_events()
+        self.assertEqual(events.count(), 0)
+
+    def test_workflow_instance_delete_view_no_permission(self):
+        self._clear_events()
+
+        response = self._request_test_workflow_instance_delete_single_view()
+        self.assertEqual(response.status_code, 404)
+
+        self.assertEqual(
+            self._test_document.workflows.count(), 1
+        )
+
+        events = self._get_test_events()
+        self.assertEqual(events.count(), 0)
+
+    def test_workflow_instance_delete_view_with_document_type_access(self):
+        self.grant_access(
+            obj=self._test_document_type,
+            permission=permission_workflow_instance_delete
+        )
+
+        self._clear_events()
+
+        response = self._request_test_workflow_instance_delete_single_view()
+        self.assertEqual(response.status_code, 404)
+
+        self.assertEqual(
+            self._test_document.workflows.count(), 1
+        )
+
+        events = self._get_test_events()
+        self.assertEqual(events.count(), 0)
+
+    def test_workflow_instance_delete_view_with_workflow_template_access(self):
+        self.grant_access(
+            obj=self._test_workflow_template,
+            permission=permission_workflow_instance_delete
+        )
+
+        self._clear_events()
+
+        response = self._request_test_workflow_instance_delete_single_view()
+        self.assertEqual(response.status_code, 404)
+
+        self.assertEqual(
+            self._test_document.workflows.count(), 1
+        )
+
+        events = self._get_test_events()
+        self.assertEqual(events.count(), 0)
+
+    def test_workflow_instance_delete_view_with_full_access(self):
+        self.grant_access(
+            obj=self._test_document_type,
+            permission=permission_workflow_instance_delete
+        )
+        self.grant_access(
+            obj=self._test_workflow_template,
+            permission=permission_workflow_instance_delete
+        )
+
+        self._clear_events()
+
+        response = self._request_test_workflow_instance_delete_single_view()
+        self.assertEqual(response.status_code, 302)
+
+        self.assertEqual(
+            self._test_document.workflows.count(), 0
+        )
+
+        events = self._get_test_events()
+        self.assertEqual(events.count(), 0)
+
+    def test_trashed_document_workflow_instance_delete_view_with_full_access(self):
+        self.grant_access(
+            obj=self._test_document_type,
+            permission=permission_workflow_instance_delete
+        )
+        self.grant_access(
+            obj=self._test_workflow_template,
+            permission=permission_workflow_instance_delete
+        )
+
+        self._test_document.delete()
+
+        self._clear_events()
+
+        response = self._request_test_workflow_instance_delete_single_view()
+        self.assertEqual(response.status_code, 404)
+
+        self.assertEqual(
+            self._test_document.workflows.count(), 1
+        )
 
         events = self._get_test_events()
         self.assertEqual(events.count(), 0)

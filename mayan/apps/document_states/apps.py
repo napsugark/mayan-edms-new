@@ -45,8 +45,8 @@ from .links import (
     link_document_workflow_templates_launch_multiple,
     link_document_workflow_templates_launch_single,
     link_document_type_workflow_template_list, link_tool_launch_workflows,
-    link_workflow_instance_detail, link_workflow_instance_list,
-    link_workflow_instance_transition,
+    link_workflow_instance_delete_single, link_workflow_instance_detail,
+    link_workflow_instance_list, link_workflow_instance_transition,
     link_workflow_runtime_proxy_document_list,
     link_workflow_runtime_proxy_list,
     link_workflow_runtime_proxy_state_document_list,
@@ -83,7 +83,8 @@ from .methods import (
 )
 from .permissions import (
     permission_workflow_template_delete, permission_workflow_template_edit,
-    permission_workflow_tools, permission_workflow_instance_transition,
+    permission_workflow_tools, permission_workflow_instance_delete,
+    permission_workflow_instance_transition,
     permission_workflow_template_view
 )
 
@@ -111,16 +112,24 @@ class DocumentStatesApp(MayanAppConfig):
 
         Workflow = self.get_model(model_name='Workflow')
         WorkflowInstance = self.get_model(model_name='WorkflowInstance')
-        WorkflowInstanceLogEntry = self.get_model(model_name='WorkflowInstanceLogEntry')
-        WorkflowRuntimeProxy = self.get_model(model_name='WorkflowRuntimeProxy')
+        WorkflowInstanceLogEntry = self.get_model(
+            model_name='WorkflowInstanceLogEntry'
+        )
+        WorkflowRuntimeProxy = self.get_model(
+            model_name='WorkflowRuntimeProxy'
+        )
         WorkflowState = self.get_model(model_name='WorkflowState')
         WorkflowStateAction = self.get_model(model_name='WorkflowStateAction')
-        WorkflowStateEscalation = self.get_model(model_name='WorkflowStateEscalation')
+        WorkflowStateEscalation = self.get_model(
+            model_name='WorkflowStateEscalation'
+        )
         WorkflowStateRuntimeProxy = self.get_model(
             'WorkflowStateRuntimeProxy'
         )
         WorkflowTransition = self.get_model(model_name='WorkflowTransition')
-        WorkflowTransitionField = self.get_model(model_name='WorkflowTransitionField')
+        WorkflowTransitionField = self.get_model(
+            model_name='WorkflowTransitionField'
+        )
         WorkflowTransitionTriggerEvent = self.get_model(
             'WorkflowTransitionTriggerEvent'
         )
@@ -268,6 +277,7 @@ class DocumentStatesApp(MayanAppConfig):
 
         ModelPermission.register(
             model=Document, permissions=(
+                permission_workflow_instance_delete,
                 permission_workflow_instance_transition,
                 permission_workflow_template_view,
                 permission_workflow_tools
@@ -276,10 +286,11 @@ class DocumentStatesApp(MayanAppConfig):
         ModelPermission.register(
             model=Workflow, permissions=(
                 permission_error_log_entry_view,
-                permission_workflow_template_delete,
-                permission_workflow_template_edit, permission_workflow_tools,
+                permission_workflow_instance_delete,
                 permission_workflow_instance_transition,
-                permission_workflow_template_view
+                permission_workflow_template_delete,
+                permission_workflow_template_edit,
+                permission_workflow_template_view, permission_workflow_tools
             )
         )
         ModelPermission.register(
@@ -634,8 +645,10 @@ class DocumentStatesApp(MayanAppConfig):
             sources=(WorkflowInstance,)
         )
         menu_object.bind_links(
-            links=(link_workflow_instance_transition,),
-            sources=(WorkflowInstance,)
+            links=(
+                link_workflow_instance_delete_single,
+                link_workflow_instance_transition,
+            ), sources=(WorkflowInstance,)
         )
         menu_secondary.bind_links(
             links=(link_document_workflow_templates_launch_single,),

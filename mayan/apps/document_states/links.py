@@ -9,8 +9,8 @@ from .icons import (
     icon_document_workflow_templates_launch_multiple,
     icon_document_workflow_templates_launch_single,
     icon_tool_launch_workflows,
-    icon_workflow_instance_detail, icon_workflow_instance_list,
-    icon_workflow_instance_transition,
+    icon_workflow_instance_delete, icon_workflow_instance_detail,
+    icon_workflow_instance_list, icon_workflow_instance_transition,
     icon_workflow_runtime_proxy_document_list,
     icon_workflow_runtime_proxy_list,
     icon_workflow_runtime_proxy_state_document_list,
@@ -277,6 +277,11 @@ link_workflow_template_transition_field_list = Link(
 
 # Document workflow instance
 
+link_workflow_instance_delete_single = Link(
+    args='resolved_object.pk', icon=icon_workflow_instance_delete,
+    tags='dangerous', text=_(message='Delete'),
+    view='document_states:workflow_instance_delete_single'
+)
 link_workflow_instance_detail = Link(
     args='resolved_object.pk',
     icon=icon_workflow_instance_detail,

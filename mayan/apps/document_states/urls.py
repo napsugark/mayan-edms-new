@@ -36,8 +36,8 @@ from .api_views.workflow_template_transition_trigger_api_views import (
     APIWorkflowTemplateTransitionTriggerListView
 )
 from .views.workflow_instance_views import (
-    WorkflowInstanceDetailView, WorkflowInstanceListView,
-    WorkflowInstanceTransitionExecuteView,
+    WorkflowInstanceDeleteView, WorkflowInstanceDetailView,
+    WorkflowInstanceListView, WorkflowInstanceTransitionExecuteView,
     WorkflowInstanceTransitionSelectView
 )
 from .views.workflow_proxy_views import (
@@ -87,6 +87,11 @@ urlpatterns_workflow_instances = [
         route=r'^documents/(?P<document_id>\d+)/workflows/$',
         name='workflow_instance_list',
         view=WorkflowInstanceListView.as_view()
+    ),
+    re_path(
+        route=r'^documents/workflows/(?P<workflow_instance_id>\d+)/delete/$',
+        name='workflow_instance_delete_single',
+        view=WorkflowInstanceDeleteView.as_view()
     ),
     re_path(
         route=r'^documents/workflows/(?P<workflow_instance_id>\d+)/$',

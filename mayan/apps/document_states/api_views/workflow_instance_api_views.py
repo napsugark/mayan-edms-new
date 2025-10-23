@@ -5,6 +5,7 @@ from mayan.apps.rest_api import generics
 from mayan.apps.rest_api.api_view_mixins import ExternalObjectAPIViewMixin
 
 from ..permissions import (
+    permission_workflow_instance_delete,
     permission_workflow_instance_transition,
     permission_workflow_template_view, permission_workflow_tools
 )
@@ -54,18 +55,23 @@ class APIWorkflowInstanceListView(
 
 
 class APIWorkflowInstanceDetailView(
-    ExternalObjectAPIViewMixin, generics.RetrieveAPIView
+    ExternalObjectAPIViewMixin, generics.RetrieveDestroyAPIView
 ):
     """
+    delete: Delete the selected document workflow instance.
     get: Return the details of the selected document workflow instances.
     """
     external_object_queryset = Document.valid.all()
     external_object_pk_url_kwarg = 'document_id'
     lookup_url_kwarg = 'workflow_instance_id'
     mayan_external_object_permission_map = {
+        'DELETE': permission_workflow_instance_delete,
         'GET': permission_workflow_template_view
     }
-    mayan_object_permission_map = {'GET': permission_workflow_template_view}
+    mayan_object_permission_map = {
+        'DELETE': permission_workflow_instance_delete,
+        'GET': permission_workflow_template_view
+    }
     serializer_class = WorkflowInstanceSerializer
 
     def get_source_queryset(self):

@@ -58,6 +58,14 @@ class DocumentWorkflowTemplateViewTestMixin(WorkflowInstanceTestMixin):
 
 
 class WorkflowInstanceAPIViewTestMixin(WorkflowInstanceTestMixin):
+    def _request_test_workflow_instance_delete_api_view(self):
+        return self.delete(
+            viewname='rest_api:workflow-instance-detail', kwargs={
+                'document_id': self._test_document.pk,
+                'workflow_instance_id': self._test_document.workflows.first().pk
+            }
+        )
+
     def _request_test_workflow_instance_detail_api_view(self):
         return self.get(
             viewname='rest_api:workflow-instance-detail', kwargs={
@@ -128,6 +136,14 @@ class WorkflowInstanceViewTestMixin(WorkflowInstanceTestMixin):
         return self.get(
             viewname='document_states:workflow_instance_list', kwargs={
                 'document_id': self._test_document.pk
+            }
+        )
+
+    def _request_test_workflow_instance_delete_single_view(self):
+        return self.post(
+            viewname='document_states:workflow_instance_delete_single',
+            kwargs={
+                'workflow_instance_id': self._test_workflow_instance.pk
             }
         )
 

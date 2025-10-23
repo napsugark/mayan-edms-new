@@ -39,6 +39,9 @@ icon_document_type_workflow_template_list = icon_workflow
 
 # Workflow instance
 
+icon_workflow_instance_delete = Icon(
+    driver_name='fontawesome', symbol='times'
+)
 icon_workflow_instance_detail = icon_workflow
 icon_workflow_instance_list = icon_workflow
 icon_workflow_instance_transition = Icon(

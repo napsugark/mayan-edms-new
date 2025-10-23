@@ -8,20 +8,23 @@ from django.utils.translation import gettext_lazy as _
 from mayan.apps.acls.models import AccessControlList
 from mayan.apps.documents.models.document_models import Document
 from mayan.apps.forms import forms
-from mayan.apps.views.generics import FormView, SingleObjectListView
+from mayan.apps.views.generics import (
+    FormView, MultipleObjectDeleteView, SingleObjectListView
+)
 from mayan.apps.views.view_mixins import ExternalObjectViewMixin
 
 from ..forms.workflow_instance_forms import (
     WorkflowInstanceTransitionSelectForm
 )
 from ..icons import (
-    icon_workflow_instance_detail, icon_workflow_instance_list,
-    icon_workflow_instance_transition,
+    icon_workflow_instance_delete, icon_workflow_instance_detail,
+    icon_workflow_instance_list, icon_workflow_instance_transition,
     icon_workflow_instance_transition_select, icon_workflow_template_list
 )
 from ..links import link_workflow_instance_transition
 from ..models import WorkflowInstance
 from ..permissions import (
+    permission_workflow_instance_delete,
     permission_workflow_instance_transition, permission_workflow_template_view
 )
 
@@ -52,6 +55,57 @@ class WorkflowInstanceListView(ExternalObjectViewMixin, SingleObjectListView):
 
     def get_source_queryset(self):
         return self.external_object.workflows.all()
+
+
+class WorkflowInstanceDeleteView(MultipleObjectDeleteView):
+    object_permission = permission_workflow_instance_delete
+    pk_url_kwarg = 'workflow_instance_id'
+    success_message_plural = _(
+        message='%(count)d workflow instances deleted successfully.'
+    )
+    success_message_single = _(
+        message='Workflow instance "%(object)s" deleted successfully.'
+    )
+    success_message_singular = _(
+        message='%(count)d workflow instance deleted successfully.'
+    )
+    title_plural = _(
+        message='Delete the %(count)d selected workflow instances'
+    )
+    title_single = _(message='Delete workflow instance: %(object)s')
+    title_singular = _(
+        message='Delete the %(count)d selected workflow instance'
+    )
+    view_icon = icon_workflow_instance_delete
+
+    def get_extra_context(self):
+        return {
+            'navigation_object_list': ('document', 'workflow_instance'),
+            'document': self.object.document,
+            'workflow_instance': self.object
+        }
+
+    def get_post_action_redirect(self):
+        # Use [0] instead of first(). First returns None and it is not
+        # usable.
+        return reverse(
+            kwargs={
+                'document_id': self.object_list[0].document_id
+            }, viewname='document_states:workflow_instance_list'
+        )
+
+    def get_source_queryset(self):
+        queryset_documents = AccessControlList.objects.restrict_queryset(
+            queryset=Document.valid.all(),
+            permission=permission_workflow_instance_delete,
+            user=self.request.user
+        )
+
+        queryset_workflow_instances = WorkflowInstance.objects.filter(
+            document_id__in=queryset_documents.values('pk')
+        )
+
+        return queryset_workflow_instances
 
 
 class WorkflowInstanceDetailView(
