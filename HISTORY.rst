@@ -169,6 +169,7 @@
   - logged users: 10 requests per second
 
 - Add support for deleting workflow instances via the UI and the API.
+- Support partial app template loading for the about view.
 
 4.9.6 (XXXX-XX-XX)
 ==================

@@ -3,6 +3,7 @@
 {% load i18n %}
 {% load static %}
 
+{% load appearance_tags %}
 {% load common_tags %}
 {% load icons_tags %}
 {% load navigation_tags %}
@@ -47,6 +48,8 @@
                 <p class="text-center">
                     {% trans 'Released under the license:' %} {% trans license_information %}
                 </p>
+
+                {% appearance_app_templates template_name='about' %}
 
                 <ul class="media-list media-list-about">
                     <li class="media">
