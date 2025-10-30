@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:28+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -22,15 +22,15 @@ msgstr ""
 
 #: apps.py:24 links.py:38 permissions.py:6
 msgid "Dependencies"
-msgstr "རྟེན་འབྱུང་།"
+msgstr ""
 
 #: apps.py:32 apps.py:69 apps.py:78
 msgid "Label"
-msgstr "ལག་ཁྱེར་།"
+msgstr "མིང་བྱང།"
 
 #: apps.py:36
 msgid "Internal name"
-msgstr "ནང་ཁུལ་གྱི་མིང་།"
+msgstr ""
 
 #: apps.py:41 apps.py:74 apps.py:83
 msgid "Description"
@@ -42,148 +42,145 @@ msgstr "རིགས"
 
 #: apps.py:49 classes.py:221
 msgid "Other data"
-msgstr "གཞི་གྲངས་གཞན།"
+msgstr ""
 
 #: apps.py:53
 msgid "Declared by"
-msgstr "ཁྱབ་བསྒྲགས་བྱས།"
+msgstr ""
 
 #: apps.py:57 classes.py:219
 msgid "Version"
-msgstr "པར་གཞི"
+msgstr ""
 
 #: apps.py:61
 msgid "Environment"
-msgstr "ཁོར་ཡུག"
+msgstr ""
 
 #: apps.py:64 classes.py:221
 msgid "Check"
-msgstr "ཞིབ་བཤེར"
+msgstr ""
 
 #: classes.py:218
 msgid "Name"
-msgstr "མིང"
+msgstr ""
 
 #: classes.py:219
 msgid "App"
-msgstr "མཉེན་ཆས།"
+msgstr ""
 
 #: classes.py:220 classes.py:966
 msgid "Environments"
-msgstr "ཁོར་ཡུག།"
+msgstr ""
 
 #: classes.py:331
 msgid "Need to specify at least one: app_label or module."
-msgstr "ཉུང་མཐར་ཡང་གཅིག་གསལ་བཀོད་བྱེད་དགོས། app_label ཡང་ན་ཚད་གཞི།"
+msgstr ""
 
 #: classes.py:336
 #, python-format
 msgid "Dependency \"%s\" already registered."
-msgstr "རྟེན་གཞི་ &quot; %s &quot; ཐོ་འགོད་བྱས་ཟིན།"
+msgstr ""
 
 #: classes.py:387
 #, python-format
 msgid "Installing package: %s... "
-msgstr "ཐུམ་སྒྲིལ་སྒྲིག་འཇུག་བྱེད་བཞིན་པ། %s ... "
+msgstr ""
 
 #: classes.py:394
 msgid "Already installed."
-msgstr "ད་ལྟ་སྒྲིག་འཇུག་བྱས་ཟིན།"
+msgstr ""
 
 #: classes.py:399 classes.py:406 classes.py:412
 msgid "Complete."
-msgstr "ཆ་ཚང།"
+msgstr ""
 
 #: classes.py:439
 msgid "Installed and correct version"
-msgstr "ཐོན་རིམ་སྒྲིག་འཇུག་དང་ནོར་བཅོས་བྱས།"
+msgstr ""
 
 #: classes.py:441
 msgid "Missing or incorrect version"
-msgstr "ཐོན་རིམ་བརླག་པའམ་ནོར་བ།"
+msgstr ""
 
 #: classes.py:478
 msgid "None"
-msgstr "གང་ཡང་མེད།"
+msgstr "གང་ཡང་མིན་པ།"
 
 #: classes.py:487
 msgid "Not specified"
-msgstr "གཏན་འཁེལ་བྱས་མེད།"
+msgstr ""
 
 #: classes.py:490
 msgid "Patching files... "
-msgstr "ཡིག་ཆ་བཅོས་སྒྲིག་བྱེད་པ། "
+msgstr ""
 
 #: classes.py:518
 msgid "Executables that are called directly by the code."
-msgstr "ཐད་ཀར་གསང་གྲངས་ཀྱིས་འབོད་པའི་ལག་བསྟར་བྱེད་ཐུབ་པའི་ཡིག་ཆ།"
+msgstr ""
 
 #: classes.py:520
 msgid "Binary"
-msgstr "གཉིས་ལྡན་ཅན།"
+msgstr ""
 
 #: classes.py:537
 msgid ""
 "JavaScript libraries downloaded the from NPM registry and used for front-end"
 " functionality."
 msgstr ""
-"ཇ་ཝ་སི་ཁི་རིཔ་ཊི་དཔེ་མཛོད་ཁང་གིས་NPMཐོ་འགོད་ནས་ཕབ་ལེན་བྱས་ནས་མདུན་ཕྱོགས་ཀྱི་བྱེད་ནུས་ཆེད་དུ་བེད་སྤྱོད་བྱེད་ཀྱི་ཡོད།"
 
 #: classes.py:540
 msgid "JavaScript"
-msgstr "ཇ་ཝ་སི་ཁི་རིཔཊ།"
+msgstr ""
 
 #: classes.py:572 classes.py:869
 msgid "Downloading... "
-msgstr "ཕབ་ལེན་བྱེད་བཞིན་པ། "
+msgstr ""
 
 #: classes.py:577
 msgid "Verifying... "
-msgstr "བདེན་དཔང་བྱེད་བཞིན་པ། "
+msgstr ""
 
 #: classes.py:582 classes.py:874
 msgid "Extracting... "
-msgstr "འཐེན་འདོན་བྱེད་བཞིན་པ། "
+msgstr ""
 
 #: classes.py:795
 msgid "Python packages downloaded from PyPI."
-msgstr "PyPI ནས་ཕབ་ལེན་བྱས་པའི་པའེ་ཐོན་ཐུམ་བུ།"
+msgstr ""
 
 #: classes.py:797
 msgid "Python"
-msgstr "པའེ་ཐན།"
+msgstr ""
 
 #: classes.py:849
 msgid "Fonts downloaded from fonts.googleapis.com."
-msgstr "fonts.googleapis.com ནས་ཕབ་ལེན་བྱས་པའི་ཡིག་གཟུགས།"
+msgstr ""
 
 #: classes.py:851
 msgid "Google font"
-msgstr "གུ་གུལ་ཡིག་གཟུགས།"
+msgstr ""
 
 #: classes.py:947
 msgid "Declared in app"
-msgstr "མཉེན་ཆས་ནང་ཁྱབ་བསྒྲགས་བྱས།"
+msgstr ""
 
 #: classes.py:948
 msgid "Show dependencies by the app that declared them."
-msgstr "དེ་དག་ཁྱབ་བསྒྲགས་བྱེད་མཁན་གྱི་མཉེན་ཆས་ཀྱིས་རྟེན་གཞི་སྟོན།"
+msgstr ""
 
 #: classes.py:952
 msgid "Class"
-msgstr "འཛིན་གྲྭ"
+msgstr ""
 
 #: classes.py:953
 msgid ""
 "Show the different classes of dependencies. Classes are usually divided by "
 "language or the file types of the dependency."
 msgstr ""
-"རྟེན་འབྲེལ་གྱི་སྡེ་ཚན་མི་འདྲ་བ་སྟོན། "
-"འཛིན་གྲྭ་རྣམས་རྒྱུན་དུ་སྐད་ཡིག་ཡང་ན་བརྟེན་པའི་ཡིག་ཆའི་རིགས་ལ་བརྟེན་ནས་བགོས་ཡོད།"
 
 #: classes.py:958
 msgid "State"
-msgstr "གནས་སྟངས"
+msgstr ""
 
 #: classes.py:959
 msgid ""
@@ -191,56 +188,42 @@ msgid ""
 "dependencies is installed and is of a correct version. False means the "
 "dependencies is missing or an incorrect version is present."
 msgstr ""
-"རྟེན་འབྲེལ་གྱི་གནས་ལུགས་མི་འདྲ་བ་སྟོན། "
-"བདེན་པ་ཟེར་བ་ནི་རྟེན་གཞི་དེ་སྒྲིག་འཇུག་བྱས་པ་དང་ཐོན་རིམ་ནོར་འཁྲུལ་ཅན་ཞིག་ཡིན་པ་སྟོན་གྱི་ཡོད།"
-" "
-"རྫུན་མ་ཟེར་བ་ནི་བརྟེན་ས་དེ་མེད་པའམ་ཡང་ན་ཐོན་རིམ་ནོར་བ་ཞིག་ཡོད་པ་མཚོན་གྱི་ཡོད།"
 
 #: classes.py:967
 msgid ""
 "Dependencies required for an environment might not be required for another. "
 "Example environments: Production, Development."
 msgstr ""
-"ཁོར་ཡུག་ཅིག་ལ་དགོས་མཁོའི་རྟེན་གཞི་གཞན་ཞིག་ལ་དགོས་མཁོ་མེད་པ་འདྲ། "
-"དཔེ་མཚོན་གྱི་ཁོར་ཡུག ཐོན་སྐྱེད་དང་འཕེལ་རྒྱས།"
 
 #: environments.py:17
 msgid ""
 "Environment used for building distributable packages of the software. End "
 "users can ignore missing dependencies under this environment."
 msgstr ""
-"མཉེན་ཆས་ཀྱི་བགོ་འགྲེམས་བྱེད་ཐུབ་པའི་ཐུམ་སྒྲིལ་བཟོ་སྐྲུན་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་ཁོར་ཡུག"
-" "
-"མཐའ་མའི་སྤྱོད་མཁན་གྱིས་ཁོར་ཡུག་འདིའི་འོག་ལ་མེད་པའི་བརྟེན་ས་ལ་སྣང་མེད་བྱེད་ཐུབ།"
 
 #: environments.py:20
 msgid "Build"
-msgstr "འཛུགས་སྐྲུན"
+msgstr ""
 
 #: environments.py:24
 msgid ""
 "Environment used for developers to make code changes. End users can ignore "
 "missing dependencies under this environment."
 msgstr ""
-"འཕེལ་རྒྱས་གཏོང་མཁན་གྱིས་གསང་གྲངས་བསྒྱུར་བཅོས་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་ཁོར་ཡུག"
-" "
-"མཐའ་མའི་སྤྱོད་མཁན་གྱིས་ཁོར་ཡུག་འདིའི་འོག་ལ་མེད་པའི་བརྟེན་ས་ལ་སྣང་མེད་བྱེད་ཐུབ།"
 
 #: environments.py:26
 msgid "Development"
-msgstr "འཕེལ་རྒྱས"
+msgstr ""
 
 #: environments.py:30
 msgid ""
 "Environment used for building the documentation. End users can ignore "
 "missing dependencies under this environment."
 msgstr ""
-"ཡིག་ཆ་བཟོ་སྐྲུན་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་ཁོར་ཡུག "
-"མཐའ་མའི་སྤྱོད་མཁན་གྱིས་ཁོར་ཡུག་འདིའི་འོག་ལ་མེད་པའི་བརྟེན་ས་ལ་སྣང་མེད་བྱེད་ཐུབ།"
 
 #: environments.py:32
 msgid "Documentation"
-msgstr "ཡིག་ཆ།"
+msgstr ""
 
 #: environments.py:36
 msgid ""
@@ -248,25 +231,20 @@ msgid ""
 "unpinned or immutable dependency bugs in third party libraries. End users "
 "can ignore missing dependencies under this environment."
 msgstr ""
-"ཕྱོགས་གསུམ་པའི་དཔེ་མཛོད་ནང་ལ་མ་བཙུགས་པའམ་ཡང་ན་འགྱུར་བ་མེད་པའི་བརྟེན་པའི་ནོར་འཁྲུལ་ལ་ཐད་ཀར་ཡིག་ཆའི་རྟེན་གཞི་གསལ་བཀོད་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་ཁོར་ཡུག"
-" "
-"མཐའ་མའི་སྤྱོད་མཁན་གྱིས་ཁོར་ཡུག་འདིའི་འོག་ལ་མེད་པའི་བརྟེན་ས་ལ་སྣང་མེད་བྱེད་ཐུབ།"
 
 #: environments.py:40
 msgid "Documentation (override)"
-msgstr "ཡིག་ཆ།(བཀག་འགོག་)"
+msgstr ""
 
 #: environments.py:45
 msgid ""
 "Normal environment for end users. A missing dependency under this "
 "environment will result in issues and errors during normal use."
 msgstr ""
-"མཐའ་མའི་སྤྱོད་མཁན་གྱི་རྒྱུན་ལྡན་གྱི་ཁོར་ཡུག "
-"མཐའ་འཁོར་འདིའི་འོག་ལ་རག་ལུས་མེད་ན་སྤྱིར་བཏང་བེད་སྤྱོད་བྱེད་སྐབས་གནད་དོན་དང་ནོར་འཁྲུལ་འབྱུང་སྲིད།"
 
 #: environments.py:47
 msgid "Production"
-msgstr "ཐོན་སྐྱེད"
+msgstr ""
 
 #: environments.py:51
 msgid ""
@@ -274,32 +252,30 @@ msgid ""
 "code. Dependencies in this environment are not needed for normal production "
 "usage."
 msgstr ""
-"མཐའ་མཚམས་ཀྱི་བྱེད་ནུས་བདེན་དཔང་བྱེད་པར་ཚོད་ལྟའི་གྱོན་ཆས་བཀོལ་སྤྱོད་བྱེད་པའི་ཁོར་ཡུག"
-" སྤྱིར་བཏང་གི་ཐོན་སྐྱེད་བེད་སྤྱོད་ལ་ཁོར་ཡུག་འདིའི་ནང་དུ་བརྟེན་དགོས་མིན།"
 
 #: environments.py:54
 msgid "Testing"
-msgstr "ཚོད་ལྟ་བྱེད་པ།"
+msgstr ""
 
 #: links.py:14 views.py:36
 msgid "Check for updates"
-msgstr "གསར་འགྱུར་ལ་ཞིབ་བཤེར་བྱེད་པ།"
+msgstr ""
 
 #: links.py:18
 msgid "Groups"
-msgstr "སྡེ་ཚན།"
+msgstr ""
 
 #: links.py:23
 msgid "Entries"
-msgstr "ཐོ་འགོད།"
+msgstr ""
 
 #: links.py:29
 msgid "Details"
-msgstr "ཞིབ་ཆ"
+msgstr ""
 
 #: links.py:33
 msgid "Dependencies licenses"
-msgstr "བརྟེན་སའི་ཆོག་མཆན།"
+msgstr ""
 
 #: literals.py:10
 #, python-format
@@ -307,8 +283,6 @@ msgid ""
 "Your version (%(version_local)s), is more recent than the published version "
 "(%(version_server)s)."
 msgstr ""
-"ཁྱེད་ཀྱི་ཐོན་རིམ་ ( %(version_local)s ) དེ་དཔེ་སྐྲུན་བྱས་པའི་ཐོན་རིམ་ ( "
-"%(version_server)s ) ལས་གསར་ཤོས་ཡིན།"
 
 #: literals.py:14
 #, python-format
@@ -316,12 +290,10 @@ msgid ""
 "The version you are using (%(version_local)s) is outdated. The latest "
 "version is %(version_server)s."
 msgstr ""
-"ཁྱེད་ཀྱིས་བེད་སྤྱོད་བྱེད་བཞིན་པའི་ཐོན་རིམ་( %(version_local)s "
-")དེ་དུས་ཚོད་རྙིང་པ་རེད། ཐོན་རིམ་གསར་ཤོས་དེ་ %(version_server)s ཡིན།"
 
 #: literals.py:18
 msgid "It is not possible to determine the latest version available."
-msgstr "ཐོན་རིམ་གསར་ཤོས་ཡོད་མེད་གཏན་འབེབས་བྱེད་ཐུབ་ཀྱི་མེད།"
+msgstr ""
 
 #: literals.py:21
 #, python-format
@@ -329,38 +301,33 @@ msgid ""
 "Unexpected error trying to determine the latest version available. Make sure"
 " your installation has a connection to the internet; %(exception)s"
 msgstr ""
-"ཐོན་རིམ་གསར་ཤོས་གཏན་འབེབས་བྱེད་པར་རེ་བ་མེད་པའི་ནོར་འཁྲུལ་བྱུང་ཡོད། "
-"ཁྱེད་ཀྱི་གཞི་བཙུགས་ལ་དྲ་རྒྱའི་མཐུད་ཁང་ཡོད་པར་ངེས་པར་དུ་བྱེད་དགོས། "
-"%(exception)s"
 
 #: management/commands/dependencies_check.py:13
 msgid "Outputs the dependencies as a comma delimited values list."
-msgstr "འབྲེལ་ཡོད་རྣམས་ཚེག་གིས་དབྱེ་བའི་རིན་ཐང་ཐོ་གཞུང་ལྟར་ཐོན་འབྲས་བྱེད།"
+msgstr ""
 
 #: management/commands/dependencies_generate_requirements.py:14
 msgid ""
 "Comma separated names of dependencies to exclude from the list generated."
 msgstr ""
-"ཐོ་འགོད་བྱས་པའི་ཐོ་གཞུང་ལས་ཕྱིར་འཐེན་བྱེད་པའི་འབྲེལ་ཡོད་ཀྱི་མིང་ཚེག་གིས་དབྱེ་འབྱེད་བྱས།"
 
 #: management/commands/dependencies_generate_requirements.py:20
 msgid ""
 "Comma separated names of dependencies to show in the list while excluding "
 "every other one."
 msgstr ""
-"གཞན་ཚང་མ་བཀག་པའི་སྐབས་ཐོ་གཞུང་ནང་སྟོན་པའི་འབྲེལ་ཡོད་ཀྱི་མིང་ཚེག་གིས་དབྱེ་འབྱེད་བྱས།"
 
 #: management/commands/dependencies_install.py:13
 msgid "Process a specific app."
-msgstr "མཉེན་ཆས་དམིགས་བསལ་ཞིག་ལ་ལས་སྣོན་བྱེད།"
+msgstr ""
 
 #: management/commands/dependencies_install.py:17
 msgid "Force installation even if already installed."
-msgstr "སྒྲིག་འཇུག་བྱས་ཟིན་ནའང་བཙན་ཤེད་ཀྱིས་སྒྲིག་འཇུག་བྱེད་དགོས།"
+msgstr ""
 
 #: permissions.py:10
 msgid "View dependencies"
-msgstr "རྟེན་འབྲེལ་ལ་ལྟ་བ།"
+msgstr ""
 
 #: views.py:27
 msgid "This process only checks the Python component of Mayan EDMS."
@@ -371,33 +338,31 @@ msgid ""
 "It does not verify versions of other components like packaging or deployment"
 " technologies, such as container or virtual machine images."
 msgstr ""
-"དེས་ཐུམ་སྒྲིལ་ཡང་ན་བཀོལ་སྤྱོད་ལག་རྩལ་ལྟ་བུའི་ཆ་ཤས་གཞན་པའི་ཐོན་རིམ་བདེན་དཔང་བྱེད་ཀྱི་མེད།"
-" དཔེར་ན། དོས་ཁང་ཡང་ན་གཟུགས་བརྙན་འཕྲུལ་ཆས་ཀྱི་པར་རིས་ལྟ་བུ།"
 
 #: views.py:51
 #, python-format
 msgid "Entries for dependency group: %s"
-msgstr "བརྟེན་པའི་སྡེ་ཚན་གྱི་ཐོ་འགོད། %s"
+msgstr ""
 
 #: views.py:65 views.py:114
 #, python-format
 msgid "Group %s not found."
-msgstr "སྡེ་ཚན་ %s རྙེད་མ་སོང་།"
+msgstr ""
 
 #: views.py:79
 msgid "Dependency groups"
-msgstr "རྟེན་འབྲེལ་སྡེ་ཚན།"
+msgstr ""
 
 #: views.py:101
 #, python-format
 msgid "Dependency group and entry: %(group)s, %(entry)s"
-msgstr "བརྟེན་ %(entry)s སྡེ་ཚན་དང་ཐོ་འགོད %(group)s"
+msgstr ""
 
 #: views.py:126
 #, python-format
 msgid "Entry %s not found."
-msgstr "ཐོ་འགོད་ %s རྙེད་མ་སོང་།"
+msgstr ""
 
 #: views.py:145
 msgid "Other packages licenses"
-msgstr "ཐུམ་སྒྲིལ་ཆོག་མཆན་གཞན་པ།"
+msgstr ""

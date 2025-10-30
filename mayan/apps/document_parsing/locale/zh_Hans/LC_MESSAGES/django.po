@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# malijie <tonymlj2008@126.com>, 2025
 # Ford Guo <agile.guo@gmail.com>, 2025
+# malijie <tonymlj2008@126.com>, 2025
 # Leon Chu, 2025
 # Roberto Rosario, 2025
 # 
@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Chinese Simplified (https://app.transifex.com/rosarior/teams/13584/zh-Hans/)\n"
 "MIME-Version: 1.0\n"
@@ -27,11 +27,11 @@ msgstr ""
 msgid "Document parsing"
 msgstr "文档解析"
 
-#: apps.py:113
+#: apps.py:113 apps.py:119
 msgid "A generator returning the document file's pages parsed content."
 msgstr ""
 
-#: apps.py:114 links.py:26 links.py:65 models.py:27 search.py:18
+#: apps.py:114 apps.py:120 links.py:26 links.py:65 models.py:27 search.py:18
 msgid "Content"
 msgstr "内容"
 
@@ -75,8 +75,8 @@ msgid "Submit for parsing"
 msgstr "提交解析"
 
 #: links.py:75
-msgid "Setup parsing"
-msgstr "设置解析"
+msgid "Parsing setup"
+msgstr ""
 
 #: links.py:84
 msgid "Parse documents per type"

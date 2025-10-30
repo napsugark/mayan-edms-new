@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 13:44+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -22,35 +22,35 @@ msgstr ""
 
 #: apps.py:147
 msgid "App class full path"
-msgstr "མཉེན་ཆས་འཛིན་གྲྭའི་འགྲོ་ལམ་ཆ་ཚང་།"
+msgstr ""
 
 #: apps.py:153
 msgid "App URL"
-msgstr "མཉེན་ཆས་URL"
+msgstr ""
 
 #: apps.py:164
 msgid "Has REST API"
-msgstr "REST API ཡོད།"
+msgstr ""
 
 #: apps.py:169
 msgid "Has tests"
-msgstr "བརྟག་དཔྱད་བྱས།"
+msgstr ""
 
 #: apps.py:174
 msgid "Name"
-msgstr "མིང"
+msgstr ""
 
 #: apps.py:179
 msgid "Verbose name"
-msgstr "ཚིག་རྒྱན་ཅན་གྱི་མིང་།"
+msgstr ""
 
 #: apps.py:198
 msgid "App manager"
-msgstr "མཉེན་ཆས་དོ་དམ་པ།"
+msgstr ""
 
 #: links.py:8
 msgid "Apps"
-msgstr "མཉེན་ཆས།"
+msgstr ""
 
 #: views.py:16
 msgid "Detected and active Mayan EDMS apps."
@@ -58,4 +58,4 @@ msgstr "Mayan EDMS མཉེན་ཆས་ཤེས་རྟོགས་དང�
 
 #: views.py:17
 msgid "System apps"
-msgstr "མ་ལག་མཉེན་ཆས།"
+msgstr ""

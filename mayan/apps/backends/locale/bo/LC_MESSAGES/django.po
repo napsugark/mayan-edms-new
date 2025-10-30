@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-11 08:30+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -22,28 +22,28 @@ msgstr ""
 
 #: apps.py:10
 msgid "Backends"
-msgstr "རྒྱབ་ལྗོངས།"
+msgstr ""
 
 #: model_mixins.py:22
 msgid "The dotted Python path to the backend class."
-msgstr "རྒྱབ་ཕྱོགས་ཀྱི་འཛིན་གྲྭའི་བར་གྱི་པའེ་ཐོན་ལམ་ཐིག་ཚག་ཅན།"
+msgstr ""
 
 #: model_mixins.py:23
 msgid "Backend path"
-msgstr "རྒྱབ་ཕྱོགས་ཀྱི་ལམ།"
+msgstr ""
 
 #: model_mixins.py:27
 msgid "JSON encoded data for the backend class."
-msgstr "རྒྱབ་ཕྱོགས་ཀྱི་འཛིན་གྲྭའི་ཆེད་དུ་JSONཨང་སྒྲིག་བྱས་པའི་གཞི་གྲངས།"
+msgstr ""
 
 #: model_mixins.py:28
 msgid "Backend data"
-msgstr "རྒྱབ་ཕྱོགས་ཀྱི་གྲངས་ཐོ།"
+msgstr ""
 
 #: model_mixins.py:72
 #, python-format
 msgid "Error: `%s`"
-msgstr "ནོར་འཁྲུལ། ` %s `"
+msgstr ""
 
 #: model_mixins.py:76
 msgid "Backend"
@@ -51,4 +51,4 @@ msgstr "རྒྱབ་ལྗོངས།"
 
 #: model_mixins.py:78
 msgid "The backend class for this entry."
-msgstr "ཐོ་འགོད་འདིའི་རྒྱབ་ཕྱོགས་ཀྱི་འཛིན་གྲྭ།"
+msgstr ""

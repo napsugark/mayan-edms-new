@@ -4,16 +4,16 @@
 # 
 # Translators:
 # Translators:
-# molnars <szabolcs.molnar@gmail.com>, 2025
 # Dezső József <dejo60@gmail.com>, 2025
+# molnars <szabolcs.molnar@gmail.com>, 2025
 # Csaba Tarjányi, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Csaba Tarjányi, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/rosarior/teams/13584/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -391,7 +391,7 @@ msgstr "A céloldal száma nem ismételhető meg."
 msgid "Page group"
 msgstr "Oldalcsoport"
 
-#: forms/misc_forms.py:14 literals.py:99
+#: forms/misc_forms.py:14 literals.py:101
 msgid "Page range"
 msgstr "Oldal tartomány"
 
@@ -614,55 +614,55 @@ msgstr "Visszaállítás"
 msgid "Default"
 msgstr "Alapéretelmezett"
 
-#: literals.py:91
+#: literals.py:93
 msgid "January"
 msgstr "Január"
 
-#: literals.py:91
+#: literals.py:93
 msgid "February"
 msgstr "Február"
 
-#: literals.py:91
+#: literals.py:93
 msgid "March"
 msgstr "Március"
 
-#: literals.py:91
+#: literals.py:93
 msgid "April"
 msgstr "Április"
 
-#: literals.py:91
+#: literals.py:93
 msgid "May"
 msgstr "Május"
 
-#: literals.py:92
+#: literals.py:94
 msgid "June"
 msgstr "Június"
 
-#: literals.py:92
+#: literals.py:94
 msgid "July"
 msgstr "Július"
 
-#: literals.py:92
+#: literals.py:94
 msgid "August"
 msgstr "Augusztus"
 
-#: literals.py:92
+#: literals.py:94
 msgid "September"
 msgstr "Szeptember"
 
-#: literals.py:92
+#: literals.py:94
 msgid "October"
 msgstr "Október"
 
-#: literals.py:93
+#: literals.py:95
 msgid "November"
 msgstr "November"
 
-#: literals.py:93
+#: literals.py:95
 msgid "December"
 msgstr "December"
 
-#: literals.py:99
+#: literals.py:101
 msgid "All pages"
 msgstr "Minden oldal"
 

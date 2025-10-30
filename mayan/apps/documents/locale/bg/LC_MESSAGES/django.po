@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Lyudmil Antonov <lantonov.here@gmail.com>, 2025\n"
 "Language-Team: Bulgarian (https://app.transifex.com/rosarior/teams/13584/bg/)\n"
 "MIME-Version: 1.0\n"
@@ -390,7 +390,7 @@ msgstr "Номерът на целевата страница не може да
 msgid "Page group"
 msgstr ""
 
-#: forms/misc_forms.py:14 literals.py:99
+#: forms/misc_forms.py:14 literals.py:101
 msgid "Page range"
 msgstr "Поредица от страници"
 
@@ -613,55 +613,55 @@ msgstr "Възстанови"
 msgid "Default"
 msgstr "По подразбиране"
 
-#: literals.py:91
+#: literals.py:93
 msgid "January"
 msgstr "Януари"
 
-#: literals.py:91
+#: literals.py:93
 msgid "February"
 msgstr "Февруари"
 
-#: literals.py:91
+#: literals.py:93
 msgid "March"
 msgstr "Март"
 
-#: literals.py:91
+#: literals.py:93
 msgid "April"
 msgstr "Април"
 
-#: literals.py:91
+#: literals.py:93
 msgid "May"
 msgstr "Май"
 
-#: literals.py:92
+#: literals.py:94
 msgid "June"
 msgstr "Юни"
 
-#: literals.py:92
+#: literals.py:94
 msgid "July"
 msgstr "Юли"
 
-#: literals.py:92
+#: literals.py:94
 msgid "August"
 msgstr "Август"
 
-#: literals.py:92
+#: literals.py:94
 msgid "September"
 msgstr "Септември"
 
-#: literals.py:92
+#: literals.py:94
 msgid "October"
 msgstr "Октомври"
 
-#: literals.py:93
+#: literals.py:95
 msgid "November"
 msgstr "Ноември"
 
-#: literals.py:93
+#: literals.py:95
 msgid "December"
 msgstr "Декември"
 
-#: literals.py:99
+#: literals.py:101
 msgid "All pages"
 msgstr "Всички страници"
 

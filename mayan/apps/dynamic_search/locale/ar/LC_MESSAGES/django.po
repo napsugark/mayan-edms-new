@@ -4,18 +4,18 @@
 # 
 # Translators:
 # Translators:
-# Yaman Sanobar <yman.snober@gmail.com>, 2025
 # Mohammed ALDOUB <voulnet@gmail.com>, 2025
 # Roberto Rosario, 2025
 # Marwan Rahhal <Marwanr@sssit.net>, 2025
+# Yaman Sanobar <yman.snober@gmail.com>, 2025
 # Mohamad Ashmar, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-28 14:15+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -254,13 +254,13 @@ msgid ""
 "Index all related instances of a search model after a many to many event."
 msgstr "فهرسة جميع الحالات ذات الصلة بنموذج البحث بعد حدث متعدد إلى متعدد."
 
-#: queues.py:44
-msgid "Reset the search backend indices and index all instances again."
-msgstr "إعادة تعيين مؤشرات البحث الخلفية وفهرسة جميع الحالات مرة أخرى."
-
-#: queues.py:51
+#: queues.py:42
 msgid "Delete expired saved resultsets"
 msgstr "حذف مجموعات النتائج المحفوظة المنتهية الصلاحية"
+
+#: queues.py:50
+msgid "Reset the search backend indices and index all instances again."
+msgstr "إعادة تعيين مؤشرات البحث الخلفية وفهرسة جميع الحالات مرة أخرى."
 
 #: scoped_queries.py:348
 #, python-format

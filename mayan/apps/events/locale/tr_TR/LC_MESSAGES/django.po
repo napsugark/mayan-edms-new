@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Translators:
+# Nurgül Özkan <nurgulozkan@hotmail.com>, 2025
 # Bedreddin Şahbaz, 2025
 # abc Def <hdogan1974@gmail.com>, 2025
 # serhatcan77 <serhat_can@yahoo.com>, 2025
@@ -13,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: serhatcan77 <serhat_can@yahoo.com>, 2025\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/rosarior/teams/13584/tr_TR/)\n"
 "MIME-Version: 1.0\n"
@@ -147,7 +148,7 @@ msgstr ""
 #: literals.py:18
 #, python-format
 msgid "Unknown or obsolete event type: %s"
-msgstr ""
+msgstr "Tanımsız veya kullanılmayan olay türü:%s"
 
 #: models.py:25 serializers/event_type_serializers.py:20
 #: serializers/event_type_serializers.py:45

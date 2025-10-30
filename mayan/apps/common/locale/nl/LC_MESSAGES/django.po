@@ -5,16 +5,16 @@
 # Translators:
 # Translators:
 # Roberto Rosario, 2025
-# bwakkie <bwakkie@gmail.com>, 2025
 # j jacobs <j.jacobs@rijnlandslyceum-rls.nl>, 2025
+# bwakkie <bwakkie@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 18:22+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: j jacobs <j.jacobs@rijnlandslyceum-rls.nl>, 2025\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: bwakkie <bwakkie@gmail.com>, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/rosarior/teams/13584/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,15 +22,15 @@ msgstr ""
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps.py:26 permissions.py:6 settings.py:15
+#: apps.py:25 permissions.py:6 settings.py:13
 msgid "Common"
 msgstr "Gemeenschappelijk"
 
-#: dependencies.py:193
+#: dependencies.py:191
 msgid "Command line environment with autocompletion."
 msgstr "Opdrachtregelomgeving met automatisch aanvullen."
 
-#: dependencies.py:198
+#: dependencies.py:196
 msgid "Checks proper formatting of the README file."
 msgstr "Controleert de juiste opmaak van het README-bestand."
 
@@ -90,22 +90,22 @@ msgstr ""
 msgid "Tools"
 msgstr "Gereedschappen"
 
-#: literals.py:21
+#: literals.py:19
 msgid ""
 "This feature has been deprecated and will be removed in a future version."
 msgstr ""
 "Deze functie is achterhaald en zal worden verwijderd in een toekomstige "
 "versie."
 
-#: literals.py:30
+#: literals.py:28
 msgid "Days"
 msgstr "Dagen"
 
-#: literals.py:31
+#: literals.py:29
 msgid "Hours"
 msgstr "Uren"
 
-#: literals.py:32
+#: literals.py:30
 msgid "Minutes"
 msgstr "Minuten"
 
@@ -145,23 +145,7 @@ msgstr "Kopieer object"
 msgid "URL"
 msgstr "URL"
 
-#: settings.py:23
-msgid ""
-"In list mode, show the \"list facet\" menu options as a dropdown menu "
-"instead of individual buttons."
-msgstr ""
-"Geef in de lijstmodus, de menu-opties \"lijst facet\" weer als een menu "
-"keuze in plaats van afzonderlijke knoppen."
-
-#: settings.py:32
-msgid ""
-"In list mode, show the \"object\" menu options as a dropdown menu instead of"
-" individual buttons."
-msgstr ""
-"Toon in lijstmodus de menu-opties \"object\" als een menu keuze in plaats "
-"van afzonderlijke knoppen."
-
-#: settings.py:40
+#: settings.py:20
 msgid ""
 "Disables the use of the local `media` folder. When using this setting, all "
 "apps must be also configured via their respective storage backend settings "
@@ -172,7 +156,7 @@ msgstr ""
 "respectievelijke backend-instellingen voor opslag om alternatieve "
 "persistentie te gebruiken."
 
-#: settings.py:48
+#: settings.py:28
 msgid ""
 "A list of strings designating all applications that are to be removed from "
 "the list normally installed by Mayan EDMS. Each string should be a dotted "
@@ -185,7 +169,7 @@ msgstr ""
 "toepassingsconfiguratieklasse (bij voorkeur), of een pakket dat een "
 "toepassing bevat. Voorbeeld: ['app_1', 'app_2']"
 
-#: settings.py:58
+#: settings.py:38
 msgid ""
 "A list of strings designating all applications that are installed beyond "
 "those normally installed by Mayan EDMS. Each string should be a dotted "
@@ -194,7 +178,7 @@ msgid ""
 "apps. Example: ['app_1', 'app_2']"
 msgstr ""
 
-#: settings.py:70
+#: settings.py:50
 msgid ""
 "A list of strings designating all applications that are installed beyond "
 "those normally installed by Mayan EDMS. Each string should be a dotted "
@@ -209,7 +193,7 @@ msgstr ""
 "een toepassing bevat. Deze apps worden vóór de standaardapps geïnstalleerd. "
 "Voorbeeld:  ['app_1', 'app_2']"
 
-#: settings.py:81
+#: settings.py:61
 msgid ""
 "Name of the view attached to the brand anchor in the main menu. This is also"
 " the view to which users will be redirected after log in."
@@ -218,12 +202,12 @@ msgstr ""
 "het overzicht waarnaar gebruikers worden doorgestuurd nadat ze zich hebben "
 "aangemeld."
 
-#: settings.py:90
+#: settings.py:70
 msgid "Name of the dashboard to display in the home view."
 msgstr ""
 "Naam van het dashboard dat in de startweergave moet worden weergegeven."
 
-#: settings.py:95
+#: settings.py:75
 msgid "Sets the project's name."
 msgstr "Stelt de naam van het project in."
 

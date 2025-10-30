@@ -4,16 +4,16 @@
 # 
 # Translators:
 # Translators:
-# Jiří Podhorecký <jirka.p@volny.cz>, 2025
 # Jiri Fait <fait@orkasolutions.cz>, 2025
+# Jiří Podhorecký <jirka.p@volny.cz>, 2025
 # Michal Švábík <snadno@lehce.cz>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 10:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Michal Švábík <snadno@lehce.cz>, 2025\n"
 "Language-Team: Czech (https://app.transifex.com/rosarior/teams/13584/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -113,11 +113,11 @@ msgstr "Uložené transformace"
 msgid "Create asset"
 msgstr ""
 
-#: links.py:38 links.py:44 links.py:68
+#: links.py:38 links.py:44 links.py:68 links.py:73
 msgid "Delete"
 msgstr "Odstranit"
 
-#: links.py:48 links.py:72
+#: links.py:48 links.py:77
 msgid "Edit"
 msgstr "Upravit"
 
@@ -126,11 +126,11 @@ msgstr "Upravit"
 msgid "Assets"
 msgstr ""
 
-#: links.py:77 workflow_actions.py:76
+#: links.py:82 workflow_actions.py:76
 msgid "Transformations"
 msgstr "Transformace"
 
-#: links.py:82
+#: links.py:87
 msgid "Select new transformation"
 msgstr "Vyberte novou transformaci"
 
@@ -731,37 +731,61 @@ msgstr ""
 "Vytvořte vrstvu &quot;%(layer)s&quot; transformace "
 "&quot;%(transformation)s&quot; pro: %(object)s"
 
-#: views/transformation_views.py:131
+#: views/transformation_views.py:118
 #, python-format
-msgid "Delete transformation \"%(transformation)s\" for: %(content_object)s?"
+msgid "%(count)d transformations deleted successfully."
 msgstr ""
-"Smazat transformaci &quot;%(transformation)s&quot; pro: %(content_object)s?"
 
-#: views/transformation_views.py:193
+#: views/transformation_views.py:120
+#, python-format
+msgid "Transformation \"%(object)s\" deleted successfully."
+msgstr ""
+
+#: views/transformation_views.py:123
+#, python-format
+msgid "%(count)d transformation deleted successfully."
+msgstr ""
+
+#: views/transformation_views.py:125
+#, python-format
+msgid "Delete the %(count)d selected transformations"
+msgstr ""
+
+#: views/transformation_views.py:126
+#, python-format
+msgid "Delete transformation: %(object)s"
+msgstr ""
+
+#: views/transformation_views.py:127
+#, python-format
+msgid "Delete the %(count)d selected transformation"
+msgstr ""
+
+#: views/transformation_views.py:197
 #, python-format
 msgid "Edit transformation \"%(transformation)s\" for: %(content_object)s"
 msgstr ""
 "Upravit transformaci &quot;%(transformation)s&quot; pro: %(content_object)s"
 
-#: views/transformation_views.py:249
+#: views/transformation_views.py:253
 #, python-format
 msgid "There are no entries for layer \"%(layer_name)s\""
 msgstr "Pro vrstvu „%(layer_name)s“ neexistují žádné záznamy"
 
-#: views/transformation_views.py:252
+#: views/transformation_views.py:256
 #, python-format
 msgid "Layer \"%(layer)s\" transformations for: %(object)s"
 msgstr "Transformace vrstvy „%(layer)s“ pro: %(object)s"
 
-#: views/transformation_views.py:297
+#: views/transformation_views.py:301
 msgid "Transformation created successfully."
 msgstr "Transformace byla úspěšně vytvořena."
 
-#: views/transformation_views.py:321
+#: views/transformation_views.py:325
 msgid "Select"
 msgstr "Vybrat"
 
-#: views/transformation_views.py:323
+#: views/transformation_views.py:327
 #, python-format
 msgid "Select new layer \"%(layer)s\" transformation for: %(object)s"
 msgstr "Vyberte novou vrstvu %(layer)s transformace pro: %(object)s"

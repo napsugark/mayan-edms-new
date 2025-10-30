@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Michal Švábík <snadno@lehce.cz>, 2025\n"
 "Language-Team: Czech (https://app.transifex.com/rosarior/teams/13584/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -21,51 +21,51 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
-#: admin.py:13 apps.py:175 serializers/file_metadata_serializers.py:16
-msgid "Label"
-msgstr "Jmenovka"
-
-#: apps.py:56 apps.py:100 events.py:6 links.py:23 permissions.py:6 queues.py:7
+#: apps.py:56 apps.py:106 events.py:6 links.py:23 permissions.py:6 queues.py:7
 #: settings.py:12
 msgid "File metadata"
 msgstr "Souborová metadata"
 
-#: apps.py:144 apps.py:150
+#: apps.py:150 apps.py:156
 msgid "Return the value of a specific file metadata."
 msgstr "Vraťte hodnotu konkrétních metadat souboru."
 
-#: apps.py:145 apps.py:151
+#: apps.py:151 apps.py:157
 msgid "File metadata value of"
 msgstr "Hodnota metadat souboru"
 
-#: apps.py:180 serializers/file_metadata_serializers.py:19
+#: apps.py:181 serializers/file_metadata_serializers.py:16
+msgid "Label"
+msgstr "Jmenovka"
+
+#: apps.py:186 serializers/file_metadata_serializers.py:19
 msgid "MIME types"
 msgstr "Typy MIME"
 
-#: apps.py:184 models.py:97 models.py:152
+#: apps.py:190 models.py:98 models.py:153
 msgid "Internal name"
 msgstr "Vnitřní název"
 
-#: apps.py:188 serializers/file_metadata_serializers.py:13
+#: apps.py:194 serializers/file_metadata_serializers.py:13
 msgid "Description"
 msgstr "Popis"
 
-#: apps.py:192 model_mixins.py:48 models.py:54
+#: apps.py:198 model_mixins.py:48 models.py:55
 #: serializers/file_metadata_serializers.py:10
 msgid "Arguments"
 msgstr "Argumenty"
 
-#: apps.py:198
+#: apps.py:204
 msgid ""
 "Whether or not this driver will be enabled by default for new document "
 "types."
 msgstr ""
 
-#: apps.py:201
+#: apps.py:207
 msgid "Enabled by default?"
 msgstr ""
 
-#: classes.py:209 model_mixins.py:36
+#: classes.py:222 model_mixins.py:36
 #, python-format
 msgid "Badly formatted arguments YAML; %s"
 msgstr ""
@@ -118,86 +118,86 @@ msgstr "Celá cesta"
 msgid "Path used to access the value of the file metadata entry."
 msgstr ""
 
-#: models.py:26 models.py:64 models.py:165
+#: models.py:27 models.py:65 models.py:166
 msgid "Driver"
 msgstr "Ovladač"
 
-#: models.py:30 serializers/document_file_serializers.py:18
+#: models.py:31 serializers/document_file_serializers.py:18
 msgid "Document file"
 msgstr "Soubor dokumentu"
 
-#: models.py:36 models.py:92
+#: models.py:37 models.py:93
 msgid "Document file driver entry"
 msgstr "Položka ovladače souboru dokumentu"
 
-#: models.py:37
+#: models.py:38
 msgid "Document file driver entries"
 msgstr ""
 
-#: models.py:50
+#: models.py:51
 msgid ""
 "Enter the arguments for the drive for the specific document type as a YAML "
 "dictionary. ie: {\"degrees\": 180}"
 msgstr ""
 
-#: models.py:59 serializers/document_type_serializers.py:16
+#: models.py:60 serializers/document_type_serializers.py:16
 msgid "Document type"
 msgstr "Typ dokumentu"
 
-#: models.py:68
+#: models.py:69
 msgid ""
 "Enable this driver to process document files of the selected document type."
 msgstr ""
 
-#: models.py:70
+#: models.py:71
 msgid "Enabled"
 msgstr "Povoleno"
 
-#: models.py:82 models.py:83
+#: models.py:83 models.py:84
 msgid "Document type driver settings"
 msgstr ""
 
-#: models.py:96
+#: models.py:97
 msgid "Normalized name of the file metadata entry."
 msgstr ""
 
-#: models.py:101
+#: models.py:102
 msgid "Name of the file metadata entry as provided by the driver."
 msgstr ""
 
-#: models.py:103
+#: models.py:104
 msgid "Key"
 msgstr "Klíč"
 
-#: models.py:106
+#: models.py:107
 msgid "Value of the file metadata entry."
 msgstr "Hodnota položky metadat souboru."
 
-#: models.py:107
+#: models.py:108
 msgid "Value"
 msgstr "Hodnota"
 
-#: models.py:113
+#: models.py:114
 msgid "File metadata entry"
 msgstr "Položka metadat souboru "
 
-#: models.py:114
+#: models.py:115
 msgid "File metadata entries"
 msgstr "Položky metadat souboru "
 
-#: models.py:148
+#: models.py:149
 msgid "Driver path"
 msgstr "Cesta ovladače"
 
-#: models.py:156
+#: models.py:157
 msgid "The class defined by this instance is valid and active."
 msgstr ""
 
-#: models.py:157
+#: models.py:158
 msgid "Valid"
 msgstr ""
 
-#: models.py:166
+#: models.py:167
 msgid "Drivers"
 msgstr "Ovladače"
 

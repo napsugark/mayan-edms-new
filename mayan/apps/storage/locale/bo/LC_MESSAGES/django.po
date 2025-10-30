@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -30,57 +30,53 @@ msgid ""
 "Unable to initialize storage: %(name)s. Check the storage backend dotted "
 "path and arguments."
 msgstr ""
-"གསོག་འཇོག་འགོ་འཛུགས་བྱེད་མི་ཐུབ། %(name)s . "
-"དོས་ཁང་གི་རྒྱབ་ཕྱོགས་ཀྱི་ཚག་ཅན་གྱི་འགྲོ་ལམ་དང་སྒྲུབ་བྱེད་ལ་ཞིབ་བཤེར་བྱེད།"
 
 #: events.py:6 links.py:20 models.py:55 storages.py:22
 msgid "Download files"
-msgstr "ཡིག་ཆ་ཕབ་ལེན།"
+msgstr ""
 
 #: events.py:10
 msgid "Download file created"
-msgstr "ཕབ་ལེན་ཡིག་ཆ་བཟོས་ཟིན།"
+msgstr ""
 
 #: events.py:13
 msgid "Download file deleted"
-msgstr "ཕབ་ལེན་ཡིག་ཆ་བསུབ་ཟིན།"
+msgstr ""
 
 #: events.py:16
 msgid "Download file downloaded"
-msgstr "ཕབ་ལེན་ཡིག་ཆ་ཕབ་ལེན་བྱས་ཟིན།"
+msgstr ""
 
 #: links.py:12
 msgid "Delete"
-msgstr "བསུབ་པ།"
+msgstr "བསུབ།"
 
 #: links.py:16
 msgid "Download"
-msgstr "ཕབ་ལེན"
+msgstr ""
 
 #: management/commands/storage_process.py:13
 msgid "Name of the app to process."
-msgstr "ལས་སྣོན་བྱེད་པའི་མཉེན་ཆས་ཀྱི་མིང་།"
+msgstr ""
 
 #: management/commands/storage_process.py:19
 msgid ""
 "Path of the database (.dbm) file that will be created/read to keep track of "
 "items processed."
 msgstr ""
-"ལས་སྣོན་བྱས་པའི་རྣམ་གྲངས་ལ་ལྟ་རྟོག་བྱེད་པར་གསར་འཛུགས་བྱེད་པའམ་ཀློག་པའི་གནས་སྡུད་གཞི་གྲངས་(.dbm)ཡིག་ཆའི་འགྲོ་ལམ།"
 
 #: management/commands/storage_process.py:26
 msgid "Process a specific model."
-msgstr "དཔེ་གཞི་དམིགས་བསལ་ཞིག་ལ་ལས་སྣོན་བྱས།"
+msgstr ""
 
 #: management/commands/storage_process.py:32
 msgid ""
 "Process the files in reverse to undo the storage pipeline transformations."
 msgstr ""
-"དོས་ཁང་གི་མདོང་ལམ་གྱི་བསྒྱུར་བཅོས་ཕྱིར་འཐེན་བྱེད་པར་ཡིག་ཆ་དེ་དག་ཕྱིར་ལོག་ནས་ལས་སྣོན་བྱེད།"
 
 #: management/commands/storage_process.py:38
 msgid "Name of the storage to process."
-msgstr "ལས་སྣོན་བྱེད་པའི་གསོག་འཇོག་གི་མིང་།"
+msgstr ""
 
 #: model_mixins.py:67 models.py:96
 msgid "Filename"
@@ -88,11 +84,11 @@ msgstr "ཡིག་ཆའི་མིང་།"
 
 #: model_mixins.py:70
 msgid "Date time"
-msgstr "ཚེས་གྲངས་དུས་ཚོད།"
+msgstr ""
 
 #: model_mixins.py:91
 msgid "Unnamed file"
-msgstr "མིང་མེད་པའི་ཡིག་ཆ།"
+msgstr ""
 
 #: model_mixins.py:103
 msgid "Size"
@@ -108,47 +104,47 @@ msgstr "ཡིག་ཆ་།"
 
 #: models.py:42
 msgid "Label"
-msgstr "ལག་ཁྱེར་།"
+msgstr "མིང་བྱང།"
 
 #: models.py:54
 msgid "Download file"
-msgstr "ཡིག་ཆ་ཕབ་ལེན།"
+msgstr ""
 
 #: models.py:102
 msgid "Shared uploaded file"
-msgstr "མཉམ་སྤྱོད་ཡར་བསྐུར་བྱས་པའི་ཡིག་ཆ།"
+msgstr ""
 
 #: models.py:103 storages.py:36
 msgid "Shared uploaded files"
-msgstr "མཉམ་སྤྱོད་བྱས་པའི་ཡིག་ཆ།"
+msgstr ""
 
 #: permissions.py:10
 msgid "Delete user files"
-msgstr "སྤྱོད་མཁན་གྱི་ཡིག་ཆ་སུབ་པ།"
+msgstr ""
 
 #: permissions.py:13
 msgid "Download user files"
-msgstr "སྤྱོད་མཁན་གྱི་ཡིག་ཆ་ཕབ་ལེན་བྱེད་པ།"
+msgstr ""
 
 #: permissions.py:16
 msgid "View user files"
-msgstr "སྤྱོད་མཁན་གྱི་ཡིག་ཆ་ལྟ་བ།"
+msgstr ""
 
 #: queues.py:16
 msgid "Storage periodic"
-msgstr "གསོག་འཇོག་དུས་མཚམས་ཅན།"
+msgstr ""
 
 #: queues.py:22
 msgid "Delete a shared upload"
-msgstr "མཉམ་སྤྱོད་ཀྱི་ཕབ་ལེན་ཞིག་སུབ་པ།"
+msgstr ""
 
 #: queues.py:27
 msgid "Delete stale uploads"
-msgstr "ཡར་བསྐུར་རྙིང་པ་སུབ་པ།"
+msgstr ""
 
 #: queues.py:34
 msgid "Delete stale download files"
-msgstr "རྙིང་པའི་ཕབ་ལེན་ཡིག་ཆ་སུབ་པ།"
+msgstr ""
 
 #: serializers.py:11
 msgid "Download URL"
@@ -160,48 +156,39 @@ msgstr "URL །"
 
 #: settings.py:21
 msgid "Time in seconds, after which download files will be deleted."
-msgstr "དུས་ཚོད་སྐར་ཆའི་ནང་། དེ་རྗེས་ཕབ་ལེན་ཡིག་ཆ་རྣམས་སུབ་འགྲོ་གི་རེད།"
+msgstr ""
 
 #: settings.py:27
 msgid ""
 "A storage backend that all workers can use to generate and hold files for "
 "download."
 msgstr ""
-"ལས་བྱེད་ཚང་མས་ཕབ་ལེན་བྱེད་པའི་ཆེད་དུ་ཡིག་ཆ་བཟོ་སྐྲུན་དང་འཛིན་པར་བེད་སྤྱོད་གཏོང་ཐུབ་པའི་གསོག་འཇོག་རྒྱབ་ལྗོངས་ཤིག"
 
 #: settings.py:38
 msgid "A storage backend that all workers can use to share files."
 msgstr ""
-"ལས་བྱེད་ཚང་མས་ཡིག་ཆ་མཉམ་སྤྱོད་བྱེད་པར་བེད་སྤྱོད་གཏོང་ཐུབ་པའི་གསོག་འཇོག་རྒྱབ་ལྗོངས་ཤིག"
 
 #: settings.py:48
 msgid ""
 "Temporary directory used site wide to store thumbnails, previews and "
 "temporary files."
 msgstr ""
-"གནས་སྐབས་ཀྱི་སྣོད་ཐོ་དེ་དྲ་ཚིགས་ཡོངས་སུ་མཐེབ་གཞོང་དང་སྔོན་ལྟ་དང་གནས་སྐབས་ཀྱི་ཡིག་ཆ་གསོག་འཇོག་བྱེད་པར་བེད་སྤྱོད་བྱེད་ཀྱི་ཡོད།"
 
 #: settings.py:55
 msgid "Time in seconds, after which temporary uploaded files will be deleted."
 msgstr ""
-"དུས་ཚོད་སྐར་ཆའི་ནང་། "
-"དེ་རྗེས་གནས་སྐབས་ཡར་བསྐུར་བའི་ཡིག་ཆ་རྣམས་སུབ་འགྲོ་གི་རེད།"
 
 #: storages.py:15
 msgid ""
 "Unable to initialize the download file storage. Check the settings {} and {}"
 " for formatting errors."
 msgstr ""
-"ཕབ་ལེན་ཡིག་ཆ་གསོག་འཇོག་འགོ་འཛུགས་བྱེད་མི་ཐུབ། སྒྲིག་སྟངས་ {} དང་ {} "
-"ལ་རྩ་སྒྲིག་ནོར་འཁྲུལ་ཡོད་མེད་ཞིབ་བཤེར་བྱེད།"
 
 #: storages.py:29
 msgid ""
 "Unable to initialize the shared uploaded file storage. Check the settings {}"
 " and {} for formatting errors."
 msgstr ""
-"མཉམ་སྤྱོད་བྱས་པའི་ཡིག་ཆའི་གསོག་འཇོག་འགོ་འཛུགས་མི་ཐུབ། སྒྲིག་སྟངས་ {} དང་ {} "
-"ལ་རྩ་སྒྲིག་ནོར་འཁྲུལ་ཡོད་མེད་ཞིབ་བཤེར་བྱེད།"
 
 #: views/download_file_views.py:69
 msgid ""
@@ -209,14 +196,11 @@ msgid ""
 "export. Download files are retained over a span of time and then removed "
 "automatically."
 msgstr ""
-"ཕབ་ལེན་ཡིག་ཆ་དེ་ཚོ་ཕྱིར་གཏོང་ལྟ་བུའི་ཕྱི་ཕྱོགས་ཀྱི་བྱ་རིམ་གྱི་གྲུབ་འབྲས་ལྟར་བཟོས་ཡོད།"
-" "
-"ཕབ་ལེན་ཡིག་ཆ་རྣམས་དུས་ཡུན་རིང་པོའི་རིང་ལ་ཉར་ཚགས་བྱས་རྗེས་རང་འགུལ་གྱིས་མེད་པར་བཟོ་གི་ཡོད།"
 
 #: views/download_file_views.py:73
 msgid "There are no files to download."
-msgstr "ཕབ་ལེན་བྱེད་སའི་ཡིག་ཆ་གང་ཡང་མེད།"
+msgstr ""
 
 #: views/download_file_views.py:74
 msgid "Downloads"
-msgstr "ཕབ་ལེན།"
+msgstr ""

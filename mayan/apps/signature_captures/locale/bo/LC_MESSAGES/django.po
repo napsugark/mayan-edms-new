@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 12:51+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -23,23 +23,23 @@ msgstr ""
 #: apps.py:41 events.py:6 links.py:34 models.py:71 permissions.py:6
 #: settings.py:13
 msgid "Signature captures"
-msgstr "མཚན་རྟགས་བཟུང་བ།"
+msgstr ""
 
 #: events.py:11
 msgid "Signature capture created"
-msgstr "མཚན་རྟགས་པར་ལེན་བཟོས་ཡོད།"
+msgstr ""
 
 #: events.py:15
 msgid "Signature capture deleted"
-msgstr "མཚན་རྟགས་འཛིན་བཟུང་བསུབས་སོང་།"
+msgstr ""
 
 #: events.py:19
 msgid "Signature capture edited"
-msgstr "མཚན་རྟགས་པར་ལེན་རྩོམ་སྒྲིག་བྱས།"
+msgstr ""
 
 #: forms.py:26
 msgid "Asset preview image"
-msgstr "རྒྱུ་ནོར་སྔོན་ལྟའི་པར་རིས།"
+msgstr ""
 
 #: forms.py:26
 msgid "Preview"
@@ -47,19 +47,19 @@ msgstr "སྔོན་ལྟ་།"
 
 #: links.py:17
 msgid "Create new signature capture"
-msgstr "མཚན་རྟགས་པར་ལེན་གསར་པ་བཟོས།"
+msgstr ""
 
 #: links.py:23
 msgid "Delete"
-msgstr "བསུབ་པ།"
+msgstr "བསུབ།"
 
 #: links.py:28
 msgid "Edit"
-msgstr "བཅོས་པ།"
+msgstr "བཅོས།"
 
 #: model_mixins.py:89
 msgid "Creation date and time"
-msgstr "གསར་སྐྲུན་གྱི་ཚེས་གྲངས་དང་དུས་ཚོད།"
+msgstr ""
 
 #: models.py:27
 msgid "Document"
@@ -67,27 +67,27 @@ msgstr "ཡིག་ཆ།"
 
 #: models.py:31
 msgid "Data representing the handwritten signature."
-msgstr "ལག་བྲིས་མཚན་རྟགས་མཚོན་པའི་གནས་སྡུད།"
+msgstr ""
 
 #: models.py:32
 msgid "Signature capture data"
-msgstr "མིང་རྟགས་འཛིན་པའི་གཞི་གྲངས།"
+msgstr ""
 
 #: models.py:36
 msgid "Vector representation of the handwritten signature."
-msgstr "ལག་བྲིས་མིང་རྟགས་ཀྱི་བེག་ཊོར་མཚོན་ཚུལ།"
+msgstr ""
 
 #: models.py:37
 msgid "SVG signature capture data"
-msgstr "SVGམིང་རྟགས་འཛིན་པའི་གཞི་གྲངས།"
+msgstr ""
 
 #: models.py:40
 msgid "Print version of the captured signature."
-msgstr "འཛིན་བཟུང་བྱས་པའི་མིང་རྟགས་ཀྱི་པར་སྐྲུན་ཐོན་རིམ།"
+msgstr ""
 
 #: models.py:41
 msgid "Text"
-msgstr "ཡིག་གཞི"
+msgstr ""
 
 #: models.py:45
 msgid "User"
@@ -95,11 +95,11 @@ msgstr "བེད་སྤྱོད་པ་།"
 
 #: models.py:49
 msgid "Date and time created"
-msgstr "ཚེས་གྲངས་དང་དུས་ཚོད།"
+msgstr ""
 
 #: models.py:53
 msgid "Date and time edited"
-msgstr "ཚེས་གྲངས་དང་དུས་ཚོད།"
+msgstr ""
 
 #: models.py:57
 msgid ""
@@ -107,48 +107,46 @@ msgid ""
 "relationship to the document. Can only contain letters, numbers, and "
 "underscores."
 msgstr ""
-"ཡིག་ཆ་དང་འབྲེལ་བའི་མིང་རྟགས་འཛིན་བཟུང་འདི་ལ་གཞི་བསྟུན་བྱེད་སྐབས་གནས་གོང་འདི་བེད་སྤྱོད་གཏོང་བ་རེད།"
-" ཡི་གེ་དང་ཨང་གྲངས་དང་འོག་ཐིག་ཁོ་ན་འདུས་ཐུབ།"
 
 #: models.py:61 transformations.py:40
 msgid "Internal name"
-msgstr "ནང་ཁུལ་གྱི་མིང་།"
+msgstr ""
 
 #: models.py:70
 msgid "Signature capture"
-msgstr "མཚན་རྟགས་བཟུང་བ།"
+msgstr ""
 
 #: permissions.py:10
 msgid "Create signature captures"
-msgstr "མིང་རྟགས་པར་ལེན་བཟོས།"
+msgstr ""
 
 #: permissions.py:14
 msgid "Delete signature captures"
-msgstr "མིང་རྟགས་བཀོད་པ་སུབ་པ།"
+msgstr ""
 
 #: permissions.py:18
 msgid "Edit signature captures"
-msgstr "མིང་རྟགས་བཀོད་པ་རྩོམ་སྒྲིག་བྱེད་པ།"
+msgstr ""
 
 #: permissions.py:22
 msgid "View signature captures"
-msgstr "མཚན་རྟགས་པར་ལེན་ལ་གཟིགས།"
+msgstr ""
 
 #: search.py:11
 msgid "Signature capture text"
-msgstr "མིང་རྟགས་འཛིན་པའི་ཡི་གེ།"
+msgstr ""
 
 #: search.py:15
 msgid "Signature capture user first name"
-msgstr "མིང་རྟགས་འཛིན་བཟུང་སྤྱོད་མཁན་གྱི་མིང་དང་པོ།"
+msgstr ""
 
 #: search.py:19
 msgid "Signature capture user last name"
-msgstr "མིང་རྟགས་འཛིན་བཟུང་སྤྱོད་མཁན་གྱི་རུས་མིང་།"
+msgstr ""
 
 #: search.py:23
 msgid "Signature capture user username"
-msgstr "མིང་རྟགས་འཛིན་བཟུང་སྤྱོད་མཁན་སྤྱོད་མཁན་གྱི་མིང་།"
+msgstr ""
 
 #: search.py:34
 msgid "Document type label"
@@ -160,15 +158,15 @@ msgstr "ཡིག་ཆའི་ལག་ཁྱེར་།"
 
 #: search.py:41
 msgid "User first name"
-msgstr "སྤྱོད་མཁན་གྱི་མིང་།"
+msgstr ""
 
 #: search.py:44
 msgid "User last name"
-msgstr "སྤྱོད་མཁན་གྱི་རུས་མིང་།"
+msgstr ""
 
 #: search.py:47
 msgid "User username"
-msgstr "སྤྱོད་མཁན་གྱི་མིང་།"
+msgstr ""
 
 #: serializers.py:11
 msgid "Document URL"
@@ -189,79 +187,72 @@ msgid ""
 "deleting the oldest signature capture cache files. Specify the size in "
 "bytes."
 msgstr ""
-"མིང་རྟགས་འཛིན་པའི་མཛོད་ཡིག་ཆ་རྙིང་ཤོས་དེ་བསུབས་འགོ་ཚུགས་པའི་ཚད་གཞི། "
-"ཚད་དེ་བཱའིཊི་ནང་གསལ་བཀོད་འབད།"
 
 #: settings.py:30
 msgid ""
 "Path to the Storage subclass to use when storing the cached signature "
 "capture files."
 msgstr ""
-"འདྲ་མཛོད་ཀྱི་མིང་རྟགས་འཛིན་བཟུང་ཡིག་ཆ་གསོག་འཇོག་བྱེད་སྐབས་བེད་སྤྱོད་གཏོང་བའི་གསོག་འཇོག་སྡེ་ཚན་ཆུང་བ་ལ་འགྲོ་ལམ།"
 
 #: settings.py:38
 msgid ""
 "Arguments to pass to the "
 "SIGNATURE_CAPTURES_SIGNATURE_CAPTURE_CACHE_STORAGE_BACKEND."
 msgstr ""
-"མཚན་རྟགས་_འཛིན་བཟུང་_མཚན་རྟགས་_འཛིན་བཟུང་_མཛོད་_དོས་ཁང་_རྒྱབ་ལྗོངས་ལ་སྤྲོད་པའི་སྒྲུབ་བྱེད།"
 
 #: storages.py:14
 msgid ""
 "Unable to initialize the converter signature capture cachestorage. Check the"
 " settings {} and {} for formatting errors."
 msgstr ""
-"སྒྱུར་ཆས་ཀྱི་མིང་རྟགས་འཛིན་བཟུང་མཛོད་ཁང་འགོ་འཛུགས་མི་ཐུབ། སྒྲིག་སྟངས་ {} དང་"
-" {} ལ་རྩ་སྒྲིག་ནོར་འཁྲུལ་ཡོད་མེད་ཞིབ་བཤེར་བྱེད།"
 
 #: storages.py:20
 msgid "Signature captures cache"
-msgstr "མིང་རྟགས་ཀྱིས་མཛོད་འཛིན་ཐུབ།"
+msgstr ""
 
 #: templates/signature_captures/widget_signature_capture.html:64
 msgid "Sign above"
-msgstr "གོང་དུ་རྟགས།"
+msgstr ""
 
 #: transformations.py:18
 msgid "Paste a signature capture (percent coordinates)"
-msgstr "མཚན་རྟགས་པར་ལེན་ཞིག་སྦྱར་(བརྒྱ་ཆའི་སྦྲེལ་མཐུད)"
+msgstr ""
 
 #: transformations.py:39
 msgid "Signature capture internal name"
-msgstr "མཚན་རྟགས་བཟུང་བའི་ནང་མིང་།"
+msgstr ""
 
 #: views.py:44
 #, python-format
 msgid "Create signature capture for document: %s"
-msgstr "ཡིག་ཆའི་ཆེད་དུ་མིང་རྟགས་པར་ལེན་བཟོས། %s"
+msgstr ""
 
 #: views.py:75
 #, python-format
 msgid "Delete signature capture: %s"
-msgstr "མཚན་རྟགས་འཛིན་བཟུང་བསུབས་ %s"
+msgstr ""
 
 #: views.py:97
 #, python-format
 msgid "Details of: %s"
-msgstr "ཞིབ་ཕྲའི་གནས་ཚུལ།: %s"
+msgstr ""
 
 #: views.py:113
 #, python-format
 msgid "Edit document signature capture: %s"
-msgstr "ཡིག་ཆའི་མིང་རྟགས་འཛིན་བཟུང་ཞུན་དག་: %s"
+msgstr ""
 
 #: views.py:140
 msgid ""
 "Signature captures are electronic versions of a persons's handwritten "
 "signature."
 msgstr ""
-"མཚན་རྟགས་འཛིན་བཟུང་ནི་མི་ཞིག་གི་ལག་བྲིས་མཚན་རྟགས་ཀྱི་གློག་རྡུལ་ཐོན་རིམ་ཡིན།"
 
 #: views.py:143
 msgid "Document has no signature captures"
-msgstr "ཡིག་ཆ་ལ་མིང་རྟགས་བཀོད་མེད།"
+msgstr ""
 
 #: views.py:146
 #, python-format
 msgid "Signature captures for document: %s"
-msgstr "ཡིག་ཆའི་ཆེད་དུ་མིང་རྟགས། %s"
+msgstr ""

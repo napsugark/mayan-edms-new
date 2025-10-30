@@ -4,16 +4,16 @@
 # 
 # Translators:
 # Translators:
-# Roberto Rosario, 2025
 # Ford Guo <agile.guo@gmail.com>, 2025
+# Roberto Rosario, 2025
 # Leon Chu, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 11:22+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Leon Chu, 2025\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/rosarior/teams/13584/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -157,63 +157,63 @@ msgstr "登入頁面"
 msgid "Password reset email sent!"
 msgstr "密碼重置郵件已送出！"
 
-#: views/authentication_views.py:162
+#: views/authentication_views.py:158
 msgid "Next"
 msgstr "后"
 
-#: views/authentication_views.py:168
+#: views/authentication_views.py:164
 #, python-format
 msgid "Step %(step)d of %(total_steps)d: %(step_label)s"
 msgstr "步骤%(step)d ：%(step_label)s，总步骤%(total_steps)d"
 
-#: views/authentication_views.py:192
+#: views/authentication_views.py:188
 msgid "Sign in"
 msgstr "登入"
 
-#: views/authentication_views.py:242
+#: views/authentication_views.py:238
 msgid "Your password has been successfully changed."
 msgstr "你已成功變更密碼。"
 
-#: views/authentication_views.py:253
+#: views/authentication_views.py:249
 msgid "Current user password change"
 msgstr "目前使用者變更密碼"
 
-#: views/authentication_views.py:265
+#: views/authentication_views.py:261
 msgid "Changing the password is not allowed for this account."
 msgstr "此帳戶不允許變更密碼。"
 
-#: views/authentication_views.py:366
+#: views/authentication_views.py:278
 #, python-format
 msgid "Password change request performed on %(count)d user"
 msgstr "在%(count)d使用者上執行的密碼變更申請"
 
-#: views/authentication_views.py:369
+#: views/authentication_views.py:281
 #, python-format
 msgid "Password change request performed on %(count)d users"
 msgstr "在%(count)d複數使用者上執行密碼變更申請"
 
-#: views/authentication_views.py:386
+#: views/authentication_views.py:298
 msgid ""
 "Changing the password of staff or super user accounts via the user interface"
 " is not allowed. Use administration tools to perform this operation."
 msgstr ""
 
-#: views/authentication_views.py:400
+#: views/authentication_views.py:312
 msgid "Change user password"
 msgid_plural "Change users passwords"
 msgstr[0] "變更複數使用者密碼"
 
-#: views/authentication_views.py:411
+#: views/authentication_views.py:323
 #, python-format
 msgid "Change password for user: %s"
 msgstr "變更使用者密碼：%s"
 
-#: views/authentication_views.py:435
+#: views/authentication_views.py:347
 #, python-format
 msgid "Successful password reset for user: %s."
 msgstr "成功重置使用者密碼：%s。"
 
-#: views/authentication_views.py:441
+#: views/authentication_views.py:353
 #, python-format
 msgid "Error resetting password for user \"%(user)s\": %(error)s"
 msgstr ""

@@ -4,17 +4,17 @@
 # 
 # Translators:
 # Translators:
+# bwakkie <bwakkie@gmail.com>, 2025
 # Roberto Rosario, 2025
 # j jacobs <j.jacobs@rijnlandslyceum-rls.nl>, 2025
-# bwakkie <bwakkie@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: bwakkie <bwakkie@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: j jacobs <j.jacobs@rijnlandslyceum-rls.nl>, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/rosarior/teams/13584/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -393,7 +393,7 @@ msgstr "Het doelpaginanummer kan niet worden herhaald."
 msgid "Page group"
 msgstr ""
 
-#: forms/misc_forms.py:14 literals.py:99
+#: forms/misc_forms.py:14 literals.py:101
 msgid "Page range"
 msgstr "Paginabereik"
 
@@ -616,55 +616,55 @@ msgstr "Herstellen"
 msgid "Default"
 msgstr "Standaardwaarde"
 
-#: literals.py:91
+#: literals.py:93
 msgid "January"
 msgstr "Januari"
 
-#: literals.py:91
+#: literals.py:93
 msgid "February"
 msgstr "Februari"
 
-#: literals.py:91
+#: literals.py:93
 msgid "March"
 msgstr "Maart"
 
-#: literals.py:91
+#: literals.py:93
 msgid "April"
 msgstr "April"
 
-#: literals.py:91
+#: literals.py:93
 msgid "May"
 msgstr "Mei"
 
-#: literals.py:92
+#: literals.py:94
 msgid "June"
 msgstr "Juni"
 
-#: literals.py:92
+#: literals.py:94
 msgid "July"
 msgstr "Juli"
 
-#: literals.py:92
+#: literals.py:94
 msgid "August"
 msgstr "Augustus"
 
-#: literals.py:92
+#: literals.py:94
 msgid "September"
 msgstr "September"
 
-#: literals.py:92
+#: literals.py:94
 msgid "October"
 msgstr "Oktober"
 
-#: literals.py:93
+#: literals.py:95
 msgid "November"
 msgstr "November"
 
-#: literals.py:93
+#: literals.py:95
 msgid "December"
 msgstr "December"
 
-#: literals.py:99
+#: literals.py:101
 msgid "All pages"
 msgstr "Alle pagina's"
 

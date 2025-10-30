@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: apps.py:35 permissions.py:6
 msgid "Task manager"
-msgstr "ལས་འགན་འགན་འཛིན།"
+msgstr ""
 
 #: apps.py:123 apps.py:200 classes.py:64
 msgid "Label"
@@ -30,11 +30,11 @@ msgstr "མིང་བྱང།"
 
 #: apps.py:127 apps.py:204 classes.py:71
 msgid "Name"
-msgstr "མིང"
+msgstr ""
 
 #: apps.py:132
 msgid "Default queue?"
-msgstr "སྔོན་སྒྲིག་བང་རིམ།"
+msgstr ""
 
 #: apps.py:137
 msgid ""
@@ -42,14 +42,10 @@ msgid ""
 "the broker is restarted. Transient queues use less resources and managed non"
 " critical tasks."
 msgstr ""
-"དུས་ཐུང་བང་རིམ་རྣམས་རྒྱུན་འཁྱོངས་བྱེད་ཀྱི་མེད། "
-"གལ་ཏེ་བར་ཚོང་པ་དེ་བསྐྱར་དུ་འགོ་བཙུགས་ན་གནས་སྐབས་ཀྱི་བང་རིམ་ནང་གི་ལས་འགན་བརླག་འགྲོ་གི་རེད།"
-" "
-"དུས་ཐུང་བང་རིམ་གྱིས་ཐོན་ཁུངས་ཉུང་བ་དང་གལ་ཆེའི་ལས་འགན་མིན་པའི་དོ་དམ་བྱེད་ཀྱི་ཡོད།"
 
 #: apps.py:140
 msgid "Is transient?"
-msgstr "དུས་ཐུང་ཡིན་ནམ།"
+msgstr ""
 
 #: apps.py:171
 msgid "Type"
@@ -57,143 +53,135 @@ msgstr "རིགས"
 
 #: apps.py:176
 msgid "Start time"
-msgstr "འགོ་ཚུགས་དུས་ཚོད།"
+msgstr ""
 
 #: apps.py:180
 msgid "Host"
-msgstr "འགོ་འཛིན་པ"
+msgstr ""
 
 #: apps.py:184
 msgid "Arguments"
-msgstr "རྩོད་པ།"
+msgstr ""
 
 #: apps.py:188
 msgid "Keyword arguments"
-msgstr "གཙོ་ཚིག་རྩོད་གླེང་།"
+msgstr ""
 
 #: apps.py:193
 msgid "Worker process ID"
-msgstr "ལས་བྱེད་པའི་བརྒྱུད་རིམ་ཨང་རྟགས།"
+msgstr ""
 
 #: apps.py:213
 msgid ""
 "Maximum number of tasks a worker can execute before it's replaced by a new "
 "process."
 msgstr ""
-"ལས་བྱེད་པ་ཞིག་གིས་བྱ་རིམ་གསར་པས་ཚབ་མ་བྱེད་གོང་དུ་ལག་བསྟར་བྱེད་ཐུབ་པའི་ལས་འགན་ཆེ་ཤོས་ཀྱི་གྲངས་འབོར།"
 
 #: apps.py:215
 msgid "Maximum tasks per child"
-msgstr "བྱིས་པ་རེར་ཆེས་མཐོ་བའི་ལས་འགན།"
+msgstr ""
 
 #: apps.py:220
 msgid ""
 "The number of worker processes/threads to launch. Defaults to the number of "
 "CPUs available on the machine."
 msgstr ""
-"ལས་བྱེད་པའི་བྱ་རིམ་དང་སྐུད་པའི་གྲངས་འབོར། "
-"འཕྲུལ་ཆས་སྟེང་ཡོད་པའི་CPUགྲངས་ལ་སྔོན་སྒྲིག་བྱེད།"
 
 #: apps.py:222
 msgid "Concurrency"
-msgstr "དུས་མཉམ་པ།"
+msgstr ""
 
 #: apps.py:227
 msgid ""
 "The nice value determines the priority of the process. A higher value lowers"
 " the priority. The default value is 0."
 msgstr ""
-"རིན་ཐང་ཡག་པོ་དེས་བྱ་རིམ་གྱི་གཙོ་གནད་གཏན་འབེབས་བྱེད། "
-"རིན་ཐང་མཐོ་བས་གཙོ་གནད་དམའ་རུ་གཏོང་གི་ཡོད། སྔོན་སྒྲིག་རིན་ཐང་ནི་༠ཡིན།"
 
 #: apps.py:230
 msgid "Nice level"
-msgstr "གནས་ཚད་ཡག་པོ་འདུག"
+msgstr ""
 
 #: classes.py:55
 msgid "The Python path to the task code."
-msgstr "ལས་འགན་ཨང་རྟགས་ལ་པའེ་ཐོན་འགྲོ་ལམ།"
+msgstr ""
 
 #: classes.py:56
 msgid "Dotted path"
-msgstr "ཚེག་ཅན་གྱི་ལམ།"
+msgstr ""
 
 #: classes.py:62
 msgid "Human readable description of the task type."
-msgstr "ལས་འགན་རིགས་ཀྱི་མིས་ཀློག་ཐུབ་པའི་འགྲེལ་བཤད།"
+msgstr ""
 
 #: classes.py:70
 msgid "Unique internal name of the task type."
-msgstr "ལས་འགན་རིགས་ཀྱི་ཐུན་མོང་མ་ཡིན་པའི་ནང་ཁུལ་གྱི་མིང་།"
+msgstr ""
 
 #: classes.py:77 classes.py:251
 msgid "Queue"
-msgstr "ལྕང་ལོ"
+msgstr ""
 
 #: classes.py:83
 msgid "Trigger interval if the task type is set for periodic execution."
-msgstr "གལ་ཏེ་ལས་འགན་རིགས་དེ་དུས་མཚམས་ལག་བསྟར་བྱེད་པར་གཞི་སྒྲིག་བྱས་ཡོད་ན།"
+msgstr ""
 
 #: classes.py:86
 msgid "Schedule"
-msgstr "ཐོ་གཞུང"
+msgstr ""
 
 #: classes.py:91 classes.py:329
 msgid "Worker"
-msgstr "ལས་བྱེད་པ།"
+msgstr ""
 
 #: classes.py:217
 msgid "Number of task types managed by the queue."
-msgstr "བང་རིམ་གྱིས་དོ་དམ་བྱེད་པའི་ལས་འགན་རིགས་ཀྱི་གྲངས།"
+msgstr ""
 
 #: classes.py:219 classes.py:317
 msgid "Task type count"
-msgstr "ལས་འགན་རིགས་གྲངས།"
+msgstr ""
 
 #: classes.py:295
 msgid ""
 "Maximum amount of resident memory a worker can execute before it's replaced "
 "by a new process."
 msgstr ""
-"ལས་བྱེད་པ་ཞིག་གིས་བྱ་རིམ་གསར་པས་ཚབ་མ་བྱེད་གོང་དུ་ལག་བསྟར་བྱེད་ཐུབ་པའི་དྲན་ཤེས་ཆེ་ཤོས་དེ་ལག་བསྟར་བྱེད་ཐུབ།"
 
 #: classes.py:299
 msgid "Maximum memory per child"
-msgstr "བྱིས་པ་རེར་ཆེས་མཐོའི་དྲན་ཚད།"
+msgstr ""
 
 #: classes.py:305
 msgid "Queue count"
-msgstr "བང་རིམ་གྲངས།"
+msgstr ""
 
 #: classes.py:315
 msgid "Number of task types managed by the worker."
-msgstr "ལས་བྱེད་པས་དོ་དམ་བྱེད་པའི་ལས་འགན་རིགས་ཀྱི་གྲངས་འབོར།"
+msgstr ""
 
 #: links.py:13 links.py:18
 msgid "Task type list"
-msgstr "ལས་འགན་རིགས་ཀྱི་ཐོ་གཞུང་།"
+msgstr ""
 
 #: links.py:22
 msgid "Worker list"
-msgstr "ལས་མིའི་ཐོ་གཞུང་།"
+msgstr ""
 
 #: links.py:27
 msgid "Queue list"
-msgstr "བང་རིམ་ཐོ་གཞུང་།"
+msgstr ""
 
 #: permissions.py:10
 msgid "View tasks"
-msgstr "ལས་འགན་ལ་ལྟ་བ།"
+msgstr ""
 
 #: settings.py:11
 msgid "Celery"
-msgstr "སེ་ལེ་རི།"
+msgstr ""
 
 #: settings.py:17
 msgid "Default: \"AMQPLAIN\". Set custom amqp login method."
 msgstr ""
-"སྔོན་སྒྲིག: &quot;AMQPLAIN&quot;. "
-"སྲོལ་རྒྱུན་གྱི་amqpནང་འཇུག་བྱེད་ཐབས་སྒྲིག་དགོས།"
 
 #: settings.py:23
 msgid ""
@@ -202,18 +190,12 @@ msgid ""
 " (transport://) is required, the rest is optional, and defaults to the "
 "specific transports default values."
 msgstr ""
-"སྔོན་སྒྲིག: &quot;amqp://&quot;. སྔོན་སྒྲིག་བརྡ་ཁྱབ་དྲ་རྒྱ། "
-"འདི་ནི་སྐྱེལ་འདྲེན་://userid:password@hostname:port/virtual_host "
-"འཆར་གཞིའི་ཆ་ཤས་(transport://) ཁོ་ན་དགོས་པ་དང་། ལྷག་མ་རྣམས་འདེམས་གཞི་ཡིན།"
 
 #: settings.py:32
 msgid ""
 "Default: \"Disabled\". Toggles SSL usage on broker connection and SSL "
 "settings. The valid values for this option vary by transport."
 msgstr ""
-"སྔོན་སྒྲིག: &quot;ལྕོགས་མིན་བཟོས་ཡོད།&quot; "
-"བར་ཚོང་པའི་མཐུད་ཁ་དང་SSLསྒྲིག་སྟངས་ཐོག་ལ་SSLབེད་སྤྱོད་བརྗེ་སྒྱུར་བྱེད། "
-"གདམ་ཁ་འདིའི་ནུས་ལྡན་གྱི་རིན་ཐང་དེ་སྐྱེལ་འདྲེན་ལ་གཞིགས་ཏེ་མི་འདྲ་བ་རེད།"
 
 #: settings.py:40
 msgid ""
@@ -222,50 +204,47 @@ msgid ""
 "http://docs.celeryproject.org/en/v4.1.0/userguide/configuration.html#result-"
 "backend"
 msgstr ""
-"སྔོན་སྒྲིག: སྔོན་སྒྲིག་ལྟར་གྲུབ་འབྲས་རྒྱབ་ཕྱོགས་ལྕོགས་ཅན་བཟོས་མེད། "
-"ལས་འགན་གྱི་གྲུབ་འབྲས་གསོག་འཇོག་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་རྒྱབ་ལྗོངས་(དུར་རྡོ)"
-" དྲ་ཚིགས་འདིར་ལྟོས།"
 
 #: tests/literals.py:11
 msgid "Test queue"
-msgstr "ཚོད་ལྟའི་བང་རིམ།"
+msgstr ""
 
 #: views.py:20
 msgid "Task types"
-msgstr "ལས་འགན་རིགས།"
+msgstr ""
 
 #: views.py:43
 #, python-format
 msgid "Task types for queue: %s"
-msgstr "བང་རིམ་གྱི་ལས་འགན་རིགས། %s"
+msgstr ""
 
 #: views.py:56
 #, python-format
 msgid "Queue: %s, not found"
-msgstr "བང་རིམ: %s , མ་རྙེད།"
+msgstr ""
 
 #: views.py:68
 msgid "Background task workers"
-msgstr "རྒྱབ་ལྗོངས་ལས་འགན་ལས་བྱེད་པ།"
+msgstr ""
 
 #: views.py:85
 #, python-format
 msgid "Queues for worker: %s"
-msgstr "ལས་བྱེད་པའི་བང་རིམ %s"
+msgstr ""
 
 #: views.py:95
 #, python-format
 msgid "Worker: %s, not found"
-msgstr "ལས་བྱེད་པ་: %s , མ་རྙེད།"
+msgstr ""
 
 #: workers.py:20
 msgid "Low latency high volume tasks"
-msgstr "འགོར་འགྱངས་དམའ་བའི་སྒྲ་ཚད་མཐོ་བའི་ལས་འགན།"
+msgstr ""
 
 #: workers.py:28 workers.py:35
 msgid "Medium latency tasks"
-msgstr "འགོར་འགྱངས་འབྲིང་བའི་ལས་འགན།"
+msgstr ""
 
 #: workers.py:42 workers.py:50
 msgid "Low latency, long lived tasks"
-msgstr "འགྱངས་ཚད་དམའ་བ་དང་། ཡུན་རིང་གི་ལས་འགན།"
+msgstr ""

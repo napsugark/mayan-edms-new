@@ -3,16 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# KarmaBuildsApps, 2025
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-27 19:15+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: KarmaBuildsApps, 2025\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,29 +18,28 @@ msgstr ""
 
 #: templates/forms/app/foot.html:20
 msgid "Cancel upload"
-msgstr "ཡར་འཇུག་མེད་པར་བཟོས།"
+msgstr ""
 
 #: templates/forms/app/foot.html:21
 msgid "Are you sure you want to cancel this upload?"
-msgstr "ཁྱོད་ཀྱིས་ཕབ་ལེན་འདི་མེད་པར་བཟོ་རྒྱུ་ཡིན་པ་གཏན་ཁེལ་ཡིན་ནམ།"
+msgstr ""
 
 #: templates/forms/app/foot.html:22
 msgid "Drop files or click here to upload files"
-msgstr "ཡིག་ཆ་འཇོག་པའམ་ཡང་ན་ཡིག་ཆ་ཡར་བསྐུར་ཆེད་འདིར་གནོན།"
+msgstr ""
 
 #: templates/forms/app/foot.html:23
 msgid "Your browser does not support drag and drop file uploads."
-msgstr "ཁྱེད་ཀྱི་བཤར་ཆས་ཀྱིས་ཡིག་སྣོད་འདྲུད་འཇོག་ལ་རྒྱབ་སྐྱོར་བྱེད་ཀྱི་མེད།"
+msgstr ""
 
 #: templates/forms/app/foot.html:24
 msgid "Please use the fallback form below to upload your files."
 msgstr ""
-"ཁྱེད་རང་གི་ཡིག་ཆ་ཕབ་ལེན་བྱེད་པར་གཤམ་གྱི་རྒྱབ་ལྗོངས་འབྲི་ཤོག་འདི་བེད་སྤྱོད་གནང་རོགས།"
 
 #: templates/forms/app/foot.html:25
 msgid "Clear"
-msgstr "དྭངས་མ"
+msgstr ""
 
 #: templates/forms/app/foot.html:26
 msgid "Server responded with {{statusCode}} code."
-msgstr "སར་བར་གྱིས་{{statusCode}}གསང་གྲངས་ལན་བཏབ་ཡོད།"
+msgstr ""

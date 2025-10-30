@@ -4,20 +4,20 @@
 # 
 # Translators:
 # Translators:
+# Daniel Stolpe, 2025
 # Roberto Rosario, 2025
 # Tobias Paepke <tobias.paepke@paepke.net>, 2025
 # Berny <berny@bernhard-marx.de>, 2025
-# Daniel Stolpe, 2025
-# Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2025
 # Mathias Behrle <mathiasb@m9s.biz>, 2025
+# Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-27 11:22+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2025\n"
 "Language-Team: German (Austria) (https://app.transifex.com/rosarior/teams/13584/de_AT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

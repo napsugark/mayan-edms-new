@@ -4,18 +4,18 @@
 # 
 # Translators:
 # Translators:
-# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2025
 # Thierry Schott <DarkDare@users.noreply.github.com>, 2025
-# Frédéric Sheedy <sheedf@gmail.com>, 2025
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2025
 # Yves Dubois <ydubois@gmail.com>, 2025
+# Frédéric Sheedy <sheedf@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-02 14:05+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Yves Dubois <ydubois@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Frédéric Sheedy <sheedf@gmail.com>, 2025\n"
 "Language-Team: French (https://app.transifex.com/rosarior/teams/13584/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: apps.py:28 apps.py:54 links.py:14 queues.py:7
+#: apps.py:28 apps.py:54 links.py:14 links.py:18 queues.py:7
 msgid "Duplicates"
 msgstr "Doublons"
 
@@ -43,10 +43,6 @@ msgstr "Somme de contrôle du document"
 msgid "Exact document label"
 msgstr "Nom exact du document"
 
-#: links.py:18 models.py:39 views.py:79
-msgid "Duplicated documents"
-msgstr "Documents doublons"
-
 #: links.py:24 queues.py:24
 msgid "Duplicated document scan"
 msgstr "Numérisations de documents doublons"
@@ -62,6 +58,10 @@ msgstr ""
 #: models.py:35
 msgid "Document"
 msgstr "Document"
+
+#: models.py:39
+msgid "Duplicated documents"
+msgstr "Documents doublons"
 
 #: models.py:47
 msgid "Duplicated backend entry"
@@ -109,8 +109,12 @@ msgstr ""
 "différent ne seront pas affichés comme doublons."
 
 #: views.py:77
-msgid "There are no duplicated documents"
-msgstr "Il n'y a pas de documents en double"
+msgid "There are no documents with duplicates"
+msgstr ""
+
+#: views.py:79
+msgid "Documents with duplicates"
+msgstr ""
 
 #: views.py:87
 msgid "Scan for duplicated documents?"

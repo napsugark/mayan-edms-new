@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Māris Teivāns <maris.teivans@gmail.com>, 2025\n"
 "Language-Team: Latvian (https://app.transifex.com/rosarior/teams/13584/lv/)\n"
 "MIME-Version: 1.0\n"
@@ -74,15 +74,15 @@ msgstr ""
 
 #: forms.py:51
 msgid "Yes"
-msgstr "Jā"
+msgstr ""
 
 #: forms.py:51
 msgid "No"
-msgstr "Nē"
+msgstr ""
 
 #: links.py:39
 msgid "Check out document"
-msgstr "Izrakstīt dokumentu"
+msgstr ""
 
 #: links.py:43
 msgid "Check out"
@@ -201,7 +201,7 @@ msgstr ""
 #: views.py:35
 #, python-format
 msgid "Document \"%(object)s\" checked in successfully."
-msgstr ""
+msgstr "Dokuments \"%(object)s\" pierakstīts veiksmīgi."
 
 #: views.py:38
 #, python-format
@@ -236,7 +236,7 @@ msgstr ""
 #: views.py:105
 #, python-format
 msgid "Document \"%(object)s\" checked out successfully."
-msgstr ""
+msgstr "Dokuments \"%(object)s\" izrakstīts veiksmīgi."
 
 #: views.py:108
 #, python-format
@@ -272,8 +272,8 @@ msgstr ""
 
 #: views.py:184
 msgid "No documents have been checked out"
-msgstr "Neviens dokuments nav izrakstīts"
+msgstr ""
 
 #: widgets.py:19
 msgid "Amount"
-msgstr "Apjoms"
+msgstr ""

@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Jiří Podhorecký <jirka.p@volny.cz>, 2025
-# Michal Švábík <snadno@lehce.cz>, 2025
 # Jiri Fait <fait@orkasolutions.cz>, 2025
+# Michal Švábík <snadno@lehce.cz>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Jiri Fait <fait@orkasolutions.cz>, 2025\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Michal Švábík <snadno@lehce.cz>, 2025\n"
 "Language-Team: Czech (https://app.transifex.com/rosarior/teams/13584/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

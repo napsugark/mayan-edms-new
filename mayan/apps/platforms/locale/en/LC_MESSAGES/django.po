@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
 "PO-Revision-Date: 2025-03-28 15:56-0400\n"
 "Last-Translator: Roberto Rosario <rosarior@lp-ammna039>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,23 +16,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: apps.py:15 permissions.py:6 settings.py:17
-msgid "Platform"
+#: apps.py:15
+msgid "Platforms"
 msgstr ""
 
-#: client_backends.py:34
-msgid "Sentry test error"
+#: permissions.py:6 settings.py:17
+msgid "Platform"
 msgstr ""
 
 #: permissions.py:10
 msgid "Trigger tests"
 msgstr ""
 
-#: platforms_templates.py:132
+#: platform_templates.py:132
 msgid "Template for Supervisord."
 msgstr ""
 
-#: platforms_templates.py:205
+#: platform_templates.py:205
 msgid "Template showing the queues of a worker."
 msgstr ""
 

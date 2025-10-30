@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -40,12 +40,12 @@ msgstr "الرمز إما غير صالح أو منتهي الصلاحية"
 
 #: forms.py:26
 msgid "TOTP token"
-msgstr "رمز TOTP (الرمز المميز لمرة واحدة المعتمد على الوقت)"
+msgstr "الرمز المميز لمرة واحدة المعتمد على الوقت TOTP "
 
 #: forms.py:87
 msgid "OTP enabled?"
 msgstr ""
-"هل كلمة المرور لمرة واحدة (OTP) مفعلة؟\n"
+"هل كلمة المرور لمرة واحدة OTP مفعلة؟\n"
 " "
 
 #: forms.py:88
@@ -66,7 +66,7 @@ msgstr ""
 
 #: forms.py:107 forms.py:112
 msgid "Secret"
-msgstr "خاص"
+msgstr "المفتاح السري"
 
 #: forms.py:118
 msgid ""
@@ -118,7 +118,7 @@ msgstr "تفاصيل كلمة المرور لمرة واحدة OTP للمستخ�
 #: views.py:45
 #, python-format
 msgid "Disable one time pad for user: %s"
-msgstr "تعطيل كلمة المرور لمرة واحدة (OTP) للمستخدم: %s"
+msgstr "تعطيل كلمة المرور لمرة واحدة OTP للمستخدم: %s"
 
 #: views.py:56
 msgid "OTP disable successfully."

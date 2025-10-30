@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-02 14:05+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -20,78 +20,78 @@ msgstr ""
 "Language: bo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: apps.py:28 apps.py:54 links.py:14 queues.py:7
+#: apps.py:28 apps.py:54 links.py:14 links.py:18 queues.py:7
 msgid "Duplicates"
-msgstr "འདྲ་བཤུས།"
+msgstr ""
 
 #: apps.py:60
 msgid "Duplicate backend"
-msgstr "རྒྱབ་ཕྱོགས་འདྲ་བཤུས།"
+msgstr ""
 
 #: classes.py:89
 msgid "Null backend"
-msgstr "རྒྱབ་ཕྱོགས་སྟོང་པ།"
+msgstr ""
 
 #: duplicate_backends.py:9
 msgid "Exact document file checksum"
-msgstr "ཏག་ཏག་ཡིག་ཆའི་ཡིག་ཆའི་ཞིབ་དཔྱད་བསྡོམས་འབོར།"
+msgstr ""
 
 #: duplicate_backends.py:32
 msgid "Exact document label"
-msgstr "ཏག་ཏག་ཡིག་ཆའི་མིང་བྱང་།"
-
-#: links.py:18 models.py:39 views.py:79
-msgid "Duplicated documents"
-msgstr "ཡིག་ཆ་འདྲ་བཤུས་བྱས་པ།"
+msgstr ""
 
 #: links.py:24 queues.py:24
 msgid "Duplicated document scan"
-msgstr "ཡིག་ཆའི་བཤེར་བཤེར་འདྲ་བཤུས།"
+msgstr ""
 
 #: models.py:19 models.py:31
 msgid "Stored duplicate backend"
-msgstr "ཉར་ཚགས་བྱས་པའི་རྒྱབ་ཕྱོགས་འདྲ་བཤུས།"
+msgstr ""
 
 #: models.py:20
 msgid "Stored duplicate backends"
-msgstr "ཉར་ཚགས་བྱས་པའི་རྒྱབ་ཕྱོགས་འདྲ་བཤུས།"
+msgstr ""
 
 #: models.py:35
 msgid "Document"
 msgstr "ཡིག་ཆ།"
 
+#: models.py:39
+msgid "Duplicated documents"
+msgstr ""
+
 #: models.py:47
 msgid "Duplicated backend entry"
-msgstr "རྒྱབ་ཕྱོགས་ཐོ་འགོད་འདྲ་བཤུས།"
+msgstr ""
 
 #: models.py:48
 msgid "Duplicated backend entries"
-msgstr "རྒྱབ་ཕྱོགས་ཐོ་འགོད་འདྲ་བཤུས་བྱས་པ།"
+msgstr ""
 
 #: queues.py:10
 msgid "Duplicates slow"
-msgstr "འདྲ་བཤུས་དལ་བ།"
+msgstr ""
 
 #: queues.py:15
 msgid "Clean empty duplicate lists"
-msgstr "འདྲ་བཤུས་ཐོ་གཞུང་སྟོང་པ་གཙང་བཟོ།"
+msgstr ""
 
 #: queues.py:19
 msgid "Scan document duplicates"
-msgstr "ཡིག་ཆའི་འདྲ་བཤུས་པར་བཤེར་བྱེད་པ།"
+msgstr ""
 
 #: views.py:36
 msgid "Only exact copies of this document will be shown in the this list."
-msgstr "ཐོ་གཞུང་འདིའི་ནང་ཡིག་ཆ་འདིའི་འདྲ་བཤུས་ངོ་མ་ཁོ་ན་སྟོན་རྒྱུ་རེད།"
+msgstr ""
 
 #: views.py:40
 msgid "There are no duplicates for this document"
-msgstr "ཡིག་ཆ་འདི་ལ་འདྲ་བཤུས་མེད།"
+msgstr ""
 
 #: views.py:44
 #, python-format
 msgid "Duplicates for document: %s"
-msgstr "ཡིག་ཆའི་འདྲ་བཤུས་: %s"
+msgstr ""
 
 #: views.py:70
 msgid ""
@@ -99,17 +99,19 @@ msgid ""
 "the last byte. Files that have the same text or OCR but are not identical or"
 " were saved using a different file format will not appear as duplicates."
 msgstr ""
-"འདྲ་བཤུས་ནི་ཡིག་ཆ་གཅིག་པ་ལས་གྲུབ་པའི་ཡིག་ཆ་ཡིན། "
-"ཡིག་ཆ་དེ་དག་ལ་ཚིག་ཡིག་གཅིག་པའམ་ཡང་ན་OCRཡོད་ཀྱང་འདྲ་མཚུངས་མིན་པའམ་ཡང་ན་ཡིག་ཆའི་རྩ་སྒྲིག་མི་འདྲ་བ་བཀོལ་སྤྱོད་བྱས་ནས་ཉར་ཚགས་བྱས་པ་དེ་དག་འདྲ་བཤུས་ལྟར་མངོན་མི་ཐུབ།"
 
 #: views.py:77
-msgid "There are no duplicated documents"
-msgstr "ཡིག་ཆ་འདྲ་བཤུས་མེད་པ།"
+msgid "There are no documents with duplicates"
+msgstr ""
+
+#: views.py:79
+msgid "Documents with duplicates"
+msgstr ""
 
 #: views.py:87
 msgid "Scan for duplicated documents?"
-msgstr "ཡིག་ཆ་འདྲ་བཤུས་ལ་བཤེར་འཚོལ་བྱེད་དམ།"
+msgstr ""
 
 #: views.py:95
 msgid "Duplicated document scan queued successfully."
-msgstr "ཡིག་ཆའི་འདྲ་བཤུས་བཤེར་འཚོལ་ལེགས་འགྲུབ་བྱུང་ཡོད།"
+msgstr ""

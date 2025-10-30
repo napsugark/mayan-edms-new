@@ -2,17 +2,17 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 # Translators:
 # Marwan Rahhal <Marwanr@sssit.net>, 2025
 # Mohamad Ashmar, 2025
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -22,8 +22,8 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: apps.py:10
-msgid "Platform Docker"
-msgstr "منصة Docker"
+msgid "Platforms Docker"
+msgstr ""
 
 #: literals.py:15
 msgid "Allows setting the worker's Celery `concurrency` value."
@@ -37,19 +37,19 @@ msgstr "يسمح بتعيين قيمة max-memory-per-child لـ Celery الخ
 msgid "Allows setting the worker's Celery `max-tasks-per-child` value."
 msgstr "يسمح بتعيين قيمة max-tasks-per-child لـ Celery الخاص بالعامل."
 
-#: platforms_templates.py:31
+#: platform_templates.py:26
 msgid "Template for entrypoint.sh file inside a Docker image."
 msgstr "قالب لملف entrypoint.sh داخل صورة Docker."
 
-#: platforms_templates.py:47
+#: platform_templates.py:42
 msgid "Template that generates the Docker Compose file."
 msgstr "قالب يولد ملف Docker Compose."
 
-#: platforms_templates.py:217
+#: platform_templates.py:162
 msgid "Template for Supervisord inside a Docker image."
 msgstr "النموذج الخاص بالـ Doker"
 
-#: platforms_templates.py:232
+#: platform_templates.py:177
 msgid "Template that generates a Dockerfile file."
 msgstr "قالب يولد ملف Dockerfile."
 

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Bosnian (https://app.transifex.com/rosarior/teams/13584/bs/)\n"
 "MIME-Version: 1.0\n"
@@ -42,7 +42,7 @@ msgstr "Dokument odjavljen"
 
 #: events.py:20
 msgid "Document forcefully checked in"
-msgstr "Dokument je prisilno prijavljen"
+msgstr ""
 
 #: exceptions.py:15
 msgid "Document not checked out."
@@ -74,15 +74,15 @@ msgstr ""
 
 #: forms.py:51
 msgid "Yes"
-msgstr "Da"
+msgstr ""
 
 #: forms.py:51
 msgid "No"
-msgstr "Ne"
+msgstr ""
 
 #: links.py:39
 msgid "Check out document"
-msgstr "Pogledajte dokument"
+msgstr ""
 
 #: links.py:43
 msgid "Check out"

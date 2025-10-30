@@ -5,20 +5,20 @@
 # Translators:
 # Translators:
 # Siegfried Albrecht, 2025
-# Marvin Haschker <marvin@haschker.me>, 2025
-# Ingo Buchholz <ingo.buchholz@takwa.de>, 2025
 # Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2025
-# Berny <berny@bernhard-marx.de>, 2025
 # Bjoern Kowarsch <bjoern.kowarsch@gmail.com>, 2025
+# Marvin Haschker <marvin@haschker.me>, 2025
 # Mathias Behrle <mathiasb@m9s.biz>, 2025
+# Ingo Buchholz <ingo.buchholz@takwa.de>, 2025
+# Berny <berny@bernhard-marx.de>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Berny <berny@bernhard-marx.de>, 2025\n"
 "Language-Team: German (Austria) (https://app.transifex.com/rosarior/teams/13584/de_AT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,7 +48,7 @@ msgstr "Dokument ausgebucht"
 
 #: events.py:20
 msgid "Document forcefully checked in"
-msgstr "Dokument zwingend eingebucht"
+msgstr ""
 
 #: exceptions.py:15
 msgid "Document not checked out."
@@ -80,15 +80,15 @@ msgstr "Neue Dateien erlaubt?"
 
 #: forms.py:51
 msgid "Yes"
-msgstr "Ja"
+msgstr ""
 
 #: forms.py:51
 msgid "No"
-msgstr "Nein"
+msgstr ""
 
 #: links.py:39
 msgid "Check out document"
-msgstr "Dokument ausbuchen"
+msgstr ""
 
 #: links.py:43
 msgid "Check out"
@@ -217,7 +217,7 @@ msgstr "%(count)d Dokumente erfolgreich eingebucht."
 #: views.py:40
 #, python-format
 msgid "Check in %(count)d documents."
-msgstr "%(count)d Dokumente einbuchen."
+msgstr ""
 
 #: views.py:41
 #, python-format
@@ -237,7 +237,7 @@ msgstr "Fehler beim Ausbuchen von Dokument \"%(instance)s\"; %(exception)s"
 #: views.py:102
 #, python-format
 msgid "%(count)d documents checked out successfully."
-msgstr "%(count)d Dokumente erfolgreich ausgebucht."
+msgstr ""
 
 #: views.py:105
 #, python-format
@@ -279,8 +279,8 @@ msgstr ""
 
 #: views.py:184
 msgid "No documents have been checked out"
-msgstr "Keine Dokumente ausgebucht"
+msgstr ""
 
 #: widgets.py:19
 msgid "Amount"
-msgstr "Anzahl"
+msgstr ""

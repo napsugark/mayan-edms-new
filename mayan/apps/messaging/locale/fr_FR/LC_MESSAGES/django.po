@@ -4,10 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Roberto Rosario, 2025
-# Luc Didry, 2025
-# Yves Dubois <ydubois@gmail.com>, 2025
 # Christophe CHAUVET <christophe.chauvet@gmail.com>, 2025
+# Luc Didry, 2025
+# Roberto Rosario, 2025
+# Yves Dubois <ydubois@gmail.com>, 2025
 # Frédéric Sheedy <sheedf@gmail.com>, 2025
 # Baptiste GAILLET <baptiste.gaillet@cstb.fr>, 2025
 # 
@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Baptiste GAILLET <baptiste.gaillet@cstb.fr>, 2025\n"
 "Language-Team: French (France) (https://app.transifex.com/rosarior/teams/13584/fr_FR/)\n"
 "MIME-Version: 1.0\n"

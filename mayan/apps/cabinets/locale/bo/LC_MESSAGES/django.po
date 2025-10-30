@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-27 11:22+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr ""
 #: permissions.py:6 search.py:54 views/cabinet_views.py:158
 #: workflow_actions.py:39 workflow_actions.py:53
 msgid "Cabinets"
-msgstr "ཆ་སྒམ།"
+msgstr ""
 
 #: apps.py:163 models.py:43
 msgid "Documents"
@@ -33,128 +33,128 @@ msgstr "ཡིག་ཆ།"
 
 #: events.py:11
 msgid "Cabinet created"
-msgstr "བཀའ་ཤག་གསར་འཛུགས་བྱས།"
+msgstr ""
 
 #: events.py:14
 msgid "Cabinet deleted"
-msgstr "བཀའ་ཤག་བསུབ་སོང་།"
+msgstr ""
 
 #: events.py:17
 msgid "Cabinet edited"
-msgstr "བཀའ་ཤག་རྩོམ་སྒྲིག།"
+msgstr ""
 
 #: events.py:20
 msgid "Document added to cabinet"
-msgstr "བཀའ་ཤག་ནང་ཡིག་ཆ་ཁ་སྣོན་བྱས།"
+msgstr ""
 
 #: events.py:23
 msgid "Document removed from cabinet"
-msgstr "ཡིག་ཆ་བཀའ་ཤག་ནས་ཕྱིར་འཐེན་བྱས།"
+msgstr ""
 
 #: links.py:36 links.py:48 workflow_actions.py:75
 msgid "Remove from cabinets"
-msgstr "ཆ་སྒམ་ནང་ནས་ཕུད་དགོས།"
+msgstr ""
 
 #: links.py:41 links.py:44 workflow_actions.py:21
 msgid "Add to cabinets"
-msgstr "ཆ་སྒམ་ལ་ཁ་སྣོན་བྱེད་པ།"
+msgstr ""
 
 #: links.py:59
 msgid "Add new level"
-msgstr "རིམ་པ་གསར་པ་སྣོན་པ།"
+msgstr ""
 
 #: links.py:64 views/cabinet_views.py:36
 msgid "Create cabinet"
-msgstr "བཀའ་ཤག་བཟོས།"
+msgstr ""
 
 #: links.py:69
 msgid "Delete"
-msgstr "བསུབ་པ།"
+msgstr "བསུབ།"
 
 #: links.py:73
 msgid "Edit"
-msgstr "བཅོས་པ།"
+msgstr "བཅོས།"
 
 #: links.py:81
 msgid "All"
-msgstr "ཚང་མ"
+msgstr ""
 
 #: links.py:85
 msgid "Details"
-msgstr "ཞིབ་ཆ"
+msgstr ""
 
 #: methods.py:21
 msgid "Return a list of cabinets containing the document."
-msgstr "ཡིག་ཆ་དེ་ཡོད་པའི་སྒྲོམ་གྱི་ཐོ་གཞུང་ཞིག་ཕྱིར་ལོག་བྱེད།"
+msgstr ""
 
 #: methods.py:23
 msgid "get_cabinets()"
-msgstr "སྒམ་ཆུང་ཐོབ།()"
+msgstr ""
 
 #: model_mixins.py:64
 msgid "The path to the cabinet including all ancestors."
-msgstr "མེས་པོ་ཚང་མ་ཚུད་པའི་བཀའ་ཤག་གི་ལམ་བུ།"
+msgstr ""
 
 #: model_mixins.py:66 serializers.py:32
 msgid "Full path"
-msgstr "ལམ་ཕྱོགས་ཆ་ཚང་།"
+msgstr ""
 
 #: models.py:35 serializers.py:41
 msgid "Parent"
-msgstr "ཕ་མ།"
+msgstr ""
 
 #: models.py:38
 msgid "A short text used to identify the cabinet."
-msgstr "བཀའ་ཤག་ངོས་འཛིན་བྱེད་པའི་ཡིག་ཆ་ཐུང་ངུ་ཞིག"
+msgstr ""
 
 #: models.py:39
 msgid "Label"
-msgstr "ལག་ཁྱེར་།"
+msgstr "མིང་བྱང།"
 
 #: models.py:53 models.py:135 models.py:159
 msgid "Cabinet"
-msgstr "སྒེར་གྱི་ཁང་ཆུང"
+msgstr ""
 
 #: models.py:134
 msgid "Parent and Label"
-msgstr "ཕ་མ་དང་མིང་བྱང་།"
+msgstr ""
 
 #: models.py:142
 #, python-format
 msgid "%(model_name)s with this %(field_labels)s already exists."
-msgstr "འདི་དང་མཉམ་དུ་ %(model_name)s %(field_labels)s སྔོན་ནས་ཡོད།"
+msgstr ""
 
 #: models.py:171
 msgid "Document cabinet"
-msgstr "ཡིག་ཆའི་སྒམ།"
+msgstr ""
 
 #: models.py:172
 msgid "Document cabinets"
-msgstr "ཡིག་ཆའི་སྒམ།"
+msgstr ""
 
 #: permissions.py:12
 msgid "Add documents to cabinets"
-msgstr "ཡིག་སྒམ་ནང་ཡིག་ཆ་ཁ་སྣོན་བྱེད་པ།"
+msgstr ""
 
 #: permissions.py:15
 msgid "Create cabinets"
-msgstr "ཆ་སྒམ་བཟོས།"
+msgstr ""
 
 #: permissions.py:18
 msgid "Delete cabinets"
-msgstr "ཆ་སྒམ་སུབ་པ།"
+msgstr ""
 
 #: permissions.py:21
 msgid "Edit cabinets"
-msgstr "ཆ་སྒམ་རྩོམ་སྒྲིག།"
+msgstr ""
 
 #: permissions.py:24
 msgid "Remove documents from cabinets"
-msgstr "ཡིག་སྒམ་ནས་ཡིག་ཆ་ཕྱིར་འཐེན་བྱེད་པ།"
+msgstr ""
 
 #: permissions.py:27
 msgid "View cabinets"
-msgstr "ཆ་སྒམ་ལྟ་བ།"
+msgstr ""
 
 #: search.py:25
 msgid "Document type"
@@ -178,40 +178,40 @@ msgstr "ཡིག་ཆའི་དག་བཤེར་།"
 
 #: search.py:43
 msgid "Document file MIME type"
-msgstr "ཡིག་ཆའི་ཡིག་ཆ་MIMEརིགས།"
+msgstr ""
 
 #: search.py:50
 msgid "The database ID of the cabinet."
-msgstr "ཆ་སྒམ་གྱི་གཞི་གྲངས་མཛོད་ཀྱི་ID།"
+msgstr ""
 
 #: search.py:51
 msgid "Cabinet ID"
-msgstr "བཀའ་ཤག་ལག་འཁྱེར།"
+msgstr ""
 
 #: serializers.py:18
 msgid "List of children cabinets."
-msgstr "བྱིས་པའི་ཆ་སྒམ་གྱི་ཐོ་གཞུང་།"
+msgstr ""
 
 #: serializers.py:19
 msgid "Children"
-msgstr "བྱིས་པ་ཚོ"
+msgstr ""
 
 #: serializers.py:23
 msgid ""
 "URL of the API endpoint showing the list documents inside this cabinet."
-msgstr "ཐོ་གཞུང་ཡིག་ཆ་དེ་ཚོ་སྒམ་འདིའི་ནང་དུ་སྟོན་པའི་APIམཐའ་མཚམས་ཀྱི་URLཡིན།"
+msgstr ""
 
 #: serializers.py:25
 msgid "Documents URL"
-msgstr "ཡིག་ཆའི་ཁ་བྱང་།"
+msgstr ""
 
 #: serializers.py:30
 msgid "The name of this cabinet level appended to the names of its ancestors."
-msgstr "བཀའ་ཤག་གི་གནས་རིམ་འདིའི་མིང་དེ་ཕ་མེས་ཀྱི་མིང་ལ་སྦྱར་ཡོད།"
+msgstr ""
 
 #: serializers.py:35
 msgid "Parents URL"
-msgstr "ཕ་མའི་URL"
+msgstr ""
 
 #: serializers.py:51
 msgid "URL"
@@ -219,7 +219,7 @@ msgstr "URL །"
 
 #: serializers.py:84
 msgid "Primary key of the document to add to the cabinet."
-msgstr "ཡིག་ཆའི་ལྡེ་མིག་གཙོ་བོ་དེ་སྒམ་ནང་དུ་ཁ་སྣོན་བྱེད་དགོས།"
+msgstr ""
 
 #: serializers.py:85 serializers.py:95
 msgid "Document ID"
@@ -227,128 +227,123 @@ msgstr "ཡིག་ཆའི་ཨང་རྟགས།"
 
 #: serializers.py:94
 msgid "Primary key of the document to remove from the cabinet."
-msgstr "ཡིག་ཆའི་ལྡེ་མིག་གཙོ་བོ། བཀའ་ཤག་ནས་ཕྱིར་འཐེན་བྱེད་དགོས།"
+msgstr ""
 
 #: templates/cabinets/cabinet_details.html:17
 msgid "Navigation:"
-msgstr "འགྲིམ་འགྲུལ།"
+msgstr ""
 
 #: views/cabinet_views.py:53
 #, python-format
 msgid "Add new level to: %s"
-msgstr "གནས་རིམ་གསར་བ་ཁ་སྣོན་བྱེད་ %s"
+msgstr ""
 
 #: views/cabinet_views.py:78
 #, python-format
 msgid "Delete the cabinet: %s?"
-msgstr "ཆ་སྒམ་དེ་ %s །"
+msgstr ""
 
 #: views/cabinet_views.py:117
 msgid ""
 "Cabinet levels can contain documents or other cabinet sub levels. To add "
 "documents to a cabinet, select the cabinet view of a document view."
 msgstr ""
-"བཀའ་ཤག་གི་རིམ་པ་ཁག་ལ་ཡིག་ཆ་ཡང་ན་བཀའ་ཤག་གི་རིམ་པ་ཆུང་བ་གཞན་པ་ཡོད་སྲིད། "
-"ཡིག་ཆ་སྒམ་ལ་ཁ་སྣོན་བྱེད་པར་ ཡིག་ཆའི་མཐོང་སྣང་གི་སྒམ་མཐོང་སྣང་འདེམས།"
 
 #: views/cabinet_views.py:121
 msgid "This cabinet level is empty"
-msgstr "བཀའ་ཤག་རིམ་པ་འདི་སྟོང་པ་རེད།"
+msgstr ""
 
 #: views/cabinet_views.py:124
 #, python-format
 msgid "Details of cabinet: %s"
-msgstr "ཆ་སྒམ་གྱི་ཞིབ་ཕྲ།: %s"
+msgstr ""
 
 #: views/cabinet_views.py:143
 #, python-format
 msgid "Edit cabinet: %s"
-msgstr "རྩོམ་སྒྲིག་སྒམ།: %s"
+msgstr ""
 
 #: views/cabinet_views.py:164
 msgid ""
 "Cabinets are a multi-level method to organize documents. Each cabinet can "
 "contain documents as well as other sub level cabinets."
 msgstr ""
-"ཤོག་སྒམ་ནི་ཡིག་ཆ་སྒྲིག་འཛུགས་བྱེད་པའི་རིམ་པ་མང་བའི་ཐབས་ལམ་ཞིག་ཡིན། "
-"ཆ་སྒམ་རེ་རེའི་ནང་ཡིག་ཆ་དང་ཆ་སྒམ་ཆུང་བ་གཞན་དག་ཀྱང་འཇོག་ཐུབ།"
 
 #: views/cabinet_views.py:168
 msgid "No cabinets available"
-msgstr "ཆ་སྒམ་མེད།"
+msgstr ""
 
 #: views/document_views.py:30
 #, python-format
 msgid "Document \"%(object)s\" added to cabinets successfully."
-msgstr "ཡིག་ཆ་ &quot; %(object)s &quot; དེ་སྒམ་ནང་མཐར་ཕྱིན་ངང་ཁ་སྣོན་བྱས།"
+msgstr ""
 
 #: views/document_views.py:33
 #, python-format
 msgid "%(count)d document added to cabinets successfully."
-msgstr "ཡིག་ཆ་ %(count)d ཡིག་ཆ་དེ་སྒམ་ནང་མཐར་ཕྱིན་ངང་ཁ་སྣོན་བྱས།"
+msgstr ""
 
 #: views/document_views.py:36
 #, python-format
 msgid "%(count)d documents added to cabinets successfully."
-msgstr "ཡིག་ཆ་དེ་ཚོ་སྒམ་ནང་ལ་མཐར་ཕྱིན་ %(count)d སྣོན་བྱས།"
+msgstr ""
 
 #: views/document_views.py:38
 #, python-format
 msgid "Add %(count)d documents to cabinets."
-msgstr "ཡིག་ཆ་དེ་ཚོ་སྒམ་ནང་ལ་ %(count)d ཁ་སྣོན་བྱེད།"
+msgstr ""
 
 #: views/document_views.py:39
 #, python-format
 msgid "Add document \"%(object)s\" to cabinets."
-msgstr "ཡིག་ཆ་ &quot; %(object)s &quot; ཆ་སྒམ་ལ་ཁ་སྣོན་བྱེད།"
+msgstr ""
 
 #: views/document_views.py:40
 #, python-format
 msgid "Add %(count)d document to cabinets."
-msgstr "ཡིག་ཆ་དེ་སྒམ་ནང་ལ་ %(count)d ཁ་སྣོན་བྱེད།"
+msgstr ""
 
 #: views/document_views.py:58
 msgid "Cabinets to which the selected documents will be added."
-msgstr "འདེམས་སྒྲུག་བྱས་པའི་ཡིག་ཆ་ཁ་སྣོན་བྱེད་སའི་སྒམ་ཆུང་།"
+msgstr ""
 
 #: views/document_views.py:105
 msgid "Documents can be added to many cabinets."
-msgstr "ཡིག་ཆ་རྣམས་ཆ་སྒམ་མང་པོར་ཁ་སྣོན་བྱེད་ཐུབ།"
+msgstr ""
 
 #: views/document_views.py:108
 msgid "This document is not in any cabinet"
-msgstr "ཡིག་ཆ་འདི་བཀའ་ཤག་གང་དུ་ཡང་མེད།"
+msgstr ""
 
 #: views/document_views.py:112
 #, python-format
 msgid "Cabinets containing document: %s"
-msgstr "ཡིག་ཆ་ཡོད་པའི་སྒམ་ཆུང་། %s"
+msgstr ""
 
 #: views/document_views.py:128
 #, python-format
 msgid "Document \"%(object)s\" removed from cabinets successfully."
 msgstr ""
-"ཡིག་ཆ་ &quot; %(object)s &quot; དེ་སྒམ་ནང་ནས་མཐར་ཕྱིན་ངང་མེད་པར་བཟོས་ཡོད།"
 
 #: views/document_views.py:131
 #, python-format
 msgid "%(count)d document removed from cabinets successfully."
-msgstr "ཡིག་ཆ་ %(count)d ཡིག་ཆ་དེ་སྒམ་ནས་མཐར་ཕྱིན་ངང་མེད་པར་བཟོས་ཡོད།"
+msgstr ""
 
 #: views/document_views.py:134
 #, python-format
 msgid "%(count)d documents removed from cabinets successfully."
-msgstr "ཡིག་ཆ་དེ་ཚོ་སྒམ་ནས་མཐར་ཕྱིན་ %(count)d མེད་པར་བཟོས་ཡོད།"
+msgstr ""
 
 #: views/document_views.py:136
 #, python-format
 msgid "Remove %(count)d documents from cabinets."
-msgstr "ཡིག་ཆ་དེ་ཚོ་སྒམ་ནང་ནས་མེད་པར་ %(count)d"
+msgstr ""
 
 #: views/document_views.py:137
 #, python-format
 msgid "Remove document \"%(object)s\" from cabinets."
-msgstr "ཡིག་ཆ་ &quot; %(object)s &quot; དེ་སྒམ་ནང་ནས་མེད་པར་བཟོས།"
+msgstr ""
 
 #: views/document_views.py:138
 #, python-format
@@ -357,7 +352,7 @@ msgstr "ཡིག་ཆ་ %(count)d སྒམ་ནས་བསུབ།"
 
 #: views/document_views.py:156
 msgid "Cabinets from which the selected documents will be removed."
-msgstr "འདེམས་སྒྲུག་བྱས་པའི་ཡིག་ཆ་དེ་དག་མེད་པར་བཟོ་རྒྱུའི་སྒྲོམ་གཞི།"
+msgstr ""
 
 #: wizard_steps.py:20
 msgid "Select cabinets"
@@ -365,8 +360,8 @@ msgstr "ཡིག་སྒམ་འདེམས།"
 
 #: wizard_steps.py:80 workflow_actions.py:33
 msgid "Cabinets to which the document will be added."
-msgstr "ཡིག་ཆ་དེ་ཁ་སྣོན་བྱེད་སའི་སྒམ་ཆུང་།"
+msgstr ""
 
 #: workflow_actions.py:83
 msgid "Cabinets from which the document will be removed"
-msgstr "ཡིག་ཆ་དེ་མེད་པར་བཟོ་རྒྱུའི་སྒམ་ཆུང་།"
+msgstr ""

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -22,27 +22,27 @@ msgstr ""
 
 #: apps.py:23 permissions.py:6 settings.py:14
 msgid "Document downloads"
-msgstr "ཡིག་ཆ་ཕབ་ལེན།"
+msgstr ""
 
 #: classes.py:49
 msgid "Document_file_bundle.zip"
-msgstr "ཡིག་ཆའི་ཡིག་ཆ།"
+msgstr ""
 
 #: classes.py:53
 msgid "Compressed document files"
-msgstr "བསྡུ་སྒྲིག་བྱས་པའི་ཡིག་ཆའི་ཡིག་ཆ།"
+msgstr ""
 
 #: events.py:6 queues.py:7
 msgid "Documents downloads"
-msgstr "ཡིག་ཆ་ཕབ་ལེན།"
+msgstr ""
 
 #: events.py:10
 msgid "Document file downloaded"
-msgstr "ཡིག་ཆའི་ཡིག་ཆ་ཕབ་ལེན་བྱས་ཟིན།"
+msgstr ""
 
 #: forms.py:8
 msgid "Document file ID"
-msgstr "ཡིག་ཆའི་ཡིག་ཆའི་ཨང་རྟགས།"
+msgstr ""
 
 #: forms.py:11
 msgid "Document"
@@ -50,19 +50,19 @@ msgstr "ཡིག་ཆ།"
 
 #: forms.py:19
 msgid "Document file"
-msgstr "ཡིག་ཆའི་ཡིག་ཆ།"
+msgstr "Document ཡིག་ཆ་།"
 
 #: forms.py:27
 msgid "Include"
-msgstr "ཁོངས་སུ་བརྩི་བ"
+msgstr ""
 
 #: links.py:12 links.py:18
 msgid "Download files"
-msgstr "ཡིག་ཆ་ཕབ་ལེན།"
+msgstr ""
 
 #: links.py:24
 msgid "Quick download"
-msgstr "མགྱོགས་མྱུར་ཕབ་ལེན།"
+msgstr ""
 
 #: literals.py:7
 msgid ""
@@ -70,89 +70,78 @@ msgid ""
 " the link: {{ download_url }} or from the downloads area ({{ "
 "download_list_url }})."
 msgstr ""
-"ཡིག་ཆའི་ཡིག་ཆ་རྣམས་བསྡུ་རུབ་བྱས་ཟིན་པས་འབྲེལ་མཐུད་འདི་བརྒྱུད་ནས་ཕབ་ལེན་བྱེད་ཐུབ།"
-" {{ download_url }} ཡང་ན་ཕབ་ལེན་ས་ཁོངས་ནས་ ({{ download_list_url }})"
 
 #: literals.py:13
 msgid "Document files ready for download."
-msgstr "ཡིག་ཆའི་ཡིག་ཆ་ཕབ་ལེན་གྲ་སྒྲིག་བྱས་ཟིན།"
+msgstr ""
 
 #: permissions.py:10
 msgid "Download document files"
-msgstr "ཡིག་ཆའི་ཡིག་ཆ་ཕབ་ལེན།"
+msgstr ""
 
 #: queues.py:13
 msgid "Generate a compressed document file bundle"
-msgstr "བསྡམས་པའི་ཡིག་ཆའི་ཡིག་ཆའི་སྒྲིག་ཆས་བཟོས།"
+msgstr ""
 
 #: settings.py:21
 msgid "Path to the download subclass to use when downloading document files."
 msgstr ""
-"ཡིག་ཆའི་ཡིག་ཆ་ཕབ་ལེན་བྱེད་སྐབས་བེད་སྤྱོད་གཏོང་བའི་ཕབ་ལེན་སྡེ་ཚན་ཆུང་བ་ལ་འགྲོ་ལམ།"
 
 #: settings.py:29
 msgid ""
 "Arguments to pass to the DOCUMENT_DOWNLOADS_DOCUMENT_FILE_DOWNLOAD_BACKEND."
-msgstr "ཡིག་ཆ་_ཕབ་ལེན་_ཡིག་ཆ་_ཕབ་ལེན་_རྒྱབ་ལྗོངས་ལ་སྤྲོད་པའི་རྩོད་གླེང་།"
+msgstr ""
 
 #: settings.py:36
 msgid ""
 "Template for the document download message body text. Can include HTML. "
 "Available variables: {}"
 msgstr ""
-"ཡིག་ཆ་ཕབ་ལེན་འཕྲིན་ཡིག་གི་ཡིག་གཟུགས་ཀྱི་དཔེ་གཞི། HTML ཚུད་ཐུབ། "
-"ཐོབ་པའི་འགྱུར་ལྡོག་ཅན་: {}"
 
 #: settings.py:45
 msgid ""
 "Template for the document download message subject line. Can't include HTML."
 " Available variables: {}"
 msgstr ""
-"ཡིག་ཆ་ཕབ་ལེན་འཕྲིན་ཡིག་གི་བརྗོད་གཞིའི་གྲལ་རིམ་གྱི་དཔེ་གཞི། HTML ཚུད་མི་ཐུབ། "
-"ཐོབ་པའི་འགྱུར་ལྡོག་ཅན་: {}"
 
 #: views.py:32
 #, python-format
 msgid ""
 "Unable to queued document \"%(instance)s\" for file download; %(exception)s."
 msgstr ""
-"ཡིག་ཆ་ཕབ་ལེན་ཆེད་དུ་ཡིག་ཆ་ &quot; %(instance)s &quot; བང་སྒྲིག་བྱེད་མི་ཐུབ། "
-"%(exception)s །"
 
 #: views.py:41
 #, python-format
 msgid "%(count)d document files queued for download."
-msgstr "ཡིག་ %(count)d ཡིག་ཆ་ཕབ་ལེན་བྱེད་པར་བང་སྒྲིག་ཡོད།"
+msgstr ""
 
 #: views.py:44
 #, python-format
 msgid "Document file \"%(object)s\" queued for download."
-msgstr "ཡིག་ཆའི་ཡིག་ཆ་ &quot; %(object)s &quot; ཕབ་ལེན་ཆེད་དུ་བང་སྒྲིག་ཡོད།"
+msgstr ""
 
 #: views.py:47
 #, python-format
 msgid "%(count)d document file queued for download."
-msgstr "ཕབ་ལེན་ཆེད་དུ་ཡིག་ཆའི་ཡིག་ཆ་ %(count)d བང་སྒྲིག་ཡོད།"
+msgstr ""
 
 #: views.py:49
 #, python-format
 msgid "Download files of %(count)d documents"
-msgstr "ཡིག་ཆ་ %(count)d ཡིག་ཆ་ཕབ་ལེན་བྱེད་པ།"
+msgstr ""
 
 #: views.py:50
 #, python-format
 msgid "Download files of document: %(object)s"
-msgstr "ཡིག་ཆའི་ཡིག་ཆ་ཕབ་ལེན་བྱེད་པ། %(object)s"
+msgstr ""
 
 #: views.py:51
 #, python-format
 msgid "Download files of %(count)d document"
-msgstr "ཡིག་ཆ་ %(count)d ཡིག་ཆ་ཕབ་ལེན་བྱེད་པ།"
+msgstr ""
 
 #: views.py:58
 msgid ""
 "The process will be performed in the background. The document files will be "
 "available in the downloads area."
 msgstr ""
-"བྱ་རིམ་དེ་རྒྱབ་ལྗོངས་སུ་སྒྲུབ་རྒྱུ་རེད། "
-"ཡིག་ཆའི་ཡིག་ཆ་རྣམས་ཕབ་ལེན་བྱེད་སའི་ས་ཁུལ་དུ་ཐོབ་ཐུབ།"

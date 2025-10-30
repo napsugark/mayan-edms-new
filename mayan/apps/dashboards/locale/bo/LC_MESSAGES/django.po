@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-27 11:22+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -22,29 +22,29 @@ msgstr ""
 
 #: apps.py:18 links.py:12 views.py:12
 msgid "Dashboards"
-msgstr "མཛུབ་སྟོན་སྒྲོམ་གཞི།"
+msgstr ""
 
 #: apps.py:24
 msgid "Widgets"
-msgstr "ཡོ་ཆས།"
+msgstr ""
 
 #: apps.py:28
 msgid "Label"
-msgstr "ལག་ཁྱེར་།"
+msgstr "མིང་བྱང།"
 
 #: dashboards.py:6
 msgid "Administrator dashboard"
-msgstr "འཛིན་སྐྱོང་མཛུབ་སྟོན་སྒྲོམ་གཞི།"
+msgstr ""
 
 #: links.py:9
 msgid "Details"
-msgstr "ཞིབ་ཆ"
+msgstr ""
 
 #: templates/dashboards/numeric_widget.html:27
 #: templates/dashboards/widget_list.html:47
 msgid "View details"
-msgstr "ཞིབ་ཕྲ་གཟིགས།"
+msgstr ""
 
 #: views.py:32
 msgid "Dashboard detail"
-msgstr "མཛུབ་ཁྲིད་སྒྲོམ་གྱི་ཞིབ་ཕྲ།"
+msgstr ""

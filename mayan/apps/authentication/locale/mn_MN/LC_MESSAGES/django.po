@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 11:22+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Zoljargal Munkhjargal, 2025\n"
 "Language-Team: Mongolian (Mongolia) (https://app.transifex.com/rosarior/teams/13584/mn_MN/)\n"
 "MIME-Version: 1.0\n"
@@ -153,64 +153,64 @@ msgstr "Нэвтрэх хуудас"
 msgid "Password reset email sent!"
 msgstr "Нууц үг сэргээх и-мэйл илгээлээ."
 
-#: views/authentication_views.py:162
+#: views/authentication_views.py:158
 msgid "Next"
 msgstr "Дараах"
 
-#: views/authentication_views.py:168
+#: views/authentication_views.py:164
 #, python-format
 msgid "Step %(step)d of %(total_steps)d: %(step_label)s"
 msgstr "Алхам %(step)d / %(total_steps)d: %(step_label)s"
 
-#: views/authentication_views.py:192
+#: views/authentication_views.py:188
 msgid "Sign in"
 msgstr "Нэвтрэх"
 
-#: views/authentication_views.py:242
+#: views/authentication_views.py:238
 msgid "Your password has been successfully changed."
 msgstr "Таны нууц үг амжилттай солигдлоо."
 
-#: views/authentication_views.py:253
+#: views/authentication_views.py:249
 msgid "Current user password change"
 msgstr "Хэрэглэгчийн нууц үг солих"
 
-#: views/authentication_views.py:265
+#: views/authentication_views.py:261
 msgid "Changing the password is not allowed for this account."
 msgstr "Энэ хэрэглэгчийн нууц үгийг солихыг зөвшөөрөхгүй."
 
-#: views/authentication_views.py:366
+#: views/authentication_views.py:278
 #, python-format
 msgid "Password change request performed on %(count)d user"
 msgstr "%(count)d хэрэглэгч дээрх нууц үг солих хүсэлт хийгдсэн "
 
-#: views/authentication_views.py:369
+#: views/authentication_views.py:281
 #, python-format
 msgid "Password change request performed on %(count)d users"
 msgstr "%(count)d хэрэглэгч дээрх нууц үг солих хүсэлт хийгдсэн"
 
-#: views/authentication_views.py:386
+#: views/authentication_views.py:298
 msgid ""
 "Changing the password of staff or super user accounts via the user interface"
 " is not allowed. Use administration tools to perform this operation."
 msgstr ""
 
-#: views/authentication_views.py:400
+#: views/authentication_views.py:312
 msgid "Change user password"
 msgid_plural "Change users passwords"
 msgstr[0] "Хэрэглэгчдийн нууц үг солих"
 msgstr[1] "Хэрэглэгчдийн нууц үг солих"
 
-#: views/authentication_views.py:411
+#: views/authentication_views.py:323
 #, python-format
 msgid "Change password for user: %s"
 msgstr "%s хэрэглэгчийн нууц үг солих"
 
-#: views/authentication_views.py:435
+#: views/authentication_views.py:347
 #, python-format
 msgid "Successful password reset for user: %s."
 msgstr "%s-н нууц үгийг амжилттай тохирууллаа."
 
-#: views/authentication_views.py:441
+#: views/authentication_views.py:353
 #, python-format
 msgid "Error resetting password for user \"%(user)s\": %(error)s"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,11 @@ msgstr ""
 msgid "Document parsing"
 msgstr ""
 
-#: apps.py:113
+#: apps.py:113 apps.py:119
 msgid "A generator returning the document file's pages parsed content."
 msgstr ""
 
-#: apps.py:114 links.py:26 links.py:65 models.py:27 search.py:18
+#: apps.py:114 apps.py:120 links.py:26 links.py:65 models.py:27 search.py:18
 msgid "Content"
 msgstr ""
 
@@ -69,7 +69,7 @@ msgid "Submit for parsing"
 msgstr ""
 
 #: links.py:75
-msgid "Setup parsing"
+msgid "Parsing setup"
 msgstr ""
 
 #: links.py:84

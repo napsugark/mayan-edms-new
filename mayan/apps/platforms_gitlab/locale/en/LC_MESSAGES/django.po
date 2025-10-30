@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-28 14:16+0000\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: apps.py:10
-msgid "Platform GitLab"
+msgid "Platforms GitLab"
 msgstr ""
 
-#: platform_templates.py:30
+#: platform_templates.py:31
 msgid "Template that generates a GitLab CI config file."
 msgstr ""

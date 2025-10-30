@@ -5,16 +5,16 @@
 # Translators:
 # Translators:
 # Yaman Sanobar <yman.snober@gmail.com>, 2025
-# Marwan Rahhal <Marwanr@sssit.net>, 2025
 # Mohamad Ashmar, 2025
+# Marwan Rahhal <Marwanr@sssit.net>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-02 14:05+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Mohamad Ashmar, 2025\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: apps.py:28 apps.py:54 links.py:14 queues.py:7
+#: apps.py:28 apps.py:54 links.py:14 links.py:18 queues.py:7
 msgid "Duplicates"
 msgstr "النسخ المكررة"
 
@@ -42,10 +42,6 @@ msgstr "مجموع التحقق الدقيق لملف المستند"
 msgid "Exact document label"
 msgstr "تسمية الوثيقة بالضبط"
 
-#: links.py:18 models.py:39 views.py:79
-msgid "Duplicated documents"
-msgstr "الوثائق المكررة"
-
 #: links.py:24 queues.py:24
 msgid "Duplicated document scan"
 msgstr "مسح ضوئي للوثيقة المكررة"
@@ -61,6 +57,10 @@ msgstr "النسخ الخلفية المكررة المخزنة"
 #: models.py:35
 msgid "Document"
 msgstr "الوثيقة"
+
+#: models.py:39
+msgid "Duplicated documents"
+msgstr "الوثائق المكررة"
 
 #: models.py:47
 msgid "Duplicated backend entry"
@@ -106,8 +106,12 @@ msgstr ""
 "حفظها باستخدام تنسيق ملف مختلف على أنها مكررة."
 
 #: views.py:77
-msgid "There are no duplicated documents"
-msgstr "لا توجد وثائق مكررة"
+msgid "There are no documents with duplicates"
+msgstr ""
+
+#: views.py:79
+msgid "Documents with duplicates"
+msgstr ""
 
 #: views.py:87
 msgid "Scan for duplicated documents?"

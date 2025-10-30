@@ -5,17 +5,17 @@
 # Translators:
 # Translators:
 # Mads L. Nielsen <sirlundgaard@gmail.com>, 2025
+# Rasmus Kierudsen <tebrasso@gmail.com>, 2025
 # René Rovsing Bach <reroba@outlook.com>, 2025
 # Roberto Rosario, 2025
-# Rasmus Kierudsen <tebrasso@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Rasmus Kierudsen <tebrasso@gmail.com>, 2025\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Danish (https://app.transifex.com/rosarior/teams/13584/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -274,7 +274,7 @@ msgstr ""
 #: views/group_views.py:48
 #, python-format
 msgid "Group \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "Gruppen \"%(object)s\" slettet."
 
 #: views/group_views.py:49
 #, python-format
@@ -343,7 +343,7 @@ msgstr ""
 #: views/user_views.py:67
 #, python-format
 msgid "User \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "Bruger \"%(object)s\" slettet."
 
 #: views/user_views.py:70
 #, python-format

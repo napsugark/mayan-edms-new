@@ -4,12 +4,13 @@
 # 
 # Translators:
 # Translators:
+# GM_327, 2025
 # John Kawas <john@clinicalclouds.com>, 2025
-# Ali <alimahwer@yahoo.com>, 2025
-# WM Shinkada <shinkadawasim@gmail.com>, 2025
 # Roberto Rosario, 2025
+# Ali <alimahwer@yahoo.com>, 2025
 # Ayoub BENSAKHRIA <bensakhria.ayoub@gmail.com>, 2025
 # Yaman Sanobar <yman.snober@gmail.com>, 2025
+# WM Shinkada <shinkadawasim@gmail.com>, 2025
 # Mohammed ALDOUB <voulnet@gmail.com>, 2025
 # Marwan Rahhal <Marwanr@sssit.net>, 2025
 # Mohamad Ashmar, 2025
@@ -18,8 +19,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (Egypt) (https://app.transifex.com/rosarior/teams/13584/ar_EG/)\n"
 "MIME-Version: 1.0\n"
@@ -393,7 +394,7 @@ msgstr "لا يمكن تكرار رقم صفحة الوجهة"
 msgid "Page group"
 msgstr "مجموعة الصفحات"
 
-#: forms/misc_forms.py:14 literals.py:99
+#: forms/misc_forms.py:14 literals.py:101
 msgid "Page range"
 msgstr "نطاق الصفحات"
 
@@ -614,55 +615,55 @@ msgstr "استعادة"
 msgid "Default"
 msgstr "القيمة الإفتراضية"
 
-#: literals.py:91
+#: literals.py:93
 msgid "January"
 msgstr "كانون الثاني"
 
-#: literals.py:91
+#: literals.py:93
 msgid "February"
 msgstr "شهر فبراير"
 
-#: literals.py:91
+#: literals.py:93
 msgid "March"
 msgstr "مارس"
 
-#: literals.py:91
+#: literals.py:93
 msgid "April"
 msgstr "أبريل"
 
-#: literals.py:91
+#: literals.py:93
 msgid "May"
 msgstr "مايو"
 
-#: literals.py:92
+#: literals.py:94
 msgid "June"
 msgstr "يونيو"
 
-#: literals.py:92
+#: literals.py:94
 msgid "July"
 msgstr "يوليو"
 
-#: literals.py:92
+#: literals.py:94
 msgid "August"
 msgstr "أغسطس"
 
-#: literals.py:92
+#: literals.py:94
 msgid "September"
 msgstr "سبتمبر"
 
-#: literals.py:92
+#: literals.py:94
 msgid "October"
 msgstr "اكتوبر"
 
-#: literals.py:93
+#: literals.py:95
 msgid "November"
 msgstr "شهر نوفمبر"
 
-#: literals.py:93
+#: literals.py:95
 msgid "December"
 msgstr "ديسمبر"
 
-#: literals.py:99
+#: literals.py:101
 msgid "All pages"
 msgstr "كل الصفحات"
 
@@ -1679,12 +1680,12 @@ msgstr "تم إدراج %(count)d ملف وثيقة للفحص الداخلي"
 #: views/document_file_views.py:145
 msgid "Introspect the selected document file?"
 msgid_plural "Introspect the selected document files?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "فحص ملفات المحددة؟"
+msgstr[1] "فحص الملف المحدد؟"
+msgstr[2] "فحص ملفين المحددين؟"
+msgstr[3] "فحص بعض الملفات المحددة؟"
+msgstr[4] "فحص أغلب الملفات المحددة؟"
+msgstr[5] "فحص الملفات المحددة؟"
 
 #: views/document_file_views.py:156
 #, python-format
@@ -2175,12 +2176,12 @@ msgstr "%(count)d تمت الغاء الوثائق من المفضلة."
 #: views/favorite_document_views.py:92
 msgid "Remove the selected document from favorites?"
 msgid_plural "Remove the selected documents from favorites?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "حذف الملفات المحددة من القائمة المفضلة؟"
+msgstr[1] "حذف الملف المحدد من القائمة المفضلة؟"
+msgstr[2] "حذف الملفين المحددين من القائمة المفضلة؟"
+msgstr[3] "حذف بعض الملفات المحددة من القائمة المفضلة؟"
+msgstr[4] "حذف أغلب الملفات المحددة من القائمة المفضلة؟"
+msgstr[5] "حذف الملفات المحددة من القائمة المفضلة؟"
 
 #: views/misc_views.py:43
 #, python-format

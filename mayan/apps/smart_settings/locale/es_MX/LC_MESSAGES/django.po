@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/rosarior/teams/13584/es_MX/)\n"
 "MIME-Version: 1.0\n"
@@ -112,7 +112,7 @@ msgstr "Revertir"
 msgid "Namespaces"
 msgstr "Categorías"
 
-#: literals.py:47
+#: literals.py:48
 msgid ""
 "Local storage is currently disabled, changes to settings will not be saved. "
 "Instead, use environment variables to modify settings."
@@ -223,6 +223,13 @@ msgstr ""
 
 #: settings.py:75
 msgid ""
+"A dictionary containing the settings for all caches to be used with Django. "
+"It is a nested dictionary whose contents maps cache aliases to a dictionary "
+"containing the options for an individual cache."
+msgstr ""
+
+#: settings.py:84
+msgid ""
 "Whether to use a secure cookie for the CSRF cookie. If this is set to True, "
 "the cookie will be marked as \"secure\", which means browsers may ensure "
 "that the cookie is only sent with an HTTPS connection. "
@@ -235,7 +242,7 @@ msgstr ""
 "HTTPS. https://docs.djangoproject.com/en/4.2/ref/settings/#std-setting-"
 "CSRF_COOKIE_SECURE"
 
-#: settings.py:85
+#: settings.py:94
 msgid ""
 "A list of trusted origins for unsafe requests (e.g. POST). "
 "https://docs.djangoproject.com/en/4.2/ref/settings/#std-setting-"
@@ -245,7 +252,7 @@ msgstr ""
 "POST). https://docs.djangoproject.com/en/4.2/ref/settings/#std-setting-"
 "CSRF_TRUSTED_ORIGINS"
 
-#: settings.py:92
+#: settings.py:101
 msgid ""
 "Whether to store the CSRF token in the user's session instead of in a "
 "cookie. https://docs.djangoproject.com/en/4.2/ref/settings/#std-setting-"
@@ -255,7 +262,7 @@ msgstr ""
 "una cookie. https://docs.djangoproject.com/en/4.2/ref/settings/#std-setting-"
 "CSRF_USE_SESSIONS"
 
-#: settings.py:99
+#: settings.py:108
 msgid ""
 "A dictionary containing the settings for all databases to be used with "
 "Django. It is a nested dictionary whose contents map a database alias to a "
@@ -270,7 +277,7 @@ msgstr ""
 "configurar una base de datos predeterminada; también se puede especificar "
 "cualquier cantidad de bases de datos adicionales."
 
-#: settings.py:110
+#: settings.py:119
 msgid ""
 "Default: 2621440 (i.e. 2.5 MB). The maximum size in bytes that a request "
 "body may be before a SuspiciousOperation (RequestDataTooBig) is raised. The "
@@ -299,7 +306,7 @@ msgstr ""
 "solicitudes, no es posible realizar una comprobación similar en ese nivel. "
 "Ver también FILE_UPLOAD_MAX_MEMORY_SIZE."
 
-#: settings.py:129
+#: settings.py:138
 msgid ""
 "Default: 'webmaster@localhost' Default email address to use for various "
 "automated correspondence from the site manager(s). This doesn't include "
@@ -310,7 +317,7 @@ msgstr ""
 "administrador(es) del sitio. Esto no incluye los mensajes de error enviados "
 "a ADMINS y MANAGERS; para eso, vea SERVER_EMAIL."
 
-#: settings.py:138
+#: settings.py:147
 msgid ""
 "Default: [] (Empty list). List of compiled regular expression objects "
 "representing User-Agent strings that are not allowed to visit any page, "
@@ -323,7 +330,7 @@ msgstr ""
 " malos. Esto solo se usa si CommonMiddleware está instalado (ver "
 "Middleware)."
 
-#: settings.py:147
+#: settings.py:156
 msgid ""
 "Default: 'django.core.mail.backends.smtp.EmailBackend'. The backend to use "
 "for sending emails."
@@ -331,13 +338,13 @@ msgstr ""
 "Valor predeterminado: 'django.core.mail.backends.smtp.EmailBackend'. El "
 "backend para usar para enviar correos electrónicos."
 
-#: settings.py:153
+#: settings.py:162
 msgid "Default: 'localhost'. The host to use for sending email."
 msgstr ""
 "Valor predeterminado: 'localhost'. El host que se usará para enviar correos "
 "electrónicos."
 
-#: settings.py:159
+#: settings.py:168
 msgid ""
 "Default: '' (Empty string). Password to use for the SMTP server defined in "
 "EMAIL_HOST. This setting is used in conjunction with EMAIL_HOST_USER when "
@@ -349,7 +356,7 @@ msgstr ""
 "EMAIL_HOST_USER al autenticarse en el servidor SMTP. Si cualquiera de estas "
 "configuraciones está vacía, Django no intentará la autenticación."
 
-#: settings.py:169
+#: settings.py:178
 msgid ""
 "Default: '' (Empty string). Username to use for the SMTP server defined in "
 "EMAIL_HOST. If empty, Django won't attempt authentication."
@@ -358,13 +365,13 @@ msgstr ""
 "servidor SMTP definido en EMAIL_HOST. Si está vacío, Django no intentará la "
 "autenticación."
 
-#: settings.py:176
+#: settings.py:185
 msgid "Default: 25. Port to use for the SMTP server defined in EMAIL_HOST."
 msgstr ""
 "Valor predeterminado: 25. Puerto para usar para el servidor SMTP definido en"
 " EMAIL_HOST."
 
-#: settings.py:181
+#: settings.py:190
 msgid ""
 "Default: None. Specifies a timeout in seconds for blocking operations like "
 "the connection attempt."
@@ -372,7 +379,7 @@ msgstr ""
 "Predeterminado: ninguno Especifica un tiempo de espera en segundos para "
 "operaciones de bloqueo como el intento de conexión."
 
-#: settings.py:187
+#: settings.py:196
 msgid ""
 "Default: False. Whether to use an implicit TLS (secure) connection when "
 "talking to the SMTP server. In most email documentation this type of TLS "
@@ -389,7 +396,7 @@ msgstr ""
 "son mutuamente excluyentes, por lo que solo debe establecer una de esas "
 "configuraciones en True."
 
-#: settings.py:197
+#: settings.py:206
 msgid ""
 "Default: False. Whether to use a TLS (secure) connection when talking to the"
 " SMTP server. This is used for explicit TLS connections, generally on port "
@@ -401,7 +408,7 @@ msgstr ""
 "generalmente en el puerto 587. Si experimenta conexiones suspendidas, "
 "consulte la configuración de TLS implícita EMAIL_USE_SSL."
 
-#: settings.py:206
+#: settings.py:215
 msgid ""
 "Default: 2621440 (i.e. 2.5 MB). The maximum size (in bytes) that an upload "
 "will be before it gets streamed to the file system. See Managing files for "
@@ -412,7 +419,7 @@ msgstr ""
 "Consulte Administración de archivos para más detalles. Ver también "
 "DATA_UPLOAD_MAX_MEMORY_SIZE."
 
-#: settings.py:214
+#: settings.py:223
 msgid ""
 "Default: '/accounts/login/' The URL where requests are redirected for login,"
 " especially when using the login_required() decorator. This setting also "
@@ -427,7 +434,7 @@ msgstr ""
 "configuración, ya que no tiene que definir la URL en dos lugares "
 "(configuración y URLconf)."
 
-#: settings.py:225
+#: settings.py:234
 msgid ""
 "Default: '/accounts/profile/' The URL where requests are redirected after "
 "login when the contrib.auth.login view gets no next parameter. This is used "
@@ -443,7 +450,7 @@ msgstr ""
 "configuración, ya que no tiene que definir la URL en dos lugares "
 "(configuración y URLconf)."
 
-#: settings.py:236
+#: settings.py:245
 msgid ""
 "Default: None. The URL where requests are redirected after a user logs out "
 "using LogoutView (if the view doesn't get a next_page argument). If None, no"
@@ -460,7 +467,7 @@ msgstr ""
 " la configuración, ya que no tiene que definir la URL en dos lugares "
 "(configuración y URLconf)."
 
-#: settings.py:247
+#: settings.py:256
 msgid ""
 "A list of IP addresses, as strings, that: Allow the debug() context "
 "processor to add some variables to the template context. Can use the "
@@ -473,7 +480,7 @@ msgstr ""
 "sesión como usuario del personal. Están marcados como 'internos' (a "
 "diferencia de 'EXTERNOS') en los correos electrónicos de AdminEmailHandler."
 
-#: settings.py:256
+#: settings.py:265
 msgid ""
 "A list of all available languages. The list is a list of two-tuples in the "
 "format (language code, language name) for example, ('ja', 'Japanese'). This "
@@ -489,7 +496,7 @@ msgstr ""
 "selección de idioma a un subconjunto de los idiomas proporcionados por "
 "Django."
 
-#: settings.py:267
+#: settings.py:276
 msgid ""
 "A string representing the language code for this installation. This should "
 "be in standard language ID format. For example, U.S. English is \"en-us\". "
@@ -510,7 +517,7 @@ msgstr ""
 "proporciona la traducción alternativa cuando no existe una traducción para "
 "un literal dado para el idioma preferido del usuario."
 
-#: settings.py:281
+#: settings.py:290
 msgid ""
 "Default: 'sessionid'. The name of the cookie to use for sessions.This can be"
 " whatever you want (as long as it's different from the other cookie names in"
@@ -520,7 +527,7 @@ msgstr ""
 " para las sesiones. Puede ser lo que desee (siempre y cuando sea diferente "
 "de los otros nombres de cookies en su aplicación)."
 
-#: settings.py:289
+#: settings.py:298
 msgid ""
 "Default: 'django.contrib.sessions.backends.db'. Controls where Django stores"
 " session data."
@@ -528,7 +535,7 @@ msgstr ""
 "Valor predeterminado: \"django.contrib.sessions.backends.db\". Controla "
 "dónde Django almacena los datos de la sesión."
 
-#: settings.py:296
+#: settings.py:305
 msgid ""
 "A tuple representing a HTTP header/value combination that signifies a "
 "request is secure. This controls the behavior of the request object’s "
@@ -541,7 +548,7 @@ msgstr ""
 "configuración puede comprometer la seguridad de su sitio. Asegúrese de "
 "comprender completamente su configuración antes de cambiarla."
 
-#: settings.py:305
+#: settings.py:314
 msgid ""
 "URL to use when referring to static files located in STATIC_ROOT. Example: "
 "\"/static/\" or \"http://static.example.com/\" If not None, this will be "
@@ -554,7 +561,7 @@ msgstr ""
 "Media) y la aplicación staticfiles. Debe terminar en una barra inclinada si "
 "se establece en un valor no vacío."
 
-#: settings.py:315
+#: settings.py:324
 msgid ""
 "A dictionary containing the settings for all storages to be used with "
 "Django. It is a nested dictionary whose contents map a storage alias to a "
@@ -565,7 +572,7 @@ msgstr ""
 "asigna un alias de almacenamiento a un diccionario que contiene las opciones"
 " para un almacenamiento individual."
 
-#: settings.py:323
+#: settings.py:332
 msgid ""
 "A string representing the time zone for this installation. Note that this "
 "isn't necessarily the time zone of the server. For example, one server may "
@@ -576,7 +583,7 @@ msgstr ""
 "ejemplo, un servidor puede servir múltiples sitios con Django, cada uno con "
 "una configuración de zona horaria separada."
 
-#: settings.py:332
+#: settings.py:341
 msgid ""
 "A boolean that specifies whether to use the X-Forwarded-Host header in "
 "preference to the Host header. This should only be enabled if a proxy which "
@@ -586,7 +593,7 @@ msgstr ""
 " preferencia al encabezado Host. Esto solo debe habilitarse si se está "
 "utilizando un proxy que establece este encabezado."
 
-#: settings.py:340
+#: settings.py:349
 msgid ""
 "A boolean that specifies whether to use the X-Forwarded-Port header in "
 "preference to the SERVER_PORT META variable. This should only be enabled if "
@@ -598,7 +605,7 @@ msgstr ""
 "se está utilizando un proxy que establece este encabezado. "
 "USE_X_FORWARDED_HOST tiene prioridad sobre esta configuración."
 
-#: settings.py:349
+#: settings.py:358
 msgid ""
 "The full Python path of the WSGI application object that Django's built-in "
 "servers (e.g. runserver) will use. The django-admin startproject management "

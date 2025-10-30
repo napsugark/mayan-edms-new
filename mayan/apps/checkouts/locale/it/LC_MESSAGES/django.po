@@ -4,17 +4,18 @@
 # 
 # Translators:
 # Translators:
+# piera.daraio, 2025
+# Pierpaolo Baldan <pierpaolo.baldan@gmail.com>, 2025
 # Roberto Rosario, 2025
 # Daniele Bortoluzzi <daniele@elkos.it>, 2025
-# Pierpaolo Baldan <pierpaolo.baldan@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Pierpaolo Baldan <pierpaolo.baldan@gmail.com>, 2025\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Daniele Bortoluzzi <daniele@elkos.it>, 2025\n"
 "Language-Team: Italian (https://app.transifex.com/rosarior/teams/13584/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,7 +45,7 @@ msgstr "Documento prenotato"
 
 #: events.py:20
 msgid "Document forcefully checked in"
-msgstr "Documento liberato forzatamente"
+msgstr ""
 
 #: exceptions.py:15
 msgid "Document not checked out."
@@ -76,15 +77,15 @@ msgstr "Permetti nuovi file?"
 
 #: forms.py:51
 msgid "Yes"
-msgstr "Sì"
+msgstr ""
 
 #: forms.py:51
 msgid "No"
-msgstr "No"
+msgstr ""
 
 #: links.py:39
 msgid "Check out document"
-msgstr "Prenotare il documento"
+msgstr ""
 
 #: links.py:43
 msgid "Check out"
@@ -188,7 +189,7 @@ msgstr "Chiave primaria del documento da prenotare."
 
 #: serializers.py:47
 msgid "Document ID"
-msgstr ""
+msgstr "ID Documento"
 
 #: views.py:28
 #, python-format
@@ -213,7 +214,7 @@ msgstr "%(count)d documento liberato correttamente."
 #: views.py:40
 #, python-format
 msgid "Check in %(count)d documents."
-msgstr "Libera %(count)d documenti."
+msgstr ""
 
 #: views.py:41
 #, python-format
@@ -233,7 +234,7 @@ msgstr "Impossibile prenotare il documento \"%(instance)s\"; %(exception)s"
 #: views.py:102
 #, python-format
 msgid "%(count)d documents checked out successfully."
-msgstr "%(count)d documenti prenotati correttamente."
+msgstr ""
 
 #: views.py:105
 #, python-format
@@ -275,8 +276,8 @@ msgstr ""
 
 #: views.py:184
 msgid "No documents have been checked out"
-msgstr "Nessun documento prenotato"
+msgstr ""
 
 #: widgets.py:19
 msgid "Amount"
-msgstr "Quantità"
+msgstr ""

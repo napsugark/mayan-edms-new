@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 12:51+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -22,161 +22,161 @@ msgstr ""
 
 #: apps.py:43 events.py:6 models.py:33 models.py:90 permissions.py:6
 msgid "Permissions"
-msgstr "ཆོག་མཆན།"
+msgstr ""
 
 #: apps.py:106 model_mixins.py:35
 msgid "Group count"
-msgstr "སྡེ་ཚན་གྱི་གྲངས།"
+msgstr ""
 
 #: classes.py:65
 msgid "Insufficient permission."
-msgstr "ཆོག་མཆན་མི་འདང་བ།"
+msgstr ""
 
 #: dashboard_widgets.py:13
 msgid "Total roles"
-msgstr "ལས་འགན་བསྡོམས་འབོར།"
+msgstr ""
 
 #: events.py:10
 msgid "Role created"
-msgstr "འགན་འཁྲི་གསར་སྐྲུན་བྱས།"
+msgstr ""
 
 #: events.py:13
 msgid "Role edited"
-msgstr "འགན་འཁྲི་རྩོམ་སྒྲིག།"
+msgstr ""
 
 #: links.py:21 links.py:51 links.py:63 models.py:44 views.py:121
 msgid "Roles"
-msgstr "འགན་འཁྲི།"
+msgstr ""
 
 #: links.py:29 views.py:58
 msgid "Create new role"
-msgstr "འགན་འཁྲི་གསར་པ་གཏོད་པ།"
+msgstr ""
 
 #: links.py:34 links.py:37
 msgid "Delete"
-msgstr "བསུབ་པ།"
+msgstr "བསུབ།"
 
 #: links.py:42
 msgid "Edit"
-msgstr "བཅོས་པ།"
+msgstr "བཅོས།"
 
 #: links.py:47 models.py:36
 msgid "Groups"
-msgstr "སྡེ་ཚན།"
+msgstr ""
 
 #: links.py:56
 msgid "Role permissions"
-msgstr "འགན་འཁྲིའི་ཆོག་མཆན།"
+msgstr ""
 
 #: model_mixins.py:43
 msgid "Permission count"
-msgstr "ཆོག་མཆན་གྱི་གྲངས།"
+msgstr ""
 
 #: model_mixins.py:89
 #, python-format
 msgid "Unknown or obsolete permission: %s"
-msgstr "མ་ཤེས་པའམ་ཡང་ན་སྲོལ་རྙིང་གི་ཆོག་མཆན། %s"
+msgstr ""
 
 #: model_mixins.py:102
 #, python-format
 msgid "Unknown or obsolete permission namespace: %s"
-msgstr "མ་ཤེས་པའམ་ཡང་ན་སྲོལ་རྙིང་གི་ཆོག་མཆན་མིང་གནས་: %s"
+msgstr ""
 
 #: models.py:28
 msgid "A short text describing the role."
-msgstr "འགན་འཁུར་འགྲེལ་བརྗོད་བྱེད་པའི་ཡིག་ཆ་ཐུང་ངུ་ཞིག"
+msgstr ""
 
 #: models.py:29 search.py:14 serializers.py:20
 msgid "Label"
-msgstr "ལག་ཁྱེར་།"
+msgstr "མིང་བྱང།"
 
 #: models.py:43
 msgid "Role"
-msgstr "འཁྲབ་ཚན"
+msgstr ""
 
 #: models.py:78 serializers.py:14
 msgid "Namespace"
-msgstr "མིང་གི་བར་སྟོང་།"
+msgstr ""
 
 #: models.py:81
 msgid "Name"
-msgstr "མིང"
+msgstr ""
 
 #: models.py:89
 msgid "Permission"
-msgstr "ཆོག་མཆན"
+msgstr ""
 
 #: permissions.py:10
 msgid "Create roles"
-msgstr "འགན་འཁྲི་གསར་སྐྲུན་བྱེད་པ།"
+msgstr ""
 
 #: permissions.py:13
 msgid "Delete roles"
-msgstr "འགན་འཁུར་བསུབས་པ།"
+msgstr ""
 
 #: permissions.py:16
 msgid "Edit roles"
-msgstr "འགན་འཁྲི་རྩོམ་སྒྲིག་བྱེད་པ།"
+msgstr ""
 
 #: permissions.py:19
 msgid "View roles"
-msgstr "ལས་འགན་ལ་ལྟ་བ།"
+msgstr ""
 
 #: search.py:18
 msgid "Group name"
-msgstr "སྡེ་ཚན་གྱི་མིང་།"
+msgstr ""
 
 #: serializers.py:17
 msgid "Primary key"
-msgstr "གཙོ་བོའི་ལྡེ་མིག"
+msgstr ""
 
 #: serializers.py:36
 msgid "Primary key of the group to add to the role."
-msgstr "འགན་འཁྲི་ལ་ཁ་སྣོན་བྱེད་པའི་སྡེ་ཚན་གྱི་ལྡེ་མིག་གཙོ་བོ།"
+msgstr ""
 
 #: serializers.py:37 serializers.py:45
 msgid "Group ID"
-msgstr "སྡེ་ཚན་ཨང་རྟགས།"
+msgstr ""
 
 #: serializers.py:44
 msgid "Primary key of the group to remove from the role."
-msgstr "འགན་འཁུར་ནས་ཕྱིར་འཐེན་བྱེད་པའི་སྡེ་ཚན་གྱི་ལྡེ་མིག་གཙོ་བོ།"
+msgstr ""
 
 #: serializers.py:52
 msgid "Primary key of the permission to add to the role."
-msgstr "འགན་འཁུར་ལ་ཁ་སྣོན་བྱེད་པའི་ཆོག་མཆན་གྱི་ལྡེ་མིག་གཙོ་བོ།"
+msgstr ""
 
 #: serializers.py:53 serializers.py:61
 msgid "Permission ID"
-msgstr "ཆོག་མཆན་ཨང་རྟགས།"
+msgstr ""
 
 #: serializers.py:60
 msgid "Primary key of the permission to remove from the role."
-msgstr "འགན་འཁུར་ནས་ཕྱིར་འཐེན་བྱེད་པའི་ཆོག་མཆན་གྱི་ལྡེ་མིག་གཙོ་བོ།"
+msgstr ""
 
 #: serializers.py:67
 msgid "Groups URL"
-msgstr "སྡེ་ཚན་གྱི་ཁ་བྱང་།"
+msgstr ""
 
 #: serializers.py:71
 msgid "Groups add URL"
-msgstr "སྡེ་ཚན་གྱིས་URLཁ་སྣོན།"
+msgstr ""
 
 #: serializers.py:75
 msgid "Groups remove URL"
-msgstr "སྡེ་ཚན་གྱིས་URLམེད་པར་བཟོས།"
+msgstr ""
 
 #: serializers.py:79
 msgid "Permissions URL"
-msgstr "ཆོག་མཆན་URL"
+msgstr ""
 
 #: serializers.py:83
 msgid "Permissions add URL"
-msgstr "ཆོག་མཆན་URLཁ་སྣོན།"
+msgstr ""
 
 #: serializers.py:87
 msgid "Permissions remove URL"
-msgstr "ཆོག་མཆན་གྱིས་URLམེད་པར་བཟོས།"
+msgstr ""
 
 #: serializers.py:94
 msgid "URL"
@@ -184,51 +184,51 @@ msgstr "URL །"
 
 #: views.py:27
 msgid "Group roles"
-msgstr "སྡེ་ཚན་གྱི་འགན་འཁྲི།"
+msgstr ""
 
 #: views.py:28
 msgid "Available roles"
-msgstr "ལས་འགན་ཡོད་པ།"
+msgstr ""
 
 #: views.py:45
 #, python-format
 msgid "Roles of group: %s"
-msgstr "སྡེ་ཚན་གྱི་འགན་འཁྲི། %s"
+msgstr ""
 
 #: views.py:67
 #, python-format
 msgid "Error deleting role \"%(instance)s\"; %(exception)s"
-msgstr "ལས་འགན་བསུབས་པའི་ནོར་འཁྲུལ་ &quot; %(instance)s &quot;; %(exception)s"
+msgstr ""
 
 #: views.py:74
 #, python-format
 msgid "%(count)d roles deleted successfully."
-msgstr "%(count)d ལས་འགན་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+msgstr ""
 
 #: views.py:77
 #, python-format
 msgid "Role \"%(object)s\" deleted successfully."
-msgstr "འགན་འཁྲི་ &quot; %(object)s &quot; མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+msgstr ""
 
 #: views.py:80
 #, python-format
 msgid "%(count)d role deleted successfully."
-msgstr "%(count)d ལས་འགན་དེ་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+msgstr ""
 
 #: views.py:82
 #, python-format
 msgid "Delete role: %(object)s."
-msgstr "ལས་འགན་བསུབས་པ་: %(object)s །"
+msgstr ""
 
 #: views.py:83
 #, python-format
 msgid "Delete the %(count)d selected role."
-msgstr "འདེམས་སྒྲུག་བྱས་པའི་ལས་འགན་དེ་ %(count)d བསུབས་དགོས།"
+msgstr ""
 
 #: views.py:84
 #, python-format
 msgid "Delete the %(count)d selected roles."
-msgstr "འདེམས་སྒྲུག་བྱས་པའི་ལས་འགན་དེ་ %(count)d བསུབས་དགོས།"
+msgstr ""
 
 #: views.py:113
 msgid ""
@@ -237,55 +237,49 @@ msgid ""
 "controls lists. Access controls list are permissions granted to a role for "
 "specific objects which its group members inherit."
 msgstr ""
-"འགན་འཁྲི་ནི་དབང་ཆ་སྤྲོད་པའི་སྡེ་ཚན་ཡིན། "
-"དེ་དག་ལ་མ་ལག་ཆ་ཚང་གི་ལས་འགན་གྱི་ཆོག་མཆན་ཤུལ་འཛིན་བྱེད་པའི་སྤྱོད་མཁན་གྱི་སྡེ་ཚན་ཡོད།"
-" འགན་འཁྲི་དེ་ཡང་འཛུལ་སྤྱོད་ཚོད་འཛིན་ཐོ་གཞུང་གི་ཆ་ཤས་ཤིག་ཡིན། "
-"འཛུལ་སྤྱོད་ཚོད་འཛིན་ཐོ་གཞུང་ནི་དེའི་སྡེ་ཚན་གྱི་ཚོགས་མི་ཚོས་ཤུལ་འཛིན་བྱེད་པའི་དངོས་པོ་དམིགས་བསལ་གྱི་ལས་འགན་ལ་སྤྲད་པའི་ཆོག་མཆན་ཡིན།"
 
 #: views.py:120
 msgid "There are no roles"
-msgstr "འཁྲབ་འགན་མེད།"
+msgstr ""
 
 #: views.py:126
 msgid "Role groups"
-msgstr "འགན་འཁྲིའི་སྡེ་ཚན།"
+msgstr ""
 
 #: views.py:127
 msgid "Available groups"
-msgstr "ཐོབ་པའི་སྡེ་ཚན།"
+msgstr ""
 
 #: views.py:145
 msgid ""
 "Add groups to be part of a role. They will inherit the role's permissions "
 "and access controls."
 msgstr ""
-"ལས་འགན་གྱི་ཆ་ཤས་ཤིག་ཡིན་པའི་སྡེ་ཚན་ཁ་སྣོན་བྱེད། "
-"ཁོང་ཚོས་འཁྲབ་སྟོན་གྱི་ཆོག་མཆན་དང་འཛུལ་སྤྱོད་ཚོད་འཛིན་ཤུལ་འཛིན་བྱེད།"
 
 #: views.py:148
 #, python-format
 msgid "Groups of role: %s"
-msgstr "འགན་འཁྲིའི་སྡེ་ཚན %s"
+msgstr ""
 
 #: views.py:153
 msgid "Granted permissions"
-msgstr "ཆོག་མཆན་སྤྲད་པ།"
+msgstr ""
 
 #: views.py:154
 msgid "Available permissions"
-msgstr "ཆོག་མཆན་ཡོད་པ།"
+msgstr ""
 
 #: views.py:199
 msgid ""
 "Permissions granted here will apply to the entire system and all objects."
-msgstr "འདིར་སྤྲད་པའི་ཆོག་མཆན་དེ་མ་ལག་ཆ་ཚང་དང་དངོས་པོ་ཚང་མར་འཇུག་ཐུབ།"
+msgstr ""
 
 #: views.py:202
 #, python-format
 msgid "Permissions for role: %s"
-msgstr "འགན་འཁྲིའི་ %s"
+msgstr ""
 
 #: views.py:222
 #, python-format
 msgid "Details of permission: %s"
-msgstr "ཆོག་མཆན་གྱི་ཞིབ་ཕྲ།: %s"
+msgstr ""

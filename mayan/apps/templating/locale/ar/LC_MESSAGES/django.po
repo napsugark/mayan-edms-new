@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Marwan Rahhal <Marwanr@sssit.net>, 2025
 # Roberto Rosario, 2025
 # Mohamad Ashmar, 2025
+# Marwan Rahhal <Marwanr@sssit.net>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Mohamad Ashmar, 2025\n"
+"POT-Creation-Date: 2025-10-30 19:40+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: apps.py:16 permissions.py:6 settings.py:94
+#: apps.py:16 permissions.py:6 settings.py:96
 msgid "Templating"
 msgstr "القوالب"
 
@@ -34,6 +34,17 @@ msgstr "التاريخ والوقت الحاليان"
 #, python-format
 msgid "Model `%s` is not available for template sandbox."
 msgstr "النموذج %s غير متاح لبيئة القوالب الآمنة."
+
+#: decorators.py:20
+msgid "None provided."
+msgstr ""
+
+#: decorators.py:22
+#, python-format
+msgid ""
+"Filter or tag \"%(name)s\" is considered dangerous and not allowed. Reason: "
+"%(reason)s Change setting `%(setting)s` to allow it."
+msgstr ""
 
 #: fields.py:28
 msgid "Use Django's default templating language. "
@@ -84,11 +95,21 @@ msgstr "HTML"
 msgid "URL"
 msgstr "URL"
 
-#: settings.py:101
+#: settings.py:102
+msgid ""
+"A comma separated list of dangerous templating tags and filters that are "
+"allowed."
+msgstr ""
+
+#: settings.py:110
 msgid ""
 "Theme name of the CSS stylesheet used to change the visual appearance of the"
 " template preview."
 msgstr "اسم سمة ورقة الأنماط المستخدمة لتغيير المظهر المرئي لمعاينة القالب."
+
+#: templatetags/templating_tags.py:100
+msgid "Tag can bypass access controls and create permanent changes."
+msgstr ""
 
 #: views.py:59
 #, python-format
@@ -100,18 +121,18 @@ msgstr "وضع قالب الحماية : %s"
 msgid "Template error; %(exception)s"
 msgstr "خطأ في النموذج ; %(exception)s"
 
-#: widgets.py:42
+#: widgets.py:43
 msgid "Filters"
 msgstr "التصفية"
 
-#: widgets.py:49
+#: widgets.py:50
 msgid "Tags"
 msgstr "الدلالات"
 
-#: widgets.py:56
+#: widgets.py:57
 msgid "<Filters and tags>"
 msgstr "<Filters and tags>"
 
-#: widgets.py:129
+#: widgets.py:136
 msgid "<Model attributes>"
 msgstr "<Model attributes>"

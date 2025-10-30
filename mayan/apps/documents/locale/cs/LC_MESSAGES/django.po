@@ -5,16 +5,16 @@
 # Translators:
 # Translators:
 # Jiri Fait <fait@orkasolutions.cz>, 2025
-# Michal Švábík <snadno@lehce.cz>, 2025
 # Jiří Podhorecký <jirka.p@volny.cz>, 2025
+# Michal Švábík <snadno@lehce.cz>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Jiří Podhorecký <jirka.p@volny.cz>, 2025\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Michal Švábík <snadno@lehce.cz>, 2025\n"
 "Language-Team: Czech (https://app.transifex.com/rosarior/teams/13584/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -386,7 +386,7 @@ msgstr "Číslo cílové stránky nelze opakovat."
 msgid "Page group"
 msgstr ""
 
-#: forms/misc_forms.py:14 literals.py:99
+#: forms/misc_forms.py:14 literals.py:101
 msgid "Page range"
 msgstr "Rozsah stran"
 
@@ -609,55 +609,55 @@ msgstr "Obnovit"
 msgid "Default"
 msgstr "Výchozí"
 
-#: literals.py:91
+#: literals.py:93
 msgid "January"
 msgstr "leden"
 
-#: literals.py:91
+#: literals.py:93
 msgid "February"
 msgstr "únor"
 
-#: literals.py:91
+#: literals.py:93
 msgid "March"
 msgstr "březen"
 
-#: literals.py:91
+#: literals.py:93
 msgid "April"
 msgstr "duben"
 
-#: literals.py:91
+#: literals.py:93
 msgid "May"
 msgstr "květen"
 
-#: literals.py:92
+#: literals.py:94
 msgid "June"
 msgstr "červen"
 
-#: literals.py:92
+#: literals.py:94
 msgid "July"
 msgstr "červenec"
 
-#: literals.py:92
+#: literals.py:94
 msgid "August"
 msgstr "srpen"
 
-#: literals.py:92
+#: literals.py:94
 msgid "September"
 msgstr "září"
 
-#: literals.py:92
+#: literals.py:94
 msgid "October"
 msgstr "říjen"
 
-#: literals.py:93
+#: literals.py:95
 msgid "November"
 msgstr "listopad"
 
-#: literals.py:93
+#: literals.py:95
 msgid "December"
 msgstr "prosinec"
 
-#: literals.py:99
+#: literals.py:101
 msgid "All pages"
 msgstr "Všechny strany"
 

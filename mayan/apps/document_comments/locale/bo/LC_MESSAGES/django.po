@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -22,35 +22,35 @@ msgstr ""
 
 #: apps.py:33 events.py:6
 msgid "Document comments"
-msgstr "ཡིག་ཆའི་བསམ་འཆར།"
+msgstr ""
 
 #: events.py:10
 msgid "Document comment created"
-msgstr "ཡིག་ཆའི་མཆན་བཀོད་པ།"
+msgstr ""
 
 #: events.py:13
 msgid "Document comment deleted"
-msgstr "ཡིག་ཆའི་མཆན་སུབ་པ།"
+msgstr ""
 
 #: events.py:16
 msgid "Document comment edited"
-msgstr "ཡིག་ཆའི་མཆན་འགྲེལ་རྩོམ་སྒྲིག་བྱས།"
+msgstr ""
 
 #: links.py:16
 msgid "Add comment"
-msgstr "མཆན་འགོད་པ།"
+msgstr ""
 
 #: links.py:22
 msgid "Delete"
-msgstr "བསུབ་པ།"
+msgstr "བསུབ།"
 
 #: links.py:27
 msgid "Edit"
-msgstr "བཅོས་པ།"
+msgstr "བཅོས།"
 
 #: links.py:31 models.py:51 permissions.py:6 search.py:8
 msgid "Comments"
-msgstr "བསམ་ཚུལ།"
+msgstr ""
 
 #: model_mixins.py:10 models.py:36
 msgid "User"
@@ -62,19 +62,19 @@ msgstr "ཡིག་ཆ།"
 
 #: models.py:34
 msgid "The user account that made the comment."
-msgstr "མཆན་བཀོད་མཁན་གྱི་སྤྱོད་མཁན་གྱི་རྩིས་ཁྲ།"
+msgstr ""
 
 #: models.py:39
 msgid "Actual text content of the comment."
-msgstr "མཆན་འགྲེལ་གྱི་ཡིག་ཆའི་ནང་དོན།"
+msgstr ""
 
 #: models.py:40
 msgid "Text"
-msgstr "ཡིག་གཞི"
+msgstr ""
 
 #: models.py:44
 msgid "Date time submitted"
-msgstr "ཚེས་གྲངས་དུས་ཚོད།"
+msgstr ""
 
 #: models.py:50
 msgid "Comment"
@@ -82,19 +82,19 @@ msgstr "མཆན་འགྲེལ།"
 
 #: permissions.py:10
 msgid "Create new comments"
-msgstr "མཆན་བུ་གསར་པ་བཟོས།"
+msgstr ""
 
 #: permissions.py:13
 msgid "Delete comments"
-msgstr "མཆན་བུ་སུབ་པ།"
+msgstr ""
 
 #: permissions.py:16
 msgid "Edit comments"
-msgstr "མཆན་འགྲེལ་རྩོམ་སྒྲིག་བྱེད་པ།"
+msgstr ""
 
 #: permissions.py:19
 msgid "View comments"
-msgstr "མཆན་ལ་གཟིགས།"
+msgstr ""
 
 #: serializers.py:12
 msgid "URL"
@@ -103,36 +103,34 @@ msgstr "URL །"
 #: views.py:38
 #, python-format
 msgid "Add comment to document: %s"
-msgstr "ཡིག་ཆ་ལ་མཆན་ཁ་སྣོན་པ། %s"
+msgstr ""
 
 #: views.py:69
 #, python-format
 msgid "Delete comment: %s?"
-msgstr "མཆན་འགྲེལ %s"
+msgstr ""
 
 #: views.py:98
 #, python-format
 msgid "Details for comment: %s?"
-msgstr "མཆན་འགྲེལ་གྱི་ཞིབ་ %s །"
+msgstr ""
 
 #: views.py:118
 #, python-format
 msgid "Edit comment: %s?"
-msgstr "རྩོམ་སྒྲིག་ %s །"
+msgstr ""
 
 #: views.py:154
 msgid ""
 "Document comments are timestamped text entries from users. They are great "
 "for collaboration."
 msgstr ""
-"ཡིག་ཆའི་མཆན་འགྲེལ་ནི་སྤྱོད་མཁན་གྱིས་དུས་ཚོད་མཚོན་རྟགས་བཀོད་པའི་ཡིག་ཆའི་ཐོ་འགོད་ཡིན།"
-" ཁོང་ཚོ་མཉམ་ལས་བྱེད་པར་ཧ་ཅང་བཟང་།"
 
 #: views.py:157
 msgid "There are no comments"
-msgstr "བསམ་ཚུལ་གང་ཡང་མེད།"
+msgstr ""
 
 #: views.py:160
 #, python-format
 msgid "Comments for document: %s"
-msgstr "ཡིག་ཆའི་མཆན་འགྲེལ། %s"
+msgstr ""

@@ -3,16 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# KarmaBuildsApps, 2025
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-06 20:31+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: KarmaBuildsApps, 2025\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,11 +18,11 @@ msgstr ""
 
 #: apps.py:17 settings.py:12
 msgid "Organizations"
-msgstr "ཚོགས་པ།"
+msgstr ""
 
 #: setting_validators.py:13
 msgid "The path value must not include a leading or trailing slash."
-msgstr "ལམ་གྱི་རིན་ཐང་ནང་མདུན་ཕྱོགས་དང་རྗེས་མའི་གུག་ཤད་ཚུད་མི་རུང་།"
+msgstr ""
 
 #: settings.py:19
 msgid ""
@@ -34,10 +30,6 @@ msgid ""
 "one. Do not include the path. Use the ORGANIZATIONS_URL_BASE_PATH setting to"
 " specify the path. Example: https://www.example.com:8080"
 msgstr ""
-"འཆར་གཞི་ཚུད་པའི་ཤེས་ཚད་ཆ་ཚང་ཡོད་པའི་ཁྱབ་ཁོངས་དང་། "
-"གལ་ཏེ་སྲོལ་རྒྱུན་གྱི་དྲ་ཚིགས་བེད་སྤྱོད་བྱེད་ཀྱི་ཡོད་ན། ལམ་མ་ཚུད་པར་བྱ། "
-"ལམ་ཐིག་གསལ་བཀོད་བྱེད་པར་སྒྲིག་འཛུགས་_URL_BASE_PATH བཀོལ་སྤྱོད་བྱེད། དཔེར་ན།:"
-" 8080"
 
 #: settings.py:29
 msgid ""
@@ -45,7 +37,3 @@ msgid ""
 "not the root path of the web server. The path value must not include a "
 "leading or trailing slash. Example: mayan-installations/home"
 msgstr ""
-"མཐོང་སྣང་ཚང་མར་བེད་སྤྱོད་གཏོང་བའི་གཞི་གྲངས་URLལམ་ཐིག "
-"དྲ་རྒྱའི་ཞབས་ཞུའི་རྩ་བའི་འགྲོ་ལམ་མིན་པའི་འགྲོ་ལམ་བཀོལ་སྤྱོད་བྱེད་སྐབས་བེད་སྤྱོད་བྱེད།"
-" ལམ་གྱི་རིན་ཐང་ནང་མདུན་ཕྱོགས་དང་རྗེས་མའི་གུག་ཤད་ཚུད་མི་རུང་། དཔེར་ན། "
-"མ་ཡན་གྱི་སྒྲིག་འཇུག་/ཁྱིམ།"

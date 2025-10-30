@@ -4,28 +4,28 @@
 # 
 # Translators:
 # Translators:
-# Renata Oliveira <renatabels@gmail.com>, 2025
-# Roberto Rosario, 2025
-# Jadson Ribeiro <jadsonbr@outlook.com.br>, 2025
-# Vítor Figueiró <vfigueiro@gmail.com>, 2025
 # Bruno Martins <bruno.martins@bewgpt.com.pt>, 2025
-# José Samuel Facundo da Silva <samuel.facundo@ufca.edu.br>, 2025
-# Paulo Loureiro, 2025
+# Renata Oliveira <renatabels@gmail.com>, 2025
+# Jadson Ribeiro <jadsonbr@outlook.com.br>, 2025
 # Rogerio Falcone <rogerio@falconeit.com.br>, 2025
 # Aline Freitas <aline@alinefreitas.com.br>, 2025
-# 425fe09b3064b9f906f637fff94056ae_a00ea56 <0fa3588fa89906bfcb3a354600956e0e_308047>, 2025
-# Emerson Soares <on.emersonsoares@gmail.com>, 2025
 # Daniel Flores <dfloresbr@gmail.com>, 2025
-# Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2025
+# José Samuel Facundo da Silva <samuel.facundo@ufca.edu.br>, 2025
+# 425fe09b3064b9f906f637fff94056ae_a00ea56 <0fa3588fa89906bfcb3a354600956e0e_308047>, 2025
+# Roberto Rosario, 2025
 # Márcia Ferreira, 2025
+# Paulo Loureiro, 2025
+# Vítor Figueiró <vfigueiro@gmail.com>, 2025
+# Emerson Soares <on.emersonsoares@gmail.com>, 2025
+# Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Márcia Ferreira, 2025\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2025\n"
 "Language-Team: Portuguese (https://app.transifex.com/rosarior/teams/13584/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -401,7 +401,7 @@ msgstr "Número de página alvo não pode ser repetido"
 msgid "Page group"
 msgstr "Grupo de páginas"
 
-#: forms/misc_forms.py:14 literals.py:99
+#: forms/misc_forms.py:14 literals.py:101
 msgid "Page range"
 msgstr "Intervalo de páginas"
 
@@ -624,55 +624,55 @@ msgstr "Restaurar"
 msgid "Default"
 msgstr "Padrão"
 
-#: literals.py:91
+#: literals.py:93
 msgid "January"
 msgstr "Janeiro"
 
-#: literals.py:91
+#: literals.py:93
 msgid "February"
 msgstr "Fevereiro"
 
-#: literals.py:91
+#: literals.py:93
 msgid "March"
 msgstr "Março"
 
-#: literals.py:91
+#: literals.py:93
 msgid "April"
 msgstr "Abril"
 
-#: literals.py:91
+#: literals.py:93
 msgid "May"
 msgstr "Maio"
 
-#: literals.py:92
+#: literals.py:94
 msgid "June"
 msgstr "Junho"
 
-#: literals.py:92
+#: literals.py:94
 msgid "July"
 msgstr "Julho"
 
-#: literals.py:92
+#: literals.py:94
 msgid "August"
 msgstr "Agosto"
 
-#: literals.py:92
+#: literals.py:94
 msgid "September"
 msgstr "Setembro"
 
-#: literals.py:92
+#: literals.py:94
 msgid "October"
 msgstr "Outubro"
 
-#: literals.py:93
+#: literals.py:95
 msgid "November"
 msgstr "Novembro"
 
-#: literals.py:93
+#: literals.py:95
 msgid "December"
 msgstr "Dezembro"
 
-#: literals.py:99
+#: literals.py:101
 msgid "All pages"
 msgstr "Todas as páginas"
 

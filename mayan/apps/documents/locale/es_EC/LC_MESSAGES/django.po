@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Spanish (Ecuador) (https://app.transifex.com/rosarior/teams/13584/es_EC/)\n"
 "MIME-Version: 1.0\n"
@@ -392,7 +392,7 @@ msgstr "El número de página de destino no se puede repetir."
 msgid "Page group"
 msgstr "Grupo de páginas"
 
-#: forms/misc_forms.py:14 literals.py:99
+#: forms/misc_forms.py:14 literals.py:101
 msgid "Page range"
 msgstr "Rango de páginas"
 
@@ -615,55 +615,55 @@ msgstr "Restaurar"
 msgid "Default"
 msgstr "Por defecto"
 
-#: literals.py:91
+#: literals.py:93
 msgid "January"
 msgstr "Enero"
 
-#: literals.py:91
+#: literals.py:93
 msgid "February"
 msgstr "Febrero"
 
-#: literals.py:91
+#: literals.py:93
 msgid "March"
 msgstr "Marzo"
 
-#: literals.py:91
+#: literals.py:93
 msgid "April"
 msgstr "Abril"
 
-#: literals.py:91
+#: literals.py:93
 msgid "May"
 msgstr "Mayo"
 
-#: literals.py:92
+#: literals.py:94
 msgid "June"
 msgstr "Junio"
 
-#: literals.py:92
+#: literals.py:94
 msgid "July"
 msgstr "Julio"
 
-#: literals.py:92
+#: literals.py:94
 msgid "August"
 msgstr "Agosto"
 
-#: literals.py:92
+#: literals.py:94
 msgid "September"
 msgstr "Septiembre"
 
-#: literals.py:92
+#: literals.py:94
 msgid "October"
 msgstr "Octubre"
 
-#: literals.py:93
+#: literals.py:95
 msgid "November"
 msgstr "Noviembre"
 
-#: literals.py:93
+#: literals.py:95
 msgid "December"
 msgstr "Diciembre"
 
-#: literals.py:99
+#: literals.py:101
 msgid "All pages"
 msgstr "Todas las páginas"
 

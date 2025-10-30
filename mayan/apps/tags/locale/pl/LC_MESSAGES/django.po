@@ -5,17 +5,17 @@
 # Translators:
 # Translators:
 # tomkolp, 2025
-# Wojciech Warczakowski <w.warczakowski@gmail.com>, 2025
 # Tomasz Szymanowicz <alakdae@gmail.com>, 2025
 # Roberto Rosario, 2025
+# Wojciech Warczakowski <w.warczakowski@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Roberto Rosario, 2025\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Wojciech Warczakowski <w.warczakowski@gmail.com>, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/rosarior/teams/13584/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -221,7 +221,7 @@ msgstr ""
 #: views/document_views.py:40
 #, python-format
 msgid "Attach tags to document: %(object)s"
-msgstr ""
+msgstr "Załącz tagi do dokumentu: %(object)s"
 
 #: views/document_views.py:41
 #, python-format
@@ -264,7 +264,7 @@ msgstr ""
 #: views/document_views.py:145
 #, python-format
 msgid "Remove tags from document: %(object)s"
-msgstr ""
+msgstr "Usuń tagi z dokumentu: %(object)s"
 
 #: views/document_views.py:146
 #, python-format
@@ -292,7 +292,7 @@ msgstr ""
 #: views/tag_views.py:51
 #, python-format
 msgid "Tag \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "Usunięto tag \"%(object)s\"."
 
 #: views/tag_views.py:54
 #, python-format
@@ -307,7 +307,7 @@ msgstr ""
 #: views/tag_views.py:57
 #, python-format
 msgid "Delete tag: %(object)s"
-msgstr ""
+msgstr "Usuń tag: %(object)s"
 
 #: views/tag_views.py:58
 #, python-format

@@ -3,16 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# KarmaBuildsApps, 2025
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: KarmaBuildsApps, 2025\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,19 +18,19 @@ msgstr ""
 
 #: apps.py:20 events.py:6 permissions.py:6
 msgid "Document exports"
-msgstr "ཡིག་ཆ་ཕྱིར་འཚོང་།"
+msgstr ""
 
 #: classes.py:59
 msgid "Document version export to PDF"
-msgstr "ཡིག་ཆའི་ཐོན་རིམ་PDFནང་ཕྱིར་འདྲེན་བྱེད་པ།"
+msgstr ""
 
 #: events.py:10
 msgid "Document version exported"
-msgstr "ཡིག་ཆའི་ཐོན་རིམ་ཕྱིར་འདྲེན་བྱས།"
+msgstr ""
 
 #: links.py:11
 msgid "Export"
-msgstr "ཕྱི་ཚོང"
+msgstr ""
 
 #: literals.py:4
 #, python-format
@@ -43,62 +39,55 @@ msgid ""
 " for download using the link: %(download_url)s or from the downloads area "
 "(%(download_list_url)s)."
 msgstr ""
-"ཡིག་ཆའི་ཐོན་རིམ་ &quot; %(document_version)s %(download_url)s "
-"ཕྱིར་གཏོང་བྱས་ཟིན་པ་དང་། འབྲེལ་མཐུད་འདི་བརྒྱུད་ནས་ཕབ་ལེན་བྱེད་ཐུབ "
-"%(download_list_url)s"
 
 #: literals.py:9
 msgid "Document version exported."
-msgstr "ཡིག་ཆའི་ཐོན་རིམ་ཕྱིར་གཏོང་བྱས།"
+msgstr ""
 
 #: permissions.py:10
 msgid "Export document versions"
-msgstr "ཡིག་ཆའི་ཐོན་རིམ་ཕྱིར་འདྲེན་བྱེད་པ།"
+msgstr ""
 
 #: queues.py:7
 msgid "Documents exports"
-msgstr "ཡིག་ཆ་ཕྱིར་འཚོང་།"
+msgstr ""
 
 #: queues.py:13
 msgid "Export a document version to a PDF"
-msgstr "ཡིག་ཆའི་ཐོན་རིམ་ཞིག་PDFནང་དུ་ཕྱིར་འདྲེན་བྱེད་པ།"
+msgstr ""
 
 #: views.py:19
 #, python-format
 msgid "Document version \"%(object)s\" export successfully queued."
 msgstr ""
-"ཡིག་ཆའི་ཐོན་རིམ་ &quot; %(object)s &quot; "
-"ཕྱིར་གཏོང་མཐར་ཕྱིན་ངང་བང་སྒྲིག་བྱས།"
 
 #: views.py:22
 #, python-format
 msgid "%(count)d document version export successfully queued."
-msgstr "%(count)d ཡིག་ཆའི་ཐོན་རིམ་ཕྱིར་གཏོང་མཐར་ཕྱིན་ངང་བང་སྒྲིག་བྱས།"
+msgstr ""
 
 #: views.py:25
 #, python-format
 msgid "%(count)d document versions exports successfully queued."
-msgstr "%(count)d ཡིག་ཆའི་ཐོན་རིམ་ཕྱིར་གཏོང་མཐར་ཕྱིན་ངང་བང་སྒྲིག་བྱས།"
+msgstr ""
 
 #: views.py:27
 #, python-format
 msgid "Export %(count)d document versions."
-msgstr "ཕྱིར་གཏོང་ %(count)d ཡིག་ཆའི་ཐོན་རིམ།"
+msgstr ""
 
 #: views.py:28
 #, python-format
 msgid "Export document version \"%(object)s\"."
-msgstr "ཡིག་ཆའི་ཐོན་རིམ་ &quot; %(object)s &quot; ཕྱིར་གཏོང་བྱེད།"
+msgstr ""
 
 #: views.py:29
 #, python-format
 msgid "Export %(count)d document version."
-msgstr "ཕྱིར་གཏོང་ %(count)d ཡིག་ཆའི་ཐོན་རིམ།"
+msgstr ""
 
 #: views.py:35
 msgid ""
 "The process will be performed in the background. The exported file will be "
 "available in the downloads area."
 msgstr ""
-"བྱ་རིམ་དེ་རྒྱབ་ལྗོངས་སུ་སྒྲུབ་རྒྱུ་རེད། "
-"ཕྱིར་གཏོང་བྱས་པའི་ཡིག་ཆ་དེ་ཕབ་ལེན་བྱེད་སའི་ས་ཁོངས་ནང་ཐོབ་ཐུབ།"

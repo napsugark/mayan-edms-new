@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-28 14:15+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Spanish (Ecuador) (https://app.transifex.com/rosarior/teams/13584/es_EC/)\n"
 "MIME-Version: 1.0\n"
@@ -256,15 +256,15 @@ msgstr ""
 "Indexa todas las instancias relacionadas de un modelo de búsqueda después de"
 " un evento de cambio de campo tipo muchos a muchos."
 
-#: queues.py:44
+#: queues.py:42
+msgid "Delete expired saved resultsets"
+msgstr "Eliminar conjuntos de resultados guardados caducados"
+
+#: queues.py:50
 msgid "Reset the search backend indices and index all instances again."
 msgstr ""
 "Restablece los índices de back-end de búsqueda e indexa todas las instancias"
 " nuevamente."
-
-#: queues.py:51
-msgid "Delete expired saved resultsets"
-msgstr "Eliminar conjuntos de resultados guardados caducados"
 
 #: scoped_queries.py:348
 #, python-format

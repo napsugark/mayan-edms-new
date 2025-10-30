@@ -4,16 +4,16 @@
 # 
 # Translators:
 # Translators:
-# Jiří Podhorecký <jirka.p@volny.cz>, 2025
 # Jiri Fait <fait@orkasolutions.cz>, 2025
+# Jiří Podhorecký <jirka.p@volny.cz>, 2025
 # Michal Švábík <snadno@lehce.cz>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Michal Švábík <snadno@lehce.cz>, 2025\n"
 "Language-Team: Czech (https://app.transifex.com/rosarior/teams/13584/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -21,15 +21,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-
-#: admin.py:24
-msgid "None"
-msgstr "Žádný"
-
-#: admin.py:26 links.py:88 models/index_template_models.py:50
-#: serializers/index_template_serializers.py:196
-msgid "Document types"
-msgstr "Typy dokumentů"
 
 #: apps.py:60 events.py:6
 msgid "Document indexing"
@@ -130,6 +121,11 @@ msgstr "Vytvořit rejstřík"
 #: links.py:83 links.py:127
 msgid "Delete"
 msgstr "Odstranit"
+
+#: links.py:88 models/index_template_models.py:50
+#: serializers/index_template_serializers.py:196
+msgid "Document types"
+msgstr "Typy dokumentů"
 
 #: links.py:92 links.py:131
 msgid "Edit"

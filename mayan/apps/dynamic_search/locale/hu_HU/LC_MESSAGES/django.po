@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-28 14:15+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Csaba Tarjányi, 2025\n"
 "Language-Team: Hungarian (Hungary) (https://app.transifex.com/rosarior/teams/13584/hu_HU/)\n"
 "MIME-Version: 1.0\n"
@@ -258,15 +258,15 @@ msgstr ""
 "Indexelje a keresési modell összes kapcsolódó példányát a túl sok esemény "
 "után."
 
-#: queues.py:44
+#: queues.py:42
+msgid "Delete expired saved resultsets"
+msgstr "A lejárt mentett eredményhalmazok törlése"
+
+#: queues.py:50
 msgid "Reset the search backend indices and index all instances again."
 msgstr ""
 "Állítsa vissza a keresési háttértár indexeit, és indexelje újra az összes "
 "példányt."
-
-#: queues.py:51
-msgid "Delete expired saved resultsets"
-msgstr "A lejárt mentett eredményhalmazok törlése"
 
 #: scoped_queries.py:348
 #, python-format

@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -75,11 +75,11 @@ msgstr "ཡིག་ཆ་གསར་ཤོས།"
 
 #: apps.py:939
 msgid "Return the active version of the document."
-msgstr "ཡིག་ཆའི་ཤུགས་ལྡན་ཐོན་རིམ་ཕྱིར་ལོག་བྱེད།"
+msgstr ""
 
 #: apps.py:940
 msgid "Active version"
-msgstr "ཤུགས་ལྡན་གྱི་ཐོན་རིམ།"
+msgstr ""
 
 #: apps.py:990
 msgid "Type"
@@ -111,7 +111,9 @@ msgstr "UUID དང་ Original"
 msgid ""
 "Generates an immutable, random UUID (RFC 4122) for each file and appends the"
 " original filename of the uploaded file."
-msgstr "ཡར་བསྐུར་བའི་ཡིག་ཆའི་མིང་ཐོག་མ།"
+msgstr ""
+"ཡིག་ཆ་རེ་རེའི་ཆེད་དུ་འགྱུར་བ་མེད་པའི་ Random UUID (RFC 4122) "
+"གསར་བསྐྲུན་བྱེད་པ།།"
 
 #: dashboard_widgets.py:29
 msgid "Total pages"
@@ -386,7 +388,7 @@ msgstr "དམིགས་ཡུལ་ཤོག་ངོས་ཀྱི་ཨང
 msgid "Page group"
 msgstr "ཤོག་ངོས་ཀྱི་ཚོགས་པ།"
 
-#: forms/misc_forms.py:14 literals.py:99
+#: forms/misc_forms.py:14 literals.py:101
 msgid "Page range"
 msgstr "ཤོག་ངོས་ཀྱི་རྒྱ་ཁྱོན།"
 
@@ -404,12 +406,12 @@ msgstr ""
 #: links/document_version_page_links.py:46 links/trashed_document_links.py:37
 #: links/trashed_document_links.py:42
 msgid "Delete"
-msgstr "བསུབ་པ།"
+msgstr "བསུབ།"
 
 #: links/document_file_links.py:37 links/document_type_links.py:31
 #: links/document_type_links.py:52 links/document_version_links.py:50
 msgid "Edit"
-msgstr "བཅོས་པ།"
+msgstr "བཅོས།"
 
 #: links/document_file_links.py:41 links/document_file_links.py:48
 msgid "Introspect"
@@ -464,7 +466,7 @@ msgstr "ཤོག་ངོས་རྗེས་མ།"
 #: links/document_file_page_links.py:76 models/document_file_models.py:107
 #: models/document_file_page_models.py:28 search.py:55
 msgid "Document file"
-msgstr "ཡིག་ཆའི་ཡིག་ཆ།"
+msgstr "Document ཡིག་ཆ་།"
 
 #: links/document_file_page_links.py:83 models/document_file_page_models.py:41
 #: models/document_file_page_models.py:86
@@ -609,55 +611,55 @@ msgstr "སླར་གསོ་བྱེད་པ།"
 msgid "Default"
 msgstr "སྔོན་གཤིས།"
 
-#: literals.py:91
+#: literals.py:93
 msgid "January"
 msgstr "ཟླ་བ་དང་པོ།"
 
-#: literals.py:91
+#: literals.py:93
 msgid "February"
 msgstr "ཟླ་བ་གཉིས་པ།"
 
-#: literals.py:91
+#: literals.py:93
 msgid "March"
 msgstr "ཟླ་བ་གསུམ་པ།"
 
-#: literals.py:91
+#: literals.py:93
 msgid "April"
 msgstr "ཟླ་བ་བཞི་པ།"
 
-#: literals.py:91
+#: literals.py:93
 msgid "May"
 msgstr "ཟླ་བ་ལྔ་པ།"
 
-#: literals.py:92
+#: literals.py:94
 msgid "June"
 msgstr "ཟླ་བ་དྲུག་པ།"
 
-#: literals.py:92
+#: literals.py:94
 msgid "July"
 msgstr "ཟླ་བ་བདུན་པ།"
 
-#: literals.py:92
+#: literals.py:94
 msgid "August"
 msgstr "ཟླ་བ་བརྒྱད་པ།"
 
-#: literals.py:92
+#: literals.py:94
 msgid "September"
 msgstr "ཟླ་བ་དགུ་པ།"
 
-#: literals.py:92
+#: literals.py:94
 msgid "October"
 msgstr "ཟླ་བ་བཅུ་པ།"
 
-#: literals.py:93
+#: literals.py:95
 msgid "November"
 msgstr "ཟླ་བ་བཅུ་གཅིག་པ།"
 
-#: literals.py:93
+#: literals.py:95
 msgid "December"
 msgstr "ཟླ་བ་བཅུ་གཉིས་པ།"
 
-#: literals.py:99
+#: literals.py:101
 msgid "All pages"
 msgstr "ཤོག་ངོས་ཚང་མ།"
 
@@ -670,7 +672,7 @@ msgstr "ཤོག་ངོས་ཚང་མ།"
 #: serializers/document_serializers.py:22
 #: serializers/document_version_serializers.py:17
 msgid "Label"
-msgstr "ལག་ཁྱེར་།"
+msgstr "མིང་བྱང།"
 
 #: models/document_file_model_mixins.py:524
 msgid "Controls what happens when a new document file is uploaded."
@@ -1089,7 +1091,7 @@ msgstr "ཡིག་ཆ་མགྱོགས་པོ།"
 
 #: queues.py:18
 msgid "Documents slow"
-msgstr "ཡིག་ཆ་དལ་བ།"
+msgstr ""
 
 #: queues.py:21
 msgid "Documents file"
@@ -1121,7 +1123,7 @@ msgstr "ཡིག་ཆའི་གསར་པ་བསྐུར་བ།"
 
 #: queues.py:50
 msgid "Move a document to the trash"
-msgstr "ཡིག་ཆ་ཞིག་གད་སྙིགས་ནང་སྤོ་བ།"
+msgstr ""
 
 #: queues.py:54
 msgid "Upload new document"
@@ -1189,7 +1191,7 @@ msgstr "ཡིག་ཆའི་པར་གཞི་ཞིག་བསུབ་
 
 #: search.py:31
 msgid "The database ID of the document type."
-msgstr "ཡིག་ཆའི་རིགས་ཀྱི་གཞི་གྲངས་མཛོད་ ID ཡིན།"
+msgstr ""
 
 #: search.py:32 serializers/document_serializers.py:32
 #: serializers/document_serializers.py:78
@@ -1206,7 +1208,7 @@ msgstr "ཡིག་ཆའི་བཀོད་པ།"
 
 #: search.py:74 search.py:146
 msgid "The database ID of the document."
-msgstr "ཡིག་ཆའི་གཞི་གྲངས་མཛོད་ཀྱི་ID།"
+msgstr ""
 
 #: search.py:75 search.py:147 serializers/favorite_document_serializers.py:17
 msgid "Document ID"
@@ -1314,7 +1316,7 @@ msgstr "ཡིག་ཆའི་རིགས་ཀྱི་ URL །"
 #: serializers/document_type_serializers.py:35
 #: serializers/document_type_serializers.py:47
 msgid "Documents URL"
-msgstr "ཡིག་ཆའི་ཁ་བྱང་།"
+msgstr ""
 
 #: serializers/document_type_serializers.py:39
 msgid "Quick label list URL"
@@ -1454,22 +1456,18 @@ msgstr "བེད་སྤྱོད་པ་རེ་རེས་ཡིག་ཆ
 msgid ""
 "Time interval in seconds, at which the document trashing task will execute."
 msgstr ""
-"ཡིག་ཆ་གད་སྙིགས་གཏོང་བའི་ལས་འགན་དེ་ལག་བསྟར་བྱེད་པའི་སྐར་ཆའི་ནང་དུས་ཚོད་ཀྱི་བར་མཚམས།"
 
 #: settings.py:177
 msgid ""
 "Time interval in seconds, at which the document stub prune task will "
 "execute."
 msgstr ""
-"སྐར་ཆའི་ནང་དུས་ཚོད་བར་མཚམས་ཡིག་ཆའི་ཆ་ཤས་གཅོད་པའི་ལས་འགན་ལག་བསྟར་བྱེད་སྐབས།"
 
 #: settings.py:185
 msgid ""
 "Time interval in seconds, at which the trashed document deletion task will "
 "execute."
 msgstr ""
-"སྐར་ཆའི་ནང་དུས་ཚོད་ཀྱི་བར་མཚམས། "
-"དེ་དུས་ཡིག་ཆ་བསུབ་པའི་ལས་འགན་དེ་ལག་བསྟར་བྱེད།"
 
 #: settings.py:192
 msgid "Height in pixels of the document thumbnail image."
@@ -1566,7 +1564,7 @@ msgstr "ཡིག་ཆའི་ཤོག་ངོས་ཀྱི་པར་ག
 
 #: templates/documents/errors/document_file_has_no_pages.html:5
 msgid "No file pages"
-msgstr "ཡིག་ཆའི་ཤོག་ངོས་མེད།"
+msgstr ""
 
 #: templates/documents/errors/document_file_page_transformation_error.html:5
 msgid "Document file page transformation error"
@@ -1700,12 +1698,12 @@ msgstr "ཡིག་ཆ་ %(count)d ནང་རྟོགས་བྱེད་�
 #: views/document_file_views.py:145
 msgid "Introspect the selected document file?"
 msgid_plural "Introspect the selected document files?"
-msgstr[0] "འདེམས་ཟིན་པའི་ཡིག་ཆ་ནང་རྟོགས་བྱེད་དམ།"
+msgstr[0] "འདེམས་ཟིན་པའི་ཡིག་ཆ་ནང་རྟོགས་བྱེད་པ།"
 
 #: views/document_file_views.py:156
 #, python-format
 msgid "Introspect the document file: %s?"
-msgstr "ཡིག་ཆ་ནང་རྟོགས་བྱེད་དམ \\: %s? "
+msgstr "ཡིག་ཆ་ནང་རྟོགས་བྱེད་པ། %s"
 
 #: views/document_file_views.py:162
 msgid ""
@@ -1921,7 +1919,7 @@ msgstr "ཡིག་ཆའི་པར་གཞིའི་ཤོག་ངོས
 
 #: views/document_version_page_views.py:160
 msgid "None"
-msgstr "གང་ཡང་མེད།"
+msgstr "གང་ཡང་མིན་པ།"
 
 #: views/document_version_page_views.py:187
 msgid "There are no sources available to remap for this document version."
@@ -1938,11 +1936,11 @@ msgstr "ཡིག་ཆའི་པར་གཞིའི་ཤོག་ངོས
 
 #: views/document_version_page_views.py:311
 msgid "There are no more pages in this document."
-msgstr "ཡིག་ཆ་འདི་ལ་ཤོག་ལྷེ་ལྷག་མེད།"
+msgstr ""
 
 #: views/document_version_page_views.py:327
 msgid "You are already at the first page of this document."
-msgstr "ཁྱེད་རང་ཡིག་ཆ་འདིའི་ཤོག་ངོས་དང་པོར་སླེབས་ཟིན།"
+msgstr ""
 
 #: views/document_version_views.py:63
 #, python-format
@@ -2096,18 +2094,16 @@ msgstr "ཡིག་ཆ་མེད།"
 #, python-format
 msgid "Document type change request performed on %(count)d document."
 msgstr ""
-"ཡིག་ཆའི་རིགས་བསྒྱུར་བཅོས་ཀྱི་རེ་འདུན་དེ་ %(count)d ཡིག་ཆའི་ཐོག་ལ་སྒྲུབ་ཡོད།"
 
 #: views/document_views.py:89
 #, python-format
 msgid "Document type change request performed on %(count)d documents."
 msgstr ""
-"ཡིག་ཆའི་རིགས་བསྒྱུར་བཅོས་ཀྱི་རེ་འདུན་དེ་ %(count)d ཡིག་ཆའི་ཐོག་ལ་སྒྲུབ་ཡོད།"
 
 #: views/document_views.py:97
 msgid "Change the type of the selected document."
 msgid_plural "Change the type of the selected documents."
-msgstr[0] "བདམས་པའི་ཡིག་ཆའི་རིགས་བསྒྱུར་དགོས།"
+msgstr[0] ""
 
 #: views/document_views.py:108
 #, python-format
@@ -2211,12 +2207,11 @@ msgstr "ཉེ་ཆར་གསར་བཟོ་བྱས་པའི་ཡི
 #, python-format
 msgid "Document \"%(object)s\" queued for trashing."
 msgstr ""
-"ཡིག་ཆ་ &quot; %(object)s &quot; གད་སྙིགས་གཡུག་པའི་ཆེད་དུ་བང་སྒྲིག་ཡོད།"
 
 #: views/trashed_document_views.py:43 views/trashed_document_views.py:46
 #, python-format
 msgid "%(count)d documents queued for trashing."
-msgstr "ཡིག་ཆ་དེ་ཚོ་གད་སྙིགས་གཡུག་རྒྱུའི་ཆེད་དུ་བང་སྒྲིག་ཡོད %(count)d"
+msgstr ""
 
 #: views/trashed_document_views.py:48
 #, python-format

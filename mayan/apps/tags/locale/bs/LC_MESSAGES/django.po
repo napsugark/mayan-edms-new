@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Bosnian (https://app.transifex.com/rosarior/teams/13584/bs/)\n"
 "MIME-Version: 1.0\n"
@@ -218,7 +218,7 @@ msgstr ""
 #: views/document_views.py:40
 #, python-format
 msgid "Attach tags to document: %(object)s"
-msgstr ""
+msgstr "Priložite oznake za dokument: %(object)s"
 
 #: views/document_views.py:41
 #, python-format
@@ -261,7 +261,7 @@ msgstr ""
 #: views/document_views.py:145
 #, python-format
 msgid "Remove tags from document: %(object)s"
-msgstr ""
+msgstr "Uklonite oznake iz dokumenta: %(object)s"
 
 #: views/document_views.py:146
 #, python-format
@@ -289,7 +289,7 @@ msgstr ""
 #: views/tag_views.py:51
 #, python-format
 msgid "Tag \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "Tag \"%(object)s\" uspješno izbrisan."
 
 #: views/tag_views.py:54
 #, python-format
@@ -304,7 +304,7 @@ msgstr ""
 #: views/tag_views.py:57
 #, python-format
 msgid "Delete tag: %(object)s"
-msgstr ""
+msgstr "Izbriši oznaku: %(object)s"
 
 #: views/tag_views.py:58
 #, python-format

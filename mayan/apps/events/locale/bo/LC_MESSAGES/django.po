@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -23,57 +23,57 @@ msgstr ""
 #: apps.py:33 events.py:11 links.py:53 links.py:102 permissions.py:6
 #: settings.py:12 views/event_views.py:29
 msgid "Events"
-msgstr "བྱེད་སྒོ།"
+msgstr ""
 
 #: apps.py:87 apps.py:122
 msgid "Date and time"
-msgstr "ཚེས་གྲངས་དང་དུས་ཚོད།"
+msgstr ""
 
 #: apps.py:91 apps.py:126 serializers/event_serializers.py:14
 msgid "Actor"
-msgstr "ཟློས་གར་བ"
+msgstr ""
 
 #: apps.py:95 apps.py:131
 msgid "Event"
-msgstr "དོན་དག"
+msgstr ""
 
 #: apps.py:99 apps.py:136 serializers/event_serializers.py:20
 msgid "Target"
-msgstr "འབེན"
+msgstr ""
 
 #: apps.py:103 apps.py:141
 msgid "Action object"
-msgstr "བྱ་བའི་དངོས་པོ།"
+msgstr ""
 
 #: apps.py:110 forms.py:10 forms.py:71
 msgid "Namespace"
-msgstr "མིང་བར་སྟོང་།"
+msgstr ""
 
 #: apps.py:115 forms.py:16 forms.py:77
 #: serializers/event_type_serializers.py:17
 #: serializers/event_type_serializers.py:42
 msgid "Label"
-msgstr "ལག་ཁྱེར་།"
+msgstr "མིང་བྱང།"
 
 #: apps.py:146
 msgid "Seen"
-msgstr "མཐོང"
+msgstr ""
 
 #: apps.py:154
 msgid "Object"
-msgstr "བྱ་བའི་ཡུལ"
+msgstr ""
 
 #: apps.py:159 models.py:48 models.py:109
 msgid "Event type"
-msgstr "བྱུང་རིམ་རིགས།"
+msgstr ""
 
 #: classes.py:93
 msgid "Event list export to CSV"
-msgstr "བྱུང་རིམ་རེའུ་མིག་CSVལ་ཕྱིར་འདྲེན་བྱེད།"
+msgstr ""
 
 #: classes.py:122
 msgid "Events exported."
-msgstr "བྱ་འགུལ་ཕྱིར་གཏོང་བྱས།"
+msgstr ""
 
 #: classes.py:124
 #, python-format
@@ -81,86 +81,84 @@ msgid ""
 "The event list has been exported and is available for download using the "
 "link: %(download_url)s or from the downloads area (%(download_list_url)s)."
 msgstr ""
-"བྱུང་རིམ་ཐོ་གཞུང་ཕྱིར་གཏོང་བྱས་པ་དང་འབྲེལ་མཐུད་འདི་བརྒྱུད་ནས་ཕབ་ལེན་བྱེད་ "
-"%(download_url)s %(download_list_url)s"
 
 #: events.py:15
 msgid "Events cleared"
-msgstr "བྱུང་རིམ་གཙང་བཤེར་བྱས།"
+msgstr ""
 
 #: events.py:18
 msgid "Events exported"
-msgstr "བྱེད་སྒོ་ཕྱིར་གཏོང་བྱས་པ།"
+msgstr ""
 
 #: forms.py:22 forms.py:83
 msgid "Subscription"
-msgstr "མངགས་ཉོ།"
+msgstr ""
 
 #: forms.py:24 forms.py:85
 msgid "No"
-msgstr "མིན"
+msgstr ""
 
 #: forms.py:25 forms.py:86
 msgid "Subscribed"
-msgstr "མངགས་ཉོ་བྱས།"
+msgstr ""
 
 #: html_widgets.py:23
 msgid "System"
-msgstr "མ་ལག"
+msgstr ""
 
 #: links.py:56 links.py:109 views/clear_views.py:65
 msgid "Clear events"
-msgstr "བྱུང་རིམ་གསལ་བ།"
+msgstr ""
 
 #: links.py:60 links.py:116 views/export_views.py:64
 msgid "Export events"
-msgstr "ཕྱིར་གཏོང་བྱེད་སྒོ།"
+msgstr ""
 
 #: links.py:66 models.py:55 views/subscription_views.py:50
 msgid "Event subscriptions"
-msgstr "བྱེད་སྒོའི་མངགས་ཉོ།"
+msgstr ""
 
 #: links.py:72 models.py:117 views/subscription_views.py:161
 msgid "Object event subscriptions"
-msgstr "དངོས་པོའི་བྱུང་རིམ་གྱི་མངགས་ཉོ།"
+msgstr ""
 
 #: links.py:78 links.py:82
 msgid "Delete"
-msgstr "བསུབ་པ།"
+msgstr "བསུབ།"
 
 #: links.py:87 models.py:87 views/notification_views.py:56
 msgid "Notifications"
-msgstr "བརྡ་ཐོ།"
+msgstr ""
 
 #: links.py:92
 msgid "Mark as seen"
-msgstr "མཐོང་བ་བཞིན་རྟགས།"
+msgstr ""
 
 #: links.py:96
 msgid "Mark all as seen"
-msgstr "ཚང་མ་མཐོང་བ་ལྟར་རྟགས་བཀོད།"
+msgstr ""
 
 #: links.py:123
 msgid "Subscriptions"
-msgstr "མངགས་ཉོ།"
+msgstr ""
 
 #: literals.py:18
 #, python-format
 msgid "Unknown or obsolete event type: %s"
-msgstr "མི་ཤེས་པའམ་ཡང་ན་སྲོལ་རྙིང་བྱུང་བའི་བྱུང་རིམ་རིགས་: %s"
+msgstr ""
 
 #: models.py:25 serializers/event_type_serializers.py:20
 #: serializers/event_type_serializers.py:45
 msgid "Name"
-msgstr "མིང"
+msgstr ""
 
 #: models.py:29
 msgid "Stored event type"
-msgstr "གསོག་འཇོག་བྱས་པའི་བྱུང་རིམ་རིགས།"
+msgstr ""
 
 #: models.py:30
 msgid "Stored event types"
-msgstr "གསོག་འཇོག་བྱས་པའི་བྱུང་རིམ་རིགས།"
+msgstr ""
 
 #: models.py:44 models.py:72 models.py:105
 #: serializers/notification_serializers.py:16
@@ -169,71 +167,71 @@ msgstr "བེད་སྤྱོད་པ་།"
 
 #: models.py:54
 msgid "Event subscription"
-msgstr "བྱེད་སྒོའི་མངགས་ཉོ།"
+msgstr ""
 
 #: models.py:76 serializers/notification_serializers.py:13
 msgid "Action"
-msgstr "བྱ་སྤྱོད"
+msgstr ""
 
 #: models.py:79
 msgid "Read"
-msgstr "ཀློག་པ"
+msgstr ""
 
 #: models.py:86
 msgid "Notification"
-msgstr "བརྡ་ཐོ།"
+msgstr ""
 
 #: models.py:116
 msgid "Object event subscription"
-msgstr "དངོས་པོའི་བྱུང་རིམ་མངགས་ཉོ།"
+msgstr ""
 
 #: permissions.py:10
 msgid "Clear the events of an object"
-msgstr "དངོས་པོ་ཞིག་གི་བྱུང་རིམ་གསལ་བ།"
+msgstr ""
 
 #: permissions.py:13
 msgid "Export the events of an object"
-msgstr "དངོས་པོ་ཞིག་གི་བྱུང་རིམ་ཕྱིར་འདྲེན་བྱེད་པ།"
+msgstr ""
 
 #: permissions.py:16
 msgid "View the events of an object"
-msgstr "དངོས་པོ་ཞིག་གི་བྱུང་རིམ་ལ་ལྟ་བ།"
+msgstr ""
 
 #: queues.py:11
 msgid "Events fast"
-msgstr "བྱ་འགུལ་མགྱོགས་པ།"
+msgstr ""
 
 #: queues.py:14
 msgid "Events slow"
-msgstr "བྱུང་རིམ་དལ་བ།"
+msgstr ""
 
 #: queues.py:20
 msgid "Commit an event"
-msgstr "བྱ་འགུལ་ཁས་ལེན།"
+msgstr ""
 
 #: queues.py:25
 msgid "Launch the event prune backend"
-msgstr "བྱུང་རིམ་གཅོད་པའི་རྒྱབ་ཕྱོགས་འགོ་འཛུགས།"
+msgstr ""
 
 #: queues.py:31
 msgid "Clear event querysets"
-msgstr "བྱུང་རིམ་གྱི་འདྲི་རྩད་ཆ་ཚང་གསལ་པོ་བཟོས།"
+msgstr ""
 
 #: queues.py:36
 msgid "Export event querysets"
-msgstr "བྱུང་རིམ་འདྲི་རྩད་ཆ་ཚན་ཕྱིར་འདྲེན་བྱེད་པ།"
+msgstr ""
 
 #: serializers/event_serializers.py:17
 msgid "Actor content type"
-msgstr "འཁྲབ་སྟོན་པའི་ནང་དོན་རིགས།"
+msgstr ""
 
 #: serializers/event_serializers.py:23
 msgid "Target content type"
-msgstr "དམིགས་འབེན་གྱི་ནང་དོན་རིགས།"
+msgstr ""
 
 #: serializers/event_serializers.py:26
 msgid "Verb"
-msgstr "བྱ་ཚིག།"
+msgstr ""
 
 #: serializers/event_type_serializers.py:23
 #: serializers/notification_serializers.py:22
@@ -242,7 +240,7 @@ msgstr "URL །"
 
 #: serializers/event_type_serializers.py:36
 msgid "Event type namespace URL"
-msgstr "བྱུང་རིམ་རིགས་ཀྱི་མིང་གནས་URL"
+msgstr ""
 
 #: serializers/event_type_serializers.py:39
 msgid "ID"
@@ -253,185 +251,175 @@ msgid ""
 "Disables asynchronous events mode. All events will be committed in the same "
 "process that triggers them. This was the behavior prior to version 4.5."
 msgstr ""
-"དུས་མཉམ་མིན་པའི་བྱུང་རིམ་ཐབས་ལམ་ལྕོགས་མིན་བཟོས། "
-"བྱུང་རིམ་ཚང་མ་དེ་དག་ལ་སྐུལ་འདེད་གཏོང་བའི་བྱ་རིམ་གཅིག་གི་ནང་དུ་སྒྲུབ་རྒྱུ་རེད།"
-" འདི་ནི་ཐོན་རིམ་༤.༥སྔོན་གྱི་སྤྱོད་ཚུལ་ཡིན།"
 
 #: settings.py:27
 msgid ""
 "Path to the event pruning subclass that will be called periodically to clear"
 " the event log."
 msgstr ""
-"བྱུང་རིམ་དྲན་ཐོ་བསལ་བར་དུས་མཚམས་སུ་འབོད་པའི་བྱུང་རིམ་གཅོད་པའི་སྡེ་ཚན་ཆུང་བ་དེ་ལ་འགྲོ་ལམ།"
 
 #: settings.py:34
 msgid "Arguments to pass to `EVENTS_PRUNE_BACKEND`."
-msgstr "`བྱུང་རིམ་_PRUNE_BACKEND` ལ་སྤྲོད་པའི་རྩོད་གླེང་།"
+msgstr ""
 
 #: settings.py:40
 msgid "Time interval in seconds, at which the event prune task will execute."
 msgstr ""
-"དུས་ཚོད་བར་མཚམས་སྐར་ཆའི་ནང་། བྱུང་རིམ་གཅོད་པའི་ལས་འགན་ལག་བསྟར་བྱེད་སྐབས།"
 
 #: views/clear_views.py:27
 msgid ""
 "This action is not reversible. The process will be performed in the "
 "background. "
-msgstr "བྱ་བ་འདི་ཕྱིར་ལོག་མི་ཐུབ། བྱ་རིམ་དེ་རྒྱབ་ལྗོངས་སུ་སྒྲུབ་རྒྱུ་རེད། "
+msgstr ""
 
 #: views/clear_views.py:53
 msgid "Event list clear task queued successfully."
-msgstr "བྱུང་རིམ་ཐོ་གཞུང་གསལ་པོའི་ལས་འགན་བང་སྒྲིག་ལེགས་འགྲུབ་བྱུང་།"
+msgstr ""
 
 #: views/clear_views.py:85
 #, python-format
 msgid "Clear events of: %s"
-msgstr "གསལ་པོའི་བྱུང་རིམ %s"
+msgstr ""
 
 #: views/clear_views.py:109
 #, python-format
 msgid "Clear events of type: %s"
-msgstr "དབྱེ་བའི་བྱུང་རིམ་གསལ་པོ་བཟོས།: %s"
+msgstr ""
 
 #: views/event_views.py:25
 msgid "Events track actions that have been performed on, to, or with objects."
 msgstr ""
-"བྱུང་རིམ་གྱིས་དངོས་པོ་སྟེང་དུ་ཡང་ན་དངོས་པོ་དང་མཉམ་དུ་སྒྲུབ་པའི་བྱ་སྤྱོད་རྗེས་འདེད་བྱེད།"
 
 #: views/event_views.py:28
 msgid "There are no events"
-msgstr "བྱུང་རིམ་གང་ཡང་མེད།"
+msgstr ""
 
 #: views/event_views.py:49
 msgid "There are no events for this object"
-msgstr "དངོས་པོ་འདི་ལ་བྱུང་རིམ་མེད།"
+msgstr ""
 
 #: views/event_views.py:51
 #, python-format
 msgid "Events for: %s"
-msgstr "བྱེད་སྒོ %s"
+msgstr ""
 
 #: views/event_views.py:67
 msgid "There are no events of this type"
-msgstr "བྱུང་རིམ་འདི་འདྲ་བྱུང་མེད།"
+msgstr ""
 
 #: views/event_views.py:69
 #, python-format
 msgid "Events of type: %s"
-msgstr "བྱུང་རིམ་གྱི་རིགས་: %s"
+msgstr ""
 
 #: views/export_views.py:28
 msgid ""
 "The process will be performed in the background. The exported events will be"
 " available in the downloads area."
 msgstr ""
-"བྱ་རིམ་དེ་རྒྱབ་ལྗོངས་སུ་སྒྲུབ་རྒྱུ་རེད། "
-"ཕྱིར་གཏོང་བྱས་པའི་བྱ་འགུལ་དེ་དག་ཕབ་ལེན་བྱེད་སའི་ས་ཁུལ་དུ་ཐོབ་ཐུབ།"
 
 #: views/export_views.py:51
 msgid "Event list export task queued successfully."
-msgstr "བྱུང་རིམ་ཐོ་གཞུང་ཕྱིར་གཏོང་ལས་འགན་ལམ་ལྷོངས་བྱུང་།"
+msgstr ""
 
 #: views/export_views.py:84
 #, python-format
 msgid "Export events of: %s"
-msgstr "ཕྱིར་གཏོང་བྱུང་རིམ།: %s"
+msgstr ""
 
 #: views/export_views.py:102
 #, python-format
 msgid "Export events of type: %s"
-msgstr "ཕྱིར་གཏོང་བྱུང་རིམ་རིགས་: %s"
+msgstr ""
 
 #: views/notification_views.py:20
 #, python-format
 msgid "Error deleting notification \"%(instance)s\"; %(exception)s"
-msgstr "བརྡ་ཐོ་བསུབས་པའི་ནོར་འཁྲུལ་ &quot; %(instance)s &quot;; %(exception)s"
+msgstr ""
 
 #: views/notification_views.py:27
 #, python-format
 msgid "%(count)d notifications deleted successfully."
-msgstr "%(count)d བརྡ་ཐོ་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+msgstr ""
 
 #: views/notification_views.py:30
 #, python-format
 msgid "User \"%(object)s\" deleted successfully."
-msgstr "བཀོལ་སྤྱོད་པ་ &quot; %(object)s &quot; མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+msgstr ""
 
 #: views/notification_views.py:33
 #, python-format
 msgid "%(count)d notification deleted successfully."
-msgstr "%(count)d བརྡ་ཐོ་མཐར་ཕྱིན་ངང་བསུབས་ཡོད།"
+msgstr ""
 
 #: views/notification_views.py:35
 #, python-format
 msgid "Delete the %(count)d selected notifications."
-msgstr "འདེམས་སྒྲུག་བྱས་པའི་བརྡ་ཐོ་ %(count)d བསུབས་དགོས།"
+msgstr ""
 
 #: views/notification_views.py:36
 #, python-format
 msgid "Delete notification: %(object)s."
-msgstr "བརྡ་ཐོ་སུབ %(object)s །"
+msgstr ""
 
 #: views/notification_views.py:37
 #, python-format
 msgid "Delete the %(count)d selected notification."
-msgstr "འདེམས་སྒྲུག་བྱས་པའི་བརྡ་ཐོ་ %(count)d བསུབས་དགོས།"
+msgstr ""
 
 #: views/notification_views.py:52
 msgid "Subscribe to global or object events to receive notifications."
-msgstr "གོ་ལ་ཧྲིལ་པོའམ་དངོས་པོའི་བྱུང་རིམ་ལ་བརྡ་ཐོ་འབྱོར་བར་མངགས་ཉོ་བྱོས།"
+msgstr ""
 
 #: views/notification_views.py:55
 msgid "There are no notifications"
-msgstr "བརྡ་ཐོ་བཏང་མེད།"
+msgstr ""
 
 #: views/notification_views.py:68
 msgid "Mark the selected notification as read?"
-msgstr "བདམས་པའི་བརྡ་ཁྱབ་དེ་ཀློག་ཟིན་པར་རྟགས་བརྒྱབ་དམ།"
+msgstr ""
 
 #: views/notification_views.py:83
 msgid "Notification marked as read."
-msgstr "བརྡ་ཐོ་དེ་ཀློག་ཟིན་པའི་རྟགས་བཀོད་ཡོད།"
+msgstr ""
 
 #: views/notification_views.py:95
 msgid "Mark all notification as read?"
-msgstr "བརྡ་ཐོ་ཚང་མ་བཀླགས་ཚར་བ་རེད་དམ།"
+msgstr ""
 
 #: views/notification_views.py:102
 msgid "All notifications marked as read."
-msgstr "བརྡ་ཐོ་ཚང་མ་བཀླགས་ཟིན་པའི་རྟགས་བཀོད་ཡོད།"
+msgstr ""
 
 #: views/subscription_views.py:34
 #, python-format
 msgid "Error updating event subscription; %s"
-msgstr "བྱ་འགུལ་གྱི་མངགས་ཉོ་དུས་བསྟུན་ནོར་འཁྲུལ་བྱུང་བ། %s"
+msgstr ""
 
 #: views/subscription_views.py:39
 msgid "Event subscriptions updated successfully"
-msgstr "བྱེད་སྒོའི་མངགས་ཉོའི་དུས་བསྟུན་ལེགས་འགྲུབ་བྱུང་།"
+msgstr ""
 
 #: views/subscription_views.py:109
 #, python-format
 msgid "Error updating object event subscription; %s"
-msgstr "དངོས་པོའི་བྱུང་རིམ་གྱི་མངགས་ཉོ་དུས་མཐུན་བཟོ་བའི་ནོར་འཁྲུལ། %s"
+msgstr ""
 
 #: views/subscription_views.py:115
 msgid "Object event subscriptions updated successfully"
 msgstr ""
-"དངོས་པོའི་བྱུང་རིམ་གྱི་མངགས་ཉོ་ལེགས་འགྲུབ་བྱུང་བའི་སྒོ་ནས་དུས་བསྟུན་བྱས།"
 
 #: views/subscription_views.py:126
 #, python-format
 msgid "Event subscriptions for: %s"
-msgstr "བྱ་འགུལ་གྱི་མངགས་ཉོ།: %s"
+msgstr ""
 
 #: views/subscription_views.py:156
 msgid ""
 "Subscribe to the events of an object to receive notifications when those "
 "events occur."
 msgstr ""
-"དངོས་པོ་ཞིག་གི་བྱུང་རིམ་ལ་མངགས་ཉོ་བྱས་ནས་བྱུང་རིམ་དེ་དག་བྱུང་སྐབས་བརྡ་ཐོ་ཐོབ་ཐུབ།"
 
 #: views/subscription_views.py:159
 msgid "There are no object event subscriptions"
-msgstr "དངོས་པོའི་བྱུང་རིམ་གྱི་མངགས་ཉོ་མེད།"
+msgstr ""

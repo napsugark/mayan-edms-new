@@ -5,16 +5,16 @@
 # Translators:
 # Translators:
 # Dezső József <dejo60@gmail.com>, 2025
-# Csaba Tarjányi, 2025
 # molnars <szabolcs.molnar@gmail.com>, 2025
+# Csaba Tarjányi, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: molnars <szabolcs.molnar@gmail.com>, 2025\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Csaba Tarjányi, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/rosarior/teams/13584/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,7 +44,7 @@ msgstr "Lefoglalt dokumentum"
 
 #: events.py:20
 msgid "Document forcefully checked in"
-msgstr "Visszaadatott dokumentum"
+msgstr ""
 
 #: exceptions.py:15
 msgid "Document not checked out."
@@ -76,15 +76,15 @@ msgstr "Új fájlok engedélyezettek?"
 
 #: forms.py:51
 msgid "Yes"
-msgstr "Igen"
+msgstr ""
 
 #: forms.py:51
 msgid "No"
-msgstr "Nem"
+msgstr ""
 
 #: links.py:39
 msgid "Check out document"
-msgstr "Dokumentum lefoglalása"
+msgstr ""
 
 #: links.py:43
 msgid "Check out"
@@ -213,7 +213,7 @@ msgstr "%(count)d dokumentum sikeresen visszaadva."
 #: views.py:40
 #, python-format
 msgid "Check in %(count)d documents."
-msgstr "%(count)d dokumentum visszaadása."
+msgstr ""
 
 #: views.py:41
 #, python-format
@@ -233,7 +233,7 @@ msgstr "Nem lehet lefoglalni a \"%(instance)s\" dokumentumot; %(exception)s"
 #: views.py:102
 #, python-format
 msgid "%(count)d documents checked out successfully."
-msgstr "%(count)d dokumentum sikeresen lefoglalva."
+msgstr ""
 
 #: views.py:105
 #, python-format
@@ -275,8 +275,8 @@ msgstr ""
 
 #: views.py:184
 msgid "No documents have been checked out"
-msgstr "Nincsenek dokumentumok lefoglalva"
+msgstr ""
 
 #: widgets.py:19
 msgid "Amount"
-msgstr "Mennyiség"
+msgstr ""

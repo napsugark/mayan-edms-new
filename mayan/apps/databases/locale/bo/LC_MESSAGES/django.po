@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-27 11:22+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -22,15 +22,15 @@ msgstr ""
 
 #: apps.py:22
 msgid "Databases"
-msgstr "གཞི་གྲངས་མཛོད་ཁང་།"
+msgstr ""
 
 #: class_mixins.py:34
 msgid "The object will be executed, depending on the condition return value."
-msgstr "དངོས་པོ་དེ་གནས་སྟངས་ཕྱིར་ལོག་རིན་ཐང་ལ་རག་སླེབས་ནས་ལག་བསྟར་བྱེད།"
+msgstr ""
 
 #: class_mixins.py:37
 msgid "Has a condition?"
-msgstr "ཆ་རྐྱེན་ཞིག་ཡོད་དམ།"
+msgstr ""
 
 #: classes.py:87
 msgid "Description"
@@ -38,51 +38,51 @@ msgstr "བཀོད་པ།"
 
 #: classes.py:92 classes.py:277
 msgid "Label"
-msgstr "ལག་ཁྱེར་།"
+msgstr "མིང་བྱང།"
 
 #: classes.py:97
 msgid "Example usage of the property."
-msgstr "དཔེ་མཚོན་རྒྱུ་ནོར་གྱི་བེད་སྤྱོད།"
+msgstr ""
 
 #: classes.py:98 classes.py:282
 msgid "Name"
-msgstr "མིང"
+msgstr ""
 
 #: classes.py:102
 msgid "Model fields"
-msgstr "དཔེ་སྟོན་ས་ཁོངས།"
+msgstr ""
 
 #: classes.py:149
 msgid "Model related fields"
-msgstr "དཔེ་སྟོན་དང་འབྲེལ་བའི་ཁྱབ་ཁོངས།"
+msgstr ""
 
 #: classes.py:154
 msgid "Model properties"
-msgstr "དཔེ་གཟུགས་ཀྱི་ཁྱད་ཆོས།"
+msgstr ""
 
 #: classes.py:159
 msgid "Model reverse fields"
-msgstr "དཔེ་གཞི་ལྡོག་ཕྱོགས་ཀྱི་ས་ཁོངས།"
+msgstr ""
 
 #: classes.py:264
 msgid "Name of the app where the model is defined."
-msgstr "དཔེ་གཟུགས་ངེས་ཚིག་བཀོད་པའི་མཉེན་ཆས་ཀྱི་མིང་།"
+msgstr ""
 
 #: classes.py:265
 msgid "App"
-msgstr "མཉེན་ཆས།"
+msgstr ""
 
 #: classes.py:270
 msgid "Complete unique name of the model."
-msgstr "དཔེ་གཟུགས་ཀྱི་ཐུན་མོང་མ་ཡིན་པའི་མིང་ཆ་ཚང་།"
+msgstr ""
 
 #: classes.py:271
 msgid "Full name"
-msgstr "མིང་ཆ་ཚང་།"
+msgstr ""
 
 #: classes.py:276
 msgid "Human readable name of the model."
-msgstr "དཔེ་གཟུགས་ཀྱི་མིས་ཀློག་ཐུབ་པའི་མིང་།"
+msgstr ""
 
 #: links.py:12
 msgid "Properties"
@@ -90,16 +90,13 @@ msgstr "ཁྱད་ཆོས།"
 
 #: links.py:15
 msgid "Property models"
-msgstr "རྒྱུ་ནོར་དཔེ་སྟོན།"
+msgstr ""
 
 #: literals.py:16
 msgid ""
 "Your database backend is set to use SQLite. SQLite should only be used for "
 "development and testing, not for production."
 msgstr ""
-"ཁྱེད་ཀྱི་གཞི་གྲངས་མཛོད་རྒྱབ་ལྗོངས་དེ་SQLiteབེད་སྤྱོད་གཏོང་བར་སྒྲིག་ཡོད། "
-"SQLite "
-"ནི་ཐོན་སྐྱེད་ཆེད་དུ་མ་ཡིན་པར་འཕེལ་རྒྱས་དང་ཚོད་ལྟའི་ཆེད་དུ་བེད་སྤྱོད་གཏོང་དགོས།"
 
 #: model_mixins.py:39
 msgid ""
@@ -108,27 +105,24 @@ msgid ""
 "None, or an empty string ('') are considered to be logical false, any other "
 "value is considered to be the logical true."
 msgstr ""
-"དངོས་པོ་འདི་ལག་བསྟར་བྱེད་མིན་གཏན་འབེབས་བྱེད་པའི་ཆ་རྐྱེན། "
-"གནས་གོང་གང་རུང་སླར་ལོག་མི་བྱེད་པའི་གནས་སྟངས་དང་པའེ་ཐོན་གཏན་ཚིག་ཅན་གྱི་གང་ཡང་སླར་ལོག་མི་ཡང་ན་ཡིག་རྒྱུན་སྟོང་པ་(&#39;&#39;)དེ་གཏན་ཚིགས་རྫུན་མ་ཡིན་པར་བརྩི།"
-" གནས་གོང་གཞན་གང་རུང་ཞིག་གཏན་ཚིག་བདེན་པ་ཡིན་པར་བརྩི།"
 
 #: model_mixins.py:47
 msgid "Condition"
-msgstr "ཆ་རྐྱེན"
+msgstr ""
 
 #: templates/databases/app/viewport.html:11
 msgid "Warning"
-msgstr "ཉེན་བརྡ"
+msgstr ""
 
 #: views.py:27
 msgid "No properties available"
-msgstr "རྒྱུ་ནོར་གང་ཡང་མེད།"
+msgstr ""
 
 #: views.py:29
 #, python-format
 msgid "Properties for model: %s"
-msgstr "དཔེ་གཟུགས་ཀྱི་ཁྱད་ཆོས %s"
+msgstr ""
 
 #: views.py:49
 msgid "Models with registered properties"
-msgstr "ཐོ་འགོད་བྱས་པའི་རྒྱུ་ནོར་ཡོད་པའི་དཔེ་གཞི།"
+msgstr ""

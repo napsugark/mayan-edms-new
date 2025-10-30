@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -22,67 +22,67 @@ msgstr ""
 
 #: apps.py:25 links.py:17 settings.py:11
 msgid "REST API"
-msgstr "REST API"
+msgstr ""
 
 #: fields.py:30
 #, python-format
 msgid "Unable to find serializer class for: %s"
-msgstr "རིམ་སྒྲིག་བྱེད་མཁན་གྱི་རིགས་འཚོལ་མི་ཐུབ། %s"
+msgstr ""
 
 #: links.py:21
 msgid "API Documentation (Swagger)"
-msgstr "API ཡིག་ཆ། (Swagger)"
+msgstr ""
 
 #: links.py:26
 msgid "API Documentation (ReDoc)"
-msgstr "API ཡིག་ཆ། (ReDoc)"
+msgstr ""
 
 #: relations.py:33
 #, python-brace-format
 msgid "Invalid pk \"{pk_value}\" - object does not exist."
-msgstr "ནུས་མེད་pk &quot; {pk_value} &quot; - དངོས་པོ་མེད་པ་རེད།"
+msgstr ""
 
 #: relations.py:36
 #, python-brace-format
 msgid "Incorrect type. Expected pk value, received {data_type}."
-msgstr "ཡིག་གཟུགས་ནོར་བ། རེ་བ་བྱེད་པའི་pk རིན་ཐང་། {data_type} ཐོབ་ཡོད།"
+msgstr ""
 
 #: relations.py:38
 msgid "This field is required."
-msgstr "ཡིག་དུམ་འདི་དགོས་ངེས་ཡིན།"
+msgstr ""
 
 #: schemas.py:10
 #, python-format
 msgid "%s API"
-msgstr "%s ཨེ་པི་ཨའི་"
+msgstr ""
 
 #: serializers.py:36
 msgid "Content"
-msgstr "ནང་དོན"
+msgstr ""
 
 #: serializers.py:39
 msgid "Data"
-msgstr "གཞི་གྲངས"
+msgstr ""
 
 #: serializers.py:42
 msgid "Headers"
-msgstr "མགོ་ཡིག"
+msgstr ""
 
 #: serializers.py:45
 msgid "Name"
-msgstr "མིང"
+msgstr ""
 
 #: serializers.py:48
 msgid "Status code"
-msgstr "གནས་ཚུལ་ཨང་རྟགས།"
+msgstr ""
 
 #: serializers.py:51
 msgid "Requests"
-msgstr "རེ་ཞུ།"
+msgstr ""
 
 #: serializers.py:74
 msgid "Label"
-msgstr "ལག་ཁྱེར་།"
+msgstr "མིང་བྱང།"
 
 #: serializers.py:77
 msgid "URL"
@@ -90,23 +90,23 @@ msgstr "URL །"
 
 #: serializers.py:105
 msgid "Author"
-msgstr "རྩོམ་མཁན"
+msgstr ""
 
 #: serializers.py:108
 msgid "Author email"
-msgstr "རྩོམ་པ་པོའི་གློག་འཕྲིན།"
+msgstr ""
 
 #: serializers.py:111
 msgid "Build"
-msgstr "འཛུགས་སྐྲུན"
+msgstr ""
 
 #: serializers.py:114
 msgid "Build string"
-msgstr "ཡིག་རྒྱུན་བཟོ་སྐྲུན།"
+msgstr ""
 
 #: serializers.py:117
 msgid "Copyright"
-msgstr "པར་དབང་།"
+msgstr ""
 
 #: serializers.py:120
 msgid "Description"
@@ -114,32 +114,32 @@ msgstr "བཀོད་པ།"
 
 #: serializers.py:123
 msgid "Django version"
-msgstr "Django ཐོན་རིམ།"
+msgstr ""
 
 #: serializers.py:126
 msgid "License"
-msgstr "ཆོག་མཆན།"
+msgstr ""
 
 #: serializers.py:129
 msgid "Title"
-msgstr "མིང་བྱང"
+msgstr ""
 
 #: serializers.py:132
 msgid "Version"
-msgstr "པར་གཞི"
+msgstr ""
 
 #: serializers.py:135
 msgid "Website"
-msgstr "དྲ་ཚིགས།"
+msgstr ""
 
 #: settings.py:17
 msgid "Disable the REST API links in the tools menu."
-msgstr "ལག་ཆའི་དཀར་ཆག་ནང་REST APIའབྲེལ་མཐུད་དེ་ལྕོགས་མིན་བཟོས།"
+msgstr ""
 
 #: settings.py:23
 msgid "The maximum page size that can be requested."
-msgstr "རེ་ཞུ་བྱེད་ཐུབ་པའི་ཆེས་མཐོའི་ཤོག་བུའི་ཆེ་ཆུང་།"
+msgstr ""
 
 #: settings.py:29
 msgid "The default page size if none is specified."
-msgstr "གལ་ཏེ་གང་ཡང་གསལ་བཀོད་བྱས་མེད་ན་སྔོན་སྒྲིག་ཤོག་ངོས་ཚད།"
+msgstr ""

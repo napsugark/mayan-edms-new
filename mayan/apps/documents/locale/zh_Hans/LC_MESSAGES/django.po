@@ -4,10 +4,10 @@
 # 
 # Translators:
 # Translators:
-# Leon Chu, 2025
-# malijie <tonymlj2008@126.com>, 2025
 # bo feng <87289884@qq.com>, 2025
 # yan songwei <yansw@vip.163.com>, 2025
+# malijie <tonymlj2008@126.com>, 2025
+# Leon Chu, 2025
 # Ford Guo <agile.guo@gmail.com>, 2025
 # Roberto Rosario, 2025
 # 
@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Chinese Simplified (https://app.transifex.com/rosarior/teams/13584/zh-Hans/)\n"
 "MIME-Version: 1.0\n"
@@ -382,7 +382,7 @@ msgstr ""
 msgid "Page group"
 msgstr ""
 
-#: forms/misc_forms.py:14 literals.py:99
+#: forms/misc_forms.py:14 literals.py:101
 msgid "Page range"
 msgstr "页面范围"
 
@@ -603,55 +603,55 @@ msgstr "恢复"
 msgid "Default"
 msgstr "默认"
 
-#: literals.py:91
+#: literals.py:93
 msgid "January"
 msgstr "一月"
 
-#: literals.py:91
+#: literals.py:93
 msgid "February"
 msgstr "二月"
 
-#: literals.py:91
+#: literals.py:93
 msgid "March"
 msgstr "三月"
 
-#: literals.py:91
+#: literals.py:93
 msgid "April"
 msgstr "四月"
 
-#: literals.py:91
+#: literals.py:93
 msgid "May"
 msgstr "五月"
 
-#: literals.py:92
+#: literals.py:94
 msgid "June"
 msgstr "六月"
 
-#: literals.py:92
+#: literals.py:94
 msgid "July"
 msgstr "七月"
 
-#: literals.py:92
+#: literals.py:94
 msgid "August"
 msgstr "八月"
 
-#: literals.py:92
+#: literals.py:94
 msgid "September"
 msgstr "九月"
 
-#: literals.py:92
+#: literals.py:94
 msgid "October"
 msgstr "十月"
 
-#: literals.py:93
+#: literals.py:95
 msgid "November"
 msgstr "十一月"
 
-#: literals.py:93
+#: literals.py:95
 msgid "December"
 msgstr "十二月"
 
-#: literals.py:99
+#: literals.py:101
 msgid "All pages"
 msgstr "所有页面"
 

@@ -5,16 +5,16 @@
 # Translators:
 # Translators:
 # Emine Öztürk <oemine075@gmail.com>, 2025
-# serhatcan77 <serhat_can@yahoo.com>, 2025
 # Bedreddin Şahbaz, 2025
+# serhatcan77 <serhat_can@yahoo.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Bedreddin Şahbaz, 2025\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: serhatcan77 <serhat_can@yahoo.com>, 2025\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/rosarior/teams/13584/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -173,6 +173,10 @@ msgstr ""
 #: settings.py:23
 msgid "Full path to the backend to be used to do OCR."
 msgstr "OCR yapmak için kullanılacak arka uç için tam yol."
+
+#: settings.py:29
+msgid "Arguments to pass to `OCR_BACKEND`."
+msgstr ""
 
 #: views.py:64
 #, python-format

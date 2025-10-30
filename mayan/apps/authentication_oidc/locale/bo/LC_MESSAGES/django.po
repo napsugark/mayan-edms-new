@@ -3,16 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# KarmaBuildsApps, 2025
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-02 14:05+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: KarmaBuildsApps, 2025\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,16 +18,16 @@ msgstr ""
 
 #: apps.py:17 settings.py:8
 msgid "Authentication OIDC"
-msgstr "བདེན་དཔང་OIDC"
+msgstr ""
 
 #: authentication_backends.py:97
 msgid "Login via OIDC"
-msgstr "OIDC བརྒྱུད་ནས་ནང་འཛུལ།"
+msgstr ""
 
 #: links.py:22
 msgid "OIDC user details"
-msgstr "OIDC སྤྱོད་མཁན་གྱི་ཞིབ་ཕྲ།"
+msgstr ""
 
 #: settings.py:14
 msgid "URL for the OIDC user profile page."
-msgstr "OIDC སྤྱོད་མཁན་གྱི་གསལ་སྡུད་ཤོག་ངོས་ཀྱི་URL"
+msgstr ""

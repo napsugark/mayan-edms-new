@@ -4,16 +4,16 @@
 # 
 # Translators:
 # Translators:
-# Alex Chigrin <chalex84@mail.ru>, 2025
 # lilo.panic, 2025
+# Alex Chigrin <chalex84@mail.ru>, 2025
 # Ilya Pavlov <spirkaa@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-02 14:05+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Ilya Pavlov <spirkaa@gmail.com>, 2025\n"
 "Language-Team: Russian (https://app.transifex.com/rosarior/teams/13584/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: apps.py:28 apps.py:54 links.py:14 queues.py:7
+#: apps.py:28 apps.py:54 links.py:14 links.py:18 queues.py:7
 msgid "Duplicates"
 msgstr "Дубликаты"
 
@@ -42,10 +42,6 @@ msgstr "Точная контрольная сумма файла докумен
 msgid "Exact document label"
 msgstr "Точный заголовок документа"
 
-#: links.py:18 models.py:39 views.py:79
-msgid "Duplicated documents"
-msgstr "Дубликаты документов"
-
 #: links.py:24 queues.py:24
 msgid "Duplicated document scan"
 msgstr "Поиск дубликатов документов"
@@ -61,6 +57,10 @@ msgstr "Сохраненные бэкэнды дубликата"
 #: models.py:35
 msgid "Document"
 msgstr "Документ"
+
+#: models.py:39
+msgid "Duplicated documents"
+msgstr "Дубликаты документов"
 
 #: models.py:47
 msgid "Duplicated backend entry"
@@ -106,8 +106,12 @@ msgstr ""
 "сохраненные в разных форматах, система не считает дубликатами."
 
 #: views.py:77
-msgid "There are no duplicated documents"
-msgstr "Отсутствуют дубликаты документов"
+msgid "There are no documents with duplicates"
+msgstr ""
+
+#: views.py:79
+msgid "Documents with duplicates"
+msgstr ""
 
 #: views.py:87
 msgid "Scan for duplicated documents?"

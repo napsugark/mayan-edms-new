@@ -2,19 +2,19 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 # Translators:
 # Márcia Ferreira, 2025
-# 425fe09b3064b9f906f637fff94056ae_a00ea56 <0fa3588fa89906bfcb3a354600956e0e_308047>, 2025
 # Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2025
-#
+# 425fe09b3064b9f906f637fff94056ae_a00ea56 <0fa3588fa89906bfcb3a354600956e0e_308047>, 2025
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-03-28 15:55-0400\n"
-"Last-Translator: Roberto Rosario <rosarior@lp-ammna039>\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: 425fe09b3064b9f906f637fff94056ae_a00ea56 <0fa3588fa89906bfcb3a354600956e0e_308047>, 2025\n"
 "Language-Team: Portuguese (https://app.transifex.com/rosarior/teams/13584/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,23 +22,23 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: apps.py:15 permissions.py:6 settings.py:17
+#: apps.py:15
+msgid "Platforms"
+msgstr ""
+
+#: permissions.py:6 settings.py:17
 msgid "Platform"
 msgstr "Platforma"
-
-#: client_backends.py:34
-msgid "Sentry test error"
-msgstr ""
 
 #: permissions.py:10
 msgid "Trigger tests"
 msgstr ""
 
-#: platforms_templates.py:132
+#: platform_templates.py:132
 msgid "Template for Supervisord."
 msgstr "Template para Supervisord"
 
-#: platforms_templates.py:205
+#: platform_templates.py:205
 msgid "Template showing the queues of a worker."
 msgstr "Template exibindo as filas de um worker"
 

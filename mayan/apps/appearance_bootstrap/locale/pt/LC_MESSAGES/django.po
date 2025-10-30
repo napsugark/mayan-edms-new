@@ -5,21 +5,21 @@
 # Translators:
 # Translators:
 # Vítor Figueiró <vfigueiro@gmail.com>, 2025
-# Aline Freitas <aline@alinefreitas.com.br>, 2025
-# Rogerio Falcone <rogerio@falconeit.com.br>, 2025
-# Roberto Rosario, 2025
 # Márcia Ferreira, 2025
-# 425fe09b3064b9f906f637fff94056ae_a00ea56 <0fa3588fa89906bfcb3a354600956e0e_308047>, 2025
 # Emerson Soares <on.emersonsoares@gmail.com>, 2025
+# Aline Freitas <aline@alinefreitas.com.br>, 2025
+# 425fe09b3064b9f906f637fff94056ae_a00ea56 <0fa3588fa89906bfcb3a354600956e0e_308047>, 2025
+# Rogerio Falcone <rogerio@falconeit.com.br>, 2025
 # Bruno Martins <bruno.martins@bewgpt.com.pt>, 2025
+# Roberto Rosario, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 11:22+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Bruno Martins <bruno.martins@bewgpt.com.pt>, 2025\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Portuguese (https://app.transifex.com/rosarior/teams/13584/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -115,31 +115,31 @@ msgstr ""
 msgid "Open a ticket using the <a href=\"%(issue_url)s\">issue tracker</a>."
 msgstr "Crie um pedido de ajuda <a href=\"%(issue_url)s\">aqui</a>"
 
-#: templates/appearance/about.html:10
+#: templates/appearance/about.html:11
 msgid "About"
 msgstr "Sobre"
 
-#: templates/appearance/about.html:39
+#: templates/appearance/about.html:40
 msgid "Version"
 msgstr "Versão"
 
-#: templates/appearance/about.html:41
+#: templates/appearance/about.html:42
 #, python-format
 msgid "Build number: %(project_build_number)s"
-msgstr ""
+msgstr "Número de Compilação: %(project_build_number)s"
 
-#: templates/appearance/about.html:48
+#: templates/appearance/about.html:49
 msgid "Released under the license:"
 msgstr "Publicado sob a licença: "
 
-#: templates/appearance/about.html:57
+#: templates/appearance/about.html:60
 #, python-format
 msgid ""
 "To get the latest news subscribe to the <a class=\"new_window\" "
 "href=\"%(link_mailing_list_url)s\"> Mailing list</a>."
 msgstr ""
 
-#: templates/appearance/about.html:66
+#: templates/appearance/about.html:69
 #, python-format
 msgid ""
 "For articles, tutorials, troubleshooting, subscribe to the <a "
@@ -147,35 +147,35 @@ msgid ""
 "base</a>."
 msgstr ""
 
-#: templates/appearance/about.html:75
+#: templates/appearance/about.html:78
 #, python-format
 msgid ""
 "Need professional help? Check out the <a class=\"new_window\" "
 "href=\"%(link_support_url)s\"> Support</a> offerings."
 msgstr ""
 
-#: templates/appearance/about.html:84
+#: templates/appearance/about.html:87
 #, python-format
 msgid ""
 "For discussions visit the <a class=\"new_window\" "
 "href=\"%(link_forum_url)s\">Community forum</a>."
 msgstr ""
 
-#: templates/appearance/about.html:93
+#: templates/appearance/about.html:96
 #, python-format
 msgid ""
 "The complete list of changes is available via the <a class=\"new_window\" "
 "href=\"%(link_release_notes_url)s\">Release notes</a>."
 msgstr ""
 
-#: templates/appearance/about.html:102
+#: templates/appearance/about.html:105
 #, python-format
 msgid ""
 "For questions check the <a class=\"new_window\" "
 "href=\"%(link_documentation_url)s\">Documentation</a>."
 msgstr ""
 
-#: templates/appearance/about.html:111
+#: templates/appearance/about.html:114
 #, python-format
 msgid ""
 "If you found a bug or have a feature idea open a ticket in the <a "
@@ -183,7 +183,7 @@ msgid ""
 "repository</a>."
 msgstr ""
 
-#: templates/appearance/about.html:117
+#: templates/appearance/about.html:120
 #, python-format
 msgid ""
 "%(project_title)s is Free and Open Source software, which is provided as-is "
@@ -245,7 +245,6 @@ msgid "Cancel"
 msgstr "Cancelar"
 
 #: templates/appearance/partials/list/column_object_facet_links.html:8
-#: templates/appearance/partials/list/column_object_facet_links.html:39
 #: templates/appearance/partials/list/table/head/row_cell_links.html:8
 msgid "Views"
 msgstr "Visualizações"

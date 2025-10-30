@@ -4,17 +4,16 @@
 # 
 # Translators:
 # Translators:
-# Roberto Rosario, 2025
 # yan songwei <yansw@vip.163.com>, 2025
-# Ford Guo <agile.guo@gmail.com>, 2025
+# Roberto Rosario, 2025
 # Leon Chu, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 11:22+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Leon Chu, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/rosarior/teams/13584/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -23,31 +22,31 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: apps.py:57 events.py:6 permissions.py:6 settings.py:17
+#: apps.py:35 events.py:6 settings.py:17
 msgid "Appearance"
 msgstr "外觀"
 
-#: dependencies.py:8
+#: dependencies.py:6
 msgid "Fancybox"
 msgstr "Fancybox套件"
 
-#: dependencies.py:12
+#: dependencies.py:10
 msgid "jQuery"
 msgstr "jQuery"
 
-#: dependencies.py:16
+#: dependencies.py:14
 msgid "JQuery Form"
 msgstr "jQuery表單"
 
-#: dependencies.py:20
+#: dependencies.py:18
 msgid "JQuery Match Height"
 msgstr "jQuery匹配高度"
 
-#: dependencies.py:24
+#: dependencies.py:22
 msgid "Select 2"
 msgstr "选择2"
 
-#: dependencies.py:28
+#: dependencies.py:26
 msgid "Toastr"
 msgstr "Toastr 套件"
 
@@ -63,83 +62,9 @@ msgstr "已編輯之佈景"
 msgid "User theme edited"
 msgstr ""
 
-#: links.py:21
+#: links.py:9
 msgid "Reload the current content"
 msgstr ""
-
-#: links.py:27
-msgid "Theme settings"
-msgstr "佈景設定"
-
-#: links.py:34
-msgid "Edit theme settings"
-msgstr "編輯佈景設定"
-
-#: links.py:40 views.py:34
-msgid "Create new theme"
-msgstr "建立新的佈景"
-
-#: links.py:45
-msgid "Delete"
-msgstr "删除"
-
-#: links.py:49
-msgid "Edit"
-msgstr "编辑"
-
-#: links.py:53 links.py:61 models.py:33 views.py:103
-msgid "Themes"
-msgstr "佈景"
-
-#: models.py:20
-msgid "A short text describing the theme."
-msgstr "有關此佈景之簡述"
-
-#: models.py:21
-msgid "Label"
-msgstr "标签"
-
-#: models.py:25
-msgid ""
-"The CSS stylesheet to change the appearance of the different user interface "
-"elements."
-msgstr "用來更改不同使用者介面顯示項目的 CSS 樣式表"
-
-#: models.py:27
-msgid "Stylesheet"
-msgstr "文件樣式表"
-
-#: models.py:32 models.py:69
-msgid "Theme"
-msgstr "佈景"
-
-#: models.py:65
-msgid "User"
-msgstr "用户"
-
-#: models.py:73
-msgid "User theme setting"
-msgstr "使用者佈景設定"
-
-#: models.py:74
-msgid "User theme settings"
-msgstr "使用者佈景設定"
-
-#: permissions.py:10
-msgid "Create new themes"
-msgstr "建立複數佈景"
-
-#: permissions.py:13
-msgid "Delete themes"
-msgstr "刪除複數佈景"
-
-#: permissions.py:16
-msgid "Edit themes"
-msgstr "編輯複數佈景"
-
-#: permissions.py:19
-msgid "View existing themes"
-msgstr "瀏覽所有已存佈景"
 
 #: settings.py:23
 msgid "Custom HTTP response code for AJAX redirections."
@@ -211,35 +136,6 @@ msgstr ""
 msgid "Page number must be a positive integer."
 msgstr ""
 
-#: templatetags/appearance_tags.py:77
+#: templatetags/appearance_tags.py:36
 msgid "None"
 msgstr "无"
-
-#: views.py:59
-#, python-format
-msgid "Delete theme: %s"
-msgstr "刪除佈景 : %s"
-
-#: views.py:76
-#, python-format
-msgid "Edit theme: %s"
-msgstr "編輯佈景 : %s"
-
-#: views.py:97
-msgid ""
-"Themes allow changing the visual appearance without requiring code changes."
-msgstr "佈景可以讓你修改畫面的顯示但不需要改變原始碼."
-
-#: views.py:101
-msgid "There are no themes"
-msgstr "沒有佈景可以使用"
-
-#: views.py:127
-#, python-format
-msgid "Theme settings for user: %s"
-msgstr ""
-
-#: views.py:150
-#, python-format
-msgid "Edit theme settings for user: %s"
-msgstr ""

@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 11:22+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/rosarior/teams/13584/es_MX/)\n"
 "MIME-Version: 1.0\n"
@@ -110,24 +110,24 @@ msgstr ""
 "Abra un ticket utilizando el <a href=\"%(issue_url)s\">monitor de "
 "problemas</a> ."
 
-#: templates/appearance/about.html:10
+#: templates/appearance/about.html:11
 msgid "About"
 msgstr "Sobre"
 
-#: templates/appearance/about.html:39
+#: templates/appearance/about.html:40
 msgid "Version"
 msgstr "Versión"
 
-#: templates/appearance/about.html:41
+#: templates/appearance/about.html:42
 #, python-format
 msgid "Build number: %(project_build_number)s"
 msgstr "Número de compilación: %(project_build_number)s"
 
-#: templates/appearance/about.html:48
+#: templates/appearance/about.html:49
 msgid "Released under the license:"
 msgstr "Publicado bajo la licencia:"
 
-#: templates/appearance/about.html:57
+#: templates/appearance/about.html:60
 #, python-format
 msgid ""
 "To get the latest news subscribe to the <a class=\"new_window\" "
@@ -136,7 +136,7 @@ msgstr ""
 "Para recibir las últimas noticias suscríbete a la <a class=\"new_window\" "
 "href=\"%(link_mailing_list_url)s\">lista de correo</a> ."
 
-#: templates/appearance/about.html:66
+#: templates/appearance/about.html:69
 #, python-format
 msgid ""
 "For articles, tutorials, troubleshooting, subscribe to the <a "
@@ -147,7 +147,7 @@ msgstr ""
 "class=\"new_window\" href=\"%(link_knowledge_base_url)s\">base de "
 "conocimientos</a> ."
 
-#: templates/appearance/about.html:75
+#: templates/appearance/about.html:78
 #, python-format
 msgid ""
 "Need professional help? Check out the <a class=\"new_window\" "
@@ -156,7 +156,7 @@ msgstr ""
 "¿Necesitas ayuda profesional? Consulte las ofertas de <a "
 "class=\"new_window\" href=\"%(link_support_url)s\">Apoyo técnico</a> ."
 
-#: templates/appearance/about.html:84
+#: templates/appearance/about.html:87
 #, python-format
 msgid ""
 "For discussions visit the <a class=\"new_window\" "
@@ -165,7 +165,7 @@ msgstr ""
 "Para discusiones visite el <a class=\"new_window\" "
 "href=\"%(link_forum_url)s\">Foro de la comunidad</a> ."
 
-#: templates/appearance/about.html:93
+#: templates/appearance/about.html:96
 #, python-format
 msgid ""
 "The complete list of changes is available via the <a class=\"new_window\" "
@@ -175,7 +175,7 @@ msgstr ""
 "class=\"new_window\" href=\"%(link_release_notes_url)s\">Notas de la "
 "versión</a> ."
 
-#: templates/appearance/about.html:102
+#: templates/appearance/about.html:105
 #, python-format
 msgid ""
 "For questions check the <a class=\"new_window\" "
@@ -184,7 +184,7 @@ msgstr ""
 "Si tienes dudas consulta la <a class=\"new_window\" "
 "href=\"%(link_documentation_url)s\">Documentación</a> ."
 
-#: templates/appearance/about.html:111
+#: templates/appearance/about.html:114
 #, python-format
 msgid ""
 "If you found a bug or have a feature idea open a ticket in the <a "
@@ -195,7 +195,7 @@ msgstr ""
 "el <a class=\"new_window\" href=\"%(link_source_code_url)s\">Repositorio de "
 "código fuente</a> ."
 
-#: templates/appearance/about.html:117
+#: templates/appearance/about.html:120
 #, python-format
 msgid ""
 "%(project_title)s is Free and Open Source software, which is provided as-is "
@@ -259,7 +259,6 @@ msgid "Cancel"
 msgstr "Cancelar"
 
 #: templates/appearance/partials/list/column_object_facet_links.html:8
-#: templates/appearance/partials/list/column_object_facet_links.html:39
 #: templates/appearance/partials/list/table/head/row_cell_links.html:8
 msgid "Views"
 msgstr "Vistas"

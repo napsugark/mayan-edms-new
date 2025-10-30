@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-04 04:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -22,27 +22,26 @@ msgstr ""
 
 #: apps.py:17 settings.py:8
 msgid "Forms"
-msgstr "རྣམ་པ།"
+msgstr ""
 
 #: forms.py:42
 msgid "Search"
-msgstr "བཤེར་འཚོལ"
+msgstr ""
 
 #: forms.py:60
 msgid "Selection"
-msgstr "འདེམས་སྒྲུག།"
+msgstr ""
 
 #: forms.py:238
 msgid "Label"
-msgstr "ལག་ཁྱེར་།"
+msgstr "མིང་བྱང།"
 
 #: forms.py:244
 msgid "Relationship"
-msgstr "འབྲེལ་བ"
+msgstr ""
 
 #: settings.py:14
 msgid ""
 "Display a submit button and wait for the submit button to be pressed before "
 "processing up the upload."
 msgstr ""
-"ཡར་བསྐུར་བྱེད་པའི་མཐེབ་གཞོང་ཞིག་བསྟན་ནས་སྐྱེལ་འདྲེན་བྱེད་པའི་མཐེབ་གཞོང་དེ་མནན་པར་སྒུག་དགོས།"

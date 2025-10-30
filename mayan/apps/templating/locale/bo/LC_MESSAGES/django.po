@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:40+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -20,98 +20,117 @@ msgstr ""
 "Language: bo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: apps.py:16 permissions.py:6 settings.py:94
+#: apps.py:16 permissions.py:6 settings.py:96
 msgid "Templating"
-msgstr "དཔེ་སྒྲོམ་བཟོ་བ།"
+msgstr ""
 
 #: apps.py:23
 msgid "Current date and time"
-msgstr "ད་ལྟའི་ཚེས་གྲངས་དང་དུས་ཚོད།"
+msgstr ""
 
 #: classes.py:83
 #, python-format
 msgid "Model `%s` is not available for template sandbox."
-msgstr "དཔེ་གཟུགས་` %s ` ནི་ཊེམ་པེལེཊ་བྱེ་སྒམ་གྱི་ཆེད་དུ་མེད་པ་རེད།"
+msgstr ""
+
+#: decorators.py:20
+msgid "None provided."
+msgstr ""
+
+#: decorators.py:22
+#, python-format
+msgid ""
+"Filter or tag \"%(name)s\" is considered dangerous and not allowed. Reason: "
+"%(reason)s Change setting `%(setting)s` to allow it."
+msgstr ""
 
 #: fields.py:28
 msgid "Use Django's default templating language. "
-msgstr "ཌི་ཇང་གོའི་སྔོན་སྒྲིག་དཔེ་སྒྲོམ་སྐད་ཡིག་བེད་སྤྱོད་བྱེད། "
+msgstr ""
 
 #: fields.py:42
 #, python-format
 msgid "Available template context variables: %s"
-msgstr "ཐོབ་ཐང་ཡོད་པའི་དཔེ་སྒྲོམ་གྱི་སྐབས་དོན་འགྱུར་ལྡོག: %s"
+msgstr ""
 
 #: forms.py:10
 msgid "Resulting text from the evaluated template."
-msgstr "དཔྱད་ཞིབ་བྱས་པའི་དཔེ་སྒྲོམ་ནས་ཐོན་པའི་ཡིག་ཆ།"
+msgstr ""
 
 #: forms.py:11 serializers.py:24
 msgid "Result"
-msgstr "མཐའ་འབྲས"
+msgstr ""
 
 #: forms.py:25
 msgid "The template string to be evaluated."
-msgstr "དཔྱད་ཞིབ་བྱེད་དགོས་པའི་དཔེ་སྒྲོམ་ཡིག་རྒྱུན།"
+msgstr ""
 
 #: forms.py:26 serializers.py:27
 msgid "Template"
-msgstr "དཔེ་སྒྲོམ།"
+msgstr ""
 
 #: links.py:12
 msgid "Sandbox"
-msgstr "བྱེ་སྒམ།"
+msgstr ""
 
 #: permissions.py:10
 msgid "Use the template sandbox"
-msgstr "དཔེ་སྒྲོམ་བྱེ་སྒམ་བེད་སྤྱོད་བྱེད།"
+msgstr ""
 
 #: serializers.py:8
 msgid "Hex hash"
-msgstr "དྲུག་ཅུའི་ཧ་ཤི།"
+msgstr ""
 
 #: serializers.py:11
 msgid "Name"
-msgstr "མིང"
+msgstr ""
 
 #: serializers.py:14
 msgid "HTML"
-msgstr "HTML"
+msgstr ""
 
 #: serializers.py:17
 msgid "URL"
 msgstr "URL །"
 
-#: settings.py:101
+#: settings.py:102
+msgid ""
+"A comma separated list of dangerous templating tags and filters that are "
+"allowed."
+msgstr ""
+
+#: settings.py:110
 msgid ""
 "Theme name of the CSS stylesheet used to change the visual appearance of the"
 " template preview."
 msgstr ""
-"ཊེམ་པེལེཊི་སྔོན་ལྟའི་མཐོང་སྣང་བསྒྱུར་བཅོས་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་ CSS "
-"བཟོ་རྣམ་ཤོག་བུའི་བརྗོད་གཞིའི་མིང་།"
+
+#: templatetags/templating_tags.py:100
+msgid "Tag can bypass access controls and create permanent changes."
+msgstr ""
 
 #: views.py:59
 #, python-format
 msgid "Template sandbox for: %s"
-msgstr "དཔེ་སྒྲོམ་གྱི་བྱེ་སྒམ %s"
+msgstr ""
 
 #: views.py:86
 #, python-format
 msgid "Template error; %(exception)s"
-msgstr "དཔེ་སྒྲོམ་གྱི་ནོར་འཁྲུལ།; %(exception)s"
+msgstr ""
 
-#: widgets.py:42
+#: widgets.py:43
 msgid "Filters"
-msgstr "ཚགས་ཆས།"
+msgstr ""
 
-#: widgets.py:49
+#: widgets.py:50
 msgid "Tags"
-msgstr "Tags"
+msgstr ""
 
-#: widgets.py:56
+#: widgets.py:57
 msgid "<Filters and tags>"
-msgstr "<Filters and tags>"
+msgstr ""
 
-#: widgets.py:129
+#: widgets.py:136
 msgid "<Model attributes>"
-msgstr "<Model attributes>"
+msgstr ""

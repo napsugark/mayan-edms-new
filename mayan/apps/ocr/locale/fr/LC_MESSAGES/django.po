@@ -4,19 +4,19 @@
 # 
 # Translators:
 # Translators:
-# Guillaume Trottier <gui.trottier@gmail.com>, 2025
+# Olivier W, 2025
 # Thierry Schott <DarkDare@users.noreply.github.com>, 2025
+# Guillaume Trottier <gui.trottier@gmail.com>, 2025
 # Frédéric Sheedy <sheedf@gmail.com>, 2025
 # Christophe CHAUVET <christophe.chauvet@gmail.com>, 2025
-# Olivier W, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Olivier W, 2025\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Christophe CHAUVET <christophe.chauvet@gmail.com>, 2025\n"
 "Language-Team: French (https://app.transifex.com/rosarior/teams/13584/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -175,6 +175,10 @@ msgstr "Traiter automatiquement les nouveaux types de document par l'OCR."
 #: settings.py:23
 msgid "Full path to the backend to be used to do OCR."
 msgstr "Chemin complet du logiciel OCR utilisé."
+
+#: settings.py:29
+msgid "Arguments to pass to `OCR_BACKEND`."
+msgstr ""
 
 #: views.py:64
 #, python-format

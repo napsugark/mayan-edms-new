@@ -5,8 +5,9 @@
 # 
 # Translators:
 # Roberto Rosario, 2025
-# Pierpaolo Baldan <pierpaolo.baldan@gmail.com>, 2025
 # Marco Camplese <marco.camplese.mc@gmail.com>, 2025
+# piera.daraio, 2025
+# Pierpaolo Baldan <pierpaolo.baldan@gmail.com>, 2025
 # Giovanni Tricarico <gtricarico92@gmail.com>, 2025
 # 
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Giovanni Tricarico <gtricarico92@gmail.com>, 2025\n"
 "Language-Team: Italian (https://app.transifex.com/rosarior/teams/13584/it/)\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +34,7 @@ msgstr ""
 
 #: dashboard_widgets.py:45
 msgid "Total cache used"
-msgstr ""
+msgstr "Cache totale utilizzata"
 
 #: events.py:10
 msgid "Cache created"
@@ -57,7 +58,7 @@ msgstr ""
 
 #: forms.py:15
 msgid "Storage"
-msgstr "Magazzino "
+msgstr "Archiviazione"
 
 #: forms.py:19
 msgid "Configuration"
@@ -73,7 +74,7 @@ msgstr ""
 
 #: links.py:34 links.py:38 links.py:44
 msgid "Purge cache"
-msgstr ""
+msgstr "Svuota cache"
 
 #: model_mixins.py:39
 msgid "Unknown"
@@ -133,7 +134,7 @@ msgstr ""
 
 #: models.py:36 models.py:75
 msgid "Cache"
-msgstr ""
+msgstr "Cache"
 
 #: models.py:37
 msgid "Caches"

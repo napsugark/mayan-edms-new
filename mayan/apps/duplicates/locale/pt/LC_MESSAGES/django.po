@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-02 14:05+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2025\n"
 "Language-Team: Portuguese (https://app.transifex.com/rosarior/teams/13584/pt/)\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: apps.py:28 apps.py:54 links.py:14 queues.py:7
+#: apps.py:28 apps.py:54 links.py:14 links.py:18 queues.py:7
 msgid "Duplicates"
 msgstr "Duplicados"
 
@@ -43,10 +43,6 @@ msgstr "Soma de verificação exata do arquivo de documento"
 msgid "Exact document label"
 msgstr "Rótulo de documento exato"
 
-#: links.py:18 models.py:39 views.py:79
-msgid "Duplicated documents"
-msgstr "Documentos duplicados"
-
 #: links.py:24 queues.py:24
 msgid "Duplicated document scan"
 msgstr "Busca por documentos duplicados"
@@ -62,6 +58,10 @@ msgstr "Back-ends duplicados armazenados"
 #: models.py:35
 msgid "Document"
 msgstr "Documento"
+
+#: models.py:39
+msgid "Duplicated documents"
+msgstr "Documentos duplicados"
 
 #: models.py:47
 msgid "Duplicated backend entry"
@@ -108,8 +108,12 @@ msgstr ""
 "duplicados."
 
 #: views.py:77
-msgid "There are no duplicated documents"
-msgstr "Não há documentos duplicados"
+msgid "There are no documents with duplicates"
+msgstr ""
+
+#: views.py:79
+msgid "Documents with duplicates"
+msgstr ""
 
 #: views.py:87
 msgid "Scan for duplicated documents?"

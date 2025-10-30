@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 18:22+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -20,115 +20,114 @@ msgstr ""
 "Language: bo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: apps.py:26 permissions.py:6 settings.py:15
+#: apps.py:25 permissions.py:6 settings.py:13
 msgid "Common"
-msgstr "སྤྱི་པའི"
+msgstr ""
 
-#: dependencies.py:193
+#: dependencies.py:191
 msgid "Command line environment with autocompletion."
-msgstr "རང་འགུལ་མཇུག་སྒྲིལ་ཡོད་པའི་བཀའ་ཚིག་གྲལ་ཐིག་ཁོར་ཡུག"
+msgstr ""
 
-#: dependencies.py:198
+#: dependencies.py:196
 msgid "Checks proper formatting of the README file."
-msgstr "READMEཡིག་ཆའི་རྩ་སྒྲིག་འོས་འཚམ་ལ་ཞིབ་བཤེར་བྱེད།"
+msgstr ""
 
 #: links.py:36
 msgid "About this"
-msgstr "འདིའི་སྐོར།"
+msgstr ""
 
 #: links.py:39
 msgid "Get the book"
-msgstr "དེབ་དེ་ལེན་པ།"
+msgstr ""
 
 #: links.py:44
 msgid "Documentation"
-msgstr "ཡིག་ཆ།"
+msgstr ""
 
 #: links.py:47
 msgid "Forum"
-msgstr "གླེང་སྟེགས།"
+msgstr ""
 
 #: links.py:52
 msgid "Knowledge base"
-msgstr "ཤེས་བྱའི་རྟེན་གཞི།"
+msgstr ""
 
 #: links.py:55 views.py:55
 msgid "License"
-msgstr "ཆོག་མཆན།"
+msgstr ""
 
 #: links.py:58
 msgid "Mailing list"
-msgstr "སྦྲག་བསྐུར་ཐོ་གཞུང་།"
+msgstr ""
 
 #: links.py:64
 msgid "Copy"
-msgstr "འདྲ་བཤུས།"
+msgstr ""
 
 #: links.py:69
 msgid "Release notes"
-msgstr "འགྲེམ་སྤེལ་ཟིན་ཐོ།"
+msgstr ""
 
 #: links.py:73
 msgid "Setup"
-msgstr "འཛུགས་པ"
+msgstr ""
 
 #: links.py:76
 msgid "Source code"
-msgstr "འབྱུང་ཁུངས་ཨང་རྟགས།"
+msgstr ""
 
 #: links.py:80
 msgid "Online store"
-msgstr "དྲ་ཐོག་ཚོང་ཁང་།"
+msgstr ""
 
 #: links.py:84
 msgid "Support"
-msgstr "རྒྱབ་སྐྱོར"
+msgstr ""
 
 #: links.py:88 views.py:136
 msgid "Tools"
-msgstr "ལག་ཆ"
+msgstr ""
 
-#: literals.py:21
+#: literals.py:19
 msgid ""
 "This feature has been deprecated and will be removed in a future version."
 msgstr ""
-"ཁྱད་ཆོས་འདི་བེད་སྤྱོད་མེད་པར་གྱུར་བ་དང་མ་འོངས་པའི་ཐོན་རིམ་ནང་མེད་པར་བཟོ་རྒྱུ་རེད།"
+
+#: literals.py:28
+msgid "Days"
+msgstr ""
+
+#: literals.py:29
+msgid "Hours"
+msgstr ""
 
 #: literals.py:30
-msgid "Days"
-msgstr "ཉིན།"
-
-#: literals.py:31
-msgid "Hours"
-msgstr "ཆུ་ཚོད"
-
-#: literals.py:32
 msgid "Minutes"
-msgstr "སྐར་མ"
+msgstr ""
 
 #: menus.py:7 menus.py:8
 msgid "Facet"
-msgstr "ཕྱོགས་ཕྱོགས།"
+msgstr ""
 
 #: menus.py:11
 msgid "Actions"
-msgstr "བྱ་སྤྱོད།"
+msgstr ""
 
 #: menus.py:12
 msgid "Related"
-msgstr "འབྲེལ་ཡོད"
+msgstr ""
 
 #: menus.py:13
 msgid "Secondary"
-msgstr "འབྲིང་རིམ་སློབ་འབྲིང་།"
+msgstr ""
 
 #: menus.py:16
 msgid "System"
-msgstr "མ་ལག"
+msgstr ""
 
 #: menus.py:18
 msgid "Return"
-msgstr "ཕྱིར་སླེབས"
+msgstr ""
 
 #: menus.py:22
 msgid "User"
@@ -136,38 +135,20 @@ msgstr "བེད་སྤྱོད་པ་།"
 
 #: permissions.py:10
 msgid "Copy object"
-msgstr "དངོས་པོ་འདྲ་བཤུས།"
+msgstr ""
 
 #: serializers.py:11
 msgid "URL"
 msgstr "URL །"
 
-#: settings.py:23
-msgid ""
-"In list mode, show the \"list facet\" menu options as a dropdown menu "
-"instead of individual buttons."
-msgstr ""
-"ཐོ་ཡིག་ཐབས་ལམ་ནང་ &quot;ཐོ་ཡིག་ཕྱོགས་&quot; "
-"དཀར་ཆག་གདམ་ཁ་དེ་མཐེབ་རེ་རེར་གྱི་ཚབ་ཏུ་གཤམ་གྱི་དཀར་ཆག་ལྟར་སྟོན།"
-
-#: settings.py:32
-msgid ""
-"In list mode, show the \"object\" menu options as a dropdown menu instead of"
-" individual buttons."
-msgstr ""
-"ཐོ་ཡིག་ཐབས་ལམ་ནང་ &quot;དངོས་པོ་&quot; "
-"དཀར་ཆག་གདམ་ཁ་དེ་མཐེབ་རེ་རེའི་ཚབ་ཏུ་གཤམ་གྱི་དཀར་ཆག་ལྟར་སྟོན།"
-
-#: settings.py:40
+#: settings.py:20
 msgid ""
 "Disables the use of the local `media` folder. When using this setting, all "
 "apps must be also configured via their respective storage backend settings "
 "to use alternate persistence."
 msgstr ""
-"ས་གནས་ཀྱི་`བརྡ་འཕྲིན་`སྣོད་ཐོ་བཀོལ་སྤྱོད་བྱེད་མི་ཐུབ། "
-"སྒྲིག་སྟངས་འདི་བེད་སྤྱོད་བྱེད་སྐབས་མཉེན་ཆས་ཚང་མ་ཡང་རང་སོའི་གསོག་འཇོག་རྒྱབ་ཕྱོགས་སྒྲིག་སྟངས་བརྒྱུད་ནས་སྒྲིག་བཀོད་བྱེད་དགོས།"
 
-#: settings.py:48
+#: settings.py:28
 msgid ""
 "A list of strings designating all applications that are to be removed from "
 "the list normally installed by Mayan EDMS. Each string should be a dotted "
@@ -180,7 +161,7 @@ msgstr ""
 "ཡིག་རྒྱུན་རེ་རེ་བཞིན་མཉེན་ཆས་སྒྲིག་བཀོད་ཀྱི་རིགས་(དགའ་མོས་ཅན་)ཡང་ན་མཉེན་ཆས་ཡོད་པའི་ཐུམ་སྒྲིལ་ལ་ཚག་ཡོད་པའི་པའེ་ཐོན་འགྲོ་ལམ་ཞིག་ཡིན་དགོས།"
 " དཔེར་ན། [&#39;app_1&#39;, &#39;app_2&#39;]"
 
-#: settings.py:58
+#: settings.py:38
 msgid ""
 "A list of strings designating all applications that are installed beyond "
 "those normally installed by Mayan EDMS. Each string should be a dotted "
@@ -195,7 +176,7 @@ msgstr ""
 " མཉེན་ཆས་འདི་དག་སྔོན་སྒྲིག་མཉེན་ཆས་རྗེས་སུ་སྒྲིག་འཇུག་བྱ་རྒྱུ་རེད། དཔེར་ན། "
 "[&#39;app_1&#39;, &#39;app_2&#39;]"
 
-#: settings.py:70
+#: settings.py:50
 msgid ""
 "A list of strings designating all applications that are installed beyond "
 "those normally installed by Mayan EDMS. Each string should be a dotted "
@@ -210,83 +191,78 @@ msgstr ""
 " མཉེན་ཆས་འདི་དག་སྔོན་སྒྲིག་མཉེན་ཆས་ཀྱི་སྔོན་ལ་སྒྲིག་འཇུག་བྱ་རྒྱུ་རེད། "
 "དཔེར་ན། [&#39;app_1&#39;, &#39;app_2&#39;]"
 
-#: settings.py:81
+#: settings.py:61
 msgid ""
 "Name of the view attached to the brand anchor in the main menu. This is also"
 " the view to which users will be redirected after log in."
 msgstr ""
-"དཀར་ཆག་གཙོ་བོའི་ནང་དུ་ཚོང་རྟགས་གཞི་སྒྲོམ་ལ་མཉམ་སྦྲེལ་བྱས་པའི་མཐོང་སྣང་གི་མིང་།"
-" "
-"འདི་ནི་ནང་འཇུག་བྱས་རྗེས་སྤྱོད་མཁན་རྣམས་ལ་བསྐྱར་དུ་ཕྱོགས་སྟོན་བྱེད་པའི་མཐོང་སྣང་ཡང་ཡིན།"
 
-#: settings.py:90
+#: settings.py:70
 msgid "Name of the dashboard to display in the home view."
-msgstr "ཁྱིམ་གྱི་མཐོང་སྣང་ནང་བསྟན་པའི་མཛུབ་ཁྲིད་སྒྲོམ་གྱི་མིང་།"
+msgstr ""
 
-#: settings.py:95
+#: settings.py:75
 msgid "Sets the project's name."
-msgstr "ལས་གཞིའི་མིང་གཏན་འཁེལ་བྱེད།"
+msgstr ""
 
 #: templates/common/app/viewport.html:15
 msgid "Click here to fix this."
-msgstr "འདི་ལ་གནོན་ནས་བཟོ་དགོས།"
+msgstr ""
 
 #: validators.py:42
 msgid "Enter a valid JSON value."
-msgstr "ནུས་ལྡན་གྱི་JSONརིན་ཐང་བླུགས།"
+msgstr ""
 
 #: validators.py:66
 msgid "Enter a valid YAML value."
-msgstr "ནུས་ལྡན་གྱི་YAMLརིན་ཐང་བླུགས།"
+msgstr ""
 
 #: validators.py:81
 msgid ""
 "Enter a valid 'internal name' consisting of letters, numbers, and "
 "underscores."
 msgstr ""
-"ཡི་གེ་དང་ཨང་གྲངས་དང་འོག་ཐིག་བཅས་ལས་གྲུབ་པའི་ནུས་ལྡན་གྱི་ནང་ཁུལ་གྱི་མིང་ཞིག་བླུགས།"
 
 #: views.py:26
 msgid "About"
-msgstr "ཉེ་སྐོར་དུ"
+msgstr ""
 
 #: views.py:45
 msgid "Home"
-msgstr "ཡུལ"
+msgstr ""
 
 #: views.py:71
 #, python-format
 msgid "Fields to be copied: %s"
-msgstr "འདྲ་བཤུས་བྱེད་དགོས་པའི་ས་སྒོ།: %s"
+msgstr ""
 
 #: views.py:81
 #, python-format
 msgid "Make a copy of %(object_name)s \"%(object)s\"?"
-msgstr "%(object_name)s &quot; %(object)s &quot; ཡི་འདྲ་བཤུས་བཟོས།"
+msgstr ""
 
 #: views.py:92
 msgid "Object copied successfully."
-msgstr "དངོས་པོ་མཐར་ཕྱིན་ངང་འདྲ་བཤུས་བྱས།"
+msgstr ""
 
 #: views.py:110
 msgid ""
 "No results here means that don't have the required permissions to perform "
 "administrative task."
 msgstr ""
-"འདིར་གྲུབ་འབྲས་མེད་པ་དེས་འཛིན་སྐྱོང་ལས་འགན་སྒྲུབ་པར་དགོས་མཁོའི་ཆོག་མཆན་མེད་པ་སྟོན་གྱི་ཡོད།"
 
 #: views.py:113
 msgid "No setup options available."
-msgstr "གཞི་སྒྲིག་འདེམས་གཞི་མེད།"
+msgstr ""
 
 #: views.py:118
 msgid "Here you can configure all aspects of the system."
-msgstr "འདིར་ཁྱེད་ཀྱིས་མ་ལག་གི་ཆ་ཤས་ཚང་མ་སྒྲིག་བཀོད་བྱེད་ཐུབ།"
+msgstr ""
 
 #: views.py:120
 msgid "Setup items"
-msgstr "སྒྲིག་ཆས་རྣམ་གྲངས།"
+msgstr ""
 
 #: views.py:134
 msgid "These modules are used to do system maintenance."
-msgstr "ཚད་གཞི་འདི་དག་མ་ལག་བདག་གཅེས་བྱེད་པར་བེད་སྤྱོད་བྱེད་ཀྱི་ཡོད།"
+msgstr ""

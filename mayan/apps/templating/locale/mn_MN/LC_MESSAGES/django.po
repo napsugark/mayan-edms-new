@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:40+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Language-Team: Mongolian (Mongolia) (https://app.transifex.com/rosarior/teams/13584/mn_MN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Language: mn_MN\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps.py:16 permissions.py:6 settings.py:94
+#: apps.py:16 permissions.py:6 settings.py:96
 msgid "Templating"
 msgstr ""
 
@@ -27,6 +27,17 @@ msgstr ""
 #: classes.py:83
 #, python-format
 msgid "Model `%s` is not available for template sandbox."
+msgstr ""
+
+#: decorators.py:20
+msgid "None provided."
+msgstr ""
+
+#: decorators.py:22
+#, python-format
+msgid ""
+"Filter or tag \"%(name)s\" is considered dangerous and not allowed. Reason: "
+"%(reason)s Change setting `%(setting)s` to allow it."
 msgstr ""
 
 #: fields.py:28
@@ -78,10 +89,20 @@ msgstr ""
 msgid "URL"
 msgstr ""
 
-#: settings.py:101
+#: settings.py:102
+msgid ""
+"A comma separated list of dangerous templating tags and filters that are "
+"allowed."
+msgstr ""
+
+#: settings.py:110
 msgid ""
 "Theme name of the CSS stylesheet used to change the visual appearance of the"
 " template preview."
+msgstr ""
+
+#: templatetags/templating_tags.py:100
+msgid "Tag can bypass access controls and create permanent changes."
 msgstr ""
 
 #: views.py:59
@@ -94,18 +115,18 @@ msgstr ""
 msgid "Template error; %(exception)s"
 msgstr ""
 
-#: widgets.py:42
+#: widgets.py:43
 msgid "Filters"
 msgstr ""
 
-#: widgets.py:49
+#: widgets.py:50
 msgid "Tags"
 msgstr ""
 
-#: widgets.py:56
+#: widgets.py:57
 msgid "<Filters and tags>"
 msgstr ""
 
-#: widgets.py:129
+#: widgets.py:136
 msgid "<Model attributes>"
 msgstr ""

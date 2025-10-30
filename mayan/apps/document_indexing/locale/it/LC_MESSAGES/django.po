@@ -4,34 +4,26 @@
 # 
 # Translators:
 # Translators:
-# Daniele Bortoluzzi <daniele@elkos.it>, 2025
 # Pierpaolo Baldan <pierpaolo.baldan@gmail.com>, 2025
 # Giovanni Tricarico <gtricarico92@gmail.com>, 2025
-# Roberto Rosario, 2025
+# piera.daraio, 2025
 # Marco Camplese <marco.camplese.mc@gmail.com>, 2025
+# Roberto Rosario, 2025
+# Daniele Bortoluzzi <daniele@elkos.it>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Marco Camplese <marco.camplese.mc@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Daniele Bortoluzzi <daniele@elkos.it>, 2025\n"
 "Language-Team: Italian (https://app.transifex.com/rosarior/teams/13584/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
-
-#: admin.py:24
-msgid "None"
-msgstr "Nessuno"
-
-#: admin.py:26 links.py:88 models/index_template_models.py:50
-#: serializers/index_template_serializers.py:196
-msgid "Document types"
-msgstr "Tipi documento"
 
 #: apps.py:60 events.py:6
 msgid "Document indexing"
@@ -131,6 +123,11 @@ msgstr "Crea indice"
 #: links.py:83 links.py:127
 msgid "Delete"
 msgstr "Cancella"
+
+#: links.py:88 models/index_template_models.py:50
+#: serializers/index_template_serializers.py:196
+msgid "Document types"
+msgstr "Tipi documento"
 
 #: links.py:92 links.py:131
 msgid "Edit"
@@ -387,7 +384,7 @@ msgstr ""
 
 #: serializers/index_instance_serializers.py:55
 msgid "Documents URL"
-msgstr ""
+msgstr "URL dei documenti"
 
 #: serializers/index_instance_serializers.py:58
 #: serializers/index_template_serializers.py:21
@@ -404,11 +401,11 @@ msgstr ""
 #: serializers/index_template_serializers.py:18
 #: serializers/index_template_serializers.py:78
 msgid "Children"
-msgstr ""
+msgstr "Sottocartella"
 
 #: serializers/index_template_serializers.py:84
 msgid "Parent"
-msgstr ""
+msgstr "Cartella padre"
 
 #: serializers/index_template_serializers.py:152
 msgid ""

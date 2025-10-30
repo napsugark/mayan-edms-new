@@ -4,17 +4,17 @@
 # 
 # Translators:
 # Translators:
-# bwakkie <bwakkie@gmail.com>, 2025
 # j jacobs <j.jacobs@rijnlandslyceum-rls.nl>, 2025
 # Roberto Rosario, 2025
+# bwakkie <bwakkie@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Roberto Rosario, 2025\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: bwakkie <bwakkie@gmail.com>, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/rosarior/teams/13584/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -80,11 +80,11 @@ msgstr "Ja"
 
 #: forms.py:51
 msgid "No"
-msgstr "Nee"
+msgstr ""
 
 #: links.py:39
 msgid "Check out document"
-msgstr "Document uitchecken"
+msgstr ""
 
 #: links.py:43
 msgid "Check out"
@@ -275,8 +275,8 @@ msgstr ""
 
 #: views.py:184
 msgid "No documents have been checked out"
-msgstr "Er zijn geen documenten uitgecheckt"
+msgstr ""
 
 #: widgets.py:19
 msgid "Amount"
-msgstr "Aantal"
+msgstr ""

@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Csaba Tarjányi, 2025\n"
 "Language-Team: Hungarian (Hungary) (https://app.transifex.com/rosarior/teams/13584/hu_HU/)\n"
 "MIME-Version: 1.0\n"
@@ -26,11 +26,11 @@ msgstr ""
 msgid "Document parsing"
 msgstr "Dokumentum elemzés"
 
-#: apps.py:113
+#: apps.py:113 apps.py:119
 msgid "A generator returning the document file's pages parsed content."
 msgstr "A dokumentumfájl oldalainak elemzett tartalmát visszaadó generátor."
 
-#: apps.py:114 links.py:26 links.py:65 models.py:27 search.py:18
+#: apps.py:114 apps.py:120 links.py:26 links.py:65 models.py:27 search.py:18
 msgid "Content"
 msgstr "Tartalom"
 
@@ -76,8 +76,8 @@ msgid "Submit for parsing"
 msgstr "Küldés elemzésre"
 
 #: links.py:75
-msgid "Setup parsing"
-msgstr "Az elemzés beállítása"
+msgid "Parsing setup"
+msgstr ""
 
 #: links.py:84
 msgid "Parse documents per type"

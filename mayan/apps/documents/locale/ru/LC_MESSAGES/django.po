@@ -5,19 +5,19 @@
 # Translators:
 # Translators:
 # Roberto Rosario, 2025
-# Alex Chigrin <chalex84@mail.ru>, 2025
 # Panasoft, 2025
-# lilo.panic, 2025
-# Sergey Glita <gsv70@mail.ru>, 2025
+# Alex Chigrin <chalex84@mail.ru>, 2025
 # Ilya Pavlov <spirkaa@gmail.com>, 2025
+# Sergey Glita <gsv70@mail.ru>, 2025
+# lilo.panic, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Ilya Pavlov <spirkaa@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: lilo.panic, 2025\n"
 "Language-Team: Russian (https://app.transifex.com/rosarior/teams/13584/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -393,7 +393,7 @@ msgstr "Номер целевой страницы не может повтор�
 msgid "Page group"
 msgstr ""
 
-#: forms/misc_forms.py:14 literals.py:99
+#: forms/misc_forms.py:14 literals.py:101
 msgid "Page range"
 msgstr "Диапазон страниц"
 
@@ -616,55 +616,55 @@ msgstr "Восстановить"
 msgid "Default"
 msgstr "По умолчанию"
 
-#: literals.py:91
+#: literals.py:93
 msgid "January"
 msgstr "Январь"
 
-#: literals.py:91
+#: literals.py:93
 msgid "February"
 msgstr "Февраль"
 
-#: literals.py:91
+#: literals.py:93
 msgid "March"
 msgstr "Март"
 
-#: literals.py:91
+#: literals.py:93
 msgid "April"
 msgstr "Апрель"
 
-#: literals.py:91
+#: literals.py:93
 msgid "May"
 msgstr "Май"
 
-#: literals.py:92
+#: literals.py:94
 msgid "June"
 msgstr "Июнь"
 
-#: literals.py:92
+#: literals.py:94
 msgid "July"
 msgstr "Июль"
 
-#: literals.py:92
+#: literals.py:94
 msgid "August"
 msgstr "Август"
 
-#: literals.py:92
+#: literals.py:94
 msgid "September"
 msgstr "Сентябрь"
 
-#: literals.py:92
+#: literals.py:94
 msgid "October"
 msgstr "Октябрь"
 
-#: literals.py:93
+#: literals.py:95
 msgid "November"
 msgstr "Ноябрь"
 
-#: literals.py:93
+#: literals.py:95
 msgid "December"
 msgstr "Декабрь"
 
-#: literals.py:99
+#: literals.py:101
 msgid "All pages"
 msgstr "Все страницы"
 

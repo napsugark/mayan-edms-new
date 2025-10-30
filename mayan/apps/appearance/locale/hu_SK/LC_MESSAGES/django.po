@@ -5,15 +5,14 @@
 # Translators:
 # Translators:
 # molnars <szabolcs.molnar@gmail.com>, 2025
-# Dezső József <dejo60@gmail.com>, 2025
 # Csaba Tarjányi, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 11:22+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Csaba Tarjányi, 2025\n"
 "Language-Team: Hungarian (Slovakia) (https://app.transifex.com/rosarior/teams/13584/hu_SK/)\n"
 "MIME-Version: 1.0\n"
@@ -22,31 +21,31 @@ msgstr ""
 "Language: hu_SK\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps.py:57 events.py:6 permissions.py:6 settings.py:17
+#: apps.py:35 events.py:6 settings.py:17
 msgid "Appearance"
 msgstr "Kinézet"
 
-#: dependencies.py:8
+#: dependencies.py:6
 msgid "Fancybox"
 msgstr "Fancybox"
 
-#: dependencies.py:12
+#: dependencies.py:10
 msgid "jQuery"
 msgstr "jQuery"
 
-#: dependencies.py:16
+#: dependencies.py:14
 msgid "JQuery Form"
 msgstr "JQuery űrlap"
 
-#: dependencies.py:20
+#: dependencies.py:18
 msgid "JQuery Match Height"
 msgstr "JQuery Match Height"
 
-#: dependencies.py:24
+#: dependencies.py:22
 msgid "Select 2"
 msgstr "Select 2"
 
-#: dependencies.py:28
+#: dependencies.py:26
 msgid "Toastr"
 msgstr "Toastr"
 
@@ -62,85 +61,9 @@ msgstr "Téma szerkesztve"
 msgid "User theme edited"
 msgstr "Felhasználói téma szerkesztve"
 
-#: links.py:21
+#: links.py:9
 msgid "Reload the current content"
 msgstr ""
-
-#: links.py:27
-msgid "Theme settings"
-msgstr "Téma beállítások"
-
-#: links.py:34
-msgid "Edit theme settings"
-msgstr "Téma beállításainak szerkesztése"
-
-#: links.py:40 views.py:34
-msgid "Create new theme"
-msgstr "Új téma létrehozása"
-
-#: links.py:45
-msgid "Delete"
-msgstr "Törlés"
-
-#: links.py:49
-msgid "Edit"
-msgstr "Szerkesztés"
-
-#: links.py:53 links.py:61 models.py:33 views.py:103
-msgid "Themes"
-msgstr "Témák"
-
-#: models.py:20
-msgid "A short text describing the theme."
-msgstr "A témát leíró rövid szöveg."
-
-#: models.py:21
-msgid "Label"
-msgstr "Cimke"
-
-#: models.py:25
-msgid ""
-"The CSS stylesheet to change the appearance of the different user interface "
-"elements."
-msgstr ""
-"A CSS-stíluslap a különböző felhasználói felület elemeinek megjelenésének "
-"megváltoztatásához."
-
-#: models.py:27
-msgid "Stylesheet"
-msgstr "Stíluslap"
-
-#: models.py:32 models.py:69
-msgid "Theme"
-msgstr "Téma"
-
-#: models.py:65
-msgid "User"
-msgstr "Felhasználó"
-
-#: models.py:73
-msgid "User theme setting"
-msgstr "Felhasználói téma beállítás"
-
-#: models.py:74
-msgid "User theme settings"
-msgstr "Felhasználói téma beállítások"
-
-#: permissions.py:10
-msgid "Create new themes"
-msgstr "Új témák létrehozása"
-
-#: permissions.py:13
-msgid "Delete themes"
-msgstr "Témák törlése"
-
-#: permissions.py:16
-msgid "Edit themes"
-msgstr "Témák szerkesztése"
-
-#: permissions.py:19
-msgid "View existing themes"
-msgstr "Meglévő témák megtekintése"
 
 #: settings.py:23
 msgid "Custom HTTP response code for AJAX redirections."
@@ -218,37 +141,6 @@ msgstr ""
 msgid "Page number must be a positive integer."
 msgstr ""
 
-#: templatetags/appearance_tags.py:77
+#: templatetags/appearance_tags.py:36
 msgid "None"
 msgstr "Nincs"
-
-#: views.py:59
-#, python-format
-msgid "Delete theme: %s"
-msgstr "Téma törlése: %s"
-
-#: views.py:76
-#, python-format
-msgid "Edit theme: %s"
-msgstr "Téma szerkesztése: %s"
-
-#: views.py:97
-msgid ""
-"Themes allow changing the visual appearance without requiring code changes."
-msgstr ""
-"A témák lehetővé teszik a vizuális megjelenés megváltoztatását kódmódosítás "
-"nélkül."
-
-#: views.py:101
-msgid "There are no themes"
-msgstr "Nincsenek témák"
-
-#: views.py:127
-#, python-format
-msgid "Theme settings for user: %s"
-msgstr "Témabeállítások a felhasználó számára: %s"
-
-#: views.py:150
-#, python-format
-msgid "Edit theme settings for user: %s"
-msgstr "Témabeállítások szerkesztése a következő felhasználó számára: %s"

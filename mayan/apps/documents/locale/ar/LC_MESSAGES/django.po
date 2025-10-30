@@ -4,12 +4,13 @@
 # 
 # Translators:
 # Translators:
+# GM_327, 2025
 # John Kawas <john@clinicalclouds.com>, 2025
-# Ali <alimahwer@yahoo.com>, 2025
-# WM Shinkada <shinkadawasim@gmail.com>, 2025
 # Roberto Rosario, 2025
+# Ali <alimahwer@yahoo.com>, 2025
 # Ayoub BENSAKHRIA <bensakhria.ayoub@gmail.com>, 2025
 # Yaman Sanobar <yman.snober@gmail.com>, 2025
+# WM Shinkada <shinkadawasim@gmail.com>, 2025
 # Mohammed ALDOUB <voulnet@gmail.com>, 2025
 # Marwan Rahhal <Marwanr@sssit.net>, 2025
 # Mohamad Ashmar, 2025
@@ -18,8 +19,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -269,7 +270,7 @@ msgstr "تم تحميل المستند (تاريخي)"
 
 #: events.py:103
 msgid "Document file created (historic)"
-msgstr "تم تحميل المستند (تاريخي)"
+msgstr "تم انشاء المستند (تاريخي)"
 
 #: events.py:107
 msgid "Document version reverted (historic)"
@@ -393,7 +394,7 @@ msgstr "لا يمكن تكرار رقم صفحة الوجهة"
 msgid "Page group"
 msgstr "مجموعة الصفحات"
 
-#: forms/misc_forms.py:14 literals.py:99
+#: forms/misc_forms.py:14 literals.py:101
 msgid "Page range"
 msgstr "نطاق الصفحات"
 
@@ -614,55 +615,55 @@ msgstr "استعادة"
 msgid "Default"
 msgstr "القيمة الإفتراضية"
 
-#: literals.py:91
+#: literals.py:93
 msgid "January"
 msgstr "كانون الثاني"
 
-#: literals.py:91
+#: literals.py:93
 msgid "February"
 msgstr "شهر فبراير"
 
-#: literals.py:91
+#: literals.py:93
 msgid "March"
 msgstr "مارس"
 
-#: literals.py:91
+#: literals.py:93
 msgid "April"
 msgstr "أبريل"
 
-#: literals.py:91
+#: literals.py:93
 msgid "May"
 msgstr "مايو"
 
-#: literals.py:92
+#: literals.py:94
 msgid "June"
 msgstr "يونيو"
 
-#: literals.py:92
+#: literals.py:94
 msgid "July"
 msgstr "يوليو"
 
-#: literals.py:92
+#: literals.py:94
 msgid "August"
 msgstr "أغسطس"
 
-#: literals.py:92
+#: literals.py:94
 msgid "September"
 msgstr "سبتمبر"
 
-#: literals.py:92
+#: literals.py:94
 msgid "October"
 msgstr "اكتوبر"
 
-#: literals.py:93
+#: literals.py:95
 msgid "November"
 msgstr "شهر نوفمبر"
 
-#: literals.py:93
+#: literals.py:95
 msgid "December"
 msgstr "ديسمبر"
 
-#: literals.py:99
+#: literals.py:101
 msgid "All pages"
 msgstr "كل الصفحات"
 
@@ -937,7 +938,7 @@ msgstr "نوع المحتوى للكائن المصدر للصفحة."
 
 #: models/document_version_page_models.py:50
 msgid "ID for the source object of the page."
-msgstr "معرف (ID) للكائن المصدر للصفحة."
+msgstr "معرف للكائن المصدر للصفحة."
 
 #: models/document_version_page_models.py:59
 #: models/document_version_page_models.py:103 search.py:162
@@ -1037,7 +1038,7 @@ msgstr "حذف نُسخ المستند"
 
 #: permissions.py:64
 msgid "Edit document versions"
-msgstr "تعديل نُسخ المستند "
+msgstr "تعديل نُسخ المستند"
 
 #: permissions.py:68
 msgid "Print document versions"
@@ -1121,7 +1122,7 @@ msgstr "رفع مستند جديد"
 
 #: queues.py:59
 msgid "Calculate and update document file checksum"
-msgstr "حساب وتحديث التحقق (checksum) لملف المستند"
+msgstr "حساب وتحديث التحقق لملف المستند"
 
 #: queues.py:63
 msgid "Calculate and update document file MIME type"
@@ -1129,19 +1130,19 @@ msgstr "حساب وتحديث نوع MIME لملف المستند"
 
 #: queues.py:67
 msgid "Update document file page count"
-msgstr "تحديث عدد صفحات ملف الوثيقة"
+msgstr "تحديث عدد صفحات ملف المستند"
 
 #: queues.py:71
 msgid "Update document file size"
-msgstr "تحديث حجم ملف الوثيقة"
+msgstr "تحديث حجم ملف المستند"
 
 #: queues.py:75
 msgid "Create a new version after the file is processed"
-msgstr "إنشاء إصدار جديد بعد معالجة الملف"
+msgstr "إنشاء نسخة جديدة بعد معالجة الملف"
 
 #: queues.py:80
 msgid "Delete a document file"
-msgstr "حذف ملف وثيقة"
+msgstr "حذف ملف مستند"
 
 #: queues.py:85
 msgid "Check document type trash periods"
@@ -1347,7 +1348,7 @@ msgid ""
 " the size in bytes."
 msgstr ""
 "الحد الأقصى الذي عنده سيبدأ نظام التخزين المؤقت لصور صفحات ملفات المستندات "
-"(DOCUMENTS_FILE_PAGE_IMAGE_CACHE_STORAGE_BACKEND) بحذف أقدم ملفات التخزين "
+"DOCUMENTS_FILE_PAGE_IMAGE_CACHE_STORAGE_BACKEND بحذف أقدم ملفات التخزين "
 "المؤقت. حدد الحجم بوحدة البايت."
 
 #: settings.py:60
@@ -1416,7 +1417,7 @@ msgstr ""
 msgid ""
 "Arguments to pass to the DOCUMENTS_VERSION_PAGE_IMAGE_CACHE_STORAGE_BACKEND."
 msgstr ""
-"المعطيات (الوسائط) التي يجب تمريرها إلى "
+"المعطيات او الوسائط التي يجب تمريرها إلى "
 "DOCUMENTS_VERSION_PAGE_IMAGE_CACHE_STORAGE_BACKEND."
 
 #: settings.py:149
@@ -1679,12 +1680,12 @@ msgstr "تم إدراج %(count)d ملف وثيقة للفحص الداخلي"
 #: views/document_file_views.py:145
 msgid "Introspect the selected document file?"
 msgid_plural "Introspect the selected document files?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "فحص ملفات المحددة؟"
+msgstr[1] "فحص الملف المحدد؟"
+msgstr[2] "فحص ملفين المحددين؟"
+msgstr[3] "فحص بعض الملفات المحددة؟"
+msgstr[4] "فحص أغلب الملفات المحددة؟"
+msgstr[5] "فحص الملفات المحددة؟"
 
 #: views/document_file_views.py:156
 #, python-format
@@ -2175,12 +2176,12 @@ msgstr "%(count)d تمت الغاء الوثائق من المفضلة."
 #: views/favorite_document_views.py:92
 msgid "Remove the selected document from favorites?"
 msgid_plural "Remove the selected documents from favorites?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "حذف الملفات المحددة من القائمة المفضلة؟"
+msgstr[1] "حذف الملف المحدد من القائمة المفضلة؟"
+msgstr[2] "حذف الملفين المحددين من القائمة المفضلة؟"
+msgstr[3] "حذف بعض الملفات المحددة من القائمة المفضلة؟"
+msgstr[4] "حذف أغلب الملفات المحددة من القائمة المفضلة؟"
+msgstr[5] "حذف الملفات المحددة من القائمة المفضلة؟"
 
 #: views/misc_views.py:43
 #, python-format
@@ -2230,7 +2231,7 @@ msgstr "هل تريد نقل الوثيقة المحددة إلى سلة الم�
 #: views/trashed_document_views.py:51
 #, python-format
 msgid "Move the %(count)d selected documents to trash?"
-msgstr "هل تريد نقل الوثائق المحددة (%(count)d) إلى سلة المحذوفات؟"
+msgstr "هل تريد نقل الوثائق المحددة %(count)dإلى سلة المحذوفات؟"
 
 #: views/trashed_document_views.py:86
 msgid "Empty trash?"
@@ -2258,7 +2259,7 @@ msgstr "%(count)d أرسلت الوثيقة للإتلاف"
 #: views/trashed_document_views.py:117
 #, python-format
 msgid "Delete the %(count)d selected trashed documents?"
-msgstr "هل تريد حذف الوثائق المحذوفة المحددة (%(count)d)؟"
+msgstr "هل تريد حذف الوثائق المحذوفة المحددة %(count)d؟"
 
 #: views/trashed_document_views.py:118
 #, python-format
@@ -2290,7 +2291,7 @@ msgstr "%(count)d التراجع عن اتلاف الوثيقة."
 #: views/trashed_document_views.py:178
 #, python-format
 msgid "Trashed document \"%(object)s\" restored."
-msgstr "تم استعادة الوثيقة المحذوفة \"%(object)s)\""
+msgstr "تم استعادة الوثيقة المحذوفة \"%(object)s\""
 
 #: views/trashed_document_views.py:181
 #, python-format
@@ -2300,7 +2301,7 @@ msgstr "التراجع عن إتلاف%(count)d الوثيقة"
 #: views/trashed_document_views.py:183
 #, python-format
 msgid "Restore the %(count)d selected trashed documents?"
-msgstr "هل تريد استعادة الوثائق المحذوفة المحددة (%(count)d)؟"
+msgstr "هل تريد استعادة الوثائق المحذوفة المحددة %(count)d؟"
 
 #: views/trashed_document_views.py:184
 #, python-format

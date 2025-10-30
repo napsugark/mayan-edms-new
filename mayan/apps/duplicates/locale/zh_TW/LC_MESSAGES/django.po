@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-02 14:05+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/rosarior/teams/13584/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: apps.py:28 apps.py:54 links.py:14 queues.py:7
+#: apps.py:28 apps.py:54 links.py:14 links.py:18 queues.py:7
 msgid "Duplicates"
 msgstr "重复"
 
@@ -42,10 +42,6 @@ msgstr "正確的文件檔案檢查碼"
 msgid "Exact document label"
 msgstr "正確的檔案標籤"
 
-#: links.py:18 models.py:39 views.py:79
-msgid "Duplicated documents"
-msgstr "重复的文件"
-
 #: links.py:24 queues.py:24
 msgid "Duplicated document scan"
 msgstr "重复的文件扫描"
@@ -61,6 +57,10 @@ msgstr "已存入的重複後台"
 #: models.py:35
 msgid "Document"
 msgstr "文件"
+
+#: models.py:39
+msgid "Duplicated documents"
+msgstr "重复的文件"
 
 #: models.py:47
 msgid "Duplicated backend entry"
@@ -103,8 +103,12 @@ msgid ""
 msgstr "重复项是由完全相同的文件组成的文档，直到最后一个字节。具有相同文本或OCR但不一致或使用不同文件格式保存的文件不会显示为重复项。"
 
 #: views.py:77
-msgid "There are no duplicated documents"
-msgstr "没有重复的文档"
+msgid "There are no documents with duplicates"
+msgstr ""
+
+#: views.py:79
+msgid "Documents with duplicates"
+msgstr ""
 
 #: views.py:87
 msgid "Scan for duplicated documents?"

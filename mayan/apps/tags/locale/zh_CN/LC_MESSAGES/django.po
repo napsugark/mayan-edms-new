@@ -6,8 +6,8 @@
 # Translators:
 # Ford Guo <agile.guo@gmail.com>, 2025
 # malijie <tonymlj2008@126.com>, 2025
-# yan songwei <yansw@vip.163.com>, 2025
 # Leon Chu, 2025
+# yan songwei <yansw@vip.163.com>, 2025
 # Roberto Rosario, 2025
 # 
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/rosarior/teams/13584/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -222,7 +222,7 @@ msgstr ""
 #: views/document_views.py:40
 #, python-format
 msgid "Attach tags to document: %(object)s"
-msgstr ""
+msgstr "将标签附加到文档：%(object)s"
 
 #: views/document_views.py:41
 #, python-format
@@ -265,7 +265,7 @@ msgstr ""
 #: views/document_views.py:145
 #, python-format
 msgid "Remove tags from document: %(object)s"
-msgstr ""
+msgstr "从文档%(object)s中删除标签"
 
 #: views/document_views.py:146
 #, python-format
@@ -293,7 +293,7 @@ msgstr ""
 #: views/tag_views.py:51
 #, python-format
 msgid "Tag \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "标签 \"%(object)s\" 删除成功"
 
 #: views/tag_views.py:54
 #, python-format
@@ -308,7 +308,7 @@ msgstr ""
 #: views/tag_views.py:57
 #, python-format
 msgid "Delete tag: %(object)s"
-msgstr ""
+msgstr "删除标签：%(object)s"
 
 #: views/tag_views.py:58
 #, python-format

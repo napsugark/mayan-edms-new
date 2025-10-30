@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 18:22+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/rosarior/teams/13584/es_MX/)\n"
 "MIME-Version: 1.0\n"
@@ -20,15 +20,15 @@ msgstr ""
 "Language: es_MX\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: apps.py:26 permissions.py:6 settings.py:15
+#: apps.py:25 permissions.py:6 settings.py:13
 msgid "Common"
 msgstr "Común"
 
-#: dependencies.py:193
+#: dependencies.py:191
 msgid "Command line environment with autocompletion."
 msgstr "Entorno de línea de comandos con autocompletado."
 
-#: dependencies.py:198
+#: dependencies.py:196
 msgid "Checks proper formatting of the README file."
 msgstr "Comprueba el formato correcto del archivo README."
 
@@ -88,21 +88,21 @@ msgstr "Apoyo técnico"
 msgid "Tools"
 msgstr "Herramientas"
 
-#: literals.py:21
+#: literals.py:19
 msgid ""
 "This feature has been deprecated and will be removed in a future version."
 msgstr ""
 "Esta función ha quedado en desuso y se eliminará en una versión futura."
 
-#: literals.py:30
+#: literals.py:28
 msgid "Days"
 msgstr "Días"
 
-#: literals.py:31
+#: literals.py:29
 msgid "Hours"
 msgstr "Horas"
 
-#: literals.py:32
+#: literals.py:30
 msgid "Minutes"
 msgstr "Minutos"
 
@@ -142,23 +142,7 @@ msgstr "Copiar objeto"
 msgid "URL"
 msgstr "URL"
 
-#: settings.py:23
-msgid ""
-"In list mode, show the \"list facet\" menu options as a dropdown menu "
-"instead of individual buttons."
-msgstr ""
-"En el modo de lista, muestra las opciones del menú \"faceta de lista\" como "
-"un menú desplegable en lugar de botones individuales."
-
-#: settings.py:32
-msgid ""
-"In list mode, show the \"object\" menu options as a dropdown menu instead of"
-" individual buttons."
-msgstr ""
-"En el modo de lista, muestra las opciones del menú \"objeto\" como un menú "
-"desplegable en lugar de botones individuales."
-
-#: settings.py:40
+#: settings.py:20
 msgid ""
 "Disables the use of the local `media` folder. When using this setting, all "
 "apps must be also configured via their respective storage backend settings "
@@ -169,7 +153,7 @@ msgstr ""
 " sus respectivas configuraciones de back-end de almacenamiento para usar una"
 " persistencia alternativa."
 
-#: settings.py:48
+#: settings.py:28
 msgid ""
 "A list of strings designating all applications that are to be removed from "
 "the list normally installed by Mayan EDMS. Each string should be a dotted "
@@ -182,7 +166,7 @@ msgstr ""
 "aplicación (preferida), o un paquete que contiene una aplicación. Ejemplo: "
 "['app_1', 'app_2']"
 
-#: settings.py:58
+#: settings.py:38
 msgid ""
 "A list of strings designating all applications that are installed beyond "
 "those normally installed by Mayan EDMS. Each string should be a dotted "
@@ -197,7 +181,7 @@ msgstr ""
 "aplicaciones se instalarán después de las aplicaciones predeterminadas. "
 "Ejemplo: [\"aplicacion_1\", \"aplicacion_2\"]"
 
-#: settings.py:70
+#: settings.py:50
 msgid ""
 "A list of strings designating all applications that are installed beyond "
 "those normally installed by Mayan EDMS. Each string should be a dotted "
@@ -212,7 +196,7 @@ msgstr ""
 "aplicaciones se instalarán antes que las aplicaciones predeterminadas. "
 "Ejemplo: [\"app_1\", \"app_2\"]"
 
-#: settings.py:81
+#: settings.py:61
 msgid ""
 "Name of the view attached to the brand anchor in the main menu. This is also"
 " the view to which users will be redirected after log in."
@@ -221,11 +205,11 @@ msgstr ""
 "es también la vista a la que los usuarios serán redirigidos después de "
 "iniciar sesión."
 
-#: settings.py:90
+#: settings.py:70
 msgid "Name of the dashboard to display in the home view."
 msgstr "Nombre del tablero que se mostrará en la vista inicial."
 
-#: settings.py:95
+#: settings.py:75
 msgid "Sets the project's name."
 msgstr "Establece el nombre del proyecto."
 

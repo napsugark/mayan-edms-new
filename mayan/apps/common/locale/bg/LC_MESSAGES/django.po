@@ -4,16 +4,16 @@
 # 
 # Translators:
 # Translators:
-# Roberto Rosario, 2025
 # Pavlin Koldamov <pkoldamov@gmail.com>, 2025
+# Roberto Rosario, 2025
 # Lyudmil Antonov <lantonov.here@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-03 18:22+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Lyudmil Antonov <lantonov.here@gmail.com>, 2025\n"
 "Language-Team: Bulgarian (https://app.transifex.com/rosarior/teams/13584/bg/)\n"
 "MIME-Version: 1.0\n"
@@ -22,15 +22,15 @@ msgstr ""
 "Language: bg\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps.py:26 permissions.py:6 settings.py:15
+#: apps.py:25 permissions.py:6 settings.py:13
 msgid "Common"
 msgstr "Общи"
 
-#: dependencies.py:193
+#: dependencies.py:191
 msgid "Command line environment with autocompletion."
 msgstr "Команден ред с автоматично довършване."
 
-#: dependencies.py:198
+#: dependencies.py:196
 msgid "Checks proper formatting of the README file."
 msgstr "Проверява правилното форматиране на файла README."
 
@@ -90,20 +90,20 @@ msgstr "Поддръжка"
 msgid "Tools"
 msgstr "Инструменти"
 
-#: literals.py:21
+#: literals.py:19
 msgid ""
 "This feature has been deprecated and will be removed in a future version."
 msgstr "Тази функция е оттеглена и ще бъде премахната в бъдеща версия."
 
-#: literals.py:30
+#: literals.py:28
 msgid "Days"
 msgstr "Дни"
 
-#: literals.py:31
+#: literals.py:29
 msgid "Hours"
 msgstr "Часове"
 
-#: literals.py:32
+#: literals.py:30
 msgid "Minutes"
 msgstr "Минути"
 
@@ -143,30 +143,14 @@ msgstr "Копиране на обект"
 msgid "URL"
 msgstr "URL"
 
-#: settings.py:23
-msgid ""
-"In list mode, show the \"list facet\" menu options as a dropdown menu "
-"instead of individual buttons."
-msgstr ""
-"В режим на списък покажете опциите на менюто &quot;фасет списък&quot; като "
-"падащо меню вместо отделни бутони."
-
-#: settings.py:32
-msgid ""
-"In list mode, show the \"object\" menu options as a dropdown menu instead of"
-" individual buttons."
-msgstr ""
-"В режим на списък покажете опциите на менюто &quot;обект&quot; като падащо "
-"меню вместо отделни бутони."
-
-#: settings.py:40
+#: settings.py:20
 msgid ""
 "Disables the use of the local `media` folder. When using this setting, all "
 "apps must be also configured via their respective storage backend settings "
 "to use alternate persistence."
 msgstr ""
 
-#: settings.py:48
+#: settings.py:28
 msgid ""
 "A list of strings designating all applications that are to be removed from "
 "the list normally installed by Mayan EDMS. Each string should be a dotted "
@@ -179,7 +163,7 @@ msgstr ""
 "приложение (за предпочитане) или пакет, съдържащ приложение. Пример: "
 "[&#39;app_1&#39;, &#39;app_2&#39;]"
 
-#: settings.py:58
+#: settings.py:38
 msgid ""
 "A list of strings designating all applications that are installed beyond "
 "those normally installed by Mayan EDMS. Each string should be a dotted "
@@ -188,7 +172,7 @@ msgid ""
 "apps. Example: ['app_1', 'app_2']"
 msgstr ""
 
-#: settings.py:70
+#: settings.py:50
 msgid ""
 "A list of strings designating all applications that are installed beyond "
 "those normally installed by Mayan EDMS. Each string should be a dotted "
@@ -203,7 +187,7 @@ msgstr ""
 "инсталирани преди приложенията по подразбиране. Пример: [&#39;app_1&#39;, "
 "&#39;app_2&#39;]"
 
-#: settings.py:81
+#: settings.py:61
 msgid ""
 "Name of the view attached to the brand anchor in the main menu. This is also"
 " the view to which users will be redirected after log in."
@@ -211,11 +195,11 @@ msgstr ""
 "Име на изгледа, прикрепен към котвата на марката в главното меню. Това е и "
 "изгледът, към който потребителите ще бъдат пренасочени след влизане."
 
-#: settings.py:90
+#: settings.py:70
 msgid "Name of the dashboard to display in the home view."
 msgstr "Име на таблото за управление, което да се показва в началния изглед."
 
-#: settings.py:95
+#: settings.py:75
 msgid "Sets the project's name."
 msgstr "Задава името на проекта."
 

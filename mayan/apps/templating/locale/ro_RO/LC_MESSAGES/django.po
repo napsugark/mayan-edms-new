@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:40+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Harald Ersch, 2025\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/rosarior/teams/13584/ro_RO/)\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Language: ro_RO\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: apps.py:16 permissions.py:6 settings.py:94
+#: apps.py:16 permissions.py:6 settings.py:96
 msgid "Templating"
 msgstr "Lucru cu șabloane"
 
@@ -33,6 +33,17 @@ msgstr "Data și ora curentă"
 #, python-format
 msgid "Model `%s` is not available for template sandbox."
 msgstr "Modelul ` %s nu este disponibil pentru sandbox-ul de șabloane."
+
+#: decorators.py:20
+msgid "None provided."
+msgstr ""
+
+#: decorators.py:22
+#, python-format
+msgid ""
+"Filter or tag \"%(name)s\" is considered dangerous and not allowed. Reason: "
+"%(reason)s Change setting `%(setting)s` to allow it."
+msgstr ""
 
 #: fields.py:28
 msgid "Use Django's default templating language. "
@@ -83,13 +94,23 @@ msgstr "HTML"
 msgid "URL"
 msgstr "URL"
 
-#: settings.py:101
+#: settings.py:102
+msgid ""
+"A comma separated list of dangerous templating tags and filters that are "
+"allowed."
+msgstr ""
+
+#: settings.py:110
 msgid ""
 "Theme name of the CSS stylesheet used to change the visual appearance of the"
 " template preview."
 msgstr ""
 "Numele temei foii de stil CSS utilizată pentru a modifica aspectul vizual al"
 " previzualizării șablonului."
+
+#: templatetags/templating_tags.py:100
+msgid "Tag can bypass access controls and create permanent changes."
+msgstr ""
 
 #: views.py:59
 #, python-format
@@ -101,18 +122,18 @@ msgstr "Mediu de testare pentru șablon pentru: %s"
 msgid "Template error; %(exception)s"
 msgstr "Eroare șablon; %(exception)s"
 
-#: widgets.py:42
+#: widgets.py:43
 msgid "Filters"
 msgstr "Filtre"
 
-#: widgets.py:49
+#: widgets.py:50
 msgid "Tags"
 msgstr "Etichete"
 
-#: widgets.py:56
+#: widgets.py:57
 msgid "<Filters and tags>"
 msgstr "<Filters and tags>"
 
-#: widgets.py:129
+#: widgets.py:136
 msgid "<Model attributes>"
 msgstr "<Model attributes>"

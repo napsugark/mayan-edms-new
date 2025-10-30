@@ -5,9 +5,9 @@
 # 
 # Translators:
 # Roberto Rosario, 2025
-# Marvin Haschker <marvin@haschker.me>, 2025
-# Berny <berny@bernhard-marx.de>, 2025
 # Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2025
+# Berny <berny@bernhard-marx.de>, 2025
+# Marvin Haschker <marvin@haschker.me>, 2025
 # Ingo Buchholz <ingo.buchholz@takwa.de>, 2025
 # Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
 "MIME-Version: 1.0\n"

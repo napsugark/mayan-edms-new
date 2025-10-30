@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:33+0000\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
 "PO-Revision-Date: 2025-03-28 15:56-0400\n"
 "Last-Translator: Roberto Rosario <rosarior@lp-ammna039>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: apps.py:10
-msgid "Platform Docker"
+msgid "Platforms Docker"
 msgstr ""
 
 #: literals.py:15
@@ -33,19 +33,19 @@ msgstr ""
 msgid "Allows setting the worker's Celery `max-tasks-per-child` value."
 msgstr ""
 
-#: platforms_templates.py:31
+#: platform_templates.py:26
 msgid "Template for entrypoint.sh file inside a Docker image."
 msgstr ""
 
-#: platforms_templates.py:47
+#: platform_templates.py:42
 msgid "Template that generates the Docker Compose file."
 msgstr ""
 
-#: platforms_templates.py:217
+#: platform_templates.py:162
 msgid "Template for Supervisord inside a Docker image."
 msgstr ""
 
-#: platforms_templates.py:232
+#: platform_templates.py:177
 msgid "Template that generates a Dockerfile file."
 msgstr ""
 

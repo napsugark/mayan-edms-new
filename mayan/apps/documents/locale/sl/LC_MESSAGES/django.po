@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Slovenian (https://app.transifex.com/rosarior/teams/13584/sl/)\n"
 "MIME-Version: 1.0\n"
@@ -378,7 +378,7 @@ msgstr ""
 msgid "Page group"
 msgstr ""
 
-#: forms/misc_forms.py:14 literals.py:99
+#: forms/misc_forms.py:14 literals.py:101
 msgid "Page range"
 msgstr "Obseg strani"
 
@@ -599,55 +599,55 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#: literals.py:91
+#: literals.py:93
 msgid "January"
 msgstr ""
 
-#: literals.py:91
+#: literals.py:93
 msgid "February"
 msgstr ""
 
-#: literals.py:91
+#: literals.py:93
 msgid "March"
 msgstr ""
 
-#: literals.py:91
+#: literals.py:93
 msgid "April"
 msgstr ""
 
-#: literals.py:91
+#: literals.py:93
 msgid "May"
 msgstr ""
 
-#: literals.py:92
+#: literals.py:94
 msgid "June"
 msgstr ""
 
-#: literals.py:92
+#: literals.py:94
 msgid "July"
 msgstr ""
 
-#: literals.py:92
+#: literals.py:94
 msgid "August"
 msgstr ""
 
-#: literals.py:92
+#: literals.py:94
 msgid "September"
 msgstr ""
 
-#: literals.py:92
+#: literals.py:94
 msgid "October"
 msgstr ""
 
-#: literals.py:93
+#: literals.py:95
 msgid "November"
 msgstr ""
 
-#: literals.py:93
+#: literals.py:95
 msgid "December"
 msgstr ""
 
-#: literals.py:99
+#: literals.py:101
 msgid "All pages"
 msgstr ""
 

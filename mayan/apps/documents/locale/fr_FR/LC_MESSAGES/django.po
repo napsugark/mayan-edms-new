@@ -5,24 +5,24 @@
 # Translators:
 # Translators:
 # 0041b687dd284925c1885ba94464aacd_fde037b <fc746b00d74cefecce9698255909a24f_28512>, 2025
-# Baptiste GAILLET <baptiste.gaillet@cstb.fr>, 2025
 # Olivier W, 2025
-# Roberto Rosario, 2025
 # Bruno CAPELETO <bruno.capeleto@abcreseau.com>, 2025
-# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2025
-# Yves Dubois <ydubois@gmail.com>, 2025
+# Roberto Rosario, 2025
+# Baptiste GAILLET <baptiste.gaillet@cstb.fr>, 2025
 # Luc Didry, 2025
-# Thierry Schott <DarkDare@users.noreply.github.com>, 2025
 # Frédéric Sheedy <sheedf@gmail.com>, 2025
 # Guillaume Trottier <gui.trottier@gmail.com>, 2025
+# Christophe CHAUVET <christophe.chauvet@gmail.com>, 2025
+# Yves Dubois <ydubois@gmail.com>, 2025
+# Thierry Schott <DarkDare@users.noreply.github.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Guillaume Trottier <gui.trottier@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Thierry Schott <DarkDare@users.noreply.github.com>, 2025\n"
 "Language-Team: French (France) (https://app.transifex.com/rosarior/teams/13584/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -400,7 +400,7 @@ msgstr "Le numéro de page ciblé ne peut être répété"
 msgid "Page group"
 msgstr ""
 
-#: forms/misc_forms.py:14 literals.py:99
+#: forms/misc_forms.py:14 literals.py:101
 msgid "Page range"
 msgstr "Ensemble de pages"
 
@@ -623,55 +623,55 @@ msgstr "Restaurer"
 msgid "Default"
 msgstr "Défaut"
 
-#: literals.py:91
+#: literals.py:93
 msgid "January"
 msgstr "Janvier"
 
-#: literals.py:91
+#: literals.py:93
 msgid "February"
 msgstr "Février"
 
-#: literals.py:91
+#: literals.py:93
 msgid "March"
 msgstr "Mars"
 
-#: literals.py:91
+#: literals.py:93
 msgid "April"
 msgstr "Avril"
 
-#: literals.py:91
+#: literals.py:93
 msgid "May"
 msgstr "Mai"
 
-#: literals.py:92
+#: literals.py:94
 msgid "June"
 msgstr "Juin"
 
-#: literals.py:92
+#: literals.py:94
 msgid "July"
 msgstr "Juillet"
 
-#: literals.py:92
+#: literals.py:94
 msgid "August"
 msgstr "Août"
 
-#: literals.py:92
+#: literals.py:94
 msgid "September"
 msgstr "Septembre"
 
-#: literals.py:92
+#: literals.py:94
 msgid "October"
 msgstr "Octobre"
 
-#: literals.py:93
+#: literals.py:95
 msgid "November"
 msgstr "Novembre"
 
-#: literals.py:93
+#: literals.py:95
 msgid "December"
 msgstr "Décembre"
 
-#: literals.py:99
+#: literals.py:101
 msgid "All pages"
 msgstr "Toutes les pages"
 

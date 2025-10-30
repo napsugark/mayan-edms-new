@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/rosarior/teams/13584/es_MX/)\n"
 "MIME-Version: 1.0\n"
@@ -42,7 +42,7 @@ msgstr "Documento reservado"
 
 #: events.py:20
 msgid "Document forcefully checked in"
-msgstr "Documento devuelto forzosamente"
+msgstr ""
 
 #: exceptions.py:15
 msgid "Document not checked out."
@@ -74,15 +74,15 @@ msgstr "¿Se permiten nuevos archivos?"
 
 #: forms.py:51
 msgid "Yes"
-msgstr "Si"
+msgstr ""
 
 #: forms.py:51
 msgid "No"
-msgstr "No"
+msgstr ""
 
 #: links.py:39
 msgid "Check out document"
-msgstr "Reservar documento"
+msgstr ""
 
 #: links.py:43
 msgid "Check out"
@@ -211,7 +211,7 @@ msgstr "%(count)d documento devuelto correctamente."
 #: views.py:40
 #, python-format
 msgid "Check in %(count)d documents."
-msgstr "Devolver %(count)d documentos."
+msgstr ""
 
 #: views.py:41
 #, python-format
@@ -231,7 +231,7 @@ msgstr "No se puede reserver el documento \"%(instance)s\"; %(exception)s"
 #: views.py:102
 #, python-format
 msgid "%(count)d documents checked out successfully."
-msgstr "%(count)d documentos reservados correctamente."
+msgstr ""
 
 #: views.py:105
 #, python-format
@@ -273,8 +273,8 @@ msgstr ""
 
 #: views.py:184
 msgid "No documents have been checked out"
-msgstr "No se han reservado documentos"
+msgstr ""
 
 #: widgets.py:19
 msgid "Amount"
-msgstr "Cantidad"
+msgstr ""

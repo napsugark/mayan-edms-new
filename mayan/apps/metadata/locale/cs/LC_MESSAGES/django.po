@@ -4,8 +4,8 @@
 # 
 # Translators:
 # Translators:
-# Jiri Fait <fait@orkasolutions.cz>, 2025
 # Sebastian Fait <seba.fait@gmail.com>, 2025
+# Jiri Fait <fait@orkasolutions.cz>, 2025
 # Jiří Podhorecký <jirka.p@volny.cz>, 2025
 # Michal Švábík <snadno@lehce.cz>, 2025
 # 
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Michal Švábík <snadno@lehce.cz>, 2025\n"
 "Language-Team: Czech (https://app.transifex.com/rosarior/teams/13584/cs/)\n"
 "MIME-Version: 1.0\n"

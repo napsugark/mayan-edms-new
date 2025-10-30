@@ -4,7 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Marwan Rahhal <Marwanr@sssit.net>, 2025
 # Mohamad Ashmar, 2025
 # 
 msgid ""
@@ -12,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-27 11:45+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -23,11 +22,11 @@ msgstr ""
 
 #: apps.py:9 settings.py:11
 msgid "MIME types"
-msgstr "أنواع"
+msgstr "أنواع MIME"
 
 #: backends/file_command.py:26
 msgid "file command not installed or not found."
-msgstr "أمر \"file\" غير مُثبَّت أو غير موجود."
+msgstr "أمر ملف غير مُثبَّت أو غير موجود."
 
 #: backends/perl_file_mimeinfo.py:26
 msgid "mimetype not installed or not found."

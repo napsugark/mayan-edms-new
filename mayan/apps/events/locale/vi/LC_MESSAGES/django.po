@@ -5,8 +5,8 @@
 # Translators:
 # Translators:
 # Trung Phan Minh <navmobile@gmail.com>, 2025
-# Thanh Long Hoàng <hoangthanhlong@gmail.com>, 2025
 # Thuong Lu, 2025
+# Thanh Long Hoàng <hoangthanhlong@gmail.com>, 2025
 # Roberto Rosario, 2025
 # 
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/rosarior/teams/13584/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -348,7 +348,7 @@ msgstr ""
 #: views/notification_views.py:30
 #, python-format
 msgid "User \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "Người dùng \"%(object)s\" đã xóa thành công."
 
 #: views/notification_views.py:33
 #, python-format

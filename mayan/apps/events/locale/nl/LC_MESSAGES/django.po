@@ -5,16 +5,16 @@
 # Translators:
 # Translators:
 # bwakkie <bwakkie@gmail.com>, 2025
-# j jacobs <j.jacobs@rijnlandslyceum-rls.nl>, 2025
 # Roberto Rosario, 2025
+# j jacobs <j.jacobs@rijnlandslyceum-rls.nl>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Roberto Rosario, 2025\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: j jacobs <j.jacobs@rijnlandslyceum-rls.nl>, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/rosarior/teams/13584/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -347,7 +347,7 @@ msgstr ""
 #: views/notification_views.py:30
 #, python-format
 msgid "User \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "Gebruiker \"%(object)s\" succesvol verwijderd."
 
 #: views/notification_views.py:33
 #, python-format

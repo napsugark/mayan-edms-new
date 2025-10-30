@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 11:22+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -20,31 +20,31 @@ msgstr ""
 "Language: bo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: apps.py:57 events.py:6 permissions.py:6 settings.py:17
+#: apps.py:35 events.py:6 settings.py:17
 msgid "Appearance"
 msgstr "ཕྱི་ཚུལ་མཐོང་སྣང།"
 
-#: dependencies.py:8
+#: dependencies.py:6
 msgid "Fancybox"
 msgstr "Fancybox"
 
-#: dependencies.py:12
+#: dependencies.py:10
 msgid "jQuery"
 msgstr "jQuery"
 
-#: dependencies.py:16
+#: dependencies.py:14
 msgid "JQuery Form"
 msgstr "JQuery འབྲི་ཤོག་།"
 
-#: dependencies.py:20
+#: dependencies.py:18
 msgid "JQuery Match Height"
 msgstr "JQuery Match Height"
 
-#: dependencies.py:24
+#: dependencies.py:22
 msgid "Select 2"
 msgstr "Select 2"
 
-#: dependencies.py:28
+#: dependencies.py:26
 msgid "Toastr"
 msgstr "Toastr"
 
@@ -58,191 +58,82 @@ msgstr "བརྗོད་བྱ་རྩོམ་སྒྲིག་བྱས།
 
 #: events.py:16
 msgid "User theme edited"
-msgstr "སྤྱོད་མཁན་གྱི་བརྗོད་བྱ་རྩོམ་སྒྲིག་བྱས།"
-
-#: links.py:21
-msgid "Reload the current content"
-msgstr "མིག་སྔའི་ནང་དོན་བསྐྱར་དུ་མངོན་པ།"
-
-#: links.py:27
-msgid "Theme settings"
-msgstr "བརྗོད་དོན་སྒྲིག་སྟངས།"
-
-#: links.py:34
-msgid "Edit theme settings"
-msgstr "བརྗོད་དོན་སྒྲིག་སྟངས་རྩོམ་སྒྲིག་བྱེད།"
-
-#: links.py:40 views.py:34
-msgid "Create new theme"
-msgstr "བརྗོད་བྱ་གསར་པ་གཏོད།"
-
-#: links.py:45
-msgid "Delete"
-msgstr "བསུབ་པ།"
-
-#: links.py:49
-msgid "Edit"
-msgstr "བཅོས་པ།"
-
-#: links.py:53 links.py:61 models.py:33 views.py:103
-msgid "Themes"
-msgstr "བརྗོད་བྱ།"
-
-#: models.py:20
-msgid "A short text describing the theme."
-msgstr "བརྗོད་བྱ་བརྗོད་པའི་ཚིག་ཐུང་ཞིག"
-
-#: models.py:21
-msgid "Label"
-msgstr "ལག་ཁྱེར་།"
-
-#: models.py:25
-msgid ""
-"The CSS stylesheet to change the appearance of the different user interface "
-"elements."
 msgstr ""
-"བཀོལ་སྤྱོད་པའི་ངོས་འདྲ་ཆ་ཤས་མི་འདྲ་བའི་ཕྱི་ཚུལ་མཐོང་སྣང་བསྒྱུར་བཅོས་བྱེད་པའི་"
-" CSS stylesheet"
 
-#: models.py:27
-msgid "Stylesheet"
-msgstr "Stylesheet"
-
-#: models.py:32 models.py:69
-msgid "Theme"
-msgstr "བརྗོད་གཞི"
-
-#: models.py:65
-msgid "User"
-msgstr "བེད་སྤྱོད་པ་།"
-
-#: models.py:73
-msgid "User theme setting"
-msgstr "སྤྱོད་མཁན་གྱི་བརྗོད་དོན་སྒྲིག་སྟངས།"
-
-#: models.py:74
-msgid "User theme settings"
-msgstr "སྤྱོད་མཁན་གྱི་བརྗོད་དོན་སྒྲིག་སྟངས།"
-
-#: permissions.py:10
-msgid "Create new themes"
-msgstr "བརྗོད་བྱ་གསར་པ་གཏོད་པ།"
-
-#: permissions.py:13
-msgid "Delete themes"
-msgstr "བརྗོད་གཞི་སུབ་པ།"
-
-#: permissions.py:16
-msgid "Edit themes"
-msgstr "བརྗོད་དོན་རྩོམ་སྒྲིག་བྱེད་པ།"
-
-#: permissions.py:19
-msgid "View existing themes"
-msgstr "ད་ཡོད་ཀྱི་བརྗོད་གཞི་ལ་ལྟ་བ།"
+#: links.py:9
+msgid "Reload the current content"
+msgstr ""
 
 #: settings.py:23
 msgid "Custom HTTP response code for AJAX redirections."
-msgstr "AJAXབསྐྱར་ལོག་ཆེད་དུ་སྲོལ་རྒྱུན་གྱི་HTTPལན་འདེབས་ཨང་རྟགས།"
+msgstr ""
 
 #: settings.py:29
 msgid ""
 "Number of pages to show on each side of the current page in the elided "
 "pager."
-msgstr "ད་ལྟའི་ཤོག་ངོས་རེ་རེར་སྟོན་དགོས་པའི་ཤོག་ངོས་གྲངས།"
+msgstr ""
 
 #: settings.py:36
 msgid "Number of pages to show at both ends of the elided pager."
-msgstr "ཤོག་ངོས་གྲངས་འབོར། ཤོག་ངོས་གཉིས་ཀར་སྟོན་དགོས།"
+msgstr ""
 
 #: settings.py:42
 msgid "Maximum number of characters that will be displayed as the view title."
-msgstr "མཐོང་སྣང་ཁ་བྱང་ལྟར་མངོན་པའི་ཡིག་འབྲུའི་གྲངས་འབོར་མང་ཤོས།"
+msgstr ""
 
 #: settings.py:52
 msgid "Position where the system messages will be displayed."
-msgstr "མ་ལག་གི་འཕྲིན་ཡིག་བཀྲམ་སྟོན་བྱེད་སའི་གནས་ཡུལ།"
+msgstr ""
 
 #: settings.py:58
 msgid ""
 "Delay in milliseconds after which the menus will be checked for updates."
 msgstr ""
-"མི་ལི་སྐར་ཆའི་ནང་ཕྱིར་འགྱངས་བྱས་རྗེས་དཀར་ཆག་དེ་ཚོ་གསར་བརྗེ་བྱེད་པར་བརྟག་དཔྱད་བྱེད།"
 
 #: settings.py:65
 msgid "Total pages to show in the page selection dropdown."
-msgstr "ཤོག་ངོས་འདེམས་སྒྲུག་གཤམ་འོག་ནང་སྟོན་པའི་ཤོག་ངོས་བསྡོམས་འབོར།"
+msgstr ""
 
 #: settings.py:71
 msgid "Enable page selection dropdown."
-msgstr "ཤོག་ངོས་འདེམས་སྒྲུག་གཤམ་ཐོ་ལྕོགས་ཅན་བཟོས།"
+msgstr ""
 
 #: settings.py:77
 msgid "Enable the page selection input field."
-msgstr "ཤོག་ངོས་འདེམས་གཞིའི་ནང་འཇུག་ཡིག་དུམ་ལྕོགས་ཅན་བཟོས།"
+msgstr ""
 
 #: settings.py:83
 msgid ""
 "Maximum number of requests that can be made before throttling is enabled."
-msgstr "ཆེས་མཐོའི་འབོད་སྐུལ་གྱི་གྲངས་འབོར།"
+msgstr ""
 
 #: settings.py:90
 msgid ""
 "Time in milliseconds after which a throttled request will clear allowing an "
 "additional request to be performed."
 msgstr ""
-"མི་ལི་སྐར་ཆའི་ནང་དུས་ཚོད། "
-"དེ་རྗེས་ཚད་གཞི་ཆུང་བའི་རེ་འདུན་དེ་བསལ་ནས་རེ་འདུན་ཁ་སྣོན་ཞིག་སྒྲུབ་ཐུབ།"
 
 #: templates/appearance/app/foot.html:22
 msgid "Copy content to clipboard"
-msgstr "ནང་དོན་གཅོད་པང་ནང་འདྲ་བཤུས།"
+msgstr ""
 
 #: templates/appearance/app/foot.html:22
 msgid "Copy"
-msgstr "འདྲ་བཤུས།"
+msgstr ""
 
 #: templates/appearance/app/foot.html:28
 msgid "Reset input size height"
-msgstr "ནང་འཇུག་ཆེ་ཆུང་གི་མཐོ་ཚད་སླར་སྒྲིག་བྱེད་པ།"
+msgstr ""
 
 #: templates/appearance/app/foot.html:28
 msgid "Reset"
-msgstr "བསྐྱར་སྒྲིག་བྱེད་པ།"
+msgstr ""
 
 #: templates/appearance/app/foot.html:126
 msgid "Page number must be a positive integer."
-msgstr "ཤོག་ངོས་ཨང་གྲངས་ནི་ངེས་པར་ཡང་དག་ཧྲིལ་གྲངས་ཡིན་དགོས།"
-
-#: templatetags/appearance_tags.py:77
-msgid "None"
-msgstr "གང་ཡང་མེད།"
-
-#: views.py:59
-#, python-format
-msgid "Delete theme: %s"
-msgstr "བརྗོད་གཞི་སུབ་པ་: %s"
-
-#: views.py:76
-#, python-format
-msgid "Edit theme: %s"
-msgstr "རྩོམ་སྒྲིག་བརྗོད་གཞི།: %s"
-
-#: views.py:97
-msgid ""
-"Themes allow changing the visual appearance without requiring code changes."
 msgstr ""
-"བརྗོད་གཞི་དེ་དག་གིས་མངོན་ཚུལ་བསྒྱུར་ཆོག་པའི་བརྡ་རྟགས་བསྒྱུར་བཅོས་བྱེད་མི་དགོས།"
 
-#: views.py:101
-msgid "There are no themes"
-msgstr "བརྗོད་བྱ་མེད་པ།"
-
-#: views.py:127
-#, python-format
-msgid "Theme settings for user: %s"
-msgstr "བཀོལ་སྤྱོད་པའི་བརྗོད་གཞིའི་སྒྲིག་སྟངས། %s"
-
-#: views.py:150
-#, python-format
-msgid "Edit theme settings for user: %s"
-msgstr "སྤྱོད་མཁན་གྱི་བརྗོད་གཞིའི་སྒྲིག་སྟངས་རྩོམ་སྒྲིག་བྱེད། %s"
+#: templatetags/appearance_tags.py:36
+msgid "None"
+msgstr "གང་ཡང་མིན་པ།"

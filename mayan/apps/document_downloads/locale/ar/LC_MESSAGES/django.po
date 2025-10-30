@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-07 07:29+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Mohamad Ashmar, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -27,9 +27,7 @@ msgstr "تنزيلات المستندات"
 
 #: classes.py:49
 msgid "Document_file_bundle.zip"
-msgstr ""
-"Document_file_bundle.zip\n"
-" "
+msgstr "Document_file_bundle.zip"
 
 #: classes.py:53
 msgid "Compressed document files"
@@ -82,7 +80,7 @@ msgstr "ملفات المستندات جاهزة للتحميل."
 
 #: permissions.py:10
 msgid "Download document files"
-msgstr "Download document files"
+msgstr "تنزيل ملفات المستندات"
 
 #: queues.py:13
 msgid "Generate a compressed document file bundle"

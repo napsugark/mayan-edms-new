@@ -5,23 +5,23 @@
 # Translators:
 # Translators:
 # Annunnaky <doublemiu@gmail.com>, 2025
-# Roberto Rosario, 2025
 # Tomasz Szymanowicz <alakdae@gmail.com>, 2025
-# Daniel Winiarski <daniel.winiarski.dw@gmail.com>, 2025
-# Marcin Lozynski <mlozynski@wp.pl>, 2025
 # edasmax <edasmax@gmail.com>, 2025
+# Roberto Rosario, 2025
+# Marcin Lozynski <mlozynski@wp.pl>, 2025
 # mic <winterfall24@gmail.com>, 2025
-# Wojciech Warczakowski <w.warczakowski@gmail.com>, 2025
 # kicior kicior <kiciorek+github@gmail.com>, 2025
+# Daniel Winiarski <daniel.winiarski.dw@gmail.com>, 2025
 # tomkolp, 2025
+# Wojciech Warczakowski <w.warczakowski@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: tomkolp, 2025\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Wojciech Warczakowski <w.warczakowski@gmail.com>, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/rosarior/teams/13584/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -396,7 +396,7 @@ msgstr "Docelowy numer strony nie może się powtarzać."
 msgid "Page group"
 msgstr "Grupa stron"
 
-#: forms/misc_forms.py:14 literals.py:99
+#: forms/misc_forms.py:14 literals.py:101
 msgid "Page range"
 msgstr "Zakres stron"
 
@@ -619,55 +619,55 @@ msgstr "Przywróć"
 msgid "Default"
 msgstr "Domyślny"
 
-#: literals.py:91
+#: literals.py:93
 msgid "January"
 msgstr "Styczeń"
 
-#: literals.py:91
+#: literals.py:93
 msgid "February"
 msgstr "Luty"
 
-#: literals.py:91
+#: literals.py:93
 msgid "March"
 msgstr "Marzec"
 
-#: literals.py:91
+#: literals.py:93
 msgid "April"
 msgstr "Kwiecień"
 
-#: literals.py:91
+#: literals.py:93
 msgid "May"
 msgstr "Maj"
 
-#: literals.py:92
+#: literals.py:94
 msgid "June"
 msgstr "Czerwiec"
 
-#: literals.py:92
+#: literals.py:94
 msgid "July"
 msgstr "Lipiec"
 
-#: literals.py:92
+#: literals.py:94
 msgid "August"
 msgstr "Sierpień"
 
-#: literals.py:92
+#: literals.py:94
 msgid "September"
 msgstr "Wrzesień"
 
-#: literals.py:92
+#: literals.py:94
 msgid "October"
 msgstr "Październik"
 
-#: literals.py:93
+#: literals.py:95
 msgid "November"
 msgstr "Listopad"
 
-#: literals.py:93
+#: literals.py:95
 msgid "December"
 msgstr "Grudzień"
 
-#: literals.py:99
+#: literals.py:101
 msgid "All pages"
 msgstr "Wszystkie strony"
 

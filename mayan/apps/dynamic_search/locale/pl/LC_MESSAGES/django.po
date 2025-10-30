@@ -4,19 +4,19 @@
 # 
 # Translators:
 # Translators:
-# kicior kicior <kiciorek+github@gmail.com>, 2025
-# mic <winterfall24@gmail.com>, 2025
-# tomkolp, 2025
-# Roberto Rosario, 2025
 # Tomasz Szymanowicz <alakdae@gmail.com>, 2025
+# Roberto Rosario, 2025
+# tomkolp, 2025
+# mic <winterfall24@gmail.com>, 2025
+# kicior kicior <kiciorek+github@gmail.com>, 2025
 # Wojciech Warczakowski <w.warczakowski@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-28 14:15+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Wojciech Warczakowski <w.warczakowski@gmail.com>, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/rosarior/teams/13584/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -253,15 +253,15 @@ msgstr ""
 "Indeksuj wszystkie powiązane wystąpienia modelu wyszukiwania po zdarzeniu "
 "„wiele do wielu”."
 
-#: queues.py:44
+#: queues.py:42
+msgid "Delete expired saved resultsets"
+msgstr ""
+
+#: queues.py:50
 msgid "Reset the search backend indices and index all instances again."
 msgstr ""
 "Zresetuj indeksy zaplecza wyszukiwania i ponownie zindeksuj wszystkie "
 "wystąpienia."
-
-#: queues.py:51
-msgid "Delete expired saved resultsets"
-msgstr ""
 
 #: scoped_queries.py:348
 #, python-format

@@ -4,17 +4,17 @@
 # 
 # Translators:
 # Translators:
+# olenchenko <olenchenko@gmail.com>, 2025
 # Сергій Гарашко, 2025
 # Kostiantyn Tyshkovets <shukach_13@ukr.net>, 2025
-# olenchenko <olenchenko@gmail.com>, 2025
 # Leo Lado, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Leo Lado, 2025\n"
 "Language-Team: Ukrainian (https://app.transifex.com/rosarior/teams/13584/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -389,7 +389,7 @@ msgstr "Номер сторінки не може повторюватися."
 msgid "Page group"
 msgstr "Група сторінок"
 
-#: forms/misc_forms.py:14 literals.py:99
+#: forms/misc_forms.py:14 literals.py:101
 msgid "Page range"
 msgstr "Діапазон сторінок"
 
@@ -612,55 +612,55 @@ msgstr "Відновити"
 msgid "Default"
 msgstr "За замовчуванням"
 
-#: literals.py:91
+#: literals.py:93
 msgid "January"
 msgstr "Січень"
 
-#: literals.py:91
+#: literals.py:93
 msgid "February"
 msgstr "Лютий"
 
-#: literals.py:91
+#: literals.py:93
 msgid "March"
 msgstr "Березень"
 
-#: literals.py:91
+#: literals.py:93
 msgid "April"
 msgstr "Квітень"
 
-#: literals.py:91
+#: literals.py:93
 msgid "May"
 msgstr "Травень"
 
-#: literals.py:92
+#: literals.py:94
 msgid "June"
 msgstr "Червень"
 
-#: literals.py:92
+#: literals.py:94
 msgid "July"
 msgstr "Липень"
 
-#: literals.py:92
+#: literals.py:94
 msgid "August"
 msgstr "Серпень"
 
-#: literals.py:92
+#: literals.py:94
 msgid "September"
 msgstr "Вересень"
 
-#: literals.py:92
+#: literals.py:94
 msgid "October"
 msgstr "Жовтень"
 
-#: literals.py:93
+#: literals.py:95
 msgid "November"
 msgstr "Листопад"
 
-#: literals.py:93
+#: literals.py:95
 msgid "December"
 msgstr "Грудень"
 
-#: literals.py:99
+#: literals.py:101
 msgid "All pages"
 msgstr "Усі сторінки"
 

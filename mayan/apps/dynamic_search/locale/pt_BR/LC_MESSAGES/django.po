@@ -4,25 +4,25 @@
 # 
 # Translators:
 # Translators:
-# Rogerio Falcone <rogerio@falconeit.com.br>, 2025
-# José Samuel Facundo da Silva <samuel.facundo@ufca.edu.br>, 2025
-# Jadson Ribeiro <jadsonbr@outlook.com.br>, 2025
-# 425fe09b3064b9f906f637fff94056ae_a00ea56 <0fa3588fa89906bfcb3a354600956e0e_308047>, 2025
-# Márcia Ferreira, 2025
-# Rodrigo Sottomaior Macedo <sottomaiormacedotec@sottomaiormacedo.tech>, 2025
-# Roberto Rosario, 2025
-# Vítor Figueiró <vfigueiro@gmail.com>, 2025
 # Aline Freitas <aline@alinefreitas.com.br>, 2025
-# Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2025
+# Vítor Figueiró <vfigueiro@gmail.com>, 2025
+# Rodrigo Sottomaior Macedo <sottomaiormacedotec@sottomaiormacedo.tech>, 2025
+# Rogerio Falcone <rogerio@falconeit.com.br>, 2025
+# Roberto Rosario, 2025
+# Jadson Ribeiro <jadsonbr@outlook.com.br>, 2025
+# Márcia Ferreira, 2025
+# 425fe09b3064b9f906f637fff94056ae_a00ea56 <0fa3588fa89906bfcb3a354600956e0e_308047>, 2025
+# José Samuel Facundo da Silva <samuel.facundo@ufca.edu.br>, 2025
 # Fabricio Pacheco, 2025
+# Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-28 14:15+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Fabricio Pacheco, 2025\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Roberto Vasconcelos Novaes <rvnovaes@gmail.com>, 2025\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rosarior/teams/13584/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: apps.py:38
 msgid "Dynamic search"
-msgstr "Busca dinâmica"
+msgstr "Pesquisa dinâmica"
 
 #: apps.py:87
 msgid "The underlying database model whose content is indexed for search."
@@ -126,12 +126,12 @@ msgstr "resultados"
 
 #: links.py:36
 msgid "Basic search"
-msgstr "Busca básica"
+msgstr "Pesquisa básica"
 
 #: links.py:40 templates/dynamic_search/search_box.html:49
 #: templates/dynamic_search/search_box_toolbar.html:33
 msgid "Advanced search"
-msgstr "pesquisa avançada"
+msgstr "Pesquisa avançada"
 
 #: links.py:44
 msgid "Search again"
@@ -258,15 +258,15 @@ msgid ""
 "Index all related instances of a search model after a many to many event."
 msgstr ""
 
-#: queues.py:44
+#: queues.py:42
+msgid "Delete expired saved resultsets"
+msgstr ""
+
+#: queues.py:50
 msgid "Reset the search backend indices and index all instances again."
 msgstr ""
 "Restaurar os índices backend de pesquisa e classificar todos os recursos "
 "novamente"
-
-#: queues.py:51
-msgid "Delete expired saved resultsets"
-msgstr ""
 
 #: scoped_queries.py:348
 #, python-format

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-11 10:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Ovadia Ovadia, 2025\n"
 "Language-Team: Hebrew (Israel) (https://app.transifex.com/rosarior/teams/13584/he_IL/)\n"
 "MIME-Version: 1.0\n"
@@ -42,7 +42,7 @@ msgstr "המסמך הוצא מהארכיון"
 
 #: events.py:20
 msgid "Document forcefully checked in"
-msgstr "מסמך הוכנס לארכיון בהתגברות"
+msgstr ""
 
 #: exceptions.py:15
 msgid "Document not checked out."
@@ -74,15 +74,15 @@ msgstr ""
 
 #: forms.py:51
 msgid "Yes"
-msgstr "כן"
+msgstr ""
 
 #: forms.py:51
 msgid "No"
-msgstr "לא"
+msgstr ""
 
 #: links.py:39
 msgid "Check out document"
-msgstr "הוצא את המסמך מהארכיון"
+msgstr ""
 
 #: links.py:43
 msgid "Check out"
@@ -211,7 +211,7 @@ msgstr "מסמך %(count)d הוחזר לארכיון בהצלחה."
 #: views.py:40
 #, python-format
 msgid "Check in %(count)d documents."
-msgstr "החזרה לארכיון של %(count)d מסמכים."
+msgstr ""
 
 #: views.py:41
 #, python-format
@@ -232,7 +232,7 @@ msgstr ""
 #: views.py:102
 #, python-format
 msgid "%(count)d documents checked out successfully."
-msgstr "%(count)d מסמכים הוצאו מהארכיון בהצלחה."
+msgstr ""
 
 #: views.py:105
 #, python-format
@@ -272,7 +272,7 @@ msgstr "הוצאת מסמך מהארכיון חוסמת פעולות מסוימ�
 
 #: views.py:184
 msgid "No documents have been checked out"
-msgstr "אין מסמכים שהוצאו מהארכיון"
+msgstr ""
 
 #: widgets.py:19
 msgid "Amount"

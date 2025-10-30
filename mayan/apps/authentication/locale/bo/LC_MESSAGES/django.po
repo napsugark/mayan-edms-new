@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-27 11:22+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:38+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: KarmaBuildsApps, 2025\n"
 "Language-Team: Tibetan (https://app.transifex.com/rosarior/teams/13584/bo/)\n"
 "MIME-Version: 1.0\n"
@@ -22,23 +22,23 @@ msgstr ""
 
 #: apps.py:35 events.py:6 permissions.py:6 settings.py:11
 msgid "Authentication"
-msgstr "བདེན་དཔང་།"
+msgstr ""
 
 #: events.py:10
 msgid "User impersonation ended"
-msgstr "སྤྱོད་མཁན་རྫུན་བཟོ་མཇུག་བསྒྲིལ་སོང་།"
+msgstr ""
 
 #: events.py:13
 msgid "User impersonation started"
-msgstr "སྤྱོད་མཁན་རྫུན་བཟོ་བྱེད་མགོ་བརྩམས།"
+msgstr ""
 
 #: events.py:16
 msgid "User logged in"
-msgstr "སྤྱོད་མཁན་ཐོ་འགོད་བྱས།"
+msgstr ""
 
 #: events.py:19
 msgid "User logged out"
-msgstr "སྤྱོད་མཁན་ཕྱིར་བུད་ཟིན།"
+msgstr ""
 
 #: forms.py:33
 msgid "Remember me"
@@ -50,7 +50,7 @@ msgstr "གཏན་འཇགས།"
 
 #: forms.py:81
 msgid "If selected, disables ending impersonation."
-msgstr "གལ་ཏེ་འདེམས་ན་རྫུན་བཟོ་མཇུག་སྒྲིལ་བ་ལྕོགས་མིན་བཟོས།"
+msgstr ""
 
 #: forms.py:92
 msgid "User"
@@ -58,27 +58,27 @@ msgstr "བེད་སྤྱོད་པ་།"
 
 #: links.py:37
 msgid "Logout"
-msgstr "ཕྱིར་ཐོན་པ།"
+msgstr ""
 
 #: links.py:42
 msgid "Change password"
-msgstr "གསང་གྲངས་བསྒྱུར་བ།"
+msgstr ""
 
 #: links.py:47 views/impersonation_views.py:56
 msgid "Impersonate user"
-msgstr "སྤྱོད་མཁན་རྫུན་བཟོ་བྱེད་པ།"
+msgstr ""
 
 #: links.py:52
 msgid "Impersonate"
-msgstr "རྫུན་བཟོ་བྱེད་པ།"
+msgstr ""
 
 #: links.py:57 links.py:62
 msgid "Set password"
-msgstr "གསང་གྲངས་སྒྲིག་དགོས།"
+msgstr ""
 
 #: permissions.py:10
 msgid "Impersonate users"
-msgstr "སྤྱོད་མཁན་རྫུན་བཟོ་བྱེད་པ།"
+msgstr ""
 
 #: settings.py:17
 msgid ""
@@ -91,11 +91,10 @@ msgstr ""
 #: settings.py:25
 msgid "Dotted path to the backend used to process user authentication."
 msgstr ""
-"བཀོལ་སྤྱོད་པའི་བདེན་དཔང་ལས་སྣོན་བྱེད་པར་བེད་སྤྱོད་བྱེད་པའི་རྒྱབ་ཕྱོགས་ལ་ཚག་ཡོད་པའི་འགྲོ་ལམ།"
 
 #: settings.py:31
 msgid "Arguments for the AUTHENTICATION_BACKEND."
-msgstr "AUTHENTICATION_BACKEND དོན་གྱི་ཨར་གུ་མེན་ཊི་ (Arguments) ཁག"
+msgstr "AUTHENTICATION_BACKEND དོན་གྱི་ Arguments ཁག"
 
 #: templates/authentication/app/viewport.html:13
 #, python-format
@@ -104,23 +103,20 @@ msgid ""
 "                Impersonating user \"%(user)s\".\n"
 "            "
 msgstr ""
-"\n"
-"བེད་སྤྱོད་པ་རྫུན་བཟོ་བྱེད་པ་ &quot; %(user)s &quot;.\n"
-"            "
 
 #: templates/authentication/app/viewport.html:16
 msgid "Click here when finished"
-msgstr "ཚར་རྗེས་འདིར་གནོན།"
+msgstr ""
 
 #: templates/authentication/login.html:10
 msgid "Login"
-msgstr "ནང་འཛུལ།"
+msgstr ""
 
 #: templates/authentication/login.html:65
 #: templates/authentication/login.html:75
 #: templates/authentication/login.html:89
 msgid "Save"
-msgstr "སྐྱོབ་པ"
+msgstr ""
 
 #: templates/authentication/login.html:65
 #: templates/authentication/login.html:75
@@ -128,15 +124,15 @@ msgstr "སྐྱོབ་པ"
 #: templates/authentication/password_reset_confirm.html:29
 #: templates/authentication/password_reset_form.html:29
 msgid "Submit"
-msgstr "སྤྲོད་པ"
+msgstr ""
 
 #: templates/authentication/login.html:79
 msgid "Cancel"
-msgstr "འདོར་བ"
+msgstr ""
 
 #: templates/authentication/login.html:106
 msgid "Forgot your password?"
-msgstr "གསང་གྲངས་བརྗེད་སོང་ངམ།"
+msgstr ""
 
 #: templates/authentication/password_reset_complete.html:8
 #: templates/authentication/password_reset_confirm.html:8
@@ -145,86 +141,82 @@ msgstr "གསང་གྲངས་བརྗེད་སོང་ངམ།"
 #: templates/authentication/password_reset_form.html:8
 #: templates/authentication/password_reset_form.html:20
 msgid "Password reset"
-msgstr "གསང་གྲངས་བསྐྱར་སྒྲིག་བྱེད་པ།"
+msgstr ""
 
 #: templates/authentication/password_reset_complete.html:15
 msgid "Password reset complete! Click the link below to login."
-msgstr "གསང་གྲངས་སླར་གསོ་བྱས་ཟིན། གཤམ་གྱི་སྦྲེལ་ཐག་ལ་སྣུན་ནས་ནང་འཇུག་བྱོས།"
+msgstr ""
 
 #: templates/authentication/password_reset_complete.html:17
 msgid "Login page"
-msgstr "ནང་འཇུག་དྲ་ངོས།"
+msgstr ""
 
 #: templates/authentication/password_reset_done.html:15
 msgid "Password reset email sent!"
-msgstr "གསང་གྲངས་བསྐྱར་སྒྲིག་གློག་འཕྲིན་བཏང་ཟིན།"
+msgstr ""
 
-#: views/authentication_views.py:162
+#: views/authentication_views.py:158
 msgid "Next"
-msgstr "རྗེས་མ"
+msgstr ""
 
-#: views/authentication_views.py:168
+#: views/authentication_views.py:164
 #, python-format
 msgid "Step %(step)d of %(total_steps)d: %(step_label)s"
-msgstr "གོམ་པ་ %(step)d ཡི་ %(total_steps)d : %(step_label)s"
+msgstr ""
 
-#: views/authentication_views.py:192
+#: views/authentication_views.py:188
 msgid "Sign in"
-msgstr "ནང་དུ་འཛུལ་བ།"
+msgstr ""
 
-#: views/authentication_views.py:242
+#: views/authentication_views.py:238
 msgid "Your password has been successfully changed."
-msgstr "ཁྱེད་ཀྱི་གསང་གྲངས་བདེ་བླག་ངང་བསྒྱུར་བཅོས་བྱས་ཟིན།"
+msgstr ""
 
-#: views/authentication_views.py:253
+#: views/authentication_views.py:249
 msgid "Current user password change"
-msgstr "མིག་སྔའི་སྤྱོད་མཁན་གྱི་གསང་གྲངས་བསྒྱུར།"
+msgstr ""
 
-#: views/authentication_views.py:265
+#: views/authentication_views.py:261
 msgid "Changing the password is not allowed for this account."
-msgstr "རྩིས་ཁྲ་འདིའི་གསང་གྲངས་བསྒྱུར་མི་ཆོག"
+msgstr ""
 
-#: views/authentication_views.py:366
+#: views/authentication_views.py:278
 #, python-format
 msgid "Password change request performed on %(count)d user"
 msgstr ""
-"གསང་གྲངས་བརྗེ་སྒྱུར་གྱི་རེ་འདུན་དེ་ %(count)d སྤྱོད་མཁན་ཐོག་སྒྲུབ་ཡོད།"
 
-#: views/authentication_views.py:369
+#: views/authentication_views.py:281
 #, python-format
 msgid "Password change request performed on %(count)d users"
-msgstr "གསང་གྲངས་བརྗེ་སྒྱུར་གྱི་རེ་འདུན་དེ་ %(count)d སྤྱོད་མཁན་ལ་སྒྲུབ་ཡོད།"
+msgstr ""
 
-#: views/authentication_views.py:386
+#: views/authentication_views.py:298
 msgid ""
 "Changing the password of staff or super user accounts via the user interface"
 " is not allowed. Use administration tools to perform this operation."
 msgstr ""
-"ལས་བྱེད་པའམ་ཡང་ན་སྤྱོད་མཁན་ཆེ་ཤོས་ཀྱི་རྩིས་ཁྲའི་གསང་ཚིག་སྤྱོད་མཁན་གྱི་མཐུད་ཁ་བརྒྱུད་ནས་བརྗེ་སྒྱུར་བྱེད་མི་ཆོག"
-" བཀོལ་སྤྱོད་འདི་སྒྲུབ་པར་འཛིན་སྐྱོང་ལག་ཆ་བེད་སྤྱོད་བྱེད་དགོས།"
 
-#: views/authentication_views.py:400
+#: views/authentication_views.py:312
 msgid "Change user password"
 msgid_plural "Change users passwords"
-msgstr[0] "སྤྱོད་མཁན་གྱི་གསང་གྲངས་བརྗེ་དགོས།"
+msgstr[0] ""
 
-#: views/authentication_views.py:411
+#: views/authentication_views.py:323
 #, python-format
 msgid "Change password for user: %s"
-msgstr "སྤྱོད་མཁན་གྱི་གསང་གྲངས་བསྒྱུར། %s"
+msgstr ""
 
-#: views/authentication_views.py:435
+#: views/authentication_views.py:347
 #, python-format
 msgid "Successful password reset for user: %s."
-msgstr "བཀོལ་སྤྱོད་པའི་ཆེད་དུ་གསང་གྲངས་སླར་གསོ་མཐར་ཕྱིན་བྱས། %s ."
+msgstr ""
 
-#: views/authentication_views.py:441
+#: views/authentication_views.py:353
 #, python-format
 msgid "Error resetting password for user \"%(user)s\": %(error)s"
 msgstr ""
-"སྤྱོད་མཁན་གྱི་གསང་གྲངས་སླར་གསོ་བྱེད་པའི་ནོར་འཁྲུལ་ %(error)s བ %(user)s"
 
 #: views/impersonation_views.py:87
 #, python-format
 msgid "Impersonate user: %s"
-msgstr "སྤྱོད་མཁན་རྫུས་མ་བཟོས།: %s"
+msgstr ""

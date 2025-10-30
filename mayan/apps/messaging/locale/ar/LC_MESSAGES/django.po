@@ -4,20 +4,20 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Mohammed ALDOUB <voulnet@gmail.com>, 2025
+# WM Shinkada <shinkadawasim@gmail.com>, 2025
 # Roberto Rosario, 2025
 # Yaman Sanobar <yman.snober@gmail.com>, 2025
-# WM Shinkada <shinkadawasim@gmail.com>, 2025
-# Marwan Rahhal <Marwanr@sssit.net>, 2025
+# Mohammed ALDOUB <voulnet@gmail.com>, 2025
 # Mohamad Ashmar, 2025
+# Marwan Rahhal <Marwanr@sssit.net>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:32+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Mohamad Ashmar, 2025\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Marwan Rahhal <Marwanr@sssit.net>, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/rosarior/teams/13584/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -184,7 +184,7 @@ msgstr "تم حذف %(count)dرسالة بنجاح"
 #: views.py:64
 #, python-format
 msgid "Delete the %(count)d selected messages."
-msgstr "تم حذف %(count)dرسالا محددة"
+msgstr "تم حذف %(count)dرسالة محددة"
 
 #: views.py:65
 #, python-format
@@ -232,7 +232,7 @@ msgstr "%(count)dرسالة تم تعيينها كمقروء بنجاح"
 #: views.py:141
 #, python-format
 msgid "Mark the %(count)d selected messages as read."
-msgstr "تعيين %(count)dرسالة محددى كمقروء"
+msgstr "تعيين %(count)dرسالة محددة كمقروء"
 
 #: views.py:142
 #, python-format

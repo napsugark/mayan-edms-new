@@ -5,16 +5,17 @@
 # Translators:
 # Translators:
 # Giovanni Tricarico <gtricarico92@gmail.com>, 2025
-# Marco Camplese <marco.camplese.mc@gmail.com>, 2025
+# piera.daraio, 2025
 # Roberto Rosario, 2025
+# Marco Camplese <marco.camplese.mc@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Roberto Rosario, 2025\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Marco Camplese <marco.camplese.mc@gmail.com>, 2025\n"
 "Language-Team: Italian (https://app.transifex.com/rosarior/teams/13584/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -179,11 +180,11 @@ msgstr "Checksum dei file dei documento"
 
 #: search.py:48
 msgid "Document file MIME type"
-msgstr "Tipo MIME di file di documento"
+msgstr "Tipo MIME del file di documento"
 
 #: serializers.py:12
 msgid "Documents URL"
-msgstr ""
+msgstr "URL dei documenti"
 
 #: serializers.py:19
 msgid "URL"
@@ -220,7 +221,7 @@ msgstr ""
 #: views/document_views.py:40
 #, python-format
 msgid "Attach tags to document: %(object)s"
-msgstr ""
+msgstr "Assegna tag al documento: %(object)s"
 
 #: views/document_views.py:41
 #, python-format
@@ -263,7 +264,7 @@ msgstr ""
 #: views/document_views.py:145
 #, python-format
 msgid "Remove tags from document: %(object)s"
-msgstr ""
+msgstr "Rimuovi tag dal documento: %(object)s"
 
 #: views/document_views.py:146
 #, python-format
@@ -291,7 +292,7 @@ msgstr ""
 #: views/tag_views.py:51
 #, python-format
 msgid "Tag \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "Etichetta \"%(object)s\" cancellata con successo."
 
 #: views/tag_views.py:54
 #, python-format
@@ -306,7 +307,7 @@ msgstr ""
 #: views/tag_views.py:57
 #, python-format
 msgid "Delete tag: %(object)s"
-msgstr ""
+msgstr "Cancella il tag: %(object)s"
 
 #: views/tag_views.py:58
 #, python-format

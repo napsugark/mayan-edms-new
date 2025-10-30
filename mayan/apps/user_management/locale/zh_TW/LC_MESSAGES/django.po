@@ -4,20 +4,20 @@
 # 
 # Translators:
 # Translators:
-# dave cheng, 2025
 # Ford Guo <agile.guo@gmail.com>, 2025
-# Roberto Rosario, 2025
 # yan songwei <yansw@vip.163.com>, 2025
-# bo feng <87289884@qq.com>, 2025
+# dave cheng, 2025
 # Leon Chu, 2025
+# bo feng <87289884@qq.com>, 2025
+# Roberto Rosario, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-20 12:33+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
-"Last-Translator: Leon Chu, 2025\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
+"Last-Translator: Roberto Rosario, 2025\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/rosarior/teams/13584/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -276,7 +276,7 @@ msgstr ""
 #: views/group_views.py:48
 #, python-format
 msgid "Group \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "删除组\"%(object)s\" 成功"
 
 #: views/group_views.py:49
 #, python-format
@@ -345,7 +345,7 @@ msgstr ""
 #: views/user_views.py:67
 #, python-format
 msgid "User \"%(object)s\" deleted successfully."
-msgstr ""
+msgstr "用户“%(object)s”已成功删除。"
 
 #: views/user_views.py:70
 #, python-format

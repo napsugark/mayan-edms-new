@@ -4,21 +4,21 @@
 # 
 # Translators:
 # Translators:
-# 847f3f05406324d125c568a4b098bddb, 2025
+# Marvin Haschker <marvin@haschker.me>, 2025
 # Jesaja Everling <jeverling@gmail.com>, 2025
+# Berny <berny@bernhard-marx.de>, 2025
+# 847f3f05406324d125c568a4b098bddb, 2025
+# Roberto Rosario, 2025
 # Dennis M. Pöpperl <free-software@dm-poepperl.de>, 2025
 # Ingo Buchholz <ingo.buchholz@takwa.de>, 2025
-# Berny <berny@bernhard-marx.de>, 2025
-# Roberto Rosario, 2025
-# Marvin Haschker <marvin@haschker.me>, 2025
 # Mathias Behrle <mathiasb@m9s.biz>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Mayan EDMS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-28 14:15+0000\n"
-"PO-Revision-Date: 2025-01-20 12:34+0000\n"
+"POT-Creation-Date: 2025-10-30 19:39+0000\n"
+"PO-Revision-Date: 2025-10-30 19:40+0000\n"
 "Last-Translator: Mathias Behrle <mathiasb@m9s.biz>, 2025\n"
 "Language-Team: German (Germany) (https://app.transifex.com/rosarior/teams/13584/de_DE/)\n"
 "MIME-Version: 1.0\n"
@@ -266,14 +266,14 @@ msgstr ""
 "Alle verknüpften Instanzen eines Suchmodells im Suchbackend nach einem "
 "Ereignis auf einer Beziehung vom Typ M:N indizieren."
 
-#: queues.py:44
+#: queues.py:42
+msgid "Delete expired saved resultsets"
+msgstr "Abgelaufene gespeicherte Ergebnissets löschen"
+
+#: queues.py:50
 msgid "Reset the search backend indices and index all instances again."
 msgstr ""
 "Die Indices im Suchbackend zurücksetzen und alle Indices neu aufbauen."
-
-#: queues.py:51
-msgid "Delete expired saved resultsets"
-msgstr "Abgelaufene gespeicherte Ergebnissets löschen"
 
 #: scoped_queries.py:348
 #, python-format
