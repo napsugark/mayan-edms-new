@@ -1,4 +1,4 @@
-4.10 (20XX-XX-XX)
+4.10 (2025-10-30)
 =================
 - Remove KeyCloak settings and Docker Compose template.
 - Update PostgreSQL to 15.
@@ -171,6 +171,15 @@
 - Add support for deleting workflow instances via the UI and the API.
 - Support partial app template loading for the about view.
 - Modernize the fundraiser app and avoid hardcoding locations.
+- Add more translation languages and language variants:
+
+  - Bulgarian (Bulgaria)
+  - German
+  - Greek (Greece)
+  - Spanish (Spain)
+  - Japanese
+  - Russian (Russia)
+  - Ukrainian (Ukraine)
 
 4.9.6 (XXXX-XX-XX)
 ==================
