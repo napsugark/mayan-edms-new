@@ -1,9 +1,0 @@
-============================
-Deprecations in version 4.10
-============================
-
-- The Portainer installation files will be removed in the next minor release.
-  These files were initially community-submitted, but community interest in
-  ongoing maintenance has diminished.
-- The ORACLE database support is deprecated and will be removed in the
-  next minor version.
