@@ -170,6 +170,7 @@
 
 - Add support for deleting workflow instances via the UI and the API.
 - Support partial app template loading for the about view.
+- Modernize the fundraiser app and avoid hardcoding locations.
 
 4.9.6 (XXXX-XX-XX)
 ==================

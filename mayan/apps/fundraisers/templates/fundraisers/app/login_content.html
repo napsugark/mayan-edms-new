@@ -8,7 +8,7 @@
 {# appearance_app_template_nocache #}
 
 {% if autoadmin_properties.account %}
-    {% fundraiser_login_message_fetch as message %}
+    {% fundraiser_message_fetch path='/locations/login/' as message %}
 
     {% if message %}
         <div class="row">

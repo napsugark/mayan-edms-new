@@ -7,28 +7,34 @@ import nh3
 import markdown
 import requests
 
-from ..literals import URL_FUNDRAISER_API_LOGIN
+from ..literals import URL_FUNDRAISER_API
 
 register = Library()
 
 
 def markdown_render(source):
     md = markdown.Markdown(
-        extensions=('nl2br',)
+        extensions=('attr_list', 'nl2br')
     )
 
     html = md.convert(source=source)
 
-    html_clean = nh3.clean(html=html)
+    html_clean = nh3.clean(
+        attributes={
+            'a': {'href'},
+            'img': {'alt', 'class', 'src', 'style'}
+        }, html=html
+    )
 
     html_safe = mark_safe(s=html_clean)
 
     return html_safe
 
 
-@register.simple_tag(name='fundraiser_login_message_fetch')
-def tag_fundraiser_login_message_fetch():
-    url = URL(url=URL_FUNDRAISER_API_LOGIN)
+@register.simple_tag(name='fundraiser_message_fetch')
+def tag_fundraiser_message_fetch(path):
+    url = URL(url=URL_FUNDRAISER_API)
+    url.path = path
 
     try:
         response = requests.get(url=url)
