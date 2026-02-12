@@ -55,13 +55,11 @@ x-mayan-container:
   restart: unless-stopped
   volumes:
     - ${MAYAN_APP_VOLUME:-app}:/var/lib/mayan
-    - "C:/MY_FILES/Docs:/watch_folder"
-    # RAG Integration app - mount source code and settings into container
-    - "C:/MY_FILES/Learning/learning_projects/mayan-edms-new/mayan/apps/rag_integration:/opt/mayan-edms/lib/python3.11/site-packages/mayan/apps/rag_integration"
-    - "C:/MY_FILES/Learning/learning_projects/mayan-edms-new/mayan/settings/base.py:/opt/mayan-edms/lib/python3.11/site-packages/mayan/settings/base.py"
-    # Optional volumes to access external data like staging or watch folders
-    # - /opt/staging_folder:/staging_folder
-    # - /opt/watch_folder:/watch_folder
+    # RAG Integration app — mount source code and settings into container
+    - ../mayan/apps/rag_integration:/opt/mayan-edms/lib/python3.11/site-packages/mayan/apps/rag_integration
+    - ../mayan/settings/base.py:/opt/mayan-edms/lib/python3.11/site-packages/mayan/settings/base.py
+    # Optional: watch folder for document ingestion (set MAYAN_WATCH_FOLDER in .env)
+    # - ${MAYAN_WATCH_FOLDER:-./watch_folder}:/watch_folder
 
 x-mayan-frontend-ports:
   &mayan-frontend-ports
