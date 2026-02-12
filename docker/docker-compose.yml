@@ -1,9 +1,6 @@
 x-mayan-depends_on-basic:
   &mayan-depends_on-basic
   depends_on:
-    elasticsearch:
-      condition: service_healthy
-      required: false
     postgresql:
       condition: service_healthy
       required: false
@@ -17,9 +14,6 @@ x-mayan-depends_on-basic:
 x-mayan-depends_on-advanced:
   &mayan-depends_on-advanced
   depends_on:
-    elasticsearch:
-      condition: service_healthy
-      required: false
     postgresql:
       condition: service_healthy
       required: false
@@ -46,6 +40,9 @@ x-mayan-container:
     MAYAN_DATABASES: "{'default':{'ENGINE':'django.db.backends.postgresql','NAME':'${MAYAN_DATABASE_NAME:-mayan}','PASSWORD':'${MAYAN_DATABASE_PASSWORD:-mayandbpass}','USER':'${MAYAN_DATABASE_USER:-mayan}','HOST':'${MAYAN_DATABASE_HOST:-postgresql}','PORT':${MAYAN_DATABASE_PORT:-},'CONN_MAX_AGE':${MAYAN_DATABASE_CONN_MAX_AGE:-0},${MAYAN_DATABASE_EXTRA_OPTIONS:-}}}"
     MAYAN_LOCK_MANAGER_BACKEND: mayan.apps.lock_manager.backends.redis_lock.RedisLock
     MAYAN_LOCK_MANAGER_BACKEND_ARGUMENTS: "{'redis_url':'redis://:${MAYAN_REDIS_PASSWORD:-mayanredispassword}@${MAYAN_DOCKER_REDIS_HOSTNAME:-redis}:${MAYAN_DOCKER_REDIS_PORT:-6379}/${MAYAN_REDIS_LOCK_MANAGER_DATABASE:-2}'}"
+    # Elasticsearch disabled - using default Django search backend
+    # MAYAN_SEARCH_BACKEND: mayan.apps.dynamic_search.backends.elasticsearch.ElasticsearchSearchBackend
+    # MAYAN_SEARCH_BACKEND_ARGUMENTS: "{client_kwargs: {basic_auth: [elastic, '${MAYAN_ELASTICSEARCH_PASSWORD:-mayanespassword}'], hosts: ['http://elasticsearch:9200'], verify_certs: false}, indices_namespace: mayan, search_page_size: 100, point_in_time_keep_alive: 5m}"
   image: ${MAYAN_DOCKER_IMAGE_NAME:-mayanedms/mayanedms}:${MAYAN_DOCKER_IMAGE_TAG:-s4.10}
   logging:
     driver: "json-file"
@@ -58,6 +55,10 @@ x-mayan-container:
   restart: unless-stopped
   volumes:
     - ${MAYAN_APP_VOLUME:-app}:/var/lib/mayan
+    - "C:/MY_FILES/Docs:/watch_folder"
+    # RAG Integration app - mount source code and settings into container
+    - "C:/MY_FILES/Learning/learning_projects/mayan-edms-new/mayan/apps/rag_integration:/opt/mayan-edms/lib/python3.11/site-packages/mayan/apps/rag_integration"
+    - "C:/MY_FILES/Learning/learning_projects/mayan-edms-new/mayan/settings/base.py:/opt/mayan-edms/lib/python3.11/site-packages/mayan/settings/base.py"
     # Optional volumes to access external data like staging or watch folders
     # - /opt/staging_folder:/staging_folder
     # - /opt/watch_folder:/watch_folder
@@ -115,7 +116,7 @@ services:
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
       - ELASTIC_PASSWORD=${MAYAN_ELASTICSEARCH_PASSWORD:-mayanespassword}
     healthcheck:
-      test: ["CMD", "curl", "--silent", "--user", "elastic:${MAYAN_ELASTICSEARCH_PASSWORD:-mayanespassword}", "https://localhost:9200/_cluster/health?wait_for_status=green || exit 1"]
+      test: ["CMD", "curl", "--silent", "--user", "elastic:${MAYAN_ELASTICSEARCH_PASSWORD:-mayanespassword}", "http://localhost:9200/_cluster/health?wait_for_status=green || exit 1"]
       interval: 10s
       timeout: 5s
       retries: 15

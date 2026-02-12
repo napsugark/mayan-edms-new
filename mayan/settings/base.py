@@ -111,6 +111,8 @@ INSTALLED_APPS = (
     'mayan.apps.dependencies.apps.DependenciesApp',
     'mayan.apps.django_gpg.apps.DjangoGPGApp',
     'mayan.apps.documentation.apps.DocumentationApp',
+    # RAG Integration app - placed before dynamic_search for template override.
+    'mayan.apps.rag_integration.apps.RAGIntegrationApp',
     'mayan.apps.dynamic_search.apps.DynamicSearchApp',
     'mayan.apps.file_caching.apps.FileCachingAppConfig',
     'mayan.apps.forms.apps.FormsApp',
@@ -413,6 +415,18 @@ SWAGGER_SETTINGS = {
 }
 
 # ------ End -----
+
+# ------ RAG Integration ------
+
+RAG_API_BASE_URL = os.environ.get(
+    'MAYAN_RAG_API_BASE_URL', 'http://rag:8000'
+)
+
+RAG_API_TIMEOUT = int(
+    os.environ.get('MAYAN_RAG_API_TIMEOUT', '30')
+)
+
+# ------ End RAG ------
 
 BASE_INSTALLED_APPS = INSTALLED_APPS
 
