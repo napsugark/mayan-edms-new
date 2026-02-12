@@ -2,12 +2,15 @@
 
 {% load i18n %}
 
+{% load converter_tags %}
+{% load icons_tags %}
 {% load navigation_tags %}
 
 {% block title %}{% trans 'AI assisted search' %}{% endblock %}
 
 {% block content %}
 
+{# ── Search form ── #}
 <div class="well center-block">
     <div class="row">
         <div class="col-xs-12">
@@ -28,6 +31,7 @@
     </div>
 </div>
 
+{# ── Loading spinner (shown via JS) ── #}
 <div id="ai-search-loading" style="display: none;">
     <div class="text-center" style="padding: 40px;">
         <i class="fa fa-spinner fa-spin fa-3x"></i>
@@ -35,6 +39,7 @@
     </div>
 </div>
 
+{# ── AI Answer panel ── #}
 {% if ai_answer %}
     <div class="panel panel-info" id="ai-answer-panel">
         <div class="panel-heading">
@@ -48,27 +53,53 @@
     </div>
 {% endif %}
 
+{# ── Matching documents — native Mayan card layout with thumbnails ── #}
 {% if documents is not None %}
     {% if documents %}
         <div id="ai-search-results">
             <h4>{% trans 'Matching documents' %}</h4>
-            <div class="list-container">
-                {% for document in documents %}
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <a href="{% url 'documents:document_preview' document.pk %}">
-                                        <strong>{{ document }}</strong>
-                                    </a>
-                                    {% if document.description %}
-                                        <p class="text-muted">{{ document.description }}</p>
-                                    {% endif %}
+            <div class="well center-block">
+                <div class="row row-items">
+                    {% for document in documents %}
+                        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                            <div class="panel panel-primary panel-item">
+
+                                {# ── Panel heading: document label ── #}
+                                <div class="panel-heading">
+                                    <div class="form-group">
+                                        <div class="checkbox">
+                                            <label style="cursor: auto;">
+                                                <span style="color: white; word-break: break-all; overflow-wrap: break-word;">
+                                                    <a href="{{ document.get_absolute_url }}">{{ document }}</a>
+                                                </span>
+                                            </label>
+                                        </div>
+                                    </div>
                                 </div>
+
+                                {# ── Panel body: thumbnail ── #}
+                                <div class="panel-body">
+                                    <div class="text-center document-thumbnail-list">
+                                        {% include 'documents/widgets/thumbnail.html' with instance=document gallery_name='ai_search_results' %}
+                                    </div>
+                                </div>
+
+                                {# ── Panel footer: quick links ── #}
+                                <div class="panel-footer">
+                                    <div class="text-center">
+                                        <a href="{% url 'documents:document_preview' document.pk %}" class="btn btn-default btn-xs" title="{% trans 'Preview' %}">
+                                            <i class="fa fa-eye"></i>
+                                        </a>
+                                        <a href="{% url 'documents:document_properties' document.pk %}" class="btn btn-default btn-xs" title="{% trans 'Properties' %}">
+                                            <i class="fa fa-info-circle"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
-                    </div>
-                {% endfor %}
+                    {% endfor %}
+                </div>
             </div>
         </div>
     {% elif query %}
@@ -95,6 +126,11 @@
             $submitBtn.html('<i class="fa fa-spinner fa-spin"></i> {% trans "Searching..." %}');
             $loading.show();
         });
+
+        {# Match panel heights like the standard document list view #}
+        $('.row-items > [class*="col"] .panel-item .panel-heading').matchHeight();
+        $('.row-items > [class*="col"] .panel-item .panel-body').matchHeight();
+        $('.row-items > [class*="col"] .panel-item').matchHeight();
     });
 </script>
 
